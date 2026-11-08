@@ -90,6 +90,276 @@
       "attribution": "Jane Goodall Institute",
       "source": "https://janegoodall.org/",
       "takeaway": "Observe your habits before trying to change them."
+    },
+    {
+      "id": "reflection-001",
+      "category": "Philosophy",
+      "title": "Control the controllable",
+      "body": "Stoic philosophy distinguishes what depends on our choices from what lies outside them.",
+      "attribution": "MyDayCoach original reflection — not a historical quotation",
+      "source": "https://plato.stanford.edu/entries/stoicism/",
+      "takeaway": "Write two columns: what you can influence and what you cannot. Act on the first."
+    },
+    {
+      "id": "reflection-002",
+      "category": "Philosophy",
+      "title": "Respond, don't react",
+      "body": "A pause between an event and your response can create room for considered judgment.",
+      "attribution": "MyDayCoach original reflection — not a historical quotation",
+      "source": "https://plato.stanford.edu/entries/stoicism/",
+      "takeaway": "When interrupted, count to five before choosing your response."
+    },
+    {
+      "id": "reflection-003",
+      "category": "Philosophy",
+      "title": "Examine your assumptions",
+      "body": "A difficult feeling may be intensified by an interpretation rather than the event alone.",
+      "attribution": "MyDayCoach original reflection — not a historical quotation",
+      "source": "https://plato.stanford.edu/entries/stoicism/",
+      "takeaway": "Write one alternative explanation for today's frustration."
+    },
+    {
+      "id": "reflection-004",
+      "category": "Philosophy",
+      "title": "Practice without applause",
+      "body": "An action can express your values even when no one notices it.",
+      "attribution": "MyDayCoach original reflection — not a historical quotation",
+      "source": "https://plato.stanford.edu/entries/ethics-virtue/",
+      "takeaway": "Complete one useful task without seeking recognition."
+    },
+    {
+      "id": "reflection-005",
+      "category": "Philosophy",
+      "title": "Character through repetition",
+      "body": "Virtue ethics places importance on the habits and dispositions developed through action.",
+      "attribution": "MyDayCoach original reflection — not a historical quotation",
+      "source": "https://plato.stanford.edu/entries/ethics-virtue/",
+      "takeaway": "Repeat one small act that reflects the person you want to become."
+    },
+    {
+      "id": "reflection-006",
+      "category": "Philosophy",
+      "title": "Choose the middle path",
+      "body": "Practical wisdom often requires finding a proportionate response rather than an extreme.",
+      "attribution": "MyDayCoach original reflection — not a historical quotation",
+      "source": "https://plato.stanford.edu/entries/aristotle-ethics/",
+      "takeaway": "Before acting, ask what would be too little and what would be too much."
+    },
+    {
+      "id": "reflection-007",
+      "category": "Philosophy",
+      "title": "Notice the present",
+      "body": "Mindfulness involves attending to experience rather than automatically following every thought.",
+      "attribution": "MyDayCoach original reflection — not a historical quotation",
+      "source": "https://plato.stanford.edu/entries/buddha/",
+      "takeaway": "Spend two minutes observing your breath and surroundings."
+    },
+    {
+      "id": "reflection-008",
+      "category": "Philosophy",
+      "title": "Allow change",
+      "body": "Buddhist traditions emphasize impermanence as a feature of lived experience.",
+      "attribution": "MyDayCoach original reflection — not a historical quotation",
+      "source": "https://plato.stanford.edu/entries/buddha/",
+      "takeaway": "Name one changing situation and adapt your plan accordingly."
+    },
+    {
+      "id": "reflection-009",
+      "category": "Philosophy",
+      "title": "Respond with compassion",
+      "body": "Compassion can guide action without requiring that you agree with every behavior.",
+      "attribution": "MyDayCoach original reflection — not a historical quotation",
+      "source": "https://plato.stanford.edu/entries/buddha/",
+      "takeaway": "Offer a thoughtful response to someone having a difficult day."
+    },
+    {
+      "id": "reflection-010",
+      "category": "Philosophy",
+      "title": "Let go of certainty",
+      "body": "Intellectual humility means leaving room for the possibility that your current belief is incomplete.",
+      "attribution": "MyDayCoach original reflection — not a historical quotation",
+      "source": "https://plato.stanford.edu/entries/epistemology/",
+      "takeaway": "Ask one sincere question before defending your opinion."
+    },
+    {
+      "id": "reflection-011",
+      "category": "Philosophy",
+      "title": "Think in experiments",
+      "body": "Pragmatism attends to the practical consequences of ideas and beliefs.",
+      "attribution": "MyDayCoach original reflection — not a historical quotation",
+      "source": "https://plato.stanford.edu/entries/pragmatism/",
+      "takeaway": "Try one low-risk experiment before making a big commitment."
+    },
+    {
+      "id": "reflection-012",
+      "category": "Philosophy",
+      "title": "Revise the method",
+      "body": "A strategy is a tool, not an identity. A failed method need not invalidate your goal.",
+      "attribution": "MyDayCoach original reflection — not a historical quotation",
+      "source": "https://plato.stanford.edu/entries/pragmatism/",
+      "takeaway": "Change one part of a routine that isn't working."
+    },
+    {
+      "id": "reflection-013",
+      "category": "Philosophy",
+      "title": "Define a meaningful choice",
+      "body": "Existentialist thought examines freedom, responsibility, and how people live their commitments.",
+      "attribution": "MyDayCoach original reflection — not a historical quotation",
+      "source": "https://plato.stanford.edu/entries/existentialism/",
+      "takeaway": "Choose one action that reflects a value you claim to hold."
+    },
+    {
+      "id": "reflection-014",
+      "category": "Philosophy",
+      "title": "Own your decision",
+      "body": "Responsibility becomes clearer when you acknowledge the choices available to you.",
+      "attribution": "MyDayCoach original reflection — not a historical quotation",
+      "source": "https://plato.stanford.edu/entries/existentialism/",
+      "takeaway": "Write down a decision you can make today and its likely tradeoffs."
+    },
+    {
+      "id": "reflection-015",
+      "category": "Philosophy",
+      "title": "Respect other perspectives",
+      "body": "Moral reasoning improves when you take another person's interests seriously.",
+      "attribution": "MyDayCoach original reflection — not a historical quotation",
+      "source": "https://plato.stanford.edu/entries/ethics/",
+      "takeaway": "Explain a disagreement in terms the other person would recognize."
+    },
+    {
+      "id": "reflection-016",
+      "category": "Philosophy",
+      "title": "Think beyond yourself",
+      "body": "Ethics asks us to consider how our choices affect other people.",
+      "attribution": "MyDayCoach original reflection — not a historical quotation",
+      "source": "https://plato.stanford.edu/entries/ethics/",
+      "takeaway": "Before acting, identify who else may bear the consequences."
+    },
+    {
+      "id": "reflection-017",
+      "category": "Philosophy",
+      "title": "Make space for rest",
+      "body": "A sustainable life needs more than an endless sequence of tasks.",
+      "attribution": "MyDayCoach original reflection — not a historical quotation",
+      "source": "https://plato.stanford.edu/entries/well-being/",
+      "takeaway": "Schedule a short period of genuine rest today."
+    },
+    {
+      "id": "reflection-018",
+      "category": "Philosophy",
+      "title": "Define enough",
+      "body": "Well-being is not always the same as maximizing output or possessions.",
+      "attribution": "MyDayCoach original reflection — not a historical quotation",
+      "source": "https://plato.stanford.edu/entries/well-being/",
+      "takeaway": "Write what would count as a good-enough day."
+    },
+    {
+      "id": "reflection-019",
+      "category": "Philosophy",
+      "title": "Distinguish facts from stories",
+      "body": "Knowing what happened differs from interpreting why it happened.",
+      "attribution": "MyDayCoach original reflection — not a historical quotation",
+      "source": "https://plato.stanford.edu/entries/epistemology/",
+      "takeaway": "Separate three observations from your assumptions about them."
+    },
+    {
+      "id": "reflection-020",
+      "category": "Philosophy",
+      "title": "Seek disconfirming evidence",
+      "body": "Strong beliefs become more reliable when they can survive thoughtful challenge.",
+      "attribution": "MyDayCoach original reflection — not a historical quotation",
+      "source": "https://plato.stanford.edu/entries/epistemology/",
+      "takeaway": "Look for one credible reason your first conclusion might be wrong."
+    },
+    {
+      "id": "reflection-021",
+      "category": "Philosophy",
+      "title": "Balance courage and caution",
+      "body": "Courage is not the absence of risk awareness; practical judgment matters.",
+      "attribution": "MyDayCoach original reflection — not a historical quotation",
+      "source": "https://plato.stanford.edu/entries/ethics-virtue/",
+      "takeaway": "Choose a small brave step with a sensible safety margin."
+    },
+    {
+      "id": "reflection-022",
+      "category": "Philosophy",
+      "title": "Practice fairness",
+      "body": "Fairness asks us to evaluate comparable cases by comparable standards.",
+      "attribution": "MyDayCoach original reflection — not a historical quotation",
+      "source": "https://plato.stanford.edu/entries/justice/",
+      "takeaway": "Check whether you'd judge the same action differently if someone else did it."
+    },
+    {
+      "id": "reflection-023",
+      "category": "Philosophy",
+      "title": "Listen before advising",
+      "body": "Understanding another person's experience can be more useful than an immediate solution.",
+      "attribution": "MyDayCoach original reflection — not a historical quotation",
+      "source": "https://plato.stanford.edu/entries/ethics/",
+      "takeaway": "Ask what kind of help the other person wants."
+    },
+    {
+      "id": "reflection-024",
+      "category": "Philosophy",
+      "title": "Question inherited habits",
+      "body": "Some routines survive because they are familiar, not because they still serve you.",
+      "attribution": "MyDayCoach original reflection — not a historical quotation",
+      "source": "https://plato.stanford.edu/entries/pragmatism/",
+      "takeaway": "Identify one default behavior and decide whether to keep it."
+    },
+    {
+      "id": "reflection-025",
+      "category": "Philosophy",
+      "title": "Be patient with complexity",
+      "body": "Difficult questions may require several perspectives and more than one attempt.",
+      "attribution": "MyDayCoach original reflection — not a historical quotation",
+      "source": "https://plato.stanford.edu/entries/epistemology/",
+      "takeaway": "Break a complicated problem into what you know and what you need to learn."
+    },
+    {
+      "id": "reflection-026",
+      "category": "Philosophy",
+      "title": "Choose deliberate attention",
+      "body": "Attention is limited; where you direct it influences what you learn and do.",
+      "attribution": "MyDayCoach original reflection — not a historical quotation",
+      "source": "https://plato.stanford.edu/entries/well-being/",
+      "takeaway": "Protect one 20-minute period from interruptions."
+    },
+    {
+      "id": "reflection-027",
+      "category": "Philosophy",
+      "title": "Keep promises realistic",
+      "body": "Integrity includes making commitments you can reasonably honor.",
+      "attribution": "MyDayCoach original reflection — not a historical quotation",
+      "source": "https://plato.stanford.edu/entries/ethics-virtue/",
+      "takeaway": "Renegotiate one unrealistic commitment rather than silently dropping it."
+    },
+    {
+      "id": "reflection-028",
+      "category": "Philosophy",
+      "title": "Make room for uncertainty",
+      "body": "Not knowing is a reason to investigate, not always a reason to freeze.",
+      "attribution": "MyDayCoach original reflection — not a historical quotation",
+      "source": "https://plato.stanford.edu/entries/epistemology/",
+      "takeaway": "List the next piece of information that would help you decide."
+    },
+    {
+      "id": "reflection-029",
+      "category": "Philosophy",
+      "title": "Support someone else's growth",
+      "body": "A meaningful contribution can be helping another person succeed.",
+      "attribution": "MyDayCoach original reflection — not a historical quotation",
+      "source": "https://plato.stanford.edu/entries/ethics/",
+      "takeaway": "Offer specific encouragement or useful feedback to a colleague."
+    },
+    {
+      "id": "reflection-030",
+      "category": "Philosophy",
+      "title": "End the day with reflection",
+      "body": "Reflection can convert experience into a better decision tomorrow.",
+      "attribution": "MyDayCoach original reflection — not a historical quotation",
+      "source": "https://plato.stanford.edu/entries/aristotle-ethics/",
+      "takeaway": "Write one lesson and one adjustment before bed."
     }
   ]
 }
