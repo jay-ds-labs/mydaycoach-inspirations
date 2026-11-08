@@ -14,7 +14,7 @@ async function latestStatus(env){
  if(!response.ok)throw Error("GitHub status HTTP "+response.status);
  let data=await response.json();
  if(data && data.encoding==="base64" && typeof data.content==="string"){
-  data=JSON.parse(atob(data.content.replace(/\\s/g,"")));
+  data=JSON.parse(atob(data.content.replace(/\s/g,"")));
  }
  if(!data || typeof data.state!=="string" || !Number.isInteger(data.completed))throw Error("Invalid generation status");
  return data;
