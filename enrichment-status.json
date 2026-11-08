@@ -1,0 +1,16 @@
+{
+  "state": "idle",
+  "stage": "idle",
+  "completed": 0,
+  "total": 70,
+  "batchTotal": 0,
+  "batchCompleted": 0,
+  "generated": 0,
+  "reviewed": 0,
+  "approved": 0,
+  "needsReview": 0,
+  "startedAt": null,
+  "completedAt": null,
+  "currentId": null,
+  "error": null
+}
