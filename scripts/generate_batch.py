@@ -5,6 +5,7 @@ Run from the content repository root. Does not silently publish unverified claim
 """
 import datetime as dt
 import json
+import subprocess
 import os
 import pathlib
 import re
@@ -22,6 +23,11 @@ def save(path, data):
     tmp = path.with_suffix(".tmp")
     tmp.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     tmp.replace(path)
+
+def publish_progress():
+    subprocess.run(["git","add","library.json","refresh-status.json"],check=True)
+    subprocess.run(["git","commit","-m","Update inspiration generation progress"],check=True)
+    subprocess.run(["git","push","origin","HEAD:main"],check=True)
 
 def now():
     return dt.datetime.now(dt.timezone.utc).isoformat().replace("+00:00", "Z")
@@ -73,6 +79,7 @@ def main():
               "quotes": 0, "stories": 0, "philosophy": 0,
               "startedAt": now(), "completedAt": None, "error": None}
     save(PROGRESS, status)
+    publish_progress()
     existing = [item["title"] for item in library["items"]]
     try:
         for category in CATEGORIES:
@@ -92,6 +99,7 @@ def main():
                 status["completed"] += 1
                 status[category.lower()] += 1
                 save(PROGRESS, status)
+                publish_progress()
         status["state"] = "awaiting_review"
         status["completedAt"] = now()
     except Exception as error:
@@ -101,6 +109,7 @@ def main():
         raise
     finally:
         save(PROGRESS, status)
+        publish_progress()
 
 if __name__ == "__main__":
     main()
