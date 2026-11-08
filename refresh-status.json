@@ -1,11 +1,11 @@
 {
-  "state": "awaiting_review",
-  "completed": 15,
+  "state": "running",
+  "completed": 0,
   "total": 15,
-  "quotes": 5,
-  "stories": 5,
-  "philosophy": 5,
-  "startedAt": "2026-11-08T20:03:22.150070Z",
-  "completedAt": "2026-11-08T20:05:48.261199Z",
+  "quotes": 0,
+  "stories": 0,
+  "philosophy": 0,
+  "startedAt": "2026-11-08T21:10:25.019613Z",
+  "completedAt": null,
   "error": null
 }
