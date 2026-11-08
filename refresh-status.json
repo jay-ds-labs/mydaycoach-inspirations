@@ -1,0 +1,11 @@
+{
+  "state": "idle",
+  "completed": 0,
+  "total": 15,
+  "quotes": 0,
+  "stories": 0,
+  "philosophy": 0,
+  "startedAt": null,
+  "completedAt": null,
+  "error": null
+}
