@@ -1,0 +1,28 @@
+name: Expand existing inspiration drafts
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: inspiration-generation
+  cancel-in-progress: false
+
+jobs:
+  expand:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - uses: actions/checkout@v4
+      - name: Configure commit identity
+        run: |
+          git config user.name "MyDayCoach Content Bot"
+          git config user.email "content-bot@users.noreply.github.com"
+      - name: Expand existing drafts and persist progress
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_CONTENT_MODEL: gpt-4.1
+        run: |
+          test -n "$OPENAI_API_KEY" || { echo "Missing OPENAI_API_KEY secret"; exit 1; }
+          python3 scripts/upgrade_existing.py
