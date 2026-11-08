@@ -1,11 +1,11 @@
 {
-  "state": "running",
+  "state": "failed",
   "completed": 0,
   "total": 15,
   "quotes": 0,
   "stories": 0,
   "philosophy": 0,
   "startedAt": "2026-11-08T19:13:21.043528Z",
-  "completedAt": null,
-  "error": null
+  "completedAt": "2026-11-08T19:13:44.814092Z",
+  "error": "Article too short"
 }
