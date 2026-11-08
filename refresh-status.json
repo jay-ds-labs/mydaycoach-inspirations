@@ -1,9 +1,9 @@
 {
   "state": "running",
-  "completed": 6,
+  "completed": 7,
   "total": 15,
   "quotes": 5,
-  "stories": 1,
+  "stories": 2,
   "philosophy": 0,
   "startedAt": "2026-11-08T20:03:22.150070Z",
   "completedAt": null,
