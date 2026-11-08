@@ -24,7 +24,9 @@ The Android Refresh button POSTs to a **deployed Cloudflare Worker**, which auth
 ## API
 
 `GET /health` returns `{"ok":true}`.
-`GET /status` requires `Authorization: Bearer <APP_REFRESH_TOKEN>` and returns the latest GitHub Actions progress without relying on the GitHub raw-file CDN. It is polled by Android at 5-second intervals during active generation.\n`GET /feed` uses the same authorization and fetches the latest committed library through the GitHub Contents API; the Android app uses it for a post-generation download.
+`GET /status` requires `Authorization: Bearer <APP_REFRESH_TOKEN>` and returns the latest GitHub Actions progress without relying on the GitHub raw-file CDN. It is polled by Android at 5-second intervals during active generation.
+
+`GET /feed` uses the same authorization and fetches the latest committed library through the GitHub Contents API; the Android app uses it for a post-generation download.
 `POST /start` requires `Authorization: Bearer <APP_REFRESH_TOKEN>` and returns `202 {"state":"queued","total":15}` when dispatched, `200 {"state":"running"}` if already running, or an error status.
 
 ## Upgrading the original 40 drafts
