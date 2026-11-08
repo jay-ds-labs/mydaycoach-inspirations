@@ -24,8 +24,25 @@ The Android Refresh button POSTs to a **deployed Cloudflare Worker**, which auth
 ## API
 
 `GET /health` returns `{"ok":true}`.
+`GET /status` requires `Authorization: Bearer <APP_REFRESH_TOKEN>` and returns the latest GitHub Actions progress without relying on the GitHub raw-file CDN. It is polled by Android at 5-second intervals during active generation.
 `POST /start` requires `Authorization: Bearer <APP_REFRESH_TOKEN>` and returns `202 {"state":"queued","total":15}` when dispatched, `200 {"state":"running"}` if already running, or an error status.
 
 ## Upgrading the original 40 drafts
 
 Run **Expand existing inspiration drafts** from GitHub Actions after adding the OpenAI secret. This expands the articles but retains draft status until source and image verification. It is separate from new-batch Refresh.
+
+## Publishing generated drafts (editorial verification)
+
+The generator deliberately saves articles with `status: "draft"`. **This is not an automatically completed review step:** the current project has no fact-checker or image-licensing verifier, and GitHub Actions success means generation succeeded, not that the articles are verified.
+
+For each candidate in `library.json`:
+
+1. Read the entire `detail` and verify each material historical/factual assertion against primary or reputable independent sources. Check that the provided `source` link loads and supports the claims. A valid HTTPS URL alone is not verification.
+2. Check any quotation word-for-word against a primary source, identify the original speaker and context, and remove fabricated or misleading attribution. Verify the story or philosophy subject really matches its category.
+3. Check word count, originality, grammar, coherence, appropriate takeaway, and duplication with existing inspirations.
+4. Only add an `image` if its URL, usage license, attribution requirements and display permissions have been verified. A blank image is allowed, and is preferable to using an unlicensed image.
+5. After all checks pass, change that entry to `"status": "published"` and set `"publishedAt": "<current UTC ISO timestamp>"`. Commit `library.json` to `main` in the content repository. Android downloads it on the next library refresh, and the publication-aware reader and scheduler then become eligible to show it.
+
+Never publish all 15 drafts automatically solely because the generator finished. An editorial review tool can later streamline these checks and approvals, but it is not implemented yet.
+
+When updating the Cloudflare Worker from this repository, replace the complete editor contents with the current `backend/worker.js` and redeploy. Existing Cloudflare secrets remain configured. Test `/health`; authenticated `/status` is accessed from the app, not from a bare browser URL.
