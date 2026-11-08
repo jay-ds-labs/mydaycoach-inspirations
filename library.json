@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "id": "apollo-11",
+      "category": "Stories",
+      "title": "One small step, years of work",
+      "body": "Apollo 11 landed on the Moon on July 20, 1969. Neil Armstrong and Buzz Aldrin walked on its surface while Michael Collins remained in lunar orbit.",
+      "attribution": "NASA Apollo 11",
+      "source": "https://www.nasa.gov/mission/apollo-11/",
+      "takeaway": "Break a difficult goal into carefully prepared steps."
+    },
+    {
+      "id": "curie-nobel",
+      "category": "Stories",
+      "title": "Persistence in research",
+      "body": "Marie Curie received the 1903 Nobel Prize in Physics jointly with Pierre Curie and Henri Becquerel, and the 1911 Nobel Prize in Chemistry.",
+      "attribution": "Nobel Prize historical record",
+      "source": "https://www.nobelprize.org/prizes/chemistry/1911/marie-curie/facts/",
+      "takeaway": "Make steady progress even when recognition takes time."
+    },
+    {
+      "id": "mandela-release",
+      "category": "Stories",
+      "title": "A long road to change",
+      "body": "Nelson Mandela was released from prison on February 11, 1990, after more than 27 years in captivity.",
+      "attribution": "Nelson Mandela Foundation",
+      "source": "https://www.nelsonmandela.org/",
+      "takeaway": "Choose a long-term value and take one step toward it today."
+    },
+    {
+      "id": "everest-summit",
+      "category": "Stories",
+      "title": "Teamwork at the summit",
+      "body": "Edmund Hillary and Tenzing Norgay reached the summit of Mount Everest on May 29, 1953, as part of a larger expedition.",
+      "attribution": "Royal Geographical Society",
+      "source": "https://www.rgs.org/",
+      "takeaway": "Recognize the people and preparation behind your goals."
+    },
+    {
+      "id": "wright-flight",
+      "category": "Stories",
+      "title": "Experiment and iteration",
+      "body": "The Wright brothers achieved the first sustained powered flight of a heavier-than-air aircraft at Kitty Hawk on December 17, 1903.",
+      "attribution": "Smithsonian National Air and Space Museum",
+      "source": "https://airandspace.si.edu/",
+      "takeaway": "Treat a setback as feedback for the next attempt."
+    },
+    {
+      "id": "parks-bus",
+      "category": "Stories",
+      "title": "The power of principled action",
+      "body": "Rosa Parks was arrested in Montgomery, Alabama, on December 1, 1955, after refusing to surrender her bus seat to a white passenger.",
+      "attribution": "National Park Service",
+      "source": "https://www.nps.gov/people/rosa-parks.htm",
+      "takeaway": "Choose a principle that deserves consistent action."
+    },
+    {
+      "id": "turing-computing",
+      "category": "Stories",
+      "title": "Work that outlasts its moment",
+      "body": "Alan Turing helped develop foundational ideas in computing and contributed to British codebreaking during World War II.",
+      "attribution": "The Alan Turing Institute",
+      "source": "https://www.turing.ac.uk/",
+      "takeaway": "Invest time in learning something whose value compounds."
+    },
+    {
+      "id": "james-webb",
+      "category": "Stories",
+      "title": "Patience in complex projects",
+      "body": "The James Webb Space Telescope launched on December 25, 2021, following decades of development and testing.",
+      "attribution": "NASA Webb mission",
+      "source": "https://science.nasa.gov/mission/webb/",
+      "takeaway": "Progress can be slow and still be meaningful."
+    },
+    {
+      "id": "gandhi-salt",
+      "category": "Stories",
+      "title": "One step starts a movement",
+      "body": "The Salt March began in March 1930, when Mohandas Gandhi led a nonviolent protest against the British salt tax.",
+      "attribution": "Encyclopaedia Britannica",
+      "source": "https://www.britannica.com/event/Salt-March",
+      "takeaway": "Take one visible action toward a larger goal."
+    },
+    {
+      "id": "goodall-gombe",
+      "category": "Stories",
+      "title": "Careful observation",
+      "body": "Jane Goodall began her long-term chimpanzee research at Gombe in 1960, transforming understanding of primate behavior.",
+      "attribution": "Jane Goodall Institute",
+      "source": "https://janegoodall.org/",
+      "takeaway": "Observe your habits before trying to change them."
+    }
+  ]
+}
