@@ -32,7 +32,7 @@ def publish_progress():
 def now():
     return dt.datetime.now(dt.timezone.utc).isoformat().replace("+00:00", "Z")
 
-def generate(category, existing):
+def generate(category, existing, feedback=None):
     api_key = os.environ["OPENAI_API_KEY"]
     prompt = (
         f"Create ONE original, historically accurate, distinct {category} inspiration. "
@@ -44,7 +44,10 @@ def generate(category, existing):
         "For Quotes, include an accurately attributed quotation and its original context. "
         "For Stories, narrate a documented real event. For Philosophy, explain an actual school or thinker. "
         "Do not fabricate citations, quotations, URLs or image licensing; if unsure, return empty source. "
-        "Do not output markdown. Category must be " + category + "."
+        "Do not output markdown. Category must be " + category + ". "
+        "The detail field MUST contain at least 750 whitespace-separated words. "
+        "Write complete paragraphs, not an outline. " +
+        (("Previous attempt was rejected: " + feedback + ". Correct this issue.") if feedback else "")
     )
     payload = {"model": os.environ.get("OPENAI_CONTENT_MODEL", "gpt-4.1"),
                "input": [{"role": "user", "content": prompt}],
@@ -84,15 +87,18 @@ def main():
     try:
         for category in CATEGORIES:
             for index in range(5):
-                for attempt in range(3):
+                feedback = None
+                for attempt in range(6):
                     try:
-                        entry = generate(category, existing)
+                        entry = generate(category, existing, feedback)
                         if entry["title"].casefold() in {x.casefold() for x in existing}:
                             raise ValueError("Duplicate title")
                         break
-                    except Exception:
-                        if attempt == 2: raise
-                        time.sleep(2 ** attempt)
+                    except Exception as error:
+                        feedback = str(error)[:180]
+                        print(f"{category} article {index + 1}/5 attempt {attempt + 1}/6 rejected: {feedback}", flush=True)
+                        if attempt == 5: raise
+                        time.sleep(min(2 ** attempt, 12))
                 library["items"].append(entry)
                 existing.append(entry["title"])
                 save(FEED, library)
