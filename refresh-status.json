@@ -1,11 +1,11 @@
 {
-  "state": "idle",
+  "state": "running",
   "completed": 0,
   "total": 15,
   "quotes": 0,
   "stories": 0,
   "philosophy": 0,
-  "startedAt": null,
+  "startedAt": "2026-11-08T19:13:21.043528Z",
   "completedAt": null,
   "error": null
 }
