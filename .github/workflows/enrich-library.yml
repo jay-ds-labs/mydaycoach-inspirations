@@ -1,0 +1,37 @@
+name: Enrich and review existing inspirations
+on:
+  workflow_dispatch:
+    inputs:
+      batch_size:
+        description: "Number of existing inspirations to enrich in this run (1-20)"
+        required: true
+        default: "10"
+        type: choice
+        options: ["5","10","15","20"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: inspiration-generation
+  cancel-in-progress: false
+
+jobs:
+  enrich:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - uses: actions/checkout@v4
+      - name: Configure commit identity
+        run: |
+          git config user.name "MyDayCoach Content Bot"
+          git config user.email "content-bot@users.noreply.github.com"
+      - name: Enrich existing entries and run independent editorial review
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_CONTENT_MODEL: gpt-4.1
+          OPENAI_REVIEW_MODEL: gpt-4.1
+          ENRICH_BATCH_SIZE: ${{ inputs.batch_size }}
+        run: |
+          test -n "$OPENAI_API_KEY" || { echo "Missing OPENAI_API_KEY"; exit 1; }
+          python3 scripts/enrich_library.py
