@@ -1,10 +1,10 @@
 {
   "state": "running",
-  "completed": 14,
+  "completed": 15,
   "total": 15,
   "quotes": 5,
   "stories": 5,
-  "philosophy": 4,
+  "philosophy": 5,
   "startedAt": "2026-11-08T21:10:25.019613Z",
   "completedAt": null,
   "error": null
