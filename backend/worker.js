@@ -7,8 +7,8 @@
 const REPO="jay-ds-labs/mydaycoach-inspirations";
 const WORKFLOW="generate-inspirations.yml";
 function json(data,status=200){return new Response(JSON.stringify(data),{status,headers:{"content-type":"application/json","cache-control":"no-store"}})}
-async function latestStatus(env){
- const response=await fetch("https://api.github.com/repos/"+REPO+"/contents/refresh-status.json?ref=main",{
+async function githubFile(env,file){
+ const response=await fetch("https://api.github.com/repos/"+REPO+"/contents/"+file+"?ref=main",{
   headers:{"Authorization":"Bearer "+env.GITHUB_DISPATCH_TOKEN,"Accept":"application/vnd.github.raw+json","X-GitHub-Api-Version":"2022-11-28","User-Agent":"MyDayCoach-Content-Backend","Cache-Control":"no-cache"}
  });
  if(!response.ok)throw Error("GitHub status HTTP "+response.status);
@@ -16,6 +16,10 @@ async function latestStatus(env){
  if(data && data.encoding==="base64" && typeof data.content==="string"){
   data=JSON.parse(atob(data.content.replace(/\s/g,"")));
  }
+ return data;
+}
+async function latestStatus(env){
+ const data=await githubFile(env,"refresh-status.json");
  if(!data || typeof data.state!=="string" || !Number.isInteger(data.completed))throw Error("Invalid generation status");
  return data;
 }
@@ -24,13 +28,20 @@ export default {
  async fetch(request,env){
   const url=new URL(request.url);
   if(url.pathname==="/health" && request.method==="GET")return json({ok:true,service:"mydaycoach-inspire"});
-  if(!((url.pathname==="/start" && request.method==="POST") || (url.pathname==="/status" && request.method==="GET")))return json({error:"Not found"},404);
+  if(!((url.pathname==="/start" && request.method==="POST") || ((url.pathname==="/status" || url.pathname==="/feed") && request.method==="GET")))return json({error:"Not found"},404);
   const auth=request.headers.get("authorization")||"";
   if(!safeEqual(auth,"Bearer "+env.APP_REFRESH_TOKEN))return json({error:"Unauthorized"},401);
   if(!env.GITHUB_DISPATCH_TOKEN)return json({error:"Server is not configured"},503);
   if(url.pathname==="/status"){
    try{return json(await latestStatus(env));}
    catch(error){return json({error:"Unable to read live generation status"},502);}
+  }
+  if(url.pathname==="/feed"){
+   try{
+    const feed=await githubFile(env,"library.json");
+    if(feed.schemaVersion!==1 || !Array.isArray(feed.items))throw Error("Invalid feed");
+    return json(feed);
+   }catch(_){return json({error:"Unable to read inspiration feed"},502);}
   }
   // Do not dispatch another job while an active batch is still running.
   try{
