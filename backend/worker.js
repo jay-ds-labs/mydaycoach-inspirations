@@ -29,6 +29,7 @@ export default {
   const url=new URL(request.url);
   if(url.pathname==="/health" && request.method==="GET")return json({ok:true,service:"mydaycoach-inspire"});
   if(!((url.pathname==="/start" && request.method==="POST") || ((url.pathname==="/status" || url.pathname==="/feed") && request.method==="GET")))return json({error:"Not found"},404);
+  if(!env.APP_REFRESH_TOKEN)return json({error:"Server authentication is not configured"},503);
   const auth=request.headers.get("authorization")||"";
   if(!safeEqual(auth,"Bearer "+env.APP_REFRESH_TOKEN))return json({error:"Unauthorized"},401);
   if(!env.GITHUB_DISPATCH_TOKEN)return json({error:"Server is not configured"},503);
