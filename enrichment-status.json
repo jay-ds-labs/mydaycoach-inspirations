@@ -1,6 +1,6 @@
 {
   "state": "running",
-  "stage": "generation",
+  "stage": "research",
   "completed": 4,
   "total": 70,
   "batchTotal": 1,
@@ -11,6 +11,6 @@
   "needsReview": 0,
   "startedAt": "2026-11-09T07:52:55.285783Z",
   "completedAt": null,
-  "currentId": null,
+  "currentId": "everest-summit",
   "error": null
 }
