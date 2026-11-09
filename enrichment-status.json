@@ -1,6 +1,6 @@
 {
   "state": "running",
-  "stage": "review",
+  "stage": "research",
   "completed": 3,
   "total": 70,
   "batchTotal": 4,
@@ -11,6 +11,6 @@
   "needsReview": 1,
   "startedAt": "2026-11-09T01:29:37.778056Z",
   "completedAt": null,
-  "currentId": "mandela-release",
+  "currentId": "everest-summit",
   "error": null
 }
