@@ -7209,6 +7209,164 @@
       "errors": [],
       "selected": null,
       "state": "awaiting_visual_and_license_review"
+    },
+    "generated-ddcc00841a124bb7aa26": {
+      "checkedAt": "2026-11-09T22:58:02.729603Z",
+      "queries": [
+        "The Garden of Epicurus: Pleasure, Prudence, and Lasting Happiness"
+      ],
+      "candidates": [
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Fragrance among old volumes; essays and idylls of a book lover (IA fragranceamongol00ande).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Fragrance_among_old_volumes%3B_essays_and_idylls_of_a_book_lover_%28IA_fragranceamongol00ande%29.pdf/page1-960px-Fragrance_among_old_volumes%3B_essays_and_idylls_of_a_book_lover_%28IA_fragranceamongol00ande%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Fragrance_among_old_volumes;_essays_and_idylls_of_a_book_lover_(IA_fragranceamongol00ande).pdf",
+          "creator": "Anderton, Basil, b. 1864",
+          "attribution": "Anderton, Basil, b. 1864",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Magliabecchi: the great Florentine bookman.--The bequest: a ms. 'book of wisdom'.--Fragrance among old books.--Concordio: the story of a poor music master.--Mors janua vitae: a reading of a picture.--Concerning the book-plates of Thomas Bewick.--In the Isle of Ulysses: a fantasy.--Two minor books of emblems.--Sixteenth-century dialogues: a book for travellers.--The old bookman's retreat.--Note to Concordio\n \n Subjects: Bewick, Thomas, 1753-1828; Bibliography; Bookplates",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
+          "visualCheck": {
+            "state": "not_checked",
+            "reason": "No API key or license metadata not approved"
+          }
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:History of the Christian church (IA cu31924029245037).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/History_of_the_Christian_church_%28IA_cu31924029245037%29.pdf/page1-500px-History_of_the_Christian_church_%28IA_cu31924029245037%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:History_of_the_Christian_church_(IA_cu31924029245037).pdf",
+          "creator": "Fisher, George Park, 1827-1909",
+          "attribution": "Fisher, George Park, 1827-1909",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "The metadata below describe the original scanning. Follow the \"All Files: HTTP\" link in the \"View the book\" box to the left to find XML files that contain more metadata about the original images and the derived formats (OCR results, PDF etc.). See also the  What is the directory structure for the texts?  FAQ for information about file content and naming conventions.\n \n Subjects: Church history",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
+          "visualCheck": {
+            "state": "not_checked",
+            "reason": "No API key or license metadata not approved"
+          }
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:History of the Christian church (IA cu31924029245045).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/History_of_the_Christian_church_%28IA_cu31924029245045%29.pdf/page1-500px-History_of_the_Christian_church_%28IA_cu31924029245045%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:History_of_the_Christian_church_(IA_cu31924029245045).pdf",
+          "creator": "Fisher, George Park, 1827-1909",
+          "attribution": "Fisher, George Park, 1827-1909",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "The metadata below describe the original scanning. Follow the \"All Files: HTTP\" link in the \"View the book\" box to the left to find XML files that contain more metadata about the original images and the derived formats (OCR results, PDF etc.). See also the  What is the directory structure for the texts?  FAQ for information about file content and naming conventions.\n \n Subjects: Church history",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
+          "visualCheck": {
+            "state": "not_checked",
+            "reason": "No API key or license metadata not approved"
+          }
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Memoirs of the life, writings, and character, literary, professional, and religious, of the late John Mason Good, M. D. .. (IA memoirsoflifewri00gregiala).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Memoirs_of_the_life%2C_writings%2C_and_character%2C_literary%2C_professional%2C_and_religious%2C_of_the_late_John_Mason_Good%2C_M._D._.._%28IA_memoirsoflifewri00gregiala%29.pdf/page1-500px-Memoirs_of_the_life%2C_writings%2C_and_character%2C_literary%2C_professional%2C_and_religious%2C_of_the_late_John_Mason_Good%2C_M._D._.._%28IA_memoirsoflifewri00gregiala%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Memoirs_of_the_life,_writings,_and_character,_literary,_professional,_and_religious,_of_the_late_John_Mason_Good,_M._D._.._(IA_memoirsoflifewri00gregiala).pdf",
+          "creator": "Gregory, Olinthus, 1774-1841 \n Jerram, Charles, 1770-1853",
+          "attribution": "Gregory, Olinthus, 1774-1841 \n Jerram, Charles, 1770-1853",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Subjects: Good, John Mason, 1764-1827",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Selections from the Imaginary conversations of Walter Savage Landor (IA selectionsfromim00landiala).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Selections_from_the_Imaginary_conversations_of_Walter_Savage_Landor_%28IA_selectionsfromim00landiala%29.pdf/page1-500px-Selections_from_the_Imaginary_conversations_of_Walter_Savage_Landor_%28IA_selectionsfromim00landiala%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Selections_from_the_Imaginary_conversations_of_Walter_Savage_Landor_(IA_selectionsfromim00landiala).pdf",
+          "creator": "Landor, Walter Savage, 1775-1864 \n Newcomer, Alphonso Gerald, 1864-1813",
+          "attribution": "Landor, Walter Savage, 1775-1864 \n Newcomer, Alphonso Gerald, 1864-1813",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Bibliography: p. lvi-lix\n \n Subjects: Imaginary conversations",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Solution of the great problem (IA solutionofgreatp00dell).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Solution_of_the_great_problem_%28IA_solutionofgreatp00dell%29.pdf/page1-500px-Solution_of_the_great_problem_%28IA_solutionofgreatp00dell%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Solution_of_the_great_problem_(IA_solutionofgreatp00dell).pdf",
+          "creator": "Delloue, Abbé \n Leahy, Ellen Mary Agnes, 1865- tr",
+          "attribution": "Delloue, Abbé \n Leahy, Ellen Mary Agnes, 1865- tr",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Subjects: Apologetics",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:The duty and happiness of doing good, ... 1680 (IA bim early-english-books-1641-1700 the-duty-and-happiness-o sharp-john-abp 1680).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/The_duty_and_happiness_of_doing_good%2C_..._1680_%28IA_bim_early-english-books-1641-1700_the-duty-and-happiness-o_sharp-john-abp_1680%29.pdf/page1-500px-The_duty_and_happiness_of_doing_good%2C_..._1680_%28IA_bim_early-english-books-1641-1700_the-duty-and-happiness-o_sharp-john-abp_1680%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:The_duty_and_happiness_of_doing_good,_..._1680_(IA_bim_early-english-books-1641-1700_the-duty-and-happiness-o_sharp-john-abp_1680).pdf",
+          "creator": "Sharp, John, abp.",
+          "attribution": "Sharp, John, abp.",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "The duty and happiness of doing good, ... 1680.. Digitized from  https://archive.org/details/sim_raw_scan_IA40313708-49/page/n357 \" rel=\"ugc nofollow\">IA40313708-49 . Previous issue:  https://archive.org/details/bim_early-english-books-1641-1700_venus-and-adonis-_shakespeare-william_1675 \" rel=\"ugc nofollow\">bim_early-english-books-1641-1700_venus-and-adonis-_shakespeare-william_1675 . Next issue:  https://archive.org/details/bim_early-english-books-1641-1700_a-sermon-about-the-gover_sharp-john-",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:The third volume of Plutarch's morals- ... 1685 (IA bim early-english-books-1641-1700 the-third-volume-of-plut plutarch 1685).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/The_third_volume_of_Plutarch%27s_morals-_..._1685_%28IA_bim_early-english-books-1641-1700_the-third-volume-of-plut_plutarch_1685%29.pdf/page1-500px-The_third_volume_of_Plutarch%27s_morals-_..._1685_%28IA_bim_early-english-books-1641-1700_the-third-volume-of-plut_plutarch_1685%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:The_third_volume_of_Plutarch%27s_morals-_..._1685_(IA_bim_early-english-books-1641-1700_the-third-volume-of-plut_plutarch_1685).pdf",
+          "creator": "Plutarch.",
+          "attribution": "Plutarch.",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "The third volume of Plutarch's morals: ... 1685.. Digitized from  https://archive.org/details/sim_raw_scan_IA40313701-19/page/n737 \" rel=\"ugc nofollow\">IA40313701-19 . Previous issue:  https://archive.org/details/bim_early-english-books-1641-1700_the-mischief-of-persecut_plant-thomas_1688 \" rel=\"ugc nofollow\">bim_early-english-books-1641-1700_the-mischief-of-persecut_plant-thomas_1688 .\n \n Subjects: Books; microfilm",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:The Works Of Philo Judeus (IA TheWorksOfPhiloJudeus).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/The_Works_Of_Philo_Judeus_%28IA_TheWorksOfPhiloJudeus%29.pdf/page1-500px-The_Works_Of_Philo_Judeus_%28IA_TheWorksOfPhiloJudeus%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:The_Works_Of_Philo_Judeus_(IA_TheWorksOfPhiloJudeus).pdf",
+          "creator": "C.D.Yonge",
+          "attribution": "C.D.Yonge",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Subjects: Social Sciences",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        }
+      ],
+      "errors": [],
+      "selected": null,
+      "state": "awaiting_visual_and_license_review"
     }
   }
 }
