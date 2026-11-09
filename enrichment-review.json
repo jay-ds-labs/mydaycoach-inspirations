@@ -58,6 +58,23 @@
       "factualRisk": "medium",
       "imageStatus": "requires_license_verification",
       "publication": "held_for_editorial_approval"
+    },
+    "wright-flight": {
+      "state": "needs_review",
+      "checkedAt": "2026-11-09T01:22:09.850699Z",
+      "source": "https://airandspace.si.edu/",
+      "sourceAccessible": true,
+      "wordCount": 628,
+      "issues": [
+        "Several details are not directly supported by the supplied evidence",
+        "Specifics about wind tunnel experiments, recalculation of lift coefficients, and propeller design are not corroborated by provided source",
+        "Motivations and internal thought processes are described without direct evidence",
+        "Quotes about the process and lessons are paraphrased or inferred rather than supported by the supplied card or evidence",
+        "The evidence source is largely informational about the museum and does not contain primary or supporting content on these detailed claims"
+      ],
+      "factualRisk": "medium",
+      "imageStatus": "requires_license_verification",
+      "publication": "held_for_editorial_approval"
     }
   }
 }
