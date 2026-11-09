@@ -41,6 +41,23 @@
       "factualRisk": "medium",
       "imageStatus": "requires_license_verification",
       "publication": "held_for_editorial_approval"
+    },
+    "everest-summit": {
+      "state": "needs_review",
+      "checkedAt": "2026-11-09T01:21:38.435781Z",
+      "source": "https://www.rgs.org/",
+      "sourceAccessible": true,
+      "wordCount": 741,
+      "issues": [
+        "Many factual details present (dates, names, technological specifics, role of the Royal Geographical Society, details of expedition logistics) are not supported by the supplied evidence.",
+        "The source evidence does not provide verification for the descriptions of route, previous attempts, equipment advances, or the backstory of prior expeditions.",
+        "The attribution of specific actions, motives, and character (e.g., respect for Norgay, teamwork elements) are not substantiated in the evidence.",
+        "No details from the actual Royal Geographical Society story archive or documentation regarding the 1953 Everest climb are included or verified.",
+        "The article length and structure are acceptable, but core claims rest on widely-held historical understanding, not the provided card or verified RGS content."
+      ],
+      "factualRisk": "medium",
+      "imageStatus": "requires_license_verification",
+      "publication": "held_for_editorial_approval"
     }
   }
 }
