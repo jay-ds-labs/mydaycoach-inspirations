@@ -42,23 +42,16 @@
     },
     "everest-summit": {
       "state": "needs_review",
-      "checkedAt": "2026-11-09T01:36:24.433820Z",
+      "checkedAt": "2026-11-09T01:46:31.601915Z",
       "source": "https://www.rgs.org/",
-      "sourceAccessible": true,
+      "sourceAccessible": false,
       "wordCount": 765,
-      "reviewedTextMatchesSaved": true,
-      "originalSource": "https://www.rgs.org/",
-      "evidenceSource": "https://www.rgs.org/",
       "issues": [
-        "The source is general and does not provide direct evidence for the factual claims made in the article",
-        "No accessible or specific verification for details about the expedition members, preparation, or logistics",
-        "Quotations and direct attributions are absent but implied knowledge requires support not found in supplied evidence",
-        "Article length is appropriate, but substantial narrative and interpretation are unsupported by the supplied source",
-        "Expedition specifics such as number of team members, individual roles, and historical context are not substantiated by the provided RGS source"
+        "Source is a generic homepage, not evidence for this subject"
       ],
       "factualRisk": "high",
-      "imageStatus": "requires_license_verification",
-      "publication": "held_for_editorial_approval"
+      "publication": "held_for_editorial_approval",
+      "imageStatus": "not_checked"
     },
     "wright-flight": {
       "state": "needs_review",
