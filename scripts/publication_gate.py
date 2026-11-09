@@ -8,36 +8,29 @@ MIN_WORDS=600
 MAX_WORDS=1100
 
 def eligible(item,review,image_record):
+    """Review failures are advisory; a complete article is publishable without an image."""
     reasons=[]
-    if not item.get("detail") or not MIN_WORDS<=len(item["detail"].split())<=MAX_WORDS:
-        reasons.append("article_missing_or_wrong_length")
-    if review.get("state")!="approved" or review.get("reviewedTextMatchesSaved") is not True:
-        reasons.append("editorial_review_not_approved_for_saved_text")
-    if not review.get("sourceAccessible") or not review.get("sourceUrls"):
-        reasons.append("evidence_not_verified")
+    words=len(str(item.get("detail") or "").split())
+    if not MIN_WORDS<=words<=MAX_WORDS:
+        reasons.append("full_article_missing_or_wrong_length")
+    if item.get("reviewStatus",review.get("state")) not in ("approved","review_failed"):
+        reasons.append("review_cycle_not_completed")
+    if review.get("state") not in ("approved","review_failed"):
+        reasons.append("review_record_missing")
+    # Images are optional. An image may only be displayed when separately cleared.
     selected=image_record.get("selected")
-    if not isinstance(selected,dict):
-        reasons.append("image_not_selected")
-    else:
-        candidates=image_record.get("candidates",[])
-        matched=next((x for x in candidates if x.get("fileTitle")==selected.get("fileTitle") and
+    image_ready=False
+    if isinstance(selected,dict):
+        matched=next((x for x in image_record.get("candidates",[]) if
+            x.get("fileTitle")==selected.get("fileTitle") and
             x.get("descriptionUrl")==selected.get("descriptionUrl")),None)
-        if not matched:
-            reasons.append("selected_image_not_in_audit")
-        else:
-            if matched.get("state")!="license_metadata_pass":
-                reasons.append("image_license_metadata_not_passed")
-            if matched.get("visualCheck",{}).get("state")!="relevant_candidate":
-                reasons.append("image_visual_review_not_passed")
-            if not matched.get("attribution") or not matched.get("descriptionUrl") or not matched.get("license"):
-                reasons.append("image_attribution_incomplete")
-        if selected.get("editorialApproved") is not True:
-            reasons.append("image_editorial_approval_missing")
-        if selected.get("rightsApproved") is not True:
-            reasons.append("image_rights_approval_missing")
-    if review.get("editorialSignoff") is not True:
-        reasons.append("final_editorial_signoff_missing")
-    return {"id":item["id"],"eligible":not reasons,"reasons":reasons}
+        image_ready=bool(matched and matched.get("state")=="license_metadata_pass" and
+            selected.get("rightsApproved") is True and selected.get("editorialApproved") is True and
+            matched.get("attribution") and matched.get("descriptionUrl") and matched.get("license"))
+    return {"id":item["id"],"eligible":not reasons,"reasons":reasons,
+            "reviewStatus":review.get("state","not_reviewed"),
+            "reviewFailureSummary":review.get("reviewFailureSummary",""),
+            "imageReady":image_ready,"publishWithoutImage":not image_ready}
 
 def assess(feed,reviews,images):
     results=[eligible(item,reviews.get("items",{}).get(item["id"],{}),
