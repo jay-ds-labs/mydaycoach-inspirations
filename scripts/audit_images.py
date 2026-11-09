@@ -155,7 +155,7 @@ def write(path,data):
     path.write_text(json.dumps(data,indent=2,ensure_ascii=False)+"\n",encoding="utf-8")
 
 def persist():
-    subprocess.run(["git","add",IMAGES.name,STATUS.name,REVIEWS.name],check=True)
+    subprocess.run(["git","add",IMAGES.name,STATUS.name,REVIEWS.name,GATE.name],check=True)
     if subprocess.run(["git","diff","--cached","--quiet"]).returncode:
         subprocess.run(["git","commit","-m","Audit image candidates without changing article content"],check=True)
         subprocess.run(["git","push","origin","HEAD:main"],check=True)
@@ -189,7 +189,11 @@ def main():
     for item in items:
         reviews["items"][item["id"]]["imageStatus"]="awaiting_visual_and_license_review"
         reviews["items"][item["id"]]["publication"]="held_for_editorial_and_image_approval"
-    write(IMAGES,images);write(REVIEWS,reviews);write(STATUS,report)
+    from publication_gate import assess
+    gate=assess(feed,reviews,images)
+    report["publicationReady"]=gate["ready"]
+    report["publicationBlocked"]=gate["blocked"]
+    write(IMAGES,images);write(REVIEWS,reviews);write(STATUS,report);write(GATE,gate)
     persist()
     print(json.dumps(report,indent=2))
 
