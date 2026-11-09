@@ -2985,6 +2985,179 @@
       "errors": [],
       "selected": null,
       "state": "awaiting_visual_and_license_review"
+    },
+    "reflection-009": {
+      "checkedAt": "2026-11-09T22:39:25.563090Z",
+      "queries": [
+        "Respond with compassion"
+      ],
+      "candidates": [
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:AMERICAN COMPASSION IN INDIA- GOVERNMENT OBSTACLES (IA gov.gpo.fdsys.CHRG-114hhrg22864).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/AMERICAN_COMPASSION_IN_INDIA-_GOVERNMENT_OBSTACLES_%28IA_gov.gpo.fdsys.CHRG-114hhrg22864%29.pdf/page1-960px-AMERICAN_COMPASSION_IN_INDIA-_GOVERNMENT_OBSTACLES_%28IA_gov.gpo.fdsys.CHRG-114hhrg22864%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:AMERICAN_COMPASSION_IN_INDIA-_GOVERNMENT_OBSTACLES_(IA_gov.gpo.fdsys.CHRG-114hhrg22864).pdf",
+          "creator": "Committee on Foreign Affairs",
+          "attribution": "Committee on Foreign Affairs",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Government Publishing Office   U.S. Congress House of Representatives Committee on Foreign Affairs  AMERICAN COMPASSION IN INDIA: GOVERNMENT OBSTACLES  Date(s) Held: 2016-12-06   114th Congress, 2nd Session  GPO Document Source:  https://www.gpo.gov/fdsys/pkg/CHRG-114hhrg22864/content-detail.html \" rel=\"nofollow\">CHRG-114hhrg22864  Superintendents of Documents ID: Y 4.F 76/1  Witnesses:   Mr. Stephen Oakley, general counsel and vice president of the General Counsel Office, Compassion Internation",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
+          "visualCheck": {
+            "state": "not_checked",
+            "reason": "No API key or license metadata not approved"
+          }
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:An investigation of a process by which a division officer can gain empathy with his men. (IA investigationofp00bris).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/An_investigation_of_a_process_by_which_a_division_officer_can_gain_empathy_with_his_men._%28IA_investigationofp00bris%29.pdf/page1-960px-An_investigation_of_a_process_by_which_a_division_officer_can_gain_empathy_with_his_men._%28IA_investigationofp00bris%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:An_investigation_of_a_process_by_which_a_division_officer_can_gain_empathy_with_his_men._(IA_investigationofp00bris).pdf",
+          "creator": "Briscoe, Philip",
+          "attribution": "Briscoe, Philip",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "ADA085049 \n Thesis (M.S. in Management)--Naval Postgraduate School, 1979 \n Bibliography: l. 62-66  \n Subjects: Management",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
+          "visualCheck": {
+            "state": "not_checked",
+            "reason": "No API key or license metadata not approved"
+          }
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Death and the poet, a dialogue, with scriptural notes, together with other poems on various subjects (IA deathpoetdialogu00mart).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Death_and_the_poet%2C_a_dialogue%2C_with_scriptural_notes%2C_together_with_other_poems_on_various_subjects_%28IA_deathpoetdialogu00mart%29.pdf/page1-500px-Death_and_the_poet%2C_a_dialogue%2C_with_scriptural_notes%2C_together_with_other_poems_on_various_subjects_%28IA_deathpoetdialogu00mart%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Death_and_the_poet,_a_dialogue,_with_scriptural_notes,_together_with_other_poems_on_various_subjects_(IA_deathpoetdialogu00mart).pdf",
+          "creator": "Martin, James",
+          "attribution": "Martin, James",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Subjects:",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
+          "visualCheck": {
+            "state": "not_checked",
+            "reason": "No API key or license metadata not approved"
+          }
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Developing Intervention Strategies for Breast Cancer Screening- A Self Study Guide for Program Planners (IA developinginterv00halv).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Developing_Intervention_Strategies_for_Breast_Cancer_Screening-_A_Self_Study_Guide_for_Program_Planners_%28IA_developinginterv00halv%29.pdf/page1-1280px-Developing_Intervention_Strategies_for_Breast_Cancer_Screening-_A_Self_Study_Guide_for_Program_Planners_%28IA_developinginterv00halv%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Developing_Intervention_Strategies_for_Breast_Cancer_Screening-_A_Self_Study_Guide_for_Program_Planners_(IA_developinginterv00halv).pdf",
+          "creator": "Halvorson, H.;Coyne, C.",
+          "attribution": "Halvorson, H.;Coyne, C.",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Subjects: BREAST CANCER; CERVICAL CANCER; COMMUNITY PROGRAMS; HEALTH PROMOTION; FOCUS GROUPS; COMMUNICATION STRATEGIES; LITERACY",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:HEALTH CARE PROVIDED TO NON-AMBULATORY PERSONS (IA gov.gpo.fdsys.CHRG-109shrg20539).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/HEALTH_CARE_PROVIDED_TO_NON-AMBULATORY_PERSONS_%28IA_gov.gpo.fdsys.CHRG-109shrg20539%29.pdf/page1-960px-HEALTH_CARE_PROVIDED_TO_NON-AMBULATORY_PERSONS_%28IA_gov.gpo.fdsys.CHRG-109shrg20539%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:HEALTH_CARE_PROVIDED_TO_NON-AMBULATORY_PERSONS_(IA_gov.gpo.fdsys.CHRG-109shrg20539).pdf",
+          "creator": "Committee on Health, Education, Labor, and Pensions",
+          "attribution": "Committee on Health, Education, Labor, and Pensions",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Government Publishing Office   U.S. Congress Senate Committee on Health, Education, Labor, and Pensions  HEALTH CARE PROVIDED TO NON-AMBULATORY PERSONS  Date(s) Held: 2005-04-06   109th Congress, 1st Session  GPO Document Source:  https://www.gpo.gov/fdsys/pkg/CHRG-109shrg20539/content-detail.html \" rel=\"nofollow\">CHRG-109shrg20539  Superintendents of Documents ID: Y 4.L 11/4  Related Items:    https://www.govtrack.us/congress/bills/109/s347 \" rel=\"nofollow\">United States Senate Bill 347  (109th",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:INTERNATIONAL RELATIONS BUDGET FOR FISCAL YEAR 2006 (IA gov.gpo.fdsys.CHRG-109hhrg98814).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/INTERNATIONAL_RELATIONS_BUDGET_FOR_FISCAL_YEAR_2006_%28IA_gov.gpo.fdsys.CHRG-109hhrg98814%29.pdf/page1-960px-INTERNATIONAL_RELATIONS_BUDGET_FOR_FISCAL_YEAR_2006_%28IA_gov.gpo.fdsys.CHRG-109hhrg98814%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:INTERNATIONAL_RELATIONS_BUDGET_FOR_FISCAL_YEAR_2006_(IA_gov.gpo.fdsys.CHRG-109hhrg98814).pdf",
+          "creator": "Committee on International Relations",
+          "attribution": "Committee on International Relations",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Government Publishing Office   U.S. Congress House of Representatives Committee on International Relations  INTERNATIONAL RELATIONS BUDGET FOR FISCAL YEAR 2006  Date(s) Held: 2005-02-17   109th Congress, 1st Session  GPO Document Source:  https://www.gpo.gov/fdsys/pkg/CHRG-109hhrg98814/content-detail.html \" rel=\"nofollow\">CHRG-109hhrg98814   Related Items:   Congressional Serial No. 109-16  \n Subjects: 109th;House",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:LESSONS LEARNED FROM THE BOSTON MARATHON BOMBINGS- PREPARING FOR AND RESPONDING TO THE ATTACK (IA gov.gpo.fdsys.CHRG-113shrg82575).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/LESSONS_LEARNED_FROM_THE_BOSTON_MARATHON_BOMBINGS-_PREPARING_FOR_AND_RESPONDING_TO_THE_ATTACK_%28IA_gov.gpo.fdsys.CHRG-113shrg82575%29.pdf/page1-960px-LESSONS_LEARNED_FROM_THE_BOSTON_MARATHON_BOMBINGS-_PREPARING_FOR_AND_RESPONDING_TO_THE_ATTACK_%28IA_gov.gpo.fdsys.CHRG-113shrg82575%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:LESSONS_LEARNED_FROM_THE_BOSTON_MARATHON_BOMBINGS-_PREPARING_FOR_AND_RESPONDING_TO_THE_ATTACK_(IA_gov.gpo.fdsys.CHRG-113shrg82575).pdf",
+          "creator": "Committee on Homeland Security and Governmental Affairs",
+          "attribution": "Committee on Homeland Security and Governmental Affairs",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Government Publishing Office   U.S. Congress Senate Committee on Homeland Security and Governmental Affairs  LESSONS LEARNED FROM THE BOSTON MARATHON BOMBINGS: PREPARING FOR AND RESPONDING TO THE ATTACK  Date(s) Held: 2013-07-10   113th Congress, 1st Session  GPO Document Source:  https://www.gpo.gov/fdsys/pkg/CHRG-113shrg82575/content-detail.html \" rel=\"nofollow\">CHRG-113shrg82575  Superintendents of Documents ID: Y 4.G 74/9  Witnesses:   Hon. Richard Serino, Deputy Administrator, Federal Emerg",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Marine Corps values and leadership - user's guide for discussion leaders (User's guide to Marine Corps values) (IA marinecorpsvalue00mari).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Marine_Corps_values_and_leadership_-_user%27s_guide_for_discussion_leaders_%28User%27s_guide_to_Marine_Corps_values%29_%28IA_marinecorpsvalue00mari%29.pdf/page1-1280px-Marine_Corps_values_and_leadership_-_user%27s_guide_for_discussion_leaders_%28User%27s_guide_to_Marine_Corps_values%29_%28IA_marinecorpsvalue00mari%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Marine_Corps_values_and_leadership_-_user%27s_guide_for_discussion_leaders_(User%27s_guide_to_Marine_Corps_values)_(IA_marinecorpsvalue00mari).pdf",
+          "creator": "Marine Corps University (U.S.)",
+          "attribution": "Marine Corps University (U.S.)",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Subjects: Leadership; Values; Military ethics",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:PROGRESS SINCE SEPTEMBER 11TH- PROTECTING PUBLIC HEALTH AND SAFETY OF THE RESPONDERS AND RESIDENTS (IA gov.gpo.fdsys.CHRG-109hhrg36998).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/PROGRESS_SINCE_SEPTEMBER_11TH-_PROTECTING_PUBLIC_HEALTH_AND_SAFETY_OF_THE_RESPONDERS_AND_RESIDENTS_%28IA_gov.gpo.fdsys.CHRG-109hhrg36998%29.pdf/page1-960px-PROGRESS_SINCE_SEPTEMBER_11TH-_PROTECTING_PUBLIC_HEALTH_AND_SAFETY_OF_THE_RESPONDERS_AND_RESIDENTS_%28IA_gov.gpo.fdsys.CHRG-109hhrg36998%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:PROGRESS_SINCE_SEPTEMBER_11TH-_PROTECTING_PUBLIC_HEALTH_AND_SAFETY_OF_THE_RESPONDERS_AND_RESIDENTS_(IA_gov.gpo.fdsys.CHRG-109hhrg36998).pdf",
+          "creator": "Committee on Government Reform",
+          "attribution": "Committee on Government Reform",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Government Publishing Office   U.S. Congress House of Representatives Committee on Government Reform   PROGRESS SINCE SEPTEMBER 11TH: PROTECTING PUBLIC HEALTH AND SAFETY OF THE RESPONDERS AND RESIDENTS  Date(s) Held: 2006-09-08   109th Congress, 2nd Session  GPO Document Source:  https://www.gpo.gov/fdsys/pkg/CHRG-109hhrg36998/content-detail.html \" rel=\"nofollow\">CHRG-109hhrg36998  Superintendents of Documents ID: Y 4.G 74/7  Related Items:    https://www.govtrack.us/congress/bills/109/hr566 \" r",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:RECOVERING FROM HURRICANE KATRINA- RESPONDING TO THE IMMEDIATE NEEDS OF ITS VICTIMS (IA gov.gpo.fdsys.CHRG-109shrg24236).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/RECOVERING_FROM_HURRICANE_KATRINA-_RESPONDING_TO_THE_IMMEDIATE_NEEDS_OF_ITS_VICTIMS_%28IA_gov.gpo.fdsys.CHRG-109shrg24236%29.pdf/page1-960px-RECOVERING_FROM_HURRICANE_KATRINA-_RESPONDING_TO_THE_IMMEDIATE_NEEDS_OF_ITS_VICTIMS_%28IA_gov.gpo.fdsys.CHRG-109shrg24236%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:RECOVERING_FROM_HURRICANE_KATRINA-_RESPONDING_TO_THE_IMMEDIATE_NEEDS_OF_ITS_VICTIMS_(IA_gov.gpo.fdsys.CHRG-109shrg24236).pdf",
+          "creator": "Committee on Homeland Security and Governmental Affairs",
+          "attribution": "Committee on Homeland Security and Governmental Affairs",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Government Publishing Office   U.S. Congress Senate Committee on Homeland Security and Governmental Affairs  RECOVERING FROM HURRICANE KATRINA: RESPONDING TO THE IMMEDIATE NEEDS OF ITS VICTIMS  Date(s) Held: 2005-09-28   109th Congress, 1st Session  GPO Document Source:  https://www.gpo.gov/fdsys/pkg/CHRG-109shrg24236/content-detail.html \" rel=\"nofollow\">CHRG-109shrg24236  Superintendents of Documents ID: Y 4.G 74/9  Witnesses:   Hon. Robert A. Eckels, County Judge, Harris County, Texas  Hon. Me",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        }
+      ],
+      "errors": [],
+      "selected": null,
+      "state": "awaiting_visual_and_license_review"
     }
   }
 }

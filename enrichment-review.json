@@ -558,6 +558,57 @@
       "factualRisk": "low",
       "imageStatus": "awaiting_visual_and_license_review",
       "publication": "ready_for_publish"
+    },
+    "reflection-009": {
+      "state": "review_failed",
+      "checkedAt": "2026-11-09T22:39:25.563106Z",
+      "source": "https://plato.stanford.edu/entries/buddha/",
+      "reviewAttempts": [
+        {
+          "attempt": 1,
+          "approved": false,
+          "issues": [
+            "Some specific claims are not directly supported by the provided source (e.g., the Eightfold Path details, specifics about the Nikāyas, explicit linkage to 'karuṇā' and 'mettā', and narrative reconstructions of the Buddha's conduct and motivation).",
+            "The source discusses the Buddha’s general approach and philosophical tradition but does not substantiate some narrative details (e.g., precise examples of his responses to criticism or inclusion of marginalized people).",
+            "Some statements paraphrase or infer motivations/actions without direct textual evidence."
+          ]
+        },
+        {
+          "attempt": 2,
+          "approved": false,
+          "issues": [
+            "Generated article length 527 outside 600-1100 words"
+          ]
+        },
+        {
+          "attempt": 3,
+          "approved": false,
+          "issues": [
+            "Significant expansion beyond the card's concise message.",
+            "Many assertions about the Buddha’s teachings on compassion, non-self, and practical action introduce interpretations and details not directly evidenced in the source.",
+            "Article provides historical narrative, interpretive analysis, and paraphrased quotations that aren't clearly supported by the Stanford source, which is more focused on the philosophical context than specifics of compassion or action."
+          ]
+        }
+      ],
+      "attemptCount": 3,
+      "reviewFailureSummary": "Article not yet approved by reviewer; Saved text has not passed a matching editorial review",
+      "sourceAccessible": true,
+      "sourceUrls": [
+        "https://plato.stanford.edu/entries/buddha/",
+        "https://en.wikipedia.org/wiki/Lyndon_B._Johnson"
+      ],
+      "sourceCount": 2,
+      "wordCount": 837,
+      "reviewedTextMatchesSaved": false,
+      "originalSource": "https://plato.stanford.edu/entries/buddha/",
+      "evidenceSource": "https://plato.stanford.edu/entries/buddha/",
+      "issues": [
+        "Article not yet approved by reviewer",
+        "Saved text has not passed a matching editorial review"
+      ],
+      "factualRisk": "high",
+      "imageStatus": "awaiting_visual_and_license_review",
+      "publication": "ready_for_publish"
     }
   }
 }
