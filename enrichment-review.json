@@ -8,8 +8,8 @@
       "wordCount": 650,
       "issues": [],
       "factualRisk": "low",
-      "imageStatus": "requires_license_verification",
-      "publication": "held_for_editorial_approval"
+      "imageStatus": "awaiting_visual_and_license_review",
+      "publication": "held_for_editorial_and_image_approval"
     },
     "curie-nobel": {
       "state": "approved",
@@ -40,8 +40,8 @@
       "evidenceSource": "https://www.nelsonmandela.org/trials-and-prison-chronology",
       "issues": [],
       "factualRisk": "low",
-      "imageStatus": "requires_license_verification",
-      "publication": "held_for_editorial_approval"
+      "imageStatus": "awaiting_visual_and_license_review",
+      "publication": "held_for_editorial_and_image_approval"
     },
     "everest-summit": {
       "state": "needs_review",
