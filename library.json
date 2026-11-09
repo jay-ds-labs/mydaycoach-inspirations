@@ -975,8 +975,10 @@
       "image": "",
       "category": "Philosophy",
       "id": "generated-91784adf38f444548a2b",
-      "status": "draft",
-      "publishedAt": ""
+      "status": "ready_for_publish",
+      "publishedAt": "",
+      "reviewStatus": "review_failed",
+      "reviewFailureSummary": "Generation/review error: HTTP Error 503: Service Unavailable; Saved text has not passed a matching editorial review"
     },
     {
       "title": "Montesquieu and the Spirit of Laws: Climate, Custom, and the Shaping of Justice",

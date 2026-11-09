@@ -7679,6 +7679,16 @@
       "errors": [],
       "selected": null,
       "state": "awaiting_visual_and_license_review"
+    },
+    "generated-91784adf38f444548a2b": {
+      "checkedAt": "2026-11-09T23:03:53.767624Z",
+      "queries": [
+        "Al-Farabi and the Virtuous City: Philosophy as Civic Architecture"
+      ],
+      "candidates": [],
+      "errors": [],
+      "selected": null,
+      "state": "awaiting_visual_and_license_review"
     }
   }
 }

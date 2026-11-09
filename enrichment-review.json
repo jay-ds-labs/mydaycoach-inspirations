@@ -2614,6 +2614,53 @@
       "factualRisk": "high",
       "imageStatus": "awaiting_visual_and_license_review",
       "publication": "ready_for_publish"
+    },
+    "generated-91784adf38f444548a2b": {
+      "state": "review_failed",
+      "checkedAt": "2026-11-09T23:03:53.767639Z",
+      "source": "https://plato.stanford.edu/entries/al-farabi/#VirtCitySocEth",
+      "reviewAttempts": [
+        {
+          "attempt": 1,
+          "approved": false,
+          "issues": [
+            "Generation/review error: HTTP Error 503: Service Unavailable"
+          ]
+        },
+        {
+          "attempt": 2,
+          "approved": false,
+          "issues": [
+            "Generation/review error: HTTP Error 503: Service Unavailable"
+          ]
+        },
+        {
+          "attempt": 3,
+          "approved": false,
+          "issues": [
+            "Generation/review error: HTTP Error 503: Service Unavailable"
+          ]
+        }
+      ],
+      "attemptCount": 3,
+      "reviewFailureSummary": "Generation/review error: HTTP Error 503: Service Unavailable; Saved text has not passed a matching editorial review",
+      "sourceAccessible": true,
+      "sourceUrls": [
+        "https://plato.stanford.edu/entries/al-farabi/#VirtCitySocEth",
+        "https://en.wikipedia.org/wiki/Wisdom"
+      ],
+      "sourceCount": 2,
+      "wordCount": 642,
+      "reviewedTextMatchesSaved": false,
+      "originalSource": "https://plato.stanford.edu/entries/al-farabi/#VirtCitySocEth",
+      "evidenceSource": "https://plato.stanford.edu/entries/al-farabi/#VirtCitySocEth",
+      "issues": [
+        "Generation/review error: HTTP Error 503: Service Unavailable",
+        "Saved text has not passed a matching editorial review"
+      ],
+      "factualRisk": "high",
+      "imageStatus": "awaiting_visual_and_license_review",
+      "publication": "ready_for_publish"
     }
   }
 }
