@@ -1,12 +1,54 @@
 {
   "items": {
     "curie-nobel": {
-      "checkedAt": "2026-11-09T02:00:32.259977Z",
+      "checkedAt": "2026-11-09T02:05:26.325292Z",
       "queries": [
         "Marie Curie portrait photograph",
         "Marie Skłodowska Curie"
       ],
       "candidates": [
+        {
+          "state": "license_metadata_pass",
+          "fileTitle": "File:Marie Curie 1903.jpg",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Marie_Curie_1903.jpg/1280px-Marie_Curie_1903.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Marie_Curie_1903.jpg",
+          "creator": "Nobel foundation",
+          "attribution": "Nobel foundation",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "image/jpeg",
+          "description": "Marie Curie",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
+          "visualCheck": {
+            "state": "relevant_candidate",
+            "confidence": "high",
+            "issues": [],
+            "explanation": "The image titled 'Marie Curie 1903.jpg' and described as Marie Curie is visually relevant to the inspiration about Marie Curie's persistence in research and her Nobel Prizes in Physics (1903) and Chemistry (1911). The image shows a historical portrait of Marie Curie, which aligns well with the story about her achievements. The provenance appears consistent with the information provided."
+          }
+        },
+        {
+          "state": "license_metadata_pass",
+          "fileTitle": "File:Marie Curie, portrait, 1900.jpg",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/db/Marie_Curie%2C_portrait%2C_1900.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Marie_Curie,_portrait,_1900.jpg",
+          "creator": "Unknown author Unknown author",
+          "attribution": "Unknown author Unknown author",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "image/jpeg",
+          "description": "Portrait of  Marie Skłodowska-Curie  (7 November 1867 – 4 July 1934)",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
+          "visualCheck": {
+            "state": "relevant_candidate",
+            "confidence": "high",
+            "issues": [],
+            "explanation": "The image is a portrait of Marie Skłodowska-Curie, the central figure mentioned in the inspiration regarding persistence in research and her Nobel Prizes. The file title and description clearly identify her, making the image highly relevant to the inspirational story about her achievements."
+          }
+        },
         {
           "state": "license_metadata_pass",
           "fileTitle": "File:20170211 Maria Skłodowska-Curie Szydłów 4358.jpg",
@@ -25,51 +67,11 @@
             "state": "relevant_candidate",
             "confidence": "high",
             "issues": [],
-            "explanation": "The image depicts a wooden sculpture of Marie Skłodowska Curie, who is the subject of the inspiration about her persistence in research and Nobel Prize achievements. Given the file title and description clearly stating it is Marie Curie, the image is directly related to the inspiration."
+            "explanation": "The image depicts a wooden sculpture of Marie Skłodowska Curie, who is the subject of the inspiration. The sculpture visually represents Marie Curie, which directly relates to the inspiration about her persistence in research and Nobel Prize achievements."
           }
         },
         {
           "state": "license_metadata_pass",
-          "fileTitle": "File:Plaque commemorating Marie Skłodowska-Curie at 8 Śniadeckich Street Warsaw.jpg",
-          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Plaque_commemorating_Marie_Sk%C5%82odowska-Curie_at_8_%C5%9Aniadeckich_Street_Warsaw.jpg/1280px-Plaque_commemorating_Marie_Sk%C5%82odowska-Curie_at_8_%C5%9Aniadeckich_Street_Warsaw.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Plaque_commemorating_Marie_Sk%C5%82odowska-Curie_at_8_%C5%9Aniadeckich_Street_Warsaw.jpg",
-          "creator": "Siarhei Besarab",
-          "attribution": "Siarhei Besarab",
-          "license": "cc-by-sa-4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-          "usageTerms": "Creative Commons Attribution-Share Alike 4.0",
-          "mime": "image/jpeg",
-          "description": "A plaque on the building of the Institute of Mathematics of the Polish Academy of Sciences at 8 Śniadeckich Street in Warsaw. The inscription states that the Radiological Laboratory of the Warsaw Scientific Society, with Marie Skłodowska-Curie as its honorary director, operated in this building from 1913 to 1939. The plaque was installed in September 1997 by the Polish Academy of Sciences and the Warsaw Scientific Society to commemorate the centenary of the discovery of polonium and radium, in t",
-          "requiresVisualReview": true,
-          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
-          "visualCheck": {
-            "state": "relevant_candidate",
-            "confidence": "high",
-            "issues": [],
-            "explanation": "The plaque commemorates Marie Skłodowska-Curie as honorary director of the Radiological Laboratory of the Warsaw Scientific Society from 1913 to 1939, highlighting her role in research related to polonium and radium. This aligns well with the inspiration's focus on Marie Curie's persistence in research and her significant achievements including Nobel Prizes. The inscription and context clearly connect to her scientific contributions and perseverance."
-          }
-        },
-        {
-          "state": "needs_manual_license_review",
-          "fileTitle": "File:Marie Curie 1903.jpg",
-          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Marie_Curie_1903.jpg/1280px-Marie_Curie_1903.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Marie_Curie_1903.jpg",
-          "creator": "Nobel foundation",
-          "attribution": "Nobel foundation",
-          "license": "public-domain",
-          "licenseUrl": "",
-          "usageTerms": "Public domain",
-          "mime": "image/jpeg",
-          "description": "Marie Curie",
-          "requiresVisualReview": true,
-          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
-          "visualCheck": {
-            "state": "not_checked",
-            "reason": "No API key or license metadata not approved"
-          }
-        },
-        {
-          "state": "needs_manual_license_review",
           "fileTitle": "File:Marie Curie c. 1920s - original.jpg",
           "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Marie_Curie_c._1920s_-_original.jpg/1280px-Marie_Curie_c._1920s_-_original.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Marie_Curie_c._1920s_-_original.jpg",
@@ -84,7 +86,7 @@
           "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
         },
         {
-          "state": "needs_manual_license_review",
+          "state": "license_metadata_pass",
           "fileTitle": "File:Marie Curie c. 1920s colorized.jpg",
           "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Marie_Curie_c._1920s_colorized.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
           "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Marie_Curie_c._1920s_colorized.jpg",
@@ -99,7 +101,7 @@
           "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
         },
         {
-          "state": "needs_manual_license_review",
+          "state": "license_metadata_pass",
           "fileTitle": "File:Marie Curie c. 1920s.jpg",
           "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Marie_Curie_c._1920s.jpg/1280px-Marie_Curie_c._1920s.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Marie_Curie_c._1920s.jpg",
@@ -114,7 +116,7 @@
           "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
         },
         {
-          "state": "needs_manual_license_review",
+          "state": "license_metadata_pass",
           "fileTitle": "File:Marie Curie c1920.jpg",
           "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Marie_Curie_c1920.jpg/1280px-Marie_Curie_c1920.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Marie_Curie_c1920.jpg",
@@ -129,22 +131,7 @@
           "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
         },
         {
-          "state": "needs_manual_license_review",
-          "fileTitle": "File:Marie Curie, portrait, 1900.jpg",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/db/Marie_Curie%2C_portrait%2C_1900.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Marie_Curie,_portrait,_1900.jpg",
-          "creator": "Unknown author Unknown author",
-          "attribution": "Unknown author Unknown author",
-          "license": "public-domain",
-          "licenseUrl": "",
-          "usageTerms": "Public domain",
-          "mime": "image/jpeg",
-          "description": "Portrait of  Marie Skłodowska-Curie  (7 November 1867 – 4 July 1934)",
-          "requiresVisualReview": true,
-          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
-        },
-        {
-          "state": "needs_manual_license_review",
+          "state": "license_metadata_pass",
           "fileTitle": "File:Mariecurie.jpg",
           "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Mariecurie.jpg/1280px-Mariecurie.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Mariecurie.jpg",
@@ -159,7 +146,7 @@
           "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
         },
         {
-          "state": "needs_manual_license_review",
+          "state": "license_metadata_pass",
           "fileTitle": "File:Nobel Pierre et Marie Curie 1.jpg",
           "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Nobel_Pierre_et_Marie_Curie_1.jpg/1280px-Nobel_Pierre_et_Marie_Curie_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Nobel_Pierre_et_Marie_Curie_1.jpg",
@@ -172,6 +159,21 @@
           "description": "Diploma of Nobel Prize in Physics, awarded in december 1903 to Pierre and Marie Curie. Both shared this distinction with Henri Becquerel, whose name is mentioned on the document.",
           "requiresVisualReview": true,
           "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "license_metadata_pass",
+          "fileTitle": "File:Pierre Curie et Marie Sklodowska Curie 1895.jpg",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Pierre_Curie_et_Marie_Sklodowska_Curie_1895.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Pierre_Curie_et_Marie_Sklodowska_Curie_1895.jpg",
+          "creator": "Unknown author Unknown author",
+          "attribution": "Unknown author Unknown author",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "image/jpeg",
+          "description": "French physicist Pierre Curie is often overlooked in favor of Marie Curie, his brilliant student and later wife. Together they discovered radium and polonium, and did extensive research into radioactivity. Pierre, Marie, and Henri Becquerel jointly won the 1903 Nobel Prize in Physics for their research. Curie might have gone onto many further discoveries, but he was killed in 1906 when a horse-drawn cart ran over him in Paris. If he had lived longer, Curie might have also succumbed to illness ca",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
         }
       ],
       "errors": [],
@@ -179,7 +181,7 @@
       "state": "awaiting_visual_and_license_review"
     },
     "everest-summit": {
-      "checkedAt": "2026-11-09T02:00:51.111463Z",
+      "checkedAt": "2026-11-09T02:05:41.703579Z",
       "queries": [
         "Edmund Hillary Tenzing Norgay Everest 1953",
         "Tenzing Norgay Hillary summit"
@@ -203,8 +205,95 @@
             "state": "relevant_candidate",
             "confidence": "high",
             "issues": [],
-            "explanation": "The file title and description clearly state that the image shows Tenzing Norgay and Edmund Hillary on May 29, 1953, after the successful first ascent of Mount Everest, which corresponds directly to the inspiration about teamwork at the summit featuring these two climbers and the historic expedition."
+            "explanation": "The file title and description state that the image depicts Tenzing Norgay and Edmund Hillary on May 29, 1953, after successfully completing the first ascent of Mount Everest. This matches the inspiration about teamwork at the summit during their historic expedition, making the image highly relevant."
           }
+        },
+        {
+          "state": "license_metadata_pass",
+          "fileTitle": "File:Tenzing and Hillary (cropped).jpg",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/67/Tenzing_and_Hillary_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Tenzing_and_Hillary_(cropped).jpg",
+          "creator": "Dirk Pons",
+          "attribution": "Dirk Pons",
+          "license": "cc-by-sa-3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "usageTerms": "Creative Commons Attribution-Share Alike 3.0",
+          "mime": "image/jpeg",
+          "description": "Tenzing and Hillary. Photo from the collection of John Henderson.",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
+          "visualCheck": {
+            "state": "relevant_candidate",
+            "confidence": "high",
+            "issues": [],
+            "explanation": "The file title 'Tenzing and Hillary (cropped).jpg' and the description indicating these are the subjects associated with the historic climb strongly suggest that this image is of Edmund Hillary and Tenzing Norgay, fitting the inspiration about their teamwork. The image context and subjects align well with the story of their 1953 Everest summit. There is no contradictory information provided, so the provenance is reasonably certain."
+          }
+        },
+        {
+          "state": "license_metadata_pass",
+          "fileTitle": "File:Tenzing and Hillary.jpg",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Tenzing_and_Hillary.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Tenzing_and_Hillary.jpg",
+          "creator": "Dirk Pons",
+          "attribution": "Dirk Pons",
+          "license": "cc-by-sa-3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "usageTerms": "Creative Commons Attribution-Share Alike 3.0",
+          "mime": "image/jpeg",
+          "description": "Tenzing and Hillary. Photo from the collection of John Henderson.",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
+          "visualCheck": {
+            "state": "relevant_candidate",
+            "confidence": "high",
+            "issues": [],
+            "explanation": "The file title 'Tenzing and Hillary.jpg' and the description identifying the individuals as Tenzing and Hillary strongly indicate the image features the two key figures associated with the May 29, 1953 Mount Everest summit expedition. The black and white style and the mountainous snowy background align with the historical context of Everest. Therefore, the image is highly relevant to the inspiration about their teamwork at the summit."
+          }
+        },
+        {
+          "state": "license_metadata_pass",
+          "fileTitle": "File:Tenzing Norgay and Edmund Hillary 1953.png",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Tenzing_Norgay_and_Edmund_Hillary_1953.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Tenzing_Norgay_and_Edmund_Hillary_1953.png",
+          "creator": "http://www.tenzing-norgay-trekking.de/",
+          "attribution": "http://www.tenzing-norgay-trekking.de/",
+          "license": "cc-by-sa-3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "usageTerms": "Creative Commons Attribution-Share Alike 3.0",
+          "mime": "image/png",
+          "description": "29 May 1953 Tenzing Norgay and Edmund Hillary after successfully completing the first ascent of Mount Everest at 11.30am (cropped from original image)",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "license_metadata_pass",
+          "fileTitle": "File:Tenzing Norgay face detail on 29 May 1953, from- Edmund Hillary and Tenzing Norgay (cropped).jpg",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Tenzing_Norgay_face_detail_on_29_May_1953%2C_from-_Edmund_Hillary_and_Tenzing_Norgay_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Tenzing_Norgay_face_detail_on_29_May_1953,_from-_Edmund_Hillary_and_Tenzing_Norgay_(cropped).jpg",
+          "creator": "Jamling Tenzing Norgay",
+          "attribution": "Jamling Tenzing Norgay",
+          "license": "cc-by-sa-3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "usageTerms": "Creative Commons Attribution-Share Alike 3.0",
+          "mime": "image/jpeg",
+          "description": "29 May 1953 Tenzing Norgay and Edmund Hillary after successfully completing the first ascent of Mount Everest at 11.30am.",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "license_metadata_pass",
+          "fileTitle": "File:Tenzing Norgay on 29 May 1953, from- Edmund Hillary and Tenzing Norgay (cropped).jpg",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/04/Tenzing_Norgay_on_29_May_1953%2C_from-_Edmund_Hillary_and_Tenzing_Norgay_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Tenzing_Norgay_on_29_May_1953,_from-_Edmund_Hillary_and_Tenzing_Norgay_(cropped).jpg",
+          "creator": "Jamling Tenzing Norgay",
+          "attribution": "Jamling Tenzing Norgay",
+          "license": "cc-by-sa-3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "usageTerms": "Creative Commons Attribution-Share Alike 3.0",
+          "mime": "image/jpeg",
+          "description": "29 May 1953 Tenzing Norgay and Edmund Hillary after successfully completing the first ascent of Mount Everest at 11.30am.",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
         },
         {
           "state": "license_metadata_pass",
@@ -219,13 +308,7 @@
           "mime": "image/jpeg",
           "description": "29 May 1953 Edmund Hillary after successfully completing the first ascent of Mount Everest at 11.30am.",
           "requiresVisualReview": true,
-          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
-          "visualCheck": {
-            "state": "relevant_candidate",
-            "confidence": "high",
-            "issues": [],
-            "explanation": "The image file title and description explicitly state that it is a photograph of Edmund Hillary on 29 May 1953 after reaching the summit of Mount Everest, which directly relates to the inspiration about the successful first ascent of Mount Everest by Edmund Hillary and Tenzing Norgay on that date. The image context aligns well with the story category 'Teamwork at the summit.'"
-          }
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
         },
         {
           "state": "license_metadata_pass",
@@ -240,13 +323,7 @@
           "mime": "image/jpeg",
           "description": "Mount Everest, the highest mountain in the world. Mount Everest, Nepal, Himalayas.",
           "requiresVisualReview": true,
-          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
-          "visualCheck": {
-            "state": "relevant_candidate",
-            "confidence": "high",
-            "issues": [],
-            "explanation": "The image shows Mount Everest, which is the central subject of the inspiration about Edmund Hillary and Tenzing Norgay reaching the summit. Although there are no people visible in the image, the mountain itself is highly relevant to the story of teamwork at the summit."
-          }
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
         },
         {
           "state": "license_metadata_pass",
@@ -277,81 +354,6 @@
           "description": "Residence of Tenzing Norgay at 1 D B Road, Darjeeling, West Bengal.\nTenzing Norgay was one of the first two people known to certainly reach the summit of Mount Everest, which he accomplished with Edmund Hillary on 29 May 1953.",
           "requiresVisualReview": true,
           "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
-        },
-        {
-          "state": "license_metadata_pass",
-          "fileTitle": "File:Residence of Tenzing Norgay at 1 D B Road, Darjeeling,West Bengal 11.jpg",
-          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Residence_of_Tenzing_Norgay_at_1_D_B_Road%2C_Darjeeling%2CWest_Bengal_11.jpg/1280px-Residence_of_Tenzing_Norgay_at_1_D_B_Road%2C_Darjeeling%2CWest_Bengal_11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Residence_of_Tenzing_Norgay_at_1_D_B_Road,_Darjeeling,West_Bengal_11.jpg",
-          "creator": "Amitabha Gupta",
-          "attribution": "Amitabha Gupta",
-          "license": "cc-by-4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
-          "usageTerms": "Creative Commons Attribution 4.0",
-          "mime": "image/jpeg",
-          "description": "Residence of Tenzing Norgay at 1 D B Road, Darjeeling, West Bengal.\nTenzing Norgay was one of the first two people known to certainly reach the summit of Mount Everest, which he accomplished with Edmund Hillary on 29 May 1953.",
-          "requiresVisualReview": true,
-          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
-        },
-        {
-          "state": "license_metadata_pass",
-          "fileTitle": "File:Residence of Tenzing Norgay at 1 D B Road, Darjeeling,West Bengal 12.jpg",
-          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Residence_of_Tenzing_Norgay_at_1_D_B_Road%2C_Darjeeling%2CWest_Bengal_12.jpg/1280px-Residence_of_Tenzing_Norgay_at_1_D_B_Road%2C_Darjeeling%2CWest_Bengal_12.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Residence_of_Tenzing_Norgay_at_1_D_B_Road,_Darjeeling,West_Bengal_12.jpg",
-          "creator": "Amitabha Gupta",
-          "attribution": "Amitabha Gupta",
-          "license": "cc-by-4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
-          "usageTerms": "Creative Commons Attribution 4.0",
-          "mime": "image/jpeg",
-          "description": "Residence of Tenzing Norgay at 1 D B Road, Darjeeling, West Bengal.\nTenzing Norgay was one of the first two people known to certainly reach the summit of Mount Everest, which he accomplished with Edmund Hillary on 29 May 1953.",
-          "requiresVisualReview": true,
-          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
-        },
-        {
-          "state": "license_metadata_pass",
-          "fileTitle": "File:Residence of Tenzing Norgay at 1 D B Road, Darjeeling,West Bengal 13.jpg",
-          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Residence_of_Tenzing_Norgay_at_1_D_B_Road%2C_Darjeeling%2CWest_Bengal_13.jpg/1280px-Residence_of_Tenzing_Norgay_at_1_D_B_Road%2C_Darjeeling%2CWest_Bengal_13.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Residence_of_Tenzing_Norgay_at_1_D_B_Road,_Darjeeling,West_Bengal_13.jpg",
-          "creator": "Amitabha Gupta",
-          "attribution": "Amitabha Gupta",
-          "license": "cc-by-4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
-          "usageTerms": "Creative Commons Attribution 4.0",
-          "mime": "image/jpeg",
-          "description": "Residence of Tenzing Norgay at 1 D B Road, Darjeeling, West Bengal.\nTenzing Norgay was one of the first two people known to certainly reach the summit of Mount Everest, which he accomplished with Edmund Hillary on 29 May 1953.",
-          "requiresVisualReview": true,
-          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
-        },
-        {
-          "state": "license_metadata_pass",
-          "fileTitle": "File:Residence of Tenzing Norgay at 1 D B Road, Darjeeling,West Bengal 17.jpg",
-          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Residence_of_Tenzing_Norgay_at_1_D_B_Road%2C_Darjeeling%2CWest_Bengal_17.jpg/1280px-Residence_of_Tenzing_Norgay_at_1_D_B_Road%2C_Darjeeling%2CWest_Bengal_17.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Residence_of_Tenzing_Norgay_at_1_D_B_Road,_Darjeeling,West_Bengal_17.jpg",
-          "creator": "Amitabha Gupta",
-          "attribution": "Amitabha Gupta",
-          "license": "cc-by-4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
-          "usageTerms": "Creative Commons Attribution 4.0",
-          "mime": "image/jpeg",
-          "description": "Residence of Tenzing Norgay at 1 D B Road, Darjeeling, West Bengal.\nTenzing Norgay was one of the first two people known to certainly reach the summit of Mount Everest, which he accomplished with Edmund Hillary on 29 May 1953.",
-          "requiresVisualReview": true,
-          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
-        },
-        {
-          "state": "license_metadata_pass",
-          "fileTitle": "File:Residence of Tenzing Norgay at 1 D B Road, Darjeeling,West Bengal 19.jpg",
-          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Residence_of_Tenzing_Norgay_at_1_D_B_Road%2C_Darjeeling%2CWest_Bengal_19.jpg/1280px-Residence_of_Tenzing_Norgay_at_1_D_B_Road%2C_Darjeeling%2CWest_Bengal_19.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Residence_of_Tenzing_Norgay_at_1_D_B_Road,_Darjeeling,West_Bengal_19.jpg",
-          "creator": "Amitabha Gupta",
-          "attribution": "Amitabha Gupta",
-          "license": "cc-by-4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
-          "usageTerms": "Creative Commons Attribution 4.0",
-          "mime": "image/jpeg",
-          "description": "Residence of Tenzing Norgay at 1 D B Road, Darjeeling, West Bengal.\nTenzing Norgay was one of the first two people known to certainly reach the summit of Mount Everest, which he accomplished with Edmund Hillary on 29 May 1953.",
-          "requiresVisualReview": true,
-          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
         }
       ],
       "errors": [],
@@ -359,7 +361,7 @@
       "state": "awaiting_visual_and_license_review"
     },
     "wright-flight": {
-      "checkedAt": "2026-11-09T02:00:58.693657Z",
+      "checkedAt": "2026-11-09T02:05:52.543111Z",
       "queries": [
         "Wright brothers first flight 1903 Kitty Hawk photograph",
         "Wright Flyer 1903"
@@ -367,69 +369,6 @@
       "candidates": [
         {
           "state": "license_metadata_pass",
-          "fileTitle": "File:Wright 1903 Flyer 9464.jpg",
-          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Wright_1903_Flyer_9464.jpg/1280px-Wright_1903_Flyer_9464.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Wright_1903_Flyer_9464.jpg",
-          "creator": "Chris Light",
-          "attribution": "Chris Light",
-          "license": "cc-by-sa-4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-          "usageTerms": "Creative Commons Attribution-Share Alike 4.0",
-          "mime": "image/jpeg",
-          "description": "Wright Flyer at Evergreen Aviation Museum.",
-          "requiresVisualReview": true,
-          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
-          "visualCheck": {
-            "state": "relevant_candidate",
-            "confidence": "high",
-            "issues": [],
-            "explanation": "The file title and description indicate that the image shows the Wright Flyer, the aircraft used by the Wright brothers for the first sustained powered flight in 1903. The inspiration references this historic event and the related experiment and iteration process. The provenance is clear and the content visibly matches the topic."
-          }
-        },
-        {
-          "state": "license_metadata_pass",
-          "fileTitle": "File:Wright 1903 Flyer 9465.jpg",
-          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Wright_1903_Flyer_9465.jpg/1280px-Wright_1903_Flyer_9465.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Wright_1903_Flyer_9465.jpg",
-          "creator": "Chris Light",
-          "attribution": "Chris Light",
-          "license": "cc-by-sa-4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-          "usageTerms": "Creative Commons Attribution-Share Alike 4.0",
-          "mime": "image/jpeg",
-          "description": "Wright Flyer at Evergreen Aviation Museum.",
-          "requiresVisualReview": true,
-          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
-          "visualCheck": {
-            "state": "relevant_candidate",
-            "confidence": "high",
-            "issues": [],
-            "explanation": "The file title 'Wright 1903 Flyer 9465.jpg' and description stating the Wright Flyer is at the Evergreen Aviation Museum directly relate to the inspiration about the Wright brothers' 1903 first sustained powered flight. The displayed information on the sign includes the date, technical details, and historical context, confirming a strong connection to the story of the Wright brothers' aviation experiments and achievements."
-          }
-        },
-        {
-          "state": "license_metadata_pass",
-          "fileTitle": "File:Wright Flyer 1903.jpg",
-          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Wright_Flyer_1903.jpg/1280px-Wright_Flyer_1903.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Wright_Flyer_1903.jpg",
-          "creator": "Aviation poseidon",
-          "attribution": "Aviation poseidon",
-          "license": "cc-by-sa-4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-          "usageTerms": "Creative Commons Attribution-Share Alike 4.0",
-          "mime": "image/jpeg",
-          "description": "This is wright flyer 1903 (national air and space museum)",
-          "requiresVisualReview": true,
-          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
-          "visualCheck": {
-            "state": "relevant_candidate",
-            "confidence": "high",
-            "issues": [],
-            "explanation": "The image depicts the Wright Flyer 1903, which is historically recognized as the first heavier-than-air powered aircraft flown successfully by the Wright brothers at Kitty Hawk. This directly aligns with the inspiration about the Wright brothers' achievement in experimentation and iteration leading to the first sustained powered flight on December 17, 1903. The file title and description confirm the provenance and subject of the image."
-          }
-        },
-        {
-          "state": "needs_manual_license_review",
           "fileTitle": "File:1903 Wright Flyer and buildings at Kill Devil Hills.jpg",
           "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/1903_Wright_Flyer_and_buildings_at_Kill_Devil_Hills.jpg/1280px-1903_Wright_Flyer_and_buildings_at_Kill_Devil_Hills.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "descriptionUrl": "https://commons.wikimedia.org/wiki/File:1903_Wright_Flyer_and_buildings_at_Kill_Devil_Hills.jpg",
@@ -441,25 +380,16 @@
           "mime": "image/jpeg",
           "description": "1903 Wright Flyer, large camp building where it was housed, and smaller building used as a workshop and living quarters at Kill Devil Hills, North Carolina.",
           "requiresVisualReview": true,
-          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
+          "visualCheck": {
+            "state": "relevant_candidate",
+            "confidence": "high",
+            "issues": [],
+            "explanation": "The image shows the 1903 Wright Flyer, which was the aircraft used by the Wright brothers in achieving the first sustained powered flight at Kitty Hawk, North Carolina. The presence of the camp buildings, including the hangar and workshop, aligns well with the historical context of the Wright brothers' experimentation and iteration efforts at Kill Devil Hills. The file title and description directly reference the key elements of the inspiration story."
+          }
         },
         {
-          "state": "needs_manual_license_review",
-          "fileTitle": "File:1903 Wright Flyer and buildings at Kill Devil Hills.tif",
-          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/1903_Wright_Flyer_and_buildings_at_Kill_Devil_Hills.tif/lossy-page1-1280px-1903_Wright_Flyer_and_buildings_at_Kill_Devil_Hills.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:1903_Wright_Flyer_and_buildings_at_Kill_Devil_Hills.tif",
-          "creator": "Attributed to Wilbur Wright (1867–1912) and/or Orville Wright (1871–1948).",
-          "attribution": "Attributed to Wilbur Wright (1867–1912) and/or Orville Wright (1871–1948).",
-          "license": "public-domain",
-          "licenseUrl": "",
-          "usageTerms": "Public domain",
-          "mime": "image/tiff",
-          "description": "1903 Wright Flyer, large camp building where it was housed, and smaller building used as a workshop and living quarters at Kill Devil Hills, North Carolina.",
-          "requiresVisualReview": true,
-          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
-        },
-        {
-          "state": "needs_manual_license_review",
+          "state": "license_metadata_pass",
           "fileTitle": "File:1903-12 Wright-Flyer-side-view.jpg",
           "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/1903-12_Wright-Flyer-side-view.jpg/1280px-1903-12_Wright-Flyer-side-view.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "descriptionUrl": "https://commons.wikimedia.org/wiki/File:1903-12_Wright-Flyer-side-view.jpg",
@@ -471,10 +401,16 @@
           "mime": "image/jpeg",
           "description": "Side view of the original Wright Aeroplane near Kitty Hawk, NC. 1903.",
           "requiresVisualReview": true,
-          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
+          "visualCheck": {
+            "state": "relevant_candidate",
+            "confidence": "high",
+            "issues": [],
+            "explanation": "The image shows a side view of the original Wright Aeroplane near Kitty Hawk in 1903, as indicated by both the file title and description. This directly relates to the inspiration about the Wright brothers achieving the first sustained powered flight of a heavier-than-air aircraft at Kitty Hawk in December 1903, thus making the image highly relevant."
+          }
         },
         {
-          "state": "needs_manual_license_review",
+          "state": "license_metadata_pass",
           "fileTitle": "File:Airplanes - Historical - Wright Brothers' 1903 Aeroplane (\"Kitty Hawk\") in first flight, December 17, 1903 at Kitty Hawk, N.C. Orville Wright at controls. Wilbur Wright standing at right. (First flight was 12 sec(...) - NARA - 17338962.jpg",
           "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Airplanes_-_Historical_-_Wright_Brothers%27_1903_Aeroplane_%28%22Kitty_Hawk%22%29_in_first_flight%2C_December_17%2C_1903_at_Kitty_Hawk%2C_N.C._Orville_Wright_at_controls._Wilbur_Wright_standing_at_right._%28First_flight_was_12_sec%28...%29_-_NARA_-_17338962.jpg/1280px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Airplanes_-_Historical_-_Wright_Brothers%27_1903_Aeroplane_(%22Kitty_Hawk%22)_in_first_flight,_December_17,_1903_at_Kitty_Hawk,_N.C._Orville_Wright_at_controls._Wilbur_Wright_standing_at_right._(First_flight_was_12_sec(...)_-_NARA_-_17338962.jpg",
@@ -486,10 +422,16 @@
           "mime": "image/jpeg",
           "description": "",
           "requiresVisualReview": true,
-          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
+          "visualCheck": {
+            "state": "relevant_candidate",
+            "confidence": "high",
+            "issues": [],
+            "explanation": "The file title and description clearly identify this image as the Wright Brothers' 1903 Aeroplane during its first flight at Kitty Hawk on December 17, 1903. This directly matches the inspiration which highlights the Wright brothers' achievement of the first sustained powered flight at Kitty Hawk on the same date. The visual content showing the early airplane in flight further supports this relevance with high confidence."
+          }
         },
         {
-          "state": "needs_manual_license_review",
+          "state": "license_metadata_pass",
           "fileTitle": "File:First flight2.jpg",
           "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/First_flight2.jpg/1280px-First_flight2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "descriptionUrl": "https://commons.wikimedia.org/wiki/File:First_flight2.jpg",
@@ -504,7 +446,7 @@
           "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
         },
         {
-          "state": "needs_manual_license_review",
+          "state": "license_metadata_pass",
           "fileTitle": "File:First flight3.jpg",
           "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/First_flight3.jpg/1280px-First_flight3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "descriptionUrl": "https://commons.wikimedia.org/wiki/File:First_flight3.jpg",
@@ -519,7 +461,7 @@
           "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
         },
         {
-          "state": "needs_manual_license_review",
+          "state": "license_metadata_pass",
           "fileTitle": "File:Stamp of Seychelles - 1976 - Colnect 494193 - Wright Brothers - First Flight.jpeg",
           "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Stamp_of_Seychelles_-_1976_-_Colnect_494193_-_Wright_Brothers_-_First_Flight.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
           "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Stamp_of_Seychelles_-_1976_-_Colnect_494193_-_Wright_Brothers_-_First_Flight.jpeg",
@@ -532,6 +474,66 @@
           "description": "Stamp",
           "requiresVisualReview": true,
           "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "license_metadata_pass",
+          "fileTitle": "File:Wright 1903 Flyer 9464.jpg",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Wright_1903_Flyer_9464.jpg/1280px-Wright_1903_Flyer_9464.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Wright_1903_Flyer_9464.jpg",
+          "creator": "Chris Light",
+          "attribution": "Chris Light",
+          "license": "cc-by-sa-4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "usageTerms": "Creative Commons Attribution-Share Alike 4.0",
+          "mime": "image/jpeg",
+          "description": "Wright Flyer at Evergreen Aviation Museum.",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "license_metadata_pass",
+          "fileTitle": "File:Wright 1903 Flyer 9465.jpg",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Wright_1903_Flyer_9465.jpg/1280px-Wright_1903_Flyer_9465.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Wright_1903_Flyer_9465.jpg",
+          "creator": "Chris Light",
+          "attribution": "Chris Light",
+          "license": "cc-by-sa-4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "usageTerms": "Creative Commons Attribution-Share Alike 4.0",
+          "mime": "image/jpeg",
+          "description": "Wright Flyer at Evergreen Aviation Museum.",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "license_metadata_pass",
+          "fileTitle": "File:Wright brothers first successful flight Kill Devil Hills North Carolina December 1903.jpg",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Wright_brothers_first_successful_flight_Kill_Devil_Hills_North_Carolina_December_1903.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Wright_brothers_first_successful_flight_Kill_Devil_Hills_North_Carolina_December_1903.jpg",
+          "creator": "John T. Daniels",
+          "attribution": "John T. Daniels",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "image/jpeg",
+          "description": "Photograph of the first successful flight of the Wright brothers, December 17, 1903. Orville is at the controls, while his brother Wilbur Wright runs alongside the plane at its wingtip. Photograph by John T. Daniels of the Kill Devil Hills Life Saving Station.",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "license_metadata_pass",
+          "fileTitle": "File:Wright Brothers' 1903 Aeroplane Kitty Hawk in First Flight - NARA - 7580929.jpg",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Wright_Brothers%27_1903_Aeroplane_Kitty_Hawk_in_First_Flight_-_NARA_-_7580929.jpg/1280px-Wright_Brothers%27_1903_Aeroplane_Kitty_Hawk_in_First_Flight_-_NARA_-_7580929.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Wright_Brothers%27_1903_Aeroplane_Kitty_Hawk_in_First_Flight_-_NARA_-_7580929.jpg",
+          "creator": "John T. Daniels",
+          "attribution": "John T. Daniels",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "image/jpeg",
+          "description": "Scope and content:   Original caption: Original Wright Brothers' 1903 Aeroplane (\"Kitty Hawk\") in first flight, December 17, 1903 at Kitty Hawk, N.C. Orville Wright at controls. Wilbur Wright standing at right. (first flight was 12 seconds).",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
         }
       ],
       "errors": [],
@@ -539,14 +541,14 @@
       "state": "awaiting_visual_and_license_review"
     },
     "apollo-11": {
-      "checkedAt": "2026-11-09T02:00:24.015717Z",
+      "checkedAt": "2026-11-09T02:05:15.695147Z",
       "queries": [
         "Apollo 11 Buzz Aldrin lunar surface NASA",
         "Apollo 11 moon landing NASA"
       ],
       "candidates": [
         {
-          "state": "needs_manual_license_review",
+          "state": "license_metadata_pass",
           "fileTitle": "File:Aldrin Apollo 11 original.jpg",
           "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Aldrin_Apollo_11_original.jpg/1280px-Aldrin_Apollo_11_original.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Aldrin_Apollo_11_original.jpg",
@@ -560,12 +562,14 @@
           "requiresVisualReview": true,
           "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
           "visualCheck": {
-            "state": "not_checked",
-            "reason": "No API key or license metadata not approved"
+            "state": "relevant_candidate",
+            "confidence": "high",
+            "issues": [],
+            "explanation": "The image is highly relevant to the inspiration about Apollo 11's Moon landing. It shows an astronaut identified in the description as Buzz Aldrin on the surface of the Moon during the Apollo 11 mission, which is directly related to the title and body text referencing the first moonwalk by Armstrong and Aldrin. The lunar surface, astronaut suit, and references to the lunar module Eagle align closely with the historical event described."
           }
         },
         {
-          "state": "needs_manual_license_review",
+          "state": "license_metadata_pass",
           "fileTitle": "File:Aldrin Apollo 11.jpg",
           "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Aldrin_Apollo_11.jpg/1280px-Aldrin_Apollo_11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Aldrin_Apollo_11.jpg",
@@ -579,12 +583,14 @@
           "requiresVisualReview": true,
           "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
           "visualCheck": {
-            "state": "not_checked",
-            "reason": "No API key or license metadata not approved"
+            "state": "relevant_candidate",
+            "confidence": "high",
+            "issues": [],
+            "explanation": "The image titled 'Aldrin Apollo 11.jpg' depicts an astronaut on the Moon, identified in the description as Buzz Aldrin during the Apollo 11 mission. This directly corresponds with the inspiration about Apollo 11's Moon landing on July 20, 1969, where Neil Armstrong and Buzz Aldrin walked on the lunar surface. The image shows an astronaut in a spacesuit on the Moon, consistent with the description and the event referenced."
           }
         },
         {
-          "state": "needs_manual_license_review",
+          "state": "license_metadata_pass",
           "fileTitle": "File:Aldrin Looks Back at Tranquility Base - GPN-2000-001102.jpg",
           "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Aldrin_Looks_Back_at_Tranquility_Base_-_GPN-2000-001102.jpg/1280px-Aldrin_Looks_Back_at_Tranquility_Base_-_GPN-2000-001102.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Aldrin_Looks_Back_at_Tranquility_Base_-_GPN-2000-001102.jpg",
@@ -598,72 +604,14 @@
           "requiresVisualReview": true,
           "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
           "visualCheck": {
-            "state": "not_checked",
-            "reason": "No API key or license metadata not approved"
+            "state": "relevant_candidate",
+            "confidence": "high",
+            "issues": [],
+            "explanation": "The image depicts an astronaut on the Moon deploying scientific experiments, with the lunar module and an American flag visible in the background. The file title and description confirm that this is Buzz Aldrin on the Apollo 11 mission. This directly relates to the inspiration about the Apollo 11 Moon landing and astronauts' activities on the lunar surface."
           }
         },
         {
-          "state": "needs_manual_license_review",
-          "fileTitle": "File:Apollo 11 Crew.jpg",
-          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Apollo_11_Crew.jpg/1280px-Apollo_11_Crew.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Apollo_11_Crew.jpg",
-          "creator": "NASA",
-          "attribution": "NASA",
-          "license": "public-domain",
-          "licenseUrl": "",
-          "usageTerms": "Public domain",
-          "mime": "image/jpeg",
-          "description": "The Apollo 11 lunar landing mission crew, pictured from left to right, Neil A. Armstrong, commander; Michael Collins, command module pilot; and Edwin E. Aldrin Jr., lunar module pilot.",
-          "requiresVisualReview": true,
-          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
-        },
-        {
-          "state": "needs_manual_license_review",
-          "fileTitle": "File:Apollo 11 Launch - GPN-2000-000630.jpg",
-          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Apollo_11_Launch_-_GPN-2000-000630.jpg/1280px-Apollo_11_Launch_-_GPN-2000-000630.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Apollo_11_Launch_-_GPN-2000-000630.jpg",
-          "creator": "NASA",
-          "attribution": "NASA",
-          "license": "public-domain",
-          "licenseUrl": "",
-          "usageTerms": "Public domain",
-          "mime": "image/jpeg",
-          "description": "The Apollo 11 Saturn V rocket launch vehicle lifts-off with astronauts Neil A. Armstrong, Michael Collins and Edwin E. Aldrin, Jr., at 9:32 a.m. EDT July 16, 1969, from Kennedy Space Center's Launch Complex Pad 39A.",
-          "requiresVisualReview": true,
-          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
-        },
-        {
-          "state": "needs_manual_license_review",
-          "fileTitle": "File:Apollo 11 Launch2.jpg",
-          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Apollo_11_Launch2.jpg/1280px-Apollo_11_Launch2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Apollo_11_Launch2.jpg",
-          "creator": "NASA; restored by  Michel Vuijlsteke",
-          "attribution": "NASA; restored by  Michel Vuijlsteke",
-          "license": "public-domain",
-          "licenseUrl": "",
-          "usageTerms": "Public domain",
-          "mime": "image/jpeg",
-          "description": "At 9:32 a.m. EDT, the swing arms move away and a plume of flame signals the liftoff of the  Apollo 11   Saturn V  space vehicle and astronauts Neil A. Armstrong, Michael Collins and Edwin E. Aldrin, Jr. from Kennedy Space Center Launch Complex 39A.",
-          "requiresVisualReview": true,
-          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
-        },
-        {
-          "state": "needs_manual_license_review",
-          "fileTitle": "File:Apollo 11 Lunar Lander - 5927 NASA.jpg",
-          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Apollo_11_Lunar_Lander_-_5927_NASA.jpg/1280px-Apollo_11_Lunar_Lander_-_5927_NASA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Apollo_11_Lunar_Lander_-_5927_NASA.jpg",
-          "creator": "Neil Armstrong",
-          "attribution": "Neil Armstrong",
-          "license": "public-domain",
-          "licenseUrl": "",
-          "usageTerms": "Public domain",
-          "mime": "image/jpeg",
-          "description": "Buzz Aldrin removing the passive seismometer from a compartment in the SEQ bay of the Lunar Lander.",
-          "requiresVisualReview": true,
-          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
-        },
-        {
-          "state": "needs_manual_license_review",
+          "state": "license_metadata_pass",
           "fileTitle": "File:Apollo 11 bootprint.jpg",
           "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Apollo_11_bootprint.jpg/1280px-Apollo_11_bootprint.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Apollo_11_bootprint.jpg",
@@ -678,7 +626,67 @@
           "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
         },
         {
-          "state": "needs_manual_license_review",
+          "state": "license_metadata_pass",
+          "fileTitle": "File:Apollo 11 Crew.jpg",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Apollo_11_Crew.jpg/1280px-Apollo_11_Crew.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Apollo_11_Crew.jpg",
+          "creator": "NASA",
+          "attribution": "NASA",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "image/jpeg",
+          "description": "The Apollo 11 lunar landing mission crew, pictured from left to right, Neil A. Armstrong, commander; Michael Collins, command module pilot; and Edwin E. Aldrin Jr., lunar module pilot.",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "license_metadata_pass",
+          "fileTitle": "File:Apollo 11 Launch - GPN-2000-000630.jpg",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Apollo_11_Launch_-_GPN-2000-000630.jpg/1280px-Apollo_11_Launch_-_GPN-2000-000630.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Apollo_11_Launch_-_GPN-2000-000630.jpg",
+          "creator": "NASA",
+          "attribution": "NASA",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "image/jpeg",
+          "description": "The Apollo 11 Saturn V rocket launch vehicle lifts-off with astronauts Neil A. Armstrong, Michael Collins and Edwin E. Aldrin, Jr., at 9:32 a.m. EDT July 16, 1969, from Kennedy Space Center's Launch Complex Pad 39A.",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "license_metadata_pass",
+          "fileTitle": "File:Apollo 11 Launch2.jpg",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Apollo_11_Launch2.jpg/1280px-Apollo_11_Launch2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Apollo_11_Launch2.jpg",
+          "creator": "NASA; restored by  Michel Vuijlsteke",
+          "attribution": "NASA; restored by  Michel Vuijlsteke",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "image/jpeg",
+          "description": "At 9:32 a.m. EDT, the swing arms move away and a plume of flame signals the liftoff of the  Apollo 11   Saturn V  space vehicle and astronauts Neil A. Armstrong, Michael Collins and Edwin E. Aldrin, Jr. from Kennedy Space Center Launch Complex 39A.",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "license_metadata_pass",
+          "fileTitle": "File:Apollo 11 Lunar Lander - 5927 NASA.jpg",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Apollo_11_Lunar_Lander_-_5927_NASA.jpg/1280px-Apollo_11_Lunar_Lander_-_5927_NASA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Apollo_11_Lunar_Lander_-_5927_NASA.jpg",
+          "creator": "Neil Armstrong",
+          "attribution": "Neil Armstrong",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "image/jpeg",
+          "description": "Buzz Aldrin removing the passive seismometer from a compartment in the SEQ bay of the Lunar Lander.",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "license_metadata_pass",
           "fileTitle": "File:Astronaut Edwin Aldrin descends the Lunar Module ladder, AS11-40-5868 (21037483754).jpg",
           "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Astronaut_Edwin_Aldrin_descends_the_Lunar_Module_ladder%2C_AS11-40-5868_%2821037483754%29.jpg/1280px-Astronaut_Edwin_Aldrin_descends_the_Lunar_Module_ladder%2C_AS11-40-5868_%2821037483754%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Astronaut_Edwin_Aldrin_descends_the_Lunar_Module_ladder,_AS11-40-5868_(21037483754).jpg",
@@ -693,7 +701,7 @@
           "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
         },
         {
-          "state": "needs_manual_license_review",
+          "state": "license_metadata_pass",
           "fileTitle": "File:Buzz Aldrin and Apollo 11 Lunar Lander, AS11-40-5927.jpg",
           "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Buzz_Aldrin_and_Apollo_11_Lunar_Lander%2C_AS11-40-5927.jpg/1280px-Buzz_Aldrin_and_Apollo_11_Lunar_Lander%2C_AS11-40-5927.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Buzz_Aldrin_and_Apollo_11_Lunar_Lander,_AS11-40-5927.jpg",
@@ -713,33 +721,12 @@
       "state": "awaiting_visual_and_license_review"
     },
     "mandela-release": {
-      "checkedAt": "2026-11-09T02:00:43.511702Z",
+      "checkedAt": "2026-11-09T02:05:35.233116Z",
       "queries": [
         "Nelson Mandela released prison 1990 photograph",
         "Nelson Mandela portrait"
       ],
       "candidates": [
-        {
-          "state": "license_metadata_pass",
-          "fileTitle": "File:Bust of Nelson Mandela, National Portrait Gallery, London.jpg",
-          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Bust_of_Nelson_Mandela%2C_National_Portrait_Gallery%2C_London.jpg/1280px-Bust_of_Nelson_Mandela%2C_National_Portrait_Gallery%2C_London.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Bust_of_Nelson_Mandela,_National_Portrait_Gallery,_London.jpg",
-          "creator": "14GTR",
-          "attribution": "14GTR",
-          "license": "cc-by-sa-4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-          "usageTerms": "Creative Commons Attribution-Share Alike 4.0",
-          "mime": "image/jpeg",
-          "description": "Bust of Nelson Mandela by Ian Walters, in the foyer of the  National Portrait Gallery, London. A 2008 bust based on a 2001 portrait",
-          "requiresVisualReview": true,
-          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
-          "visualCheck": {
-            "state": "relevant_candidate",
-            "confidence": "high",
-            "issues": [],
-            "explanation": "The image depicts a bust of Nelson Mandela, which is directly relevant to the inspiration about Nelson Mandela and his release from prison. The bust, created by Ian Walters and displayed in the National Portrait Gallery, London, represents Mandela and symbolically connects to the story of his long journey and eventual release, aligning well with the title 'A long road to change.' There are no visible issues with the provenance or relevance based on the given description and file title."
-          }
-        },
         {
           "state": "license_metadata_pass",
           "fileTitle": "File:Cape Town City Hall, Back entrance.jpg",
@@ -757,13 +744,33 @@
           "visualCheck": {
             "state": "needs_visual_review",
             "confidence": "high",
+            "issues": [],
+            "explanation": "The image depicts the back entrance of Cape Town City Hall, an architectural structure, with no visible or explicit connection to Nelson Mandela's release from prison or the specific story of 'A long road to change'. The description focuses on the building's design and features without mentioning any significant historical event related to Nelson Mandela, making the image not visibly relevant to the given inspiration."
+          }
+        },
+        {
+          "state": "license_metadata_pass",
+          "fileTitle": "File:Cape Town City Hall, black and white.jpg",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Cape_Town_City_Hall%2C_black_and_white.jpg/1280px-Cape_Town_City_Hall%2C_black_and_white.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Cape_Town_City_Hall,_black_and_white.jpg",
+          "creator": "Charis1025",
+          "attribution": "Charis1025",
+          "license": "cc-by-sa-3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "usageTerms": "Creative Commons Attribution-Share Alike 3.0",
+          "mime": "image/jpeg",
+          "description": "Cape Town City Hall\n The building was designed as the result of a public competition, the winning architects being Messrs Harry Austin Reid and Frederick George Green, with the contractors being Messrs T. Howard and F. G. Scott. Much of the building material, including fixtures and fittings was imported from Europe.\n  The tower of the City Hall has a Turret Clock which strikes the hours and chimes the Westminster quarters. The faces of the clock are made from 4 skeleton iron dials filled with op",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
+          "visualCheck": {
+            "state": "needs_visual_review",
+            "confidence": "high",
             "issues": [
-              "The image shows the back entrance of Cape Town City Hall, a building of architectural and historical significance in Cape Town, South Africa.",
-              "The inspiration is focused specifically on Nelson Mandela's release from prison, a significant historical and personal event.",
-              "There is no direct reference or visual indication in the image or description that connects this building to the event of Mandela’s release or the broader story of his long imprisonment and subsequent freedom.",
-              "No people, events, or symbols directly related to the inspiration are visible or described in the image context."
+              "Image depicts only a building with architectural details and no direct reference to Nelson Mandela or his release.",
+              "No visible elements linking the image to the theme of struggle, imprisonment, or release.",
+              "The description is about Cape Town City Hall's architecture, lacking historical context regarding Mandela."
             ],
-            "explanation": "While Cape Town City Hall is a notable landmark and could be contextually related to events in South African history, the specific image and description do not contain any direct or explicit connection to Nelson Mandela’s release from prison or his story. Therefore, it is not visibly relevant to the provided inspiration."
+            "explanation": "The image is a black and white photo of Cape Town City Hall, focusing on its architectural features. While Cape Town City Hall is historically linked to various events, there is no explicit visual or descriptive context connecting this photo to Nelson Mandela's release from prison. The inspiration centers on Mandela's release and related themes, which are not visible or referenced in this photo or its description."
           }
         },
         {
@@ -783,12 +790,8 @@
           "visualCheck": {
             "state": "needs_visual_review",
             "confidence": "high",
-            "issues": [
-              "Image depicts architecture (Cape Town City Hall) with no clear connection to Nelson Mandela or his release from prison.",
-              "No visible narrative or symbolism related to the inspiration theme 'A long road to change' or Mandela's incarceration/release.",
-              "Provenance is fairly certain as the description clearly states the subject is Cape Town City Hall."
-            ],
-            "explanation": "The image is a black and white photo of Cape Town City Hall, showing the building's architectural features. While Cape Town City Hall is historically significant and did have a role in events related to Mandela, this image itself contains no direct or visible markers connecting it specifically to Mandela's release after 27 years of captivity or to the theme 'A long road to change.' Therefore, the image is not visibly relevant to the provided inspiration."
+            "issues": [],
+            "explanation": "The image depicts Cape Town City Hall, a historic building, which does not directly represent or visually relate to the specific inspiration about Nelson Mandela's release from prison after 27 years. While Cape Town City Hall holds historical significance and could be contextually connected to Mandela's story, the image itself does not visibly convey the theme of Mandela's long imprisonment or his release, making it not directly relevant to the inspiration."
           }
         },
         {
@@ -796,21 +799,6 @@
           "fileTitle": "File:Cape Town City Hall, Clock Tower.jpg",
           "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Cape_Town_City_Hall%2C_Clock_Tower.jpg/1280px-Cape_Town_City_Hall%2C_Clock_Tower.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Cape_Town_City_Hall,_Clock_Tower.jpg",
-          "creator": "Charis1025",
-          "attribution": "Charis1025",
-          "license": "cc-by-sa-3.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-          "usageTerms": "Creative Commons Attribution-Share Alike 3.0",
-          "mime": "image/jpeg",
-          "description": "Cape Town City Hall\n The building was designed as the result of a public competition, the winning architects being Messrs Harry Austin Reid and Frederick George Green, with the contractors being Messrs T. Howard and F. G. Scott. Much of the building material, including fixtures and fittings was imported from Europe.\n  The tower of the City Hall has a Turret Clock which strikes the hours and chimes the Westminster quarters. The faces of the clock are made from 4 skeleton iron dials filled with op",
-          "requiresVisualReview": true,
-          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
-        },
-        {
-          "state": "license_metadata_pass",
-          "fileTitle": "File:Cape Town City Hall, black and white.jpg",
-          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Cape_Town_City_Hall%2C_black_and_white.jpg/1280px-Cape_Town_City_Hall%2C_black_and_white.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Cape_Town_City_Hall,_black_and_white.jpg",
           "creator": "Charis1025",
           "attribution": "Charis1025",
           "license": "cc-by-sa-3.0",
@@ -853,6 +841,51 @@
         },
         {
           "state": "license_metadata_pass",
+          "fileTitle": "File:The Cape Town City Hall, Black and White.jpg",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/The_Cape_Town_City_Hall%2C_Black_and_White.jpg/1280px-The_Cape_Town_City_Hall%2C_Black_and_White.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:The_Cape_Town_City_Hall,_Black_and_White.jpg",
+          "creator": "Charis1025",
+          "attribution": "Charis1025",
+          "license": "cc-by-sa-3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "usageTerms": "Creative Commons Attribution-Share Alike 3.0",
+          "mime": "image/jpeg",
+          "description": "Cape Town City Hall\n The building was designed as the result of a public competition, the winning architects being Messrs Harry Austin Reid and Frederick George Green, with the contractors being Messrs T. Howard and F. G. Scott. Much of the building material, including fixtures and fittings was imported from Europe.\n  The tower of the City Hall has a Turret Clock which strikes the hours and chimes the Westminster quarters. The faces of the clock are made from 4 skeleton iron dials filled with op",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "license_metadata_pass",
+          "fileTitle": "File:The Liberation of Nelson mandela.jpg",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/37/The_Liberation_of_Nelson_mandela.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:The_Liberation_of_Nelson_mandela.jpg",
+          "creator": "Funk newman",
+          "attribution": "Funk newman",
+          "license": "cc-by-sa-4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "usageTerms": "Creative Commons Attribution-Share Alike 4.0",
+          "mime": "image/jpeg",
+          "description": "Liberation of Nelson mandela : Portrait by Jan Beekman at the United Nations New York",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "license_metadata_pass",
+          "fileTitle": "File:Bust of Nelson Mandela, National Portrait Gallery, London.jpg",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Bust_of_Nelson_Mandela%2C_National_Portrait_Gallery%2C_London.jpg/1280px-Bust_of_Nelson_Mandela%2C_National_Portrait_Gallery%2C_London.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Bust_of_Nelson_Mandela,_National_Portrait_Gallery,_London.jpg",
+          "creator": "14GTR",
+          "attribution": "14GTR",
+          "license": "cc-by-sa-4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "usageTerms": "Creative Commons Attribution-Share Alike 4.0",
+          "mime": "image/jpeg",
+          "description": "Bust of Nelson Mandela by Ian Walters, in the foyer of the  National Portrait Gallery, London. A 2008 bust based on a 2001 portrait",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "license_metadata_pass",
           "fileTitle": "File:Mandela bust, NPG London.jpg",
           "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Mandela_bust%2C_NPG_London.jpg/1280px-Mandela_bust%2C_NPG_London.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Mandela_bust,_NPG_London.jpg",
@@ -863,36 +896,6 @@
           "usageTerms": "Creative Commons Attribution-Share Alike 4.0",
           "mime": "image/jpeg",
           "description": "Bust of Nelson Mandela by Ian Walters in the foyer of the  National Portrait Gallery, London, a 2008 bronze based on a 2001 portrait. Adjacent is a bust of Marion Dorn by Frank Dobson",
-          "requiresVisualReview": true,
-          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
-        },
-        {
-          "state": "license_metadata_pass",
-          "fileTitle": "File:Nelson Mandla NPG bust detail 01.jpg",
-          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Nelson_Mandla_NPG_bust_detail_01.jpg/1280px-Nelson_Mandla_NPG_bust_detail_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Nelson_Mandla_NPG_bust_detail_01.jpg",
-          "creator": "14GTR",
-          "attribution": "14GTR",
-          "license": "cc0",
-          "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-          "usageTerms": "Creative Commons Zero, Public Domain Dedication",
-          "mime": "image/jpeg",
-          "description": "Bust of Nelson Mandela by Ian Walters, 2008, from a 2001 design, in the  National Portrait Gallery, London",
-          "requiresVisualReview": true,
-          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
-        },
-        {
-          "state": "license_metadata_pass",
-          "fileTitle": "File:Nelson Mandla NPG bust detail 02.jpg",
-          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Nelson_Mandla_NPG_bust_detail_02.jpg/1280px-Nelson_Mandla_NPG_bust_detail_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Nelson_Mandla_NPG_bust_detail_02.jpg",
-          "creator": "14GTR",
-          "attribution": "14GTR",
-          "license": "cc0",
-          "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-          "usageTerms": "Creative Commons Zero, Public Domain Dedication",
-          "mime": "image/jpeg",
-          "description": "Bust of Nelson Mandela by Ian Walters, 2008, from a 2001 design, in the  National Portrait Gallery, London",
           "requiresVisualReview": true,
           "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
         }
