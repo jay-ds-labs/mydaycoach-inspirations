@@ -7619,6 +7619,16 @@
       "errors": [],
       "selected": null,
       "state": "awaiting_visual_and_license_review"
+    },
+    "generated-8708a154934f4a84b2f4": {
+      "checkedAt": "2026-11-09T23:01:43.219633Z",
+      "queries": [
+        "The Halifax Explosion: Split-Second Mercy in a Moment of Catastrophe"
+      ],
+      "candidates": [],
+      "errors": [],
+      "selected": null,
+      "state": "awaiting_visual_and_license_review"
     }
   }
 }

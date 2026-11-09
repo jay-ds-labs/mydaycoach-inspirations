@@ -2427,6 +2427,53 @@
       "factualRisk": "low",
       "imageStatus": "awaiting_visual_and_license_review",
       "publication": "ready_for_publish"
+    },
+    "generated-8708a154934f4a84b2f4": {
+      "state": "review_failed",
+      "checkedAt": "2026-11-09T23:01:43.219646Z",
+      "source": "https://novascotia.ca/archives/virtual/halifax/explosion.asp",
+      "reviewAttempts": [
+        {
+          "attempt": 1,
+          "approved": false,
+          "issues": [
+            "Generation/review error: HTTP Error 503: Service Unavailable"
+          ]
+        },
+        {
+          "attempt": 2,
+          "approved": false,
+          "issues": [
+            "Generation/review error: HTTP Error 503: Service Unavailable"
+          ]
+        },
+        {
+          "attempt": 3,
+          "approved": false,
+          "issues": [
+            "Generated article length 508 outside 600-1100 words"
+          ]
+        }
+      ],
+      "attemptCount": 3,
+      "reviewFailureSummary": "Article not yet approved by reviewer; Saved text has not passed a matching editorial review",
+      "sourceAccessible": true,
+      "sourceUrls": [
+        "https://novascotia.ca/archives/virtual/halifax/explosion.asp",
+        "https://en.wikipedia.org/wiki/New_Brunswick"
+      ],
+      "sourceCount": 2,
+      "wordCount": 813,
+      "reviewedTextMatchesSaved": false,
+      "originalSource": "https://novascotia.ca/archives/virtual/halifax/explosion.asp",
+      "evidenceSource": "https://novascotia.ca/archives/virtual/halifax/explosion.asp",
+      "issues": [
+        "Article not yet approved by reviewer",
+        "Saved text has not passed a matching editorial review"
+      ],
+      "factualRisk": "high",
+      "imageStatus": "awaiting_visual_and_license_review",
+      "publication": "ready_for_publish"
     }
   }
 }
