@@ -7377,6 +7377,55 @@
       "errors": [],
       "selected": null,
       "state": "awaiting_visual_and_license_review"
+    },
+    "generated-b95e6966fa494baab3e8": {
+      "checkedAt": "2026-11-09T22:58:49.827819Z",
+      "queries": [
+        "Wilhelm Röntgen and the Glimpse Beyond the Visible"
+      ],
+      "candidates": [
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Our Environment- How We Adapt Ourselves to It. Book 2 (IA ourenvironmentho00carp 0).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Our_Environment-_How_We_Adapt_Ourselves_to_It._Book_2_%28IA_ourenvironmentho00carp_0%29.pdf/page1-500px-Our_Environment-_How_We_Adapt_Ourselves_to_It._Book_2_%28IA_ourenvironmentho00carp_0%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Our_Environment-_How_We_Adapt_Ourselves_to_It._Book_2_(IA_ourenvironmentho00carp_0).pdf",
+          "creator": "Carpenter, Harry A. \n Wood, George C.",
+          "attribution": "Carpenter, Harry A. \n Wood, George C.",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Subjects: Environment; Solar System; Planets; Earth Measurements; Weather; Storms; Water; Sanitation; Farms; Gardens; Conservation; Food; Health; Experimental Problems",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
+          "visualCheck": {
+            "state": "not_checked",
+            "reason": "No API key or license metadata not approved"
+          }
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:The making of the world (IA makingofworld00meyerich).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/The_making_of_the_world_%28IA_makingofworld00meyerich%29.pdf/page1-500px-The_making_of_the_world_%28IA_makingofworld00meyerich%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:The_making_of_the_world_(IA_makingofworld00meyerich).pdf",
+          "creator": "Meyer, M. W. (Max Wilhelm), 1853-1910 \n Untermann, Ernest",
+          "attribution": "Meyer, M. W. (Max Wilhelm), 1853-1910 \n Untermann, Ernest",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Subjects: Cosmogony",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
+          "visualCheck": {
+            "state": "not_checked",
+            "reason": "No API key or license metadata not approved"
+          }
+        }
+      ],
+      "errors": [],
+      "selected": null,
+      "state": "awaiting_visual_and_license_review"
     }
   }
 }
