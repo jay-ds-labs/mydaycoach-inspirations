@@ -6368,6 +6368,179 @@
       "errors": [],
       "selected": null,
       "state": "awaiting_visual_and_license_review"
+    },
+    "reflection-029": {
+      "checkedAt": "2026-11-09T22:50:04.558954Z",
+      "queries": [
+        "Support someone else's growth"
+      ],
+      "candidates": [
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:(H.A.S.C. No. 114-82) AFGHANISTAN IN 2016- THE EVOLVING SECURITY SITUATION AND U.S. POLICY, STRATEGY, AND POSTURE (IA gov.gpo.fdsys.CHRG-114hhrg98891).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/%28H.A.S.C._No._114-82%29_AFGHANISTAN_IN_2016-_THE_EVOLVING_SECURITY_SITUATION_AND_U.S._POLICY%2C_STRATEGY%2C_AND_POSTURE_%28IA_gov.gpo.fdsys.CHRG-114hhrg98891%29.pdf/page1-960px-%28H.A.S.C._No._114-82%29_AFGHANISTAN_IN_2016-_THE_EVOLVING_SECURITY_SITUATION_AND_U.S._POLICY%2C_STRATEGY%2C_AND_POSTURE_%28IA_gov.gpo.fdsys.CHRG-114hhrg98891%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:(H.A.S.C._No._114-82)_AFGHANISTAN_IN_2016-_THE_EVOLVING_SECURITY_SITUATION_AND_U.S._POLICY,_STRATEGY,_AND_POSTURE_(IA_gov.gpo.fdsys.CHRG-114hhrg98891).pdf",
+          "creator": "Committee on Armed Services",
+          "attribution": "Committee on Armed Services",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Government Publishing Office   U.S. Congress House of Representatives Committee on Armed Services  [H.A.S.C. No. 114-82] AFGHANISTAN IN 2016: THE EVOLVING SECURITY SITUATION AND U.S. POLICY, STRATEGY, AND POSTURE  Date(s) Held: 2016-02-02   114th Congress, 2nd Session  GPO Document Source:  https://www.gpo.gov/fdsys/pkg/CHRG-114hhrg98891/content-detail.html \" rel=\"nofollow\">CHRG-114hhrg98891   Witnesses:   Campbell, GEN John F., USA, Commander, Operation Resolute Support, U.S. Forces-Afghanistan",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
+          "visualCheck": {
+            "state": "not_checked",
+            "reason": "No API key or license metadata not approved"
+          }
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:(Report) Research findings for Growth Progression System.pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/%28Report%29_Research_findings_for_Growth_Progression_System.pdf/page1-960px-%28Report%29_Research_findings_for_Growth_Progression_System.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:(Report)_Research_findings_for_Growth_Progression_System.pdf",
+          "creator": "Dchen (WMF)",
+          "attribution": "Dchen (WMF)",
+          "license": "cc-by-sa-4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "usageTerms": "Creative Commons Attribution-Share Alike 4.0",
+          "mime": "application/pdf",
+          "description": "Final report for a Wikimedia Foundation Research study on newer editors' experiences and their feedback on a prototype on-wiki progression system",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
+          "visualCheck": {
+            "state": "not_checked",
+            "reason": "No API key or license metadata not approved"
+          }
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:BREAKING THE SILVER CEILING- A NEW GENERATION OF OLDER AMERICANS REDEFINING THE NEW RULES OF THE WORKPLACE (IA gov.gpo.fdsys.CHRG-108shrg97086).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/BREAKING_THE_SILVER_CEILING-_A_NEW_GENERATION_OF_OLDER_AMERICANS_REDEFINING_THE_NEW_RULES_OF_THE_WORKPLACE_%28IA_gov.gpo.fdsys.CHRG-108shrg97086%29.pdf/page1-960px-BREAKING_THE_SILVER_CEILING-_A_NEW_GENERATION_OF_OLDER_AMERICANS_REDEFINING_THE_NEW_RULES_OF_THE_WORKPLACE_%28IA_gov.gpo.fdsys.CHRG-108shrg97086%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:BREAKING_THE_SILVER_CEILING-_A_NEW_GENERATION_OF_OLDER_AMERICANS_REDEFINING_THE_NEW_RULES_OF_THE_WORKPLACE_(IA_gov.gpo.fdsys.CHRG-108shrg97086).pdf",
+          "creator": "Congressional Committee",
+          "attribution": "Congressional Committee",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Government Publishing Office   U.S. Congress Senate Congressional Committee  BREAKING THE SILVER CEILING: A NEW GENERATION OF OLDER AMERICANS REDEFINING THE NEW RULES OF THE WORKPLACE  Date(s) Held: 2004-09-20   108th Congress, 2nd Session  GPO Document Source:  https://www.gpo.gov/fdsys/pkg/CHRG-108shrg97086/content-detail.html \" rel=\"nofollow\">CHRG-108shrg97086   Related Items: \n Subjects: 108th;Senate",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
+          "visualCheck": {
+            "state": "not_checked",
+            "reason": "No API key or license metadata not approved"
+          }
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:CHALLENGES TO SMALL BUSINESS GROWTH (IA gov.gpo.fdsys.CHRG-108hhrg93893).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/CHALLENGES_TO_SMALL_BUSINESS_GROWTH_%28IA_gov.gpo.fdsys.CHRG-108hhrg93893%29.pdf/page1-960px-CHALLENGES_TO_SMALL_BUSINESS_GROWTH_%28IA_gov.gpo.fdsys.CHRG-108hhrg93893%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:CHALLENGES_TO_SMALL_BUSINESS_GROWTH_(IA_gov.gpo.fdsys.CHRG-108hhrg93893).pdf",
+          "creator": "Committee on Small Business",
+          "attribution": "Committee on Small Business",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Government Publishing Office   U.S. Congress House of Representatives Committee on Small Business   CHALLENGES TO SMALL BUSINESS GROWTH  Date(s) Held: 2004-03-01   108th Congress, 2nd Session  GPO Document Source:  https://www.gpo.gov/fdsys/pkg/CHRG-108hhrg93893/content-detail.html \" rel=\"nofollow\">CHRG-108hhrg93893  Superintendents of Documents ID: Y 4.SM 1  Witnesses:   Page Griffin, Mr. Randy, CSRA Business Lending  Elam, Mr. Terry, Augusta Technical College  Logan, Mr. Henry H., Georgia Smal",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Considerations for the design and implementation of a management support system for the Electronic Warfare System Support Laboratory. (IA considerationsfo00bank).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Considerations_for_the_design_and_implementation_of_a_management_support_system_for_the_Electronic_Warfare_System_Support_Laboratory._%28IA_considerationsfo00bank%29.pdf/page1-960px-thumbnail.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Considerations_for_the_design_and_implementation_of_a_management_support_system_for_the_Electronic_Warfare_System_Support_Laboratory._(IA_considerationsfo00bank).pdf",
+          "creator": "Banks, Harry G. III.",
+          "attribution": "Banks, Harry G. III.",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Includes bibliographical references (p. [197]-208) and index \n dk/aq cc:9410 9/10/01  \n Subjects: Management",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:ECONOMIC GROWTH AND JOB CREATION (IA gov.gpo.fdsys.CHRG-108hhrg92796).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/ECONOMIC_GROWTH_AND_JOB_CREATION_%28IA_gov.gpo.fdsys.CHRG-108hhrg92796%29.pdf/page1-960px-ECONOMIC_GROWTH_AND_JOB_CREATION_%28IA_gov.gpo.fdsys.CHRG-108hhrg92796%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:ECONOMIC_GROWTH_AND_JOB_CREATION_(IA_gov.gpo.fdsys.CHRG-108hhrg92796).pdf",
+          "creator": "Committee on Small Business",
+          "attribution": "Committee on Small Business",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Government Publishing Office   U.S. Congress House of Representatives Committee on Small Business   ECONOMIC GROWTH AND JOB CREATION  Date(s) Held: 2003-09-02   108th Congress, 1st Session  GPO Document Source:  https://www.gpo.gov/fdsys/pkg/CHRG-108hhrg92796/content-detail.html \" rel=\"nofollow\">CHRG-108hhrg92796  Superintendents of Documents ID: Y 4.SM 1  Witnesses:   Page Perdue, The Hon. Sonny, Governor, State of Georgia  Akin, The Hon. Todd, U.S. Representative, Missouri  Collins, The Hon. M",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:HEAL- BCC Teacher Support (IA MH02D5298).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/HEAL-_BCC_Teacher_Support_%28IA_MH02D5298%29.pdf/page1-960px-HEAL-_BCC_Teacher_Support_%28IA_MH02D5298%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:HEAL-_BCC_Teacher_Support_(IA_MH02D5298).pdf",
+          "creator": "",
+          "attribution": "",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Subjects: LOW LITERACY MATERIALS; TRAINING PROGRAMS; SOCIAL SERVICES; CULTURAL COMPETENCE; HEALTH EDUCATION PROGRAMS; BREAST CANCER; CERVICAL CANCER",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:MOVING FORWARD ON HAITI- HOW THE U.S. AND THE INTERNATIONAL COMMUNITY CAN HELP (IA gov.gpo.fdsys.CHRG-109hhrg30144).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/MOVING_FORWARD_ON_HAITI-_HOW_THE_U.S._AND_THE_INTERNATIONAL_COMMUNITY_CAN_HELP_%28IA_gov.gpo.fdsys.CHRG-109hhrg30144%29.pdf/page1-960px-MOVING_FORWARD_ON_HAITI-_HOW_THE_U.S._AND_THE_INTERNATIONAL_COMMUNITY_CAN_HELP_%28IA_gov.gpo.fdsys.CHRG-109hhrg30144%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:MOVING_FORWARD_ON_HAITI-_HOW_THE_U.S._AND_THE_INTERNATIONAL_COMMUNITY_CAN_HELP_(IA_gov.gpo.fdsys.CHRG-109hhrg30144).pdf",
+          "creator": "Committee on Foreign Affairs",
+          "attribution": "Committee on Foreign Affairs",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Government Publishing Office   U.S. Congress House of Representatives Committee on International Relations Committee on Foreign Affairs  MOVING FORWARD ON HAITI: HOW THE U.S. AND THE INTERNATIONAL COMMUNITY CAN HELP  Date(s) Held: 2006-09-28   109th Congress, 2nd Session  GPO Document Source:  https://www.gpo.gov/fdsys/pkg/CHRG-109hhrg30144/content-detail.html \" rel=\"nofollow\">CHRG-109hhrg30144  Superintendents of Documents ID: Y 4.IN 8/16  Related Items:   Congressional Serial No. 109-238  \n Su",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:The Examiner Vol. 4 No. 3 (IA March1996Examiner).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/The_Examiner_Vol._4_No._3_%28IA_March1996Examiner%29.pdf/page1-960px-The_Examiner_Vol._4_No._3_%28IA_March1996Examiner%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:The_Examiner_Vol._4_No._3_(IA_March1996Examiner).pdf",
+          "creator": "U.S. Navy. Naval Hospital Twentynine Palms",
+          "attribution": "U.S. Navy. Naval Hospital Twentynine Palms",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Hospital awarded SECNAV Letter of Commendation It's not just a job ... but an adventure! The Directorate For Administration: Quietly working behind the scenes to provide critical support services for the health care team WHAT! More Talk About Fit Reps! Chaplain 's Corner. .. In Perfect Health Command Career Counselor's Corner Patient Appreciation Day scheduled Letters ... Hospital's Health Promotion classes a hit with 'Sugarless Babies' Quesfions? Try the \"Hospital Mailbox\" \n \n Subjects: NH Twen",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:The growth of English industry and commerce during the early and middle ages (IA cu31924014033884).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/The_growth_of_English_industry_and_commerce_during_the_early_and_middle_ages_%28IA_cu31924014033884%29.pdf/page1-500px-The_growth_of_English_industry_and_commerce_during_the_early_and_middle_ages_%28IA_cu31924014033884%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:The_growth_of_English_industry_and_commerce_during_the_early_and_middle_ages_(IA_cu31924014033884).pdf",
+          "creator": "Cunningham, W. (William), 1849-1919",
+          "attribution": "Cunningham, W. (William), 1849-1919",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "The metadata below describe the original scanning. Follow the \"All Files: HTTP\" link in the \"View the book\" box to the left to find XML files that contain more metadata about the original images and the derived formats (OCR results, PDF etc.). See also the  What is the directory structure for the texts?  FAQ for information about file content and naming conventions. \n \"First instalment of the second edition of my Growth of English industry and commerce, published in 1882.\"--Pref \n \"List of autho",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        }
+      ],
+      "errors": [],
+      "selected": null,
+      "state": "awaiting_visual_and_license_review"
     }
   }
 }

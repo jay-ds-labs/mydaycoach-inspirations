@@ -1301,6 +1301,54 @@
       "factualRisk": "low",
       "imageStatus": "awaiting_visual_and_license_review",
       "publication": "ready_for_publish"
+    },
+    "reflection-029": {
+      "state": "review_failed",
+      "checkedAt": "2026-11-09T22:50:04.558970Z",
+      "source": "https://plato.stanford.edu/entries/ethics/",
+      "reviewAttempts": [
+        {
+          "attempt": 1,
+          "approved": false,
+          "issues": [
+            "Generated article length 595 outside 600-1100 words"
+          ]
+        },
+        {
+          "attempt": 2,
+          "approved": false,
+          "issues": [
+            "Article's central claims about Ali's mentorship, encouragement, and direct support to others are framed as factual but lack specific supporting evidence in the supplied source.",
+            "The source provides Ali's background and achievements, but does not give explicit examples or documentation of Ali's mentoring relationships or the concrete ways he fostered others' growth beyond public inspiration.",
+            "The philosophical discussion about classical ethics and references to the Stanford Encyclopedia is general and not directly anchored to evidence in the supplied source."
+          ]
+        },
+        {
+          "attempt": 3,
+          "approved": false,
+          "issues": [
+            "Generated article length 484 outside 600-1100 words"
+          ]
+        }
+      ],
+      "attemptCount": 3,
+      "reviewFailureSummary": "Article not yet approved by reviewer; Saved text has not passed a matching editorial review",
+      "sourceAccessible": true,
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Muhammad_Ali"
+      ],
+      "sourceCount": 1,
+      "wordCount": 754,
+      "reviewedTextMatchesSaved": false,
+      "originalSource": "https://plato.stanford.edu/entries/ethics/",
+      "evidenceSource": "https://en.wikipedia.org/wiki/Muhammad_Ali",
+      "issues": [
+        "Article not yet approved by reviewer",
+        "Saved text has not passed a matching editorial review"
+      ],
+      "factualRisk": "high",
+      "imageStatus": "awaiting_visual_and_license_review",
+      "publication": "ready_for_publish"
     }
   }
 }
