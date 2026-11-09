@@ -39,7 +39,7 @@ jobs:
           python3 -m unittest discover -s tests -p "test_*.py" -v
       - name: Audit images
         env:
-          OPENAI_API_KEY: ${{ inputs.visual_review && secrets.OPENAI_API_KEY || ''} }
+          OPENAI_API_KEY: ${{ inputs.visual_review && secrets.OPENAI_API_KEY || '' }}
           IMAGE_AUDIT_BATCH_SIZE: ${{ inputs.batch_size }}
           IMAGE_AUDIT_ONLY_MISSING: ${{ inputs.only_missing }}
         run: python3 scripts/audit_images.py
