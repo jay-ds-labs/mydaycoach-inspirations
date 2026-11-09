@@ -16,7 +16,7 @@ REVIEWS=ROOT/"enrichment-review.json"
 STATUS=ROOT/"image-audit-status.json"
 API="https://commons.wikimedia.org/w/api.php"
 HEADERS={"User-Agent":"MyDayCoachEditorial/1.2 (https://github.com/jay-ds-labs/mydaycoach-inspirations)"}
-ALLOWED={"cc0","public domain","pd","cc-by-4.0","cc-by-sa-4.0",
+ALLOWED={"cc0","public-domain","public domain","pd","cc-by-4.0","cc-by-sa-4.0",
          "cc-by-3.0","cc-by-sa-3.0","cc-by-2.0","cc-by-sa-2.0"}
 QUERIES={
     "apollo-11":["Apollo 11 Buzz Aldrin lunar surface NASA","Apollo 11 moon landing NASA"],
@@ -119,7 +119,24 @@ def candidates(item):
                     found[result["fileTitle"]]=result
         except Exception as exc:
             errors.append(query+": "+str(exc)[:180])
-    ranked=sorted(found.values(),key=lambda x:(x["state"]!="license_metadata_pass",x["fileTitle"]))
+    def relevance_priority(candidate):
+        title=candidate["fileTitle"].lower()
+        item_id=item.get("id","")
+        penalize=any(word in title for word in ("sculpture","statue","bust","plaque","museum","replica","model"))
+        if item_id=="curie-nobel":
+            priority=("curie" in title and ("portrait" in title or "1903" in title))
+        elif item_id=="apollo-11":
+            priority=("aldrin" in title or "apollo 11" in title)
+        elif item_id=="wright-flight":
+            priority=("first flight" in title or "1903" in title)
+        elif item_id=="everest-summit":
+            priority=("hillary" in title and "tenzing" in title)
+        elif item_id=="mandela-release":
+            priority=("mandela" in title and ("1990" in title or "release" in title))
+        else:
+            priority=False
+        return (candidate["state"]!="license_metadata_pass",penalize,not priority,title)
+    ranked=sorted(found.values(),key=relevance_priority)
     for candidate in ranked[:3]:
         candidate["visualCheck"]=visual_check(item,candidate)
     return ranked[:10],errors
