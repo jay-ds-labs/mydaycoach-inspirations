@@ -1520,6 +1520,52 @@
       "factualRisk": "low",
       "imageStatus": "awaiting_visual_and_license_review",
       "publication": "ready_for_publish"
+    },
+    "generated-b81a4035c8844769a302": {
+      "state": "review_failed",
+      "checkedAt": "2026-11-09T22:53:09.688888Z",
+      "source": "https://www.statisticsviews.com/details/feature/4713541/Florence-Nightingale-The-founder-of-modern-nursing-and-a-pioneer-in-statistics.html",
+      "reviewAttempts": [
+        {
+          "attempt": 1,
+          "approved": false,
+          "issues": [
+            "Generated article length 295 outside 600-1100 words"
+          ]
+        },
+        {
+          "attempt": 2,
+          "approved": false,
+          "issues": [
+            "Generated article length 506 outside 600-1100 words"
+          ]
+        },
+        {
+          "attempt": 3,
+          "approved": false,
+          "issues": [
+            "Generated article length 582 outside 600-1100 words"
+          ]
+        }
+      ],
+      "attemptCount": 3,
+      "reviewFailureSummary": "Generated article length 582 outside 600-1100 words; Saved text has not passed a matching editorial review",
+      "sourceAccessible": true,
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Android_%28operating_system%29"
+      ],
+      "sourceCount": 1,
+      "wordCount": 649,
+      "reviewedTextMatchesSaved": false,
+      "originalSource": "https://www.statisticsviews.com/details/feature/4713541/Florence-Nightingale-The-founder-of-modern-nursing-and-a-pioneer-in-statistics.html",
+      "evidenceSource": "https://en.wikipedia.org/wiki/Android_%28operating_system%29",
+      "issues": [
+        "Generated article length 582 outside 600-1100 words",
+        "Saved text has not passed a matching editorial review"
+      ],
+      "factualRisk": "high",
+      "imageStatus": "awaiting_visual_and_license_review",
+      "publication": "ready_for_publish"
     }
   }
 }

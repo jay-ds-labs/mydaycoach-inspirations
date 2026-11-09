@@ -6887,6 +6887,55 @@
       "errors": [],
       "selected": null,
       "state": "awaiting_visual_and_license_review"
+    },
+    "generated-b81a4035c8844769a302": {
+      "checkedAt": "2026-11-09T22:53:09.688872Z",
+      "queries": [
+        "The Quiet Intensity of Florence Nightingale: Statistics and the Light of Truth"
+      ],
+      "candidates": [
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Importance of direct sunlight in the work-room - usefulness in art, and its bearings upon the general health (IA 101177579.nlm.nih.gov).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Importance_of_direct_sunlight_in_the_work-room_-_usefulness_in_art%2C_and_its_bearings_upon_the_general_health_%28IA_101177579.nlm.nih.gov%29.pdf/page1-500px-Importance_of_direct_sunlight_in_the_work-room_-_usefulness_in_art%2C_and_its_bearings_upon_the_general_health_%28IA_101177579.nlm.nih.gov%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Importance_of_direct_sunlight_in_the_work-room_-_usefulness_in_art,_and_its_bearings_upon_the_general_health_(IA_101177579.nlm.nih.gov).pdf",
+          "creator": "Farrar, John Nutting, 1839-1913, author",
+          "attribution": "Farrar, John Nutting, 1839-1913, author",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "19 pages : 23 cm \n Cover title \n Reprinted from: Transactions of the American Dental Association \n \"A report in the Section on Physiology, made before the seventeenth Annual Session of the American Dental Association.\" \n Condition reviewed 20170802 \n digitized. 2019  \n Subjects: Sunlight; Dental Offices; Occupational Health",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
+          "visualCheck": {
+            "state": "not_checked",
+            "reason": "No API key or license metadata not approved"
+          }
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:The spirit of democracy (IA spiritofdemocrac02powe).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/The_spirit_of_democracy_%28IA_spiritofdemocrac02powe%29.pdf/page1-500px-The_spirit_of_democracy_%28IA_spiritofdemocrac02powe%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:The_spirit_of_democracy_(IA_spiritofdemocrac02powe).pdf",
+          "creator": "Powell, Lyman P. (Lyman Pierson), b. 1866 \n Powell, Gertrude Wilson, 1874-",
+          "attribution": "Powell, Lyman P. (Lyman Pierson), b. 1866 \n Powell, Gertrude Wilson, 1874-",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "\"Many of the most stirring speeches and virile poems applicable to the present war.\"--Pref\n \n Subjects: World War, 1914-1918; Readers",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
+          "visualCheck": {
+            "state": "not_checked",
+            "reason": "No API key or license metadata not approved"
+          }
+        }
+      ],
+      "errors": [],
+      "selected": null,
+      "state": "awaiting_visual_and_license_review"
     }
   }
 }
