@@ -27,6 +27,7 @@ MODEL=os.getenv("OPENAI_CONTENT_MODEL","gpt-4.1")
 REVIEW_MODEL=os.getenv("OPENAI_REVIEW_MODEL",MODEL)
 BATCH_SIZE=max(1,min(20,int(os.getenv("ENRICH_BATCH_SIZE","10"))))
 RETRY_REVIEW=os.getenv("ENRICH_RETRY_REVIEW","false").lower()=="true"
+MAX_ATTEMPTS=max(1,min(3,int(os.getenv("ENRICH_MAX_ATTEMPTS","3"))))
 
 # Targeted primary or institutional sources for the five pilot articles.
 # Generic homepages are inadequate evidence for a 750-word historical article.
@@ -124,10 +125,11 @@ def main():
     feed=json.loads(FEED.read_text(encoding="utf-8"))
     original=[x for x in feed["items"] if x.get("status")!="published"]
     reviews=json.loads(REVIEWS.read_text(encoding="utf-8")) if REVIEWS.exists() else {"items":{}}
-    done={k for k,v in reviews["items"].items() if v.get("state")=="approved" or (v.get("state")=="needs_review" and not RETRY_REVIEW)}
-    remaining=[x for x in original if x["id"] not in done]
+    done={k for k,v in reviews["items"].items() if v.get("state") in ("approved","review_failed","needs_review")}
     if RETRY_REVIEW:
-        remaining=[x for x in remaining if reviews["items"].get(x["id"],{}).get("state")=="needs_review"]
+        remaining=[x for x in original if reviews["items"].get(x["id"],{}).get("state") in ("review_failed","needs_review")]
+    else:
+        remaining=[x for x in original if x["id"] not in done]
     selected=remaining[:BATCH_SIZE]
     images=json.loads(IMAGES.read_text(encoding="utf-8")) if IMAGES.exists() else {"items":{}}
     status={"state":"running","stage":"generation","completed":len(done),
@@ -145,19 +147,22 @@ def main():
             records,source_errors=discover_sources(item,preferred_source,fetch=evidence)
             source=evidence_bundle(records)
             source_urls=[r["url"] for r in records]
-            issues=[];best_detail="";best_result=None;best_issues=[]
-            last_detail="";last_result=None
+            issues=[];best_detail="";best_result=None;best_issues=[];attempts=[]
+            approved=False
             if not records:
                 issues=["No subject-specific evidence found"]+source_errors
             else:
                 status["stage"]="generation"
-                for attempt in range(5):
+                for attempt in range(MAX_ATTEMPTS):
+                    attempt_record={"attempt":attempt+1,"approved":False,"issues":[]}
                     try:
                         draft=compose(item,source,"; ".join(issues))
                         detail=str(draft.get("detail",""))
                         words=len(detail.split())
                         if not MIN_WORDS<=words<=MAX_WORDS:
                             issues=["Generated article length "+str(words)+" outside 600-1100 words"]
+                            attempt_record["issues"]=issues[:3]
+                            attempts.append(attempt_record)
                             continue
                         status["generated"]+=1
                         status["stage"]="review"
@@ -166,17 +171,21 @@ def main():
                         # Python owns deterministic length checks; ignore numerical model errors.
                         editorial_issues=[str(x)[:300] for x in result.get("issues",[])
                             if not re.search(r"(word count|article length|\\bwords?\\b.*\\b(600|1100)\\b|\\b(600|1100)\\b.*\\bwords?\\b)",str(x),re.I)]
-                        editorial_pass=bool(result.get("approved")) or (
-                            not editorial_issues and result.get("factual_risk")=="low")
-                        last_detail=detail;last_result=result
+                        editorial_pass=result.get("approved") is True and not editorial_issues
+                        attempt_record["approved"]=editorial_pass
+                        attempt_record["issues"]=editorial_issues[:3]
                         if editorial_pass:
                             best_detail=detail;best_result=result;best_issues=[]
+                            attempts.append(attempt_record)
                             break
-                        if not best_detail:
-                            best_detail=detail;best_result=result;best_issues=editorial_issues
+                        if not best_detail or len(editorial_issues)<len(best_issues):
+                            best_detail=detail;best_result=result;best_issues=editorial_issues or ["Reviewer did not approve"]
+                        attempts.append(attempt_record)
                         issues=editorial_issues or ["Factual or editorial review did not approve"]
                     except Exception as error:
                         issues=["Generation/review error: "+str(error)[:250]]
+                        attempt_record["issues"]=issues[:3]
+                        attempts.append(attempt_record)
                     time.sleep(1)
             # Preserve existing valid text if all new attempts fail; never claim it passed.
             if best_detail:
@@ -187,7 +196,7 @@ def main():
             saved_words=len(saved_detail.split())
             exact_review=bool(best_detail) and saved_detail==best_detail
             approved=bool(best_result) and exact_review and not best_issues and best_result.get("approved") is True
-            state="approved" if approved and records and MIN_WORDS<=saved_words<=MAX_WORDS else "needs_review"
+            state="approved" if approved and records and MIN_WORDS<=saved_words<=MAX_WORDS else "review_failed"
             if state!="approved":
                 issues=(best_issues or issues or ["No approved review of the saved article"])
                 if not exact_review:
@@ -205,6 +214,8 @@ def main():
                 "state":"awaiting_visual_and_license_review"}
             reviews["items"][item["id"]]={
                 "state":state,"checkedAt":now(),"source":preferred_source,
+                "reviewAttempts":attempts,"attemptCount":len(attempts),
+                "reviewFailureSummary":"; ".join(issues[:2])[:350] if state=="review_failed" else "",
                 "sourceAccessible":bool(records),"sourceUrls":source_urls,
                 "sourceCount":len(records),"wordCount":saved_words,
                 "reviewedTextMatchesSaved":exact_review,
@@ -215,14 +226,15 @@ def main():
             }
             status["reviewed"]+=1
             status["approved"]+=int(state=="approved")
-            status["needsReview"]+=int(state=="needs_review")
+            status["needsReview"]+=int(state=="review_failed")
             status["completed"]+=1
             status["batchCompleted"]+=1
             write(FEED,feed);write(REVIEWS,reviews);write(IMAGES,images);write(PROGRESS,status)
             persist("Enrich and review inspiration "+item["id"])
         status["state"]="batch_complete" if len(remaining)>len(selected) else "awaiting_editorial_approval"
         status["contentReady"]=sum(v.get("state")=="approved" for v in reviews["items"].values())
-        status["contentNeedsReview"]=sum(v.get("state")=="needs_review" for v in reviews["items"].values())
+        status["contentNeedsReview"]=sum(v.get("state") in ("needs_review","review_failed") for v in reviews["items"].values())
+        status["reviewFailed"]=sum(v.get("state")=="review_failed" for v in reviews["items"].values())
         status["publicationReady"]=0
         status["publicationBlocked"]=len(original)
         status["qualityGate"]="blocked_pending_image_and_editorial_clearance"
