@@ -1,6 +1,6 @@
 {
-  "state": "running",
-  "stage": "image_audit",
+  "state": "awaiting_editorial_approval",
+  "stage": "done",
   "completed": 5,
   "total": 70,
   "batchTotal": 1,
@@ -10,7 +10,12 @@
   "approved": 1,
   "needsReview": 0,
   "startedAt": "2026-11-09T07:52:55.285783Z",
-  "completedAt": null,
-  "currentId": "everest-summit",
-  "error": null
+  "completedAt": "2026-11-09T07:53:23.189293Z",
+  "currentId": null,
+  "error": null,
+  "contentReady": 5,
+  "contentNeedsReview": 0,
+  "publicationReady": 0,
+  "publicationBlocked": 70,
+  "qualityGate": "blocked_pending_image_and_editorial_clearance"
 }
