@@ -35,7 +35,7 @@ jobs:
           git config user.email "content-bot@users.noreply.github.com"
       - name: Run offline tests
         run: |
-          python3 -m py_compile scripts/audit_images.py scripts/enrich_library.py scripts/research.py
+          python3 -m py_compile scripts/audit_images.py scripts/enrich_library.py scripts/research.py scripts/publication_gate.py
           python3 -m unittest discover -s tests -p "test_*.py" -v
       - name: Audit images
         env:
