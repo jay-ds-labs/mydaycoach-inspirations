@@ -23,6 +23,18 @@ REVIEWS=ROOT/"enrichment-review.json"
 MODEL=os.getenv("OPENAI_CONTENT_MODEL","gpt-4.1")
 REVIEW_MODEL=os.getenv("OPENAI_REVIEW_MODEL",MODEL)
 BATCH_SIZE=max(1,min(20,int(os.getenv("ENRICH_BATCH_SIZE","10"))))
+RETRY_REVIEW=os.getenv("ENRICH_RETRY_REVIEW","false").lower()=="true"
+
+# Targeted primary or institutional sources for the five pilot articles.
+# Generic homepages are inadequate evidence for a 750-word historical article.
+TARGETED_SOURCES={
+ "apollo-11":"https://www.nasa.gov/missions/apollo/apollo-11-mission-overview/",
+ "curie-nobel":"https://www.nobelprize.org/prizes/physics/1903/marie-curie/facts/",
+ "mandela-release":"https://www.nelsonmandela.org/trials-and-prison-chronology",
+ "everest-summit":"https://nzhistory.govt.nz/edmund-hillary-and-tensing-norgay-reach-summit-of-everest",
+ "wright-flight":"https://www.si.edu/object/nasm_A19610048000",
+}
+
 MIN_WORDS=600
 MAX_WORDS=1100
 
@@ -107,8 +119,10 @@ def main():
     feed=json.loads(FEED.read_text(encoding="utf-8"))
     original=[x for x in feed["items"] if x.get("status")!="published"]
     reviews=json.loads(REVIEWS.read_text(encoding="utf-8")) if REVIEWS.exists() else {"items":{}}
-    done={k for k,v in reviews["items"].items() if v.get("state") in ("approved","needs_review")}
+    done={k for k,v in reviews["items"].items() if v.get("state")=="approved" or (v.get("state")=="needs_review" and not RETRY_REVIEW)}
     remaining=[x for x in original if x["id"] not in done]
+    if RETRY_REVIEW:
+        remaining=[x for x in remaining if reviews["items"].get(x["id"],{}).get("state")=="needs_review"]
     selected=remaining[:BATCH_SIZE]
     status={"state":"running","stage":"generation","completed":len(done),
             "total":len(original),"batchTotal":len(selected),"batchCompleted":0,
@@ -120,14 +134,23 @@ def main():
             status["currentId"]=item["id"]
             status["stage"]="research"
             write(PROGRESS,status);persist("Research inspiration "+item["id"])
-            source,source_error=evidence(item.get("source",""))
+            original_source=item.get("source","")
+            candidate_source=TARGETED_SOURCES.get(item["id"],original_source)
+            source,source_error=evidence(candidate_source)
+            if not source and candidate_source!=original_source:
+                source,source_error=evidence(original_source)
+                candidate_source=original_source
             status["stage"]="generation"
-            draft=None;result=None;issues=[]
-            for attempt in range(3):
+            draft=None;result=None;issues=[];best_detail=""
+            if not source:
+                issues=[source_error or "No accessible supporting evidence"]
+            for attempt in range(5):
                 try:
                     draft=compose(item,source,("; ".join(issues)) if issues else "")
                     detail=draft.get("detail","")
                     words=len(detail.split())
+                    if MIN_WORDS<=words<=MAX_WORDS:
+                        best_detail=detail
                     if not MIN_WORDS<=words<=MAX_WORDS:
                         raise ValueError("Article length "+str(words)+" outside 600-1100 words")
                     status["generated"]+=1
@@ -137,20 +160,25 @@ def main():
                         "approved":False,"issues":[source_error],"factual_risk":"high"}
                     issues=[str(x)[:300] for x in result.get("issues",[])]
                     if result.get("approved") is True and source:
+                        best_detail=detail
+                    if result.get("approved") is True and source:
                         break
                     issues=issues or ["Reviewer did not approve factual grounding"]
                 except Exception as error:
                     issues=[str(error)[:250]]
                 time.sleep(1)
-            if draft and MIN_WORDS<=len(draft.get("detail","").split())<=MAX_WORDS:
-                item["detail"]=draft["detail"]
+            if best_detail:
+                item["detail"]=best_detail
                 # Keep the short library summary, title, category and existing ID unchanged.
                 item["status"]="draft"
                 item["publishedAt"]=""
-            state="approved" if result and result.get("approved") is True and source else "needs_review"
+            state="approved" if result and result.get("approved") is True and source and best_detail else "needs_review"
+            if state=="approved" and candidate_source!=original_source:
+                item["source"]=candidate_source
             reviews["items"][item["id"]]={
-                "state":state,"checkedAt":now(),"source":item.get("source",""),
+                "state":state,"checkedAt":now(),"source":candidate_source,
                 "sourceAccessible":bool(source),"wordCount":len(item.get("detail","").split()),
+                "originalSource":original_source,"evidenceSource":candidate_source,
                 "issues":issues,"factualRisk":(result or {}).get("factual_risk","high"),
                 "imageStatus":"requires_license_verification",
                 "publication":"held_for_editorial_approval"
