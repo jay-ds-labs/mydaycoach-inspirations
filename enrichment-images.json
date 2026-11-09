@@ -3655,6 +3655,164 @@
       "errors": [],
       "selected": null,
       "state": "awaiting_visual_and_license_review"
+    },
+    "reflection-013": {
+      "checkedAt": "2026-11-09T22:41:27.545230Z",
+      "queries": [
+        "Define a meaningful choice"
+      ],
+      "candidates": [
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:A bill to amend title XVIII of the Social Security Act to deliver a meaningful benefit and lower prescription drug prices under the Medicare program (IA billtoamendtitle00uni vth).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/A_bill_to_amend_title_XVIII_of_the_Social_Security_Act_to_deliver_a_meaningful_benefit_and_lower_prescription_drug_prices_under_the_Medicare_program_%28IA_billtoamendtitle00uni_vth%29.pdf/page1-500px-thumbnail.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:A_bill_to_amend_title_XVIII_of_the_Social_Security_Act_to_deliver_a_meaningful_benefit_and_lower_prescription_drug_prices_under_the_Medicare_program_(IA_billtoamendtitle00uni_vth).pdf",
+          "creator": "United States. Congress. House \n United States. Congress. House. Committee on Energy and Commerce \n United States. Congress. House. Committee on Ways and Means",
+          "attribution": "United States. Congress. House \n United States. Congress. House. Committee on Energy and Commerce \n United States. Congress. House. Committee on Ways and Means",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "CMS copy in folder: Public Laws: House Bills / 110th Congress / 1st Session / 2007 \n Caption title \n Introduced Oct. 23, 2007; referred to the Committee on Energy and Commerce and Committee on Ways and Means  \n Subjects: Pharmaceutical services insurance; Older people; Prescription pricing; Medicare",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
+          "visualCheck": {
+            "state": "not_checked",
+            "reason": "No API key or license metadata not approved"
+          }
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:A bill to amend title XVIII of the Social Security Act to deliver a meaningful benefit and lower prescription drug prices under the Medicare program (IA billtoamendtitle00uni wc6).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/A_bill_to_amend_title_XVIII_of_the_Social_Security_Act_to_deliver_a_meaningful_benefit_and_lower_prescription_drug_prices_under_the_Medicare_program_%28IA_billtoamendtitle00uni_wc6%29.pdf/page1-500px-thumbnail.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:A_bill_to_amend_title_XVIII_of_the_Social_Security_Act_to_deliver_a_meaningful_benefit_and_lower_prescription_drug_prices_under_the_Medicare_program_(IA_billtoamendtitle00uni_wc6).pdf",
+          "creator": "United States. Congress. Senate \n United States. Congress. Senate. Committee on Finance",
+          "attribution": "United States. Congress. Senate \n United States. Congress. Senate. Committee on Finance",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "CMS copy in folder: Public Laws: Senate Bills / 110th Congress / 1st Session / 2007 \n Caption title \n Introduced Oct. 23, 2007; read twice and referred to the Committee on Finance  \n Subjects: Pharmaceutical services insurance; Older people; Prescription pricing; Medicare",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
+          "visualCheck": {
+            "state": "not_checked",
+            "reason": "No API key or license metadata not approved"
+          }
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:A bill to promote the adoption and meaningful use of health information technology, and for other purposes (IA billtopromoteado00unit).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/A_bill_to_promote_the_adoption_and_meaningful_use_of_health_information_technology%2C_and_for_other_purposes_%28IA_billtopromoteado00unit%29.pdf/page1-960px-A_bill_to_promote_the_adoption_and_meaningful_use_of_health_information_technology%2C_and_for_other_purposes_%28IA_billtopromoteado00unit%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:A_bill_to_promote_the_adoption_and_meaningful_use_of_health_information_technology,_and_for_other_purposes_(IA_billtopromoteado00unit).pdf",
+          "creator": "United States. Congress. House \n United States. Congress. House. Committee on Energy and Commerce \n United States. Congress. House. Committee on Ways and Means \n United States. Congress. House. Committee on Science and Technology",
+          "attribution": "United States. Congress. House \n United States. Congress. House. Committee on Energy and Commerce \n United States. Congress. House. Committee on Ways and Means \n United States. Congress. House. Committee on Science and Technology",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "CMS copy in folder: Public Laws / House / Bill / 110th Congress / 2nd Session / 2008 / File 2 \n Caption title \n Introduced September 15, 2008; referred to the Committees on Energy and Commerce, Ways and Means, and Science and Technology  \n Subjects: Medicine; Medicine",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
+          "visualCheck": {
+            "state": "not_checked",
+            "reason": "No API key or license metadata not approved"
+          }
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:A critique of distributional analysis in social choice (IA critiqueofdistri00tove).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/A_critique_of_distributional_analysis_in_social_choice_%28IA_critiqueofdistri00tove%29.pdf/page1-960px-A_critique_of_distributional_analysis_in_social_choice_%28IA_critiqueofdistri00tove%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:A_critique_of_distributional_analysis_in_social_choice_(IA_critiqueofdistri00tove).pdf",
+          "creator": "Tovey, Craig A.",
+          "attribution": "Tovey, Craig A.",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Title from cover \n \"NPS-OR-91-16.\" \n \"May 1991.\" \n Includes bibliographical references (p. 22-24) \n aq/aq cc:9116 08/06/98  \n Subjects: PROBABILITY.",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Information needs for consumer choice (IA informationneeds00burr).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Information_needs_for_consumer_choice_%28IA_informationneeds00burr%29.pdf/page1-500px-Information_needs_for_consumer_choice_%28IA_informationneeds00burr%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Information_needs_for_consumer_choice_(IA_informationneeds00burr).pdf",
+          "creator": "Burrus, Barri B \n United States. Health Care Financing Administration \n Research Triangle Institute",
+          "attribution": "Burrus, Barri B \n United States. Health Care Financing Administration \n Research Triangle Institute",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Supported by HCFA contract no. 500-94-0048 \n \"April 9, 1998.\" \n Includes bibliographical references (leaves 53-54) \n Final report; \n Photocopy  \n Subjects: Health insurance; Consumer education; Medicaid beneficiaries; Medicare beneficiaries",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Meaningful real-time graphics workstation performance measurements (IA meaningfulrealti00fich).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Meaningful_real-time_graphics_workstation_performance_measurements_%28IA_meaningfulrealti00fich%29.pdf/page1-960px-Meaningful_real-time_graphics_workstation_performance_measurements_%28IA_meaningfulrealti00fich%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Meaningful_real-time_graphics_workstation_performance_measurements_(IA_meaningfulrealti00fich).pdf",
+          "creator": "Fichten, Mark Alan.;Jennings, David Howard.;Zyda, Michael J.",
+          "attribution": "Fichten, Mark Alan.;Jennings, David Howard.;Zyda, Michael J.",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Thesis advisor, Michael J. Zyda \n ADA204717 \n Thesis (M.S. in Computer Science) Naval Postgraduate School, Dec. 1988 \n Includes bibliographical references  \n Subjects:",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Meaningful real-time graphics workstation performance measurements - (by) Mark A. Fichten, David H. Jennings (and) Michael J. Zyda. (IA meaningfulrealtime00fich).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Meaningful_real-time_graphics_workstation_performance_measurements_-_%28by%29_Mark_A._Fichten%2C_David_H._Jennings_%28and%29_Michael_J._Zyda._%28IA_meaningfulrealtime00fich%29.pdf/page1-960px-thumbnail.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Meaningful_real-time_graphics_workstation_performance_measurements_-_(by)_Mark_A._Fichten,_David_H._Jennings_(and)_Michael_J._Zyda._(IA_meaningfulrealtime00fich).pdf",
+          "creator": "Fichten, Mark Alan.;Jennings, David Howard.;Zyda, Michael J.",
+          "attribution": "Fichten, Mark Alan.;Jennings, David Howard.;Zyda, Michael J.",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Title from cover \n \"Prepared for: US Army Combatt Developments Experimentation Center\"--Cover \n \"November 1988\"--Cover \n \"NPS52-89-004\"--Cover \n DTIC Identifiers: MPS (Moving Platform Simulator) \n Author(s) subject terms: 3D visual simulation systems, graphics workstation performance measurements \n Includes bibliographical references (p. 125) \n Technical report; 1988 \n This document describes how graphics workstation performance is currently measured and how performance should be measured in the",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Qualitative intervention assessment - a conceptual heuristic for OD choice (IA qualitativeinter36eoya).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Qualitative_intervention_assessment_-_a_conceptual_heuristic_for_OD_choice_%28IA_qualitativeinter36eoya%29.pdf/page1-960px-Qualitative_intervention_assessment_-_a_conceptual_heuristic_for_OD_choice_%28IA_qualitativeinter36eoya%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Qualitative_intervention_assessment_-_a_conceptual_heuristic_for_OD_choice_(IA_qualitativeinter36eoya).pdf",
+          "creator": "Eoyang, Carson K.",
+          "attribution": "Eoyang, Carson K.",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Bibliography: p. 28\n \n Subjects: Management science; Organizational change",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:The Chaplain (IA chaplain175gene).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/The_Chaplain_%28IA_chaplain175gene%29.pdf/page1-500px-The_Chaplain_%28IA_chaplain175gene%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:The_Chaplain_(IA_chaplain175gene).pdf",
+          "creator": "General Commission on Chaplains and Armed Forces Personnel.",
+          "attribution": "General Commission on Chaplains and Armed Forces Personnel.",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Subjects: Military chaplains -- Periodicals.",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        }
+      ],
+      "errors": [],
+      "selected": null,
+      "state": "awaiting_visual_and_license_review"
     }
   }
 }
