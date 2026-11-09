@@ -458,6 +458,34 @@
       "factualRisk": "low",
       "imageStatus": "awaiting_visual_and_license_review",
       "publication": "ready_for_publish"
+    },
+    "reflection-006": {
+      "state": "approved",
+      "checkedAt": "2026-11-09T22:37:21.855164Z",
+      "source": "https://plato.stanford.edu/entries/aristotle-ethics/",
+      "reviewAttempts": [
+        {
+          "attempt": 1,
+          "approved": true,
+          "issues": []
+        }
+      ],
+      "attemptCount": 1,
+      "reviewFailureSummary": "",
+      "sourceAccessible": true,
+      "sourceUrls": [
+        "https://plato.stanford.edu/entries/aristotle-ethics/",
+        "https://en.wikipedia.org/wiki/Lyndon_B._Johnson"
+      ],
+      "sourceCount": 2,
+      "wordCount": 616,
+      "reviewedTextMatchesSaved": true,
+      "originalSource": "https://plato.stanford.edu/entries/aristotle-ethics/",
+      "evidenceSource": "https://plato.stanford.edu/entries/aristotle-ethics/",
+      "issues": [],
+      "factualRisk": "low",
+      "imageStatus": "awaiting_visual_and_license_review",
+      "publication": "ready_for_publish"
     }
   }
 }

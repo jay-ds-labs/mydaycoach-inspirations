@@ -2502,6 +2502,162 @@
       "errors": [],
       "selected": null,
       "state": "awaiting_visual_and_license_review"
+    },
+    "reflection-006": {
+      "checkedAt": "2026-11-09T22:37:21.855145Z",
+      "queries": [
+        "Choose the middle path"
+      ],
+      "candidates": [
+        {
+          "state": "license_metadata_pass",
+          "fileTitle": "File:Choose one, Path to success, or path to prison 120529-A-TA763-288.jpg",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Choose_one%2C_Path_to_success%2C_or_path_to_prison_120529-A-TA763-288.jpg/1280px-Choose_one%2C_Path_to_success%2C_or_path_to_prison_120529-A-TA763-288.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Choose_one,_Path_to_success,_or_path_to_prison_120529-A-TA763-288.jpg",
+          "creator": "Sgt. Lauren Twigg",
+          "attribution": "Sgt. Lauren Twigg",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "image/jpeg",
+          "description": "Members of the Civil Operations Team from the Arizona National Guard instruct students from Mark T. Atkinsons Middle School on what life in a juvenile detention center is like in order to deter juvenile delinquent behavior during the Freedom Academy, May 29-31. The event is held year-round and hosts a variety of activities based on drug awareness and positive life choices.",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
+          "visualCheck": {
+            "state": "needs_visual_review",
+            "confidence": "high",
+            "issues": [
+              "Mismatch between image content and philosophical theme",
+              "Context focuses on juvenile behavior deterrence, not practical wisdom or middle path"
+            ],
+            "explanation": "The image depicts a training or informational session led by members of the Arizona National Guard addressing juvenile delinquency, emphasizing drug awareness and positive life choices. While the theme relates to making good choices, it is more about avoiding negative outcomes rather than illustrating the philosophical concept of choosing a balanced, moderate path. The inspiration's emphasis on practical wisdom and proportionate responses (choosing the middle path) is not clearly reflected in the scene, which focuses more on presenting a stark contrast between success and prison as life outcomes."
+          }
+        },
+        {
+          "state": "license_metadata_pass",
+          "fileTitle": "File:Viktor Pinchuk (September 1, 1976).jpg",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Viktor_Pinchuk_%28September_1%2C_1976%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Viktor_Pinchuk_(September_1,_1976).jpg",
+          "creator": "Виктор Пинчук",
+          "attribution": "Виктор Валериевич Пинчук /  CC-BY-SA 4.0",
+          "license": "cc-by-sa-4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "usageTerms": "Creative Commons Attribution-Share Alike 4.0",
+          "mime": "image/jpeg",
+          "description": "Viktor Pinchuk, September 1, 1976, \"Knowledge Day\"",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
+          "visualCheck": {
+            "state": "needs_visual_review",
+            "confidence": "high",
+            "issues": [
+              "Image depicts a young boy holding flowers, likely a personal or historical photograph.",
+              "No visible symbolism or thematic elements directly connected to the concept of 'choosing the middle path' or practical wisdom.",
+              "No explicit philosophical context or cues in the image or description."
+            ],
+            "explanation": "The image is a portrait of a young child holding flowers, taken on 'Knowledge Day' in 1976. The inspiration relates to the philosophical concept of choosing a balanced or moderate approach. However, the image does not depict or symbolically represent this concept, nor does the file title or description indicate any relation to philosophical ideas. Thus, the image is not visibly relevant to the inspiration."
+          }
+        },
+        {
+          "state": "license_metadata_pass",
+          "fileTitle": "File:Благодарность (1).jpg",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/%D0%91%D0%BB%D0%B0%D0%B3%D0%BE%D0%B4%D0%B0%D1%80%D0%BD%D0%BE%D1%81%D1%82%D1%8C_%281%29.jpg/1280px-%D0%91%D0%BB%D0%B0%D0%B3%D0%BE%D0%B4%D0%B0%D1%80%D0%BD%D0%BE%D1%81%D1%82%D1%8C_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:%D0%91%D0%BB%D0%B0%D0%B3%D0%BE%D0%B4%D0%B0%D1%80%D0%BD%D0%BE%D1%81%D1%82%D1%8C_(1).jpg",
+          "creator": "Виктор Пинчук",
+          "attribution": "Виктор Пинчук",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "image/jpeg",
+          "description": "\"For good study and active participation in public and cultural life of school\" commendation",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
+          "visualCheck": {
+            "state": "needs_visual_review",
+            "confidence": "high",
+            "issues": [],
+            "explanation": "The image shows a certificate of commendation for good study and active participation in school life. It does not visually or contextually relate to the philosophical concept of 'choosing the middle path' or finding a proportionate response rather than an extreme."
+          }
+        },
+        {
+          "state": "license_metadata_pass",
+          "fileTitle": "File:Благодарность (2).jpg",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/%D0%91%D0%BB%D0%B0%D0%B3%D0%BE%D0%B4%D0%B0%D1%80%D0%BD%D0%BE%D1%81%D1%82%D1%8C_%282%29.jpg/1280px-%D0%91%D0%BB%D0%B0%D0%B3%D0%BE%D0%B4%D0%B0%D1%80%D0%BD%D0%BE%D1%81%D1%82%D1%8C_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:%D0%91%D0%BB%D0%B0%D0%B3%D0%BE%D0%B4%D0%B0%D1%80%D0%BD%D0%BE%D1%81%D1%82%D1%8C_(2).jpg",
+          "creator": "Виктор Пинчук",
+          "attribution": "Виктор Пинчук",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "image/jpeg",
+          "description": "\"For good study and active participation in public and cultural life of school\" commendation",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "license_metadata_pass",
+          "fileTitle": "File:Благодарность (3).jpg",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/%D0%91%D0%BB%D0%B0%D0%B3%D0%BE%D0%B4%D0%B0%D1%80%D0%BD%D0%BE%D1%81%D1%82%D1%8C_%283%29.jpg/1280px-%D0%91%D0%BB%D0%B0%D0%B3%D0%BE%D0%B4%D0%B0%D1%80%D0%BD%D0%BE%D1%81%D1%82%D1%8C_%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:%D0%91%D0%BB%D0%B0%D0%B3%D0%BE%D0%B4%D0%B0%D1%80%D0%BD%D0%BE%D1%81%D1%82%D1%8C_(3).jpg",
+          "creator": "Виктор Пинчук",
+          "attribution": "Виктор Пинчук",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "image/jpeg",
+          "description": "\"For good study and active participation in public and cultural life of school\" commendation",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "license_metadata_pass",
+          "fileTitle": "File:Благодарность (5).jpg",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/%D0%91%D0%BB%D0%B0%D0%B3%D0%BE%D0%B4%D0%B0%D1%80%D0%BD%D0%BE%D1%81%D1%82%D1%8C_%285%29.jpg/1280px-%D0%91%D0%BB%D0%B0%D0%B3%D0%BE%D0%B4%D0%B0%D1%80%D0%BD%D0%BE%D1%81%D1%82%D1%8C_%285%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:%D0%91%D0%BB%D0%B0%D0%B3%D0%BE%D0%B4%D0%B0%D1%80%D0%BD%D0%BE%D1%81%D1%82%D1%8C_(5).jpg",
+          "creator": "Виктор Пинчук",
+          "attribution": "Виктор Пинчук",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "image/jpeg",
+          "description": "\"For good study and active participation in public and cultural life of school\" commendation",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "license_metadata_pass",
+          "fileTitle": "File:Благодарность (6).jpg",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/%D0%91%D0%BB%D0%B0%D0%B3%D0%BE%D0%B4%D0%B0%D1%80%D0%BD%D0%BE%D1%81%D1%82%D1%8C_%286%29.jpg/1280px-%D0%91%D0%BB%D0%B0%D0%B3%D0%BE%D0%B4%D0%B0%D1%80%D0%BD%D0%BE%D1%81%D1%82%D1%8C_%286%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:%D0%91%D0%BB%D0%B0%D0%B3%D0%BE%D0%B4%D0%B0%D1%80%D0%BD%D0%BE%D1%81%D1%82%D1%8C_(6).jpg",
+          "creator": "Виктор Пинчук",
+          "attribution": "Виктор Пинчук",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "image/jpeg",
+          "description": "\"For good study and active participation in public and cultural life of school\" commendation",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:A History of the Inquisition of the Middle Ages-Volume I .pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/A_History_of_the_Inquisition_of_the_Middle_Ages-Volume_I_.pdf/page1-500px-A_History_of_the_Inquisition_of_the_Middle_Ages-Volume_I_.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:A_History_of_the_Inquisition_of_the_Middle_Ages-Volume_I_.pdf",
+          "creator": "Henry Charles Lea",
+          "attribution": "Henry Charles Lea",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        }
+      ],
+      "errors": [],
+      "selected": null,
+      "state": "awaiting_visual_and_license_review"
     }
   }
 }
