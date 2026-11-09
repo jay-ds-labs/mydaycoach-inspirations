@@ -1393,6 +1393,55 @@
       "factualRisk": "low",
       "imageStatus": "awaiting_visual_and_license_review",
       "publication": "ready_for_publish"
+    },
+    "generated-da803a5ee0fd4c0e85a5": {
+      "state": "review_failed",
+      "checkedAt": "2026-11-09T22:51:35.546417Z",
+      "source": "https://www.atomicheritage.org/history/chicago-pile-1",
+      "reviewAttempts": [
+        {
+          "attempt": 1,
+          "approved": false,
+          "issues": [
+            "Generation/review error: HTTP Error 503: Service Unavailable"
+          ]
+        },
+        {
+          "attempt": 2,
+          "approved": false,
+          "issues": [
+            "The claim that Fermi was 'urged to accelerate the demonstration to meet wartime deadlines' is only implied by historical context in the supplied sources and not directly supported by specific quotes or detailed documentation.",
+            "No explicit evidence is provided that Fermi 'insisted on rigorous safety checks' or that he 'resisted hasty action' against pressure—though he is shown to be methodical and cautious, explicit mention of external pressure and his resistance is lacking in the evidence supplied.",
+            "Phrases like 'he refused to allow haste or ambition to undermine the foundation of experimental integrity' are interpretative and go beyond what the sources directly attest."
+          ]
+        },
+        {
+          "attempt": 3,
+          "approved": false,
+          "issues": [
+            "Generated article length 317 outside 600-1100 words"
+          ]
+        }
+      ],
+      "attemptCount": 3,
+      "reviewFailureSummary": "Article not yet approved by reviewer; Saved text has not passed a matching editorial review",
+      "sourceAccessible": true,
+      "sourceUrls": [
+        "https://www.atomicheritage.org/history/chicago-pile-1",
+        "https://en.wikipedia.org/wiki/Enrico_Fermi"
+      ],
+      "sourceCount": 2,
+      "wordCount": 614,
+      "reviewedTextMatchesSaved": false,
+      "originalSource": "https://www.atomicheritage.org/history/chicago-pile-1",
+      "evidenceSource": "https://www.atomicheritage.org/history/chicago-pile-1",
+      "issues": [
+        "Article not yet approved by reviewer",
+        "Saved text has not passed a matching editorial review"
+      ],
+      "factualRisk": "high",
+      "imageStatus": "awaiting_visual_and_license_review",
+      "publication": "ready_for_publish"
     }
   }
 }
