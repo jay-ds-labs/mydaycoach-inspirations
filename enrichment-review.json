@@ -1196,6 +1196,55 @@
       "factualRisk": "low",
       "imageStatus": "awaiting_visual_and_license_review",
       "publication": "ready_for_publish"
+    },
+    "reflection-026": {
+      "state": "review_failed",
+      "checkedAt": "2026-11-09T22:48:53.831619Z",
+      "source": "https://plato.stanford.edu/entries/well-being/",
+      "reviewAttempts": [
+        {
+          "attempt": 1,
+          "approved": false,
+          "issues": [
+            "Numerous specific factual claims and quotations in the article (e.g., positive psychology findings, empirical research on attention and well-being, actionable recommendations) are not directly and explicitly supported by the supplied source.",
+            "The Stanford Encyclopedia of Philosophy entry does not grant as large a focus to the practical role of attention in well-being as the article suggests.",
+            "The recommendation of a specific actionable practice (e.g., 20 minutes of uninterrupted attention) is not substantiated in the SEP source."
+          ]
+        },
+        {
+          "attempt": 2,
+          "approved": false,
+          "issues": [
+            "Generated article length 459 outside 600-1100 words"
+          ]
+        },
+        {
+          "attempt": 3,
+          "approved": false,
+          "issues": [
+            "Generated article length 499 outside 600-1100 words"
+          ]
+        }
+      ],
+      "attemptCount": 3,
+      "reviewFailureSummary": "Article not yet approved by reviewer; Saved text has not passed a matching editorial review",
+      "sourceAccessible": true,
+      "sourceUrls": [
+        "https://plato.stanford.edu/entries/well-being/",
+        "https://en.wikipedia.org/wiki/Martin_Luther_King_Jr."
+      ],
+      "sourceCount": 2,
+      "wordCount": 882,
+      "reviewedTextMatchesSaved": false,
+      "originalSource": "https://plato.stanford.edu/entries/well-being/",
+      "evidenceSource": "https://plato.stanford.edu/entries/well-being/",
+      "issues": [
+        "Article not yet approved by reviewer",
+        "Saved text has not passed a matching editorial review"
+      ],
+      "factualRisk": "high",
+      "imageStatus": "awaiting_visual_and_license_review",
+      "publication": "ready_for_publish"
     }
   }
 }

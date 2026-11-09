@@ -5864,6 +5864,179 @@
       "errors": [],
       "selected": null,
       "state": "awaiting_visual_and_license_review"
+    },
+    "reflection-026": {
+      "checkedAt": "2026-11-09T22:48:53.831602Z",
+      "queries": [
+        "Choose deliberate attention"
+      ],
+      "candidates": [
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:American female education- what? and by whom? (IA americanfemaleed00cush).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/American_female_education-_what%3F_and_by_whom%3F_%28IA_americanfemaleed00cush%29.pdf/page1-500px-American_female_education-_what%3F_and_by_whom%3F_%28IA_americanfemaleed00cush%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:American_female_education-_what%3F_and_by_whom%3F_(IA_americanfemaleed00cush).pdf",
+          "creator": "Cushman, Robert Woodward, 1800-1868. [from old catalog]",
+          "attribution": "Cushman, Robert Woodward, 1800-1868. [from old catalog]",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Subjects: Women",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
+          "visualCheck": {
+            "state": "not_checked",
+            "reason": "No API key or license metadata not approved"
+          }
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Choosing a play, revised and enlarged; suggestions and bibliography for the director of amateur dramatics (IA choosingplayrevi00joh).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Choosing_a_play%2C_revised_and_enlarged%3B_suggestions_and_bibliography_for_the_director_of_amateur_dramatics_%28IA_choosingplayrevi00joh%29.pdf/page1-500px-Choosing_a_play%2C_revised_and_enlarged%3B_suggestions_and_bibliography_for_the_director_of_amateur_dramatics_%28IA_choosingplayrevi00joh%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Choosing_a_play,_revised_and_enlarged;_suggestions_and_bibliography_for_the_director_of_amateur_dramatics_(IA_choosingplayrevi00joh).pdf",
+          "creator": "Johnson, Gertrude Elizabeth",
+          "attribution": "Johnson, Gertrude Elizabeth",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Subjects: Drama",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
+          "visualCheck": {
+            "state": "not_checked",
+            "reason": "No API key or license metadata not approved"
+          }
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Choosing a play, revised and enlarged; suggestions and bibliography for the director of amateur dramatics (IA choosingplayrevi00john).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Choosing_a_play%2C_revised_and_enlarged%3B_suggestions_and_bibliography_for_the_director_of_amateur_dramatics_%28IA_choosingplayrevi00john%29.pdf/page1-500px-Choosing_a_play%2C_revised_and_enlarged%3B_suggestions_and_bibliography_for_the_director_of_amateur_dramatics_%28IA_choosingplayrevi00john%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Choosing_a_play,_revised_and_enlarged;_suggestions_and_bibliography_for_the_director_of_amateur_dramatics_(IA_choosingplayrevi00john).pdf",
+          "creator": "Johnson, Gertrude Elizabeth",
+          "attribution": "Johnson, Gertrude Elizabeth",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Subjects: Drama",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
+          "visualCheck": {
+            "state": "not_checked",
+            "reason": "No API key or license metadata not approved"
+          }
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Choosing a play, revised and enlarged; suggestions and bibliography for the director of amateur dramatics (IA cu31924032394219).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Choosing_a_play%2C_revised_and_enlarged%3B_suggestions_and_bibliography_for_the_director_of_amateur_dramatics_%28IA_cu31924032394219%29.pdf/page1-500px-Choosing_a_play%2C_revised_and_enlarged%3B_suggestions_and_bibliography_for_the_director_of_amateur_dramatics_%28IA_cu31924032394219%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Choosing_a_play,_revised_and_enlarged;_suggestions_and_bibliography_for_the_director_of_amateur_dramatics_(IA_cu31924032394219).pdf",
+          "creator": "Johnson, Gertrude E. (Gertrude Elizabeth)",
+          "attribution": "Johnson, Gertrude E. (Gertrude Elizabeth)",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "The metadata below describe the original scanning. Follow the \"All Files: HTTP\" link in the \"View the book\" box to the left to find XML files that contain more metadata about the original images and the derived formats (OCR results, PDF etc.). See also the  What is the directory structure for the texts?  FAQ for information about file content and naming conventions.\n \n Subjects: Drama",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Choosing to win- how SOF can better select partners for capacity building (IA choosingtowinhow1094542643).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Choosing_to_win-_how_SOF_can_better_select_partners_for_capacity_building_%28IA_choosingtowinhow1094542643%29.pdf/page1-960px-Choosing_to_win-_how_SOF_can_better_select_partners_for_capacity_building_%28IA_choosingtowinhow1094542643%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Choosing_to_win-_how_SOF_can_better_select_partners_for_capacity_building_(IA_choosingtowinhow1094542643).pdf",
+          "creator": "Hermann, William R. III",
+          "attribution": "Hermann, William R. III",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "The U.S. government relies heavily on security cooperation and security assistance programs to build partner-nation capacity as a means of furthering U.S. national security interests. Special Operations Forces (SOF) have contributed to this effort, particularly in the training and advising of foreign forces. However, the overall alignment of these efforts can sometimes be problematic. Furthermore, in a fiscally austere environment, planners will be forced to make difficult decisions about which ",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Exercises in mind-training; in quickness of perception, concentrated attention and memory; (IA cu31924031434461).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Exercises_in_mind-training%3B_in_quickness_of_perception%2C_concentrated_attention_and_memory%3B_%28IA_cu31924031434461%29.pdf/page1-500px-Exercises_in_mind-training%3B_in_quickness_of_perception%2C_concentrated_attention_and_memory%3B_%28IA_cu31924031434461%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Exercises_in_mind-training;_in_quickness_of_perception,_concentrated_attention_and_memory;_(IA_cu31924031434461).pdf",
+          "creator": "Aiken, Catherine",
+          "attribution": "Aiken, Catherine",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "The metadata below describe the original scanning. Follow the \"All Files: HTTP\" link in the \"View the book\" box to the left to find XML files that contain more metadata about the original images and the derived formats (OCR results, PDF etc.). See also the  What is the directory structure for the texts?  FAQ for information about file content and naming conventions.\n \n Subjects: Attention; Memory",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Extracts (microform) - we would direct public attention to a publication in the last York (U.C.) Gazette, addressed To the resident land owners of Upper Canada, by Mr. Robert Gourlay . (IA cihm 49147).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Extracts_%28microform%29_-_we_would_direct_public_attention_to_a_publication_in_the_last_York_%28U.C.%29_Gazette%2C_addressed_To_the_resident_land_owners_of_Upper_Canada%2C_by_Mr._Robert_Gourlay_._%28IA_cihm_49147%29.pdf/page1-960px-thumbnail.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Extracts_(microform)_-_we_would_direct_public_attention_to_a_publication_in_the_last_York_(U.C.)_Gazette,_addressed_To_the_resident_land_owners_of_Upper_Canada,_by_Mr._Robert_Gourlay_._(IA_cihm_49147).pdf",
+          "creator": "Gourlay, Robert, 1778-1863",
+          "attribution": "Gourlay, Robert, 1778-1863",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Caption title \n Filmed from a copy of the original publication held by the Douglas Library, Queen's University \n 43  \n Subjects: Canadian immigration literature; Agriculture; Agriculture",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:If you don't like this, you may resign and go home - commanders' considerations in assaulting a fortified position (IA ifyoudontlikethi00wood).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/If_you_don%27t_like_this%2C_you_may_resign_and_go_home_-_commanders%27_considerations_in_assaulting_a_fortified_position_%28IA_ifyoudontlikethi00wood%29.pdf/page1-960px-If_you_don%27t_like_this%2C_you_may_resign_and_go_home_-_commanders%27_considerations_in_assaulting_a_fortified_position_%28IA_ifyoudontlikethi00wood%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:If_you_don%27t_like_this,_you_may_resign_and_go_home_-_commanders%27_considerations_in_assaulting_a_fortified_position_(IA_ifyoudontlikethi00wood).pdf",
+          "creator": "Woodgerd, Michael E.;Stolfi, R. H. S.(Russel H. S.)",
+          "attribution": "Woodgerd, Michael E.;Stolfi, R. H. S.(Russel H. S.)",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Thesis advisor, Russel H.S. Stolfi \n AD-A244 373 \n Thesis (M.S. in Systems Technology (Command, Control and Communications)) Naval Postgraduate School, March 1991 \n Includes bibliographical references  \n Subjects:",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:McClellan - who he is and what he has done (IA mcclellanwhohe00wilk).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/McClellan_-_who_he_is_and_what_he_has_done_%28IA_mcclellanwhohe00wilk%29.pdf/page1-500px-McClellan_-_who_he_is_and_what_he_has_done_%28IA_mcclellanwhohe00wilk%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:McClellan_-_who_he_is_and_what_he_has_done_(IA_mcclellanwhohe00wilk).pdf",
+          "creator": "Wilkes, George, 1817-1885",
+          "attribution": "Wilkes, George, 1817-1885",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Philosophy of idolatry: is McClellan a hero? -- McClellan inside and out -- A refutation -- The opiate of the North -- The tragedy at Centreville -- The Battle of Antietam -- Fitz Napoleon no more -- The new leader -- The modern Arnold -- Téte d'armee -- McClellan: a retrospect -- Little Mac \n \"The following articles are portions of a series which appeared originally in Wilkes' Spirit of the times, and which were devoted to the review of General McClellan and his battles, from the time of the co",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:McClellan- who he is and what he has done (IA mcclellanwhoheis02wilk).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/McClellan-_who_he_is_and_what_he_has_done_%28IA_mcclellanwhoheis02wilk%29.pdf/page1-500px-McClellan-_who_he_is_and_what_he_has_done_%28IA_mcclellanwhoheis02wilk%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:McClellan-_who_he_is_and_what_he_has_done_(IA_mcclellanwhoheis02wilk).pdf",
+          "creator": "Wilkes, George, 1817-1885",
+          "attribution": "Wilkes, George, 1817-1885",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Comprises portions of a series of articles first printed in \"Wilkes' Spirit of the times,\" July 9, 1862-March 14, 1863. A later edition, with slight additions, was published in 1863 under the title: McClellan from Ball's Bluff to Antietam\n \n Subjects: McClellan, George Brinton, 1826-1885",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        }
+      ],
+      "errors": [],
+      "selected": null,
+      "state": "awaiting_visual_and_license_review"
     }
   }
 }
