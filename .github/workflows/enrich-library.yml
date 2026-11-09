@@ -8,6 +8,11 @@ on:
         default: "10"
         type: choice
         options: ["5","10","15","20"]
+      retry_review:
+        description: "Retry articles flagged for review rather than processing new articles"
+        required: true
+        default: false
+        type: boolean
 
 permissions:
   contents: write
@@ -32,6 +37,7 @@ jobs:
           OPENAI_CONTENT_MODEL: gpt-4.1
           OPENAI_REVIEW_MODEL: gpt-4.1
           ENRICH_BATCH_SIZE: ${{ inputs.batch_size }}
+          ENRICH_RETRY_REVIEW: ${{ inputs.retry_review }}
         run: |
           test -n "$OPENAI_API_KEY" || { echo "Missing OPENAI_API_KEY"; exit 1; }
           python3 scripts/enrich_library.py
