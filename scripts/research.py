@@ -42,6 +42,18 @@ def wikipedia(query,limit=3):
                 "title":hit["title"],"text":content[:11000],"origin":"wikipedia"})
     return results
 
+def wikipedia_exact(title):
+    pages=get_json(API+"?"+urllib.parse.urlencode({"action":"query","titles":title,
+        "prop":"extracts","explaintext":1,"exchars":16000,"format":"json"})).get("query",{}).get("pages",{})
+    results=[]
+    for page in pages.values():
+        content=page.get("extract","")
+        if len(content)>450:
+            results.append({"url":"https://en.wikipedia.org/wiki/"+
+                urllib.parse.quote(page["title"].replace(" ","_")),
+                "title":page["title"],"text":content[:14000],"origin":"wikipedia"})
+    return results
+
 def discover(item,existing_source="",fetch=None):
     fetch=fetch or (lambda url: ("","No fetcher configured"))
     records=[];errors=[]
@@ -56,7 +68,9 @@ def discover(item,existing_source="",fetch=None):
     attribution=item.get("attribution","")
     query=PILOT_QUERIES.get(item.get("id")," ".join(x for x in (attribution,title) if x).strip() or item.get("body","")[:100])
     try:
-        matches=wikipedia(query)
+        matches=wikipedia_exact("1953 British Mount Everest expedition") if item.get("id")=="everest-summit" else []
+        if not matches:
+            matches=wikipedia(query)
         if not matches and attribution:
             matches=wikipedia(attribution)
         if not matches:
