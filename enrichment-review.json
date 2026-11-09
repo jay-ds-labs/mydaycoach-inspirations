@@ -2399,6 +2399,34 @@
       "factualRisk": "high",
       "imageStatus": "awaiting_visual_and_license_review",
       "publication": "ready_for_publish"
+    },
+    "generated-318a3a9ff87f452b83e5": {
+      "state": "review_failed",
+      "checkedAt": "2026-11-09T23:01:12.866055Z",
+      "source": "https://www.yadvashem.org/odot_pdf/Microsoft%20Word%20-%205968.pdf",
+      "reviewAttempts": [
+        {
+          "attempt": 1,
+          "approved": true,
+          "issues": []
+        }
+      ],
+      "attemptCount": 1,
+      "reviewFailureSummary": "No subject-specific evidence found; Source retrieval failed: HTTP Error 403: Forbidden",
+      "sourceAccessible": false,
+      "sourceUrls": [],
+      "sourceCount": 0,
+      "wordCount": 779,
+      "reviewedTextMatchesSaved": true,
+      "originalSource": "https://www.yadvashem.org/odot_pdf/Microsoft%20Word%20-%205968.pdf",
+      "evidenceSource": "",
+      "issues": [
+        "No subject-specific evidence found",
+        "Source retrieval failed: HTTP Error 403: Forbidden"
+      ],
+      "factualRisk": "low",
+      "imageStatus": "awaiting_visual_and_license_review",
+      "publication": "ready_for_publish"
     }
   }
 }

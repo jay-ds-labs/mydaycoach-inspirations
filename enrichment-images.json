@@ -7609,6 +7609,16 @@
       "errors": [],
       "selected": null,
       "state": "awaiting_visual_and_license_review"
+    },
+    "generated-318a3a9ff87f452b83e5": {
+      "checkedAt": "2026-11-09T23:01:12.866043Z",
+      "queries": [
+        "Voyage of the SS Exodus: Hope and Despair on the Mediterranean, 1947"
+      ],
+      "candidates": [],
+      "errors": [],
+      "selected": null,
+      "state": "awaiting_visual_and_license_review"
     }
   }
 }
