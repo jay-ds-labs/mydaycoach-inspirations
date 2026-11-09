@@ -12,20 +12,23 @@
       "publication": "held_for_editorial_approval"
     },
     "curie-nobel": {
-      "state": "needs_review",
-      "checkedAt": "2026-11-09T01:46:27.066699Z",
+      "state": "approved",
+      "checkedAt": "2026-11-09T01:54:20.550212Z",
       "source": "https://www.nobelprize.org/prizes/physics/1903/marie-curie/facts/",
       "sourceAccessible": true,
-      "wordCount": 705,
+      "sourceUrls": [
+        "https://www.nobelprize.org/prizes/physics/1903/marie-curie/facts/",
+        "https://en.wikipedia.org/wiki/Marie_Curie"
+      ],
+      "sourceCount": 2,
+      "wordCount": 811,
       "reviewedTextMatchesSaved": true,
       "originalSource": "https://www.nobelprize.org/prizes/chemistry/1911/marie-curie/facts/",
       "evidenceSource": "https://www.nobelprize.org/prizes/physics/1903/marie-curie/facts/",
-      "issues": [
-        "Article length 521 outside 600-1100 words"
-      ],
-      "factualRisk": "medium",
+      "issues": [],
+      "factualRisk": "low",
       "imageStatus": "awaiting_visual_and_license_review",
-      "publication": "held_for_editorial_approval"
+      "publication": "held_for_editorial_and_image_approval"
     },
     "mandela-release": {
       "state": "approved",
