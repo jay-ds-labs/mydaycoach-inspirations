@@ -2833,6 +2833,158 @@
       "errors": [],
       "selected": null,
       "state": "awaiting_visual_and_license_review"
+    },
+    "reflection-008": {
+      "checkedAt": "2026-11-09T22:38:41.150515Z",
+      "queries": [
+        "Allow change"
+      ],
+      "candidates": [
+        {
+          "state": "license_metadata_pass",
+          "fileTitle": "File:Allow Me in December 2011.jpg",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Allow_Me_in_December_2011.jpg/1280px-Allow_Me_in_December_2011.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Allow_Me_in_December_2011.jpg",
+          "creator": "mike krzeszak  from Portland, usa",
+          "attribution": "mike krzeszak  from Portland, usa",
+          "license": "cc-by-2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+          "usageTerms": "Creative Commons Attribution 2.0",
+          "mime": "image/jpeg",
+          "description": "Umbrella Man points towards holiday tree - Pioneer Courthouse Square",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
+          "visualCheck": {
+            "state": "needs_visual_review",
+            "confidence": "high",
+            "issues": [],
+            "explanation": "The image shows a statue named 'Umbrella Man' pointing towards a holiday tree in an urban square. The scene is a literal, visual representation rather than a philosophical one. It does not convey or symbolize the Buddhist concept of impermanence or the broader theme of 'allowing change' as presented in the inspiration. The connection between the image and the philosophical idea is not apparent."
+          }
+        },
+        {
+          "state": "license_metadata_pass",
+          "fileTitle": "File:Allow Me tie detail.jpg",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Allow_Me_tie_detail.jpg/1280px-Allow_Me_tie_detail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Allow_Me_tie_detail.jpg",
+          "creator": "brx0  from Portland, USA",
+          "attribution": "brx0  from Portland, USA",
+          "license": "cc-by-sa-2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+          "usageTerms": "Creative Commons Attribution-Share Alike 2.0",
+          "mime": "image/jpeg",
+          "description": "\"Allow Me\", statue in Pioneer Courthouse Square",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
+          "visualCheck": {
+            "state": "needs_visual_review",
+            "confidence": "high",
+            "issues": [
+              "The image is a close-up of a statue's tie and shirt collar, showing no explicit or symbolic representation related to 'Allow change' or Buddhist impermanence.",
+              "The file title 'Allow Me tie detail' and description referencing the 'Allow Me' statue do not clearly connect to the philosophical theme of impermanence in Buddhist traditions."
+            ],
+            "explanation": "The image focuses on a detailed part of a statue's attire and lacks visible elements or context that connect to the inspiration about 'Allow change' or impermanence as emphasized in Buddhist philosophy. Without broader contextual elements or symbolic content related to change or impermanence, the image is not visibly relevant to the given inspiration."
+          }
+        },
+        {
+          "state": "license_metadata_pass",
+          "fileTitle": "File:Fishes allow to dry in the sun, Cox's bazar.jpg",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Fishes_allow_to_dry_in_the_sun%2C_Cox%27s_bazar.jpg/1280px-Fishes_allow_to_dry_in_the_sun%2C_Cox%27s_bazar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Fishes_allow_to_dry_in_the_sun,_Cox%27s_bazar.jpg",
+          "creator": "Syed Sajidul Islam",
+          "attribution": "Syed Sajidul Islam",
+          "license": "cc-by-sa-4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "usageTerms": "Creative Commons Attribution-Share Alike 4.0",
+          "mime": "image/jpeg",
+          "description": "Fish are preserved through such traditional methods as drying, smoking and salting.The oldest traditional way of preserving fish was to let the wind and sun dry it. Drying food is the world's oldest known preservation method, and dried fish has a storage life of several years. The method is cheap and effective in suitable climates; the work can be done by the fisherman and family, and the resulting product is easily transported to market.",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
+          "visualCheck": {
+            "state": "needs_visual_review",
+            "confidence": "high",
+            "issues": [],
+            "explanation": "The image shows fish drying in the sun, which relates to traditional food preservation methods. The inspiration is about Buddhist philosophy emphasizing impermanence and change. Although drying fish involves transformation over time, the image and description focus on a practical, physical process rather than a philosophical concept about change or impermanence. Therefore, the image is not visibly relevant to the inspiration."
+          }
+        },
+        {
+          "state": "license_metadata_pass",
+          "fileTitle": "File:Mobile - allow login.png",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Mobile_-_allow_login.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Mobile_-_allow_login.png",
+          "creator": "ARodrigues (WMB)",
+          "attribution": "ARodrigues (WMB)",
+          "license": "cc-by-sa-4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "usageTerms": "Creative Commons Attribution-Share Alike 4.0",
+          "mime": "image/png",
+          "description": "Screenshot of the \"Allow Meta-Wiki\" login redirection.",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "license_metadata_pass",
+          "fileTitle": "File:Squishy PU Changing Mat.jpg",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/10/Squishy_PU_Changing_Mat.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Squishy_PU_Changing_Mat.jpg",
+          "creator": "Rernniss",
+          "attribution": "Rernniss",
+          "license": "cc0",
+          "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "usageTerms": "Creative Commons Zero, Public Domain Dedication",
+          "mime": "image/jpeg",
+          "description": "Squishy PU Changing Mat",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "license_metadata_pass",
+          "fileTitle": "File:Allow Me statue closeup.jpg",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Allow_Me_statue_closeup.jpg/1280px-Allow_Me_statue_closeup.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Allow_Me_statue_closeup.jpg",
+          "creator": "mike krzeszak  from Portland, usa",
+          "attribution": "mike krzeszak  from Portland, usa",
+          "license": "cc-by-2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+          "usageTerms": "Creative Commons Attribution 2.0",
+          "mime": "image/jpeg",
+          "description": "Seward Johnson's Allow Me (commonly referred to as Umbrella Man)",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Adwaita changes-allow-symbolic.svg",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Adwaita_changes-allow-symbolic.svg/1280px-Adwaita_changes-allow-symbolic.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Adwaita_changes-allow-symbolic.svg",
+          "creator": "[www.gnome.org GNOME project], Jakub Steiner",
+          "attribution": "GNOME Project",
+          "license": "cc-by-sa-3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "usageTerms": "Creative Commons Attribution-Share Alike 3.0",
+          "mime": "image/svg+xml",
+          "description": "Adwaita Icon Theme. Private UI icon set for GNOME core apps.",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Faenza-changes-allow-symbolic.svg",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Faenza-changes-allow-symbolic.svg/1280px-Faenza-changes-allow-symbolic.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Faenza-changes-allow-symbolic.svg",
+          "creator": "Matthieu James",
+          "attribution": "Matthieu James",
+          "license": "gpl",
+          "licenseUrl": "http://www.gnu.org/licenses/gpl.html",
+          "usageTerms": "GNU General Public License",
+          "mime": "image/svg+xml",
+          "description": "Icon from the Faenza theme, version 1.3.",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        }
+      ],
+      "errors": [],
+      "selected": null,
+      "state": "awaiting_visual_and_license_review"
     }
   }
 }

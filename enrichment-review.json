@@ -523,6 +523,41 @@
       "factualRisk": "low",
       "imageStatus": "awaiting_visual_and_license_review",
       "publication": "ready_for_publish"
+    },
+    "reflection-008": {
+      "state": "approved",
+      "checkedAt": "2026-11-09T22:38:41.150530Z",
+      "source": "https://plato.stanford.edu/entries/buddha/",
+      "reviewAttempts": [
+        {
+          "attempt": 1,
+          "approved": false,
+          "issues": [
+            "Generated article length 518 outside 600-1100 words"
+          ]
+        },
+        {
+          "attempt": 2,
+          "approved": true,
+          "issues": []
+        }
+      ],
+      "attemptCount": 2,
+      "reviewFailureSummary": "",
+      "sourceAccessible": true,
+      "sourceUrls": [
+        "https://plato.stanford.edu/entries/buddha/",
+        "https://en.wikipedia.org/wiki/LeBron_James"
+      ],
+      "sourceCount": 2,
+      "wordCount": 820,
+      "reviewedTextMatchesSaved": true,
+      "originalSource": "https://plato.stanford.edu/entries/buddha/",
+      "evidenceSource": "https://plato.stanford.edu/entries/buddha/",
+      "issues": [],
+      "factualRisk": "low",
+      "imageStatus": "awaiting_visual_and_license_review",
+      "publication": "ready_for_publish"
     }
   }
 }
