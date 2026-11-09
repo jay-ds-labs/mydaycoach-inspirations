@@ -33,15 +33,15 @@
       "publication": "held_for_editorial_approval"
     },
     "mandela-release": {
-      "state": "needs_review",
-      "checkedAt": "2026-11-09T01:21:05.238019Z",
-      "source": "https://www.nelsonmandela.org/",
+      "state": "approved",
+      "checkedAt": "2026-11-09T01:30:43.242425Z",
+      "source": "https://www.nelsonmandela.org/trials-and-prison-chronology",
       "sourceAccessible": true,
-      "wordCount": 0,
-      "issues": [
-        "Article length 518 outside 600-1100 words"
-      ],
-      "factualRisk": "medium",
+      "wordCount": 673,
+      "originalSource": "https://www.nelsonmandela.org/",
+      "evidenceSource": "https://www.nelsonmandela.org/trials-and-prison-chronology",
+      "issues": [],
+      "factualRisk": "low",
       "imageStatus": "requires_license_verification",
       "publication": "held_for_editorial_approval"
     },
