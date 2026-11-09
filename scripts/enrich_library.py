@@ -142,6 +142,7 @@ def main():
                 candidate_source=original_source
             status["stage"]="generation"
             draft=None;result=None;issues=[];best_detail=""
+            last_reviewed_detail="";last_reviewed_result=None
             if not source:
                 issues=[source_error or "No accessible supporting evidence"]
             for attempt in range(5):
@@ -158,6 +159,8 @@ def main():
                     write(PROGRESS,status);persist("Review inspiration "+item["id"])
                     result=review(item,detail,source) if source else {
                         "approved":False,"issues":[source_error],"factual_risk":"high"}
+                    last_reviewed_detail=detail
+                    last_reviewed_result=result
                     issues=[str(x)[:300] for x in result.get("issues",[])]
                     if result.get("approved") is True and source:
                         best_detail=detail
@@ -167,17 +170,31 @@ def main():
                 except Exception as error:
                     issues=[str(error)[:250]]
                 time.sleep(1)
-            if best_detail:
+            # Never retain an unreviewed candidate as though the last reviewer checked it.
+            if last_reviewed_detail and MIN_WORDS<=len(last_reviewed_detail.split())<=MAX_WORDS:
+                item["detail"]=last_reviewed_detail
+            elif best_detail:
                 item["detail"]=best_detail
                 # Keep the short library summary, title, category and existing ID unchanged.
                 item["status"]="draft"
                 item["publishedAt"]=""
-            state="approved" if result and result.get("approved") is True and source and best_detail else "needs_review"
+            saved_detail=item.get("detail","")
+            review_matches_saved=bool(last_reviewed_detail) and saved_detail==last_reviewed_detail
+            saved_words=len(saved_detail.split())
+            state="approved" if (last_reviewed_result and last_reviewed_result.get("approved") is True
+                and source and review_matches_saved and MIN_WORDS<=saved_words<=MAX_WORDS) else "needs_review"
+            if not review_matches_saved:
+                issues.append("Saved article was not the exact text evaluated by the final reviewer")
+            if not MIN_WORDS<=saved_words<=MAX_WORDS:
+                issues.append("Saved article length outside 600-1100 words")
+            if state=="approved":
+                issues=[]
             if state=="approved" and candidate_source!=original_source:
                 item["source"]=candidate_source
             reviews["items"][item["id"]]={
                 "state":state,"checkedAt":now(),"source":candidate_source,
-                "sourceAccessible":bool(source),"wordCount":len(item.get("detail","").split()),
+                "sourceAccessible":bool(source),"wordCount":saved_words,
+                "reviewedTextMatchesSaved":review_matches_saved,
                 "originalSource":original_source,"evidenceSource":candidate_source,
                 "issues":issues,"factualRisk":(result or {}).get("factual_risk","high"),
                 "imageStatus":"requires_license_verification",
