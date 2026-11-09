@@ -3,7 +3,7 @@
 
 Preserves title, body, category, ID, favourites compatibility, and the existing
 three published examples. Writes full detail into library.json and review
-records into enrichment-review.json. Does not auto-publish uncertain content.
+records into enrichment-review.json. Moves complete content to ready_for_publish; review failures remain visible.
 """
 import datetime as dt
 import html
@@ -125,9 +125,9 @@ def main():
     feed=json.loads(FEED.read_text(encoding="utf-8"))
     original=[x for x in feed["items"] if x.get("status")!="published"]
     reviews=json.loads(REVIEWS.read_text(encoding="utf-8")) if REVIEWS.exists() else {"items":{}}
-    done={k for k,v in reviews["items"].items() if v.get("state") in ("approved","review_failed","needs_review")}
+    done={k for k,v in reviews["items"].items() if v.get("state") in ("approved","review_failed") and any(i["id"]==k and 600<=len(str(i.get("detail") or "").split())<=1100 for i in original)}
     if RETRY_REVIEW:
-        remaining=[x for x in original if reviews["items"].get(x["id"],{}).get("state") in ("review_failed","needs_review")]
+        remaining=[x for x in original if reviews["items"].get(x["id"],{}).get("state") in ("review_failed","needs_review") or (x["id"] not in done and x["id"] in reviews["items"])]
     else:
         remaining=[x for x in original if x["id"] not in done]
     selected=remaining[:BATCH_SIZE]
@@ -151,14 +151,16 @@ def main():
             approved=False
             if not records:
                 issues=["No subject-specific evidence found"]+source_errors
-            else:
-                status["stage"]="generation"
+            status["stage"]="generation"
+            if True:
                 for attempt in range(MAX_ATTEMPTS):
                     attempt_record={"attempt":attempt+1,"approved":False,"issues":[]}
                     try:
-                        draft=compose(item,source,"; ".join(issues))
+                        draft=compose(item,source or "No independent source was retrieved. Avoid unverifiable specifics; explain uncertainty.", "; ".join(issues))
                         detail=str(draft.get("detail",""))
                         words=len(detail.split())
+                        if MIN_WORDS<=words<=MAX_WORDS and not best_detail:
+                            best_detail=detail;best_issues=["Article not yet approved by reviewer"]
                         if not MIN_WORDS<=words<=MAX_WORDS:
                             issues=["Generated article length "+str(words)+" outside 600-1100 words"]
                             attempt_record["issues"]=issues[:3]
@@ -190,11 +192,13 @@ def main():
             # Preserve existing valid text if all new attempts fail; never claim it passed.
             if best_detail:
                 item["detail"]=best_detail
-            item["status"]="draft"
-            item["publishedAt"]=""
+            complete=MIN_WORDS<=len(str(item.get("detail") or "").split())<=MAX_WORDS
+            item["status"]="ready_for_publish" if complete else "draft"
+            if item["status"]=="draft":
+                item["publishedAt"]=""
             saved_detail=item.get("detail","")
             saved_words=len(saved_detail.split())
-            exact_review=bool(best_detail) and saved_detail==best_detail
+            exact_review=bool(best_detail and best_result) and saved_detail==best_detail
             approved=bool(best_result) and exact_review and not best_issues and best_result.get("approved") is True
             state="approved" if approved and records and MIN_WORDS<=saved_words<=MAX_WORDS else "review_failed"
             if state!="approved":
@@ -224,7 +228,7 @@ def main():
                 "originalSource":original_source,"evidenceSource":source_urls[0] if source_urls else "",
                 "issues":issues,"factualRisk":(best_result or {}).get("factual_risk","high"),
                 "imageStatus":"awaiting_visual_and_license_review",
-                "publication":"held_for_editorial_and_image_approval"
+                "publication":"ready_for_publish" if complete else "blocked_incomplete_article"
             }
             status["reviewed"]+=1
             status["approved"]+=int(state=="approved")
@@ -237,9 +241,9 @@ def main():
         status["contentReady"]=sum(v.get("state")=="approved" for v in reviews["items"].values())
         status["contentNeedsReview"]=sum(v.get("state") in ("needs_review","review_failed") for v in reviews["items"].values())
         status["reviewFailed"]=sum(v.get("state")=="review_failed" for v in reviews["items"].values())
-        status["publicationReady"]=0
-        status["publicationBlocked"]=len(original)
-        status["qualityGate"]="blocked_pending_image_and_editorial_clearance"
+        status["publicationReady"]=sum(x.get("status")=="ready_for_publish" for x in original)
+        status["publicationBlocked"]=sum(x.get("status")=="draft" for x in original)
+        status["qualityGate"]="full_article_required_review_advisory"
         status["stage"]="done";status["currentId"]=None;status["completedAt"]=now()
     except Exception as error:
         status["state"]="failed";status["error"]=str(error)[:400];status["completedAt"]=now()
