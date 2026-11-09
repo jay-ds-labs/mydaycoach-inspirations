@@ -4523,6 +4523,179 @@
       "errors": [],
       "selected": null,
       "state": "awaiting_visual_and_license_review"
+    },
+    "reflection-018": {
+      "checkedAt": "2026-11-09T22:44:45.113208Z",
+      "queries": [
+        "Define enough"
+      ],
+      "candidates": [
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:A Critique of Analytic War Gaming as an Aid to the Military Decisionmaker. (IA critiqueofanalyt00mcca).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/A_Critique_of_Analytic_War_Gaming_as_an_Aid_to_the_Military_Decisionmaker._%28IA_critiqueofanalyt00mcca%29.pdf/page1-960px-A_Critique_of_Analytic_War_Gaming_as_an_Aid_to_the_Military_Decisionmaker._%28IA_critiqueofanalyt00mcca%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:A_Critique_of_Analytic_War_Gaming_as_an_Aid_to_the_Military_Decisionmaker._(IA_critiqueofanalyt00mcca).pdf",
+          "creator": "McCaffery, Robert A.",
+          "attribution": "McCaffery, Robert A.",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Includes bibliographical references\n \n Subjects:",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
+          "visualCheck": {
+            "state": "not_checked",
+            "reason": "No API key or license metadata not approved"
+          }
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:A revenue and expense apportionment concept for the analysis of internal returns on investment (the simple case) (IA revenueexpenseap5041hyne).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/A_revenue_and_expense_apportionment_concept_for_the_analysis_of_internal_returns_on_investment_%28the_simple_case%29_%28IA_revenueexpenseap5041hyne%29.pdf/page1-960px-A_revenue_and_expense_apportionment_concept_for_the_analysis_of_internal_returns_on_investment_%28the_simple_case%29_%28IA_revenueexpenseap5041hyne%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:A_revenue_and_expense_apportionment_concept_for_the_analysis_of_internal_returns_on_investment_(the_simple_case)_(IA_revenueexpenseap5041hyne).pdf",
+          "creator": "Hynes, James P.",
+          "attribution": "Hynes, James P.",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Title from cover \n \"April 1975\"--Cover \n \"NPS-55Hj-75041\"--Cover \n Author(s) subject terms: Transfer pricing; cost accounting; joint costs; return on investment \n Includes bibliographical references (p. 77-78) \n Technical report; 1975 \n This paper presents a technique which uses revenue, expense, and investment data to assign returns on investment to each activity in an interactive economic system. It is a simple case of a more general model. The economic system may be a group of firms, a single",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
+          "visualCheck": {
+            "state": "not_checked",
+            "reason": "No API key or license metadata not approved"
+          }
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Assessment on how much DoD information technology testing is enough (IA assessmentonhowm1094510491).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Assessment_on_how_much_DoD_information_technology_testing_is_enough_%28IA_assessmentonhowm1094510491%29.pdf/page1-960px-Assessment_on_how_much_DoD_information_technology_testing_is_enough_%28IA_assessmentonhowm1094510491%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Assessment_on_how_much_DoD_information_technology_testing_is_enough_(IA_assessmentonhowm1094510491).pdf",
+          "creator": "Graves, Kelvin L.",
+          "attribution": "Graves, Kelvin L.",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "The Department of Defense has mandated that all military programs implement  integrated testing within their program whenever possible; however, the concern of  information technology being agile steadily grows within the Department. The Chairman  of the House Armed Service Committee appointed the Defense Acquisition Reform Panel  on March 2009, to review the acquisition processes. The panel study claimed that the  nature of defense acquisition has considerably changed over the years however; th",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
+          "visualCheck": {
+            "state": "not_checked",
+            "reason": "No API key or license metadata not approved"
+          }
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Define Wiktionary itWikiCon 2018.pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Define_Wiktionary_itWikiCon_2018.pdf/page1-1280px-Define_Wiktionary_itWikiCon_2018.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Define_Wiktionary_itWikiCon_2018.pdf",
+          "creator": "Jberkel",
+          "attribution": "Jberkel",
+          "license": "cc-by-sa-4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "usageTerms": "Creative Commons Attribution-Share Alike 4.0",
+          "mime": "application/pdf",
+          "description": "Slides from the presentation at itWikiCon Como 2018",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Evaluation of the Shipyard Management Information System (Material Management functions) at the Long Beach Naval Shipyard. (IA evaluationofship00rack).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Evaluation_of_the_Shipyard_Management_Information_System_%28Material_Management_functions%29_at_the_Long_Beach_Naval_Shipyard._%28IA_evaluationofship00rack%29.pdf/page1-960px-Evaluation_of_the_Shipyard_Management_Information_System_%28Material_Management_functions%29_at_the_Long_Beach_Naval_Shipyard._%28IA_evaluationofship00rack%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Evaluation_of_the_Shipyard_Management_Information_System_(Material_Management_functions)_at_the_Long_Beach_Naval_Shipyard._(IA_evaluationofship00rack).pdf",
+          "creator": "Rackliffe, John A.;San Miguel, Joseph G.;Trietsch, Dan.",
+          "attribution": "Rackliffe, John A.;San Miguel, Joseph G.;Trietsch, Dan.",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Thesis advisors, Joseph G. San Miguel and Dan Trietsch \n ADA219197 \n Thesis (M.S. in Mgmt.) Naval Postgraduate School, Sept. 1989 \n Includes bibliographical references  \n Subjects:",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Farmland - will there be enough? (IA farmlandwillther584cotn).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Farmland_-_will_there_be_enough%3F_%28IA_farmlandwillther584cotn%29.pdf/page1-500px-Farmland_-_will_there_be_enough%3F_%28IA_farmlandwillther584cotn%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Farmland_-_will_there_be_enough%3F_(IA_farmlandwillther584cotn).pdf",
+          "creator": "Cotner, M. L \n Krause, Orville E \n Skold, Melvin D \n United States. Department of Agriculture. Economic Research Service",
+          "attribution": "Cotner, M. L \n Krause, Orville E \n Skold, Melvin D \n United States. Department of Agriculture. Economic Research Service",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Issued May 1975. Bibliography: p. [16]\n \n Subjects: Farms; Land use",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Generalized Boolean functions as combiners (IA generalizedboole1094555589).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Generalized_Boolean_functions_as_combiners_%28IA_generalizedboole1094555589%29.pdf/page1-960px-Generalized_Boolean_functions_as_combiners_%28IA_generalizedboole1094555589%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Generalized_Boolean_functions_as_combiners_(IA_generalizedboole1094555589).pdf",
+          "creator": "Di Nallo, Oliver",
+          "attribution": "Di Nallo, Oliver",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "In this digital age, cryptography has formed the backbone of many computer functions. Cryptography drives online commerce and allows privileged information safe transit between two parties as well as many other critical internet uses. The presence of a strong pseudo-random number generator (PRNG) is an absolute requirement in modern cryptography. All modern ciphers draw their strength from having this strong generator. There are currently many ways to generate a secure PRNG. Most current PRNGs g",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Good enough is perfect - A Wikimedia playbook for collective deliberation.pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Good_enough_is_perfect_-_A_Wikimedia_playbook_for_collective_deliberation.pdf/page1-1280px-Good_enough_is_perfect_-_A_Wikimedia_playbook_for_collective_deliberation.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Good_enough_is_perfect_-_A_Wikimedia_playbook_for_collective_deliberation.pdf",
+          "creator": "Linda Doyle, Lucas de Koning and Wolfgang Wopperer, co-directors of the Movement Ecology Collective",
+          "attribution": "Linda Doyle, Lucas de Koning and Wolfgang Wopperer, co-directors of the Movement Ecology Collective",
+          "license": "cc-by-4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+          "usageTerms": "Creative Commons Attribution 4.0",
+          "mime": "application/pdf",
+          "description": "Good enough is perfect - A Wikimedia playbook for collective deliberation",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Navy construction contract regulations vs. the Board of Contract Appeals. (IA navyconstruction00mcmu).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Navy_construction_contract_regulations_vs._the_Board_of_Contract_Appeals._%28IA_navyconstruction00mcmu%29.pdf/page1-960px-Navy_construction_contract_regulations_vs._the_Board_of_Contract_Appeals._%28IA_navyconstruction00mcmu%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Navy_construction_contract_regulations_vs._the_Board_of_Contract_Appeals._(IA_navyconstruction00mcmu).pdf",
+          "creator": "McMurray, Thomas David.;Evered, Roger.",
+          "attribution": "McMurray, Thomas David.;Evered, Roger.",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Thesis advisor, Roger D. Evered \n Available from National Technical Information Service, Springfield, Va \n ADA192219 \n Thesis (M.S. in Management) Naval Postgraduate School, Dec. 1987 \n Includes bibliographical references \n c.1, c.2  \n Subjects: Management",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Once is enough in radiometric calibrations (IA jresv112n1p39).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Once_is_enough_in_radiometric_calibrations_%28IA_jresv112n1p39%29.pdf/page1-960px-Once_is_enough_in_radiometric_calibrations_%28IA_jresv112n1p39%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Once_is_enough_in_radiometric_calibrations_(IA_jresv112n1p39).pdf",
+          "creator": "",
+          "attribution": "",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Journal of Research of the National Institute of Standards and Technology \n Journal of Research of the National Institute of Standards and Technology  \n Subjects:  process control; calibration;  quality measurements",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        }
+      ],
+      "errors": [],
+      "selected": null,
+      "state": "awaiting_visual_and_license_review"
     }
   }
 }
