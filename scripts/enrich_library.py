@@ -205,6 +205,8 @@ def main():
                     issues.append("Saved article length outside 600-1100 words")
             else:
                 issues=[]
+            item["reviewStatus"]=state
+            item["reviewFailureSummary"]="; ".join(issues[:2])[:350] if state=="review_failed" else ""
             status["stage"]="image_audit"
             write(PROGRESS,status)
             image_results,image_errors=image_candidates(item)
