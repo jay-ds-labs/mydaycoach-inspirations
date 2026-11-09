@@ -2258,6 +2258,53 @@
       "factualRisk": "high",
       "imageStatus": "awaiting_visual_and_license_review",
       "publication": "ready_for_publish"
+    },
+    "generated-e3df52444a20475181c6": {
+      "state": "review_failed",
+      "checkedAt": "2026-11-09T22:59:34.883385Z",
+      "source": "https://www.masshist.org/digitaladams/archive/doc?id=L17760331aa",
+      "reviewAttempts": [
+        {
+          "attempt": 1,
+          "approved": false,
+          "issues": [
+            "Generation/review error: HTTP Error 503: Service Unavailable"
+          ]
+        },
+        {
+          "attempt": 2,
+          "approved": false,
+          "issues": [
+            "Generation/review error: HTTP Error 503: Service Unavailable"
+          ]
+        },
+        {
+          "attempt": 3,
+          "approved": false,
+          "issues": [
+            "Generated article length 402 outside 600-1100 words"
+          ]
+        }
+      ],
+      "attemptCount": 3,
+      "reviewFailureSummary": "Generated article length 402 outside 600-1100 words; Saved text has not passed a matching editorial review",
+      "sourceAccessible": true,
+      "sourceUrls": [
+        "https://www.masshist.org/digitaladams/archive/doc?id=L17760331aa",
+        "https://en.wikipedia.org/wiki/Benjamin_Franklin"
+      ],
+      "sourceCount": 2,
+      "wordCount": 767,
+      "reviewedTextMatchesSaved": false,
+      "originalSource": "https://www.masshist.org/digitaladams/archive/doc?id=L17760331aa",
+      "evidenceSource": "https://www.masshist.org/digitaladams/archive/doc?id=L17760331aa",
+      "issues": [
+        "Generated article length 402 outside 600-1100 words",
+        "Saved text has not passed a matching editorial review"
+      ],
+      "factualRisk": "high",
+      "imageStatus": "awaiting_visual_and_license_review",
+      "publication": "ready_for_publish"
     }
   }
 }

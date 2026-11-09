@@ -7446,6 +7446,149 @@
       "errors": [],
       "selected": null,
       "state": "awaiting_visual_and_license_review"
+    },
+    "generated-e3df52444a20475181c6": {
+      "checkedAt": "2026-11-09T22:59:34.883375Z",
+      "queries": [
+        "Diplomacy in Letters: Abigail Adams and the Pen Behind Peace"
+      ],
+      "candidates": [
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Catherine Schuyler (IA catherinesch00humprich).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Catherine_Schuyler_%28IA_catherinesch00humprich%29.pdf/page1-500px-Catherine_Schuyler_%28IA_catherinesch00humprich%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Catherine_Schuyler_(IA_catherinesch00humprich).pdf",
+          "creator": "Humphreys, Mary Gay, d. 1915",
+          "attribution": "Humphreys, Mary Gay, d. 1915",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Subjects: Schuyler, Catherine (Van Rensselaer), 1734?-1808; Schuyler, Philip John, 1733-1804; New York (State) -- Social life and customs; Albany (N.Y.) -- History Colonial period",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
+          "visualCheck": {
+            "state": "not_checked",
+            "reason": "No API key or license metadata not approved"
+          }
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Catherine Schuyler (IA catherineschuyle01hump).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Catherine_Schuyler_%28IA_catherineschuyle01hump%29.pdf/page1-500px-Catherine_Schuyler_%28IA_catherineschuyle01hump%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Catherine_Schuyler_(IA_catherineschuyle01hump).pdf",
+          "creator": "Humphreys, Mary Gay, -1915",
+          "attribution": "Humphreys, Mary Gay, -1915",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Subjects: Schuyler, Catherine, 1734-1803; Schuyler, Philip John, 1733-1804",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
+          "visualCheck": {
+            "state": "not_checked",
+            "reason": "No API key or license metadata not approved"
+          }
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Life of Daniel Webster (IA lifeofdanielwebs01curtiala).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Life_of_Daniel_Webster_%28IA_lifeofdanielwebs01curtiala%29.pdf/page1-500px-Life_of_Daniel_Webster_%28IA_lifeofdanielwebs01curtiala%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Life_of_Daniel_Webster_(IA_lifeofdanielwebs01curtiala).pdf",
+          "creator": "Curtis, George Ticknor, 1812-1894",
+          "attribution": "Curtis, George Ticknor, 1812-1894",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Subjects: Webster, Daniel, 1782-1852",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
+          "visualCheck": {
+            "state": "not_checked",
+            "reason": "No API key or license metadata not approved"
+          }
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Life of Daniel Webster (IA lifeofdanielwebs01curtrich).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Life_of_Daniel_Webster_%28IA_lifeofdanielwebs01curtrich%29.pdf/page1-500px-Life_of_Daniel_Webster_%28IA_lifeofdanielwebs01curtrich%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Life_of_Daniel_Webster_(IA_lifeofdanielwebs01curtrich).pdf",
+          "creator": "Curtis, George Ticknor, 1812-1894 \n Making of America Project",
+          "attribution": "Curtis, George Ticknor, 1812-1894 \n Making of America Project",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Subjects: Webster, Daniel, 1782-1852; Legislators -- United States",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Life Of Daniel Webster (IA LifeOfDanielWebster).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Life_Of_Daniel_Webster_%28IA_LifeOfDanielWebster%29.pdf/page1-500px-Life_Of_Daniel_Webster_%28IA_LifeOfDanielWebster%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Life_Of_Daniel_Webster_(IA_LifeOfDanielWebster).pdf",
+          "creator": "George Ticknor Curtis",
+          "attribution": "George Ticknor Curtis",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Subjects: Autobiography",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Pictured knowledge;visual instruction practically applied for the home and school ... (Vol. 1) (IA picturedknowledg01unse 0).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Pictured_knowledge%3Bvisual_instruction_practically_applied_for_the_home_and_school_..._%28Vol._1%29_%28IA_picturedknowledg01unse_0%29.pdf/page1-1280px-Pictured_knowledge%3Bvisual_instruction_practically_applied_for_the_home_and_school_..._%28Vol._1%29_%28IA_picturedknowledg01unse_0%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Pictured_knowledge;visual_instruction_practically_applied_for_the_home_and_school_..._(Vol._1)_(IA_picturedknowledg01unse_0).pdf",
+          "creator": "",
+          "attribution": "",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "2 v. 25 cm\n \n Subjects: Encyclopedias and dictionaries",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:The friendly club and other portraits (IA friendlyclubothe00parsiala).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/The_friendly_club_and_other_portraits_%28IA_friendlyclubothe00parsiala%29.pdf/page1-500px-The_friendly_club_and_other_portraits_%28IA_friendlyclubothe00parsiala%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:The_friendly_club_and_other_portraits_(IA_friendlyclubothe00parsiala).pdf",
+          "creator": "Parsons, Francis, 1871-1937",
+          "attribution": "Parsons, Francis, 1871-1937",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "The Friendly club.--The mystery of the Bell tavern.--The Hermans of America.--Whom the gods love.--An eccentric visitor.--Who was Peter Parley?--A preacher ofthe gospel.--A friend of Lincoln.--Our battle laureate.--The temple of the muses.--The friend of youth.--The christmas party.--The fabric of a dream.--The quiet life\n \n Subjects: Authors, American; Hartford (Conn.) -- Biography",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:The republic, or, A history of the United States of America in the administrations - from the monarchic colonial days to the present times (IA cu31924088430057).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/The_republic%2C_or%2C_A_history_of_the_United_States_of_America_in_the_administrations_-_from_the_monarchic_colonial_days_to_the_present_times_%28IA_cu31924088430057%29.pdf/page1-500px-thumbnail.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:The_republic,_or,_A_history_of_the_United_States_of_America_in_the_administrations_-_from_the_monarchic_colonial_days_to_the_present_times_(IA_cu31924088430057).pdf",
+          "creator": "Irelan, John Robert",
+          "attribution": "Irelan, John Robert",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "The metadata below describe the original scanning. Follow the \"All Files: HTTP\" link in the \"View the book\" box to the left to find XML files that contain more metadata about the original images and the derived formats (OCR results, PDF etc.). See also the  What is the directory structure for the texts?  FAQ for information about file content and naming conventions. \n Title on cover: America \n Each volume has also special t.p \n Imprint varies \n Includes indexes \n 1. George Washington.--2. John A",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        }
+      ],
+      "errors": [],
+      "selected": null,
+      "state": "awaiting_visual_and_license_review"
     }
   }
 }

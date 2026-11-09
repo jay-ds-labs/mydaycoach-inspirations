@@ -855,8 +855,10 @@
       "image": "",
       "category": "Quotes",
       "id": "generated-e3df52444a20475181c6",
-      "status": "draft",
-      "publishedAt": ""
+      "status": "ready_for_publish",
+      "publishedAt": "",
+      "reviewStatus": "review_failed",
+      "reviewFailureSummary": "Generated article length 402 outside 600-1100 words; Saved text has not passed a matching editorial review"
     },
     {
       "title": "Rescue at Nanking: Minnie Vautrin and the Protection of Ginling College",
