@@ -1349,6 +1349,50 @@
       "factualRisk": "high",
       "imageStatus": "awaiting_visual_and_license_review",
       "publication": "ready_for_publish"
+    },
+    "reflection-030": {
+      "state": "approved",
+      "checkedAt": "2026-11-09T22:50:58.489140Z",
+      "source": "https://plato.stanford.edu/entries/aristotle-ethics/",
+      "reviewAttempts": [
+        {
+          "attempt": 1,
+          "approved": false,
+          "issues": [
+            "The article attributes specific practices of nightly self-examination and review directly to Aristotle without clear supporting textual evidence from the supplied source.",
+            "The article presents reflective nightly review as if it is a distinct Aristotelian recommendation when the Stanford source does not explicitly describe such a daily practice.",
+            "Some phrases appear as interpretive paraphrase rather than direct claim support; example: 'habit of nightly self-examination—'taking stock'—serves a specific ethical and practical function.'"
+          ]
+        },
+        {
+          "attempt": 2,
+          "approved": false,
+          "issues": [
+            "Generated article length 536 outside 600-1100 words"
+          ]
+        },
+        {
+          "attempt": 3,
+          "approved": true,
+          "issues": []
+        }
+      ],
+      "attemptCount": 3,
+      "reviewFailureSummary": "",
+      "sourceAccessible": true,
+      "sourceUrls": [
+        "https://plato.stanford.edu/entries/aristotle-ethics/",
+        "https://en.wikipedia.org/wiki/Malcolm_X"
+      ],
+      "sourceCount": 2,
+      "wordCount": 759,
+      "reviewedTextMatchesSaved": true,
+      "originalSource": "https://plato.stanford.edu/entries/aristotle-ethics/",
+      "evidenceSource": "https://plato.stanford.edu/entries/aristotle-ethics/",
+      "issues": [],
+      "factualRisk": "low",
+      "imageStatus": "awaiting_visual_and_license_review",
+      "publication": "ready_for_publish"
     }
   }
 }

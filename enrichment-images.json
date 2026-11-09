@@ -6541,6 +6541,189 @@
       "errors": [],
       "selected": null,
       "state": "awaiting_visual_and_license_review"
+    },
+    "reflection-030": {
+      "checkedAt": "2026-11-09T22:50:58.489124Z",
+      "queries": [
+        "End the day with reflection"
+      ],
+      "candidates": [
+        {
+          "state": "license_metadata_pass",
+          "fileTitle": "File:End of day reflections by Lake Zurich.jpg",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/End_of_day_reflections_by_Lake_Zurich.jpg/1280px-End_of_day_reflections_by_Lake_Zurich.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:End_of_day_reflections_by_Lake_Zurich.jpg",
+          "creator": "Ricardo Rivera Jr",
+          "attribution": "Ricardo Rivera Jr",
+          "license": "cc-by-sa-3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "usageTerms": "Creative Commons Attribution-Share Alike 3.0",
+          "mime": "image/jpeg",
+          "description": "Zürichsee",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
+          "visualCheck": {
+            "state": "relevant_candidate",
+            "confidence": "high",
+            "issues": [],
+            "explanation": "The image title 'End of day reflections by Lake Zurich' directly suggests a theme of reflection at the end of the day, aligning well with the inspiration 'End the day with reflection.' The image visually depicts a calm lakeside scene at sunset with people sitting quietly by the water, which metaphorically supports the philosophical idea of reflection and contemplation for better decisions tomorrow."
+          }
+        },
+        {
+          "state": "license_metadata_pass",
+          "fileTitle": "File:End of the day sea reflections (9778932273).jpg",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/End_of_the_day_sea_reflections_%289778932273%29.jpg/1280px-End_of_the_day_sea_reflections_%289778932273%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:End_of_the_day_sea_reflections_(9778932273).jpg",
+          "creator": "Pedro Ribeiro Simões  from Lisboa, Portugal",
+          "attribution": "Pedro Ribeiro Simões  from Lisboa, Portugal",
+          "license": "cc-by-2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+          "usageTerms": "Creative Commons Attribution 2.0",
+          "mime": "image/jpeg",
+          "description": "End of the day: sea reflections",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
+          "visualCheck": {
+            "state": "relevant_candidate",
+            "confidence": "high",
+            "issues": [],
+            "explanation": "The image visually depicts the end of the day with reflections on the sea, which aligns well with the metaphor of reflection in the inspirational text. While the image shows literal reflections on the water at the end of the day, it metaphorically supports the idea of taking time for reflection to improve future decisions, making it highly relevant."
+          }
+        },
+        {
+          "state": "license_metadata_pass",
+          "fileTitle": "File:Kaohsiung Music Center and Lingyaliao Railroad Bridge lit with Ukrainian flag colors during 2022 Taiwan Lantern Festival (cropped).jpg",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Kaohsiung_Music_Center_and_Lingyaliao_Railroad_Bridge_lit_with_Ukrainian_flag_colors_during_2022_Taiwan_Lantern_Festival_%28cropped%29.jpg/1280px-Kaohsiung_Music_Center_and_Lingyaliao_Railroad_Bridge_lit_with_Ukrainian_flag_colors_during_2022_Taiwan_Lantern_Festival_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Kaohsiung_Music_Center_and_Lingyaliao_Railroad_Bridge_lit_with_Ukrainian_flag_colors_during_2022_Taiwan_Lantern_Festival_(cropped).jpg",
+          "creator": "Tiouraren  (Y.-C. Tsai)",
+          "attribution": "Tiouraren  (Y.-C. Tsai)",
+          "license": "cc-by-sa-4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "usageTerms": "Creative Commons Attribution-Share Alike 4.0",
+          "mime": "image/jpeg",
+          "description": "The Kaohsiung Music Center and the Lingyaliao Railroad Bridge illuminated in the colors of Ukraine's national flag during the 2022 Taiwan Lantern Festival. This light show was displayed from February 26, two days after Russia's invasion of Ukraine, to February 28, when the annual Lantern Festival ended.\nThis image is a blend of different exposure times: 59.0\", 30.0\", 9.0\", 4.0\", 2.0\", and 1.0\".",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
+          "visualCheck": {
+            "state": "needs_visual_review",
+            "confidence": "high",
+            "issues": [
+              "The image shows an architectural light display themed around the Ukrainian flag colors, related to a specific political event.",
+              "The inspiration is about reflection as a philosophical concept for learning from experience and personal growth, which isn't visibly represented in this image.",
+              "While the image contains literal reflection in water, it lacks clear symbolic ties to the inspiration's philosophical message."
+            ],
+            "explanation": "This image captures a nighttime scene of a music center and bridge lit up in the colors of Ukraine's national flag, with their reflections visible on the water. The inspiration focuses on the concept of reflection as a metaphor for thoughtful consideration and improved decision-making. Although there is a visual reflection, the image's context centers on a political show of solidarity rather than philosophical reflection or introspection. Thus, the image is not visibly relevant to the given inspiration."
+          }
+        },
+        {
+          "state": "license_metadata_pass",
+          "fileTitle": "File:Laanemaa järv Orkjärve looduskaitsealal.jpg",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Laanemaa_j%C3%A4rv_Orkj%C3%A4rve_looduskaitsealal.jpg/1280px-Laanemaa_j%C3%A4rv_Orkj%C3%A4rve_looduskaitsealal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Laanemaa_j%C3%A4rv_Orkj%C3%A4rve_looduskaitsealal.jpg",
+          "creator": "Heino Ruiso",
+          "attribution": "Heino Ruiso",
+          "license": "cc-by-sa-3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "usageTerms": "Creative Commons Attribution-Share Alike 3.0",
+          "mime": "image/jpeg",
+          "description": "Lake Laanemaa at Orkjärve Nature Reserve, Estonia. Sunrise. Intense colors were present for just couple of minutes.",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "license_metadata_pass",
+          "fileTitle": "File:Rummu karjäär1.jpg",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Rummu_karj%C3%A4%C3%A4r1.jpg/1280px-Rummu_karj%C3%A4%C3%A4r1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Rummu_karj%C3%A4%C3%A4r1.jpg",
+          "creator": "Ivar Leidus",
+          "attribution": "Ivar Leidus",
+          "license": "cc-by-sa-3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "usageTerms": "Creative Commons Attribution-Share Alike 3.0",
+          "mime": "image/jpeg",
+          "description": "Rummu limestone quarry,  Rummu , Estonia,  was established in 1938. Limestone was quarried by convicts from the adjacent Murru prison until the restoration of Estonian independence. When quarrying ended and water drainage was stopped, ground water rapidly filled the depression; the quarry's abandonment happened so quickly, some machinery was lost along with the building complex. The prison itself remained active until the end of 2012.",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "license_metadata_pass",
+          "fileTitle": "File:Schwetzingen - Schlossgarten - Großer Weiher - Westende mit Brücke im Herbst 2.jpg",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Schwetzingen_-_Schlossgarten_-_Gro%C3%9Fer_Weiher_-_Westende_mit_Br%C3%BCcke_im_Herbst_2.jpg/1280px-Schwetzingen_-_Schlossgarten_-_Gro%C3%9Fer_Weiher_-_Westende_mit_Br%C3%BCcke_im_Herbst_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Schwetzingen_-_Schlossgarten_-_Gro%C3%9Fer_Weiher_-_Westende_mit_Br%C3%BCcke_im_Herbst_2.jpg",
+          "creator": "Roman Eisele",
+          "attribution": "Roman Eisele",
+          "license": "cc-by-sa-4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "usageTerms": "Creative Commons Attribution-Share Alike 4.0",
+          "mime": "image/jpeg",
+          "description": "Gardens of  Schwetzingen Palace , Germany: trees with colourful autumn leaves and one of the small white wooden bridges at the western end of the  Großer Weiher  (Great Pond), seen from the southeast.",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "license_metadata_pass",
+          "fileTitle": "File:Seal Rocks, Ocean Beach, San Francisco.jpg",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Seal_Rocks%2C_Ocean_Beach%2C_San_Francisco.jpg/1280px-Seal_Rocks%2C_Ocean_Beach%2C_San_Francisco.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Seal_Rocks,_Ocean_Beach,_San_Francisco.jpg",
+          "creator": "Radomianin",
+          "attribution": "Radomianin",
+          "license": "cc-by-sa-4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "usageTerms": "Creative Commons Attribution-Share Alike 4.0",
+          "mime": "image/jpeg",
+          "description": "View of the  Seal Rocks  at the north end of  Ocean Beach , San Francisco, California, USA",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "license_metadata_pass",
+          "fileTitle": "File:Sky light reflection 02.jpg",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Sky_light_reflection_02.jpg/1280px-Sky_light_reflection_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Sky_light_reflection_02.jpg",
+          "creator": "Christian Ferrer",
+          "attribution": "Christian Ferrer",
+          "license": "cc-by-4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+          "usageTerms": "Creative Commons Attribution 4.0",
+          "mime": "image/jpeg",
+          "description": "The lights of the end of the day and of the sunset reflected in a canal in Frontignan. On the right in the background the Refinery of Frontignan and the Mount Saint-Clair in Sète.",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:A history of the detection, conviction, life and designs of John A. Murel (i.e. Murrell), the great western land pirate - together with his system of villany, and plan of (IA historyofdetecti00walt 0).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/A_history_of_the_detection%2C_conviction%2C_life_and_designs_of_John_A._Murel_%28i.e._Murrell%29%2C_the_great_western_land_pirate_-_together_with_his_system_of_villany%2C_and_plan_of_%28IA_historyofdetecti00walt_0%29.pdf/page1-500px-thumbnail.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:A_history_of_the_detection,_conviction,_life_and_designs_of_John_A._Murel_(i.e._Murrell),_the_great_western_land_pirate_-_together_with_his_system_of_villany,_and_plan_of_(IA_historyofdetecti00walt_0).pdf",
+          "creator": "Walton, Augustus Q",
+          "attribution": "Walton, Augustus Q",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Biographical sketch of Virgil Adam Stewart, p. 55-60 \n Sabin \n 16  \n Subjects: Murrell, John A; Stewart, Virgil A. (Virgil Adam), b. 1809; Criminals",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:IMPLICATIONS OF A NUCLEAR AGREEMENT WITH IRAN (PART II) (IA gov.gpo.fdsys.CHRG-114hhrg95512).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/IMPLICATIONS_OF_A_NUCLEAR_AGREEMENT_WITH_IRAN_%28PART_II%29_%28IA_gov.gpo.fdsys.CHRG-114hhrg95512%29.pdf/page1-960px-IMPLICATIONS_OF_A_NUCLEAR_AGREEMENT_WITH_IRAN_%28PART_II%29_%28IA_gov.gpo.fdsys.CHRG-114hhrg95512%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:IMPLICATIONS_OF_A_NUCLEAR_AGREEMENT_WITH_IRAN_(PART_II)_(IA_gov.gpo.fdsys.CHRG-114hhrg95512).pdf",
+          "creator": "Committee on Foreign Affairs",
+          "attribution": "Committee on Foreign Affairs",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Government Publishing Office   U.S. Congress House of Representatives Committee on Foreign Affairs  IMPLICATIONS OF A NUCLEAR AGREEMENT WITH IRAN (PART II)  Date(s) Held: 2015-07-14   114th Congress, 1st Session  GPO Document Source:  https://www.gpo.gov/fdsys/pkg/CHRG-114hhrg95512/content-detail.html \" rel=\"nofollow\">CHRG-114hhrg95512  Superintendents of Documents ID: Y 4.IN 8/16  Witnesses:   The Honorable Joseph I. Lieberman, co-chair, Iran Task Force, Leadership Council, Foundation for the D",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        }
+      ],
+      "errors": [],
+      "selected": null,
+      "state": "awaiting_visual_and_license_review"
     }
   }
 }
