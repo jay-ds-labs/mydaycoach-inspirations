@@ -1,0 +1,39 @@
+name: Audit inspiration images without regenerating articles
+on:
+  workflow_dispatch:
+    inputs:
+      batch_size:
+        description: "Number of existing reviewed articles to audit"
+        required: true
+        default: "10"
+        type: choice
+        options: ["5", "10", "20", "50", "100"]
+      only_missing:
+        description: "Only audit articles with no previous image audit"
+        required: true
+        default: false
+        type: boolean
+permissions:
+  contents: write
+concurrency:
+  group: inspiration-generation
+  cancel-in-progress: false
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - name: Configure commit identity
+        run: |
+          git config user.name "MyDayCoach Content Bot"
+          git config user.email "content-bot@users.noreply.github.com"
+      - name: Run offline tests
+        run: |
+          python3 -m py_compile scripts/audit_images.py scripts/enrich_library.py scripts/research.py
+          python3 -m unittest discover -s tests -p "test_*.py" -v
+      - name: Audit images
+        env:
+          IMAGE_AUDIT_BATCH_SIZE: ${{ inputs.batch_size }}
+          IMAGE_AUDIT_ONLY_MISSING: ${{ inputs.only_missing }}
+        run: python3 scripts/audit_images.py
