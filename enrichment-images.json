@@ -7649,6 +7649,36 @@
       "errors": [],
       "selected": null,
       "state": "awaiting_visual_and_license_review"
+    },
+    "generated-effa8452725d4abf9c91": {
+      "checkedAt": "2026-11-09T23:03:43.939416Z",
+      "queries": [
+        "The Cārvāka View: Materialism and Skepticism in Ancient India"
+      ],
+      "candidates": [
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:The Open court (IA opencourt oct1930caru).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/The_Open_court_%28IA_opencourt_oct1930caru%29.pdf/page1-500px-The_Open_court_%28IA_opencourt_oct1930caru%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:The_Open_court_(IA_opencourt_oct1930caru).pdf",
+          "creator": "Carus, Paul, 1852-1919 \n Open Court Publishing company, Chicago",
+          "attribution": "Carus, Paul, 1852-1919 \n Open Court Publishing company, Chicago",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Poole's index to periodical literature \n Issues for  called also nos.   \n Vol. 1 (1887)-v. 20 (1906). 1 v \n Editor: Feb. 1887-1919, Paul Carus  \n Subjects: Religion; Religion and science",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
+          "visualCheck": {
+            "state": "not_checked",
+            "reason": "No API key or license metadata not approved"
+          }
+        }
+      ],
+      "errors": [],
+      "selected": null,
+      "state": "awaiting_visual_and_license_review"
     }
   }
 }

@@ -2564,6 +2564,56 @@
       "factualRisk": "low",
       "imageStatus": "awaiting_visual_and_license_review",
       "publication": "ready_for_publish"
+    },
+    "generated-effa8452725d4abf9c91": {
+      "state": "review_failed",
+      "checkedAt": "2026-11-09T23:03:43.939433Z",
+      "source": "https://plato.stanford.edu/entries/materialism-india/",
+      "reviewAttempts": [
+        {
+          "attempt": 1,
+          "approved": false,
+          "issues": [
+            "The provided source evidence does not include or confirm any substantive facts about the Cārvāka school, its materialism, skepticism, or the details presented in the article.",
+            "There is no direct evidence from the supplied Wikipedia link or its content that supports specific claims made in the article about the Cārvāka school's doctrines, history, or influence.",
+            "The article's assertions about specific texts (e.g., Jayarāśi’s 'Tattvopaplava-siṃha'), historical context, and ethical positions cannot be verified from the supplied evidence."
+          ]
+        },
+        {
+          "attempt": 2,
+          "approved": false,
+          "issues": [
+            "Generation/review error: HTTP Error 503: Service Unavailable"
+          ]
+        },
+        {
+          "attempt": 3,
+          "approved": false,
+          "issues": [
+            "The main source provided does not include content on Indian philosophy or the Cārvāka school.",
+            "No direct evidence found in the source supporting specific factual claims about Cārvāka views, materialism, or historical context.",
+            "Claims about the Cārvāka stance toward perception, inference, and scriptures are unsupported by the supplied source."
+          ]
+        }
+      ],
+      "attemptCount": 3,
+      "reviewFailureSummary": "Article not yet approved by reviewer; Saved text has not passed a matching editorial review",
+      "sourceAccessible": true,
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Ancient_philosophy"
+      ],
+      "sourceCount": 1,
+      "wordCount": 653,
+      "reviewedTextMatchesSaved": false,
+      "originalSource": "https://plato.stanford.edu/entries/materialism-india/",
+      "evidenceSource": "https://en.wikipedia.org/wiki/Ancient_philosophy",
+      "issues": [
+        "Article not yet approved by reviewer",
+        "Saved text has not passed a matching editorial review"
+      ],
+      "factualRisk": "high",
+      "imageStatus": "awaiting_visual_and_license_review",
+      "publication": "ready_for_publish"
     }
   }
 }
