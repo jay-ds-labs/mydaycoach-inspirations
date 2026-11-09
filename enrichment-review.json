@@ -609,6 +609,34 @@
       "factualRisk": "high",
       "imageStatus": "awaiting_visual_and_license_review",
       "publication": "ready_for_publish"
+    },
+    "reflection-010": {
+      "state": "approved",
+      "checkedAt": "2026-11-09T22:39:43.651449Z",
+      "source": "https://plato.stanford.edu/entries/epistemology/",
+      "reviewAttempts": [
+        {
+          "attempt": 1,
+          "approved": true,
+          "issues": []
+        }
+      ],
+      "attemptCount": 1,
+      "reviewFailureSummary": "",
+      "sourceAccessible": true,
+      "sourceUrls": [
+        "https://plato.stanford.edu/entries/epistemology/",
+        "https://en.wikipedia.org/wiki/Titanic_%281997_film%29"
+      ],
+      "sourceCount": 2,
+      "wordCount": 666,
+      "reviewedTextMatchesSaved": true,
+      "originalSource": "https://plato.stanford.edu/entries/epistemology/",
+      "evidenceSource": "https://plato.stanford.edu/entries/epistemology/",
+      "issues": [],
+      "factualRisk": "low",
+      "imageStatus": "awaiting_visual_and_license_review",
+      "publication": "ready_for_publish"
     }
   }
 }

@@ -3158,6 +3158,179 @@
       "errors": [],
       "selected": null,
       "state": "awaiting_visual_and_license_review"
+    },
+    "reflection-010": {
+      "checkedAt": "2026-11-09T22:39:43.651432Z",
+      "queries": [
+        "Let go of certainty"
+      ],
+      "candidates": [
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Introductory address delivered at the opening of the course of lectures for 1870-71 - at the Hahnemann Medical College of Philadelphia, October 10th, 1870 (IA 9514381.nlm.nih.gov).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Introductory_address_delivered_at_the_opening_of_the_course_of_lectures_for_1870-71_-_at_the_Hahnemann_Medical_College_of_Philadelphia%2C_October_10th%2C_1870_%28IA_9514381.nlm.nih.gov%29.pdf/page1-500px-thumbnail.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Introductory_address_delivered_at_the_opening_of_the_course_of_lectures_for_1870-71_-_at_the_Hahnemann_Medical_College_of_Philadelphia,_October_10th,_1870_(IA_9514381.nlm.nih.gov).pdf",
+          "creator": "Morgan, John C. (John Coleman), 1831-1899",
+          "attribution": "Morgan, John C. (John Coleman), 1831-1899",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "35, [1] p. : 23 cm \n On title page below author's name: Philosophy in medicine \n Printed, illus. paper wrapper  \n Subjects: Philosophy",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
+          "visualCheck": {
+            "state": "not_checked",
+            "reason": "No API key or license metadata not approved"
+          }
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Let us go afield (IA letusgoafield00hougiala).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Let_us_go_afield_%28IA_letusgoafield00hougiala%29.pdf/page1-500px-Let_us_go_afield_%28IA_letusgoafield00hougiala%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Let_us_go_afield_(IA_letusgoafield00hougiala).pdf",
+          "creator": "Hough, Emerson, 1857-1923",
+          "attribution": "Hough, Emerson, 1857-1923",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "--Your summer encampment.--Bait casting for bass.--Angling extraordinary.--The inconnu--what it is not.--In the jewel box.--The great-game fields of the world.--The wasteful West.--Rifles for big game.--Wealth on wings.--Bear-hunting--the sport of presidents.--Hunting the deer.--Game laws and game supply.--A voyage around the room.--Whither are we drifting?\n \n Subjects: Fishing; Hunting; Games and game-birds",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
+          "visualCheck": {
+            "state": "not_checked",
+            "reason": "No API key or license metadata not approved"
+          }
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Must the Bible go? - Some plain words about higher criticism (IA mustbiblegosomep00wray).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Must_the_Bible_go%3F_-_Some_plain_words_about_higher_criticism_%28IA_mustbiblegosomep00wray%29.pdf/page1-500px-Must_the_Bible_go%3F_-_Some_plain_words_about_higher_criticism_%28IA_mustbiblegosomep00wray%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Must_the_Bible_go%3F_-_Some_plain_words_about_higher_criticism_(IA_mustbiblegosomep00wray).pdf",
+          "creator": "Wray, Newton, 1854-",
+          "attribution": "Wray, Newton, 1854-",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Subjects: Bible",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
+          "visualCheck": {
+            "state": "not_checked",
+            "reason": "No API key or license metadata not approved"
+          }
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Oration delivered before the City council and citizens of Boston, on the one hundred and third anniversary of the Declaration of American independence, July 4, 1879 (IA orationdelivered00lodg).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Oration_delivered_before_the_City_council_and_citizens_of_Boston%2C_on_the_one_hundred_and_third_anniversary_of_the_Declaration_of_American_independence%2C_July_4%2C_1879_%28IA_orationdelivered00lodg%29.pdf/page1-960px-thumbnail.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Oration_delivered_before_the_City_council_and_citizens_of_Boston,_on_the_one_hundred_and_third_anniversary_of_the_Declaration_of_American_independence,_July_4,_1879_(IA_orationdelivered00lodg).pdf",
+          "creator": "Lodge, Henry Cabot, 1850-1924",
+          "attribution": "Lodge, Henry Cabot, 1850-1924",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Subjects: Fourth of July orations",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Proceedings at the first public meeting of the Society for the Extinction of the Slave Trade, and for the Civilization of Africa - held at Exeter Hall, on Monday, 1st June, (IA proceedingsatfir00soci).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Proceedings_at_the_first_public_meeting_of_the_Society_for_the_Extinction_of_the_Slave_Trade%2C_and_for_the_Civilization_of_Africa_-_held_at_Exeter_Hall%2C_on_Monday%2C_1st_June%2C_%28IA_proceedingsatfir00soci%29.pdf/page1-500px-thumbnail.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Proceedings_at_the_first_public_meeting_of_the_Society_for_the_Extinction_of_the_Slave_Trade,_and_for_the_Civilization_of_Africa_-_held_at_Exeter_Hall,_on_Monday,_1st_June,_(IA_proceedingsatfir00soci).pdf",
+          "creator": "Society for the Extinction of the Slave Trade and for the Civilization of Africa, issuing body, publisher \n William Clowes and Sons, printer",
+          "attribution": "Society for the Extinction of the Slave Trade and for the Civilization of Africa, issuing body, publisher \n William Clowes and Sons, printer",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "\"Prospectus of the society\": p. 56-60 \n Collective spine title: Slavery \n Bound with: The utter extinction of slavery, an object of scripture prophecy / Joseph Ivimey. 1832 \n Catalogued \n Boston Public Library (Research Library) copy is included within a \"bound-with\" volume of various pamphlets, meeting reports, speeches, and other assorted works from the 19th century abolitionist movement in the United States and Great Britain  \n Subjects: Slave trade; Antislavery movements; Antislavery movemen",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Religious certainty (IA religiouscertain01mcco).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Religious_certainty_%28IA_religiouscertain01mcco%29.pdf/page1-1280px-Religious_certainty_%28IA_religiouscertain01mcco%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Religious_certainty_(IA_religiouscertain01mcco).pdf",
+          "creator": "McConnell, Francis John, 1871-1953",
+          "attribution": "McConnell, Francis John, 1871-1953",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Subjects: Apologetics",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Sermons, on the public means of grace - the fasts and festivals of the church ; on scripture characters ; and various practical subjects (IA sermonsonpublicm02deho).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Sermons%2C_on_the_public_means_of_grace_-_the_fasts_and_festivals_of_the_church_%3B_on_scripture_characters_%3B_and_various_practical_subjects_%28IA_sermonsonpublicm02deho%29.pdf/page1-500px-thumbnail.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Sermons,_on_the_public_means_of_grace_-_the_fasts_and_festivals_of_the_church_;_on_scripture_characters_;_and_various_practical_subjects_(IA_sermonsonpublicm02deho).pdf",
+          "creator": "Dehon, Theodore, 1776-1817",
+          "attribution": "Dehon, Theodore, 1776-1817",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Subjects: Episcopal Church; Sermons, American",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:The certainty of Christianity ... 1672 (IA bim early-english-books-1641-1700 the-certainty-of-christi baxter-richard 1672).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/The_certainty_of_Christianity_..._1672_%28IA_bim_early-english-books-1641-1700_the-certainty-of-christi_baxter-richard_1672%29.pdf/page1-960px-The_certainty_of_Christianity_..._1672_%28IA_bim_early-english-books-1641-1700_the-certainty-of-christi_baxter-richard_1672%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:The_certainty_of_Christianity_..._1672_(IA_bim_early-english-books-1641-1700_the-certainty-of-christi_baxter-richard_1672).pdf",
+          "creator": "Baxter, Richard.",
+          "attribution": "Baxter, Richard.",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "The certainty of Christianity ... 1672.. Digitized from  https://archive.org/details/sim_raw_scan_IA40313003-25/page/n118 \" rel=\"ugc nofollow\">IA40313003-25 . Previous issue:  https://archive.org/details/bim_early-english-books-1641-1700_the-history-of-the-admin_baudier-michel_1671 \" rel=\"ugc nofollow\">bim_early-english-books-1641-1700_the-history-of-the-admin_baudier-michel_1671 . Next issue:  https://archive.org/details/bim_early-english-books-1641-1700_how-far-holinesse-is-the_baxter-richard_",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:The certainty of death ... 1673 (IA bim early-english-books-1641-1700 the-certainty-of-death- ross-arthur-abp 1673).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/The_certainty_of_death_..._1673_%28IA_bim_early-english-books-1641-1700_the-certainty-of-death-_ross-arthur-abp_1673%29.pdf/page1-1280px-The_certainty_of_death_..._1673_%28IA_bim_early-english-books-1641-1700_the-certainty-of-death-_ross-arthur-abp_1673%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:The_certainty_of_death_..._1673_(IA_bim_early-english-books-1641-1700_the-certainty-of-death-_ross-arthur-abp_1673).pdf",
+          "creator": "Ross, Arthur, abp.",
+          "attribution": "Ross, Arthur, abp.",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "The certainty of death ... 1673.. Digitized from  https://archive.org/details/sim_raw_scan_IA40310607-35/page/n21 \" rel=\"nofollow\">IA40310607-35 . Previous issue:  https://archive.org/details/bim_early-english-books-1641-1700_a-message-from-the-king-_rishton-a_1650 \" rel=\"nofollow\">bim_early-english-books-1641-1700_a-message-from-the-king-_rishton-a_1650 . Next issue:  https://archive.org/details/bim_early-english-books-1641-1700_archologi-attic-libri_rous-francis-younger_1652 \" rel=\"nofollow\">b",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:The certainty of God, (IA certaintyofgod00moul).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/The_certainty_of_God%2C_%28IA_certaintyofgod00moul%29.pdf/page1-960px-The_certainty_of_God%2C_%28IA_certaintyofgod00moul%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:The_certainty_of_God,_(IA_certaintyofgod00moul).pdf",
+          "creator": "Moulton, Wilfrid J. (Wilfrid Johnson)",
+          "attribution": "Moulton, Wilfrid J. (Wilfrid Johnson)",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "v p., 1 l., 106 p. 20 cm\n \n Subjects:",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        }
+      ],
+      "errors": [],
+      "selected": null,
+      "state": "awaiting_visual_and_license_review"
     }
   }
 }
