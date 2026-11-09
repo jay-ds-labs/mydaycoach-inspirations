@@ -1342,6 +1342,149 @@
       "errors": [],
       "selected": null,
       "state": "awaiting_visual_and_license_review"
+    },
+    "gandhi-salt": {
+      "checkedAt": "2026-11-09T22:33:36.500774Z",
+      "queries": [
+        "One step starts a movement"
+      ],
+      "candidates": [
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:CEEM2026 - Why (and why not) step up to the movement roles.pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/CEEM2026_-_Why_%28and_why_not%29_step_up_to_the_movement_roles.pdf/page1-1280px-CEEM2026_-_Why_%28and_why_not%29_step_up_to_the_movement_roles.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:CEEM2026_-_Why_(and_why_not)_step_up_to_the_movement_roles.pdf",
+          "creator": "Barbara Klen ,  antanana",
+          "attribution": "Barbara Klen ,  antanana",
+          "license": "cc-by-sa-4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "usageTerms": "Creative Commons Attribution-Share Alike 4.0",
+          "mime": "application/pdf",
+          "description": "Slides for the session  Why (and why not) step up to the movement roles  at Wikimedia CEE 2026 session",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
+          "visualCheck": {
+            "state": "not_checked",
+            "reason": "No API key or license metadata not approved"
+          }
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Drawing made easy - a helpful book for young artists; the way to begin and finish your sketches, clearly shown step by step (IA drawingmadeeasyh00lutz).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Drawing_made_easy_-_a_helpful_book_for_young_artists%3B_the_way_to_begin_and_finish_your_sketches%2C_clearly_shown_step_by_step_%28IA_drawingmadeeasyh00lutz%29.pdf/page1-960px-Drawing_made_easy_-_a_helpful_book_for_young_artists%3B_the_way_to_begin_and_finish_your_sketches%2C_clearly_shown_step_by_step_%28IA_drawingmadeeasyh00lutz%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Drawing_made_easy_-_a_helpful_book_for_young_artists;_the_way_to_begin_and_finish_your_sketches,_clearly_shown_step_by_step_(IA_drawingmadeeasyh00lutz).pdf",
+          "creator": "Lutz, Edwin George, b. 1868",
+          "attribution": "Lutz, Edwin George, b. 1868",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "OCLC number: ocm07014379\n \n Subjects: Drawing",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
+          "visualCheck": {
+            "state": "not_checked",
+            "reason": "No API key or license metadata not approved"
+          }
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:How to overcome the challenges for Movement Strategy.pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/How_to_overcome_the_challenges_for_Movement_Strategy.pdf/page1-960px-How_to_overcome_the_challenges_for_Movement_Strategy.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:How_to_overcome_the_challenges_for_Movement_Strategy.pdf",
+          "creator": "Nada.FA",
+          "attribution": "Nada.FA",
+          "license": "cc-by-sa-4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "usageTerms": "Creative Commons Attribution-Share Alike 4.0",
+          "mime": "application/pdf",
+          "description": "This report documents a project to producing updated and engaging content in Arabic about movement strategy. This project was under grant entitled: Launching and activating Movement Strategy's Arabic educational material.",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
+          "visualCheck": {
+            "state": "not_checked",
+            "reason": "No API key or license metadata not approved"
+          }
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Movement Brand Project - Project history for Board Review - July 2020.pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Movement_Brand_Project_-_Project_history_for_Board_Review_-_July_2020.pdf/page1-1280px-Movement_Brand_Project_-_Project_history_for_Board_Review_-_July_2020.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Movement_Brand_Project_-_Project_history_for_Board_Review_-_July_2020.pdf",
+          "creator": "ZMcCune (WMF)",
+          "attribution": "ZMcCune (WMF)",
+          "license": "cc-by-sa-4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "usageTerms": "Creative Commons Attribution-Share Alike 4.0",
+          "mime": "application/pdf",
+          "description": "Detailed history of the Movement Brand Project beginning with our strategic goals and challenges, building into 2030 goals, and including process design choices. Created for Board of Trustees briefing on July 28, 2020.",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Movement Strategy 2017 - williamsworks final presentation to the Wikimedia Foundation.pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Movement_Strategy_2017_-_williamsworks_final_presentation_to_the_Wikimedia_Foundation.pdf/page1-1280px-Movement_Strategy_2017_-_williamsworks_final_presentation_to_the_Wikimedia_Foundation.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Movement_Strategy_2017_-_williamsworks_final_presentation_to_the_Wikimedia_Foundation.pdf",
+          "creator": "Shannon Keith",
+          "attribution": "Shannon Keith",
+          "license": "cc-by-sa-4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "usageTerms": "Creative Commons Attribution-Share Alike 4.0",
+          "mime": "application/pdf",
+          "description": "This is williamsworks’ overview of the findings and their recommendations for the future.",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Movement Strategy Playbook.pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Movement_Strategy_Playbook.pdf/page1-960px-Movement_Strategy_Playbook.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Movement_Strategy_Playbook.pdf",
+          "creator": "Movement Strategy Team",
+          "attribution": "Movement Strategy Team",
+          "license": "cc-by-sa-4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "usageTerms": "Creative Commons Attribution-Share Alike 4.0",
+          "mime": "application/pdf",
+          "description": "\"This playbook outlines some of the key lessons we’ve learned throughout this process on how to run an inclusive global strategy from intention to execution. Created through feedback from participants in the movement strategy process as well as the organizing team, we believe it can serve as a guide for community organizers, facilitators, and project managers on how to build a long-term vision for your organization in partnership with your community and key stakeholders.\"",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Wikimedia 2030 Movement Strategy Recommendations in English.pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Wikimedia_2030_Movement_Strategy_Recommendations_in_English.pdf/page1-960px-Wikimedia_2030_Movement_Strategy_Recommendations_in_English.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Wikimedia_2030_Movement_Strategy_Recommendations_in_English.pdf",
+          "creator": "Wikimedia 2030 Movement Strategy Writers / Svenja Kirsch, Anna Lena Schiller, riesenspatz.de",
+          "attribution": "Wikimedia 2030 Movement Strategy Writers / Svenja Kirsch, Anna Lena Schiller, riesenspatz.de",
+          "license": "cc-by-sa-4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "usageTerms": "Creative Commons Attribution-Share Alike 4.0",
+          "mime": "application/pdf",
+          "description": "Wikimedia 2030 Movement Strategy Recommendations in English",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Wikimedia Movement Charter (June 2024).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Wikimedia_Movement_Charter_%28June_2024%29.pdf/page1-960px-Wikimedia_Movement_Charter_%28June_2024%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Wikimedia_Movement_Charter_(June_2024).pdf",
+          "creator": "Movement Charter Drafting Committee",
+          "attribution": "Movement Charter Drafting Committee",
+          "license": "cc-by-sa-4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "usageTerms": "Creative Commons Attribution-Share Alike 4.0",
+          "mime": "application/pdf",
+          "description": "PDF version of the final Wikimedia Movement Charter",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        }
+      ],
+      "errors": [],
+      "selected": null,
+      "state": "awaiting_visual_and_license_review"
     }
   }
 }
