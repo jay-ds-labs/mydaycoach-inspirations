@@ -5691,6 +5691,179 @@
       "errors": [],
       "selected": null,
       "state": "awaiting_visual_and_license_review"
+    },
+    "reflection-025": {
+      "checkedAt": "2026-11-09T22:48:20.322045Z",
+      "queries": [
+        "Be patient with complexity"
+      ],
+      "candidates": [
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:A patient classification system for long-term care (IA patientclassific00frie).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/A_patient_classification_system_for_long-term_care_%28IA_patientclassific00frie%29.pdf/page1-960px-A_patient_classification_system_for_long-term_care_%28IA_patientclassific00frie%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:A_patient_classification_system_for_long-term_care_(IA_patientclassific00frie).pdf",
+          "creator": "Fries, Brant E., 1946- \n Cooney, Leo M",
+          "attribution": "Fries, Brant E., 1946- \n Cooney, Leo M",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "\"April 1983.\" \n \"The research described in this paper was supported in part by grant #18-P-97757/1-01 from the Health Care Financing Administration.\" \n Includes bibliographical references (p. 103-106)  \n Subjects: Long-term care facilities; Diagnosis related groups; Long-term care of the sick",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
+          "visualCheck": {
+            "state": "not_checked",
+            "reason": "No API key or license metadata not approved"
+          }
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:A patient classification system for long-term care (IA patientclassific00unit).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/A_patient_classification_system_for_long-term_care_%28IA_patientclassific00unit%29.pdf/page1-960px-A_patient_classification_system_for_long-term_care_%28IA_patientclassific00unit%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:A_patient_classification_system_for_long-term_care_(IA_patientclassific00unit).pdf",
+          "creator": "United States. Health Care Financing Administration. Office of Research and Demonstrations",
+          "attribution": "United States. Health Care Financing Administration. Office of Research and Demonstrations",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "\"Supported in part by the Health Care Financing Administration grant no. 18-P-97757/1-01\"--T.p. verso \n Distributed to depository libraries in microfiche \n \"August 1984.\" \n Includes bibliographical references  \n Subjects: Long-term care facilities; Long-term care facilities; Patients; Hospital Administration; Long-Term Care",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
+          "visualCheck": {
+            "state": "not_checked",
+            "reason": "No API key or license metadata not approved"
+          }
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Clinical-Procedures-for-Safer-Patient-Care.pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Clinical-Procedures-for-Safer-Patient-Care.pdf/page1-960px-Clinical-Procedures-for-Safer-Patient-Care.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Clinical-Procedures-for-Safer-Patient-Care.pdf",
+          "creator": "Glynda Rees Doyle and Jodie Anita McCutcheon",
+          "attribution": "Glynda Rees Doyle and Jodie Anita McCutcheon",
+          "license": "cc-by-4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+          "usageTerms": "Creative Commons Attribution 4.0",
+          "mime": "application/pdf",
+          "description": "Ebook Clinical Procedures for Safer Patient Care by Glynda Rees Doyle and Jodie Anita McCutcheon, which is licensed under a Creative Commons Attribution 4.0 International License, except where otherwise noted.",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
+          "visualCheck": {
+            "state": "not_checked",
+            "reason": "No API key or license metadata not approved"
+          }
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:DRG refinement with diagnostic specific comorbidities and complications - a synthesis of current approaches to patient classification - final report (IA drgrefinementwit00fett).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/DRG_refinement_with_diagnostic_specific_comorbidities_and_complications_-_a_synthesis_of_current_approaches_to_patient_classification_-_final_report_%28IA_drgrefinementwit00fett%29.pdf/page1-1280px-thumbnail.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:DRG_refinement_with_diagnostic_specific_comorbidities_and_complications_-_a_synthesis_of_current_approaches_to_patient_classification_-_final_report_(IA_drgrefinementwit00fett).pdf",
+          "creator": "Fetter, Robert B \n Freeman, Jean L \n Savitt, Henry L \n United States. Health Care Financing Administration \n Yale University. School of Organization and Management. Health Systems Management Group",
+          "attribution": "Fetter, Robert B \n Freeman, Jean L \n Savitt, Henry L \n United States. Health Care Financing Administration \n Yale University. School of Organization and Management. Health Systems Management Group",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Cover title \n \"February, 1989.\" \n Supported by Health Care Financing Administration cooperative agreement nos. 15-C-98930/1-01 and 17-C-98930/1-0251 \n \"Robert B. Fetter was the Principal Investigator and Jean L. Freeman was the Co-Principal Investigator... The Project Officer for this grant was Henry L. Savitt, Office of Research and Demonstrations.\" \n Includes bibliographical references \n v. 1. [Final report] -- v. 2. Appendices 1-8 -- v. 3. Appendices 9-13  \n Subjects: Diagnosis related groups",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Federal regulations, reporting requirements and statutes as barriers to more efficient Medicaid program operation - the state perspective - executive summary (IA federalregulatio00unse).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Federal_regulations%2C_reporting_requirements_and_statutes_as_barriers_to_more_efficient_Medicaid_program_operation_-_the_state_perspective_-_executive_summary_%28IA_federalregulatio00unse%29.pdf/page1-960px-thumbnail.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Federal_regulations,_reporting_requirements_and_statutes_as_barriers_to_more_efficient_Medicaid_program_operation_-_the_state_perspective_-_executive_summary_(IA_federalregulatio00unse).pdf",
+          "creator": "",
+          "attribution": "",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Supported by Health Care Financing Administration grant no. 18-P-97959/3-01 \n \"May 8, 1981.\"  \n Subjects: Medicaid; Health planning; Medical laws and legislation",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Hospital choice of aged rural Medicare beneficiaries - the influence of patient attributes, hospital attributes and spatial access (IA hospitalchoiceof00taiw).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Hospital_choice_of_aged_rural_Medicare_beneficiaries_-_the_influence_of_patient_attributes%2C_hospital_attributes_and_spatial_access_%28IA_hospitalchoiceof00taiw%29.pdf/page1-500px-thumbnail.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Hospital_choice_of_aged_rural_Medicare_beneficiaries_-_the_influence_of_patient_attributes,_hospital_attributes_and_spatial_access_(IA_hospitalchoiceof00taiw).pdf",
+          "creator": "Tai, Wan-Tzu \n United States. Health Care Financing Administration",
+          "attribution": "Tai, Wan-Tzu \n United States. Health Care Financing Administration",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Supported by HCFA grant no. 30-P-90885/1 \n \"June 2000.\" \n Thesis (Ph. D.)--University of Massachusetts at Boston, 2000 \n Includes bibliographical references (leaves 173-182) \n Photocopy  \n Subjects: Rural hospitals; Rural elderly; Hospital utilization; Health services accessibility; Medicare beneficiaries",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Making health care decisions - a report on the ethical and legal implications of informed consent in the patient-practitioner relationship (IA makinghealthcare00unit 0).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Making_health_care_decisions_-_a_report_on_the_ethical_and_legal_implications_of_informed_consent_in_the_patient-practitioner_relationship_%28IA_makinghealthcare00unit_0%29.pdf/page1-960px-thumbnail.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Making_health_care_decisions_-_a_report_on_the_ethical_and_legal_implications_of_informed_consent_in_the_patient-practitioner_relationship_(IA_makinghealthcare00unit_0).pdf",
+          "creator": "United States. President's Commission for the Study of Ethical Problems in Medicine and Biomedical and Behavioral Research",
+          "attribution": "United States. President's Commission for the Study of Ethical Problems in Medicine and Biomedical and Behavioral Research",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "\"October 1982.\" \n S/N 040-000-00459-9 \n Item 851-J \n Includes bibliographical references and index \n v. 1. Report -- v. 2. Appendices. Emperical studies of informed consent -- v. 3. Appendices. Studies on the Foundations of Informed Consent  \n Subjects: Medical ethics; Informed consent (Medical law); Physician and patient; Ethics, Medical; Decision Making; Informed Consent; Physician-Patient Relations",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Making health care decisions - a report on the ethical and legal implications of informed consent in the patient-practitioner relationship (IA makinghealthcare00unit 2).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Making_health_care_decisions_-_a_report_on_the_ethical_and_legal_implications_of_informed_consent_in_the_patient-practitioner_relationship_%28IA_makinghealthcare00unit_2%29.pdf/page1-960px-thumbnail.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Making_health_care_decisions_-_a_report_on_the_ethical_and_legal_implications_of_informed_consent_in_the_patient-practitioner_relationship_(IA_makinghealthcare00unit_2).pdf",
+          "creator": "United States. President's Commission for the Study of Ethical Problems in Medicine and Biomedical and Behavioral Research",
+          "attribution": "United States. President's Commission for the Study of Ethical Problems in Medicine and Biomedical and Behavioral Research",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "\"October 1982.\" \n S/N 040-000-00459-9 \n Item 851-J \n Includes bibliographical references and index \n v. 1. Report -- v. 2. Appendices. Emperical studies of informed consent -- v. 3. Appendices. Studies on the Foundations of Informed Consent  \n Subjects: Medical ethics; Informed consent (Medical law); Physician and patient; Ethics, Medical; Decision Making; Informed Consent; Physician-Patient Relations",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:MEDICARE'S MANAGEMENT- IS HCFA'S COMPLEXITY THREATENING PATIENT ACCESS TO QUALITY CARE? (IA gov.gpo.fdsys.CHRG-106hhrg65913).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/MEDICARE%27S_MANAGEMENT-_IS_HCFA%27S_COMPLEXITY_THREATENING_PATIENT_ACCESS_TO_QUALITY_CARE%3F_%28IA_gov.gpo.fdsys.CHRG-106hhrg65913%29.pdf/page1-960px-MEDICARE%27S_MANAGEMENT-_IS_HCFA%27S_COMPLEXITY_THREATENING_PATIENT_ACCESS_TO_QUALITY_CARE%3F_%28IA_gov.gpo.fdsys.CHRG-106hhrg65913%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:MEDICARE%27S_MANAGEMENT-_IS_HCFA%27S_COMPLEXITY_THREATENING_PATIENT_ACCESS_TO_QUALITY_CARE%3F_(IA_gov.gpo.fdsys.CHRG-106hhrg65913).pdf",
+          "creator": "Committee on Commerce",
+          "attribution": "Committee on Commerce",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Government Publishing Office   U.S. Congress House of Representatives Committee on Commerce   MEDICARE'S MANAGEMENT: IS HCFA'S COMPLEXITY THREATENING PATIENT ACCESS TO QUALITY CARE?  Date(s) Held: 2000-06-27   106th Congress, 2nd Session  GPO Document Source:  https://www.gpo.gov/fdsys/pkg/CHRG-106hhrg65913/content-detail.html \" rel=\"nofollow\">CHRG-106hhrg65913  Superintendents of Documents ID: Y 4.C 73/8  Related Items:    https://www.govtrack.us/congress/bills/106/s1895 \" rel=\"nofollow\">United",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Navy tactical data information display complexity effects on visual search reaction time and response accuracy. (IA navytacticaldata00curr).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Navy_tactical_data_information_display_complexity_effects_on_visual_search_reaction_time_and_response_accuracy._%28IA_navytacticaldata00curr%29.pdf/page1-960px-Navy_tactical_data_information_display_complexity_effects_on_visual_search_reaction_time_and_response_accuracy._%28IA_navytacticaldata00curr%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Navy_tactical_data_information_display_complexity_effects_on_visual_search_reaction_time_and_response_accuracy._(IA_navytacticaldata00curr).pdf",
+          "creator": "Curran, Lawrence Edward",
+          "attribution": "Curran, Lawrence Edward",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "ADA047135 \n Bibliography: l. 48-50 \n Thesis (M.S. in Operations Research)--Naval Postgraduate School, 1977  \n Subjects:",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        }
+      ],
+      "errors": [],
+      "selected": null,
+      "state": "awaiting_visual_and_license_review"
     }
   }
 }

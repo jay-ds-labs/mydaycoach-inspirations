@@ -1168,6 +1168,34 @@
       "factualRisk": "low",
       "imageStatus": "awaiting_visual_and_license_review",
       "publication": "ready_for_publish"
+    },
+    "reflection-025": {
+      "state": "approved",
+      "checkedAt": "2026-11-09T22:48:20.322060Z",
+      "source": "https://plato.stanford.edu/entries/epistemology/",
+      "reviewAttempts": [
+        {
+          "attempt": 1,
+          "approved": true,
+          "issues": []
+        }
+      ],
+      "attemptCount": 1,
+      "reviewFailureSummary": "",
+      "sourceAccessible": true,
+      "sourceUrls": [
+        "https://plato.stanford.edu/entries/epistemology/",
+        "https://en.wikipedia.org/wiki/List_of_accidents_and_incidents_involving_military_aircraft_%281955%E2%80%931959%29"
+      ],
+      "sourceCount": 2,
+      "wordCount": 815,
+      "reviewedTextMatchesSaved": true,
+      "originalSource": "https://plato.stanford.edu/entries/epistemology/",
+      "evidenceSource": "https://plato.stanford.edu/entries/epistemology/",
+      "issues": [],
+      "factualRisk": "low",
+      "imageStatus": "awaiting_visual_and_license_review",
+      "publication": "ready_for_publish"
     }
   }
 }
