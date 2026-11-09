@@ -7006,6 +7006,16 @@
       "errors": [],
       "selected": null,
       "state": "awaiting_visual_and_license_review"
+    },
+    "generated-b153d63332d44b54aa56": {
+      "checkedAt": "2026-11-09T22:55:40.732061Z",
+      "queries": [
+        "The Salt March: Gandhi’s Unyielding Step for Freedom"
+      ],
+      "candidates": [],
+      "errors": [],
+      "selected": null,
+      "state": "awaiting_visual_and_license_review"
     }
   }
 }
