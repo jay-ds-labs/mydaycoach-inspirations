@@ -840,8 +840,10 @@
       "image": "",
       "category": "Quotes",
       "id": "generated-df847014cc764b76b0e5",
-      "status": "draft",
-      "publishedAt": ""
+      "status": "ready_for_publish",
+      "publishedAt": "",
+      "reviewStatus": "review_failed",
+      "reviewFailureSummary": "Generation/review error: HTTP Error 503: Service Unavailable; Saved text has not passed a matching editorial review"
     },
     {
       "title": "Diplomacy in Letters: Abigail Adams and the Pen Behind Peace",

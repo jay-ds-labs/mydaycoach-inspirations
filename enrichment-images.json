@@ -7436,6 +7436,16 @@
       "errors": [],
       "selected": null,
       "state": "awaiting_visual_and_license_review"
+    },
+    "generated-df847014cc764b76b0e5": {
+      "checkedAt": "2026-11-09T22:59:22.068447Z",
+      "queries": [
+        "Learning from Frida Kahlo: Art as Survival and Self-Affirmation"
+      ],
+      "candidates": [],
+      "errors": [],
+      "selected": null,
+      "state": "awaiting_visual_and_license_review"
     }
   }
 }
