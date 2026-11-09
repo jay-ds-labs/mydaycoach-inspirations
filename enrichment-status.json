@@ -1,6 +1,6 @@
 {
   "state": "running",
-  "stage": "image_audit",
+  "stage": "research",
   "completed": 4,
   "total": 70,
   "batchTotal": 3,
@@ -11,6 +11,6 @@
   "needsReview": 1,
   "startedAt": "2026-11-09T01:53:59.848197Z",
   "completedAt": null,
-  "currentId": "everest-summit",
+  "currentId": "wright-flight",
   "error": null
 }
