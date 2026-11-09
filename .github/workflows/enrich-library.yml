@@ -33,7 +33,7 @@ jobs:
           git config user.email "content-bot@users.noreply.github.com"
       - name: Validate pipeline and image license gates
         run: |
-          python3 -m py_compile scripts/enrich_library.py scripts/image_audit.py scripts/research.py
+          python3 -m py_compile scripts/enrich_library.py scripts/image_audit.py scripts/research.py scripts/audit_images.py scripts/publication_gate.py
           python3 -m unittest discover -s tests -p "test_*.py" -v
       - name: Enrich existing entries and run independent editorial review
         env:
