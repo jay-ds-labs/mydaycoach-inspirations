@@ -7639,6 +7639,16 @@
       "errors": [],
       "selected": null,
       "state": "awaiting_visual_and_license_review"
+    },
+    "generated-ffef1f8bed1e49bfa232": {
+      "checkedAt": "2026-11-09T23:03:02.184170Z",
+      "queries": [
+        "Simone Weil and the Ethics of Attention: Moral Clarity Through Focused Perception"
+      ],
+      "candidates": [],
+      "errors": [],
+      "selected": null,
+      "state": "awaiting_visual_and_license_review"
     }
   }
 }

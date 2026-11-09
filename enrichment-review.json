@@ -2522,6 +2522,48 @@
       "factualRisk": "high",
       "imageStatus": "awaiting_visual_and_license_review",
       "publication": "ready_for_publish"
+    },
+    "generated-ffef1f8bed1e49bfa232": {
+      "state": "approved",
+      "checkedAt": "2026-11-09T23:03:02.184186Z",
+      "source": "https://plato.stanford.edu/entries/simone-weil/",
+      "reviewAttempts": [
+        {
+          "attempt": 1,
+          "approved": false,
+          "issues": [
+            "Generation/review error: HTTP Error 503: Service Unavailable"
+          ]
+        },
+        {
+          "attempt": 2,
+          "approved": false,
+          "issues": [
+            "Generation/review error: HTTP Error 503: Service Unavailable"
+          ]
+        },
+        {
+          "attempt": 3,
+          "approved": true,
+          "issues": []
+        }
+      ],
+      "attemptCount": 3,
+      "reviewFailureSummary": "",
+      "sourceAccessible": true,
+      "sourceUrls": [
+        "https://plato.stanford.edu/entries/simone-weil/",
+        "https://en.wikipedia.org/wiki/Simone_Weil"
+      ],
+      "sourceCount": 2,
+      "wordCount": 763,
+      "reviewedTextMatchesSaved": true,
+      "originalSource": "https://plato.stanford.edu/entries/simone-weil/",
+      "evidenceSource": "https://plato.stanford.edu/entries/simone-weil/",
+      "issues": [],
+      "factualRisk": "low",
+      "imageStatus": "awaiting_visual_and_license_review",
+      "publication": "ready_for_publish"
     }
   }
 }
