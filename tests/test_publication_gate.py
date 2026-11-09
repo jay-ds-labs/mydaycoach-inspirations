@@ -6,28 +6,34 @@ from publication_gate import eligible
 
 class PublicationGateTests(unittest.TestCase):
     def setUp(self):
-        self.item={"id":"test","detail":"word "*700}
-        self.review={"state":"approved","reviewedTextMatchesSaved":True,"sourceAccessible":True,
-            "sourceUrls":["https://example.org/article"],"editorialSignoff":True}
-        self.candidate={"fileTitle":"File:Test.jpg","descriptionUrl":"https://commons.wikimedia.org/wiki/File:Test.jpg",
-            "state":"license_metadata_pass","visualCheck":{"state":"relevant_candidate"},
-            "attribution":"Creator","license":"cc-by-4.0"}
-        self.image={"candidates":[self.candidate],"selected":{"fileTitle":"File:Test.jpg",
-            "descriptionUrl":self.candidate["descriptionUrl"],"editorialApproved":True,"rightsApproved":True}}
-    def test_all_gates_pass(self):
+        self.item={"id":"test","detail":"word "*700,"reviewStatus":"approved"}
+        self.review={"state":"approved","reviewedTextMatchesSaved":True}
+        self.image={"candidates":[],"selected":None}
+
+    def test_review_approved_without_image(self):
         self.assertTrue(eligible(self.item,self.review,self.image)["eligible"])
-    def test_no_approval(self):
-        self.image["selected"]["rightsApproved"]=False
+        self.assertTrue(eligible(self.item,self.review,self.image)["publishWithoutImage"])
+
+    def test_review_failed_is_publishable(self):
+        self.item["reviewStatus"]="review_failed"
+        self.review={"state":"review_failed","reviewFailureSummary":"Unsupported chronology"}
+        result=eligible(self.item,self.review,self.image)
+        self.assertTrue(result["eligible"])
+        self.assertEqual(result["reviewFailureSummary"],"Unsupported chronology")
+
+    def test_incomplete_story_is_blocked(self):
+        self.item["detail"]="short"
         self.assertFalse(eligible(self.item,self.review,self.image)["eligible"])
-    def test_unverified_image(self):
-        self.image["candidates"][0]["state"]="needs_manual_license_review"
-        self.assertFalse(eligible(self.item,self.review,self.image)["eligible"])
-    def test_mismatched_review(self):
-        self.review["reviewedTextMatchesSaved"]=False
-        self.assertFalse(eligible(self.item,self.review,self.image)["eligible"])
-    def test_missing_image(self):
-        self.image["selected"]=None
-        self.assertFalse(eligible(self.item,self.review,self.image)["eligible"])
+
+    def test_missing_review_cycle_is_blocked(self):
+        self.item["reviewStatus"]="not_reviewed"
+        self.assertFalse(eligible(self.item,{},self.image)["eligible"])
+
+    def test_unapproved_image_never_displayed(self):
+        self.image["selected"]={"fileTitle":"File:X.jpg","descriptionUrl":"https://commons.wikimedia.org/wiki/File:X.jpg"}
+        result=eligible(self.item,self.review,self.image)
+        self.assertTrue(result["eligible"])
+        self.assertFalse(result["imageReady"])
 
 if __name__=="__main__":
     unittest.main()
