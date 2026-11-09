@@ -2305,6 +2305,54 @@
       "factualRisk": "high",
       "imageStatus": "awaiting_visual_and_license_review",
       "publication": "ready_for_publish"
+    },
+    "generated-d0c04c62cade4bedb617": {
+      "state": "review_failed",
+      "checkedAt": "2026-11-09T23:00:09.050089Z",
+      "source": "https://www.npr.org/templates/story/story.php?storyId=1622547",
+      "reviewAttempts": [
+        {
+          "attempt": 1,
+          "approved": false,
+          "issues": [
+            "Generation/review error: HTTP Error 503: Service Unavailable"
+          ]
+        },
+        {
+          "attempt": 2,
+          "approved": false,
+          "issues": [
+            "Generation/review error: HTTP Error 503: Service Unavailable"
+          ]
+        },
+        {
+          "attempt": 3,
+          "approved": false,
+          "issues": [
+            "Source evidence provided does not explicitly confirm details about Minnie Vautrin’s actions or the extent of Ginling College’s sanctuary role.",
+            "Key concrete claims—such as Ginling sheltering thousands under Vautrin, her negotiations with Japanese soldiers, her daily reporting to authorities, and her specific actions—are not directly supported by the given Wikipedia article.",
+            "Quotations and attributions to Vautrin’s diaries, Iris Chang, and Hua-ling Hu are referenced, but their content is not independently supplied in the evidence."
+          ]
+        }
+      ],
+      "attemptCount": 3,
+      "reviewFailureSummary": "Article not yet approved by reviewer; Saved text has not passed a matching editorial review",
+      "sourceAccessible": true,
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Nanjing_Massacre"
+      ],
+      "sourceCount": 1,
+      "wordCount": 921,
+      "reviewedTextMatchesSaved": false,
+      "originalSource": "https://www.npr.org/templates/story/story.php?storyId=1622547",
+      "evidenceSource": "https://en.wikipedia.org/wiki/Nanjing_Massacre",
+      "issues": [
+        "Article not yet approved by reviewer",
+        "Saved text has not passed a matching editorial review"
+      ],
+      "factualRisk": "high",
+      "imageStatus": "awaiting_visual_and_license_review",
+      "publication": "ready_for_publish"
     }
   }
 }

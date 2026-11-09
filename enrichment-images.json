@@ -7589,6 +7589,16 @@
       "errors": [],
       "selected": null,
       "state": "awaiting_visual_and_license_review"
+    },
+    "generated-d0c04c62cade4bedb617": {
+      "checkedAt": "2026-11-09T23:00:09.050074Z",
+      "queries": [
+        "Rescue at Nanking: Minnie Vautrin and the Protection of Ginling College"
+      ],
+      "candidates": [],
+      "errors": [],
+      "selected": null,
+      "state": "awaiting_visual_and_license_review"
     }
   }
 }
