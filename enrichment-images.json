@@ -7179,6 +7179,36 @@
       "errors": [],
       "selected": null,
       "state": "awaiting_visual_and_license_review"
+    },
+    "generated-79fd0a1882254f4d9a2c": {
+      "checkedAt": "2026-11-09T22:57:43.299727Z",
+      "queries": [
+        "Ibn Tufail and the Solitary Reasoner: 'Hayy ibn Yaqzan' and Self-Taught Wisdom"
+      ],
+      "candidates": [
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:The History of Hayy Ibn Yaqzan.djvu",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/The_History_of_Hayy_Ibn_Yaqzan.djvu/page1-1280px-The_History_of_Hayy_Ibn_Yaqzan.djvu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:The_History_of_Hayy_Ibn_Yaqzan.djvu",
+          "creator": "Ibn Tufayl",
+          "attribution": "Ibn Tufayl",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "image/vnd.djvu",
+          "description": "179 p., 2 l. front",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
+          "visualCheck": {
+            "state": "not_checked",
+            "reason": "No API key or license metadata not approved"
+          }
+        }
+      ],
+      "errors": [],
+      "selected": null,
+      "state": "awaiting_visual_and_license_review"
     }
   }
 }
