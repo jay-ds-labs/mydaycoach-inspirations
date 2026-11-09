@@ -1131,6 +1131,43 @@
       "factualRisk": "high",
       "imageStatus": "awaiting_visual_and_license_review",
       "publication": "ready_for_publish"
+    },
+    "reflection-024": {
+      "state": "approved",
+      "checkedAt": "2026-11-09T22:48:00.129243Z",
+      "source": "https://plato.stanford.edu/entries/pragmatism/",
+      "reviewAttempts": [
+        {
+          "attempt": 1,
+          "approved": false,
+          "issues": [
+            "Several claims and paraphrased quotations about Peirce, James, and Dewey’s positions go beyond the supplied summary in the Stanford Encyclopedia source and are not directly supported or cited.",
+            "Assertions about Dewey’s specific critiques of 'routine action' and quotations (e.g., Dewey’s views on 'routine action,' and how he wrote about dangers of acting from familiarity) are not substantiated with direct evidence or page references.",
+            "The attribution card is a brief original reflection; the article instead produces a historical analysis, attributing distinct motives and aims to individual philosophers, which is not directly confirmed in the source."
+          ]
+        },
+        {
+          "attempt": 2,
+          "approved": true,
+          "issues": []
+        }
+      ],
+      "attemptCount": 2,
+      "reviewFailureSummary": "",
+      "sourceAccessible": true,
+      "sourceUrls": [
+        "https://plato.stanford.edu/entries/pragmatism/",
+        "https://en.wikipedia.org/wiki/Newt_Gingrich"
+      ],
+      "sourceCount": 2,
+      "wordCount": 657,
+      "reviewedTextMatchesSaved": true,
+      "originalSource": "https://plato.stanford.edu/entries/pragmatism/",
+      "evidenceSource": "https://plato.stanford.edu/entries/pragmatism/",
+      "issues": [],
+      "factualRisk": "low",
+      "imageStatus": "awaiting_visual_and_license_review",
+      "publication": "ready_for_publish"
     }
   }
 }

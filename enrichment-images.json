@@ -5518,6 +5518,179 @@
       "errors": [],
       "selected": null,
       "state": "awaiting_visual_and_license_review"
+    },
+    "reflection-024": {
+      "checkedAt": "2026-11-09T22:48:00.129226Z",
+      "queries": [
+        "Question inherited habits"
+      ],
+      "candidates": [
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:A Jewish state, an attempt at a modern solution of the Jewish question (IA cu31924028579781).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/A_Jewish_state%2C_an_attempt_at_a_modern_solution_of_the_Jewish_question_%28IA_cu31924028579781%29.pdf/page1-500px-A_Jewish_state%2C_an_attempt_at_a_modern_solution_of_the_Jewish_question_%28IA_cu31924028579781%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:A_Jewish_state,_an_attempt_at_a_modern_solution_of_the_Jewish_question_(IA_cu31924028579781).pdf",
+          "creator": "Herzl, Theodor, 1860-1904 \n Avigdor, Sylvie d' \n De Haas, Jacob, 1872-1937",
+          "attribution": "Herzl, Theodor, 1860-1904 \n Avigdor, Sylvie d' \n De Haas, Jacob, 1872-1937",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "The metadata below describe the original scanning. Follow the \"All Files: HTTP\" link in the \"View the book\" box to the left to find XML files that contain more metadata about the original images and the derived formats (OCR results, PDF etc.). See also the  What is the directory structure for the texts?  FAQ for information about file content and naming conventions. \n Translation of Der Judenstaat  \n Subjects: Zionism; Jewish question",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
+          "visualCheck": {
+            "state": "not_checked",
+            "reason": "No API key or license metadata not approved"
+          }
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Do farmers want the federal government to help them deal with farm problems? - publication extracts which present diversified viewpoints on the question (IA CAT31366736).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Do_farmers_want_the_federal_government_to_help_them_deal_with_farm_problems%3F_-_publication_extracts_which_present_diversified_viewpoints_on_the_question_%28IA_CAT31366736%29.pdf/page1-960px-thumbnail.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Do_farmers_want_the_federal_government_to_help_them_deal_with_farm_problems%3F_-_publication_extracts_which_present_diversified_viewpoints_on_the_question_(IA_CAT31366736).pdf",
+          "creator": "United States. Department of Agriculture \n United States. Extension Service \n United States. Agricultural Adjustment Administration",
+          "attribution": "United States. Department of Agriculture \n United States. Extension Service \n United States. Agricultural Adjustment Administration",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "\"The Extension Service and the Agricultural Administration cooperating.\"\n \n Subjects: Agricultural assistance, American Political aspects United States; Agriculture and state Political aspects United States; Economic assistance, Domestic United States",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
+          "visualCheck": {
+            "state": "not_checked",
+            "reason": "No API key or license metadata not approved"
+          }
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Habits and men - with remnants of record touching the makers of both (IA b2177979x).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Habits_and_men_-_with_remnants_of_record_touching_the_makers_of_both_%28IA_b2177979x%29.pdf/page1-960px-Habits_and_men_-_with_remnants_of_record_touching_the_makers_of_both_%28IA_b2177979x%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Habits_and_men_-_with_remnants_of_record_touching_the_makers_of_both_(IA_b2177979x).pdf",
+          "creator": "Doran, Dr. (John), 1807-1878. n 50026733",
+          "attribution": "Doran, Dr. (John), 1807-1878. n 50026733",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Subjects: Manners and customs",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
+          "visualCheck": {
+            "state": "not_checked",
+            "reason": "No API key or license metadata not approved"
+          }
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Habits and men - with remnants of record touching the makers of both (IA b24886592).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Habits_and_men_-_with_remnants_of_record_touching_the_makers_of_both_%28IA_b24886592%29.pdf/page1-500px-Habits_and_men_-_with_remnants_of_record_touching_the_makers_of_both_%28IA_b24886592%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Habits_and_men_-_with_remnants_of_record_touching_the_makers_of_both_(IA_b24886592).pdf",
+          "creator": "Doran, Dr. (John), 1807-1878. n 50026733",
+          "attribution": "Doran, Dr. (John), 1807-1878. n 50026733",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Subjects: Manners and customs",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:More mastersingers - studies in the art of music (IA moremastersinger00younrich).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/More_mastersingers_-_studies_in_the_art_of_music_%28IA_moremastersinger00younrich%29.pdf/page1-500px-More_mastersingers_-_studies_in_the_art_of_music_%28IA_moremastersinger00younrich%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:More_mastersingers_-_studies_in_the_art_of_music_(IA_moremastersinger00younrich).pdf",
+          "creator": "Young, Filson, 1876-1938",
+          "attribution": "Young, Filson, 1876-1938",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Memories of a cathedral.--The place of music in modern life.--The musician as composer.--The musician as interpreter.--The musician as hearer.--The art of the conductor.--The music of the salon.--The old age of Richard Wagner.--The two Westminsters: with some thoughts on music and religion.--Debussy\n \n Subjects: Music",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:New light on the Jewish question in Russia (IA newlightonjewish00cacaiala).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/New_light_on_the_Jewish_question_in_Russia_%28IA_newlightonjewish00cacaiala%29.pdf/page1-500px-New_light_on_the_Jewish_question_in_Russia_%28IA_newlightonjewish00cacaiala%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:New_light_on_the_Jewish_question_in_Russia_(IA_newlightonjewish00cacaiala).pdf",
+          "creator": "C. A",
+          "attribution": "C. A",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Subjects:",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Our domestic animals, their habits, intelligence and usefulness; (IA ourdomesticanima01voog).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Our_domestic_animals%2C_their_habits%2C_intelligence_and_usefulness%3B_%28IA_ourdomesticanima01voog%29.pdf/page1-500px-Our_domestic_animals%2C_their_habits%2C_intelligence_and_usefulness%3B_%28IA_ourdomesticanima01voog%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Our_domestic_animals,_their_habits,_intelligence_and_usefulness;_(IA_ourdomesticanima01voog).pdf",
+          "creator": "Voogt, Gos. de \n Wormeley, Katharine Prescott, tr \n Burkett, Charles William, 1873- ed",
+          "attribution": "Voogt, Gos. de \n Wormeley, Katharine Prescott, tr \n Burkett, Charles William, 1873- ed",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Subjects: Domestic animals",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Our favourite song birds; their habits, music, and characteristics (IA ourfavouritesong00dixorich).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Our_favourite_song_birds%3B_their_habits%2C_music%2C_and_characteristics_%28IA_ourfavouritesong00dixorich%29.pdf/page1-500px-Our_favourite_song_birds%3B_their_habits%2C_music%2C_and_characteristics_%28IA_ourfavouritesong00dixorich%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Our_favourite_song_birds;_their_habits,_music,_and_characteristics_(IA_ourfavouritesong00dixorich).pdf",
+          "creator": "Dixon, Charles, 1858-1926",
+          "attribution": "Dixon, Charles, 1858-1926",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Subjects: Birds -- Great Britain; Birds -- Juvenile literature",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:The great fight for free silver (1897) (IA greatfightforfr00metciala).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/The_great_fight_for_free_silver_%281897%29_%28IA_greatfightforfr00metciala%29.pdf/page1-500px-The_great_fight_for_free_silver_%281897%29_%28IA_greatfightforfr00metciala%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:The_great_fight_for_free_silver_(1897)_(IA_greatfightforfr00metciala).pdf",
+          "creator": "Metcalfe, Richard Lee, b. 1861 \n Mindill, R. C",
+          "attribution": "Metcalfe, Richard Lee, b. 1861 \n Mindill, R. C",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Subjects: Silver question; genealogy",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:The great fight for free silver (1897) (IA greatfightforfre00metciala).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/The_great_fight_for_free_silver_%281897%29_%28IA_greatfightforfre00metciala%29.pdf/page1-500px-The_great_fight_for_free_silver_%281897%29_%28IA_greatfightforfre00metciala%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:The_great_fight_for_free_silver_(1897)_(IA_greatfightforfre00metciala).pdf",
+          "creator": "Metcalfe, Richard Lee, b. 1861 \n Mindill, R. C",
+          "attribution": "Metcalfe, Richard Lee, b. 1861 \n Mindill, R. C",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Subjects: Silver question",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        }
+      ],
+      "errors": [],
+      "selected": null,
+      "state": "awaiting_visual_and_license_review"
     }
   }
 }
