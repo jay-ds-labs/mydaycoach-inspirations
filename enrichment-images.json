@@ -5012,6 +5012,179 @@
       "errors": [],
       "selected": null,
       "state": "awaiting_visual_and_license_review"
+    },
+    "reflection-021": {
+      "checkedAt": "2026-11-09T22:45:54.512752Z",
+      "queries": [
+        "Balance courage and caution"
+      ],
+      "candidates": [
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:An appeal, addressed to a candid public and to the feelings of those whose upright sentiments and discerning minds, enable them to \" Weigh it in the balance of the sanctuary\" (microform) (IA cihm 21197).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/An_appeal%2C_addressed_to_a_candid_public_and_to_the_feelings_of_those_whose_upright_sentiments_and_discerning_minds%2C_enable_them_to_%22_Weigh_it_in_the_balance_of_the_sanctuary%22_%28microform%29_%28IA_cihm_21197%29.pdf/page1-960px-thumbnail.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:An_appeal,_addressed_to_a_candid_public_and_to_the_feelings_of_those_whose_upright_sentiments_and_discerning_minds,_enable_them_to_%22_Weigh_it_in_the_balance_of_the_sanctuary%22_(microform)_(IA_cihm_21197).pdf",
+          "creator": "Cushing, Elmer",
+          "attribution": "Cushing, Elmer",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "'Then let me hope indulgence still to share ...' \n Filmed from a copy of the original publication held by the Library of the Public Archives of Canada \n 43  \n Subjects: Cushing, Elmer; Cushing, Elmer; Americans; Américains",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
+          "visualCheck": {
+            "state": "not_checked",
+            "reason": "No API key or license metadata not approved"
+          }
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Biographical essays. Essays, biographical and critical; or, Studies of character (IA biographicalessa00tuck).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Biographical_essays._Essays%2C_biographical_and_critical%3B_or%2C_Studies_of_character_%28IA_biographicalessa00tuck%29.pdf/page1-500px-Biographical_essays._Essays%2C_biographical_and_critical%3B_or%2C_Studies_of_character_%28IA_biographicalessa00tuck%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Biographical_essays._Essays,_biographical_and_critical;_or,_Studies_of_character_(IA_biographicalessa00tuck).pdf",
+          "creator": "Tuckerman, Henry T. (Henry Theodore), 1813-1871",
+          "attribution": "Tuckerman, Henry T. (Henry Theodore), 1813-1871",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Subjects: Biography",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
+          "visualCheck": {
+            "state": "not_checked",
+            "reason": "No API key or license metadata not approved"
+          }
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Cautions to women, respecting the state of pregnancy - the progress of labour and delivery (IA cautionstowomenr00jack).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Cautions_to_women%2C_respecting_the_state_of_pregnancy_-_the_progress_of_labour_and_delivery_%28IA_cautionstowomenr00jack%29.pdf/page1-500px-Cautions_to_women%2C_respecting_the_state_of_pregnancy_-_the_progress_of_labour_and_delivery_%28IA_cautionstowomenr00jack%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Cautions_to_women,_respecting_the_state_of_pregnancy_-_the_progress_of_labour_and_delivery_(IA_cautionstowomenr00jack).pdf",
+          "creator": "Jackson, Seguin Henry, 1752-1816",
+          "attribution": "Jackson, Seguin Henry, 1752-1816",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Subjects: Pregnancy; Obstetrics",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
+          "visualCheck": {
+            "state": "not_checked",
+            "reason": "No API key or license metadata not approved"
+          }
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Essays, biographical and critical; or, Studies of character (IA essaysbiographic00tuck).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Essays%2C_biographical_and_critical%3B_or%2C_Studies_of_character_%28IA_essaysbiographic00tuck%29.pdf/page1-500px-Essays%2C_biographical_and_critical%3B_or%2C_Studies_of_character_%28IA_essaysbiographic00tuck%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Essays,_biographical_and_critical;_or,_Studies_of_character_(IA_essaysbiographic00tuck).pdf",
+          "creator": "Tuckerman, Henry T",
+          "attribution": "Tuckerman, Henry T",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Subjects:",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Essays, biographical and critical; or, Studies of character (IA essaysbiographic00tuckrich).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Essays%2C_biographical_and_critical%3B_or%2C_Studies_of_character_%28IA_essaysbiographic00tuckrich%29.pdf/page1-500px-Essays%2C_biographical_and_critical%3B_or%2C_Studies_of_character_%28IA_essaysbiographic00tuckrich%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Essays,_biographical_and_critical;_or,_Studies_of_character_(IA_essaysbiographic00tuckrich).pdf",
+          "creator": "Tuckerman, Henry T",
+          "attribution": "Tuckerman, Henry T",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Subjects:",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Four Years in the Ionian Islands their Political and Social Condition, with a History of the British Protectorate, in Two Volumes, Vol. I (IA dli.granth.74413).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Four_Years_in_the_Ionian_Islands_their_Political_and_Social_Condition%2C_with_a_History_of_the_British_Protectorate%2C_in_Two_Volumes%2C_Vol._I_%28IA_dli.granth.74413%29.pdf/page1-500px-thumbnail.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Four_Years_in_the_Ionian_Islands_their_Political_and_Social_Condition,_with_a_History_of_the_British_Protectorate,_in_Two_Volumes,_Vol._I_(IA_dli.granth.74413).pdf",
+          "creator": "Kirkwall, Viscount (Ed.)",
+          "attribution": "Kirkwall, Viscount (Ed.)",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Source: Asiatic Society of Mumbai Identifier: BK_00060494 Digitization Sponsor: Government of Maharashtra  \n Original Source:  https://granthsanjeevani.com/jspui/handle/123456789/74413 \" rel=\"nofollow\">Item 74413   \n Subjects: Book;  History of Europe; Granth Sanjeevani",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Peter had courage - a story for boys (IA peterhadcourages00fues).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Peter_had_courage_-_a_story_for_boys_%28IA_peterhadcourages00fues%29.pdf/page1-960px-Peter_had_courage_-_a_story_for_boys_%28IA_peterhadcourages00fues%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Peter_had_courage_-_a_story_for_boys_(IA_peterhadcourages00fues).pdf",
+          "creator": "Fuess, Claude Moore, 1885-1963",
+          "attribution": "Fuess, Claude Moore, 1885-1963",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "327 p. 20 cm\n \n Subjects:",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Shakspere weighed in an even balance (IA shakspereweighed00pown).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Shakspere_weighed_in_an_even_balance_%28IA_shakspereweighed00pown%29.pdf/page1-500px-Shakspere_weighed_in_an_even_balance_%28IA_shakspereweighed00pown%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Shakspere_weighed_in_an_even_balance_(IA_shakspereweighed00pown).pdf",
+          "creator": "Pownall, Alfred",
+          "attribution": "Pownall, Alfred",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Subjects:",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:The balance wheel (IA balancewheel00keel).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/The_balance_wheel_%28IA_balancewheel00keel%29.pdf/page1-960px-The_balance_wheel_%28IA_balancewheel00keel%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:The_balance_wheel_(IA_balancewheel00keel).pdf",
+          "creator": "Keeler, Ellen Coughlin",
+          "attribution": "Keeler, Ellen Coughlin",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Subjects: Woman's Home Missionary Society (Cincinnati, Ohio)",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:The character and portraits of Washington (IA characterportrai00tuckuoft).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/The_character_and_portraits_of_Washington_%28IA_characterportrai00tuckuoft%29.pdf/page1-1280px-The_character_and_portraits_of_Washington_%28IA_characterportrai00tuckuoft%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:The_character_and_portraits_of_Washington_(IA_characterportrai00tuckuoft).pdf",
+          "creator": "Tuckerman, Henry T. (Henry Theodore), 1813-1871",
+          "attribution": "Tuckerman, Henry T. (Henry Theodore), 1813-1871",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "26\n \n Subjects: Washington, George, 1732-1799",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        }
+      ],
+      "errors": [],
+      "selected": null,
+      "state": "awaiting_visual_and_license_review"
     }
   }
 }

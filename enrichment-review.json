@@ -1004,6 +1004,34 @@
       "factualRisk": "low",
       "imageStatus": "awaiting_visual_and_license_review",
       "publication": "ready_for_publish"
+    },
+    "reflection-021": {
+      "state": "approved",
+      "checkedAt": "2026-11-09T22:45:54.512766Z",
+      "source": "https://plato.stanford.edu/entries/ethics-virtue/",
+      "reviewAttempts": [
+        {
+          "attempt": 1,
+          "approved": true,
+          "issues": []
+        }
+      ],
+      "attemptCount": 1,
+      "reviewFailureSummary": "",
+      "sourceAccessible": true,
+      "sourceUrls": [
+        "https://plato.stanford.edu/entries/ethics-virtue/",
+        "https://en.wikipedia.org/wiki/Bertrand_Russell"
+      ],
+      "sourceCount": 2,
+      "wordCount": 810,
+      "reviewedTextMatchesSaved": true,
+      "originalSource": "https://plato.stanford.edu/entries/ethics-virtue/",
+      "evidenceSource": "https://plato.stanford.edu/entries/ethics-virtue/",
+      "issues": [],
+      "factualRisk": "low",
+      "imageStatus": "awaiting_visual_and_license_review",
+      "publication": "ready_for_publish"
     }
   }
 }
