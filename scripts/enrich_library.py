@@ -15,7 +15,7 @@ import subprocess
 import time
 import urllib.error
 import urllib.request
-from image_audit import candidates as image_candidates
+from audit_images import candidates as image_candidates
 from research import discover as discover_sources, evidence_bundle
 
 ROOT=Path(__file__).resolve().parents[1]
@@ -198,13 +198,10 @@ def main():
                 issues=[]
             status["stage"]="image_audit"
             write(PROGRESS,status)
-            image_query=item.get("attribution","").strip()
-            if not image_query or len(image_query.split())>8:
-                image_query=item.get("title","")
-            # The story body provides additional context for generic titles.
-            image_results=image_candidates(image_query+" "+item.get("body","")[:75])
-            images["items"][item["id"]]={"checkedAt":now(),"query":image_query,
-                "candidates":image_results[:5],"selected":None,
+            image_results,image_errors=image_candidates(item)
+            images["items"][item["id"]]={"checkedAt":now(),
+                "queries":[item.get("title","")],"candidates":image_results,
+                "errors":image_errors,"selected":None,
                 "state":"awaiting_visual_and_license_review"}
             reviews["items"][item["id"]]={
                 "state":state,"checkedAt":now(),"source":preferred_source,
