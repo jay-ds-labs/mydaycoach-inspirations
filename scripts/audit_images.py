@@ -67,6 +67,40 @@ def verify(page):
             "requiresVisualReview":True,
             "note":"Metadata only; authenticity, relevance, and legal suitability not yet verified."}
 
+def visual_check(item,candidate):
+    """Vision-assisted relevance screening; not proof of historical authenticity."""
+    key=os.getenv("OPENAI_API_KEY","")
+    if not key or candidate.get("state")!="license_metadata_pass":
+        return {"state":"not_checked","reason":"No API key or license metadata not approved"}
+    prompt=("Assess whether this Wikimedia Commons image is visibly relevant to the "
+        "following inspiration. Do not identify people from their faces. Use the file "
+        "title and image description as context, but flag uncertain provenance. "
+        "Return JSON with relevant (boolean), confidence (low/medium/high), "
+        "issues (array), explanation (string). "
+        "Inspiration: "+json.dumps({"title":item.get("title"),"body":item.get("body"),
+            "category":item.get("category")})+
+        "\nFile title: "+candidate.get("fileTitle","")+
+        "\nDescription: "+candidate.get("description",""))
+    payload={"model":os.getenv("OPENAI_IMAGE_REVIEW_MODEL","gpt-4.1-mini"),
+        "input":[{"role":"user","content":[{"type":"input_text","text":prompt},
+            {"type":"input_image","image_url":candidate["imageUrl"]}]}],
+        "text":{"format":{"type":"json_object"}}}
+    try:
+        req=urllib.request.Request("https://api.openai.com/v1/responses",
+            data=json.dumps(payload).encode(),headers={"Authorization":"Bearer "+key,
+                "Content-Type":"application/json"})
+        with urllib.request.urlopen(req,timeout=90) as resp:
+            response=json.load(resp)
+        output="".join(p.get("text","") for o in response.get("output",[])
+            for p in o.get("content",[]) if p.get("type")=="output_text")
+        verdict=json.loads(output)
+        return {"state":"relevant_candidate" if verdict.get("relevant") and
+            verdict.get("confidence")=="high" else "needs_visual_review",
+            "confidence":verdict.get("confidence","low"),
+            "issues":verdict.get("issues",[]),"explanation":verdict.get("explanation","")}
+    except Exception as exc:
+        return {"state":"visual_review_failed","reason":str(exc)[:250]}
+
 def subject_queries(item):
     if item.get("id") in QUERIES:
         return QUERIES[item["id"]]
@@ -86,6 +120,8 @@ def candidates(item):
         except Exception as exc:
             errors.append(query+": "+str(exc)[:180])
     ranked=sorted(found.values(),key=lambda x:(x["state"]!="license_metadata_pass",x["fileTitle"]))
+    for candidate in ranked[:3]:
+        candidate["visualCheck"]=visual_check(item,candidate)
     return ranked[:10],errors
 
 def write(path,data):
