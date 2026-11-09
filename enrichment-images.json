@@ -4869,6 +4869,149 @@
       "errors": [],
       "selected": null,
       "state": "awaiting_visual_and_license_review"
+    },
+    "reflection-020": {
+      "checkedAt": "2026-11-09T22:45:26.077839Z",
+      "queries": [
+        "Seek disconfirming evidence"
+      ],
+      "candidates": [
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:A taxonomic approach to Contracting Officer tasking (IA taxonomicapproac00page).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/A_taxonomic_approach_to_Contracting_Officer_tasking_%28IA_taxonomicapproac00page%29.pdf/page1-960px-A_taxonomic_approach_to_Contracting_Officer_tasking_%28IA_taxonomicapproac00page%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:A_taxonomic_approach_to_Contracting_Officer_tasking_(IA_taxonomicapproac00page).pdf",
+          "creator": "Page, Asa H.;Lamm, David V.",
+          "attribution": "Page, Asa H.;Lamm, David V.",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Thesis advisor, David V. Lamm \n ADA219994 \n Thesis (M.S. in Mgmt.) Naval Postgraduate School, Dec. 1989 \n Includes bibliographical references  \n Subjects:",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
+          "visualCheck": {
+            "state": "not_checked",
+            "reason": "No API key or license metadata not approved"
+          }
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:CREATING WHITE SPACE- INTERACTION AND THE ADAPTATION OF TEAM SOCIAL IDENTITY IN COMPLEX ENVIRONMENTS (IA creatingwhitespa1094562289).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/CREATING_WHITE_SPACE-_INTERACTION_AND_THE_ADAPTATION_OF_TEAM_SOCIAL_IDENTITY_IN_COMPLEX_ENVIRONMENTS_%28IA_creatingwhitespa1094562289%29.pdf/page1-960px-CREATING_WHITE_SPACE-_INTERACTION_AND_THE_ADAPTATION_OF_TEAM_SOCIAL_IDENTITY_IN_COMPLEX_ENVIRONMENTS_%28IA_creatingwhitespa1094562289%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:CREATING_WHITE_SPACE-_INTERACTION_AND_THE_ADAPTATION_OF_TEAM_SOCIAL_IDENTITY_IN_COMPLEX_ENVIRONMENTS_(IA_creatingwhitespa1094562289).pdf",
+          "creator": "Ross, Robert J.",
+          "attribution": "Ross, Robert J.",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "American military teams are increasingly embedded at the grassroots level in foreign environments to create white space. White spaces are pockets of stability within nations whose populations often suffer from instability, factionalism, civil strife, isolation, and extreme deprivation. The information warfare literature espouses soft power at the level of policy; however, it does not provide explanations for the challenges on the ground. The aim of this study is to identify the environmental con",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
+          "visualCheck": {
+            "state": "not_checked",
+            "reason": "No API key or license metadata not approved"
+          }
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Crisis and Emergency Risk Communication - Psychology of a Crisis 2019 Update.pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Crisis_and_Emergency_Risk_Communication_-_Psychology_of_a_Crisis_2019_Update.pdf/page1-960px-Crisis_and_Emergency_Risk_Communication_-_Psychology_of_a_Crisis_2019_Update.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Crisis_and_Emergency_Risk_Communication_-_Psychology_of_a_Crisis_2019_Update.pdf",
+          "creator": "United States Department of Health and Human Services",
+          "attribution": "United States Department of Health and Human Services",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
+          "visualCheck": {
+            "state": "not_checked",
+            "reason": "No API key or license metadata not approved"
+          }
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Developing State and local leadership in a changing society (IA CAT92968882).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Developing_State_and_local_leadership_in_a_changing_society_%28IA_CAT92968882%29.pdf/page1-500px-Developing_State_and_local_leadership_in_a_changing_society_%28IA_CAT92968882%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Developing_State_and_local_leadership_in_a_changing_society_(IA_CAT92968882).pdf",
+          "creator": "",
+          "attribution": "",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Subjects: Public relations United States; Public administration United States Citizen participation; Government executives United States",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Opaque communities- a framework for assessing potential homeland security threats from voids on the map (IA opaquecommunitie1094544006).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Opaque_communities-_a_framework_for_assessing_potential_homeland_security_threats_from_voids_on_the_map_%28IA_opaquecommunitie1094544006%29.pdf/page1-960px-Opaque_communities-_a_framework_for_assessing_potential_homeland_security_threats_from_voids_on_the_map_%28IA_opaquecommunitie1094544006%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Opaque_communities-_a_framework_for_assessing_potential_homeland_security_threats_from_voids_on_the_map_(IA_opaquecommunitie1094544006).pdf",
+          "creator": "Speer, Matthew E.",
+          "attribution": "Speer, Matthew E.",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Opaque communities confound homeland security situational awareness and integration efforts, which generates pervasive threat perceptions that have often escalated into governmental interventions and violent confrontations. Governmental failures to effectively communicate with, and judiciously address past incidents involving opaque communities, have led to tactical response disasters; future inabilities to foster contact with such groups could present grave, unforeseen challenges to homeland se",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:The origins and strategic objectives of the Al Qaeda organization in the Islamic Maghreb (AQIM) (IA theoriginsndstra109454432).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/The_origins_and_strategic_objectives_of_the_Al_Qaeda_organization_in_the_Islamic_Maghreb_%28AQIM%29_%28IA_theoriginsndstra109454432%29.pdf/page1-960px-The_origins_and_strategic_objectives_of_the_Al_Qaeda_organization_in_the_Islamic_Maghreb_%28AQIM%29_%28IA_theoriginsndstra109454432%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:The_origins_and_strategic_objectives_of_the_Al_Qaeda_organization_in_the_Islamic_Maghreb_(AQIM)_(IA_theoriginsndstra109454432).pdf",
+          "creator": "Hajji, Khalifa.",
+          "attribution": "Hajji, Khalifa.",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "In 2007, the Al-Qaeda Organization in the Islamic Maghreb (AQIM) emerged  after the Salafist Group for Preaching and Combat (GSPC) aligned itself with Al-Qaeda.  This development captured the world's attention and led several scholars and  policymakers to ask the question: Why did this merger take place and what does it say  about the motivations of GSPC? This research investigates three hypotheses: (1) This  merger is merely an ideological one without operational implications; (2) this merger i",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:The V-22 - a turning point in Congressional behavior? (IA v22turningpointi00szcz).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/The_V-22_-_a_turning_point_in_Congressional_behavior%3F_%28IA_v22turningpointi00szcz%29.pdf/page1-960px-The_V-22_-_a_turning_point_in_Congressional_behavior%3F_%28IA_v22turningpointi00szcz%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:The_V-22_-_a_turning_point_in_Congressional_behavior%3F_(IA_v22turningpointi00szcz).pdf",
+          "creator": "Szczublewski, Kenneth J.;Stockton, Paul.;Garrett, Steven Lurie",
+          "attribution": "Szczublewski, Kenneth J.;Stockton, Paul.;Garrett, Steven Lurie",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Thesis advisors, Paul Stockton and Stephen Garrett \n AD-A261 204 \n Thesis (M.A. in National Security Affairs Strategic Planning) Naval Postgraduate School, Dec. 1992 \n Includes bibliographical references  \n Subjects:",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Vietnamese strategic culture and the coming struggle for the South China Sea (IA vietnamesestrate00butt).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Vietnamese_strategic_culture_and_the_coming_struggle_for_the_South_China_Sea_%28IA_vietnamesestrate00butt%29.pdf/page1-500px-Vietnamese_strategic_culture_and_the_coming_struggle_for_the_South_China_Sea_%28IA_vietnamesestrate00butt%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Vietnamese_strategic_culture_and_the_coming_struggle_for_the_South_China_Sea_(IA_vietnamesestrate00butt).pdf",
+          "creator": "Butterfield, Andrew A.",
+          "attribution": "Butterfield, Andrew A.",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Thesis advisor(s): Mary P. Callahan \n \"December 1996.\" \n Thesis (M.A. in National Security Affairs) Naval Postgraduate School, December 1996 \n Includes bibliographical references (p. 85-90) \n Despite inferior strength, Vietnam clings to extensive claims in the South China Sea in conflict with China's claims. Through use of the concept of 'strategic culture,' this thesis investigates the factors, including perceived historical lessons, that drive Vietnam to maintain this strategic posture. The mo",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        }
+      ],
+      "errors": [],
+      "selected": null,
+      "state": "awaiting_visual_and_license_review"
     }
   }
 }

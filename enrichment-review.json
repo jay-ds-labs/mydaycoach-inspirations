@@ -969,6 +969,41 @@
       "factualRisk": "low",
       "imageStatus": "awaiting_visual_and_license_review",
       "publication": "ready_for_publish"
+    },
+    "reflection-020": {
+      "state": "approved",
+      "checkedAt": "2026-11-09T22:45:26.077853Z",
+      "source": "https://plato.stanford.edu/entries/epistemology/",
+      "reviewAttempts": [
+        {
+          "attempt": 1,
+          "approved": false,
+          "issues": [
+            "Generated article length 332 outside 600-1100 words"
+          ]
+        },
+        {
+          "attempt": 2,
+          "approved": true,
+          "issues": []
+        }
+      ],
+      "attemptCount": 2,
+      "reviewFailureSummary": "",
+      "sourceAccessible": true,
+      "sourceUrls": [
+        "https://plato.stanford.edu/entries/epistemology/",
+        "https://en.wikipedia.org/wiki/LeBron_James"
+      ],
+      "sourceCount": 2,
+      "wordCount": 743,
+      "reviewedTextMatchesSaved": true,
+      "originalSource": "https://plato.stanford.edu/entries/epistemology/",
+      "evidenceSource": "https://plato.stanford.edu/entries/epistemology/",
+      "issues": [],
+      "factualRisk": "low",
+      "imageStatus": "awaiting_visual_and_license_review",
+      "publication": "ready_for_publish"
     }
   }
 }
