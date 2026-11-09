@@ -47,14 +47,19 @@
     },
     "everest-summit": {
       "state": "needs_review",
-      "checkedAt": "2026-11-09T01:31:30.437031Z",
+      "checkedAt": "2026-11-09T01:36:24.433820Z",
       "source": "https://www.rgs.org/",
       "sourceAccessible": true,
-      "wordCount": 762,
+      "wordCount": 765,
+      "reviewedTextMatchesSaved": true,
       "originalSource": "https://www.rgs.org/",
       "evidenceSource": "https://www.rgs.org/",
       "issues": [
-        "Article length 555 outside 600-1100 words"
+        "The source is general and does not provide direct evidence for the factual claims made in the article",
+        "No accessible or specific verification for details about the expedition members, preparation, or logistics",
+        "Quotations and direct attributions are absent but implied knowledge requires support not found in supplied evidence",
+        "Article length is appropriate, but substantial narrative and interpretation are unsupported by the supplied source",
+        "Expedition specifics such as number of team members, individual roles, and historical context are not substantiated by the provided RGS source"
       ],
       "factualRisk": "high",
       "imageStatus": "requires_license_verification",
