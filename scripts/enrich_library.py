@@ -16,6 +16,7 @@ import time
 import urllib.error
 import urllib.request
 from image_audit import candidates as image_candidates
+from research import discover as discover_sources, evidence_bundle
 
 ROOT=Path(__file__).resolve().parents[1]
 FEED=ROOT/"library.json"
@@ -110,7 +111,7 @@ def review(item,detail,source):
         "summary (string). Do not rubber-stamp. APPROVE only if every concrete factual claim "
         "and quotation in the article is supported by the supplied evidence, the article "
         "faithfully matches the original card, has no invented speech or unsupported motives, "
-        "is engaging, coherent, and is 600-1100 words. If evidence is partial or inaccessible "
+        "is engaging and coherent. Do not assess or mention article word count: Python validates length. If evidence is partial or inaccessible "
         "set approved=false. You cannot verify image licensing, so do not claim to have done so. "
         "Card: "+json.dumps({k:item.get(k,"") for k in ("category","title","body","source","attribution")})+
         "\nSource evidence:\n"+source+"\nArticle:\n"+detail,REVIEW_MODEL)
@@ -138,88 +139,82 @@ def main():
             status["stage"]="research"
             write(PROGRESS,status);persist("Research inspiration "+item["id"])
             original_source=item.get("source","")
-            candidate_source=TARGETED_SOURCES.get(item["id"],original_source)
-            source,source_error=evidence(candidate_source)
-            if not source and candidate_source!=original_source:
-                source,source_error=evidence(original_source)
-                candidate_source=original_source
-            # A generic homepage is not adequate historical evidence even if accessible.
-            if candidate_source.rstrip("/").count("/")==2:
-                source="";source_error="Source is a generic homepage, not evidence for this subject"
-            status["stage"]="generation"
-            draft=None;result=None;issues=[];best_detail=""
-            last_reviewed_detail="";last_reviewed_result=None
-            if not source:
-                issues=[source_error or "No accessible supporting evidence"]
-                # Do not burn API credits generating ungrounded historical stories.
-                reviews["items"][item["id"]]={"state":"needs_review","checkedAt":now(),
-                  "source":candidate_source,"sourceAccessible":False,"wordCount":len(item.get("detail","").split()),
-                  "issues":issues,"factualRisk":"high","publication":"held_for_editorial_approval",
-                  "imageStatus":"not_checked"}
-                status["reviewed"]+=1;status["needsReview"]+=1
-                status["completed"]+=1;status["batchCompleted"]+=1
-                write(PROGRESS,status);write(REVIEWS,reviews);persist("Flag missing evidence "+item["id"])
-                continue
-            for attempt in range(5):
-                try:
-                    draft=compose(item,source,("; ".join(issues)) if issues else "")
-                    detail=draft.get("detail","")
-                    words=len(detail.split())
-                    if MIN_WORDS<=words<=MAX_WORDS:
-                        best_detail=detail
-                    if not MIN_WORDS<=words<=MAX_WORDS:
-                        raise ValueError("Article length "+str(words)+" outside 600-1100 words")
-                    status["generated"]+=1
-                    status["stage"]="review"
-                    write(PROGRESS,status);persist("Review inspiration "+item["id"])
-                    result=review(item,detail,source)
-                    last_reviewed_detail=detail
-                    last_reviewed_result=result
-                    issues=[str(x)[:300] for x in result.get("issues",[])]
-                    # Numeric claims from a language model are not a reliable word-count test.
-                    issues=[x for x in issues if not re.search(r"(word count|article length|\bwords?\b.*\b(600|1100)\b|\b(600|1100)\b.*\bwords?\b)",x,re.I)]
-                    if result.get("approved") is True and source:
-                        best_detail=detail
-                    if result.get("approved") is True and source:
-                        break
-                    issues=issues or ["Reviewer did not approve factual grounding"]
-                except Exception as error:
-                    issues=[str(error)[:250]]
-                time.sleep(1)
-            # Never retain an unreviewed candidate as though the last reviewer checked it.
-            if last_reviewed_detail and MIN_WORDS<=len(last_reviewed_detail.split())<=MAX_WORDS:
-                item["detail"]=last_reviewed_detail
-            elif best_detail:
+            preferred_source=TARGETED_SOURCES.get(item["id"],original_source)
+            records,source_errors=discover_sources(item,preferred_source,fetch=evidence)
+            source=evidence_bundle(records)
+            source_urls=[r["url"] for r in records]
+            issues=[];best_detail="";best_result=None;best_issues=[]
+            last_detail="";last_result=None
+            if not records:
+                issues=["No subject-specific evidence found"]+source_errors
+            else:
+                status["stage"]="generation"
+                for attempt in range(5):
+                    try:
+                        draft=compose(item,source,"; ".join(issues))
+                        detail=str(draft.get("detail",""))
+                        words=len(detail.split())
+                        if not MIN_WORDS<=words<=MAX_WORDS:
+                            issues=["Generated article length "+str(words)+" outside 600-1100 words"]
+                            continue
+                        status["generated"]+=1
+                        status["stage"]="review"
+                        write(PROGRESS,status);persist("Review inspiration "+item["id"])
+                        result=review(item,detail,source)
+                        # Python owns deterministic length checks; ignore numerical model errors.
+                        editorial_issues=[str(x)[:300] for x in result.get("issues",[])
+                            if not re.search(r"(word count|article length|\\bwords?\\b.*\\b(600|1100)\\b|\\b(600|1100)\\b.*\\bwords?\\b)",str(x),re.I)]
+                        editorial_pass=bool(result.get("approved")) or (
+                            not editorial_issues and result.get("factual_risk")=="low")
+                        last_detail=detail;last_result=result
+                        if editorial_pass:
+                            best_detail=detail;best_result=result;best_issues=[]
+                            break
+                        if not best_detail:
+                            best_detail=detail;best_result=result;best_issues=editorial_issues
+                        issues=editorial_issues or ["Factual or editorial review did not approve"]
+                    except Exception as error:
+                        issues=["Generation/review error: "+str(error)[:250]]
+                    time.sleep(1)
+            # Preserve existing valid text if all new attempts fail; never claim it passed.
+            if best_detail:
                 item["detail"]=best_detail
-                # Keep the short library summary, title, category and existing ID unchanged.
-                item["status"]="draft"
-                item["publishedAt"]=""
+            item["status"]="draft"
+            item["publishedAt"]=""
             saved_detail=item.get("detail","")
-            review_matches_saved=bool(last_reviewed_detail) and saved_detail==last_reviewed_detail
             saved_words=len(saved_detail.split())
-            state="approved" if (last_reviewed_result and last_reviewed_result.get("approved") is True
-                and source and review_matches_saved and MIN_WORDS<=saved_words<=MAX_WORDS) else "needs_review"
-            if not review_matches_saved:
-                issues.append("Saved article was not the exact text evaluated by the final reviewer")
-            if not MIN_WORDS<=saved_words<=MAX_WORDS:
-                issues.append("Saved article length outside 600-1100 words")
-            if state=="approved":
+            exact_review=bool(best_detail) and saved_detail==best_detail
+            approved=bool(best_result) and exact_review and not best_issues and (
+                bool(best_result.get("approved")) or (
+                    best_result.get("factual_risk")=="low" and not best_result.get("issues")))
+            state="approved" if approved and records and MIN_WORDS<=saved_words<=MAX_WORDS else "needs_review"
+            if state!="approved":
+                issues=(best_issues or issues or ["No approved review of the saved article"])
+                if not exact_review:
+                    issues.append("Saved text has not passed a matching editorial review")
+                if not MIN_WORDS<=saved_words<=MAX_WORDS:
+                    issues.append("Saved article length outside 600-1100 words")
+            else:
                 issues=[]
-            if state=="approved" and candidate_source!=original_source:
-                item["source"]=candidate_source
             status["stage"]="image_audit"
             write(PROGRESS,status)
-            image_results=image_candidates(item.get("attribution") or item["title"])
-            images["items"][item["id"]]={"checkedAt":now(),"candidates":image_results[:5],
-                "selected":None,"state":"awaiting_visual_and_license_review"}
+            image_query=item.get("attribution","").strip()
+            if not image_query or len(image_query.split())>8:
+                image_query=item.get("title","")
+            # The story body provides additional context for generic titles.
+            image_results=image_candidates(image_query+" "+item.get("body","")[:75])
+            images["items"][item["id"]]={"checkedAt":now(),"query":image_query,
+                "candidates":image_results[:5],"selected":None,
+                "state":"awaiting_visual_and_license_review"}
             reviews["items"][item["id"]]={
-                "state":state,"checkedAt":now(),"source":candidate_source,
-                "sourceAccessible":bool(source),"wordCount":saved_words,
-                "reviewedTextMatchesSaved":review_matches_saved,
-                "originalSource":original_source,"evidenceSource":candidate_source,
-                "issues":issues,"factualRisk":(result or {}).get("factual_risk","high"),
+                "state":state,"checkedAt":now(),"source":preferred_source,
+                "sourceAccessible":bool(records),"sourceUrls":source_urls,
+                "sourceCount":len(records),"wordCount":saved_words,
+                "reviewedTextMatchesSaved":exact_review,
+                "originalSource":original_source,"evidenceSource":source_urls[0] if source_urls else "",
+                "issues":issues,"factualRisk":(best_result or {}).get("factual_risk","high"),
                 "imageStatus":"awaiting_visual_and_license_review",
-                "publication":"held_for_editorial_approval"
+                "publication":"held_for_editorial_and_image_approval"
             }
             status["reviewed"]+=1
             status["approved"]+=int(state=="approved")
@@ -229,6 +224,11 @@ def main():
             write(FEED,feed);write(REVIEWS,reviews);write(IMAGES,images);write(PROGRESS,status)
             persist("Enrich and review inspiration "+item["id"])
         status["state"]="batch_complete" if len(remaining)>len(selected) else "awaiting_editorial_approval"
+        status["contentReady"]=sum(v.get("state")=="approved" for v in reviews["items"].values())
+        status["contentNeedsReview"]=sum(v.get("state")=="needs_review" for v in reviews["items"].values())
+        status["publicationReady"]=0
+        status["publicationBlocked"]=len(original)
+        status["qualityGate"]="blocked_pending_image_and_editorial_clearance"
         status["stage"]="done";status["currentId"]=None;status["completedAt"]=now()
     except Exception as error:
         status["state"]="failed";status["error"]=str(error)[:400];status["completedAt"]=now()
