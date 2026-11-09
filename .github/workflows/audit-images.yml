@@ -8,6 +8,11 @@ on:
         default: "10"
         type: choice
         options: ["5", "10", "20", "50", "100"]
+      visual_review:
+        description: "Use AI vision to screen image relevance (incurs small API usage)"
+        required: true
+        default: false
+        type: boolean
       only_missing:
         description: "Only audit articles with no previous image audit"
         required: true
@@ -34,6 +39,7 @@ jobs:
           python3 -m unittest discover -s tests -p "test_*.py" -v
       - name: Audit images
         env:
+          OPENAI_API_KEY: ${{ inputs.visual_review && secrets.OPENAI_API_KEY || ''} }
           IMAGE_AUDIT_BATCH_SIZE: ${{ inputs.batch_size }}
           IMAGE_AUDIT_ONLY_MISSING: ${{ inputs.only_missing }}
         run: python3 scripts/audit_images.py
