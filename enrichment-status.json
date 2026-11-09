@@ -1,6 +1,6 @@
 {
   "state": "running",
-  "stage": "review",
+  "stage": "research",
   "completed": 4,
   "total": 70,
   "batchTotal": 3,
@@ -11,6 +11,6 @@
   "needsReview": 2,
   "startedAt": "2026-11-09T01:34:50.676903Z",
   "completedAt": null,
-  "currentId": "everest-summit",
+  "currentId": "wright-flight",
   "error": null
 }
