@@ -1,11 +1,11 @@
 {
   "state": "running",
-  "stage": "research",
+  "stage": "review",
   "completed": 54,
   "total": 70,
   "batchTotal": 20,
   "batchCompleted": 10,
-  "generated": 9,
+  "generated": 10,
   "reviewed": 10,
   "approved": 1,
   "needsReview": 9,
