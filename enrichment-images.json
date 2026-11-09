@@ -7689,6 +7689,149 @@
       "errors": [],
       "selected": null,
       "state": "awaiting_visual_and_license_review"
+    },
+    "generated-05f5dde4e8034a279b4a": {
+      "checkedAt": "2026-11-09T23:04:26.855503Z",
+      "queries": [
+        "Montesquieu and the Spirit of Laws: Climate, Custom, and the Shaping of Justice"
+      ],
+      "candidates": [
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:An inaugural dissertation on infanticide submitted to the examination of Samuel Bard ... and the Trustees and professors of the College of Physicians and Surgeons of the University of the (IA 2543010R.nlm.nih.gov).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/An_inaugural_dissertation_on_infanticide_submitted_to_the_examination_of_Samuel_Bard_..._and_the_Trustees_and_professors_of_the_College_of_Physicians_and_Surgeons_of_the_University_of_the_%28IA_2543010R.nlm.nih.gov%29.pdf/page1-500px-thumbnail.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:An_inaugural_dissertation_on_infanticide_submitted_to_the_examination_of_Samuel_Bard_..._and_the_Trustees_and_professors_of_the_College_of_Physicians_and_Surgeons_of_the_University_of_the_(IA_2543010R.nlm.nih.gov).pdf",
+          "creator": "Beck, John B. (John Brodhead), 1794-1851 \n Seymour, Jonathan, 1778-1841, printer \n Beck, Theodric Romeyn, 1791-1855, former owner. DNLM \n College of Physicians and Surgeons of the Western District of New York",
+          "attribution": "Beck, John B. (John Brodhead), 1794-1851 \n Seymour, Jonathan, 1778-1841, printer \n Beck, Theodric Romeyn, 1791-1855, former owner. DNLM \n College of Physicians and Surgeons of the Western District of New York",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Errata at end \n NLM copy 1, author's presentation copy; recipient unknown due to excessive trimming; copy 2, presentation copy to J.C. Warren, M.D., from T.R. Beck, M.D \n Film 633 reel 7 is part of Research Publications Early American Medical Imprints collection (RP reel 7, no. 164) \n Thesis (M.D.)--College of Physicians and Surgeons of the University of the State of New-York, 1817 \n Includes bibliographical references \n Austin, R.B. Early Amer. medical imprints \n Shaw & Shoemaker \n Microfilm \n ",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
+          "visualCheck": {
+            "state": "not_checked",
+            "reason": "No API key or license metadata not approved"
+          }
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Essays on law reform, commercial policy, banks, penitentiaries, etc. in Great Britain and the United States of America (IA essaysonlawrefor00telluoft).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Essays_on_law_reform%2C_commercial_policy%2C_banks%2C_penitentiaries%2C_etc._in_Great_Britain_and_the_United_States_of_America_%28IA_essaysonlawrefor00telluoft%29.pdf/page1-500px-Essays_on_law_reform%2C_commercial_policy%2C_banks%2C_penitentiaries%2C_etc._in_Great_Britain_and_the_United_States_of_America_%28IA_essaysonlawrefor00telluoft%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Essays_on_law_reform,_commercial_policy,_banks,_penitentiaries,_etc._in_Great_Britain_and_the_United_States_of_America_(IA_essaysonlawrefor00telluoft).pdf",
+          "creator": "Tellkampf, Johann Ludwig, 1808-1876",
+          "attribution": "Tellkampf, Johann Ludwig, 1808-1876",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "On codification or the systematizing of law; Commercial policy; Money and banks; Reform of punishments and prisons; German and English civilization \n 26  \n Subjects: Law -- Codification; Punishment; Prisons; Commercial policy",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
+          "visualCheck": {
+            "state": "not_checked",
+            "reason": "No API key or license metadata not approved"
+          }
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Letters written during a tour through South Wales in the year 1803 and at other times. Containing views of the history antiquities and customs of that part of the principality (IA b22036544).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Letters_written_during_a_tour_through_South_Wales_in_the_year_1803_and_at_other_times._Containing_views_of_the_history_antiquities_and_customs_of_that_part_of_the_principality_%28IA_b22036544%29.pdf/page1-500px-thumbnail.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Letters_written_during_a_tour_through_South_Wales_in_the_year_1803_and_at_other_times._Containing_views_of_the_history_antiquities_and_customs_of_that_part_of_the_principality_(IA_b22036544).pdf",
+          "creator": "Evans, J. (John), active 1812. n 86135584",
+          "attribution": "Evans, J. (John), active 1812. n 86135584",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Subjects:",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
+          "visualCheck": {
+            "state": "not_checked",
+            "reason": "No API key or license metadata not approved"
+          }
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:The man of the North and the man of the South or, The influence of climate (IA manofnorthsouth00bornrich).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/The_man_of_the_North_and_the_man_of_the_South_or%2C_The_influence_of_climate_%28IA_manofnorthsouth00bornrich%29.pdf/page1-500px-The_man_of_the_North_and_the_man_of_the_South_or%2C_The_influence_of_climate_%28IA_manofnorthsouth00bornrich%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:The_man_of_the_North_and_the_man_of_the_South_or,_The_influence_of_climate_(IA_manofnorthsouth00bornrich).pdf",
+          "creator": "Bonstetten, Charles Victor de, 1745-1832 \n Making of America Project",
+          "attribution": "Bonstetten, Charles Victor de, 1745-1832 \n Making of America Project",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Subjects: Human beings -- Effect of environment on; Civilization -- History",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:The philosophical dictionary, comprising the opinions of all the best writers on moral, political and theological subjects ... who have written in favour of the liberties and happiness o (IA b3309150x).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/The_philosophical_dictionary%2C_comprising_the_opinions_of_all_the_best_writers_on_moral%2C_political_and_theological_subjects_..._who_have_written_in_favour_of_the_liberties_and_happiness_o_%28IA_b3309150x%29.pdf/page1-500px-thumbnail.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:The_philosophical_dictionary,_comprising_the_opinions_of_all_the_best_writers_on_moral,_political_and_theological_subjects_..._who_have_written_in_favour_of_the_liberties_and_happiness_o_(IA_b3309150x).pdf",
+          "creator": "",
+          "attribution": "",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "viii, 260 unnumbered leaves : (8vo)\n \n Subjects: Philosophy",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:The spirit of humanity, and essence of morality; (IA spiritofhumanity00alba).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/The_spirit_of_humanity%2C_and_essence_of_morality%3B_%28IA_spiritofhumanity00alba%29.pdf/page1-500px-The_spirit_of_humanity%2C_and_essence_of_morality%3B_%28IA_spiritofhumanity00alba%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:The_spirit_of_humanity,_and_essence_of_morality;_(IA_spiritofhumanity00alba).pdf",
+          "creator": "",
+          "attribution": "",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Subjects:",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:The study of history and sociology (IA studyofhistoryso00blac).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/The_study_of_history_and_sociology_%28IA_studyofhistoryso00blac%29.pdf/page1-500px-The_study_of_history_and_sociology_%28IA_studyofhistoryso00blac%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:The_study_of_history_and_sociology_(IA_studyofhistoryso00blac).pdf",
+          "creator": "Blackmar, Frank W. (Frank Wilson), 1854-1931",
+          "attribution": "Blackmar, Frank W. (Frank Wilson), 1854-1931",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Subjects: History; Social sciences",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:The universal anthology ; a collection of the best literature, ancient, mediaeval and modern, with biographical and explanatory notes (IA universalantho26garn).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/The_universal_anthology_%3B_a_collection_of_the_best_literature%2C_ancient%2C_mediaeval_and_modern%2C_with_biographical_and_explanatory_notes_%28IA_universalantho26garn%29.pdf/page1-500px-thumbnail.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:The_universal_anthology_;_a_collection_of_the_best_literature,_ancient,_mediaeval_and_modern,_with_biographical_and_explanatory_notes_(IA_universalantho26garn).pdf",
+          "creator": "Garnett, Richard, 1835-1906",
+          "attribution": "Garnett, Richard, 1835-1906",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Subjects: Literature",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        }
+      ],
+      "errors": [],
+      "selected": null,
+      "state": "awaiting_visual_and_license_review"
     }
   }
 }
