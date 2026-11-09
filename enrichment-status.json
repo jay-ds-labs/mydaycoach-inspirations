@@ -1,6 +1,6 @@
 {
-  "state": "running",
-  "stage": "generation",
+  "state": "awaiting_editorial_approval",
+  "stage": "done",
   "completed": 70,
   "total": 70,
   "batchTotal": 0,
@@ -10,7 +10,13 @@
   "approved": 0,
   "needsReview": 0,
   "startedAt": "2026-11-09T23:04:48.627870Z",
-  "completedAt": null,
+  "completedAt": "2026-11-09T23:04:49.834406Z",
   "currentId": null,
-  "error": null
+  "error": null,
+  "contentReady": 34,
+  "contentNeedsReview": 36,
+  "reviewFailed": 36,
+  "publicationReady": 65,
+  "publicationBlocked": 5,
+  "qualityGate": "full_article_required_review_advisory"
 }
