@@ -3331,6 +3331,181 @@
       "errors": [],
       "selected": null,
       "state": "awaiting_visual_and_license_review"
+    },
+    "reflection-011": {
+      "checkedAt": "2026-11-09T22:40:05.289357Z",
+      "queries": [
+        "Think in experiments"
+      ],
+      "candidates": [
+        {
+          "state": "license_metadata_pass",
+          "fileTitle": "File:An Experiment on a Bird in an Air Pump by Joseph Wright of Derby, 1768.jpg",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/An_Experiment_on_a_Bird_in_an_Air_Pump_by_Joseph_Wright_of_Derby%2C_1768.jpg/1280px-An_Experiment_on_a_Bird_in_an_Air_Pump_by_Joseph_Wright_of_Derby%2C_1768.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:An_Experiment_on_a_Bird_in_an_Air_Pump_by_Joseph_Wright_of_Derby,_1768.jpg",
+          "creator": "Joseph Wright of Derby",
+          "attribution": "Joseph Wright of Derby",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "image/jpeg",
+          "description": "",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
+          "visualCheck": {
+            "state": "relevant_candidate",
+            "confidence": "high",
+            "issues": [],
+            "explanation": "The image titled 'An Experiment on a Bird in an Air Pump' depicts a scientific experiment being conducted, which aligns well with the inspiration 'Think in experiments.' The inspiration highlights pragmatism and practical consequences of ideas, which fits the scene of an experiment that visually represents inquiry and practical investigation. There are no visible issues with provenance based on the file title and description."
+          }
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:A history of European thought in the nineteenth century (IA historyofeurope03merz).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/A_history_of_European_thought_in_the_nineteenth_century_%28IA_historyofeurope03merz%29.pdf/page1-500px-A_history_of_European_thought_in_the_nineteenth_century_%28IA_historyofeurope03merz%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:A_history_of_European_thought_in_the_nineteenth_century_(IA_historyofeurope03merz).pdf",
+          "creator": "Merz, John Theodore, 1840-1922",
+          "attribution": "Merz, John Theodore, 1840-1922",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "pt. I. Scientific thought, 2 v.--pt. II. Philosophical thought, 2 v \n 52  \n Subjects: Philosophy, Modern; Science",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
+          "visualCheck": {
+            "state": "not_checked",
+            "reason": "No API key or license metadata not approved"
+          }
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Bergson and the modern spirit; an essay in constructive thought (IA bergsonmodernspi00dods).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Bergson_and_the_modern_spirit%3B_an_essay_in_constructive_thought_%28IA_bergsonmodernspi00dods%29.pdf/page1-500px-Bergson_and_the_modern_spirit%3B_an_essay_in_constructive_thought_%28IA_bergsonmodernspi00dods%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Bergson_and_the_modern_spirit;_an_essay_in_constructive_thought_(IA_bergsonmodernspi00dods).pdf",
+          "creator": "Dodson, George Rowland, b. 1865",
+          "attribution": "Dodson, George Rowland, b. 1865",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Subjects: Bergson, Henri, 1859-1941",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
+          "visualCheck": {
+            "state": "not_checked",
+            "reason": "No API key or license metadata not approved"
+          }
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Experiments with plants (IA cu31924000616866).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Experiments_with_plants_%28IA_cu31924000616866%29.pdf/page1-500px-Experiments_with_plants_%28IA_cu31924000616866%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Experiments_with_plants_(IA_cu31924000616866).pdf",
+          "creator": "Osterhout, Winthrop John Van Leuven, 1871-",
+          "attribution": "Osterhout, Winthrop John Van Leuven, 1871-",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "The metadata below describe the original scanning. Follow the \"All Files: HTTP\" link in the \"View the book\" box to the left to find XML files that contain more metadata about the original images and the derived formats (OCR results, PDF etc.). See also the  What is the directory structure for the texts?  FAQ for information about file content and naming conventions. \n Contains bibliographies  \n Subjects: Botany",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Gandhi - The Story of My Experiments With Truth, vol. 1.pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Gandhi_-_The_Story_of_My_Experiments_With_Truth%2C_vol._1.pdf/page1-1280px-Gandhi_-_The_Story_of_My_Experiments_With_Truth%2C_vol._1.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Gandhi_-_The_Story_of_My_Experiments_With_Truth,_vol._1.pdf",
+          "creator": "Mahatma Gandhi    /    Mahadev Desai",
+          "attribution": "Mahatma Gandhi    /    Mahadev Desai",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "The Story of My Experiments with Truth , vol. 1, by M. K. Gandhi.",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Gilbert light experiments for boys (IA gilbertlightexpe00lynd).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Gilbert_light_experiments_for_boys_%28IA_gilbertlightexpe00lynd%29.pdf/page1-500px-Gilbert_light_experiments_for_boys_%28IA_gilbertlightexpe00lynd%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Gilbert_light_experiments_for_boys_(IA_gilbertlightexpe00lynd).pdf",
+          "creator": "Lynde, Carleton John, b. 1872 \n Gilbert, Alfred C. (Alfred Carlton), 1884-1961",
+          "attribution": "Lynde, Carleton John, b. 1872 \n Gilbert, Alfred C. (Alfred Carlton), 1884-1961",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Subjects: Light; Light; Scientific recreations",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:On the theory of the infinite in modern thought; two introductory studies (IA ontheoryofinfini00jourrich).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/On_the_theory_of_the_infinite_in_modern_thought%3B_two_introductory_studies_%28IA_ontheoryofinfini00jourrich%29.pdf/page1-500px-On_the_theory_of_the_infinite_in_modern_thought%3B_two_introductory_studies_%28IA_ontheoryofinfini00jourrich%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:On_the_theory_of_the_infinite_in_modern_thought;_two_introductory_studies_(IA_ontheoryofinfini00jourrich).pdf",
+          "creator": "Jourdain, Eleanor F. (Eleanor Frances), 1863-1924",
+          "attribution": "Jourdain, Eleanor F. (Eleanor Frances), 1863-1924",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "The problem of the finite and te infinite.--Pragmatism and a theory of knowledge\n \n Subjects: Infinite; Knowledge, Theory of; Pragmatism",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Summary report of the Nth Country Experiment.pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Summary_report_of_the_Nth_Country_Experiment.pdf/page1-960px-Summary_report_of_the_Nth_Country_Experiment.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Summary_report_of_the_Nth_Country_Experiment.pdf",
+          "creator": "Lawrence Livermore National Laboratory",
+          "attribution": "Lawrence Livermore National Laboratory",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Summary report of the Nth country experiment, a heavily redacted copy released in 2003.",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Talks to teachers on psychology- and to students on some of life's ideals (IA talkstoteacherso00jame).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Talks_to_teachers_on_psychology-_and_to_students_on_some_of_life%27s_ideals_%28IA_talkstoteacherso00jame%29.pdf/page1-500px-Talks_to_teachers_on_psychology-_and_to_students_on_some_of_life%27s_ideals_%28IA_talkstoteacherso00jame%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Talks_to_teachers_on_psychology-_and_to_students_on_some_of_life%27s_ideals_(IA_talkstoteacherso00jame).pdf",
+          "creator": "James, William, 1842-1910",
+          "attribution": "James, William, 1842-1910",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Subjects: Educational psychology",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Talks to teachers on psychology- and to students on some of life's ideals (IA talkstoteacherso01jame).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Talks_to_teachers_on_psychology-_and_to_students_on_some_of_life%27s_ideals_%28IA_talkstoteacherso01jame%29.pdf/page1-500px-Talks_to_teachers_on_psychology-_and_to_students_on_some_of_life%27s_ideals_%28IA_talkstoteacherso01jame%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Talks_to_teachers_on_psychology-_and_to_students_on_some_of_life%27s_ideals_(IA_talkstoteacherso01jame).pdf",
+          "creator": "James, William, 1842-1910",
+          "attribution": "James, William, 1842-1910",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Pages 303-304, advertisements\n \n Subjects: Educational psychology",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        }
+      ],
+      "errors": [],
+      "selected": null,
+      "state": "awaiting_visual_and_license_review"
     }
   }
 }
