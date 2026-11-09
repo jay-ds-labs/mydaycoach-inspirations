@@ -4,6 +4,11 @@ import urllib.parse
 import urllib.request
 
 API="https://en.wikipedia.org/w/api.php"
+PILOT_QUERIES={"curie-nobel":"Marie Curie Nobel Prize",
+    "everest-summit":"1953 British Mount Everest expedition Hillary Tenzing",
+    "wright-flight":"Wright brothers first powered flight 1903",
+    "mandela-release":"Release of Nelson Mandela 1990",
+    "apollo-11":"Apollo 11 mission 1969"}
 HEADERS={"User-Agent":"MyDayCoachEditorial/1.1 (research; github.com/jay-ds-labs/mydaycoach-inspirations)"}
 
 def get_json(url):
@@ -49,7 +54,7 @@ def discover(item,existing_source="",fetch=None):
             errors.append(error)
     title=item.get("title","")
     attribution=item.get("attribution","")
-    query=" ".join(x for x in (attribution,title) if x).strip() or item.get("body","")[:100]
+    query=PILOT_QUERIES.get(item.get("id")," ".join(x for x in (attribution,title) if x).strip() or item.get("body","")[:100])
     try:
         matches=wikipedia(query)
         if not matches and attribution:
