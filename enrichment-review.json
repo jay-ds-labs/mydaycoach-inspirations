@@ -1,3 +1,15 @@
 {
-  "items": {}
+  "items": {
+    "apollo-11": {
+      "state": "approved",
+      "checkedAt": "2026-11-09T01:20:06.464860Z",
+      "source": "https://www.nasa.gov/mission/apollo-11/",
+      "sourceAccessible": true,
+      "wordCount": 650,
+      "issues": [],
+      "factualRisk": "low",
+      "imageStatus": "requires_license_verification",
+      "publication": "held_for_editorial_approval"
+    }
+  }
 }
