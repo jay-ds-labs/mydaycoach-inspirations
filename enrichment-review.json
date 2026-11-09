@@ -69,17 +69,22 @@
       "publication": "held_for_editorial_and_image_approval"
     },
     "wright-flight": {
-      "state": "needs_review",
-      "checkedAt": "2026-11-09T01:46:35.521625Z",
-      "source": "https://airandspace.si.edu/",
-      "sourceAccessible": false,
-      "wordCount": 864,
-      "issues": [
-        "Source is a generic homepage, not evidence for this subject"
+      "state": "approved",
+      "checkedAt": "2026-11-09T01:55:26.558236Z",
+      "source": "https://www.si.edu/object/nasm_A19610048000",
+      "sourceAccessible": true,
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Wright_brothers"
       ],
-      "factualRisk": "high",
-      "publication": "held_for_editorial_approval",
-      "imageStatus": "not_checked"
+      "sourceCount": 1,
+      "wordCount": 771,
+      "reviewedTextMatchesSaved": true,
+      "originalSource": "https://airandspace.si.edu/",
+      "evidenceSource": "https://en.wikipedia.org/wiki/Wright_brothers",
+      "issues": [],
+      "factualRisk": "low",
+      "imageStatus": "awaiting_visual_and_license_review",
+      "publication": "held_for_editorial_and_image_approval"
     }
   }
 }
