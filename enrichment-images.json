@@ -1829,6 +1829,179 @@
       "errors": [],
       "selected": null,
       "state": "awaiting_visual_and_license_review"
+    },
+    "reflection-002": {
+      "checkedAt": "2026-11-09T22:35:24.559704Z",
+      "queries": [
+        "Respond, don't react"
+      ],
+      "candidates": [
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:AFTER PARIS AND COPENHAGEN- RESPONDING TO THE RISING TIDE OF ANTI-SEMITISM (IA gov.gpo.fdsys.CHRG-114hhrg93914).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/AFTER_PARIS_AND_COPENHAGEN-_RESPONDING_TO_THE_RISING_TIDE_OF_ANTI-SEMITISM_%28IA_gov.gpo.fdsys.CHRG-114hhrg93914%29.pdf/page1-960px-AFTER_PARIS_AND_COPENHAGEN-_RESPONDING_TO_THE_RISING_TIDE_OF_ANTI-SEMITISM_%28IA_gov.gpo.fdsys.CHRG-114hhrg93914%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:AFTER_PARIS_AND_COPENHAGEN-_RESPONDING_TO_THE_RISING_TIDE_OF_ANTI-SEMITISM_(IA_gov.gpo.fdsys.CHRG-114hhrg93914).pdf",
+          "creator": "Committee on Foreign Affairs",
+          "attribution": "Committee on Foreign Affairs",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Government Publishing Office   U.S. Congress House of Representatives Committee on Foreign Affairs   AFTER PARIS AND COPENHAGEN: RESPONDING TO THE RISING TIDE OF ANTI-SEMITISM  Date(s) Held: 2015-03-24   114th Congress, 1st Session  GPO Document Source:  https://www.gpo.gov/fdsys/pkg/CHRG-114hhrg93914/content-detail.html \" rel=\"nofollow\">CHRG-114hhrg93914  Superintendents of Documents ID: Y 4.IN 8/16  Witnesses:   The Honorable Ronald S. Lauder, president, World Jewish Congress  Mr. Roger Cukier",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
+          "visualCheck": {
+            "state": "not_checked",
+            "reason": "No API key or license metadata not approved"
+          }
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Aligning expectations- How to effectively write and respond to review comments - USACE-p16021coll2-3575.pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Aligning_expectations-_How_to_effectively_write_and_respond_to_review_comments_-_USACE-p16021coll2-3575.pdf/page1-960px-Aligning_expectations-_How_to_effectively_write_and_respond_to_review_comments_-_USACE-p16021coll2-3575.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Aligning_expectations-_How_to_effectively_write_and_respond_to_review_comments_-_USACE-p16021coll2-3575.pdf",
+          "creator": "United States. Army. Corps of Engineers. Planning Community of Practice",
+          "attribution": "United States. Army. Corps of Engineers. Planning Community of Practice",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
+          "visualCheck": {
+            "state": "not_checked",
+            "reason": "No API key or license metadata not approved"
+          }
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:COMBATING TERRORISM- PREPARING AND FUNDING FIRST RESPONDERS (IA gov.gpo.fdsys.CHRG-108hhrg92127).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/COMBATING_TERRORISM-_PREPARING_AND_FUNDING_FIRST_RESPONDERS_%28IA_gov.gpo.fdsys.CHRG-108hhrg92127%29.pdf/page1-960px-COMBATING_TERRORISM-_PREPARING_AND_FUNDING_FIRST_RESPONDERS_%28IA_gov.gpo.fdsys.CHRG-108hhrg92127%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:COMBATING_TERRORISM-_PREPARING_AND_FUNDING_FIRST_RESPONDERS_(IA_gov.gpo.fdsys.CHRG-108hhrg92127).pdf",
+          "creator": "Committee on Government Reform",
+          "attribution": "Committee on Government Reform",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Government Publishing Office   U.S. Congress House of Representatives Committee on Government Reform   COMBATING TERRORISM: PREPARING AND FUNDING FIRST RESPONDERS  Date(s) Held: 2003-09-09   108th Congress, 1st Session  GPO Document Source:  https://www.gpo.gov/fdsys/pkg/CHRG-108hhrg92127/content-detail.html \" rel=\"nofollow\">CHRG-108hhrg92127  Superintendents of Documents ID: Y 4.G 74/7  Related Items:   Congressional Serial No. 108-111  \n Subjects: 108th;House",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
+          "visualCheck": {
+            "state": "not_checked",
+            "reason": "No API key or license metadata not approved"
+          }
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:CONDUCT OF MONETARY POLICY (IA gov.gpo.fdsys.CHRG-107hhrg74156).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/CONDUCT_OF_MONETARY_POLICY_%28IA_gov.gpo.fdsys.CHRG-107hhrg74156%29.pdf/page1-960px-CONDUCT_OF_MONETARY_POLICY_%28IA_gov.gpo.fdsys.CHRG-107hhrg74156%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:CONDUCT_OF_MONETARY_POLICY_(IA_gov.gpo.fdsys.CHRG-107hhrg74156).pdf",
+          "creator": "Committee on Financial Services",
+          "attribution": "Committee on Financial Services",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Government Publishing Office   U.S. Congress House of Representatives Committee on Financial Services  CONDUCT OF MONETARY POLICY  Date(s) Held: 2001-07-18   107th Congress, 1st Session  GPO Document Source:  https://www.gpo.gov/fdsys/pkg/CHRG-107hhrg74156/content-detail.html \" rel=\"nofollow\">CHRG-107hhrg74156  Superintendents of Documents ID: Y 4.F 49/20  Witnesses:   Greenspan, Hon. Alan, Chairman, Board of Governors, Federal Reserve System   Related Items:   Congressional Serial No. 107-35  \n",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Effective integration through the use of social influence tactics- what the military can learn from racial integration of baseball in ending “don’t ask don’t tell” (IA effectiveintegra109456697).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Effective_integration_through_the_use_of_social_influence_tactics-_what_the_military_can_learn_from_racial_integration_of_baseball_in_ending_%E2%80%9Cdon%E2%80%99t_ask_don%E2%80%99t_tell%E2%80%9D_%28IA_effectiveintegra109456697%29.pdf/page1-960px-thumbnail.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Effective_integration_through_the_use_of_social_influence_tactics-_what_the_military_can_learn_from_racial_integration_of_baseball_in_ending_%E2%80%9Cdon%E2%80%99t_ask_don%E2%80%99t_tell%E2%80%9D_(IA_effectiveintegra109456697).pdf",
+          "creator": "Washington, Ernest O.",
+          "attribution": "Washington, Ernest O.",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Framing tactics are used to structure a situation in an attempt to establish a “favorable climate” for influence. Framing can be used to influence the military or society to make decisions that are in your best interest (i.e. Jackie Robinson’s allowance into major league baseball and the desegregation of the Armed Services) by structuring the issues at hand. The military may be faced with several options; however, introducing social influence tactics will alter his/her idea of what they believe ",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:H.R. , H.R. 3673, H.R. 4697, H.R. 4002, H.R. 4528, H. CON. RES. 348, H. CON. RES. 232, H. CON. RES. 297, H. CON. RES. 319, H. RES. 531, H. CON. RES. 322, AND S. CON. RES. 81 (IA gov.gpo.fdsys.CHRG-106hhrg68024).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/H.R._%2C_H.R._3673%2C_H.R._4697%2C_H.R._4002%2C_H.R._4528%2C_H._CON._RES._348%2C_H._CON._RES._232%2C_H._CON._RES._297%2C_H._CON._RES._319%2C_H._RES._531%2C_H._CON._RES._322%2C_AND_S._CON._RES._81_%28IA_gov.gpo.fdsys.CHRG-106hhrg68024%29.pdf/page1-960px-thumbnail.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:H.R._,_H.R._3673,_H.R._4697,_H.R._4002,_H.R._4528,_H._CON._RES._348,_H._CON._RES._232,_H._CON._RES._297,_H._CON._RES._319,_H._RES._531,_H._CON._RES._322,_AND_S._CON._RES._81_(IA_gov.gpo.fdsys.CHRG-106hhrg68024).pdf",
+          "creator": "Committee on International Relations",
+          "attribution": "Committee on International Relations",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Government Publishing Office   U.S. Congress House of Representatives Committee on International Relations  H.R.______, H.R. 3673, H.R. 4697, H.R. 4002, H.R. 4528, H. CON. RES. 348, H. CON. RES. 232, H. CON. RES. 297, H. CON. RES. 319, H. RES. 531, H. CON. RES. 322, AND S. CON. RES. 81  Date(s) Held: 2000-06-29   106th Congress, 2nd Session  GPO Document Source:  https://www.gpo.gov/fdsys/pkg/CHRG-106hhrg68024/content-detail.html \" rel=\"nofollow\">CHRG-106hhrg68024  Superintendents of Documents I",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:IT'S TIME TO REACT (IA gov.gpo.fdsys.CHRG-109hhrg25616).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/IT%27S_TIME_TO_REACT_%28IA_gov.gpo.fdsys.CHRG-109hhrg25616%29.pdf/page1-960px-IT%27S_TIME_TO_REACT_%28IA_gov.gpo.fdsys.CHRG-109hhrg25616%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:IT%27S_TIME_TO_REACT_(IA_gov.gpo.fdsys.CHRG-109hhrg25616).pdf",
+          "creator": "Committee on Government Reform",
+          "attribution": "Committee on Government Reform",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Government Publishing Office   U.S. Congress House of Representatives Committee on Government Reform   IT'S TIME TO REACT  Date(s) Held: 2005-09-27   109th Congress, 1st Session  GPO Document Source:  https://www.gpo.gov/fdsys/pkg/CHRG-109hhrg25616/content-detail.html \" rel=\"nofollow\">CHRG-109hhrg25616  Superintendents of Documents ID: Y 4.G 74/7  Related Items:    https://www.govtrack.us/congress/bills/109/hr3276 \" rel=\"nofollow\">United States House Bill 3276  (109th Congress)    https://www.go",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:PREVENTING AND RESPONDING TO ACTS OF TERRORISM- A REVIEW OF CURRENT LAW (IA gov.gpo.fdsys.CHRG-108shrg33418).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/PREVENTING_AND_RESPONDING_TO_ACTS_OF_TERRORISM-_A_REVIEW_OF_CURRENT_LAW_%28IA_gov.gpo.fdsys.CHRG-108shrg33418%29.pdf/page1-960px-PREVENTING_AND_RESPONDING_TO_ACTS_OF_TERRORISM-_A_REVIEW_OF_CURRENT_LAW_%28IA_gov.gpo.fdsys.CHRG-108shrg33418%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:PREVENTING_AND_RESPONDING_TO_ACTS_OF_TERRORISM-_A_REVIEW_OF_CURRENT_LAW_(IA_gov.gpo.fdsys.CHRG-108shrg33418).pdf",
+          "creator": "Committee on Judiciary",
+          "attribution": "Committee on Judiciary",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Government Publishing Office   U.S. Congress Senate Committee on Judiciary  PREVENTING AND RESPONDING TO ACTS OF TERRORISM: A REVIEW OF CURRENT LAW  Date(s) Held: 2004-04-14   108th Congress, 2nd Session  GPO Document Source:  https://www.gpo.gov/fdsys/pkg/CHRG-108shrg33418/content-detail.html \" rel=\"nofollow\">CHRG-108shrg33418  Superintendents of Documents ID: Y 4.J 89/2  Witnesses:   Benowitz, Nanette, President, League of Women Voters of Utah, Salt Lake City, Utah  Bradley, Scott N., Utah Eag",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:The Grapevine Autumn 2013 (IA GrapevineFall2013).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/The_Grapevine_Autumn_2013_%28IA_GrapevineFall2013%29.pdf/page1-960px-The_Grapevine_Autumn_2013_%28IA_GrapevineFall2013%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:The_Grapevine_Autumn_2013_(IA_GrapevineFall2013).pdf",
+          "creator": "U.S. Navy. Naval Hospital Okinawa",
+          "attribution": "U.S. Navy. Naval Hospital Okinawa",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Notes from the Captain’s Desk CMC: Integrity, professionalism & teamwork   XO’s Perspective: We fight how we train   Command OMBUDSMAN: Making Changes   Security Note: Eligibility requires continuous evaluation   Chaplain’s Corner: Character Development   JMSDF, USNHO team for Constant Vigilance   Halloween at USNH Okinawa   USNHO at the Kadena Special Olympics   (N)ICE Comments from our patients   Hispanic Heritage Month Celebration    Care for the USNHO Caregivers: Mental Health Department hos",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Trends in Navy officer attitudes toward the \"Don't Ask, Don't Tell\" policy (IA trendsinnavyoffi00frie).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Trends_in_Navy_officer_attitudes_toward_the_%22Don%27t_Ask%2C_Don%27t_Tell%22_policy_%28IA_trendsinnavyoffi00frie%29.pdf/page1-960px-Trends_in_Navy_officer_attitudes_toward_the_%22Don%27t_Ask%2C_Don%27t_Tell%22_policy_%28IA_trendsinnavyoffi00frie%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Trends_in_Navy_officer_attitudes_toward_the_%22Don%27t_Ask,_Don%27t_Tell%22_policy_(IA_trendsinnavyoffi00frie).pdf",
+          "creator": "Friery, Margaret R",
+          "attribution": "Friery, Margaret R",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Thesis advisors, Mark J. Eitelberg, Thedore R. Sarbin and Ralph Carney \n AD-A331 200 \n Thesis (M.S. in Management)--Naval Postgraduate School, March 1997 \n Includes bibliographical references (p. 113-115) \n The current policy concerning homosexuals and military service, commonly called \"Don't Ask, Don't Tell,\" has been in place since 1994. The policy states that \"homosexuality is incompatible with military service\" and draws a distinction between sexual conduct and sexual orientation. Sexual ori",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        }
+      ],
+      "errors": [],
+      "selected": null,
+      "state": "awaiting_visual_and_license_review"
     }
   }
 }

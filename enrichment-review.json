@@ -316,6 +316,41 @@
       "factualRisk": "low",
       "imageStatus": "awaiting_visual_and_license_review",
       "publication": "ready_for_publish"
+    },
+    "reflection-002": {
+      "state": "approved",
+      "checkedAt": "2026-11-09T22:35:24.559719Z",
+      "source": "https://plato.stanford.edu/entries/stoicism/",
+      "reviewAttempts": [
+        {
+          "attempt": 1,
+          "approved": false,
+          "issues": [
+            "Generated article length 463 outside 600-1100 words"
+          ]
+        },
+        {
+          "attempt": 2,
+          "approved": true,
+          "issues": []
+        }
+      ],
+      "attemptCount": 2,
+      "reviewFailureSummary": "",
+      "sourceAccessible": true,
+      "sourceUrls": [
+        "https://plato.stanford.edu/entries/stoicism/",
+        "https://en.wikipedia.org/wiki/Marlon_Brando"
+      ],
+      "sourceCount": 2,
+      "wordCount": 881,
+      "reviewedTextMatchesSaved": true,
+      "originalSource": "https://plato.stanford.edu/entries/stoicism/",
+      "evidenceSource": "https://plato.stanford.edu/entries/stoicism/",
+      "issues": [],
+      "factualRisk": "low",
+      "imageStatus": "awaiting_visual_and_license_review",
+      "publication": "ready_for_publish"
     }
   }
 }
