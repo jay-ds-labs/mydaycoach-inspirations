@@ -6195,6 +6195,179 @@
       "errors": [],
       "selected": null,
       "state": "awaiting_visual_and_license_review"
+    },
+    "reflection-028": {
+      "checkedAt": "2026-11-09T22:49:28.930155Z",
+      "queries": [
+        "Make room for uncertainty"
+      ],
+      "candidates": [
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:A soldier's trial; an episode of the canteen crusade (IA soldierstrial00kingrich).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/A_soldier%27s_trial%3B_an_episode_of_the_canteen_crusade_%28IA_soldierstrial00kingrich%29.pdf/page1-500px-A_soldier%27s_trial%3B_an_episode_of_the_canteen_crusade_%28IA_soldierstrial00kingrich%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:A_soldier%27s_trial;_an_episode_of_the_canteen_crusade_(IA_soldierstrial00kingrich).pdf",
+          "creator": "King, Charles, 1844-1933",
+          "attribution": "King, Charles, 1844-1933",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Subjects:",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
+          "visualCheck": {
+            "state": "not_checked",
+            "reason": "No API key or license metadata not approved"
+          }
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Around the world on a bicycle (IA cu31924023253093).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Around_the_world_on_a_bicycle_%28IA_cu31924023253093%29.pdf/page1-500px-Around_the_world_on_a_bicycle_%28IA_cu31924023253093%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Around_the_world_on_a_bicycle_(IA_cu31924023253093).pdf",
+          "creator": "Stevens, Thomas, 1855-",
+          "attribution": "Stevens, Thomas, 1855-",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "The metadata below describe the original scanning. Follow the \"All Files: HTTP\" link in the \"View the book\" box to the left to find XML files that contain more metadata about the original images and the derived formats (OCR results, PDF etc.). See also the  What is the directory structure for the texts?  FAQ for information about file content and naming conventions. \n Vol.1. From San Francisco to Teheran -- Vol.2. From Teheran to Yokohama  \n Subjects: Voyages around the world; Cycling",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
+          "visualCheck": {
+            "state": "not_checked",
+            "reason": "No API key or license metadata not approved"
+          }
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Bureau of Human Nutrition and Home Economics - what it is, what it does (IA CAT31335946).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Bureau_of_Human_Nutrition_and_Home_Economics_-_what_it_is%2C_what_it_does_%28IA_CAT31335946%29.pdf/page1-960px-Bureau_of_Human_Nutrition_and_Home_Economics_-_what_it_is%2C_what_it_does_%28IA_CAT31335946%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Bureau_of_Human_Nutrition_and_Home_Economics_-_what_it_is,_what_it_does_(IA_CAT31335946).pdf",
+          "creator": "Van Deman, Ruth, 1888-1948 \n United States. Department of Agriculture",
+          "attribution": "Van Deman, Ruth, 1888-1948 \n United States. Department of Agriculture",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "\"Issued by Bureau of Human Nutrition and Home Economics, Agricultural Research Administration, U.S. Dept. of Agriculture.\"\n \n Subjects: Home economics",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
+          "visualCheck": {
+            "state": "not_checked",
+            "reason": "No API key or license metadata not approved"
+          }
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Correspondence ?Hilgard (Eugene) to Engelmann (George), (IA mobot31753004078165).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Correspondence_%3FHilgard_%28Eugene%29_to_Engelmann_%28George%29%2C_%28IA_mobot31753004078165%29.pdf/page1-1280px-Correspondence_%3FHilgard_%28Eugene%29_to_Engelmann_%28George%29%2C_%28IA_mobot31753004078165%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Correspondence_%3FHilgard_(Eugene)_to_Engelmann_(George),_(IA_mobot31753004078165).pdf",
+          "creator": "Hilgard, Eugene W.",
+          "attribution": "Hilgard, Eugene W.",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Subjects: (Benjamin Franklin),; (Eugene Woldemar),; (Theodore Charles),; 1806-1889; 1807-1882; 1808-1864; 1809-1882; 1809-1884; 1820-1869; 1828-1875; 1833-1916; 1848-1895; Abies; Academy of Science of St. Louis; Aristolochia; Aristolochiaceae; Correspondence; Darwin, Charles,; Decaisne, Joseph,; Description and travel; Engelmann, George,; Europe; Hilgard, Eugene W; Hilgard, Theod. C; Juniperus; Labor; Lesquereux, Leo,; Letters; Magnolia; Magnoliaceae; Mississippi River Commission; Pinaceae; Pinu",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Design and uncertainty analysis for a PVTt gas flow standard (IA jresv108n1p21).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Design_and_uncertainty_analysis_for_a_PVTt_gas_flow_standard_%28IA_jresv108n1p21%29.pdf/page1-960px-Design_and_uncertainty_analysis_for_a_PVTt_gas_flow_standard_%28IA_jresv108n1p21%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Design_and_uncertainty_analysis_for_a_PVTt_gas_flow_standard_(IA_jresv108n1p21).pdf",
+          "creator": "Wright, J.D. \n Johnson, A.N. \n Moldover, M.R.",
+          "attribution": "Wright, J.D. \n Johnson, A.N. \n Moldover, M.R.",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Journal of Research of the National Institute of Standards and Technology\n \n Subjects:  inventory volume; correlated uncertainty;  gas flow standard;  sensor response;  uncertainty",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Dimensional analysis and the correspondence between classical and quantum uncertainty.pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Dimensional_analysis_and_the_correspondence_between_classical_and_quantum_uncertainty.pdf/page1-960px-Dimensional_analysis_and_the_correspondence_between_classical_and_quantum_uncertainty.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Dimensional_analysis_and_the_correspondence_between_classical_and_quantum_uncertainty.pdf",
+          "creator": "V Gattus, S Karamitsos",
+          "attribution": "V Gattus, S Karamitsos",
+          "license": "cc-by-4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+          "usageTerms": "Creative Commons Attribution 4.0",
+          "mime": "application/pdf",
+          "description": "Heisenberg’s uncertainty principle is often cited as an example of a ‘purely\n quantum’ relation with no analogue in the classical limit where � → 0. However, this formulation of the classical limit is problematic for many reasons,\none of which is dimensional analysis. Since � is a dimensionful constant, we\nmay always work in natural units in which � = 1. Dimensional analysis teaches\nus that all physical laws can be expressed purely in terms of dimensionless\nquantities. This indicates that the ex",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Displaying uncertainty a comparison between submarine subject matter experts (IA displayinguncert109453681).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Displaying_uncertainty_a_comparison_between_submarine_subject_matter_experts_%28IA_displayinguncert109453681%29.pdf/page1-960px-Displaying_uncertainty_a_comparison_between_submarine_subject_matter_experts_%28IA_displayinguncert109453681%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Displaying_uncertainty_a_comparison_between_submarine_subject_matter_experts_(IA_displayinguncert109453681).pdf",
+          "creator": "Prouty, James R.",
+          "attribution": "Prouty, James R.",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "This study investigates the operational implications of the differences between submarine Target Motion Analysis (TMA) experts. A submarineâ  s use of passive sonar provides uncertain data required to make certain decisions. This experiment presents four individual scenarios to three submarine TMA experts: Commanding/Executive Officers (CO/XO), Department Heads (DH), and Fire Control Technicians (FT). Ten individuals from each expert group volunteered from the Groton, CT, and Bangor, WA, submari",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:NORTH KOREA- LEVERAGING UNCERTAINTY? (IA gov.gpo.fdsys.CHRG-106hhrg65823).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/NORTH_KOREA-_LEVERAGING_UNCERTAINTY%3F_%28IA_gov.gpo.fdsys.CHRG-106hhrg65823%29.pdf/page1-960px-NORTH_KOREA-_LEVERAGING_UNCERTAINTY%3F_%28IA_gov.gpo.fdsys.CHRG-106hhrg65823%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:NORTH_KOREA-_LEVERAGING_UNCERTAINTY%3F_(IA_gov.gpo.fdsys.CHRG-106hhrg65823).pdf",
+          "creator": "Committee on International Relations",
+          "attribution": "Committee on International Relations",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Government Publishing Office   U.S. Congress House of Representatives Committee on International Relations  NORTH KOREA: LEVERAGING UNCERTAINTY?  Date(s) Held: 2000-03-16   106th Congress, 2nd Session  GPO Document Source:  https://www.gpo.gov/fdsys/pkg/CHRG-106hhrg65823/content-detail.html \" rel=\"nofollow\">CHRG-106hhrg65823  Superintendents of Documents ID: Y 4.IN 8/16  Witnesses:   Page The Honorable Wendy R. Sherman, Counselor, U.S. Department of State  The Honorable Douglas Paal, President, ",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:On the uncertainty of the signs of murder in the case of bastard children (IA b21956959).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/On_the_uncertainty_of_the_signs_of_murder_in_the_case_of_bastard_children_%28IA_b21956959%29.pdf/page1-500px-On_the_uncertainty_of_the_signs_of_murder_in_the_case_of_bastard_children_%28IA_b21956959%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:On_the_uncertainty_of_the_signs_of_murder_in_the_case_of_bastard_children_(IA_b21956959).pdf",
+          "creator": "Royal College of Physicians of Edinburgh",
+          "attribution": "Royal College of Physicians of Edinburgh",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Royal College of Physicians of Edinburgh\n \n Subjects: Infanticide",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:One-two-three-four; a nocturne (IA onetwothreefourn00hutc).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/One-two-three-four%3B_a_nocturne_%28IA_onetwothreefourn00hutc%29.pdf/page1-960px-One-two-three-four%3B_a_nocturne_%28IA_onetwothreefourn00hutc%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:One-two-three-four;_a_nocturne_(IA_onetwothreefourn00hutc).pdf",
+          "creator": "Hutchison, James Lafayette",
+          "attribution": "Hutchison, James Lafayette",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "3 p. l., 3-196 p. 21 cm\n \n Subjects:",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        }
+      ],
+      "errors": [],
+      "selected": null,
+      "state": "awaiting_visual_and_license_review"
     }
   }
 }
