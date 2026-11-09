@@ -181,10 +181,9 @@
       "state": "awaiting_visual_and_license_review"
     },
     "everest-summit": {
-      "checkedAt": "2026-11-09T02:05:41.703579Z",
+      "checkedAt": "2026-11-09T07:53:22.001646Z",
       "queries": [
-        "Edmund Hillary Tenzing Norgay Everest 1953",
-        "Tenzing Norgay Hillary summit"
+        "Teamwork at the summit"
       ],
       "candidates": [
         {
@@ -205,7 +204,7 @@
             "state": "relevant_candidate",
             "confidence": "high",
             "issues": [],
-            "explanation": "The file title and description state that the image depicts Tenzing Norgay and Edmund Hillary on May 29, 1953, after successfully completing the first ascent of Mount Everest. This matches the inspiration about teamwork at the summit during their historic expedition, making the image highly relevant."
+            "explanation": "The image title and description directly align with the inspiration story about Edmund Hillary and Tenzing Norgay reaching the summit of Mount Everest on May 29, 1953. The photo shows two climbers who match the description of the historic ascent, making the image highly relevant."
           }
         },
         {
@@ -223,10 +222,13 @@
           "requiresVisualReview": true,
           "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
           "visualCheck": {
-            "state": "relevant_candidate",
-            "confidence": "high",
-            "issues": [],
-            "explanation": "The file title 'Tenzing and Hillary (cropped).jpg' and the description indicating these are the subjects associated with the historic climb strongly suggest that this image is of Edmund Hillary and Tenzing Norgay, fitting the inspiration about their teamwork. The image context and subjects align well with the story of their 1953 Everest summit. There is no contradictory information provided, so the provenance is reasonably certain."
+            "state": "needs_visual_review",
+            "confidence": "medium",
+            "issues": [
+              "Identity of individuals cannot be visually confirmed",
+              "Provenance of the photo is from an external collection, not explicitly verified as from the 1953 Everest expedition"
+            ],
+            "explanation": "The file title and description identify the photo as 'Tenzing and Hillary,' which directly relates to the inspiration about Edmund Hillary and Tenzing Norgay's Everest expedition. The image depicts two men dressed in mountaineering gear, consistent with the context of a high-altitude climb. However, the provenance of the image is from the collection of John Henderson and there is no direct visual confirmation or explicit date provided, making certainty lower. Given this, relevance is high based on textual metadata but confidence is medium due to provenance uncertainty and lack of direct visual verification."
           }
         },
         {
@@ -244,10 +246,12 @@
           "requiresVisualReview": true,
           "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
           "visualCheck": {
-            "state": "relevant_candidate",
-            "confidence": "high",
-            "issues": [],
-            "explanation": "The file title 'Tenzing and Hillary.jpg' and the description identifying the individuals as Tenzing and Hillary strongly indicate the image features the two key figures associated with the May 29, 1953 Mount Everest summit expedition. The black and white style and the mountainous snowy background align with the historical context of Everest. Therefore, the image is highly relevant to the inspiration about their teamwork at the summit."
+            "state": "needs_visual_review",
+            "confidence": "medium",
+            "issues": [
+              "Uncertain provenance"
+            ],
+            "explanation": "The file title and description indicate the subjects are Tenzing and Hillary, which aligns with the inspiration about Edmund Hillary and Tenzing Norgay reaching the summit of Mount Everest. The image shows two climbers in high-altitude gear with a snowy mountain background, consistent with the context. However, the photo's provenance is not independently verified, and no explicit confirmation it was taken at the Everest summit on May 29, 1953, is provided, resulting in medium confidence."
           }
         },
         {

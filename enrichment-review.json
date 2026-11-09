@@ -44,27 +44,20 @@
       "publication": "held_for_editorial_and_image_approval"
     },
     "everest-summit": {
-      "state": "needs_review",
-      "checkedAt": "2026-11-09T01:55:13.509321Z",
+      "state": "approved",
+      "checkedAt": "2026-11-09T07:53:22.001673Z",
       "source": "https://nzhistory.govt.nz/edmund-hillary-and-tensing-norgay-reach-summit-of-everest",
       "sourceAccessible": true,
       "sourceUrls": [
-        "https://en.wikipedia.org/wiki/Tenzing_Norgay"
+        "https://en.wikipedia.org/wiki/1953_British_Mount_Everest_expedition"
       ],
       "sourceCount": 1,
-      "wordCount": 759,
+      "wordCount": 693,
       "reviewedTextMatchesSaved": true,
       "originalSource": "https://www.rgs.org/",
-      "evidenceSource": "https://en.wikipedia.org/wiki/Tenzing_Norgay",
-      "issues": [
-        "Source evidence is partial; the linked RGS source is inaccessible and not provided in detail.",
-        "The article includes extended narrative, motivations, and details about teamwork and background preparation that go beyond the supplied evidence.",
-        "Some factual statements about logistical details, backgrounds, interpersonal dynamics, and the specific composition and actions of the team are not directly supported by the evidence provided.",
-        "Claims regarding Hillary’s background, personality, and training are asserted but lack direct citation in the supplied evidence.",
-        "Assertions about Norgay's role as advisor or decision-maker in perilous conditions are narrative flourishes beyond direct evidence presented.",
-        "Generalizations about the recognition of Sherpa achievements and their historical context are not supported by the evidence provided."
-      ],
-      "factualRisk": "medium",
+      "evidenceSource": "https://en.wikipedia.org/wiki/1953_British_Mount_Everest_expedition",
+      "issues": [],
+      "factualRisk": "low",
       "imageStatus": "awaiting_visual_and_license_review",
       "publication": "held_for_editorial_and_image_approval"
     },
