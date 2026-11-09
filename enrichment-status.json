@@ -1,6 +1,6 @@
 {
   "state": "running",
-  "stage": "image_audit",
+  "stage": "research",
   "completed": 7,
   "total": 70,
   "batchTotal": 20,
@@ -11,6 +11,6 @@
   "needsReview": 1,
   "startedAt": "2026-11-09T22:31:47.491229Z",
   "completedAt": null,
-  "currentId": "turing-computing",
+  "currentId": "james-webb",
   "error": null
 }
