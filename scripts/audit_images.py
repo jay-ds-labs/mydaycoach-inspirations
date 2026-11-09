@@ -188,7 +188,7 @@ def main():
     images,report=audit(items,images)
     for item in items:
         reviews["items"][item["id"]]["imageStatus"]="awaiting_visual_and_license_review"
-        reviews["items"][item["id"]]["publication"]="held_for_editorial_and_image_approval"
+        reviews["items"][item["id"]]["publication"]="ready_for_publish" if item.get("status")=="ready_for_publish" else "blocked_incomplete_article"
     from publication_gate import assess
     gate=assess(feed,reviews,images)
     report["publicationReady"]=gate["ready"]
