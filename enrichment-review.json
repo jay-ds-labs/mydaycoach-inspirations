@@ -67,14 +67,15 @@
     },
     "wright-flight": {
       "state": "needs_review",
-      "checkedAt": "2026-11-09T01:32:14.761480Z",
+      "checkedAt": "2026-11-09T01:37:03.915693Z",
       "source": "https://airandspace.si.edu/",
       "sourceAccessible": true,
-      "wordCount": 684,
+      "wordCount": 864,
+      "reviewedTextMatchesSaved": true,
       "originalSource": "https://airandspace.si.edu/",
       "evidenceSource": "https://airandspace.si.edu/",
       "issues": [
-        "Article length 202 outside 600-1100 words"
+        "Article length 201 outside 600-1100 words"
       ],
       "factualRisk": "medium",
       "imageStatus": "requires_license_verification",
