@@ -351,6 +351,50 @@
       "factualRisk": "low",
       "imageStatus": "awaiting_visual_and_license_review",
       "publication": "ready_for_publish"
+    },
+    "reflection-003": {
+      "state": "approved",
+      "checkedAt": "2026-11-09T22:36:08.319446Z",
+      "source": "https://plato.stanford.edu/entries/stoicism/",
+      "reviewAttempts": [
+        {
+          "attempt": 1,
+          "approved": false,
+          "issues": [
+            "Central claim that Stoicism teaches it is not events but interpretations that create suffering is supported in general terms but not directly quoted or traced from early sources in the supplied SEP entry",
+            "Description of Zeno as a 'shipwrecked merchant' is not supported by the provided evidence",
+            "Several references to the personal histories and motives of Stoics (e.g., Zeno's biography, the process of doctrine development, descriptions of debates and personal experiences) lack specific citation or support in the SEP entry"
+          ]
+        },
+        {
+          "attempt": 2,
+          "approved": false,
+          "issues": [
+            "Generated article length 431 outside 600-1100 words"
+          ]
+        },
+        {
+          "attempt": 3,
+          "approved": true,
+          "issues": []
+        }
+      ],
+      "attemptCount": 3,
+      "reviewFailureSummary": "",
+      "sourceAccessible": true,
+      "sourceUrls": [
+        "https://plato.stanford.edu/entries/stoicism/",
+        "https://en.wikipedia.org/wiki/Citizen_Kane"
+      ],
+      "sourceCount": 2,
+      "wordCount": 730,
+      "reviewedTextMatchesSaved": true,
+      "originalSource": "https://plato.stanford.edu/entries/stoicism/",
+      "evidenceSource": "https://plato.stanford.edu/entries/stoicism/",
+      "issues": [],
+      "factualRisk": "low",
+      "imageStatus": "awaiting_visual_and_license_review",
+      "publication": "ready_for_publish"
     }
   }
 }

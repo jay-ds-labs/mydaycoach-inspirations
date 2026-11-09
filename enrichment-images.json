@@ -2002,6 +2002,149 @@
       "errors": [],
       "selected": null,
       "state": "awaiting_visual_and_license_review"
+    },
+    "reflection-003": {
+      "checkedAt": "2026-11-09T22:36:08.319430Z",
+      "queries": [
+        "Examine your assumptions"
+      ],
+      "candidates": [
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Examiner, Journal of Political Economy, v2n09.djvu",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Examiner%2C_Journal_of_Political_Economy%2C_v2n09.djvu/page1-1280px-Examiner%2C_Journal_of_Political_Economy%2C_v2n09.djvu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Examiner,_Journal_of_Political_Economy,_v2n09.djvu",
+          "creator": "Condy Raguet (editor)",
+          "attribution": "Condy Raguet (editor)",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "image/vnd.djvu",
+          "description": "The Examiner, and Journal of Political Economy: devoted to the advancement of the cause of state rights and free trade .  Volume 2, Number 9.",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
+          "visualCheck": {
+            "state": "not_checked",
+            "reason": "No API key or license metadata not approved"
+          }
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Shut your mouth (IA b21975395).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Shut_your_mouth_%28IA_b21975395%29.pdf/page1-500px-Shut_your_mouth_%28IA_b21975395%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Shut_your_mouth_(IA_b21975395).pdf",
+          "creator": "Catlin, George, 1796-1872 \n Royal College of Physicians of Edinburgh",
+          "attribution": "Catlin, George, 1796-1872 \n Royal College of Physicians of Edinburgh",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "This material has been provided by the Royal College of Physicians of Edinburgh. The original may be consulted at the Royal College of Physicians of Edinburgh \n Royal College of Physicians of Edinburgh  \n Subjects: Sleep; Mouth Breathing",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
+          "visualCheck": {
+            "state": "not_checked",
+            "reason": "No API key or license metadata not approved"
+          }
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Shut your mouth (IA b28114383).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Shut_your_mouth_%28IA_b28114383%29.pdf/page1-960px-Shut_your_mouth_%28IA_b28114383%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Shut_your_mouth_(IA_b28114383).pdf",
+          "creator": "Catlin, George, 1796-1872",
+          "attribution": "Catlin, George, 1796-1872",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Subjects: Mouth Breathing",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
+          "visualCheck": {
+            "state": "not_checked",
+            "reason": "No API key or license metadata not approved"
+          }
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Shut your mouth - and save your life (IA b2491793x).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Shut_your_mouth_-_and_save_your_life_%28IA_b2491793x%29.pdf/page1-500px-Shut_your_mouth_-_and_save_your_life_%28IA_b2491793x%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Shut_your_mouth_-_and_save_your_life_(IA_b2491793x).pdf",
+          "creator": "University of Glasgow. Library",
+          "attribution": "University of Glasgow. Library",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "This material has been provided by The University of Glasgow Library. The original may be consulted at The University of Glasgow Library\n \n Subjects: Sleep",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Shut your mouth and save your life (IA b28114425).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Shut_your_mouth_and_save_your_life_%28IA_b28114425%29.pdf/page1-960px-Shut_your_mouth_and_save_your_life_%28IA_b28114425%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Shut_your_mouth_and_save_your_life_(IA_b28114425).pdf",
+          "creator": "Catlin, George, 1796-1872",
+          "attribution": "Catlin, George, 1796-1872",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Subjects: Sleep",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Shut your mouth and save your life (IA b28114450).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Shut_your_mouth_and_save_your_life_%28IA_b28114450%29.pdf/page1-960px-Shut_your_mouth_and_save_your_life_%28IA_b28114450%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Shut_your_mouth_and_save_your_life_(IA_b28114450).pdf",
+          "creator": "Catlin, George, 1796-1872",
+          "attribution": "Catlin, George, 1796-1872",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Subjects: Sleep",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:The false assumptions of \"democracy\" (IA falseassumptions00ludo).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/The_false_assumptions_of_%22democracy%22_%28IA_falseassumptions00ludo%29.pdf/page1-500px-The_false_assumptions_of_%22democracy%22_%28IA_falseassumptions00ludo%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:The_false_assumptions_of_%22democracy%22_(IA_falseassumptions00ludo).pdf",
+          "creator": "Ludovici, Anthony Mario, 1882-",
+          "attribution": "Ludovici, Anthony Mario, 1882-",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Subjects: Social problems; Democracy; Great Britain -- Social conditions",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Australian fairy circles regenerate following model assumptions on ecohydrological feedbacks.pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Australian_fairy_circles_regenerate_following_model_assumptions_on_ecohydrological_feedbacks.pdf/page1-960px-Australian_fairy_circles_regenerate_following_model_assumptions_on_ecohydrological_feedbacks.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Australian_fairy_circles_regenerate_following_model_assumptions_on_ecohydrological_feedbacks.pdf",
+          "creator": "Stephan Getzin, Todd E. Erickson, Hezi Yizhaq, Miriam Muñoz‐Rojas, Andreas Huth, Kerstin Wiegand",
+          "attribution": "Stephan Getzin, Todd E. Erickson, Hezi Yizhaq, Miriam Muñoz‐Rojas, Andreas Huth, Kerstin Wiegand",
+          "license": "cc-by-4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+          "usageTerms": "Creative Commons Attribution 4.0",
+          "mime": "application/pdf",
+          "description": "So‐called fairy circles (FCs) comprise a spatially periodic gap pattern in arid grasslands of Namibia and north‐west Western Australia. This pattern has been explained with scale‐dependent ecohydrological feedbacks and the reaction‐diffusion, or Turing mechanism, used in process‐based models that are rooted in physics and pattern‐formation theory. However, a detailed ecological test of the validity of the modelled processes is still lacking.\n    Here, we test in a spinifex‐grassland ecosystem of",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        }
+      ],
+      "errors": [],
+      "selected": null,
+      "state": "awaiting_visual_and_license_review"
     }
   }
 }
