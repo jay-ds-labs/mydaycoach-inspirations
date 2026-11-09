@@ -21,7 +21,7 @@ ALLOWED={"cc0","public-domain","public domain","pd","cc-by-4.0","cc-by-sa-4.0",
 QUERIES={
     "apollo-11":["Apollo 11 Buzz Aldrin lunar surface NASA","Apollo 11 moon landing NASA"],
     "curie-nobel":["Marie Curie portrait photograph","Marie Skłodowska Curie"],
-    "mandela-release":["Nelson Mandela released prison 1990 photograph","Nelson Mandela portrait"],
+    "mandela-release":["Nelson Mandela 1990 Wikimedia Commons","Nelson Mandela June 1990 European Parliament","Nelson Mandela portrait"],
     "everest-summit":["Edmund Hillary Tenzing Norgay Everest 1953","Tenzing Norgay Hillary summit"],
     "wright-flight":["Wright brothers first flight 1903 Kitty Hawk photograph","Wright Flyer 1903"],
 }
@@ -111,6 +111,16 @@ def subject_queries(item):
 
 def candidates(item):
     found={};errors=[]
+    # Specific documented photograph, not an unrelated City Hall building.
+    if item.get("id")=="mandela-release":
+        try:
+            for page in query_api({"action":"query","titles":"File:Niall Andrews and Nelson Mandela, June 1990.jpg",
+                "prop":"imageinfo","iiprop":"url|mime|extmetadata","iiurlwidth":1200}).get("query",{}).get("pages",[]):
+                candidate=verify(page)
+                if candidate["fileTitle"] and candidate["imageUrl"]:
+                    found[candidate["fileTitle"]]=candidate
+        except Exception as exc:
+            errors.append("Mandela curated Commons lookup: "+str(exc)[:180])
     for query in subject_queries(item):
         try:
             for page in search(query):
