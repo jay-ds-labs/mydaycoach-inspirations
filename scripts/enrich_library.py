@@ -101,6 +101,8 @@ def compose(item,source,feedback=""):
         "dates, dramatic dialogue, motives, or fabricated events. "
         "For philosophy distinguish interpretation from historical fact. "
         "For quotes use verbatim quotation only if the evidence supports it. "
+        "Prefer directly evidenced chronology to invented inner thoughts, motivations, or dialogue. "
+        "If earlier review identified unsupported assertions, remove them rather than paraphrasing them. "
         "Do not mention editorial process. Return JSON only. "+
         ("Revise to address: "+feedback if feedback else ""),MODEL)
 
@@ -184,9 +186,7 @@ def main():
             saved_detail=item.get("detail","")
             saved_words=len(saved_detail.split())
             exact_review=bool(best_detail) and saved_detail==best_detail
-            approved=bool(best_result) and exact_review and not best_issues and (
-                bool(best_result.get("approved")) or (
-                    best_result.get("factual_risk")=="low" and not best_result.get("issues")))
+            approved=bool(best_result) and exact_review and not best_issues and best_result.get("approved") is True
             state="approved" if approved and records and MIN_WORDS<=saved_words<=MAX_WORDS else "needs_review"
             if state!="approved":
                 issues=(best_issues or issues or ["No approved review of the saved article"])
