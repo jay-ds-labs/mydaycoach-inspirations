@@ -2474,6 +2474,54 @@
       "factualRisk": "high",
       "imageStatus": "awaiting_visual_and_license_review",
       "publication": "ready_for_publish"
+    },
+    "generated-1bb6df6f67924b09b6bd": {
+      "state": "review_failed",
+      "checkedAt": "2026-11-09T23:02:27.041847Z",
+      "source": "https://encyclopedia.ushmm.org/content/en/article/janusz-korczak",
+      "reviewAttempts": [
+        {
+          "attempt": 1,
+          "approved": false,
+          "issues": [
+            "Generation/review error: HTTP Error 503: Service Unavailable"
+          ]
+        },
+        {
+          "attempt": 2,
+          "approved": false,
+          "issues": [
+            "Source evidence does not mention Janusz Korczak or his secret schools in the Warsaw Ghetto.",
+            "No direct support for claims about Korczak's activities, philosophy, or quotations from survivor accounts or his writings.",
+            "Details about the secret education, teaching methods, and ethical stances attributed to Korczak are not corroborated by the given evidence."
+          ]
+        },
+        {
+          "attempt": 3,
+          "approved": false,
+          "issues": [
+            "Generated article length 211 outside 600-1100 words"
+          ]
+        }
+      ],
+      "attemptCount": 3,
+      "reviewFailureSummary": "Article not yet approved by reviewer; Saved text has not passed a matching editorial review",
+      "sourceAccessible": true,
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Jewish_Ghetto_Police_in_Warsaw_Ghetto"
+      ],
+      "sourceCount": 1,
+      "wordCount": 763,
+      "reviewedTextMatchesSaved": false,
+      "originalSource": "https://encyclopedia.ushmm.org/content/en/article/janusz-korczak",
+      "evidenceSource": "https://en.wikipedia.org/wiki/Jewish_Ghetto_Police_in_Warsaw_Ghetto",
+      "issues": [
+        "Article not yet approved by reviewer",
+        "Saved text has not passed a matching editorial review"
+      ],
+      "factualRisk": "high",
+      "imageStatus": "awaiting_visual_and_license_review",
+      "publication": "ready_for_publish"
     }
   }
 }
