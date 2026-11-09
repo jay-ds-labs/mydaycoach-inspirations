@@ -6,6 +6,13 @@
       "candidates": [],
       "selected": null,
       "state": "awaiting_visual_and_license_review"
+    },
+    "everest-summit": {
+      "checkedAt": "2026-11-09T01:55:13.509303Z",
+      "query": "Royal Geographical Society",
+      "candidates": [],
+      "selected": null,
+      "state": "awaiting_visual_and_license_review"
     }
   }
 }
