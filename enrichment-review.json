@@ -1032,6 +1032,57 @@
       "factualRisk": "low",
       "imageStatus": "awaiting_visual_and_license_review",
       "publication": "ready_for_publish"
+    },
+    "reflection-022": {
+      "state": "review_failed",
+      "checkedAt": "2026-11-09T22:46:48.149647Z",
+      "source": "https://plato.stanford.edu/entries/justice/",
+      "reviewAttempts": [
+        {
+          "attempt": 1,
+          "approved": false,
+          "issues": [
+            "The article includes multiple specific historical claims (e.g., medieval and early modern Europe legal procedures, Aristotle's distinctions) and several quoted sentences or paraphrases attributed to the Stanford Encyclopedia of Philosophy that are only partially supported or not directly evidenced i",
+            "Details regarding the move toward procedural fairness in medieval and early modern Europe and its historical context are asserted without direct citation or clear evidence from the supplied Stanford source.",
+            "Some quotations and paraphrased claims (e.g., 'we apply it to individual actions, to laws, to public policies, and to social structures,' and discussions of Rawls) are only partially reflected in the provided Stanford material and may stray into interpretive or synthetic territory not strictly warra"
+          ]
+        },
+        {
+          "attempt": 2,
+          "approved": false,
+          "issues": [
+            "Generated article length 597 outside 600-1100 words"
+          ]
+        },
+        {
+          "attempt": 3,
+          "approved": false,
+          "issues": [
+            "Article incorporates philosophical claims, summaries, and paraphrasing not directly and explicitly supported by the cited source.",
+            "Several quotations and paraphrased statements are attributed to the Stanford Encyclopedia of Philosophy (SEP) or Rawls but do not appear verbatim in the provided evidence.",
+            "References to research in moral psychology and historical analysis are introduced without citation or evident support in the SEP source."
+          ]
+        }
+      ],
+      "attemptCount": 3,
+      "reviewFailureSummary": "Article not yet approved by reviewer; Saved text has not passed a matching editorial review",
+      "sourceAccessible": true,
+      "sourceUrls": [
+        "https://plato.stanford.edu/entries/justice/",
+        "https://en.wikipedia.org/wiki/Kurt_Cobain"
+      ],
+      "sourceCount": 2,
+      "wordCount": 768,
+      "reviewedTextMatchesSaved": false,
+      "originalSource": "https://plato.stanford.edu/entries/justice/",
+      "evidenceSource": "https://plato.stanford.edu/entries/justice/",
+      "issues": [
+        "Article not yet approved by reviewer",
+        "Saved text has not passed a matching editorial review"
+      ],
+      "factualRisk": "high",
+      "imageStatus": "awaiting_visual_and_license_review",
+      "publication": "ready_for_publish"
     }
   }
 }

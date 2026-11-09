@@ -5185,6 +5185,188 @@
       "errors": [],
       "selected": null,
       "state": "awaiting_visual_and_license_review"
+    },
+    "reflection-022": {
+      "checkedAt": "2026-11-09T22:46:48.149628Z",
+      "queries": [
+        "Practice fairness"
+      ],
+      "candidates": [
+        {
+          "state": "license_metadata_pass",
+          "fileTitle": "File:Digital Fairness Act James Tamim 1.jpg",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Digital_Fairness_Act_James_Tamim_1.jpg/1280px-Digital_Fairness_Act_James_Tamim_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Digital_Fairness_Act_James_Tamim_1.jpg",
+          "creator": "James Tamim",
+          "attribution": "James Tamim",
+          "license": "cc-by-4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+          "usageTerms": "Creative Commons Attribution 4.0",
+          "mime": "image/jpeg",
+          "description": "Photograph of a printed mock-up cover page for the Digital Fairness Act (DFA) — a proposed piece of European Union legislation aimed at strengthening digital fairness, consumer protection and transparency in the Single Market. The layout mimics the official style of EU legislative acts. Under the bold title “Digital Fairness Act” the mock-up cites the Acts of the European Parliament and of the Council, amending Directives 2005/29/EC, 2011/83/EU and 93/13/EEC (Unfair Commercial Practices Directiv",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
+          "visualCheck": {
+            "state": "relevant_candidate",
+            "confidence": "high",
+            "issues": [
+              "The image is a mock-up of a legislative document and not the actual finalized act.",
+              "The legislation is focused on digital fairness, which is a specific application of fairness related to consumer protection in the digital market, not the broader philosophical concept of fairness."
+            ],
+            "explanation": "The image depicts a mock-up cover page for the Digital Fairness Act, a proposed EU legislation focused on digital fairness and consumer protection. The inspiration relates to the philosophical concept of 'Practice fairness' defined as evaluating comparable cases by comparable standards. Although the Digital Fairness Act specifically targets fairness in the digital single market, it is closely related to the broader principle of fairness as it seeks to ensure equitable treatment and transparency. The provenance is reasonably certain given the description, but it is a mock-up and not necessarily the final document. Overall, the image is highly relevant to the inspiration's theme of fairness."
+          }
+        },
+        {
+          "state": "license_metadata_pass",
+          "fileTitle": "File:Digital Fairness Act James Tamim 2.jpg",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Digital_Fairness_Act_James_Tamim_2.jpg/1280px-Digital_Fairness_Act_James_Tamim_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Digital_Fairness_Act_James_Tamim_2.jpg",
+          "creator": "James Tamim",
+          "attribution": "James Tamim",
+          "license": "cc-by-4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+          "usageTerms": "Creative Commons Attribution 4.0",
+          "mime": "image/jpeg",
+          "description": "Photograph of a printed mock-up cover page for the Digital Fairness Act (DFA) — a proposed piece of European Union legislation aimed at strengthening digital fairness, consumer protection and transparency in the Single Market. The layout mimics the official style of EU legislative acts. Under the bold title “Digital Fairness Act” the mock-up cites the Acts of the European Parliament and of the Council, amending Directives 2005/29/EC, 2011/83/EU and 93/13/EEC (Unfair Commercial Practices Directiv",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
+          "visualCheck": {
+            "state": "relevant_candidate",
+            "confidence": "high",
+            "issues": [],
+            "explanation": "The image shows a mock-up cover page for the Digital Fairness Act, a legislative proposal focused on digital fairness, consumer protection, and transparency within the EU Single Market. This aligns closely with the inspiration's theme of 'Practice fairness,' which involves evaluating cases by comparable standards, especially within legal and regulatory contexts."
+          }
+        },
+        {
+          "state": "license_metadata_pass",
+          "fileTitle": "File:Digital Fairness Act James Tamim 3.jpg",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Digital_Fairness_Act_James_Tamim_3.jpg/1280px-Digital_Fairness_Act_James_Tamim_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Digital_Fairness_Act_James_Tamim_3.jpg",
+          "creator": "James Tamim",
+          "attribution": "James Tamim",
+          "license": "cc-by-4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+          "usageTerms": "Creative Commons Attribution 4.0",
+          "mime": "image/jpeg",
+          "description": "Photograph of a printed mock-up cover page for the Digital Fairness Act (DFA) — a proposed piece of European Union legislation aimed at strengthening digital fairness, consumer protection and transparency in the Single Market. The layout mimics the official style of EU legislative acts. Under the bold title “Digital Fairness Act” the mock-up cites the Acts of the European Parliament and of the Council, amending Directives 2005/29/EC, 2011/83/EU and 93/13/EEC (Unfair Commercial Practices Directiv",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
+          "visualCheck": {
+            "state": "relevant_candidate",
+            "confidence": "high",
+            "issues": [],
+            "explanation": "The image shows a mock-up cover page for the Digital Fairness Act, a proposed EU legislation aimed at strengthening digital fairness and consumer protection. The inspiration mentions 'Practice fairness' focusing on evaluating comparable cases by comparable standards, which aligns well with the principle behind such legislation. The document directly relates to the concept of fairness in a formal, legal context."
+          }
+        },
+        {
+          "state": "license_metadata_pass",
+          "fileTitle": "File:Digital Fairness Act James Tamim 4.jpg",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Digital_Fairness_Act_James_Tamim_4.jpg/1280px-Digital_Fairness_Act_James_Tamim_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Digital_Fairness_Act_James_Tamim_4.jpg",
+          "creator": "James Tamim",
+          "attribution": "James Tamim",
+          "license": "cc-by-4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+          "usageTerms": "Creative Commons Attribution 4.0",
+          "mime": "image/jpeg",
+          "description": "Photograph of a printed mock-up cover page for the Digital Fairness Act (DFA) — a proposed piece of European Union legislation aimed at strengthening digital fairness, consumer protection and transparency in the Single Market. The layout mimics the official style of EU legislative acts. Under the bold title “Digital Fairness Act” the mock-up cites the Acts of the European Parliament and of the Council, amending Directives 2005/29/EC, 2011/83/EU and 93/13/EEC (Unfair Commercial Practices Directiv",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "license_metadata_pass",
+          "fileTitle": "File:Digital Fairness Act James Tamim 5.jpg",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Digital_Fairness_Act_James_Tamim_5.jpg/1280px-Digital_Fairness_Act_James_Tamim_5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Digital_Fairness_Act_James_Tamim_5.jpg",
+          "creator": "James Tamim",
+          "attribution": "James Tamim",
+          "license": "cc-by-4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+          "usageTerms": "Creative Commons Attribution 4.0",
+          "mime": "image/jpeg",
+          "description": "Photograph of a printed mock-up cover page for the Digital Fairness Act (DFA) — a proposed piece of European Union legislation aimed at strengthening digital fairness, consumer protection and transparency in the Single Market. The layout mimics the official style of EU legislative acts. Under the bold title “Digital Fairness Act” the mock-up cites the Acts of the European Parliament and of the Council, amending Directives 2005/29/EC, 2011/83/EU and 93/13/EEC (Unfair Commercial Practices Directiv",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "license_metadata_pass",
+          "fileTitle": "File:Nurse Practice Council skills fair at LRMC (8718164).jpg",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Nurse_Practice_Council_skills_fair_at_LRMC_%288718164%29.jpg/1280px-Nurse_Practice_Council_skills_fair_at_LRMC_%288718164%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Nurse_Practice_Council_skills_fair_at_LRMC_(8718164).jpg",
+          "creator": "Travis Jones",
+          "attribution": "Travis Jones",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "image/jpeg",
+          "description": "U.S. Army service members and staff assigned to Landstuhl Regional Medical Center participated in a Nurse Practice Council skills fair in Landstuhl, Germany, on Oct. 21, 2024. The event provided a valuable opportunity for medical professionals to enhance their skills through hands-on workshops and collaborative training sessions. With a focus on best practices and innovative techniques, the fair aimed to ensure that all participants are well-prepared to deliver high-quality care to patients. (Do",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "license_metadata_pass",
+          "fileTitle": "File:Veterinary practice headquarters, Fairmoor - geograph.org.uk - 2225413.jpg",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/47/Veterinary_practice_headquarters%2C_Fairmoor_-_geograph.org.uk_-_2225413.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Veterinary_practice_headquarters,_Fairmoor_-_geograph.org.uk_-_2225413.jpg",
+          "creator": "Willie Duffin",
+          "attribution": "Veterinary practice headquarters, Fairmoor  by Willie Duffin",
+          "license": "cc-by-sa-2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+          "usageTerms": "Creative Commons Attribution-Share Alike 2.0",
+          "mime": "image/jpeg",
+          "description": "Veterinary practice headquarters, Fairmoor",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "license_metadata_pass",
+          "fileTitle": "File:Veterinary practice, Fairmoor - geograph.org.uk - 2225417.jpg",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Veterinary_practice%2C_Fairmoor_-_geograph.org.uk_-_2225417.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Veterinary_practice,_Fairmoor_-_geograph.org.uk_-_2225417.jpg",
+          "creator": "Willie Duffin",
+          "attribution": "Veterinary practice, Fairmoor  by Willie Duffin",
+          "license": "cc-by-sa-2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+          "usageTerms": "Creative Commons Attribution-Share Alike 2.0",
+          "mime": "image/jpeg",
+          "description": "Veterinary practice, Fairmoor",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:(Comparable Worth) (1) - DPLA - 13f76c4f231073eabdcfb38408e0645d.pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/%28Comparable_Worth%29_%281%29_-_DPLA_-_13f76c4f231073eabdcfb38408e0645d.pdf/page1-960px-%28Comparable_Worth%29_%281%29_-_DPLA_-_13f76c4f231073eabdcfb38408e0645d.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:(Comparable_Worth)_(1)_-_DPLA_-_13f76c4f231073eabdcfb38408e0645d.pdf",
+          "creator": "President (1981-1989 : Reagan). Office of Policy Development. 1/20/1981-1/20/1989",
+          "attribution": "President (1981-1989 : Reagan). Office of Policy Development. 1/20/1981-1/20/1989",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:(Comparable Worth) (2) - DPLA - 08842f0de23e9e69015f2bd6cfab814c.pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/%28Comparable_Worth%29_%282%29_-_DPLA_-_08842f0de23e9e69015f2bd6cfab814c.pdf/page1-960px-%28Comparable_Worth%29_%282%29_-_DPLA_-_08842f0de23e9e69015f2bd6cfab814c.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:(Comparable_Worth)_(2)_-_DPLA_-_08842f0de23e9e69015f2bd6cfab814c.pdf",
+          "creator": "President (1981-1989 : Reagan). Office of Policy Development. 1/20/1981-1/20/1989",
+          "attribution": "President (1981-1989 : Reagan). Office of Policy Development. 1/20/1981-1/20/1989",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        }
+      ],
+      "errors": [],
+      "selected": null,
+      "state": "awaiting_visual_and_license_review"
     }
   }
 }
