@@ -688,8 +688,10 @@
       "image": "",
       "category": "Stories",
       "id": "generated-1e9b35d490ff4baab2b2",
-      "status": "draft",
-      "publishedAt": ""
+      "status": "ready_for_publish",
+      "publishedAt": "",
+      "reviewStatus": "review_failed",
+      "reviewFailureSummary": "Generation/review error: HTTP Error 503: Service Unavailable; Saved text has not passed a matching editorial review"
     },
     {
       "title": "The Salt March: Gandhi’s Unyielding Step for Freedom",

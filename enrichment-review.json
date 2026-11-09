@@ -1755,6 +1755,52 @@
       "factualRisk": "high",
       "imageStatus": "awaiting_visual_and_license_review",
       "publication": "ready_for_publish"
+    },
+    "generated-1e9b35d490ff4baab2b2": {
+      "state": "review_failed",
+      "checkedAt": "2026-11-09T22:55:19.275815Z",
+      "source": "https://www.iwm.org.uk/history/noor-inayat-khan-the-spy-who-fought-the-nazis-without-a-gun",
+      "reviewAttempts": [
+        {
+          "attempt": 1,
+          "approved": false,
+          "issues": [
+            "Generation/review error: HTTP Error 503: Service Unavailable"
+          ]
+        },
+        {
+          "attempt": 2,
+          "approved": false,
+          "issues": [
+            "Generation/review error: HTTP Error 503: Service Unavailable"
+          ]
+        },
+        {
+          "attempt": 3,
+          "approved": false,
+          "issues": [
+            "Generation/review error: HTTP Error 503: Service Unavailable"
+          ]
+        }
+      ],
+      "attemptCount": 3,
+      "reviewFailureSummary": "Generation/review error: HTTP Error 503: Service Unavailable; Saved text has not passed a matching editorial review",
+      "sourceAccessible": true,
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/1953_Iranian_coup_d%27%C3%A9tat"
+      ],
+      "sourceCount": 1,
+      "wordCount": 793,
+      "reviewedTextMatchesSaved": false,
+      "originalSource": "https://www.iwm.org.uk/history/noor-inayat-khan-the-spy-who-fought-the-nazis-without-a-gun",
+      "evidenceSource": "https://en.wikipedia.org/wiki/1953_Iranian_coup_d%27%C3%A9tat",
+      "issues": [
+        "Generation/review error: HTTP Error 503: Service Unavailable",
+        "Saved text has not passed a matching editorial review"
+      ],
+      "factualRisk": "high",
+      "imageStatus": "awaiting_visual_and_license_review",
+      "publication": "ready_for_publish"
     }
   }
 }
