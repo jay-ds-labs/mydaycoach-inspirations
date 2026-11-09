@@ -2353,6 +2353,52 @@
       "factualRisk": "high",
       "imageStatus": "awaiting_visual_and_license_review",
       "publication": "ready_for_publish"
+    },
+    "generated-ff74bf7d679241b290b9": {
+      "state": "review_failed",
+      "checkedAt": "2026-11-09T23:00:54.992157Z",
+      "source": "https://www.humanite.fr/histoire/social/la-premiere-greve-de-femmes-les-penn-sardin-en-1924-327292",
+      "reviewAttempts": [
+        {
+          "attempt": 1,
+          "approved": false,
+          "issues": [
+            "Generation/review error: HTTP Error 503: Service Unavailable"
+          ]
+        },
+        {
+          "attempt": 2,
+          "approved": false,
+          "issues": [
+            "Generated article length 588 outside 600-1100 words"
+          ]
+        },
+        {
+          "attempt": 3,
+          "approved": false,
+          "issues": [
+            "Generation/review error: HTTP Error 503: Service Unavailable"
+          ]
+        }
+      ],
+      "attemptCount": 3,
+      "reviewFailureSummary": "Article not yet approved by reviewer; Saved text has not passed a matching editorial review",
+      "sourceAccessible": true,
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Arthur_de_Gobineau"
+      ],
+      "sourceCount": 1,
+      "wordCount": 734,
+      "reviewedTextMatchesSaved": false,
+      "originalSource": "https://www.humanite.fr/histoire/social/la-premiere-greve-de-femmes-les-penn-sardin-en-1924-327292",
+      "evidenceSource": "https://en.wikipedia.org/wiki/Arthur_de_Gobineau",
+      "issues": [
+        "Article not yet approved by reviewer",
+        "Saved text has not passed a matching editorial review"
+      ],
+      "factualRisk": "high",
+      "imageStatus": "awaiting_visual_and_license_review",
+      "publication": "ready_for_publish"
     }
   }
 }
