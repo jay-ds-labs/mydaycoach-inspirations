@@ -748,8 +748,10 @@
       "image": "",
       "category": "Philosophy",
       "id": "generated-5875fedf413e4010bf96",
-      "status": "draft",
-      "publishedAt": ""
+      "status": "ready_for_publish",
+      "publishedAt": "",
+      "reviewStatus": "review_failed",
+      "reviewFailureSummary": "Generation/review error: HTTP Error 503: Service Unavailable; Saved text has not passed a matching editorial review"
     },
     {
       "title": "Ibn Tufail and the Solitary Reasoner: 'Hayy ibn Yaqzan' and Self-Taught Wisdom",
