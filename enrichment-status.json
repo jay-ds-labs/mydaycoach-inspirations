@@ -1,6 +1,6 @@
 {
   "state": "running",
-  "stage": "review",
+  "stage": "research",
   "completed": 1,
   "total": 70,
   "batchTotal": 5,
@@ -11,6 +11,6 @@
   "needsReview": 0,
   "startedAt": "2026-11-09T01:19:52.353144Z",
   "completedAt": null,
-  "currentId": "apollo-11",
+  "currentId": "curie-nobel",
   "error": null
 }
