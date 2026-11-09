@@ -1245,6 +1245,34 @@
       "factualRisk": "high",
       "imageStatus": "awaiting_visual_and_license_review",
       "publication": "ready_for_publish"
+    },
+    "reflection-027": {
+      "state": "approved",
+      "checkedAt": "2026-11-09T22:49:10.188995Z",
+      "source": "https://plato.stanford.edu/entries/ethics-virtue/",
+      "reviewAttempts": [
+        {
+          "attempt": 1,
+          "approved": true,
+          "issues": []
+        }
+      ],
+      "attemptCount": 1,
+      "reviewFailureSummary": "",
+      "sourceAccessible": true,
+      "sourceUrls": [
+        "https://plato.stanford.edu/entries/ethics-virtue/",
+        "https://en.wikipedia.org/wiki/Martin_Luther_King_Jr."
+      ],
+      "sourceCount": 2,
+      "wordCount": 743,
+      "reviewedTextMatchesSaved": true,
+      "originalSource": "https://plato.stanford.edu/entries/ethics-virtue/",
+      "evidenceSource": "https://plato.stanford.edu/entries/ethics-virtue/",
+      "issues": [],
+      "factualRisk": "low",
+      "imageStatus": "awaiting_visual_and_license_review",
+      "publication": "ready_for_publish"
     }
   }
 }

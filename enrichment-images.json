@@ -6037,6 +6037,164 @@
       "errors": [],
       "selected": null,
       "state": "awaiting_visual_and_license_review"
+    },
+    "reflection-027": {
+      "checkedAt": "2026-11-09T22:49:10.188983Z",
+      "queries": [
+        "Keep promises realistic"
+      ],
+      "candidates": [
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:A drama in muslin - a realistic novel (IA dramainmuslinrea00mooriala).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/A_drama_in_muslin_-_a_realistic_novel_%28IA_dramainmuslinrea00mooriala%29.pdf/page1-330px-A_drama_in_muslin_-_a_realistic_novel_%28IA_dramainmuslinrea00mooriala%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:A_drama_in_muslin_-_a_realistic_novel_(IA_dramainmuslinrea00mooriala).pdf",
+          "creator": "Moore, George, 1852-1933",
+          "attribution": "Moore, George, 1852-1933",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Subjects:",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
+          "visualCheck": {
+            "state": "not_checked",
+            "reason": "No API key or license metadata not approved"
+          }
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:A drama in muslin; a realistic novel (IA cu31924013526375).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/A_drama_in_muslin%3B_a_realistic_novel_%28IA_cu31924013526375%29.pdf/page1-500px-A_drama_in_muslin%3B_a_realistic_novel_%28IA_cu31924013526375%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:A_drama_in_muslin;_a_realistic_novel_(IA_cu31924013526375).pdf",
+          "creator": "Moore, George, 1852-1933",
+          "attribution": "Moore, George, 1852-1933",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "The metadata below describe the original scanning. Follow the \"All Files: HTTP\" link in the \"View the book\" box to the left to find XML files that contain more metadata about the original images and the derived formats (OCR results, PDF etc.). See also the  What is the directory structure for the texts?  FAQ for information about file content and naming conventions.\n \n Subjects:",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
+          "visualCheck": {
+            "state": "not_checked",
+            "reason": "No API key or license metadata not approved"
+          }
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:A realistic universe - an introduction to metaphysics (IA realisticunivers00boodrich).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/A_realistic_universe_-_an_introduction_to_metaphysics_%28IA_realisticunivers00boodrich%29.pdf/page1-500px-A_realistic_universe_-_an_introduction_to_metaphysics_%28IA_realisticunivers00boodrich%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:A_realistic_universe_-_an_introduction_to_metaphysics_(IA_realisticunivers00boodrich).pdf",
+          "creator": "Boodin, John Elof",
+          "attribution": "Boodin, John Elof",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Subjects: Metaphysics",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
+          "visualCheck": {
+            "state": "not_checked",
+            "reason": "No API key or license metadata not approved"
+          }
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Domestic Issues Briefing Book (Gerald Ford and Jimmy Carter 1st debate)(Gerald Ford Library)(1554410).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Domestic_Issues_Briefing_Book_%28Gerald_Ford_and_Jimmy_Carter_1st_debate%29%28Gerald_Ford_Library%29%281554410%29.pdf/page1-960px-Domestic_Issues_Briefing_Book_%28Gerald_Ford_and_Jimmy_Carter_1st_debate%29%28Gerald_Ford_Library%29%281554410%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Domestic_Issues_Briefing_Book_(Gerald_Ford_and_Jimmy_Carter_1st_debate)(Gerald_Ford_Library)(1554410).pdf",
+          "creator": "Unknown author Unknown author  or not provided",
+          "attribution": "Unknown author Unknown author  or not provided",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Domestic Issues Briefing Book (Gerald Ford and Jimmy Carter 1st debate).",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Realistic philosophy defended in a philosophic series (IA cu31924092288046).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Realistic_philosophy_defended_in_a_philosophic_series_%28IA_cu31924092288046%29.pdf/page1-500px-Realistic_philosophy_defended_in_a_philosophic_series_%28IA_cu31924092288046%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Realistic_philosophy_defended_in_a_philosophic_series_(IA_cu31924092288046).pdf",
+          "creator": "McCosh, James, 1811-1894",
+          "attribution": "McCosh, James, 1811-1894",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "The metadata below describe the original scanning. Follow the \"All Files: HTTP\" link in the \"View the book\" box to the left to find XML files that contain more metadata about the original images and the derived formats (OCR results, PDF etc.). See also the  What is the directory structure for the texts?  FAQ for information about file content and naming conventions. \n 1. Expository -- 2. Historical and critical  \n Subjects: Philosophy",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Realistic Romances.djvu",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Realistic_Romances.djvu/page1-960px-Realistic_Romances.djvu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Realistic_Romances.djvu",
+          "creator": "",
+          "attribution": "",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "image/vnd.djvu",
+          "description": "Realistic Romance 16, June 1954, Avon Periodicals, NY NY, 36 pages, 10 cents.      https://www.comics.org/issue/263290/",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Renée Mauperin, a realistic novel (IA cu31924027280043).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Ren%C3%A9e_Mauperin%2C_a_realistic_novel_%28IA_cu31924027280043%29.pdf/page1-500px-Ren%C3%A9e_Mauperin%2C_a_realistic_novel_%28IA_cu31924027280043%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Ren%C3%A9e_Mauperin,_a_realistic_novel_(IA_cu31924027280043).pdf",
+          "creator": "Goncourt, Edmond de, 1822-1896 \n Zola, Emile, 1840-1902",
+          "attribution": "Goncourt, Edmond de, 1822-1896 \n Zola, Emile, 1840-1902",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "The metadata below describe the original scanning. Follow the \"All Files: HTTP\" link in the \"View the book\" box to the left to find XML files that contain more metadata about the original images and the derived formats (OCR results, PDF etc.). See also the  What is the directory structure for the texts?  FAQ for information about file content and naming conventions. \n Prefatory note by Emile Zola  \n Subjects: Goncourt, Jules de, 1830-1870",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Renée Mauperin, a realistic novel (IA renemauperinre00gonciala).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Ren%C3%A9e_Mauperin%2C_a_realistic_novel_%28IA_renemauperinre00gonciala%29.pdf/page1-500px-Ren%C3%A9e_Mauperin%2C_a_realistic_novel_%28IA_renemauperinre00gonciala%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Ren%C3%A9e_Mauperin,_a_realistic_novel_(IA_renemauperinre00gonciala).pdf",
+          "creator": "Goncourt, Edmond de, 1822-1896 \n Goncourt, Jules de, 1830-1870 \n Zola, Emile, 1840-1902",
+          "attribution": "Goncourt, Edmond de, 1822-1896 \n Goncourt, Jules de, 1830-1870 \n Zola, Emile, 1840-1902",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Subjects:",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:WTO- WILL CHINA KEEP ITS PROMISES? CAN IT? (IA gov.gpo.fdsys.CHRG-107hhrg80730).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/WTO-_WILL_CHINA_KEEP_ITS_PROMISES%3F_CAN_IT%3F_%28IA_gov.gpo.fdsys.CHRG-107hhrg80730%29.pdf/page1-960px-WTO-_WILL_CHINA_KEEP_ITS_PROMISES%3F_CAN_IT%3F_%28IA_gov.gpo.fdsys.CHRG-107hhrg80730%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:WTO-_WILL_CHINA_KEEP_ITS_PROMISES%3F_CAN_IT%3F_(IA_gov.gpo.fdsys.CHRG-107hhrg80730).pdf",
+          "creator": "Congressional Committee",
+          "attribution": "Congressional Committee",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Government Publishing Office   U.S. Congress House of Representatives Congressional Committee  WTO: WILL CHINA KEEP ITS PROMISES? CAN IT?  Date(s) Held: 2002-06-06   107th Congress, 2nd Session  GPO Document Source:  https://www.gpo.gov/fdsys/pkg/CHRG-107hhrg80730/content-detail.html \" rel=\"nofollow\">CHRG-107hhrg80730   Related Items: \n Subjects: 107th;House",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        }
+      ],
+      "errors": [],
+      "selected": null,
+      "state": "awaiting_visual_and_license_review"
     }
   }
 }
