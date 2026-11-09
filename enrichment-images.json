@@ -4171,6 +4171,179 @@
       "errors": [],
       "selected": null,
       "state": "awaiting_visual_and_license_review"
+    },
+    "reflection-016": {
+      "checkedAt": "2026-11-09T22:43:44.161202Z",
+      "queries": [
+        "Think beyond yourself"
+      ],
+      "candidates": [
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Beyond the city (IA beyondcity00doyl).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Beyond_the_city_%28IA_beyondcity00doyl%29.pdf/page1-960px-Beyond_the_city_%28IA_beyondcity00doyl%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Beyond_the_city_(IA_beyondcity00doyl).pdf",
+          "creator": "Doyle, Arthur Conan, 1859-1930",
+          "attribution": "Doyle, Arthur Conan, 1859-1930",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Subjects:",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
+          "visualCheck": {
+            "state": "not_checked",
+            "reason": "No API key or license metadata not approved"
+          }
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Beyond the Horizon (1920).djvu",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Beyond_the_Horizon_%281920%29.djvu/page1-1280px-Beyond_the_Horizon_%281920%29.djvu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Beyond_the_Horizon_(1920).djvu",
+          "creator": "Eugene O'Neill",
+          "attribution": "Eugene O'Neill",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "image/vnd.djvu",
+          "description": "1920 first edition of  Beyond the Horizon: a play in three acts  by Eugene O'Neill.",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
+          "visualCheck": {
+            "state": "not_checked",
+            "reason": "No API key or license metadata not approved"
+          }
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Business Ethics (OpenStax).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Business_Ethics_%28OpenStax%29.pdf/page1-960px-Business_Ethics_%28OpenStax%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Business_Ethics_(OpenStax).pdf",
+          "creator": "OpenStax",
+          "attribution": "OpenStax",
+          "license": "cc-by-4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+          "usageTerms": "Creative Commons Attribution 4.0",
+          "mime": "application/pdf",
+          "description": "Business Ethics is designed to meet the scope and sequence requirements of the single-semester business ethics course. This title includes innovative features designed to enhance student learning, including case studies, application scenarios, and links to video interviews with executives, all of which help instill in students a sense of ethical awareness and responsibility.",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
+          "visualCheck": {
+            "state": "not_checked",
+            "reason": "No API key or license metadata not approved"
+          }
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Counsel to parents - and How to save the baby (IA counseltoparents00john).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Counsel_to_parents_-_and_How_to_save_the_baby_%28IA_counseltoparents00john%29.pdf/page1-500px-Counsel_to_parents_-_and_How_to_save_the_baby_%28IA_counseltoparents00john%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Counsel_to_parents_-_and_How_to_save_the_baby_(IA_counseltoparents00john).pdf",
+          "creator": "Johnson, Isaac D., 1827-",
+          "attribution": "Johnson, Isaac D., 1827-",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Title on spine : How to save the baby \n Includes index  \n Subjects: Children; Marriage; Pregnancy",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:How to educate yourself - with or without masters (IA cu31924031237401).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/How_to_educate_yourself_-_with_or_without_masters_%28IA_cu31924031237401%29.pdf/page1-500px-How_to_educate_yourself_-_with_or_without_masters_%28IA_cu31924031237401%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:How_to_educate_yourself_-_with_or_without_masters_(IA_cu31924031237401).pdf",
+          "creator": "Eggleston, George Cary, 1839-1911",
+          "attribution": "Eggleston, George Cary, 1839-1911",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "The metadata below describe the original scanning. Follow the \"All Files: HTTP\" link in the \"View the book\" box to the left to find XML files that contain more metadata about the original images and the derived formats (OCR results, PDF etc.). See also the  What is the directory structure for the texts?  FAQ for information about file content and naming conventions.\n \n Subjects: Self-culture",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:How to educate yourself - with or without masters (IA howtoeducateyour00eggl).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/How_to_educate_yourself_-_with_or_without_masters_%28IA_howtoeducateyour00eggl%29.pdf/page1-500px-How_to_educate_yourself_-_with_or_without_masters_%28IA_howtoeducateyour00eggl%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:How_to_educate_yourself_-_with_or_without_masters_(IA_howtoeducateyour00eggl).pdf",
+          "creator": "Eggleston, George Cary, 1839-1911",
+          "attribution": "Eggleston, George Cary, 1839-1911",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Subjects: Self-culture",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:How to educate yourself- with or without masters (IA howtoeducateyour01eggl).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/How_to_educate_yourself-_with_or_without_masters_%28IA_howtoeducateyour01eggl%29.pdf/page1-500px-How_to_educate_yourself-_with_or_without_masters_%28IA_howtoeducateyour01eggl%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:How_to_educate_yourself-_with_or_without_masters_(IA_howtoeducateyour01eggl).pdf",
+          "creator": "Eggleston, George Cary, 1839-1911. [from old catalog]",
+          "attribution": "Eggleston, George Cary, 1839-1911. [from old catalog]",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Subjects: Self-culture. [from old catalog]",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:How to educate yourself- with or without masters (IA howtoeducateyour02eggl).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/How_to_educate_yourself-_with_or_without_masters_%28IA_howtoeducateyour02eggl%29.pdf/page1-500px-How_to_educate_yourself-_with_or_without_masters_%28IA_howtoeducateyour02eggl%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:How_to_educate_yourself-_with_or_without_masters_(IA_howtoeducateyour02eggl).pdf",
+          "creator": "Eggleston, George Cary, 1839-1911. [from old catalog]",
+          "attribution": "Eggleston, George Cary, 1839-1911. [from old catalog]",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Subjects: Self-culture. [from old catalog]",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Legal ethics and suggestions for young counsel (IA legalethicssugge00williala).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Legal_ethics_and_suggestions_for_young_counsel_%28IA_legalethicssugge00williala%29.pdf/page1-500px-Legal_ethics_and_suggestions_for_young_counsel_%28IA_legalethicssugge00williala%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Legal_ethics_and_suggestions_for_young_counsel_(IA_legalethicssugge00williala).pdf",
+          "creator": "Williams, Henry Warren, 1830-1899 \n Ross, Carlyle Howarth, 1876-",
+          "attribution": "Williams, Henry Warren, 1830-1899 \n Ross, Carlyle Howarth, 1876-",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Subjects: Legal ethics; Law",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Our debt to antiquity (IA ourdebttoantiqui00zieliala).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Our_debt_to_antiquity_%28IA_ourdebttoantiqui00zieliala%29.pdf/page1-500px-Our_debt_to_antiquity_%28IA_ourdebttoantiqui00zieliala%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Our_debt_to_antiquity_(IA_ourdebttoantiqui00zieliala).pdf",
+          "creator": "Zielinski, Faddej Francevic \n Strong, Herbert A. (Herbert Augustus), 1841-1918",
+          "attribution": "Zielinski, Faddej Francevic \n Strong, Herbert A. (Herbert Augustus), 1841-1918",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "\"Russian writers and painters\": p. 227-231\n \n Subjects: Classical education",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        }
+      ],
+      "errors": [],
+      "selected": null,
+      "state": "awaiting_visual_and_license_review"
     }
   }
 }
