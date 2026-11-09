@@ -1442,6 +1442,56 @@
       "factualRisk": "high",
       "imageStatus": "awaiting_visual_and_license_review",
       "publication": "ready_for_publish"
+    },
+    "generated-67e4272aeda74d329cc9": {
+      "state": "review_failed",
+      "checkedAt": "2026-11-09T22:52:26.262787Z",
+      "source": "https://www.loc.gov/exhibits/african-american-odyssey/abolitionist-frederick-douglass.html",
+      "reviewAttempts": [
+        {
+          "attempt": 1,
+          "approved": false,
+          "issues": [
+            "No direct quotations from Douglass's 1894 Douglass High School commencement address are provided or sourced",
+            "The article includes interpretations and paraphrasing of Douglass's philosophy not clearly supported by the supplied evidence",
+            "No primary or secondary source evidence from the source link confirms that Douglass delivered this specific message or speech in June 1894 as described"
+          ]
+        },
+        {
+          "attempt": 2,
+          "approved": false,
+          "issues": [
+            "Generated article length 185 outside 600-1100 words"
+          ]
+        },
+        {
+          "attempt": 3,
+          "approved": false,
+          "issues": [
+            "No evidence provided confirms that Frederick Douglass gave a commencement address at Douglass High School in Baltimore in June 1894.",
+            "No sourced quotations or contemporaneous accounts from Douglass’s supposed speech are cited or matched to the claims made.",
+            "The article attributes specific philosophies, advice, and themes to Douglass at a specific event without provided primary documentation."
+          ]
+        }
+      ],
+      "attemptCount": 3,
+      "reviewFailureSummary": "Article not yet approved by reviewer; Saved text has not passed a matching editorial review",
+      "sourceAccessible": true,
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Washington_College"
+      ],
+      "sourceCount": 1,
+      "wordCount": 836,
+      "reviewedTextMatchesSaved": false,
+      "originalSource": "https://www.loc.gov/exhibits/african-american-odyssey/abolitionist-frederick-douglass.html",
+      "evidenceSource": "https://en.wikipedia.org/wiki/Washington_College",
+      "issues": [
+        "Article not yet approved by reviewer",
+        "Saved text has not passed a matching editorial review"
+      ],
+      "factualRisk": "high",
+      "imageStatus": "awaiting_visual_and_license_review",
+      "publication": "ready_for_publish"
     }
   }
 }

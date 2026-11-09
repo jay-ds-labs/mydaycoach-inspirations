@@ -6734,6 +6734,149 @@
       "errors": [],
       "selected": null,
       "state": "awaiting_visual_and_license_review"
+    },
+    "generated-67e4272aeda74d329cc9": {
+      "checkedAt": "2026-11-09T22:52:26.262769Z",
+      "queries": [
+        "Consistent Preparation: Frederick Douglass on the Value of Diligence"
+      ],
+      "candidates": [
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Books from the Library of Congress (IA remarkableadvent00sear).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Books_from_the_Library_of_Congress_%28IA_remarkableadvent00sear%29.pdf/page1-500px-Books_from_the_Library_of_Congress_%28IA_remarkableadvent00sear%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Books_from_the_Library_of_Congress_(IA_remarkableadvent00sear).pdf",
+          "creator": "Sears, Robert, 1810-1892",
+          "attribution": "Sears, Robert, 1810-1892",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Subjects: Biography",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
+          "visualCheck": {
+            "state": "not_checked",
+            "reason": "No API key or license metadata not approved"
+          }
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Debates in the Massachusetts Constitutional Convention, 1917-1918 (IA cu31924025079983).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Debates_in_the_Massachusetts_Constitutional_Convention%2C_1917-1918_%28IA_cu31924025079983%29.pdf/page1-500px-Debates_in_the_Massachusetts_Constitutional_Convention%2C_1917-1918_%28IA_cu31924025079983%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Debates_in_the_Massachusetts_Constitutional_Convention,_1917-1918_(IA_cu31924025079983).pdf",
+          "creator": "Massachusetts. Constitutional Convention (1917-1919) \n Massachusetts. Constitution",
+          "attribution": "Massachusetts. Constitutional Convention (1917-1919) \n Massachusetts. Constitution",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "The metadata below describe the original scanning. Follow the \"All Files: HTTP\" link in the \"View the book\" box to the left to find XML files that contain more metadata about the original images and the derived formats (OCR results, PDF etc.). See also the  What is the directory structure for the texts?  FAQ for information about file content and naming conventions. \n Spine title on vol. 1 and vol. 2: Debates of the Constitutional Convention, 1917-1918, Massachusetts \n Includes index \n v.1. Chap",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
+          "visualCheck": {
+            "state": "not_checked",
+            "reason": "No API key or license metadata not approved"
+          }
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Friends' review; a religious, literary and miscellaneous journal (IA friendsreviewrel261lewi).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Friends%27_review%3B_a_religious%2C_literary_and_miscellaneous_journal_%28IA_friendsreviewrel261lewi%29.pdf/page1-1280px-Friends%27_review%3B_a_religious%2C_literary_and_miscellaneous_journal_%28IA_friendsreviewrel261lewi%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Friends%27_review;_a_religious,_literary_and_miscellaneous_journal_(IA_friendsreviewrel261lewi).pdf",
+          "creator": "Lewis, Enoch, 1776-1856 \n Rhoads, Samuel",
+          "attribution": "Lewis, Enoch, 1776-1856 \n Rhoads, Samuel",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Editors: Sept. 1847- Enoch Lewis.-- Samuel Rhoads \n CLICK ON WEB ADDRESS TO REACH SELECTED VOLUMES \n Merged with: Christian worker, to form: American Friend, ISSN 0364-5878 \n 16  \n Subjects: Society of Friends; Quakers; genealogy",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
+          "visualCheck": {
+            "state": "not_checked",
+            "reason": "No API key or license metadata not approved"
+          }
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:History of a church (Dunker) with comments featuring the First Church of the Brethren of Philadelphia, Pa, 1813-1943.djvu",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/History_of_a_church_%28Dunker%29_with_comments_featuring_the_First_Church_of_the_Brethren_of_Philadelphia%2C_Pa%2C_1813-1943.djvu/page1-1280px-History_of_a_church_%28Dunker%29_with_comments_featuring_the_First_Church_of_the_Brethren_of_Philadelphia%2C_Pa%2C_1813-1943.djvu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:History_of_a_church_(Dunker)_with_comments_featuring_the_First_Church_of_the_Brethren_of_Philadelphia,_Pa,_1813-1943.djvu",
+          "creator": "Howe, Roland L.",
+          "attribution": "Howe, Roland L.",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "image/vnd.djvu",
+          "description": "History of the Dunker (German Baptist Brethren) church.",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:The composer's friend - and compendium of useful information (IA composersfriendc00news).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/The_composer%27s_friend_-_and_compendium_of_useful_information_%28IA_composersfriendc00news%29.pdf/page1-500px-The_composer%27s_friend_-_and_compendium_of_useful_information_%28IA_composersfriendc00news%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:The_composer%27s_friend_-_and_compendium_of_useful_information_(IA_composersfriendc00news).pdf",
+          "creator": "Newsom, John T. C",
+          "attribution": "Newsom, John T. C",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Subjects: Quotations, English; Proverbs; genealogy",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Twelfth report of the Masonic Relief Association of the United States and Canada, including the proceedings of the third biennial meeting, held at London, Ontario, September 26th and 27th, 1899 (IA cu31924030269975).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Twelfth_report_of_the_Masonic_Relief_Association_of_the_United_States_and_Canada%2C_including_the_proceedings_of_the_third_biennial_meeting%2C_held_at_London%2C_Ontario%2C_September_26th_and_27th%2C_1899_%28IA_cu31924030269975%29.pdf/page1-500px-thumbnail.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Twelfth_report_of_the_Masonic_Relief_Association_of_the_United_States_and_Canada,_including_the_proceedings_of_the_third_biennial_meeting,_held_at_London,_Ontario,_September_26th_and_27th,_1899_(IA_cu31924030269975).pdf",
+          "creator": "Masonic Relief Association of U.S.A. and Canada",
+          "attribution": "Masonic Relief Association of U.S.A. and Canada",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "The metadata below describe the original scanning. Follow the \"All Files: HTTP\" link in the \"View the book\" box to the left to find XML files that contain more metadata about the original images and the derived formats (OCR results, PDF etc.). See also the  What is the directory structure for the texts?  FAQ for information about file content and naming conventions.\n \n Subjects:",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Vicennial record of the class of 1887 in Yale college (IA cu31924030632586).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Vicennial_record_of_the_class_of_1887_in_Yale_college_%28IA_cu31924030632586%29.pdf/page1-500px-Vicennial_record_of_the_class_of_1887_in_Yale_college_%28IA_cu31924030632586%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Vicennial_record_of_the_class_of_1887_in_Yale_college_(IA_cu31924030632586).pdf",
+          "creator": "Yale University. Class of 1887 \n Hill, George Edwin, 1864-",
+          "attribution": "Yale University. Class of 1887 \n Hill, George Edwin, 1864-",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "The metadata below describe the original scanning. Follow the \"All Files: HTTP\" link in the \"View the book\" box to the left to find XML files that contain more metadata about the original images and the derived formats (OCR results, PDF etc.). See also the  What is the directory structure for the texts?  FAQ for information about file content and naming conventions.\n \n Subjects:",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Vicennial record of the class of 1887 in Yale college (IA vicennialrecordo00yalerich).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Vicennial_record_of_the_class_of_1887_in_Yale_college_%28IA_vicennialrecordo00yalerich%29.pdf/page1-500px-Vicennial_record_of_the_class_of_1887_in_Yale_college_%28IA_vicennialrecordo00yalerich%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Vicennial_record_of_the_class_of_1887_in_Yale_college_(IA_vicennialrecordo00yalerich).pdf",
+          "creator": "Yale University. Class of 1887 \n Hill, George Edwin, 1864-",
+          "attribution": "Yale University. Class of 1887 \n Hill, George Edwin, 1864-",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Subjects:",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        }
+      ],
+      "errors": [],
+      "selected": null,
+      "state": "awaiting_visual_and_license_review"
     }
   }
 }
