@@ -1485,6 +1485,162 @@
       "errors": [],
       "selected": null,
       "state": "awaiting_visual_and_license_review"
+    },
+    "goodall-gombe": {
+      "checkedAt": "2026-11-09T22:34:30.543027Z",
+      "queries": [
+        "Careful observation"
+      ],
+      "candidates": [
+        {
+          "state": "license_metadata_pass",
+          "fileTitle": "File:An US Major training in a World War I Observation Balloon. (51724249454).jpg",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/An_US_Major_training_in_a_World_War_I_Observation_Balloon._%2851724249454%29.jpg/1280px-An_US_Major_training_in_a_World_War_I_Observation_Balloon._%2851724249454%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:An_US_Major_training_in_a_World_War_I_Observation_Balloon._(51724249454).jpg",
+          "creator": "tormentor4555",
+          "attribution": "tormentor4555",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "image/jpeg",
+          "description": "An US Major training in a World War I Observation Balloon.",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
+          "visualCheck": {
+            "state": "needs_visual_review",
+            "confidence": "high",
+            "issues": [
+              "Different context and subject matter",
+              "Historical military observation vs. primate behavioral research"
+            ],
+            "explanation": "The image depicts a World War I military observation balloon with a US Major. The inspiration relates to Jane Goodall's long-term chimpanzee research starting in 1960, which is focused on primate behavior study in a natural environment. The image context and subject matter are different, focusing on military observation rather than biological research or animal behavior."
+          }
+        },
+        {
+          "state": "license_metadata_pass",
+          "fileTitle": "File:Dülmen, Kirchspiel, ehem. Sondermunitionslager Visbeck, Laufgang -- 2023 -- 6796 (bw).jpg",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/D%C3%BClmen%2C_Kirchspiel%2C_ehem._Sondermunitionslager_Visbeck%2C_Laufgang_--_2023_--_6796_%28bw%29.jpg/1280px-D%C3%BClmen%2C_Kirchspiel%2C_ehem._Sondermunitionslager_Visbeck%2C_Laufgang_--_2023_--_6796_%28bw%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:D%C3%BClmen,_Kirchspiel,_ehem._Sondermunitionslager_Visbeck,_Laufgang_--_2023_--_6796_(bw).jpg",
+          "creator": "Dietmar Rabich",
+          "attribution": "Dietmar Rabich",
+          "license": "cc-by-sa-4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "usageTerms": "Creative Commons Attribution-Share Alike 4.0",
+          "mime": "image/jpeg",
+          "description": "Observation window in the wall of the walkways at the Dülmen-Visbeck  Special Ammunition Storage , Dernekamp, Kirchspiel,  Dülmen ,  North Rhine-Westphalia , Germany  The  Bundeswehr   Ammunition Depot , located approximately 4.5 km south of Dülmen, was built between 1963 and 1965 as part of the St. Barbara  Barracks  in Dülmen. The special ammunition storage (SAS) within the ammunition depot was put into operation by the  US Army  in 1969. Over time, and particularly in the 1980s, the special a",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
+          "visualCheck": {
+            "state": "needs_visual_review",
+            "confidence": "high",
+            "issues": [],
+            "explanation": "The image shows an observation window in a concrete wall at a former ammunition storage facility in Germany. This setting is unrelated to Jane Goodall's long-term chimpanzee research at Gombe or primate behavior studies. The themes and context do not align with careful scientific observation of wildlife, as described in the inspiration."
+          }
+        },
+        {
+          "state": "license_metadata_pass",
+          "fileTitle": "File:Observation 1.jpg",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Observation_1.jpg/1280px-Observation_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Observation_1.jpg",
+          "creator": "Zitchat",
+          "attribution": "Zitchat",
+          "license": "cc-by-sa-4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "usageTerms": "Creative Commons Attribution-Share Alike 4.0",
+          "mime": "image/jpeg",
+          "description": "Wikimedian carefully observing as the pot is being crafted",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
+          "visualCheck": {
+            "state": "needs_visual_review",
+            "confidence": "high",
+            "issues": [
+              "The image depicts a person carefully observing another person crafting a pot, which relates to observation of human activity or craft.",
+              "The inspiration is about Jane Goodall’s careful observation of chimpanzees at Gombe, which is a specific scientific field study of primate behavior.",
+              "The context and subject of the image do not visually or contextually connect to primate research or Jane Goodall’s scientific work."
+            ],
+            "explanation": "While the image involves careful observation, the subject matter (human pot crafting and observation) is distinct from the inspiration about Jane Goodall’s primate research and transformative study of chimpanzee behavior. Therefore, the image is not visibly relevant to the inspiration provided."
+          }
+        },
+        {
+          "state": "license_metadata_pass",
+          "fileTitle": "File:Observation Tower view of Niagara Falls in winter - Cropped version.jpg",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Observation_Tower_view_of_Niagara_Falls_in_winter_-_Cropped_version.jpg/1280px-Observation_Tower_view_of_Niagara_Falls_in_winter_-_Cropped_version.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Observation_Tower_view_of_Niagara_Falls_in_winter_-_Cropped_version.jpg",
+          "creator": "Paolo Costa Baldi",
+          "attribution": "Photo by Paolo Costa Baldi. License: GFDL/CC-BY-SA 3.0",
+          "license": "cc-by-3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+          "usageTerms": "Creative Commons Attribution 3.0",
+          "mime": "image/jpeg",
+          "description": "Observation Tower  view of  Niagara falls  from the american side, in winter.",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "license_metadata_pass",
+          "fileTitle": "File:Observation Tower view of Niagara Falls in winter.jpg",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Observation_Tower_view_of_Niagara_Falls_in_winter.jpg/1280px-Observation_Tower_view_of_Niagara_Falls_in_winter.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Observation_Tower_view_of_Niagara_Falls_in_winter.jpg",
+          "creator": "Paolo Costa Baldi",
+          "attribution": "Paolo Costa Baldi",
+          "license": "cc-by-sa-3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "usageTerms": "Creative Commons Attribution-Share Alike 3.0",
+          "mime": "image/jpeg",
+          "description": "Observation Tower  view of  Niagara falls  from the american side, in winter.",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "license_metadata_pass",
+          "fileTitle": "File:Paris, Eiffelturm, Teleskop -- 2014 -- 1272.jpg",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Paris%2C_Eiffelturm%2C_Teleskop_--_2014_--_1272.jpg/1280px-Paris%2C_Eiffelturm%2C_Teleskop_--_2014_--_1272.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Paris,_Eiffelturm,_Teleskop_--_2014_--_1272.jpg",
+          "creator": "Dietmar Rabich",
+          "attribution": "Dietmar Rabich",
+          "license": "cc-by-sa-4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "usageTerms": "Creative Commons Attribution-Share Alike 4.0",
+          "mime": "image/jpeg",
+          "description": "Telescope on the observation deck of the  Eiffel Tower ,  Paris , France  The Eiffel Tower is the most famous landmark in Paris. It was built for the 1889 World’s Fair to mark the 100th anniversary of the French Revolution. The 324-meter-high tower was designed by engineer Gustave Eiffel and his team. Construction began in 1887 and took just over two years. At the time of its completion, the Eiffel Tower was the tallest structure in the world. Initially, the iron structure was criticized by many",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Forty years observation of music and the drama (IA fortyyearsobserv00grauuoft).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Forty_years_observation_of_music_and_the_drama_%28IA_fortyyearsobserv00grauuoft%29.pdf/page1-500px-Forty_years_observation_of_music_and_the_drama_%28IA_fortyyearsobserv00grauuoft%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Forty_years_observation_of_music_and_the_drama_(IA_fortyyearsobserv00grauuoft).pdf",
+          "creator": "Robert Grau",
+          "attribution": "Robert Grau",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "22",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:The careful investor (IA cu31924031232691).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/The_careful_investor_%28IA_cu31924031232691%29.pdf/page1-500px-The_careful_investor_%28IA_cu31924031232691%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:The_careful_investor_(IA_cu31924031232691).pdf",
+          "creator": "Mead, Edward Sherwood, 1874-1956",
+          "attribution": "Mead, Edward Sherwood, 1874-1956",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "The metadata below describe the original scanning. Follow the \"All Files: HTTP\" link in the \"View the book\" box to the left to find XML files that contain more metadata about the original images and the derived formats (OCR results, PDF etc.). See also the  What is the directory structure for the texts?  FAQ for information about file content and naming conventions. \n This book is the outgrowth of a series of magazine articles. cf. Pref  \n Subjects: Investments",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        }
+      ],
+      "errors": [],
+      "selected": null,
+      "state": "awaiting_visual_and_license_review"
     }
   }
 }

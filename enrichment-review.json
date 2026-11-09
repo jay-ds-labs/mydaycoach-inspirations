@@ -238,6 +238,56 @@
       "factualRisk": "high",
       "imageStatus": "awaiting_visual_and_license_review",
       "publication": "ready_for_publish"
+    },
+    "goodall-gombe": {
+      "state": "review_failed",
+      "checkedAt": "2026-11-09T22:34:30.543045Z",
+      "source": "https://janegoodall.org/",
+      "reviewAttempts": [
+        {
+          "attempt": 1,
+          "approved": false,
+          "issues": [
+            "No direct evidence provided from the supplied source; all information is based on general Goodall knowledge, not the linked Washoe source.",
+            "Source evidence is on Washoe the chimpanzee, not Jane Goodall or her research at Gombe—the article's specific claims (such as tool use, method, impact on primatology, shifts in scientific method) are unsupported by the supplied evidence.",
+            "Several detailed factual claims (Goodall's documentation of tool use, prevailing scientific opinions at the time, her methods, effect on field science) are unverified with the given source."
+          ]
+        },
+        {
+          "attempt": 2,
+          "approved": false,
+          "issues": [
+            "Generated article length 549 outside 600-1100 words"
+          ]
+        },
+        {
+          "attempt": 3,
+          "approved": false,
+          "issues": [
+            "The original card focuses solely on Jane Goodall’s chimpanzee research at Gombe in 1960; the article introduces and extrapolates on unrelated research (Washoe and ASL acquisition), which is not supported or mentioned in the source card.",
+            "Article attributes wider methodological shifts and comparative context (e.g., lessons applied by Gardner and Gardner, influence of Goodall’s approach on sign language research) without direct supporting evidence in the card or listed sources.",
+            "Article contains unreferenced interpretations about Goodall’s intent, such as statements about her respecting her subjects and seeing her observations as 'a practice of respect,' which go beyond the neutral, fact-based tone of the source card."
+          ]
+        }
+      ],
+      "attemptCount": 3,
+      "reviewFailureSummary": "Article not yet approved by reviewer; Saved text has not passed a matching editorial review",
+      "sourceAccessible": true,
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Washoe_%28chimpanzee%29"
+      ],
+      "sourceCount": 1,
+      "wordCount": 700,
+      "reviewedTextMatchesSaved": false,
+      "originalSource": "https://janegoodall.org/",
+      "evidenceSource": "https://en.wikipedia.org/wiki/Washoe_%28chimpanzee%29",
+      "issues": [
+        "Article not yet approved by reviewer",
+        "Saved text has not passed a matching editorial review"
+      ],
+      "factualRisk": "high",
+      "imageStatus": "awaiting_visual_and_license_review",
+      "publication": "ready_for_publish"
     }
   }
 }
