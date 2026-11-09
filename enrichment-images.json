@@ -2658,6 +2658,181 @@
       "errors": [],
       "selected": null,
       "state": "awaiting_visual_and_license_review"
+    },
+    "reflection-007": {
+      "checkedAt": "2026-11-09T22:38:05.890973Z",
+      "queries": [
+        "Notice the present"
+      ],
+      "candidates": [
+        {
+          "state": "license_metadata_pass",
+          "fileTitle": "File:\"The Nutty Squirrels Present\" titlecard.webp",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/21/%22The_Nutty_Squirrels_Present%22_titlecard.webp?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:%22The_Nutty_Squirrels_Present%22_titlecard.webp",
+          "creator": "Transfilm-Wylde Animation",
+          "attribution": "Transfilm-Wylde Animation",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "image/webp",
+          "description": "The Nutty Squirrels Present",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
+          "visualCheck": {
+            "state": "needs_visual_review",
+            "confidence": "high",
+            "issues": [],
+            "explanation": "The image is a title card for 'The Nutty Squirrels Present,' which appears to be related to a show or entertainment content. It does not visually or contextually relate to the philosophical concept of mindfulness or 'noticing the present' as described in the inspiration. The image focuses on a media title rather than illustrating themes of attending to experience or mindfulness."
+          }
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:ACCESSIBILITY OF THE HOUSE COMPLEX FOR PERSONS WITH SPECIAL NEEDS (IA gov.gpo.fdsys.CHRG-109hhrg23251).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/ACCESSIBILITY_OF_THE_HOUSE_COMPLEX_FOR_PERSONS_WITH_SPECIAL_NEEDS_%28IA_gov.gpo.fdsys.CHRG-109hhrg23251%29.pdf/page1-960px-ACCESSIBILITY_OF_THE_HOUSE_COMPLEX_FOR_PERSONS_WITH_SPECIAL_NEEDS_%28IA_gov.gpo.fdsys.CHRG-109hhrg23251%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:ACCESSIBILITY_OF_THE_HOUSE_COMPLEX_FOR_PERSONS_WITH_SPECIAL_NEEDS_(IA_gov.gpo.fdsys.CHRG-109hhrg23251).pdf",
+          "creator": "Committee on House Administration",
+          "attribution": "Committee on House Administration",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Government Publishing Office   U.S. Congress House of Representatives Committee on House Administration  ACCESSIBILITY OF THE HOUSE COMPLEX FOR PERSONS WITH SPECIAL NEEDS  Date(s) Held: 2005-07-28   109th Congress, 1st Session  GPO Document Source:  https://www.gpo.gov/fdsys/pkg/CHRG-109hhrg23251/content-detail.html \" rel=\"nofollow\">CHRG-109hhrg23251  Superintendents of Documents ID: Y 4.H 81/3  Related Items: \n Subjects: 109th;House",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
+          "visualCheck": {
+            "state": "not_checked",
+            "reason": "No API key or license metadata not approved"
+          }
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Central Notice Admin Training Slides.pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Central_Notice_Admin_Training_Slides.pdf/page1-1280px-Central_Notice_Admin_Training_Slides.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Central_Notice_Admin_Training_Slides.pdf",
+          "creator": "SWangari-WMF ,  DerHexer ,  Ciell",
+          "attribution": "SWangari-WMF ,  DerHexer ,  Ciell",
+          "license": "cc-by-sa-4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "usageTerms": "Creative Commons Attribution-Share Alike 4.0",
+          "mime": "application/pdf",
+          "description": "Central Notice Admin Training facilitated by DerHexer and Ciell on the responsibilities of a CN Admin, key policies and guidelines surrounding banners and best practices.",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
+          "visualCheck": {
+            "state": "not_checked",
+            "reason": "No API key or license metadata not approved"
+          }
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Leadership and progress, and other essays of progress, The newspaper conscience, Ages of leisure (IA cu31924030245488).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Leadership_and_progress%2C_and_other_essays_of_progress%2C_The_newspaper_conscience%2C_Ages_of_leisure_%28IA_cu31924030245488%29.pdf/page1-500px-Leadership_and_progress%2C_and_other_essays_of_progress%2C_The_newspaper_conscience%2C_Ages_of_leisure_%28IA_cu31924030245488%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Leadership_and_progress,_and_other_essays_of_progress,_The_newspaper_conscience,_Ages_of_leisure_(IA_cu31924030245488).pdf",
+          "creator": "Lloyd, Alfred H. (Alfred Henry), 1864-1927",
+          "attribution": "Lloyd, Alfred H. (Alfred Henry), 1864-1927",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "The metadata below describe the original scanning. Follow the \"All Files: HTTP\" link in the \"View the book\" box to the left to find XML files that contain more metadata about the original images and the derived formats (OCR results, PDF etc.). See also the  What is the directory structure for the texts?  FAQ for information about file content and naming conventions. \n \"Of the two essays on Leadership and progress the first has already been published in the International journal of ethics, vol. x",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Leadership and progress, and other essays of progress, The newspaper conscience, Ages of leisure (IA leadershipprogre00lloyrich).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Leadership_and_progress%2C_and_other_essays_of_progress%2C_The_newspaper_conscience%2C_Ages_of_leisure_%28IA_leadershipprogre00lloyrich%29.pdf/page1-500px-Leadership_and_progress%2C_and_other_essays_of_progress%2C_The_newspaper_conscience%2C_Ages_of_leisure_%28IA_leadershipprogre00lloyrich%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Leadership_and_progress,_and_other_essays_of_progress,_The_newspaper_conscience,_Ages_of_leisure_(IA_leadershipprogre00lloyrich).pdf",
+          "creator": "Lloyd, Alfred H. (Alfred Henry), 1864-1927",
+          "attribution": "Lloyd, Alfred H. (Alfred Henry), 1864-1927",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Subjects: Leadership; Newspapers",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Motion Picture Herald (IA motionpictureher1581unse).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Motion_Picture_Herald_%28IA_motionpictureher1581unse%29.pdf/page1-1280px-Motion_Picture_Herald_%28IA_motionpictureher1581unse%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Motion_Picture_Herald_(IA_motionpictureher1581unse).pdf",
+          "creator": "",
+          "attribution": "",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Includes section with title: Better theatres \n Formed by the union of: Exhibitors herald world, and: Motion picture news \n Merged with: Motion picture daily, to become: QP herald \n Description based on: Vol. 240, no. 22 (July 1, 1970); title from cover  \n Subjects: motion pictures",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Mühlensteth, Clémencet - Notice sur le service postal et télégraphique de l’Empire de Corée, 1902.pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/M%C3%BChlensteth%2C_Cl%C3%A9mencet_-_Notice_sur_le_service_postal_et_t%C3%A9l%C3%A9graphique_de_l%E2%80%99Empire_de_Cor%C3%A9e%2C_1902.pdf/page1-1280px-M%C3%BChlensteth%2C_Cl%C3%A9mencet_-_Notice_sur_le_service_postal_et_t%C3%A9l%C3%A9graphique_de_l%E2%80%99Empire_de_Cor%C3%A9e%2C_1902.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:M%C3%BChlensteth,_Cl%C3%A9mencet_-_Notice_sur_le_service_postal_et_t%C3%A9l%C3%A9graphique_de_l%E2%80%99Empire_de_Cor%C3%A9e,_1902.pdf",
+          "creator": "J. H. Mühlensteth et E. Clémencet",
+          "attribution": "J. H. Mühlensteth et E. Clémencet",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Notice sur le service postal et télégraphique de l’Empire de Corée, 1902",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:New England medical gazette - a monthly journal of Homoeopathic medicine, surgery, and the collateral sciences (IA newenglandmedica22bost).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/New_England_medical_gazette_-_a_monthly_journal_of_Homoeopathic_medicine%2C_surgery%2C_and_the_collateral_sciences_%28IA_newenglandmedica22bost%29.pdf/page1-960px-New_England_medical_gazette_-_a_monthly_journal_of_Homoeopathic_medicine%2C_surgery%2C_and_the_collateral_sciences_%28IA_newenglandmedica22bost%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:New_England_medical_gazette_-_a_monthly_journal_of_Homoeopathic_medicine,_surgery,_and_the_collateral_sciences_(IA_newenglandmedica22bost).pdf",
+          "creator": "",
+          "attribution": "",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Title from title page \n Imprint varies. Published by S. Whitney, M.D. (1870-1872); Otis Clapp & Son (1873-1903)  \n Subjects: Medicine",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Notice of Gigantic Horned Dinosauria from the Cretaceous.pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Notice_of_Gigantic_Horned_Dinosauria_from_the_Cretaceous.pdf/page1-500px-Notice_of_Gigantic_Horned_Dinosauria_from_the_Cretaceous.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Notice_of_Gigantic_Horned_Dinosauria_from_the_Cretaceous.pdf",
+          "creator": "O. C. Marsh",
+          "attribution": "O. C. Marsh",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "The erection of Triceratops and Nodosaurus",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Public notice- Public notice no. 22-20 - USACE-p16021coll15-362.pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Public_notice-_Public_notice_no._22-20_-_USACE-p16021coll15-362.pdf/page1-960px-Public_notice-_Public_notice_no._22-20_-_USACE-p16021coll15-362.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Public_notice-_Public_notice_no._22-20_-_USACE-p16021coll15-362.pdf",
+          "creator": "",
+          "attribution": "",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        }
+      ],
+      "errors": [],
+      "selected": null,
+      "state": "awaiting_visual_and_license_review"
     }
   }
 }
