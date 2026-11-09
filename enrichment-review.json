@@ -10,6 +10,24 @@
       "factualRisk": "low",
       "imageStatus": "requires_license_verification",
       "publication": "held_for_editorial_approval"
+    },
+    "curie-nobel": {
+      "state": "needs_review",
+      "checkedAt": "2026-11-09T01:20:38.594783Z",
+      "source": "https://www.nobelprize.org/prizes/chemistry/1911/marie-curie/facts/",
+      "sourceAccessible": true,
+      "wordCount": 671,
+      "issues": [
+        "Several claims regarding Curie's personal feelings and motivations (e.g., 'she pressed on with renewed focus, determined to substantiate her discoveries,' 'eschewing the pursuit of recognition') are not directly supported by the provided evidence.",
+        "Statements about the immediate impact of her work on cancer therapy and battlefield medicine are only partially supported by the source evidence.",
+        "The explanation of the Nobel committee initially overlooking her Physics contribution and it being corrected by advocacy lacks substantiated detail in the supplied evidence.",
+        "Descriptions of Curie's working conditions, such as makeshift labs and working with rudimentary protections, are not in the supplied evidence.",
+        "Some narrative elements (e.g., model for all those striving, actionable inspiration) are interpretive and not grounded in the cited source.",
+        "The article adds analysis on perseverance and recognition beyond what is evidenced from the card and source."
+      ],
+      "factualRisk": "medium",
+      "imageStatus": "requires_license_verification",
+      "publication": "held_for_editorial_approval"
     }
   }
 }
