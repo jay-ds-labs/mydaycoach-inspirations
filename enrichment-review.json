@@ -13,23 +13,18 @@
     },
     "curie-nobel": {
       "state": "needs_review",
-      "checkedAt": "2026-11-09T01:35:38.139482Z",
+      "checkedAt": "2026-11-09T01:46:27.066699Z",
       "source": "https://www.nobelprize.org/prizes/physics/1903/marie-curie/facts/",
       "sourceAccessible": true,
-      "wordCount": 691,
+      "wordCount": 705,
       "reviewedTextMatchesSaved": true,
       "originalSource": "https://www.nobelprize.org/prizes/chemistry/1911/marie-curie/facts/",
       "evidenceSource": "https://www.nobelprize.org/prizes/physics/1903/marie-curie/facts/",
       "issues": [
-        "The article introduces unverified motivations and inner perspectives regarding societal and professional skepticism toward Curie that are not directly substantiated by the cited source.",
-        "It includes narrative embellishments and details such as makeshift laboratory conditions and Curie assuming Pierre's academic post, which are not explicitly confirmed in the provided evidence.",
-        "References to Curie's work on mobile X-ray units during World War I, and her daughter's Nobel Prize, are present in the source evidence but are not part of the original card.",
-        "Contains analysis and quotations about wider impacts and process that extend beyond what is directly supported by the supplied evidence.",
-        "Some specifics about the isolation process, such as tons of pitchblende, are mentioned without direct verification in the source.",
-        "The article is an expanded narrative, incorporating contextual storytelling not confined to the factual record supplied."
+        "Article length 521 outside 600-1100 words"
       ],
       "factualRisk": "medium",
-      "imageStatus": "requires_license_verification",
+      "imageStatus": "awaiting_visual_and_license_review",
       "publication": "held_for_editorial_approval"
     },
     "mandela-release": {

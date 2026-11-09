@@ -1,3 +1,81 @@
 {
-  "items": {}
+  "items": {
+    "curie-nobel": {
+      "checkedAt": "2026-11-09T01:46:27.066682Z",
+      "candidates": [
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:An empirical study of the per capita yield of science Nobel prizes - is the US era coming to an end?.pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/An_empirical_study_of_the_per_capita_yield_of_science_Nobel_prizes_-_is_the_US_era_coming_to_an_end%3F.pdf/page1-960px-An_empirical_study_of_the_per_capita_yield_of_science_Nobel_prizes_-_is_the_US_era_coming_to_an_end%3F.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:An_empirical_study_of_the_per_capita_yield_of_science_Nobel_prizes_-_is_the_US_era_coming_to_an_end%3F.pdf",
+          "creator": "Gros, Claudius",
+          "attribution": "Gros, Claudius",
+          "license": "cc-by-4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+          "usageTerms": "Creative Commons Attribution 4.0",
+          "mime": "application/pdf",
+          "requiresVisualReview": true,
+          "note": "Metadata check is not legal clearance or visual relevance verification."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Barbara McClintock (1902-1992) shown in her laboratory in 1947.jpg",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Barbara_McClintock_%281902-1992%29_shown_in_her_laboratory_in_1947.jpg/1280px-Barbara_McClintock_%281902-1992%29_shown_in_her_laboratory_in_1947.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Barbara_McClintock_(1902-1992)_shown_in_her_laboratory_in_1947.jpg",
+          "creator": "Smithsonian Institution /Science Service; Restored by  Adam Cuerden",
+          "attribution": "Smithsonian Institution /Science Service; Restored by  Adam Cuerden",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "image/jpeg",
+          "requiresVisualReview": true,
+          "note": "Metadata check is not legal clearance or visual relevance verification."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Congressional Record - 2016-02-29.pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Congressional_Record_-_2016-02-29.pdf/page1-960px-Congressional_Record_-_2016-02-29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Congressional_Record_-_2016-02-29.pdf",
+          "creator": "United States Congress",
+          "attribution": "United States Congress",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "requiresVisualReview": true,
+          "note": "Metadata check is not legal clearance or visual relevance verification."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Congressional Record - 2016-09-22.pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Congressional_Record_-_2016-09-22.pdf/page1-960px-Congressional_Record_-_2016-09-22.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Congressional_Record_-_2016-09-22.pdf",
+          "creator": "The United States Congress",
+          "attribution": "The United States Congress",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "requiresVisualReview": true,
+          "note": "Metadata check is not legal clearance or visual relevance verification."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:H.R. 5143, THE H-PRIZE ACT OF 2006 (IA gov.gpo.fdsys.CHRG-109hhrg27094).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/H.R._5143%2C_THE_H-PRIZE_ACT_OF_2006_%28IA_gov.gpo.fdsys.CHRG-109hhrg27094%29.pdf/page1-960px-H.R._5143%2C_THE_H-PRIZE_ACT_OF_2006_%28IA_gov.gpo.fdsys.CHRG-109hhrg27094%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:H.R._5143,_THE_H-PRIZE_ACT_OF_2006_(IA_gov.gpo.fdsys.CHRG-109hhrg27094).pdf",
+          "creator": "Committee on Science",
+          "attribution": "Committee on Science",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "requiresVisualReview": true,
+          "note": "Metadata check is not legal clearance or visual relevance verification."
+        }
+      ],
+      "selected": null,
+      "state": "awaiting_visual_and_license_review"
+    }
+  }
 }
