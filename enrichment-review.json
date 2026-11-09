@@ -772,6 +772,56 @@
       "factualRisk": "low",
       "imageStatus": "awaiting_visual_and_license_review",
       "publication": "ready_for_publish"
+    },
+    "reflection-015": {
+      "state": "review_failed",
+      "checkedAt": "2026-11-09T22:42:33.875211Z",
+      "source": "https://plato.stanford.edu/entries/ethics/",
+      "reviewAttempts": [
+        {
+          "attempt": 1,
+          "approved": false,
+          "issues": [
+            "Several specific claims about Gandhi’s actions and methods (e.g., seeking input from peasants or particular steps in disagreement resolution) are not directly cited or supported by the provided source.",
+            "Claims regarding Gandhi’s stepwise method for addressing disagreement and interpreting adversarial positions extend beyond the evidence supplied.",
+            "Details about Gandhi’s interactions with religious and caste groups and his method of dialogue are asserted without direct supporting evidence."
+          ]
+        },
+        {
+          "attempt": 2,
+          "approved": false,
+          "issues": [
+            "Generated article length 314 outside 600-1100 words"
+          ]
+        },
+        {
+          "attempt": 3,
+          "approved": false,
+          "issues": [
+            "Article repeatedly attributes motives and internal reasoning to Gandhi unsupported by the source",
+            "The article discusses Gandhi's emphasis on 'empathy', 'generously interpreting', 'understanding the fears and concerns of the British', and 'translating arguments into ethical vocabulary familiar to adversaries', none of which are directly supported by the supplied evidence",
+            "Mentions specific tactics (explaining grievances in British terms, focus on dialogue and mutual respect) that are not explicitly substantiated in the source"
+          ]
+        }
+      ],
+      "attemptCount": 3,
+      "reviewFailureSummary": "Article not yet approved by reviewer; Saved text has not passed a matching editorial review",
+      "sourceAccessible": true,
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Mahatma_Gandhi"
+      ],
+      "sourceCount": 1,
+      "wordCount": 655,
+      "reviewedTextMatchesSaved": false,
+      "originalSource": "https://plato.stanford.edu/entries/ethics/",
+      "evidenceSource": "https://en.wikipedia.org/wiki/Mahatma_Gandhi",
+      "issues": [
+        "Article not yet approved by reviewer",
+        "Saved text has not passed a matching editorial review"
+      ],
+      "factualRisk": "high",
+      "imageStatus": "awaiting_visual_and_license_review",
+      "publication": "ready_for_publish"
     }
   }
 }
