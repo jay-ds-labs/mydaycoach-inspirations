@@ -109,50 +109,51 @@
     },
     "turing-computing": {
       "state": "review_failed",
-      "checkedAt": "2026-11-09T22:32:38.837373Z",
+      "checkedAt": "2026-11-09T22:43:15.376522Z",
       "source": "https://www.turing.ac.uk/",
       "reviewAttempts": [
         {
           "attempt": 1,
           "approved": false,
           "issues": [
-            "Generated article length 510 outside 600-1100 words"
+            "Generated article length 595 outside 600-1100 words"
           ]
         },
         {
           "attempt": 2,
           "approved": false,
           "issues": [
-            "Generated article length 570 outside 600-1100 words"
+            "No accessible or relevant evidence about Alan Turing provided; supplied source concerns Oscar Wilde",
+            "Cannot verify any concrete factual claims regarding Turing, Bletchley Park, Enigma machine, or Turing's postwar influence",
+            "Article's claims about the historical impact of Turing and wartime cryptography are unsupported by the evidence supplied"
           ]
         },
         {
           "attempt": 3,
           "approved": false,
           "issues": [
-            "Generated article length 565 outside 600-1100 words"
+            "Generated article length 449 outside 600-1100 words"
           ]
         }
       ],
       "attemptCount": 3,
-      "reviewFailureSummary": "Generated article length 565 outside 600-1100 words; Saved text has not passed a matching editorial review",
+      "reviewFailureSummary": "Article not yet approved by reviewer; Saved text has not passed a matching editorial review",
       "sourceAccessible": true,
       "sourceUrls": [
         "https://en.wikipedia.org/wiki/Oscar_Wilde"
       ],
       "sourceCount": 1,
-      "wordCount": 0,
+      "wordCount": 651,
       "reviewedTextMatchesSaved": false,
       "originalSource": "https://www.turing.ac.uk/",
       "evidenceSource": "https://en.wikipedia.org/wiki/Oscar_Wilde",
       "issues": [
-        "Generated article length 565 outside 600-1100 words",
-        "Saved text has not passed a matching editorial review",
-        "Saved article length outside 600-1100 words"
+        "Article not yet approved by reviewer",
+        "Saved text has not passed a matching editorial review"
       ],
       "factualRisk": "high",
       "imageStatus": "awaiting_visual_and_license_review",
-      "publication": "blocked_incomplete_article"
+      "publication": "ready_for_publish"
     },
     "james-webb": {
       "state": "approved",
