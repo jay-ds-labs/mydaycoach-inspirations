@@ -2145,6 +2145,190 @@
       "errors": [],
       "selected": null,
       "state": "awaiting_visual_and_license_review"
+    },
+    "reflection-004": {
+      "checkedAt": "2026-11-09T22:36:42.841295Z",
+      "queries": [
+        "Practice without applause"
+      ],
+      "candidates": [
+        {
+          "state": "license_metadata_pass",
+          "fileTitle": "File:Applause Logo.png",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Applause_Logo.png/1280px-Applause_Logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Applause_Logo.png",
+          "creator": "Fluctuationmyowndevice",
+          "attribution": "Fluctuationmyowndevice",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "image/png",
+          "description": "Logo de \"Applause\", creado por User:Magalyma y subido por mí",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
+          "visualCheck": {
+            "state": "needs_visual_review",
+            "confidence": "high",
+            "issues": [
+              "Mismatch between image content and inspiration theme"
+            ],
+            "explanation": "The image is a handwritten logo text reading 'lady gaga applause' and is identified as a logo for 'Applause'. This does not visually or contextually relate to the philosophical theme of 'Practice without applause', which involves the concept of performing actions that express values even when unnoticed. The image appears to be more related to a musical or branding context rather than the inspiration about unseen value expression."
+          }
+        },
+        {
+          "state": "license_metadata_pass",
+          "fileTitle": "File:I thought clap was a form of applause until I discovered Smirnoff.jpg",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/I_thought_clap_was_a_form_of_applause_until_I_discovered_Smirnoff.jpg/1280px-I_thought_clap_was_a_form_of_applause_until_I_discovered_Smirnoff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:I_thought_clap_was_a_form_of_applause_until_I_discovered_Smirnoff.jpg",
+          "creator": "LSE Library",
+          "attribution": "LSE Library",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "image/jpeg",
+          "description": "Badge from the Hall-Carpenter Archives.\nSource collection: digital.library.lse.ac.uk/collections/list/collections/46",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
+          "visualCheck": {
+            "state": "needs_visual_review",
+            "confidence": "high",
+            "issues": [
+              "The image's text is humorous and relates to clapping and Smirnoff but does not discuss values or actions without recognition.",
+              "The image is a badge with a statement that appears to be a joke rather than a philosophical reflection."
+            ],
+            "explanation": "The image shows a badge with text making a pun about clapping and Smirnoff, which seems intended as humor. The inspiration is a philosophical concept about practicing values without external validation. The content of the badge does not convey or relate to this philosophical theme, so it is not relevant."
+          }
+        },
+        {
+          "state": "license_metadata_pass",
+          "fileTitle": "File:Photograph of Admiral Chester Nimitz arriving on speaker's platform, to the applause of dignitiaries. - NARA - 199212.jpg",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Photograph_of_Admiral_Chester_Nimitz_arriving_on_speaker%27s_platform%2C_to_the_applause_of_dignitiaries._-_NARA_-_199212.jpg/1280px-Photograph_of_Admiral_Chester_Nimitz_arriving_on_speaker%27s_platform%2C_to_the_applause_of_dignitiaries._-_NARA_-_199212.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Photograph_of_Admiral_Chester_Nimitz_arriving_on_speaker%27s_platform,_to_the_applause_of_dignitiaries._-_NARA_-_199212.jpg",
+          "creator": "Abbie Rowe",
+          "attribution": "Abbie Rowe",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "image/jpeg",
+          "description": "",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
+          "visualCheck": {
+            "state": "needs_visual_review",
+            "confidence": "high",
+            "issues": [],
+            "explanation": "The image shows Admiral Chester Nimitz arriving on a speaker's platform and being applauded by dignitaries, which directly contradicts the inspiration's theme of 'Practice without applause' emphasizing actions expressing values unnoticed. Since the image depicts recognition and applause, it is not visually relevant to the philosophical idea of acting without external acknowledgment."
+          }
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:A friend at your elbow- (IA friendatyourelbo00shen).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/A_friend_at_your_elbow-_%28IA_friendatyourelbo00shen%29.pdf/page1-960px-A_friend_at_your_elbow-_%28IA_friendatyourelbo00shen%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:A_friend_at_your_elbow-_(IA_friendatyourelbo00shen).pdf",
+          "creator": "Shenck, J. C. [from old catalog]",
+          "attribution": "Shenck, J. C. [from old catalog]",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Subjects: Advertising",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:A man without principle ? (IA manwithoutprinci00terr).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/A_man_without_principle_%3F_%28IA_manwithoutprinci00terr%29.pdf/page1-1280px-A_man_without_principle_%3F_%28IA_manwithoutprinci00terr%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:A_man_without_principle_%3F_(IA_manwithoutprinci00terr).pdf",
+          "creator": "Terreve, Retsel \n Hocking Publishing Co., publisher \n Lowenthal-Wolf Company, printer",
+          "attribution": "Terreve, Retsel \n Hocking Publishing Co., publisher \n Lowenthal-Wolf Company, printer",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Verso of t.p.: Press of Lowenthal-Wolf Company \n Hocking Publishing Co. stamped on front cover and spine \n Red cloth stamped in white  \n Subjects:",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:An addr(e)ss, delivered with applause, at the Federal-Street Theatre, Boston, four successive nights ... beginning March 22, 1802; and after, at other principal towns .. (IA addressdelivere00gann).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/An_addr%28e%29ss%2C_delivered_with_applause%2C_at_the_Federal-Street_Theatre%2C_Boston%2C_four_successive_nights_..._beginning_March_22%2C_1802%3B_and_after%2C_at_other_principal_towns_.._%28IA_addressdelivere00gann%29.pdf/page1-500px-thumbnail.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:An_addr(e)ss,_delivered_with_applause,_at_the_Federal-Street_Theatre,_Boston,_four_successive_nights_..._beginning_March_22,_1802;_and_after,_at_other_principal_towns_.._(IA_addressdelivere00gann).pdf",
+          "creator": "Gannett, Deborah Sampson, 1760-1827 \n Tappan, Eugene, 1840-1908. [from old catalog]",
+          "attribution": "Gannett, Deborah Sampson, 1760-1827 \n Tappan, Eugene, 1840-1908. [from old catalog]",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "\"Introduction to reprint\" signed: Eugene Tappan\n \n Subjects:",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:An essay upon the action of an orator, or, his pronunciation and gesture; (IA essayuponactiono00orto).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/An_essay_upon_the_action_of_an_orator%2C_or%2C_his_pronunciation_and_gesture%3B_%28IA_essayuponactiono00orto%29.pdf/page1-500px-An_essay_upon_the_action_of_an_orator%2C_or%2C_his_pronunciation_and_gesture%3B_%28IA_essayuponactiono00orto%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:An_essay_upon_the_action_of_an_orator,_or,_his_pronunciation_and_gesture;_(IA_essayuponactiono00orto).pdf",
+          "creator": "Orton, Francis \n Foucher, Simon, 1644-1696",
+          "attribution": "Orton, Francis \n Foucher, Simon, 1644-1696",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Subjects: Public speaking",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Napanee Express December 6 1912 (IA 48-napanee-express-december-6-1912).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Napanee_Express_December_6_1912_%28IA_48-napanee-express-december-6-1912%29.pdf/page1-960px-Napanee_Express_December_6_1912_%28IA_48-napanee-express-december-6-1912%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Napanee_Express_December_6_1912_(IA_48-napanee-express-december-6-1912).pdf",
+          "creator": "Napanee Express Newspaper",
+          "attribution": "Napanee Express Newspaper",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "This\nweekly newspaper was published in Napanee, Ontario, Canada from 1862 to 1965. \n Information\non how to use this resource:  https://archive.org/details/newspaperformatlacma \" rel=\"nofollow\"> https://archive.org/details/newspaperformatlacma   \n If you have questions or require a different version of the\nnewspaper, please contact the archivist:  \n   https://countymuseum.ca/explore/archives/ \" rel=\"nofollow\"> https://countymuseum.ca/explore/archives/   \n \n Subjects: Napanee Express Newspaper",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Napanee Express November 3 1911 (IA 43-napanee-express-november-3-1911).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Napanee_Express_November_3_1911_%28IA_43-napanee-express-november-3-1911%29.pdf/page1-960px-Napanee_Express_November_3_1911_%28IA_43-napanee-express-november-3-1911%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Napanee_Express_November_3_1911_(IA_43-napanee-express-november-3-1911).pdf",
+          "creator": "Napanee Express Newspaper",
+          "attribution": "Napanee Express Newspaper",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "This\nweekly newspaper was published in Napanee, Ontario, Canada from 1862 to 1965. \n Information\non how to use this resource:  https://archive.org/details/newspaperformatlacma \" rel=\"nofollow\"> https://archive.org/details/newspaperformatlacma   \n If you have questions or require a different version of the\nnewspaper, please contact the archivist:  \n  https://countymuseum.ca/explore/archives/ \" rel=\"nofollow\"> https://countymuseum.ca/explore/archives/   \n  \n \n Subjects: Napanee Express; newspaper",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Napanee Express October 28 1910 (IA 42-napanee-express-october-28-1910).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Napanee_Express_October_28_1910_%28IA_42-napanee-express-october-28-1910%29.pdf/page1-960px-Napanee_Express_October_28_1910_%28IA_42-napanee-express-october-28-1910%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Napanee_Express_October_28_1910_(IA_42-napanee-express-october-28-1910).pdf",
+          "creator": "Napanee Express Newspaper",
+          "attribution": "Napanee Express Newspaper",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "This\nweekly newspaper was published in Napanee, Ontario, Canada from 1862 to 1965. \n Information\non how to use this resource:  https://archive.org/details/newspaperformatlacma \" rel=\"nofollow\">  https://archive.org/details/newspaperformatlacma    \n If you have questions or require a different version of the newspaper,\nplease contact the archivist:  \n  https://countymuseum.ca/explore/archives/ \" rel=\"nofollow\"> https://countymuseum.ca/explore/archives/   \n Subjects: Napanee Express; newspaper",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        }
+      ],
+      "errors": [],
+      "selected": null,
+      "state": "awaiting_visual_and_license_review"
     }
   }
 }

@@ -395,6 +395,41 @@
       "factualRisk": "low",
       "imageStatus": "awaiting_visual_and_license_review",
       "publication": "ready_for_publish"
+    },
+    "reflection-004": {
+      "state": "approved",
+      "checkedAt": "2026-11-09T22:36:42.841314Z",
+      "source": "https://plato.stanford.edu/entries/ethics-virtue/",
+      "reviewAttempts": [
+        {
+          "attempt": 1,
+          "approved": false,
+          "issues": [
+            "Generated article length 591 outside 600-1100 words"
+          ]
+        },
+        {
+          "attempt": 2,
+          "approved": true,
+          "issues": []
+        }
+      ],
+      "attemptCount": 2,
+      "reviewFailureSummary": "",
+      "sourceAccessible": true,
+      "sourceUrls": [
+        "https://plato.stanford.edu/entries/ethics-virtue/",
+        "https://en.wikipedia.org/wiki/Glossary_of_French_words_and_expressions_in_English"
+      ],
+      "sourceCount": 2,
+      "wordCount": 811,
+      "reviewedTextMatchesSaved": true,
+      "originalSource": "https://plato.stanford.edu/entries/ethics-virtue/",
+      "evidenceSource": "https://plato.stanford.edu/entries/ethics-virtue/",
+      "issues": [],
+      "factualRisk": "low",
+      "imageStatus": "awaiting_visual_and_license_review",
+      "publication": "ready_for_publish"
     }
   }
 }
