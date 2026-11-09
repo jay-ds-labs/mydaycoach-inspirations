@@ -6956,6 +6956,36 @@
       "errors": [],
       "selected": null,
       "state": "awaiting_visual_and_license_review"
+    },
+    "generated-0f18752c304a466e9970": {
+      "checkedAt": "2026-11-09T22:54:42.246325Z",
+      "queries": [
+        "The Perseverance of George Washington Carver: Science from Scraps"
+      ],
+      "candidates": [
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Arizona lyrics .. (IA arizonalyrics00bond).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Arizona_lyrics_.._%28IA_arizonalyrics00bond%29.pdf/page1-1280px-Arizona_lyrics_.._%28IA_arizonalyrics00bond%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Arizona_lyrics_.._(IA_arizonalyrics00bond).pdf",
+          "creator": "Bond, Josiah. [from old catalog]",
+          "attribution": "Bond, Josiah. [from old catalog]",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Subjects:",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
+          "visualCheck": {
+            "state": "not_checked",
+            "reason": "No API key or license metadata not approved"
+          }
+        }
+      ],
+      "errors": [],
+      "selected": null,
+      "state": "awaiting_visual_and_license_review"
     }
   }
 }

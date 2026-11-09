@@ -1658,6 +1658,54 @@
       "factualRisk": "low",
       "imageStatus": "awaiting_visual_and_license_review",
       "publication": "ready_for_publish"
+    },
+    "generated-0f18752c304a466e9970": {
+      "state": "review_failed",
+      "checkedAt": "2026-11-09T22:54:42.246338Z",
+      "source": "https://www.nps.gov/gwca/learn/historyculture/george-washington-carver-biography.htm",
+      "reviewAttempts": [
+        {
+          "attempt": 1,
+          "approved": false,
+          "issues": [
+            "Generated article length 514 outside 600-1100 words"
+          ]
+        },
+        {
+          "attempt": 2,
+          "approved": false,
+          "issues": [
+            "Generated article length 548 outside 600-1100 words"
+          ]
+        },
+        {
+          "attempt": 3,
+          "approved": false,
+          "issues": [
+            "No direct source evidence provided for verification",
+            "Factual claims about Carver's work and life cannot be validated against supplied evidence",
+            "Source evidence is about Lonnie Johnson, not George Washington Carver"
+          ]
+        }
+      ],
+      "attemptCount": 3,
+      "reviewFailureSummary": "Article not yet approved by reviewer; Saved text has not passed a matching editorial review",
+      "sourceAccessible": true,
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Lonnie_Johnson_%28inventor%29"
+      ],
+      "sourceCount": 1,
+      "wordCount": 617,
+      "reviewedTextMatchesSaved": false,
+      "originalSource": "https://www.nps.gov/gwca/learn/historyculture/george-washington-carver-biography.htm",
+      "evidenceSource": "https://en.wikipedia.org/wiki/Lonnie_Johnson_%28inventor%29",
+      "issues": [
+        "Article not yet approved by reviewer",
+        "Saved text has not passed a matching editorial review"
+      ],
+      "factualRisk": "high",
+      "imageStatus": "awaiting_visual_and_license_review",
+      "publication": "ready_for_publish"
     }
   }
 }
