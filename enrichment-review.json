@@ -430,6 +430,34 @@
       "factualRisk": "low",
       "imageStatus": "awaiting_visual_and_license_review",
       "publication": "ready_for_publish"
+    },
+    "reflection-005": {
+      "state": "approved",
+      "checkedAt": "2026-11-09T22:36:59.139251Z",
+      "source": "https://plato.stanford.edu/entries/ethics-virtue/",
+      "reviewAttempts": [
+        {
+          "attempt": 1,
+          "approved": true,
+          "issues": []
+        }
+      ],
+      "attemptCount": 1,
+      "reviewFailureSummary": "",
+      "sourceAccessible": true,
+      "sourceUrls": [
+        "https://plato.stanford.edu/entries/ethics-virtue/",
+        "https://en.wikipedia.org/wiki/Citizen_Kane"
+      ],
+      "sourceCount": 2,
+      "wordCount": 821,
+      "reviewedTextMatchesSaved": true,
+      "originalSource": "https://plato.stanford.edu/entries/ethics-virtue/",
+      "evidenceSource": "https://plato.stanford.edu/entries/ethics-virtue/",
+      "issues": [],
+      "factualRisk": "low",
+      "imageStatus": "awaiting_visual_and_license_review",
+      "publication": "ready_for_publish"
     }
   }
 }

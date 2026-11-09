@@ -2329,6 +2329,179 @@
       "errors": [],
       "selected": null,
       "state": "awaiting_visual_and_license_review"
+    },
+    "reflection-005": {
+      "checkedAt": "2026-11-09T22:36:59.139239Z",
+      "queries": [
+        "Character through repetition"
+      ],
+      "candidates": [
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:American ecclesiastical review (IA gri 33125006764076).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/American_ecclesiastical_review_%28IA_gri_33125006764076%29.pdf/page1-960px-American_ecclesiastical_review_%28IA_gri_33125006764076%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:American_ecclesiastical_review_(IA_gri_33125006764076).pdf",
+          "creator": "",
+          "attribution": "",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "32 v. : 23 cm \n 1892- \"A monthly publication for the clergy\" \n Imprint varies \n Founded and for many years edited by H. J. Heuser \n Volume numbers irregular : v. 9, no. 3- v. 10, no. 1 called v. 8, no. 3- v. 9, no. 1 \n Vols. 11-32 called also: New ser., v. 1-10, July 1894-June 1899; ser. 3, v. 1-10, July 1899-June 1904; ser. 4 v. 1-2, July 1904-June 1905 \n Vols. 1-25, 1889-1901. 1 v. ; v. 1-50, 1889-June 1914. 1 v. (includes index to later title)  \n Subjects: Catholic Church -- Periodicals",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
+          "visualCheck": {
+            "state": "not_checked",
+            "reason": "No API key or license metadata not approved"
+          }
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Autogravure and Man's dual nature, practical science of character building through analogy, concrete and objective methods (IA autogravuremansd00hall).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Autogravure_and_Man%27s_dual_nature%2C_practical_science_of_character_building_through_analogy%2C_concrete_and_objective_methods_%28IA_autogravuremansd00hall%29.pdf/page1-500px-Autogravure_and_Man%27s_dual_nature%2C_practical_science_of_character_building_through_analogy%2C_concrete_and_objective_methods_%28IA_autogravuremansd00hall%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Autogravure_and_Man%27s_dual_nature,_practical_science_of_character_building_through_analogy,_concrete_and_objective_methods_(IA_autogravuremansd00hall).pdf",
+          "creator": "Hall, Alice (Shellabarger), Mrs. [from old catalog]",
+          "attribution": "Hall, Alice (Shellabarger), Mrs. [from old catalog]",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Subjects: Character",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
+          "visualCheck": {
+            "state": "not_checked",
+            "reason": "No API key or license metadata not approved"
+          }
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Character sketches of romance, fiction and the drama (IA charactersketche00inbrew).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Character_sketches_of_romance%2C_fiction_and_the_drama_%28IA_charactersketche00inbrew%29.pdf/page1-960px-Character_sketches_of_romance%2C_fiction_and_the_drama_%28IA_charactersketche00inbrew%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Character_sketches_of_romance,_fiction_and_the_drama_(IA_charactersketche00inbrew).pdf",
+          "creator": "Brewer, Ebenezer Cobham",
+          "attribution": "Brewer, Ebenezer Cobham",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "http://uf.catalog.fcla.edu/uf.jsp?st=UF000599785&ix=nu&I=0&V=D&pm=1 \n \n Subjects: Literature; Allusions; Fiction.",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
+          "visualCheck": {
+            "state": "not_checked",
+            "reason": "No API key or license metadata not approved"
+          }
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Crayon and character - truth made clear through eye and ear or ten-minute talks with colored chalks (1913) (14761550444).jpg",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Crayon_and_character_-_truth_made_clear_through_eye_and_ear_or_ten-minute_talks_with_colored_chalks_%281913%29_%2814761550444%29.jpg/1280px-Crayon_and_character_-_truth_made_clear_through_eye_and_ear_or_ten-minute_talks_with_colored_chalks_%281913%29_%2814761550444%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Crayon_and_character_-_truth_made_clear_through_eye_and_ear_or_ten-minute_talks_with_colored_chalks_(1913)_(14761550444).jpg",
+          "creator": "Internet Archive Book Images",
+          "attribution": "Internet Archive Book Images",
+          "license": "no-restrictions",
+          "licenseUrl": "https://www.flickr.com/commons/usage/",
+          "usageTerms": "No known copyright restrictions",
+          "mime": "image/jpeg",
+          "description": "Identifier : crayoncharactert00gris ( find matches ) \n Title :  Crayon and character : truth made clear through eye and ear or ten-minute talks with colored chalks  \n Year :  1913  ( 1910s ) \n Authors :   Griswold, B. J. (Bert Joseph), 1873-1927   Harry Houdini Collection (Library of Congress) DLC  \n Subjects :   Chalk-talks   Moral education   Religious education  \n Publisher :   Indianapolis, Ind. : Meigs Publishing Co.  \n Contributing Library :   The Library of Congress  \n Digitizing Sponsor ",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Crayon and character - truth made clear through eye and ear or ten-minute talks with colored chalks (IA crayoncharactert00gris).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Crayon_and_character_-_truth_made_clear_through_eye_and_ear_or_ten-minute_talks_with_colored_chalks_%28IA_crayoncharactert00gris%29.pdf/page1-960px-Crayon_and_character_-_truth_made_clear_through_eye_and_ear_or_ten-minute_talks_with_colored_chalks_%28IA_crayoncharactert00gris%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Crayon_and_character_-_truth_made_clear_through_eye_and_ear_or_ten-minute_talks_with_colored_chalks_(IA_crayoncharactert00gris).pdf",
+          "creator": "Griswold, B. J. (Bert Joseph), 1873-1927 \n Harry Houdini Collection (Library of Congress) DLC",
+          "attribution": "Griswold, B. J. (Bert Joseph), 1873-1927 \n Harry Houdini Collection (Library of Congress) DLC",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Includes index\n \n Subjects: Chalk-talks; Moral education; Religious education",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Socializing the child; a guide to the teaching of history in the primary grades (IA cu31924013381508).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Socializing_the_child%3B_a_guide_to_the_teaching_of_history_in_the_primary_grades_%28IA_cu31924013381508%29.pdf/page1-500px-Socializing_the_child%3B_a_guide_to_the_teaching_of_history_in_the_primary_grades_%28IA_cu31924013381508%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Socializing_the_child;_a_guide_to_the_teaching_of_history_in_the_primary_grades_(IA_cu31924013381508).pdf",
+          "creator": "Dynes, Sarah Ann, 1865-",
+          "attribution": "Dynes, Sarah Ann, 1865-",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "The metadata below describe the original scanning. Follow the \"All Files: HTTP\" link in the \"View the book\" box to the left to find XML files that contain more metadata about the original images and the derived formats (OCR results, PDF etc.). See also the  What is the directory structure for the texts?  FAQ for information about file content and naming conventions. \n \"List of ... references\": p. 282-294  \n Subjects: Education; History",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:The literature of all nations and all ages; history, character, and incident (IA literatureofalln01hawt).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/The_literature_of_all_nations_and_all_ages%3B_history%2C_character%2C_and_incident_%28IA_literatureofalln01hawt%29.pdf/page1-500px-The_literature_of_all_nations_and_all_ages%3B_history%2C_character%2C_and_incident_%28IA_literatureofalln01hawt%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:The_literature_of_all_nations_and_all_ages;_history,_character,_and_incident_(IA_literatureofalln01hawt).pdf",
+          "creator": "Hawthorne, Julian, 1846-1934 \n Young, John Russell, 1840-1899 \n Lamberton, John Porter, 1839-1917",
+          "attribution": "Hawthorne, Julian, 1846-1934 \n Young, John Russell, 1840-1899 \n Lamberton, John Porter, 1839-1917",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Subjects: Literature",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:The socialization of humanity - an analysis and synthesis of the phenomena of nature, life, mind and society through the law of repetition ; a system of monistic philosophy (IA socializationofh00franiala).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/The_socialization_of_humanity_-_an_analysis_and_synthesis_of_the_phenomena_of_nature%2C_life%2C_mind_and_society_through_the_law_of_repetition_%3B_a_system_of_monistic_philosophy_%28IA_socializationofh00franiala%29.pdf/page1-500px-thumbnail.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:The_socialization_of_humanity_-_an_analysis_and_synthesis_of_the_phenomena_of_nature,_life,_mind_and_society_through_the_law_of_repetition_;_a_system_of_monistic_philosophy_(IA_socializationofh00franiala).pdf",
+          "creator": "Franklin, Charles Kendall",
+          "attribution": "Franklin, Charles Kendall",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Subjects: Humanity",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Travels through France and Italy containing observations on character, customs, religion, government, police, commerce, arts (IA travelsthroughfr01smol).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Travels_through_France_and_Italy_containing_observations_on_character%2C_customs%2C_religion%2C_government%2C_police%2C_commerce%2C_arts_%28IA_travelsthroughfr01smol%29.pdf/page1-500px-Travels_through_France_and_Italy_containing_observations_on_character%2C_customs%2C_religion%2C_government%2C_police%2C_commerce%2C_arts_%28IA_travelsthroughfr01smol%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Travels_through_France_and_Italy_containing_observations_on_character,_customs,_religion,_government,_police,_commerce,_arts_(IA_travelsthroughfr01smol).pdf",
+          "creator": "Smollett, T. (Tobias), 1721-1771",
+          "attribution": "Smollett, T. (Tobias), 1721-1771",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "ESTC (RLIN) \n Bound in old polished calf; sprinkled edges; armorial bookplate of Eugene Kelly and label of Ulrich Middeldorf on front pastedowns; former owners' signatures on title-pages and half-titles of both volumes  \n Subjects: Smollett, T. (Tobias), 1721-1771; Smollett, T. (Tobias), 1721-1771",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Travels through France and Italy. Containing observations on character, customs, religion, government, police, commerce, arts, and antiquities. With a particular description of the (IA b30526978 0001).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Travels_through_France_and_Italy._Containing_observations_on_character%2C_customs%2C_religion%2C_government%2C_police%2C_commerce%2C_arts%2C_and_antiquities._With_a_particular_description_of_the_%28IA_b30526978_0001%29.pdf/page1-960px-thumbnail.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Travels_through_France_and_Italy._Containing_observations_on_character,_customs,_religion,_government,_police,_commerce,_arts,_and_antiquities._With_a_particular_description_of_the_(IA_b30526978_0001).pdf",
+          "creator": "Smollett, T. (Tobias), 1721-1771",
+          "attribution": "Smollett, T. (Tobias), 1721-1771",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "2 volumes ; (8vo)\n \n Subjects: Travel; France; Italy",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        }
+      ],
+      "errors": [],
+      "selected": null,
+      "state": "awaiting_visual_and_license_review"
     }
   }
 }
