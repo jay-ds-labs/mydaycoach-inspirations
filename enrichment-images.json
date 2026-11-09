@@ -4344,6 +4344,185 @@
       "errors": [],
       "selected": null,
       "state": "awaiting_visual_and_license_review"
+    },
+    "reflection-017": {
+      "checkedAt": "2026-11-09T22:44:18.550845Z",
+      "queries": [
+        "Make space for rest"
+      ],
+      "candidates": [
+        {
+          "state": "license_metadata_pass",
+          "fileTitle": "File:Field (BC, Canada), Trans-Canada Highway, Rest Area -- 2022 -- 163551.jpg",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Field_%28BC%2C_Canada%29%2C_Trans-Canada_Highway%2C_Rest_Area_--_2022_--_163551.jpg/1280px-Field_%28BC%2C_Canada%29%2C_Trans-Canada_Highway%2C_Rest_Area_--_2022_--_163551.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Field_(BC,_Canada),_Trans-Canada_Highway,_Rest_Area_--_2022_--_163551.jpg",
+          "creator": "Dietmar Rabich",
+          "attribution": "Dietmar Rabich",
+          "license": "cc-by-sa-4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "usageTerms": "Creative Commons Attribution-Share Alike 4.0",
+          "mime": "image/jpeg",
+          "description": "Welcome sign  before the provincial border between  British Columbia  and  Alberta  at the rest area of the  Trans-Canada Highway , Field, British Columbia, Canada  The rest area with the welcome sign is assigned to the  Kicking Horse Pass  and thus to the  Yoho  National Park   respectively to the village Field. The border between British Columbia and Alberta is about 100 meters behind the sign.",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
+          "visualCheck": {
+            "state": "relevant_candidate",
+            "confidence": "high",
+            "issues": [],
+            "explanation": "The image shows a rest area along the Trans-Canada Highway with a welcome sign indicating a place for stopping and taking a break. This directly aligns with the inspiration's message about making space for rest as part of a sustainable lifestyle, which requires more than continuous tasks. The image contextualizes a physical place designed for rest, supporting the philosophical idea of sustainability through rest."
+          }
+        },
+        {
+          "state": "license_metadata_pass",
+          "fileTitle": "File:Flickr - Official U.S. Navy Imagery - The space shuttle Discovery makes its final flight..jpg",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Flickr_-_Official_U.S._Navy_Imagery_-_The_space_shuttle_Discovery_makes_its_final_flight..jpg/1280px-Flickr_-_Official_U.S._Navy_Imagery_-_The_space_shuttle_Discovery_makes_its_final_flight..jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Flickr_-_Official_U.S._Navy_Imagery_-_The_space_shuttle_Discovery_makes_its_final_flight..jpg",
+          "creator": "Official Navy Page  from United States of America\n \nJames B Clark/U.S. Navy",
+          "attribution": "Official Navy Page  from United States of America\n \nJames B Clark/U.S. Navy",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "image/jpeg",
+          "description": "SPACE COAST, Fla. (April 17, 2012) The space shuttle Discovery attached to its 747 transport takes off from Kennedy Space Center as it makes it final flight. It will land in Washington D.C. to become an exhibit at the Smithsonian Air and Space Museum. Naval Aviators commanded 27 of the 39 Discovery missions. Discovery, along with the rest of the shuttle fleet, has been retired from active service after 32 years of operations. (U.S. Navy photo by Chief Petty Officer James B. Clark/Released) 12041",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
+          "visualCheck": {
+            "state": "needs_visual_review",
+            "confidence": "high",
+            "issues": [],
+            "explanation": "The image shows the space shuttle Discovery being transported on a 747 aircraft, which represents a historic and technological event related to space exploration. The inspiration concerns making space for rest and living sustainably beyond an endless sequence of tasks. There is no clear visible connection or metaphorical relevance between the image content and the philosophy of rest and sustainability described in the inspiration."
+          }
+        },
+        {
+          "state": "license_metadata_pass",
+          "fileTitle": "File:Rest in Space Michael Collins (51145321028).jpg",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Rest_in_Space_Michael_Collins_%2851145321028%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Rest_in_Space_Michael_Collins_(51145321028).jpg",
+          "creator": "Steve Jurvetson  from Los Altos, USA",
+          "attribution": "Steve Jurvetson  from Los Altos, USA",
+          "license": "cc-by-2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+          "usageTerms": "Creative Commons Attribution 2.0",
+          "mime": "image/jpeg",
+          "description": "A Earth Hero passed today.  I went back to his fantastic autobiography  ℎ  to digitize some of his words.  Collins was the best astronaut writer IMHO:\n  “My first impression is a feeling of awe at the wide visual field, a sense of release after the narrow restrictions of the tiny Gemini window. My God, the stars are everywhere. The stars are bright and they are steady.\n  This is the best view of the universe that a human has ever had. We are gliding across the world in total silence, with absolu",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
+          "visualCheck": {
+            "state": "relevant_candidate",
+            "confidence": "high",
+            "issues": [],
+            "explanation": "The image shows a view of Earth from space with a sense of calm and awe, which resonates well with the inspiration about making space for rest and appreciating life beyond endless tasks. The title 'Rest in Space' combined with the astronaut Michael Collins' reflective words about awe and silence further strengthen the connection to the philosophy of sustainable living and finding moments of rest."
+          }
+        },
+        {
+          "state": "license_metadata_pass",
+          "fileTitle": "File:SpaceShipOne Takeoff photo Don Ramey Logan.jpg",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/SpaceShipOne_Takeoff_photo_Don_Ramey_Logan.jpg/1280px-SpaceShipOne_Takeoff_photo_Don_Ramey_Logan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:SpaceShipOne_Takeoff_photo_Don_Ramey_Logan.jpg",
+          "creator": "Don Ramey Logan",
+          "attribution": "Photograph by Don Ramey Logan",
+          "license": "cc-by-sa-3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "usageTerms": "Creative Commons Attribution-Share Alike 3.0",
+          "mime": "image/jpeg",
+          "description": "SpaceShipOne flight 17p Takeoff photo Don Ramey Logan",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "license_metadata_pass",
+          "fileTitle": "File:SpaceShipOne National Air and Space Museum photo Don Ramey Logan.jpg",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/SpaceShipOne_National_Air_and_Space_Museum_photo_Don_Ramey_Logan.jpg/1280px-SpaceShipOne_National_Air_and_Space_Museum_photo_Don_Ramey_Logan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:SpaceShipOne_National_Air_and_Space_Museum_photo_Don_Ramey_Logan.jpg",
+          "creator": "Don Ramey Logan",
+          "attribution": "Photograph by Don Ramey Logan",
+          "license": "cc-by-4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+          "usageTerms": "Creative Commons Attribution 4.0",
+          "mime": "image/jpeg",
+          "description": "SpaceShipOne National Air and Space Museum photo Don Ramey Logan",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Frank Fairleigh; or, Scenes from the life of a private pupil (IA frankfairleighor00smeduoft).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Frank_Fairleigh%3B_or%2C_Scenes_from_the_life_of_a_private_pupil_%28IA_frankfairleighor00smeduoft%29.pdf/page1-500px-Frank_Fairleigh%3B_or%2C_Scenes_from_the_life_of_a_private_pupil_%28IA_frankfairleighor00smeduoft%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Frank_Fairleigh;_or,_Scenes_from_the_life_of_a_private_pupil_(IA_frankfairleighor00smeduoft).pdf",
+          "creator": "Smedley, Francis Edward, 1818-1864",
+          "attribution": "Smedley, Francis Edward, 1818-1864",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Subjects:",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Guide for Cultural and Memory Institutions to make women visible on Wikipedia.pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Guide_for_Cultural_and_Memory_Institutions_to_make_women_visible_on_Wikipedia.pdf/page1-960px-Guide_for_Cultural_and_Memory_Institutions_to_make_women_visible_on_Wikipedia.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Guide_for_Cultural_and_Memory_Institutions_to_make_women_visible_on_Wikipedia.pdf",
+          "creator": "Señoritaleona",
+          "attribution": "Señoritaleona",
+          "license": "cc-by-sa-4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "usageTerms": "Creative Commons Attribution-Share Alike 4.0",
+          "mime": "application/pdf",
+          "description": "This guide has been created especially to support you and your institution to join and participate in #VisibleWikiWomen – a global campaign to increase the number of freely-licensed images of notable women on Wikipedia and the broader internet.",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:How to make baskets (IA howtomakebaskets00whitrich).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/How_to_make_baskets_%28IA_howtomakebaskets00whitrich%29.pdf/page1-500px-How_to_make_baskets_%28IA_howtomakebaskets00whitrich%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:How_to_make_baskets_(IA_howtomakebaskets00whitrich).pdf",
+          "creator": "White, Mary, 1869-1952 \n Blanchan, Neltje, 1865-1918",
+          "attribution": "White, Mary, 1869-1952 \n Blanchan, Neltje, 1865-1918",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Subjects: Basket making",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Life without and life within; or, Reviews, narratives, essays, and poems (IA withoutlifewithi00fullrich).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Life_without_and_life_within%3B_or%2C_Reviews%2C_narratives%2C_essays%2C_and_poems_%28IA_withoutlifewithi00fullrich%29.pdf/page1-500px-Life_without_and_life_within%3B_or%2C_Reviews%2C_narratives%2C_essays%2C_and_poems_%28IA_withoutlifewithi00fullrich%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Life_without_and_life_within;_or,_Reviews,_narratives,_essays,_and_poems_(IA_withoutlifewithi00fullrich).pdf",
+          "creator": "Fuller, Margaret, 1810-1850 \n Fuller, Arthur B. (Arthur Buckminster), 1822-1862",
+          "attribution": "Fuller, Margaret, 1810-1850 \n Fuller, Arthur B. (Arthur Buckminster), 1822-1862",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Subjects:",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Lyrics of life (IA lyricsoflife00demi).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Lyrics_of_life_%28IA_lyricsoflife00demi%29.pdf/page1-500px-Lyrics_of_life_%28IA_lyricsoflife00demi%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Lyrics_of_life_(IA_lyricsoflife00demi).pdf",
+          "creator": "Deming, Adèle Chester",
+          "attribution": "Deming, Adèle Chester",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Subjects:",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        }
+      ],
+      "errors": [],
+      "selected": null,
+      "state": "awaiting_visual_and_license_review"
     }
   }
 }
