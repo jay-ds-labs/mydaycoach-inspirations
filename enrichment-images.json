@@ -1199,6 +1199,149 @@
       "errors": [],
       "selected": null,
       "state": "awaiting_visual_and_license_review"
+    },
+    "james-webb": {
+      "checkedAt": "2026-11-09T22:33:10.094691Z",
+      "queries": [
+        "Patience in complex projects"
+      ],
+      "candidates": [
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:A FURTHER EXAMINATION OF POTENTIAL OBSERVATION NETWORK DESIGN WITH MESOSCALE ENSEMBLE SENSITIVITIES IN COMPLEX TERRAIN (IA afurtherexaminat1094532917).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/A_FURTHER_EXAMINATION_OF_POTENTIAL_OBSERVATION_NETWORK_DESIGN_WITH_MESOSCALE_ENSEMBLE_SENSITIVITIES_IN_COMPLEX_TERRAIN_%28IA_afurtherexaminat1094532917%29.pdf/page1-960px-A_FURTHER_EXAMINATION_OF_POTENTIAL_OBSERVATION_NETWORK_DESIGN_WITH_MESOSCALE_ENSEMBLE_SENSITIVITIES_IN_COMPLEX_TERRAIN_%28IA_afurtherexaminat1094532917%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:A_FURTHER_EXAMINATION_OF_POTENTIAL_OBSERVATION_NETWORK_DESIGN_WITH_MESOSCALE_ENSEMBLE_SENSITIVITIES_IN_COMPLEX_TERRAIN_(IA_afurtherexaminat1094532917).pdf",
+          "creator": "Wile, Sean M.",
+          "attribution": "Wile, Sean M.",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Recent expansion in availability of stand-alone atmospheric observing sensors introduces the question of where placement maximizes gain in forecast accuracy. This study examined how sensitivity analysis and observation targeting can be used to optimize sensor placement. The primary objective of this project was to determine whether a mesoscale Ensemble Sensitivity Analysis (ESA) can be used to identify the sensitivity profile of fog formation in a complex terrain environment. Building on work by",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
+          "visualCheck": {
+            "state": "not_checked",
+            "reason": "No API key or license metadata not approved"
+          }
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Inventory management of cholera vaccinations in the event of complex natural disasters (IA inventorymanagem1094547953).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Inventory_management_of_cholera_vaccinations_in_the_event_of_complex_natural_disasters_%28IA_inventorymanagem1094547953%29.pdf/page1-960px-Inventory_management_of_cholera_vaccinations_in_the_event_of_complex_natural_disasters_%28IA_inventorymanagem1094547953%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Inventory_management_of_cholera_vaccinations_in_the_event_of_complex_natural_disasters_(IA_inventorymanagem1094547953).pdf",
+          "creator": "Gregory, Joshua A. \n Taranto, Christine",
+          "attribution": "Gregory, Joshua A. \n Taranto, Christine",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "This MBA Project explores the considerations and recommendations for mass vaccination campaigns in response to natural disasters and their secondary effects, specifically cholera epidemics and the vaccine stockpile necessary to effectively treat the disease. Cholera is a significant post disaster risk to an already affected population. As a first responder to these disasters, the Marine Air Ground Task Force (MAGTF) must consider an epidemic cholera outbreak as a threat to mitigate and be consid",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
+          "visualCheck": {
+            "state": "not_checked",
+            "reason": "No API key or license metadata not approved"
+          }
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:MITIGATING COST AND SCHEDULE RISK FROM ENVIRONMENTAL LITIGATION OVER DOD PROJECTS IN HAWAII (IA mitigatingcostan1094532904).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/MITIGATING_COST_AND_SCHEDULE_RISK_FROM_ENVIRONMENTAL_LITIGATION_OVER_DOD_PROJECTS_IN_HAWAII_%28IA_mitigatingcostan1094532904%29.pdf/page1-960px-MITIGATING_COST_AND_SCHEDULE_RISK_FROM_ENVIRONMENTAL_LITIGATION_OVER_DOD_PROJECTS_IN_HAWAII_%28IA_mitigatingcostan1094532904%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:MITIGATING_COST_AND_SCHEDULE_RISK_FROM_ENVIRONMENTAL_LITIGATION_OVER_DOD_PROJECTS_IN_HAWAII_(IA_mitigatingcostan1094532904).pdf",
+          "creator": "Stefani, Michael R.",
+          "attribution": "Stefani, Michael R.",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "The National Environmental Policy Act of 1969, coupled with advances in communication technology, have brought the general public into the decision-making process for environmental reviews required to make federally funded infrastructure project decisions. This public participation is well pronounced in the state of Hawaii with its strong environmental, historical, and cultural ties. This public involvement, along with the often variable analysis and communication requirements, has the potential",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
+          "visualCheck": {
+            "state": "not_checked",
+            "reason": "No API key or license metadata not approved"
+          }
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Optimal selection of Army military construction projects (IA optimalselection109455935).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Optimal_selection_of_Army_military_construction_projects_%28IA_optimalselection109455935%29.pdf/page1-960px-Optimal_selection_of_Army_military_construction_projects_%28IA_optimalselection109455935%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Optimal_selection_of_Army_military_construction_projects_(IA_optimalselection109455935).pdf",
+          "creator": "Dzwonchyk, James D.",
+          "attribution": "Dzwonchyk, James D.",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "The Assistant Chief of Staff for Installation Management (ACSIM) manages all Army military construction (MILCON) implementation and requests. Annually, the ACSIM submits a prioritized list of MILCON projects requiring Congressional approval. Typically, Congress does not approve all Army requests. This thesis develops an integer linear program, PESA (Project Evaluation and Selection Assistant), to assist the ACSIM evaluate and select the best set of MILCON projects under various policies and budg",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Prioritization of capital projects (IA prioritizationof109453627).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Prioritization_of_capital_projects_%28IA_prioritizationof109453627%29.pdf/page1-960px-Prioritization_of_capital_projects_%28IA_prioritizationof109453627%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Prioritization_of_capital_projects_(IA_prioritizationof109453627).pdf",
+          "creator": "LaVielle, Michael S.",
+          "attribution": "LaVielle, Michael S.",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Public works capital projects in the U.S. naval forces are not prioritized and funded in a way that best uses limited operations resources and maintenance dollars. This thesis develops a linear model for public works commands to effectively prioritize and fund capital projects. This model allows each command to set its own criteria and weightings which are then used to score and rank capital projects. Using objective criteria, it seamlessly integrates new projects with existing projects into a c",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Resource management of single and multiple projects. (IA resourcemanageme00vonh).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Resource_management_of_single_and_multiple_projects._%28IA_resourcemanageme00vonh%29.pdf/page1-1280px-Resource_management_of_single_and_multiple_projects._%28IA_resourcemanageme00vonh%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Resource_management_of_single_and_multiple_projects._(IA_resourcemanageme00vonh).pdf",
+          "creator": "Von Hagel, Edward J.",
+          "attribution": "Von Hagel, Edward J.",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Available from National Technical Information Service, Springfield, Va \n Thesis (M.S. in Eng.) University of Florida, June 1987 \n Bibliography: . 153-154 \n c.1  \n Subjects: Civil engineering",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Selecting planning and scheduling specifications for construction projects. (IA selectingplannin00ball).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Selecting_planning_and_scheduling_specifications_for_construction_projects._%28IA_selectingplannin00ball%29.pdf/page1-960px-Selecting_planning_and_scheduling_specifications_for_construction_projects._%28IA_selectingplannin00ball%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Selecting_planning_and_scheduling_specifications_for_construction_projects._(IA_selectingplannin00ball).pdf",
+          "creator": "Ballast, Leaf Aquilla.",
+          "attribution": "Ballast, Leaf Aquilla.",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Thesis (M.S. in Engineering) the University of Texas at Austin, May 2000 \n Includes bibliographical references (leaf 163) \n This thesis analyzes the effect of contract remuneration type and project complexity on the desirability of planning and scheduling specification clauses for construction projects. The information in this thesis is based on the analysis of responses to a survey that was sent to randomly selected construction companies, large owners, and various Naval Facilities Engineering ",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Modeling single-event transients in complex digital systems (IA modelingsingleev109459776).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Modeling_single-event_transients_in_complex_digital_systems_%28IA_modelingsingleev109459776%29.pdf/page1-960px-Modeling_single-event_transients_in_complex_digital_systems_%28IA_modelingsingleev109459776%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Modeling_single-event_transients_in_complex_digital_systems_(IA_modelingsingleev109459776).pdf",
+          "creator": "Clark, Kenneth A.",
+          "attribution": "Clark, Kenneth A.",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "A methodology to determine the effect of single-event transients (SETs) on complex digital systems has been developed. This methodology is based on the SET-state-transition model. This model breaks the complex digital system down into five states. These states are the error-free/transient-free state, the logic-gate-transient state, the single -event-upset (SEU) state, the output-driver transient state, and the failure state. The state -transitional probabilities of the model are determined by SE",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        }
+      ],
+      "errors": [],
+      "selected": null,
+      "state": "awaiting_visual_and_license_review"
     }
   }
 }

@@ -153,6 +153,43 @@
       "factualRisk": "high",
       "imageStatus": "awaiting_visual_and_license_review",
       "publication": "blocked_incomplete_article"
+    },
+    "james-webb": {
+      "state": "approved",
+      "checkedAt": "2026-11-09T22:33:10.094707Z",
+      "source": "https://science.nasa.gov/mission/webb/",
+      "reviewAttempts": [
+        {
+          "attempt": 1,
+          "approved": false,
+          "issues": [
+            "Article introduces unsupported specifics, such as the ability to detect 'the heat of a bumblebee at the Moon’s distance', that are not directly found in the supplied NASA source.",
+            "Describes technical testing and procedures (e.g. 'every system, down to the most minute actuator, was subjected to rigorous, multi-stage testing') at a level of detail and specificity not present in the source evidence.",
+            "Details of the sunshield deployment, mentioning 'tightening the sunshield’s layers', are not explicitly supported by the NASA source."
+          ]
+        },
+        {
+          "attempt": 2,
+          "approved": true,
+          "issues": []
+        }
+      ],
+      "attemptCount": 2,
+      "reviewFailureSummary": "",
+      "sourceAccessible": true,
+      "sourceUrls": [
+        "https://science.nasa.gov/mission/webb/",
+        "https://en.wikipedia.org/wiki/Exoplanet"
+      ],
+      "sourceCount": 2,
+      "wordCount": 760,
+      "reviewedTextMatchesSaved": true,
+      "originalSource": "https://science.nasa.gov/mission/webb/",
+      "evidenceSource": "https://science.nasa.gov/mission/webb/",
+      "issues": [],
+      "factualRisk": "low",
+      "imageStatus": "awaiting_visual_and_license_review",
+      "publication": "ready_for_publish"
     }
   }
 }
