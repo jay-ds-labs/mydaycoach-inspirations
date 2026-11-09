@@ -1641,6 +1641,194 @@
       "errors": [],
       "selected": null,
       "state": "awaiting_visual_and_license_review"
+    },
+    "reflection-001": {
+      "checkedAt": "2026-11-09T22:35:00.193367Z",
+      "queries": [
+        "Control the controllable"
+      ],
+      "candidates": [
+        {
+          "state": "license_metadata_pass",
+          "fileTitle": "File:Cabina de Control para tráfico aéreo - A742589.jpg",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Cabina_de_Control_para_tr%C3%A1fico_a%C3%A9reo_-_A742589.jpg/1280px-Cabina_de_Control_para_tr%C3%A1fico_a%C3%A9reo_-_A742589.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Cabina_de_Control_para_tr%C3%A1fico_a%C3%A9reo_-_A742589.jpg",
+          "creator": "Rjcastillo",
+          "attribution": "Rjcastillo",
+          "license": "cc-by-sa-4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "usageTerms": "Creative Commons Attribution-Share Alike 4.0",
+          "mime": "image/jpeg",
+          "description": "Control cabin for air traffic.",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
+          "visualCheck": {
+            "state": "needs_visual_review",
+            "confidence": "high",
+            "issues": [
+              "literal interpretation of 'control'",
+              "no direct connection to Stoic philosophy"
+            ],
+            "explanation": "The image shows an air traffic control cabin, which is related to managing air traffic control literally. However, the inspiration focuses on the Stoic philosophical concept of controlling what is within one's power and accepting what is outside it. The image does not visually represent or suggest this abstract philosophical idea, making it not relevant to the given inspiration."
+          }
+        },
+        {
+          "state": "license_metadata_pass",
+          "fileTitle": "File:Cabina de Control para tráfico aéreo - A742602.jpg",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Cabina_de_Control_para_tr%C3%A1fico_a%C3%A9reo_-_A742602.jpg/1280px-Cabina_de_Control_para_tr%C3%A1fico_a%C3%A9reo_-_A742602.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Cabina_de_Control_para_tr%C3%A1fico_a%C3%A9reo_-_A742602.jpg",
+          "creator": "Rjcastillo",
+          "attribution": "Rjcastillo",
+          "license": "cc-by-sa-4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "usageTerms": "Creative Commons Attribution-Share Alike 4.0",
+          "mime": "image/jpeg",
+          "description": "Control cabin for air traffic.",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
+          "visualCheck": {
+            "state": "needs_visual_review",
+            "confidence": "medium",
+            "issues": [
+              "Literal interpretation of 'control' (air traffic control) might not convey the philosophical concept directly",
+              "No explicit reference to Stoic philosophy or the specific idea of distinguishing controllable vs uncontrollable"
+            ],
+            "explanation": "The image depicts an air traffic control cabin, which literally relates to the idea of 'control.' This can metaphorically connect to the inspiration's theme of controlling what is within our power, as air traffic controllers manage and control flights within their domain. However, the connection is symbolic and indirect, as the image shows a physical control environment rather than illustrating the Stoic philosophical principle explicitly. Without further context linking the image to Stoic philosophy, the relevance is medium rather than high."
+          }
+        },
+        {
+          "state": "license_metadata_pass",
+          "fileTitle": "File:Eugene F. Kranz at his console at the NASA Mission Control Center.jpg",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Eugene_F._Kranz_at_his_console_at_the_NASA_Mission_Control_Center.jpg/1280px-Eugene_F._Kranz_at_his_console_at_the_NASA_Mission_Control_Center.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Eugene_F._Kranz_at_his_console_at_the_NASA_Mission_Control_Center.jpg",
+          "creator": "Adam Cuerden",
+          "attribution": "Adam Cuerden",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "image/jpeg",
+          "description": "Eugene F. Kranz, flight director, is shown at his console on May 30, 1965, in the Mission Operations Control Room in the Mission Control Center at Houston during a Gemini-Titan IV simulation to prepare for the four-day, 62-orbit flight. (NASA Photo S-65-22203.)",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
+          "visualCheck": {
+            "state": "needs_visual_review",
+            "confidence": "medium",
+            "issues": [
+              "Provenance uncertain regarding specific connection to Stoic philosophy",
+              "Image depicts a historical figure in a technical/military context, not directly illustrating philosophical concepts"
+            ],
+            "explanation": "The image shows Eugene F. Kranz at NASA Mission Control, a setting associated with managing critical operations under pressure. This aligns metaphorically with the Stoic idea of 'controlling the controllable'—focusing on one's own decisions and actions amid external uncertainties. However, there is no direct indication that the image is explicitly or intentionally linked to Stoic philosophy, making the relevance interpretive rather than concrete."
+          }
+        },
+        {
+          "state": "license_metadata_pass",
+          "fileTitle": "File:PHX control tower 20250508.jpg",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/55/PHX_control_tower_20250508.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:PHX_control_tower_20250508.jpg",
+          "creator": "Designism",
+          "attribution": "Designism",
+          "license": "cc0",
+          "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "usageTerms": "Creative Commons Zero, Public Domain Dedication",
+          "mime": "image/jpeg",
+          "description": "Air traffic control tower of Phoenix Sky Harbor International Airport.",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "license_metadata_pass",
+          "fileTitle": "File:Television remote control - black 01.jpg",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Television_remote_control_-_black_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Television_remote_control_-_black_01.jpg",
+          "creator": "Dmitry Makeev",
+          "attribution": "Dmitry Makeev",
+          "license": "cc-by-sa-4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "usageTerms": "Creative Commons Attribution-Share Alike 4.0",
+          "mime": "image/jpeg",
+          "description": "Television remote control",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "license_metadata_pass",
+          "fileTitle": "File:Zurich flughafen control tower.jpg",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Zurich_flughafen_control_tower.jpg/1280px-Zurich_flughafen_control_tower.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Zurich_flughafen_control_tower.jpg",
+          "creator": "MooxyCZ",
+          "attribution": "MooxyCZ",
+          "license": "cc-by-sa-4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "usageTerms": "Creative Commons Attribution-Share Alike 4.0",
+          "mime": "image/jpeg",
+          "description": "Zurich Airport Control Tower (LSZH)",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:ABC of philosophy (IA abcofphilosophy00land).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/ABC_of_philosophy_%28IA_abcofphilosophy00land%29.pdf/page1-500px-ABC_of_philosophy_%28IA_abcofphilosophy00land%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:ABC_of_philosophy_(IA_abcofphilosophy00land).pdf",
+          "creator": "Landsberg, Grace Frieda, 1887-",
+          "attribution": "Landsberg, Grace Frieda, 1887-",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Subjects: Philosophy",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Christian ethics - eight lectures preached before the University of Oxford in the year 1895 on the foundation of the late Rev. John Bampton (IA cu31924029214769).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Christian_ethics_-_eight_lectures_preached_before_the_University_of_Oxford_in_the_year_1895_on_the_foundation_of_the_late_Rev._John_Bampton_%28IA_cu31924029214769%29.pdf/page1-500px-thumbnail.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Christian_ethics_-_eight_lectures_preached_before_the_University_of_Oxford_in_the_year_1895_on_the_foundation_of_the_late_Rev._John_Bampton_(IA_cu31924029214769).pdf",
+          "creator": "Strong, Thomas B. (Thomas Banks), 1861-1944",
+          "attribution": "Strong, Thomas B. (Thomas Banks), 1861-1944",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "The metadata below describe the original scanning. Follow the \"All Files: HTTP\" link in the \"View the book\" box to the left to find XML files that contain more metadata about the original images and the derived formats (OCR results, PDF etc.). See also the  What is the directory structure for the texts?  FAQ for information about file content and naming conventions. \n Includes index  \n Subjects: Christian ethics",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Christian ethics. Eight lectures preached before the University of Oxford in the year 1895 on the foundation of the late Rev. John Bampton.. (IA cu31924029214693).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Christian_ethics._Eight_lectures_preached_before_the_University_of_Oxford_in_the_year_1895_on_the_foundation_of_the_late_Rev._John_Bampton.._%28IA_cu31924029214693%29.pdf/page1-500px-thumbnail.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Christian_ethics._Eight_lectures_preached_before_the_University_of_Oxford_in_the_year_1895_on_the_foundation_of_the_late_Rev._John_Bampton.._(IA_cu31924029214693).pdf",
+          "creator": "Strong, Thomas B. (Thomas Banks), 1861-1944",
+          "attribution": "Strong, Thomas B. (Thomas Banks), 1861-1944",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "The metadata below describe the original scanning. Follow the \"All Files: HTTP\" link in the \"View the book\" box to the left to find XML files that contain more metadata about the original images and the derived formats (OCR results, PDF etc.). See also the  What is the directory structure for the texts?  FAQ for information about file content and naming conventions.\n \n Subjects: Christian ethics",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Controlling robots ESA376864.jpg",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Controlling_robots_ESA376864.jpg/1280px-Controlling_robots_ESA376864.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Controlling_robots_ESA376864.jpg",
+          "creator": "European Space Agency",
+          "attribution": "ESA–G. Porter",
+          "license": "cc-by-sa-3.0-igo",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/igo/deed.en",
+          "usageTerms": "Creative Commons Attribution-Share Alike 3.0 igo",
+          "mime": "image/jpeg",
+          "description": "What is the best way to control a robot from afar as you circle a planet with your mechanised alter ego doing precise work on the surface? ESA is testing human–robot control in space and on Earth as part of a strategy that sees astronauts controlling robots from space.\n Last week at ESA’s technical heart in the Netherlands, the Interact Centaur rover was controlled from the Human Robot Interaction Laboratory next door, formerly known as the Telerobotics and Haptics lab. Relying on video feedback",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        }
+      ],
+      "errors": [],
+      "selected": null,
+      "state": "awaiting_visual_and_license_review"
     }
   }
 }

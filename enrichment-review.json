@@ -288,6 +288,34 @@
       "factualRisk": "high",
       "imageStatus": "awaiting_visual_and_license_review",
       "publication": "ready_for_publish"
+    },
+    "reflection-001": {
+      "state": "approved",
+      "checkedAt": "2026-11-09T22:35:00.193385Z",
+      "source": "https://plato.stanford.edu/entries/stoicism/",
+      "reviewAttempts": [
+        {
+          "attempt": 1,
+          "approved": true,
+          "issues": []
+        }
+      ],
+      "attemptCount": 1,
+      "reviewFailureSummary": "",
+      "sourceAccessible": true,
+      "sourceUrls": [
+        "https://plato.stanford.edu/entries/stoicism/",
+        "https://en.wikipedia.org/wiki/Theodore_Roosevelt"
+      ],
+      "sourceCount": 2,
+      "wordCount": 785,
+      "reviewedTextMatchesSaved": true,
+      "originalSource": "https://plato.stanford.edu/entries/stoicism/",
+      "evidenceSource": "https://plato.stanford.edu/entries/stoicism/",
+      "issues": [],
+      "factualRisk": "low",
+      "imageStatus": "awaiting_visual_and_license_review",
+      "publication": "ready_for_publish"
     }
   }
 }
