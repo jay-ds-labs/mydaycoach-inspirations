@@ -1,0 +1,66 @@
+name: Enrich entire existing inspiration library
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: inspiration-generation
+  cancel-in-progress: false
+jobs:
+  enrich-all:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Configure commit identity
+        run: |
+          git config user.name "MyDayCoach Content Bot"
+          git config user.email "content-bot@users.noreply.github.com"
+      - name: Validate pipeline
+        run: |
+          python3 -m py_compile scripts/enrich_library.py scripts/audit_images.py scripts/research.py scripts/publication_gate.py
+          python3 -m unittest discover -s tests -p "test_*.py" -v
+      - name: Enrich all incomplete entries in batches of 20
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_CONTENT_MODEL: gpt-4.1
+          OPENAI_REVIEW_MODEL: gpt-4.1
+          ENRICH_BATCH_SIZE: "20"
+          ENRICH_RETRY_REVIEW: "false"
+          ENRICH_MAX_ATTEMPTS: "3"
+        run: |
+          test -n "$OPENAI_API_KEY" || { echo "Missing OPENAI_API_KEY"; exit 1; }
+          python3 - <<'PY'
+          import json,subprocess,sys
+          from pathlib import Path
+          for batch in range(1,11):
+              data=json.loads(Path("library.json").read_text())
+              pending=[x for x in data["items"] if x.get("status")!="published" and
+                  (not 600<=len(str(x.get("detail") or "").split())<=1100 or
+                   x.get("status")!="ready_for_publish")]
+              if not pending:
+                  print("All unpublished items have full details and are ready for publication.",flush=True)
+                  break
+              print(f"Batch {batch}: {len(pending)} entries pending",flush=True)
+              subprocess.run([sys.executable,"scripts/enrich_library.py"],check=True)
+              updated=json.loads(Path("library.json").read_text())
+              remaining=[x for x in updated["items"] if x.get("status") not in ("published","ready_for_publish")]
+              if len(remaining)>=len(pending):
+                  raise RuntimeError("No progress: incomplete entries remain; inspect review failures")
+          else:
+              raise RuntimeError("Reached safety limit of 10 batches")
+          PY
+      - name: Report completion
+        run: |
+          python3 - <<'PY'
+          import json
+          data=json.load(open("library.json"))
+          statuses={}
+          for item in data["items"]:
+              statuses[item.get("status","missing")]=statuses.get(item.get("status","missing"),0)+1
+          print("Final statuses:",statuses)
+          if statuses.get("draft",0):
+              raise SystemExit("Incomplete drafts remain")
+          PY
