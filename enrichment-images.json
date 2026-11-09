@@ -907,6 +907,155 @@
       "errors": [],
       "selected": null,
       "state": "awaiting_visual_and_license_review"
+    },
+    "parks-bus": {
+      "checkedAt": "2026-11-09T22:32:09.632122Z",
+      "queries": [
+        "The power of principled action"
+      ],
+      "candidates": [
+        {
+          "state": "license_metadata_pass",
+          "fileTitle": "File:Climate Chaos we're fucked. Why we have an extinction rebellion for climate emergency action - IMG 4434 (32499172647).jpg",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Climate_Chaos_we%27re_fucked._Why_we_have_an_extinction_rebellion_for_climate_emergency_action_-_IMG_4434_%2832499172647%29.jpg/1280px-Climate_Chaos_we%27re_fucked._Why_we_have_an_extinction_rebellion_for_climate_emergency_action_-_IMG_4434_%2832499172647%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Climate_Chaos_we%27re_fucked._Why_we_have_an_extinction_rebellion_for_climate_emergency_action_-_IMG_4434_(32499172647).jpg",
+          "creator": "Takver  from Australia",
+          "attribution": "Takver  from Australia",
+          "license": "cc-by-sa-2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+          "usageTerms": "Creative Commons Attribution-Share Alike 2.0",
+          "mime": "image/jpeg",
+          "description": "March 22, 2019 was Extinction Rebellion Declaration Day in Melbourne with people gathering in Treasury Gardens before marching on the Victorian State Government offices, then the Commonwealth Government offices in Treasury Place. We had the solemnity of the Climate Guardian angels to amplify our message that we are in a climate crisis needing climate emergency action. \n  Declaration:\n  OUR DEMANDS\nWE CALL ON THE AUSTRALIAN GOVERNMENT\nTO DECLARE A CLIMATE EMERGENCY AND INITIATE A TRANSITION TO ZE",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
+          "visualCheck": {
+            "state": "needs_visual_review",
+            "confidence": "high",
+            "issues": [
+              "Different historical context",
+              "Different social cause",
+              "Different location and event"
+            ],
+            "explanation": "The image depicts a climate emergency protest by Extinction Rebellion in Melbourne, Australia, in 2019, focused on climate action. The inspiration is about Rosa Parks' principled action during the civil rights movement in Montgomery, Alabama, in 1955, specifically her refusal to give up her bus seat due to racial segregation. The subjects, causes, time periods, and locations are distinct, making the image not visibly relevant to the inspiration."
+          }
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:A brief chronicle of all the chief actions ... 1662 (IA bim early-english-books-1641-1700 a-brief-chronicle-of-all heath-james 1662).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/A_brief_chronicle_of_all_the_chief_actions_..._1662_%28IA_bim_early-english-books-1641-1700_a-brief-chronicle-of-all_heath-james_1662%29.pdf/page1-500px-A_brief_chronicle_of_all_the_chief_actions_..._1662_%28IA_bim_early-english-books-1641-1700_a-brief-chronicle-of-all_heath-james_1662%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:A_brief_chronicle_of_all_the_chief_actions_..._1662_(IA_bim_early-english-books-1641-1700_a-brief-chronicle-of-all_heath-james_1662).pdf",
+          "creator": "Heath, James.",
+          "attribution": "Heath, James.",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "A brief chronicle of all the chief actions ... 1662.. Digitized from  IA40313713-43 . Previous issue:  bim_early-english-books-1641-1700_the-red-sea-_head-richard_1666 . Next issue:  bim_early-english-books-1641-1700_a-brief-chronicle-of-all_heath-james_1662_0 .\n \n Subjects: Books; microfilm",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
+          "visualCheck": {
+            "state": "not_checked",
+            "reason": "No API key or license metadata not approved"
+          }
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:A treatise on the principles and practice of the action of ejectment, and the resulting action for mesne profits (IA onprinciplesprac00adamiala).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/A_treatise_on_the_principles_and_practice_of_the_action_of_ejectment%2C_and_the_resulting_action_for_mesne_profits_%28IA_onprinciplesprac00adamiala%29.pdf/page1-500px-A_treatise_on_the_principles_and_practice_of_the_action_of_ejectment%2C_and_the_resulting_action_for_mesne_profits_%28IA_onprinciplesprac00adamiala%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:A_treatise_on_the_principles_and_practice_of_the_action_of_ejectment,_and_the_resulting_action_for_mesne_profits_(IA_onprinciplesprac00adamiala).pdf",
+          "creator": "Adams, John, 1786-1856 \n Ruggles, Philo",
+          "attribution": "Adams, John, 1786-1856 \n Ruggles, Philo",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Subjects: Ejectment -- United States; Ejectment -- Great Britain; Forms (Law) -- United States; Forms (Law) -- Great Britain",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
+          "visualCheck": {
+            "state": "not_checked",
+            "reason": "No API key or license metadata not approved"
+          }
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:A view of the action of the federal government, in behalf of slavery (IA viewofactionoffe01lcjayw).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/A_view_of_the_action_of_the_federal_government%2C_in_behalf_of_slavery_%28IA_viewofactionoffe01lcjayw%29.pdf/page1-960px-A_view_of_the_action_of_the_federal_government%2C_in_behalf_of_slavery_%28IA_viewofactionoffe01lcjayw%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:A_view_of_the_action_of_the_federal_government,_in_behalf_of_slavery_(IA_viewofactionoffe01lcjayw).pdf",
+          "creator": "Jay, William, 1789-1858 \n Leavitt, Joshua, 1794-1873",
+          "attribution": "Jay, William, 1789-1858 \n Leavitt, Joshua, 1794-1873",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Subjects: Slavery -- United States; Slavery -- United States",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:R43746 Congressional Power to Create Federal Courts A Legal Overview (IA R43746CongressionalPowertoCreateFederalCourtsALegalOverview-crs).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/R43746_Congressional_Power_to_Create_Federal_Courts_A_Legal_Overview_%28IA_R43746CongressionalPowertoCreateFederalCourtsALegalOverview-crs%29.pdf/page1-960px-R43746_Congressional_Power_to_Create_Federal_Courts_A_Legal_Overview_%28IA_R43746CongressionalPowertoCreateFederalCourtsALegalOverview-crs%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:R43746_Congressional_Power_to_Create_Federal_Courts_A_Legal_Overview_(IA_R43746CongressionalPowertoCreateFederalCourtsALegalOverview-crs).pdf",
+          "creator": "Congressional Research Service",
+          "attribution": "Congressional Research Service",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "R43746 Congressional Power to Create Federal Courts  A Legal Overview\n \n Subjects: Congressional Research Service; CRS; Congress",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:The history of the Life & Actions ... 1664 (IA bim early-english-books-1641-1700 the-history-of-the-life- bacon-nathaniel 1664).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/The_history_of_the_Life_%26_Actions_..._1664_%28IA_bim_early-english-books-1641-1700_the-history-of-the-life-_bacon-nathaniel_1664%29.pdf/page1-960px-The_history_of_the_Life_%26_Actions_..._1664_%28IA_bim_early-english-books-1641-1700_the-history-of-the-life-_bacon-nathaniel_1664%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:The_history_of_the_Life_%26_Actions_..._1664_(IA_bim_early-english-books-1641-1700_the-history-of-the-life-_bacon-nathaniel_1664).pdf",
+          "creator": "Bacon, Nathaniel.",
+          "attribution": "Bacon, Nathaniel.",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "The history of the Life & Actions ... 1664.. Digitized from  https://archive.org/details/sim_raw_scan_IA40313704-03/page/n160 \" rel=\"ugc nofollow\">IA40313704-03 . Previous issue:  https://archive.org/details/bim_early-english-books-1641-1700_a-preparatory-to-the-his_bacon-sir-francis_1670 \" rel=\"ugc nofollow\">bim_early-english-books-1641-1700_a-preparatory-to-the-his_bacon-sir-francis_1670 . Next issue:  https://archive.org/details/bim_early-english-books-1641-1700_the-doctrine-of-free-gra_bagsh",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:The Navy Human Resource Officer community- assessment and action plan (IA thenavyhumresour10945872).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/The_Navy_Human_Resource_Officer_community-_assessment_and_action_plan_%28IA_thenavyhumresour10945872%29.pdf/page1-960px-The_Navy_Human_Resource_Officer_community-_assessment_and_action_plan_%28IA_thenavyhumresour10945872%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:The_Navy_Human_Resource_Officer_community-_assessment_and_action_plan_(IA_thenavyhumresour10945872).pdf",
+          "creator": "Barber, Harry C.",
+          "attribution": "Barber, Harry C.",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "This research examines the Navy Human Resource Officer Community (NHROC) in the context of its formation and present makeup and lays out a plan for its immediate future. A thorough review of civilian human resource management and development as well as current initiatives in Navy Human Resources (HR) was examined. The research introduces concepts associated with virtual communities and Communities of Practice and presents lessons learned from the Information Professional Community's virtual comm",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Hodgkin–Huxley revisited - reparametrization and identifiability analysis of the classic action potential model with approximate Bayesian methods.pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Hodgkin%E2%80%93Huxley_revisited_-_reparametrization_and_identifiability_analysis_of_the_classic_action_potential_model_with_approximate_Bayesian_methods.pdf/page1-960px-Hodgkin%E2%80%93Huxley_revisited_-_reparametrization_and_identifiability_analysis_of_the_classic_action_potential_model_with_approximate_Bayesian_methods.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Hodgkin%E2%80%93Huxley_revisited_-_reparametrization_and_identifiability_analysis_of_the_classic_action_potential_model_with_approximate_Bayesian_methods.pdf",
+          "creator": "Daly, Aidan C.; Gavaghan, David J.; Holmes, Chris; Cooper, Jonathan",
+          "attribution": "Daly, Aidan C.; Gavaghan, David J.; Holmes, Chris; Cooper, Jonathan",
+          "license": "cc-by-4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+          "usageTerms": "Creative Commons Attribution 4.0",
+          "mime": "application/pdf",
+          "description": "Daly, Aidan C.; Gavaghan, David J.; Holmes, Chris; Cooper, Jonathan (2015).  \"Hodgkin–Huxley revisited: reparametrization and identifiability analysis of the classic action potential model with approximate Bayesian methods\" .  Royal Society Open Science .  2  (12): 150499.  doi : 10.1098/rsos.150499 .  ISSN   2054-5703 .  PMC   4807457 .  PMID   27019736 . ( Check for updates )",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        }
+      ],
+      "errors": [],
+      "selected": null,
+      "state": "awaiting_visual_and_license_review"
     }
   }
 }

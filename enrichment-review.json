@@ -78,6 +78,34 @@
       "factualRisk": "low",
       "imageStatus": "awaiting_visual_and_license_review",
       "publication": "held_for_editorial_and_image_approval"
+    },
+    "parks-bus": {
+      "state": "approved",
+      "checkedAt": "2026-11-09T22:32:09.632140Z",
+      "source": "https://www.nps.gov/people/rosa-parks.htm",
+      "reviewAttempts": [
+        {
+          "attempt": 1,
+          "approved": true,
+          "issues": []
+        }
+      ],
+      "attemptCount": 1,
+      "reviewFailureSummary": "",
+      "sourceAccessible": true,
+      "sourceUrls": [
+        "https://www.nps.gov/people/rosa-parks.htm",
+        "https://en.wikipedia.org/wiki/Park_Geun-hye"
+      ],
+      "sourceCount": 2,
+      "wordCount": 797,
+      "reviewedTextMatchesSaved": true,
+      "originalSource": "https://www.nps.gov/people/rosa-parks.htm",
+      "evidenceSource": "https://www.nps.gov/people/rosa-parks.htm",
+      "issues": [],
+      "factualRisk": "low",
+      "imageStatus": "awaiting_visual_and_license_review",
+      "publication": "ready_for_publish"
     }
   }
 }
