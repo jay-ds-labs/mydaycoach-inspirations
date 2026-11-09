@@ -7026,6 +7026,149 @@
       "errors": [],
       "selected": null,
       "state": "awaiting_visual_and_license_review"
+    },
+    "generated-7ce8211ca2a6469e8226": {
+      "checkedAt": "2026-11-09T22:57:09.747883Z",
+      "queries": [
+        "Augustine and the Restless Heart: Seeking Lasting Fulfillment"
+      ],
+      "candidates": [
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:A history of the new California, its resources and people; (IA historyofnewcali01irvi).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/A_history_of_the_new_California%2C_its_resources_and_people%3B_%28IA_historyofnewcali01irvi%29.pdf/page1-500px-A_history_of_the_new_California%2C_its_resources_and_people%3B_%28IA_historyofnewcali01irvi%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:A_history_of_the_new_California,_its_resources_and_people;_(IA_historyofnewcali01irvi).pdf",
+          "creator": "Irvine, Leigh H. (Leigh Hadley), 1863-1942",
+          "attribution": "Irvine, Leigh H. (Leigh Hadley), 1863-1942",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "16\n \n Subjects: California -- Biography; California -- History; genealogy",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
+          "visualCheck": {
+            "state": "not_checked",
+            "reason": "No API key or license metadata not approved"
+          }
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Ecce Clerus, or, The Christian Minister in many lights (IA ecceclerusorchri00studiala).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Ecce_Clerus%2C_or%2C_The_Christian_Minister_in_many_lights_%28IA_ecceclerusorchri00studiala%29.pdf/page1-500px-Ecce_Clerus%2C_or%2C_The_Christian_Minister_in_many_lights_%28IA_ecceclerusorchri00studiala%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Ecce_Clerus,_or,_The_Christian_Minister_in_many_lights_(IA_ecceclerusorchri00studiala).pdf",
+          "creator": "A student of the times",
+          "attribution": "A student of the times",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Subjects:",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
+          "visualCheck": {
+            "state": "not_checked",
+            "reason": "No API key or license metadata not approved"
+          }
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Old Testament studies- an outline of Old Testament theology (IA oldtestamentstud00fost).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Old_Testament_studies-_an_outline_of_Old_Testament_theology_%28IA_oldtestamentstud00fost%29.pdf/page1-500px-Old_Testament_studies-_an_outline_of_Old_Testament_theology_%28IA_oldtestamentstud00fost%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Old_Testament_studies-_an_outline_of_Old_Testament_theology_(IA_oldtestamentstud00fost).pdf",
+          "creator": "Foster, R. V. (Robert Verrell), 1845-1914",
+          "attribution": "Foster, R. V. (Robert Verrell), 1845-1914",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Subjects:",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
+          "visualCheck": {
+            "state": "not_checked",
+            "reason": "No API key or license metadata not approved"
+          }
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Outline of Catholic pedagogy; adapted for the use of teachers and students (IA outlineofcatholi00loch).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Outline_of_Catholic_pedagogy%3B_adapted_for_the_use_of_teachers_and_students_%28IA_outlineofcatholi00loch%29.pdf/page1-500px-Outline_of_Catholic_pedagogy%3B_adapted_for_the_use_of_teachers_and_students_%28IA_outlineofcatholi00loch%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Outline_of_Catholic_pedagogy;_adapted_for_the_use_of_teachers_and_students_(IA_outlineofcatholi00loch).pdf",
+          "creator": "Lochemes, Michael Joseph, 1860- [from old catalog]",
+          "attribution": "Lochemes, Michael Joseph, 1860- [from old catalog]",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Subjects: Catholic Church",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:The Chaplain (IA chaplain71gene).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/The_Chaplain_%28IA_chaplain71gene%29.pdf/page1-500px-The_Chaplain_%28IA_chaplain71gene%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:The_Chaplain_(IA_chaplain71gene).pdf",
+          "creator": "General Commission on Chaplains and Armed Forces Personnel.",
+          "attribution": "General Commission on Chaplains and Armed Forces Personnel.",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Subjects: Military chaplains -- Periodicals.",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:The comparative dependence of human progress on tradition and invention - an address pronounced before the House of Convocation of Trinity College, July 16th, 1856. (IA comparativedepen00litt).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/The_comparative_dependence_of_human_progress_on_tradition_and_invention_-_an_address_pronounced_before_the_House_of_Convocation_of_Trinity_College%2C_July_16th%2C_1856._%28IA_comparativedepen00litt%29.pdf/page1-500px-thumbnail.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:The_comparative_dependence_of_human_progress_on_tradition_and_invention_-_an_address_pronounced_before_the_House_of_Convocation_of_Trinity_College,_July_16th,_1856._(IA_comparativedepen00litt).pdf",
+          "creator": "Littlejohn, Abram Newkirk, 1824-1901",
+          "attribution": "Littlejohn, Abram Newkirk, 1824-1901",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Cover title\n \n Subjects: Trinity College (Hartford, Conn.); Civilization",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:The Messiah in the Psalms (IA messiahinpsalm00king).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/The_Messiah_in_the_Psalms_%28IA_messiahinpsalm00king%29.pdf/page1-500px-The_Messiah_in_the_Psalms_%28IA_messiahinpsalm00king%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:The_Messiah_in_the_Psalms_(IA_messiahinpsalm00king).pdf",
+          "creator": "King, Henry Melville, 1838-1919. [from old catalog]",
+          "attribution": "King, Henry Melville, 1838-1919. [from old catalog]",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Subjects: Bible; Messiah; Messianic Psalms",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:The quest of religious certainty, (IA questofreligious00bosl).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/The_quest_of_religious_certainty%2C_%28IA_questofreligious00bosl%29.pdf/page1-960px-The_quest_of_religious_certainty%2C_%28IA_questofreligious00bosl%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:The_quest_of_religious_certainty,_(IA_questofreligious00bosl).pdf",
+          "creator": "Bosley, Harold Augustus,  (1907–1975)",
+          "attribution": "Bosley, Harold Augustus,  (1907–1975)",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "xi p., 1 l., 21 cm\n \n Subjects: Knowledge, Theory of (Religion)",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        }
+      ],
+      "errors": [],
+      "selected": null,
+      "state": "awaiting_visual_and_license_review"
     }
   }
 }

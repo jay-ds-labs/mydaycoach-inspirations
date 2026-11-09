@@ -1896,6 +1896,53 @@
       "factualRisk": "high",
       "imageStatus": "awaiting_visual_and_license_review",
       "publication": "ready_for_publish"
+    },
+    "generated-7ce8211ca2a6469e8226": {
+      "state": "review_failed",
+      "checkedAt": "2026-11-09T22:57:09.747898Z",
+      "source": "https://plato.stanford.edu/entries/augustine/",
+      "reviewAttempts": [
+        {
+          "attempt": 1,
+          "approved": false,
+          "issues": [
+            "Generation/review error: HTTP Error 503: Service Unavailable"
+          ]
+        },
+        {
+          "attempt": 2,
+          "approved": false,
+          "issues": [
+            "Generation/review error: HTTP Error 503: Service Unavailable"
+          ]
+        },
+        {
+          "attempt": 3,
+          "approved": false,
+          "issues": [
+            "Generation/review error: HTTP Error 503: Service Unavailable"
+          ]
+        }
+      ],
+      "attemptCount": 3,
+      "reviewFailureSummary": "Article not yet approved by reviewer; Saved text has not passed a matching editorial review",
+      "sourceAccessible": true,
+      "sourceUrls": [
+        "https://plato.stanford.edu/entries/augustine/",
+        "https://en.wikipedia.org/wiki/Augustine_of_Hippo"
+      ],
+      "sourceCount": 2,
+      "wordCount": 862,
+      "reviewedTextMatchesSaved": false,
+      "originalSource": "https://plato.stanford.edu/entries/augustine/",
+      "evidenceSource": "https://plato.stanford.edu/entries/augustine/",
+      "issues": [
+        "Article not yet approved by reviewer",
+        "Saved text has not passed a matching editorial review"
+      ],
+      "factualRisk": "high",
+      "imageStatus": "awaiting_visual_and_license_review",
+      "publication": "ready_for_publish"
     }
   }
 }
