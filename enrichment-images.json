@@ -3813,6 +3813,185 @@
       "errors": [],
       "selected": null,
       "state": "awaiting_visual_and_license_review"
+    },
+    "reflection-014": {
+      "checkedAt": "2026-11-09T22:41:53.824493Z",
+      "queries": [
+        "Own your decision"
+      ],
+      "candidates": [
+        {
+          "state": "license_metadata_pass",
+          "fileTitle": "File:Decision mining plugin.png",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Decision_mining_plugin.png/1280px-Decision_mining_plugin.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Decision_mining_plugin.png",
+          "creator": "Aparnajind",
+          "attribution": "Aparnajind",
+          "license": "cc-by-sa-4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "usageTerms": "Creative Commons Attribution-Share Alike 4.0",
+          "mime": "image/png",
+          "description": "Decision mining ProM plugin",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
+          "visualCheck": {
+            "state": "needs_visual_review",
+            "confidence": "high",
+            "issues": [],
+            "explanation": "The image depicts a software interface related to decision mining in process data-flow analysis, which is a technical and data-driven context. The inspiration, however, is philosophical, focusing on personal responsibility and acknowledging choices. The image does not visually or conceptually represent the abstract or ethical notion of owning one's decisions as described in the inspiration."
+          }
+        },
+        {
+          "state": "license_metadata_pass",
+          "fileTitle": "File:Decision Tree Depth 2.png",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Decision_Tree_Depth_2.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Decision_Tree_Depth_2.png",
+          "creator": "CollaborativeGeneticist",
+          "attribution": "CollaborativeGeneticist",
+          "license": "cc-by-sa-4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "usageTerms": "Creative Commons Attribution-Share Alike 4.0",
+          "mime": "image/png",
+          "description": "A simple decision tree of depth 2, including 3 features that are used as classifiers.",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
+          "visualCheck": {
+            "state": "relevant_candidate",
+            "confidence": "high",
+            "issues": [],
+            "explanation": "The image depicts a decision tree diagram, which visually represents making choices based on different features or criteria. This relates well to the inspiration's theme of owning decisions and acknowledging available choices, as decision trees symbolize the process of evaluating options and their consequences."
+          }
+        },
+        {
+          "state": "license_metadata_pass",
+          "fileTitle": "File:TEMPLATE Technical Decision Forum RACI.png",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/dc/TEMPLATE_Technical_Decision_Forum_RACI.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:TEMPLATE_Technical_Decision_Forum_RACI.png",
+          "creator": "Jenlenfantwright",
+          "attribution": "Jenlenfantwright",
+          "license": "cc-by-sa-4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "usageTerms": "Creative Commons Attribution-Share Alike 4.0",
+          "mime": "image/png",
+          "description": "TEMPLATE Technical Decision Forum RACI",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
+          "visualCheck": {
+            "state": "relevant_candidate",
+            "confidence": "high",
+            "issues": [],
+            "explanation": "The image clearly depicts a RACI matrix, which is a responsibility assignment matrix that defines roles such as Responsible, Accountable, Consulted, and Informed in decision-making processes. This is highly relevant to the inspiration 'Own your decision', which emphasizes responsibility and acknowledging choices. The content aligns well with making responsibility clearer through structured roles in decisions, matching the theme of philosophy around responsibility."
+          }
+        },
+        {
+          "state": "license_metadata_pass",
+          "fileTitle": "File:Webcartoonist's depiction of her own nervous breakdown.jpg",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Webcartoonist%27s_depiction_of_her_own_nervous_breakdown.jpg/1280px-Webcartoonist%27s_depiction_of_her_own_nervous_breakdown.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Webcartoonist%27s_depiction_of_her_own_nervous_breakdown.jpg",
+          "creator": "Ellipsis Hana Stephens",
+          "attribution": "Ellipsis Hana Stephens",
+          "license": "cc-by-4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+          "usageTerms": "Creative Commons Attribution 4.0",
+          "mime": "image/jpeg",
+          "description": "In 2014, webcomic creator Ellipsis Hana Stephens (known as Tarol Hunt \"Thunt\" Stephens at the time)   [ 1 ]   , best known for creating   Goblins  , suffered a  nervous breakdown  and went on hiatus. After two months, her wife persuaded her to draw what she was feeling; she produced this image.\n She subsequently described it as follows:   [ 2 ]   \n  \"So a lot of you have already seen the picture. The thing I drew when my brain had more  shaky cam  than  Man of Steel . Drawing this was a huge hel",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:78-68-EEC- Commission Decision of 8 December 1977 relating to a proceeding under Article 86 of the EEC Treaty (IV-29.132 - Hugin-Liptons) (Only the English text is authentic) (EUD 1978-68).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/78-68-EEC-_Commission_Decision_of_8_December_1977_relating_to_a_proceeding_under_Article_86_of_the_EEC_Treaty_%28IV-29.132_-_Hugin-Liptons%29_%28Only_the_English_text_is_authentic%29_%28EUD_1978-68%29.pdf/page1-1280px-thumbnail.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:78-68-EEC-_Commission_Decision_of_8_December_1977_relating_to_a_proceeding_under_Article_86_of_the_EEC_Treaty_(IV-29.132_-_Hugin-Liptons)_(Only_the_English_text_is_authentic)_(EUD_1978-68).pdf",
+          "creator": "",
+          "attribution": "",
+          "license": "ogl-3",
+          "licenseUrl": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3",
+          "usageTerms": "Open Government License 3",
+          "mime": "application/pdf",
+          "description": "78-68-EEC- Commission Decision of 8 December 1977 relating to a proceeding under Article 86 of the EEC Treaty (IV-29.132 - Hugin-Liptons) (Only the English text is authentic)",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:89-661-EEC- Commission Decision of 31 May 1989 concerning aid provided by the Italian Government to Alfa Romeo, an undertaking in the motor vehicle sector (Only the Italian text is authentic) (EUD 1989-661).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/89-661-EEC-_Commission_Decision_of_31_May_1989_concerning_aid_provided_by_the_Italian_Government_to_Alfa_Romeo%2C_an_undertaking_in_the_motor_vehicle_sector_%28Only_the_Italian_text_is_authentic%29_%28EUD_1989-661%29.pdf/page1-960px-thumbnail.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:89-661-EEC-_Commission_Decision_of_31_May_1989_concerning_aid_provided_by_the_Italian_Government_to_Alfa_Romeo,_an_undertaking_in_the_motor_vehicle_sector_(Only_the_Italian_text_is_authentic)_(EUD_1989-661).pdf",
+          "creator": "",
+          "attribution": "",
+          "license": "ogl-3",
+          "licenseUrl": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3",
+          "usageTerms": "Open Government License 3",
+          "mime": "application/pdf",
+          "description": "89-661-EEC- Commission Decision of 31 May 1989 concerning aid provided by the Italian Government to Alfa Romeo, an undertaking in the motor vehicle sector (Only the Italian text is authentic)",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:90-683-EEC- Council Decision of 13 December 1990 concerning the modules for the various phases of the conformity assesment procedures which are intended to be used in the technical harmonization directives (repealed) (EUD 1990-683).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/90-683-EEC-_Council_Decision_of_13_December_1990_concerning_the_modules_for_the_various_phases_of_the_conformity_assesment_procedures_which_are_intended_to_be_used_in_the_technical_harmonization_directives_%28repealed%29_%28EUD_1990-683%29.pdf/page1-960px-thumbnail.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:90-683-EEC-_Council_Decision_of_13_December_1990_concerning_the_modules_for_the_various_phases_of_the_conformity_assesment_procedures_which_are_intended_to_be_used_in_the_technical_harmonization_directives_(repealed)_(EUD_1990-683).pdf",
+          "creator": "",
+          "attribution": "",
+          "license": "ogl-3",
+          "licenseUrl": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3",
+          "usageTerms": "Open Government License 3",
+          "mime": "application/pdf",
+          "description": "90-683-EEC- Council Decision of 13 December 1990 concerning the modules for the various phases of the conformity assesment procedures which are intended to be used in the technical harmonization directives (repealed)",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:93-50-EEC- Commission Decision of 23 December 1992 relating to a proceeding pursuant to Article 85 of the EEC Treaty (IV-32.745 - Astra) (Only the English and French texts are authentic) (EUD 1993-50).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/93-50-EEC-_Commission_Decision_of_23_December_1992_relating_to_a_proceeding_pursuant_to_Article_85_of_the_EEC_Treaty_%28IV-32.745_-_Astra%29_%28Only_the_English_and_French_texts_are_authentic%29_%28EUD_1993-50%29.pdf/page1-960px-thumbnail.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:93-50-EEC-_Commission_Decision_of_23_December_1992_relating_to_a_proceeding_pursuant_to_Article_85_of_the_EEC_Treaty_(IV-32.745_-_Astra)_(Only_the_English_and_French_texts_are_authentic)_(EUD_1993-50).pdf",
+          "creator": "",
+          "attribution": "",
+          "license": "ogl-3",
+          "licenseUrl": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3",
+          "usageTerms": "Open Government License 3",
+          "mime": "application/pdf",
+          "description": "93-50-EEC- Commission Decision of 23 December 1992 relating to a proceeding pursuant to Article 85 of the EEC Treaty (IV-32.745 - Astra) (Only the English and French texts are authentic)",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:98-204-EC- Commission Decision of 30 July 1997 conditionally approving aid granted by France to the GAN group (Only the French text is authentic) (Text with EEA relevance) (EUD 1998-204).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/98-204-EC-_Commission_Decision_of_30_July_1997_conditionally_approving_aid_granted_by_France_to_the_GAN_group_%28Only_the_French_text_is_authentic%29_%28Text_with_EEA_relevance%29_%28EUD_1998-204%29.pdf/page1-960px-thumbnail.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:98-204-EC-_Commission_Decision_of_30_July_1997_conditionally_approving_aid_granted_by_France_to_the_GAN_group_(Only_the_French_text_is_authentic)_(Text_with_EEA_relevance)_(EUD_1998-204).pdf",
+          "creator": "",
+          "attribution": "",
+          "license": "ogl-3",
+          "licenseUrl": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3",
+          "usageTerms": "Open Government License 3",
+          "mime": "application/pdf",
+          "description": "98-204-EC- Commission Decision of 30 July 1997 conditionally approving aid granted by France to the GAN group (Only the French text is authentic) (Text with EEA relevance)",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Council Decision (EU, Euratom) 2020-2053 of 14 December 2020 on the system of own resources of the European Union and repealing Decision 2014-335-EU, Euratom (EUD 2020-2053).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Council_Decision_%28EU%2C_Euratom%29_2020-2053_of_14_December_2020_on_the_system_of_own_resources_of_the_European_Union_and_repealing_Decision_2014-335-EU%2C_Euratom_%28EUD_2020-2053%29.pdf/page1-960px-thumbnail.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Council_Decision_(EU,_Euratom)_2020-2053_of_14_December_2020_on_the_system_of_own_resources_of_the_European_Union_and_repealing_Decision_2014-335-EU,_Euratom_(EUD_2020-2053).pdf",
+          "creator": "",
+          "attribution": "",
+          "license": "ogl-3",
+          "licenseUrl": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3",
+          "usageTerms": "Open Government License 3",
+          "mime": "application/pdf",
+          "description": "Council Decision (EU, Euratom) 2020-2053 of 14 December 2020 on the system of own resources of the European Union and repealing Decision 2014-335-EU, Euratom",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        }
+      ],
+      "errors": [],
+      "selected": null,
+      "state": "awaiting_visual_and_license_review"
     }
   }
 }
