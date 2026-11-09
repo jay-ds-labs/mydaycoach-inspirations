@@ -121,7 +121,10 @@
       "attribution": "The Alan Turing Institute",
       "source": "https://www.turing.ac.uk/",
       "takeaway": "Invest time in learning something whose value compounds.",
-      "status": "draft"
+      "status": "draft",
+      "publishedAt": "",
+      "reviewStatus": "review_failed",
+      "reviewFailureSummary": "Generated article length 565 outside 600-1100 words; Saved text has not passed a matching editorial review"
     },
     {
       "id": "james-webb",

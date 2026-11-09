@@ -1056,6 +1056,149 @@
       "errors": [],
       "selected": null,
       "state": "awaiting_visual_and_license_review"
+    },
+    "turing-computing": {
+      "checkedAt": "2026-11-09T22:32:38.837356Z",
+      "queries": [
+        "Work that outlasts its moment"
+      ],
+      "candidates": [
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:1. The work of winning souls, a wise one- and 2. The spiritual help which a church gives to its minister (IA 1workofwinningso00stor).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/1._The_work_of_winning_souls%2C_a_wise_one-_and_2._The_spiritual_help_which_a_church_gives_to_its_minister_%28IA_1workofwinningso00stor%29.pdf/page1-960px-1._The_work_of_winning_souls%2C_a_wise_one-_and_2._The_spiritual_help_which_a_church_gives_to_its_minister_%28IA_1workofwinningso00stor%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:1._The_work_of_winning_souls,_a_wise_one-_and_2._The_spiritual_help_which_a_church_gives_to_its_minister_(IA_1workofwinningso00stor).pdf",
+          "creator": "Storrs, Richard S. (Richard Salter), 1787-1873",
+          "attribution": "Storrs, Richard S. (Richard Salter), 1787-1873",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Subjects:",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
+          "visualCheck": {
+            "state": "not_checked",
+            "reason": "No API key or license metadata not approved"
+          }
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:How animals work (IA howanimalswork00duncrich).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/How_animals_work_%28IA_howanimalswork00duncrich%29.pdf/page1-500px-How_animals_work_%28IA_howanimalswork00duncrich%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:How_animals_work_(IA_howanimalswork00duncrich).pdf",
+          "creator": "Duncan, F. Martin (Francis Martin), 1873-1961",
+          "attribution": "Duncan, F. Martin (Francis Martin), 1873-1961",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Subjects: Animal behavior",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
+          "visualCheck": {
+            "state": "not_checked",
+            "reason": "No API key or license metadata not approved"
+          }
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Loyola - and Jesuitism in its rudiments (IA cu31924029423393).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Loyola_-_and_Jesuitism_in_its_rudiments_%28IA_cu31924029423393%29.pdf/page1-500px-Loyola_-_and_Jesuitism_in_its_rudiments_%28IA_cu31924029423393%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Loyola_-_and_Jesuitism_in_its_rudiments_(IA_cu31924029423393).pdf",
+          "creator": "Taylor, Isaac, 1787-1865",
+          "attribution": "Taylor, Isaac, 1787-1865",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "The metadata below describe the original scanning. Follow the \"All Files: HTTP\" link in the \"View the book\" box to the left to find XML files that contain more metadata about the original images and the derived formats (OCR results, PDF etc.). See also the  What is the directory structure for the texts?  FAQ for information about file content and naming conventions.\n \n Subjects: Ignatius, of Loyola, Saint, 1491-1556; Jesuits",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
+          "visualCheck": {
+            "state": "not_checked",
+            "reason": "No API key or license metadata not approved"
+          }
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Loyola- and Jesuitism in its rudiments (IA loyolajesuitismi00taylrich).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Loyola-_and_Jesuitism_in_its_rudiments_%28IA_loyolajesuitismi00taylrich%29.pdf/page1-500px-Loyola-_and_Jesuitism_in_its_rudiments_%28IA_loyolajesuitismi00taylrich%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Loyola-_and_Jesuitism_in_its_rudiments_(IA_loyolajesuitismi00taylrich).pdf",
+          "creator": "Taylor, Isaac, 1787-1865",
+          "attribution": "Taylor, Isaac, 1787-1865",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Subjects: Ignatius, of Loyola, Saint, 1491-1556; Jesuits; Anti-Catholicism -- United States Sources",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Oxford, its buildings and gardens (IA oxforditsbuildin00durarich).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Oxford%2C_its_buildings_and_gardens_%28IA_oxforditsbuildin00durarich%29.pdf/page1-960px-Oxford%2C_its_buildings_and_gardens_%28IA_oxforditsbuildin00durarich%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Oxford,_its_buildings_and_gardens_(IA_oxforditsbuildin00durarich).pdf",
+          "creator": "Durand, Ralph, 1876-1945",
+          "attribution": "Durand, Ralph, 1876-1945",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Subjects: University of Oxford",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:The problem of greater New York and its solution (IA problemofgreater00brea).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/The_problem_of_greater_New_York_and_its_solution_%28IA_problemofgreater00brea%29.pdf/page1-500px-The_problem_of_greater_New_York_and_its_solution_%28IA_problemofgreater00brea%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:The_problem_of_greater_New_York_and_its_solution_(IA_problemofgreater00brea).pdf",
+          "creator": "",
+          "attribution": "",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Accompanied by 3 folded reference maps \n Avery Classics copy: From the library of Seymour Durst with his bookplate \n Avery Classics copy: Ink stamp on t.p. and free front endpaper \"Library, The Real Estate Board of New York, Inc\"  \n Subjects: Harbors",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:The problem of war and its solution (IA problemofwaritss00granrich).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/The_problem_of_war_and_its_solution_%28IA_problemofwaritss00granrich%29.pdf/page1-500px-The_problem_of_war_and_its_solution_%28IA_problemofwaritss00granrich%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:The_problem_of_war_and_its_solution_(IA_problemofwaritss00granrich).pdf",
+          "creator": "Grant, John E",
+          "attribution": "Grant, John E",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Subjects: War; World War, 1914-1918 -- Economic aspects; Land tenure -- Great Britain; Economic history -- 1918-1945; Economic history",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Work (IA work00cabo).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Work_%28IA_work00cabo%29.pdf/page1-500px-Work_%28IA_work00cabo%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Work_(IA_work00cabo).pdf",
+          "creator": "Cabot, Richard C. (Richard Clarke), 1868-1939",
+          "attribution": "Cabot, Richard C. (Richard Clarke), 1868-1939",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "85 pages ; 19 cm \n \"Work\" is part of \"What Men Live By\" and has been printed and bound especially for Desmond's \n 1. Work, play, and drudgery -- 2. The call of the job as a doctor hears it -- 3. The joy of work -- 4. The points of a good job -- 5. The reproach of commercialism: thought and action in work -- 6. The glory of raw material -- 7. The radiations of work -- 8. Work and loyalty: the idealization of work -- 9. The rewards of work  \n Subjects: Work; Pleasure; Love; Worship; Love; Pleasure",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        }
+      ],
+      "errors": [],
+      "selected": null,
+      "state": "awaiting_visual_and_license_review"
     }
   }
 }
