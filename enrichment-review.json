@@ -28,6 +28,19 @@
       "factualRisk": "medium",
       "imageStatus": "requires_license_verification",
       "publication": "held_for_editorial_approval"
+    },
+    "mandela-release": {
+      "state": "needs_review",
+      "checkedAt": "2026-11-09T01:21:05.238019Z",
+      "source": "https://www.nelsonmandela.org/",
+      "sourceAccessible": true,
+      "wordCount": 0,
+      "issues": [
+        "Article length 518 outside 600-1100 words"
+      ],
+      "factualRisk": "medium",
+      "imageStatus": "requires_license_verification",
+      "publication": "held_for_editorial_approval"
     }
   }
 }
