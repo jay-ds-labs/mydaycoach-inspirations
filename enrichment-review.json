@@ -1706,6 +1706,55 @@
       "factualRisk": "high",
       "imageStatus": "awaiting_visual_and_license_review",
       "publication": "ready_for_publish"
+    },
+    "generated-f919ea06f96c4b68b11b": {
+      "state": "review_failed",
+      "checkedAt": "2026-11-09T22:55:10.065635Z",
+      "source": "https://www.bbc.com/news/magazine-19641398",
+      "reviewAttempts": [
+        {
+          "attempt": 1,
+          "approved": false,
+          "issues": [
+            "Generation/review error: HTTP Error 503: Service Unavailable"
+          ]
+        },
+        {
+          "attempt": 2,
+          "approved": false,
+          "issues": [
+            "The provided source does not contain any information about Harold Gillies, World War I reconstructive surgery, or the associated historical context.",
+            "Citations and factual claims about Gillies’ contributions, techniques (e.g., 'tubed pedicle'), and the Queen’s Hospital are unsupported by the supplied source.",
+            "Quotations and specific details about Gillies’ philosophy, team composition, surgical innovations, and the psychological/social impact are not verifiable from the given evidence."
+          ]
+        },
+        {
+          "attempt": 3,
+          "approved": false,
+          "issues": [
+            "Generated article length 563 outside 600-1100 words"
+          ]
+        }
+      ],
+      "attemptCount": 3,
+      "reviewFailureSummary": "Article not yet approved by reviewer; Saved text has not passed a matching editorial review",
+      "sourceAccessible": true,
+      "sourceUrls": [
+        "https://www.bbc.com/news/magazine-19641398",
+        "https://en.wikipedia.org/wiki/Transplantation_%28medicine%29"
+      ],
+      "sourceCount": 2,
+      "wordCount": 677,
+      "reviewedTextMatchesSaved": false,
+      "originalSource": "https://www.bbc.com/news/magazine-19641398",
+      "evidenceSource": "https://www.bbc.com/news/magazine-19641398",
+      "issues": [
+        "Article not yet approved by reviewer",
+        "Saved text has not passed a matching editorial review"
+      ],
+      "factualRisk": "high",
+      "imageStatus": "awaiting_visual_and_license_review",
+      "publication": "ready_for_publish"
     }
   }
 }

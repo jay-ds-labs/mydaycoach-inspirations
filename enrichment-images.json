@@ -6986,6 +6986,16 @@
       "errors": [],
       "selected": null,
       "state": "awaiting_visual_and_license_review"
+    },
+    "generated-f919ea06f96c4b68b11b": {
+      "checkedAt": "2026-11-09T22:55:10.065619Z",
+      "queries": [
+        "Saving Faces: Harold Gillies and the Dawn of Modern Reconstructive Surgery"
+      ],
+      "candidates": [],
+      "errors": [],
+      "selected": null,
+      "state": "awaiting_visual_and_license_review"
     }
   }
 }
