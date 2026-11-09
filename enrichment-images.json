@@ -7832,6 +7832,16 @@
       "errors": [],
       "selected": null,
       "state": "awaiting_visual_and_license_review"
+    },
+    "generated-7cedbd5c1fbd426caf2e": {
+      "checkedAt": "2026-11-09T23:04:45.896316Z",
+      "queries": [
+        "Al-Ghazālī and the Crisis of Scepticism: Faith, Reason, and the Limits of Certainty"
+      ],
+      "candidates": [],
+      "errors": [],
+      "selected": null,
+      "state": "awaiting_visual_and_license_review"
     }
   }
 }

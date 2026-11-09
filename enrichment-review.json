@@ -2709,6 +2709,34 @@
       "factualRisk": "high",
       "imageStatus": "awaiting_visual_and_license_review",
       "publication": "ready_for_publish"
+    },
+    "generated-7cedbd5c1fbd426caf2e": {
+      "state": "approved",
+      "checkedAt": "2026-11-09T23:04:45.896331Z",
+      "source": "https://plato.stanford.edu/entries/al-ghazali/",
+      "reviewAttempts": [
+        {
+          "attempt": 1,
+          "approved": true,
+          "issues": []
+        }
+      ],
+      "attemptCount": 1,
+      "reviewFailureSummary": "",
+      "sourceAccessible": true,
+      "sourceUrls": [
+        "https://plato.stanford.edu/entries/al-ghazali/",
+        "https://en.wikipedia.org/wiki/Voynich_manuscript"
+      ],
+      "sourceCount": 2,
+      "wordCount": 780,
+      "reviewedTextMatchesSaved": true,
+      "originalSource": "https://plato.stanford.edu/entries/al-ghazali/",
+      "evidenceSource": "https://plato.stanford.edu/entries/al-ghazali/",
+      "issues": [],
+      "factualRisk": "low",
+      "imageStatus": "awaiting_visual_and_license_review",
+      "publication": "ready_for_publish"
     }
   }
 }
