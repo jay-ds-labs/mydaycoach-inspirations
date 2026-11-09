@@ -1,6 +1,6 @@
 {
-  "state": "running",
-  "stage": "generation",
+  "state": "awaiting_editorial_approval",
+  "stage": "done",
   "completed": 5,
   "total": 70,
   "batchTotal": 3,
@@ -10,7 +10,7 @@
   "approved": 0,
   "needsReview": 3,
   "startedAt": "2026-11-09T01:45:37.482236Z",
-  "completedAt": null,
-  "currentId": "wright-flight",
+  "completedAt": "2026-11-09T01:46:37.383483Z",
+  "currentId": null,
   "error": null
 }
