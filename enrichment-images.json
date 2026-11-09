@@ -6946,6 +6946,16 @@
       "errors": [],
       "selected": null,
       "state": "awaiting_visual_and_license_review"
+    },
+    "generated-9a22c3a9fb674c32af2a": {
+      "checkedAt": "2026-11-09T22:54:11.030330Z",
+      "queries": [
+        "When the Red Cross Met the Battlefield: Clara Barton's Relentless Front-Line Aid at Antietam"
+      ],
+      "candidates": [],
+      "errors": [],
+      "selected": null,
+      "state": "awaiting_visual_and_license_review"
     }
   }
 }

@@ -1614,6 +1614,50 @@
       "factualRisk": "high",
       "imageStatus": "awaiting_visual_and_license_review",
       "publication": "ready_for_publish"
+    },
+    "generated-9a22c3a9fb674c32af2a": {
+      "state": "approved",
+      "checkedAt": "2026-11-09T22:54:11.030344Z",
+      "source": "https://www.redcross.org/about-us/who-we-are/history/clara-barton.html",
+      "reviewAttempts": [
+        {
+          "attempt": 1,
+          "approved": false,
+          "issues": [
+            "Several vivid narrative details (e.g., 'predawn haze', 'rolling fields', 'wagon-load of medical supplies') are not supported by the supplied sources.",
+            "Specifics about Barton handing out water and brewing coffee at Antietam are described in the article but are not directly verified in the supplied sources.",
+            "The account of a bullet tearing through Barton's sleeve and killing the man she was aiding is referenced as 'later documented,' but the supplied sources do not corroborate these precise events."
+          ]
+        },
+        {
+          "attempt": 2,
+          "approved": false,
+          "issues": [
+            "Generated article length 270 outside 600-1100 words"
+          ]
+        },
+        {
+          "attempt": 3,
+          "approved": true,
+          "issues": []
+        }
+      ],
+      "attemptCount": 3,
+      "reviewFailureSummary": "",
+      "sourceAccessible": true,
+      "sourceUrls": [
+        "https://www.redcross.org/about-us/who-we-are/history/clara-barton.html",
+        "https://en.wikipedia.org/wiki/Clara_Barton"
+      ],
+      "sourceCount": 2,
+      "wordCount": 640,
+      "reviewedTextMatchesSaved": true,
+      "originalSource": "https://www.redcross.org/about-us/who-we-are/history/clara-barton.html",
+      "evidenceSource": "https://www.redcross.org/about-us/who-we-are/history/clara-barton.html",
+      "issues": [],
+      "factualRisk": "low",
+      "imageStatus": "awaiting_visual_and_license_review",
+      "publication": "ready_for_publish"
     }
   }
 }
