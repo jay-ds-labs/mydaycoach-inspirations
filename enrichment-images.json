@@ -5367,6 +5367,157 @@
       "errors": [],
       "selected": null,
       "state": "awaiting_visual_and_license_review"
+    },
+    "reflection-023": {
+      "checkedAt": "2026-11-09T22:47:20.936000Z",
+      "queries": [
+        "Listen before advising"
+      ],
+      "candidates": [
+        {
+          "state": "license_metadata_pass",
+          "fileTitle": "File:Iraqi police officers listen to a briefing before a crime scene exploitation training exercise held at Asad Air Base, Iraq, July 6, 2011 110706-A-EM978-093.jpg",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Iraqi_police_officers_listen_to_a_briefing_before_a_crime_scene_exploitation_training_exercise_held_at_Asad_Air_Base%2C_Iraq%2C_July_6%2C_2011_110706-A-EM978-093.jpg/1280px-Iraqi_police_officers_listen_to_a_briefing_before_a_crime_scene_exploitation_training_exercise_held_at_Asad_Air_Base%2C_Iraq%2C_July_6%2C_2011_110706-A-EM978-093.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Iraqi_police_officers_listen_to_a_briefing_before_a_crime_scene_exploitation_training_exercise_held_at_Asad_Air_Base,_Iraq,_July_6,_2011_110706-A-EM978-093.jpg",
+          "creator": "Pfc. Brian Chaney",
+          "attribution": "Pfc. Brian Chaney",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "image/jpeg",
+          "description": "Iraqi police officers listen to a briefing before a crime scene exploitation training exercise held at Asad Air Base, Iraq, July 6, 2011. The U.S. Armys 2nd Advise and Assist Brigade, 82nd Airborne Division, conducted the training.",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
+          "visualCheck": {
+            "state": "needs_visual_review",
+            "confidence": "medium",
+            "issues": [
+              "The image shows a meeting or briefing, which implies listening but may not fully capture the philosophical aspect of 'Listen before advising' as a broader life principle."
+            ],
+            "explanation": "The image depicts Iraqi police officers attentively listening to a briefing, which aligns with the concept of 'Listen before advising' in the context of communication and understanding before action. However, the philosophical category implies a broader, deeper reflection on the value of understanding others' experiences, which is not explicitly evident in this training context. The setting is specific and practical rather than philosophical, so the relevance is moderate but not fully comprehensive."
+          }
+        },
+        {
+          "state": "license_metadata_pass",
+          "fileTitle": "File:U.S. Navy Logistics Specialist 2nd Class Sean Petty, right, a supply petty officer with the Farah Provincial Reconstruction Team (PRT), and other members of the team listen to instructions before completing 130608-N-LR347-016.jpg",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/U.S._Navy_Logistics_Specialist_2nd_Class_Sean_Petty%2C_right%2C_a_supply_petty_officer_with_the_Farah_Provincial_Reconstruction_Team_%28PRT%29%2C_and_other_members_of_the_team_listen_to_instructions_before_completing_130608-N-LR347-016.jpg/1280px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:U.S._Navy_Logistics_Specialist_2nd_Class_Sean_Petty,_right,_a_supply_petty_officer_with_the_Farah_Provincial_Reconstruction_Team_(PRT),_and_other_members_of_the_team_listen_to_instructions_before_completing_130608-N-LR347-016.jpg",
+          "creator": "LTJG Matthew Stroup",
+          "attribution": "LTJG Matthew Stroup",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "image/jpeg",
+          "description": "U.S. Navy Logistics Specialist 2nd Class Sean Petty, right, a supply petty officer with the Farah Provincial Reconstruction Team (PRT), and other members of the team listen to instructions before completing a rifle qualification range at Forward Operating Base Farah, Afghanistan, June 8, 2013. The mission of the Farah PRT was to train, advise and assist Afghan government leaders at the municipal, district and provincial levels.",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
+          "visualCheck": {
+            "state": "needs_visual_review",
+            "confidence": "medium",
+            "issues": [
+              "Uncertain provenance of direct link to philosophical theme"
+            ],
+            "explanation": "The image depicts military personnel listening to instructions, which can metaphorically align with the inspiration's theme of listening before advising. The act of listening to instructions before acting suggests understanding before taking action, correlating with the idea that understanding another's experience is important before giving solutions. However, since the context is military training rather than direct philosophical discourse or interpersonal advising, the relevance to 'Listen before advising' as a philosophical concept is somewhat interpretative and thus confidence is medium."
+          }
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Abraham Lincoln before 1860 (IA abrahamlinxxxxx00linc).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Abraham_Lincoln_before_1860_%28IA_abrahamlinxxxxx00linc%29.pdf/page1-1280px-Abraham_Lincoln_before_1860_%28IA_abrahamlinxxxxx00linc%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Abraham_Lincoln_before_1860_(IA_abrahamlinxxxxx00linc).pdf",
+          "creator": "Lincoln Financial Foundation Collection",
+          "attribution": "Lincoln Financial Foundation Collection",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "From the files of the Lincoln Financial Foundation Collection \n Excerpts from newspapers and other sources \n 18  \n Subjects: Lincoln, Abraham, 1809-1865; Rutledge, Ann, d. 1835",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
+          "visualCheck": {
+            "state": "not_checked",
+            "reason": "No API key or license metadata not approved"
+          }
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Episodes-before-thirty.djvu",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Episodes-before-thirty.djvu/page1-960px-Episodes-before-thirty.djvu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Episodes-before-thirty.djvu",
+          "creator": "Algernon Blackwood",
+          "attribution": "Algernon Blackwood",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "image/vnd.djvu",
+          "description": "[3] p. ., 311, [1] p. ; 22 cm",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Frank before Vicksburg (IA frankbeforevicks00cast).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Frank_before_Vicksburg_%28IA_frankbeforevicks00cast%29.pdf/page1-500px-Frank_before_Vicksburg_%28IA_frankbeforevicks00cast%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Frank_before_Vicksburg_(IA_frankbeforevicks00cast).pdf",
+          "creator": "Castlemon, Harry, 1842-1915 \n Wilmer, Richard Hooker, 1918-, former owner",
+          "attribution": "Castlemon, Harry, 1842-1915 \n Wilmer, Richard Hooker, 1918-, former owner",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Menendez. Civil War novels\n \n Subjects:",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Frank before Vicksburg (IA frankbeforevicksb00cast).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Frank_before_Vicksburg_%28IA_frankbeforevicksb00cast%29.pdf/page1-500px-Frank_before_Vicksburg_%28IA_frankbeforevicksb00cast%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Frank_before_Vicksburg_(IA_frankbeforevicksb00cast).pdf",
+          "creator": "Castlemon, Harry, 1842-1915 \n Wilmer, Richard Hooker, 1918-, former owner",
+          "attribution": "Castlemon, Harry, 1842-1915 \n Wilmer, Richard Hooker, 1918-, former owner",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Added illustrated title-page \n Menendez. Civil War novels  \n Subjects:",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:LISTEN TO AMERICANS' VIEWS ON THE FUTURE OF SOCIAL SECURITY (IA gov.gpo.fdsys.CHRG-107hhrg74230).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/LISTEN_TO_AMERICANS%27_VIEWS_ON_THE_FUTURE_OF_SOCIAL_SECURITY_%28IA_gov.gpo.fdsys.CHRG-107hhrg74230%29.pdf/page1-960px-LISTEN_TO_AMERICANS%27_VIEWS_ON_THE_FUTURE_OF_SOCIAL_SECURITY_%28IA_gov.gpo.fdsys.CHRG-107hhrg74230%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:LISTEN_TO_AMERICANS%27_VIEWS_ON_THE_FUTURE_OF_SOCIAL_SECURITY_(IA_gov.gpo.fdsys.CHRG-107hhrg74230).pdf",
+          "creator": "Committee on Ways and Means",
+          "attribution": "Committee on Ways and Means",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Government Publishing Office   U.S. Congress House of Representatives Committee on Ways and Means   LISTEN TO AMERICANS' VIEWS ON THE FUTURE OF SOCIAL SECURITY  Date(s) Held: 2001-06-18   107th Congress, 1st Session  GPO Document Source:  https://www.gpo.gov/fdsys/pkg/CHRG-107hhrg74230/content-detail.html \" rel=\"nofollow\">CHRG-107hhrg74230  Superintendents of Documents ID: Y 4.W 36  Related Items:    https://www.govtrack.us/congress/bills/107/hr5 \" rel=\"nofollow\">United States House Bill 5  (107",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Shadows before; (IA shadowsbefore00gile).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Shadows_before%3B_%28IA_shadowsbefore00gile%29.pdf/page1-1280px-Shadows_before%3B_%28IA_shadowsbefore00gile%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Shadows_before;_(IA_shadowsbefore00gile).pdf",
+          "creator": "Giles, Fayette Stratton. [from old catalog]",
+          "attribution": "Giles, Fayette Stratton. [from old catalog]",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Subjects:",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        }
+      ],
+      "errors": [],
+      "selected": null,
+      "state": "awaiting_visual_and_license_review"
     }
   }
 }

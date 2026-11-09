@@ -1083,6 +1083,54 @@
       "factualRisk": "high",
       "imageStatus": "awaiting_visual_and_license_review",
       "publication": "ready_for_publish"
+    },
+    "reflection-023": {
+      "state": "review_failed",
+      "checkedAt": "2026-11-09T22:47:20.936014Z",
+      "source": "https://plato.stanford.edu/entries/ethics/",
+      "reviewAttempts": [
+        {
+          "attempt": 1,
+          "approved": false,
+          "issues": [
+            "Generated article length 387 outside 600-1100 words"
+          ]
+        },
+        {
+          "attempt": 2,
+          "approved": false,
+          "issues": [
+            "Original source not specifically cited for any quotation or concrete claim.",
+            "Article references Socrates, Kant, and Iris Murdoch with specific philosophical ideas not explicitly supported by the provided source.",
+            "Article expands on clinical practice and professional ethics beyond what is supplied in the card or source."
+          ]
+        },
+        {
+          "attempt": 3,
+          "approved": false,
+          "issues": [
+            "Generated article length 451 outside 600-1100 words"
+          ]
+        }
+      ],
+      "attemptCount": 3,
+      "reviewFailureSummary": "Article not yet approved by reviewer; Saved text has not passed a matching editorial review",
+      "sourceAccessible": true,
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/LeBron_James"
+      ],
+      "sourceCount": 1,
+      "wordCount": 618,
+      "reviewedTextMatchesSaved": false,
+      "originalSource": "https://plato.stanford.edu/entries/ethics/",
+      "evidenceSource": "https://en.wikipedia.org/wiki/LeBron_James",
+      "issues": [
+        "Article not yet approved by reviewer",
+        "Saved text has not passed a matching editorial review"
+      ],
+      "factualRisk": "high",
+      "imageStatus": "awaiting_visual_and_license_review",
+      "publication": "ready_for_publish"
     }
   }
 }
