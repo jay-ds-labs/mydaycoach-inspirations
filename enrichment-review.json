@@ -1492,6 +1492,34 @@
       "factualRisk": "high",
       "imageStatus": "awaiting_visual_and_license_review",
       "publication": "ready_for_publish"
+    },
+    "generated-807f2b11038c4161a1a7": {
+      "state": "approved",
+      "checkedAt": "2026-11-09T22:52:43.959289Z",
+      "source": "https://www.iwm.org.uk/history/who-was-edith-cavell",
+      "reviewAttempts": [
+        {
+          "attempt": 1,
+          "approved": true,
+          "issues": []
+        }
+      ],
+      "attemptCount": 1,
+      "reviewFailureSummary": "",
+      "sourceAccessible": true,
+      "sourceUrls": [
+        "https://www.iwm.org.uk/history/who-was-edith-cavell",
+        "https://en.wikipedia.org/wiki/List_of_organisms_named_after_famous_people_%28born_1800%E2%80%931899%29"
+      ],
+      "sourceCount": 2,
+      "wordCount": 835,
+      "reviewedTextMatchesSaved": true,
+      "originalSource": "https://www.iwm.org.uk/history/who-was-edith-cavell",
+      "evidenceSource": "https://www.iwm.org.uk/history/who-was-edith-cavell",
+      "issues": [],
+      "factualRisk": "low",
+      "imageStatus": "awaiting_visual_and_license_review",
+      "publication": "ready_for_publish"
     }
   }
 }

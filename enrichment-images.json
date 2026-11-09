@@ -6877,6 +6877,16 @@
       "errors": [],
       "selected": null,
       "state": "awaiting_visual_and_license_review"
+    },
+    "generated-807f2b11038c4161a1a7": {
+      "checkedAt": "2026-11-09T22:52:43.959268Z",
+      "queries": [
+        "Integrity Beyond the Spotlight: Edith Cavell’s Stand for Humanity"
+      ],
+      "candidates": [],
+      "errors": [],
+      "selected": null,
+      "state": "awaiting_visual_and_license_review"
     }
   }
 }
