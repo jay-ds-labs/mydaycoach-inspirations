@@ -1566,6 +1566,54 @@
       "factualRisk": "high",
       "imageStatus": "awaiting_visual_and_license_review",
       "publication": "ready_for_publish"
+    },
+    "generated-26c079b50ce3413cade2": {
+      "state": "review_failed",
+      "checkedAt": "2026-11-09T22:53:35.958114Z",
+      "source": "https://www.nps.gov/articles/000/a-force-for-human-rights.htm",
+      "reviewAttempts": [
+        {
+          "attempt": 1,
+          "approved": false,
+          "issues": [
+            "No direct evidence from the source provided",
+            "Some quotations and key claims not directly supported",
+            "Partial/inaccessible evidence for attributed actions and exact quotations"
+          ]
+        },
+        {
+          "attempt": 2,
+          "approved": false,
+          "issues": [
+            "Generation/review error: HTTP Error 503: Service Unavailable"
+          ]
+        },
+        {
+          "attempt": 3,
+          "approved": false,
+          "issues": [
+            "Generated article length 218 outside 600-1100 words"
+          ]
+        }
+      ],
+      "attemptCount": 3,
+      "reviewFailureSummary": "Article not yet approved by reviewer; Saved text has not passed a matching editorial review",
+      "sourceAccessible": true,
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Anna_Roosevelt_Halsted"
+      ],
+      "sourceCount": 1,
+      "wordCount": 636,
+      "reviewedTextMatchesSaved": false,
+      "originalSource": "https://www.nps.gov/articles/000/a-force-for-human-rights.htm",
+      "evidenceSource": "https://en.wikipedia.org/wiki/Anna_Roosevelt_Halsted",
+      "issues": [
+        "Article not yet approved by reviewer",
+        "Saved text has not passed a matching editorial review"
+      ],
+      "factualRisk": "high",
+      "imageStatus": "awaiting_visual_and_license_review",
+      "publication": "ready_for_publish"
     }
   }
 }
