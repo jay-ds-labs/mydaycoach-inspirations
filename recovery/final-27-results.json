@@ -1,11 +1,11 @@
 {
   "state": "running",
   "total": 27,
-  "completed": 4,
+  "completed": 5,
   "generated": 0,
   "reviewed": 0,
   "approved": 0,
-  "reviewFailed": 4,
+  "reviewFailed": 5,
   "eligible": 0,
   "startedAt": "2026-11-10T05:27:53.628646Z",
   "items": {
@@ -180,6 +180,50 @@
           "https://plato.stanford.edu/entries/pragmatism/"
         ],
         "sourceErrors": []
+      }
+    },
+    "reflection-015": {
+      "item": {
+        "id": "reflection-015",
+        "category": "Philosophy",
+        "title": "Respect other perspectives",
+        "body": "Moral reasoning improves when you take another person's interests seriously.",
+        "attribution": "MyDayCoach original reflection — not a historical quotation",
+        "source": "https://en.wikipedia.org/wiki/Perspective-taking",
+        "takeaway": "Explain a disagreement in terms the other person would recognize.",
+        "status": "review_failed",
+        "detail": "Review failed [INVALID_ARTICLE]. No usable article within the app's storage limit\n\nPhilosophers have long noted that moral understanding is shaped by our willingness to see from another's point of view. By genuinely considering the interests and values of others, we avoid the trap of assuming our own perspective is the only valid one. This process does not require that we abandon our own beliefs, but it does mean engaging with the reasons behind another person's stance, especially when in disagreement. Through this empathetic, rational exercise, moral reasoning becomes not only a personal search for what is right, but a dialogue in which multiple voices are taken seriously. Philosophical traditions from Aristotle to contemporary ethics emphasize that respectful engagement with diverse perspectives expands our moral imagination and sharpens our judgments.",
+        "reviewStatus": "review_failed",
+        "reviewFailureSummary": "No usable article within the app's storage limit",
+        "publishedAt": "",
+        "reviewFailureCode": "INVALID_ARTICLE"
+      },
+      "audit": {
+        "state": "review_failed",
+        "eligible": false,
+        "generated": false,
+        "attempts": [
+          {
+            "attempt": 1,
+            "reviewCompleted": false,
+            "sourceUrls": [
+              "https://en.wikipedia.org/wiki/Perspective-taking",
+              "https://en.wikipedia.org/wiki/Mahatma_Gandhi"
+            ],
+            "errorCode": "INVALID_ARTICLE",
+            "error": "No usable article within the app's storage limit"
+          }
+        ],
+        "completedReviews": 0,
+        "reasonCode": "INVALID_ARTICLE",
+        "reason": "No usable article within the app's storage limit",
+        "sourceUrls": [
+          "https://en.wikipedia.org/wiki/Perspective-taking",
+          "https://en.wikipedia.org/wiki/Mahatma_Gandhi"
+        ],
+        "sourceErrors": [
+          "https://plato.stanford.edu/entries/ethics/ Source retrieval failed: HTTP Error 404: Not Found"
+        ]
       }
     }
   }
