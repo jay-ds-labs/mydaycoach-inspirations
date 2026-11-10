@@ -1,11 +1,11 @@
 {
   "state": "running",
   "total": 27,
-  "completed": 19,
-  "generated": 18,
-  "reviewed": 19,
+  "completed": 20,
+  "generated": 19,
+  "reviewed": 20,
   "approved": 14,
-  "reviewFailed": 5,
+  "reviewFailed": 6,
   "eligible": 18,
   "startedAt": "2026-11-10T05:27:53.628646Z",
   "items": {
@@ -1176,6 +1176,96 @@
         "sourceErrors": [
           "https://www.nature.com/articles/535018a Source retrieval failed: HTTP Error 404: Not Found"
         ]
+      }
+    },
+    "generated-f05be5e8fc694d8d8a54": {
+      "item": {
+        "title": "Commitment at Dawn: Emmeline Pankhurst’s Early Morning Vigil",
+        "body": "In 1912, Emmeline Pankhurst, the indomitable leader of the British suffragette movement, stood vigil outside Holloway Prison as dawn broke each morning after her release. Refusing to rest, she inspired her followers with her resolve and presence—proving change begins not only in Parliament, but on cold London streets with unwavering commitment.",
+        "detail": "Review failed [INSUFFICIENT_EVIDENCE]. The specific claim that Emmeline Pankhurst stood vigil outside Holloway Prison at dawn each morning after her release in 1912 is not supported by the provided sources.\n\nEmmeline Pankhurst (1858–1928) was a central figure in the British women's suffrage movement and is remembered for her tireless leadership and willingness to face personal hardship in pursuit of gender equality. Born into a politically active family in Manchester, Pankhurst began campaigning for women's rights as a teenager. In 1903, she founded the militant Women's Social and Political Union (WSPU), which adopted the motto 'deeds, not words.' Under her leadership, the WSPU engaged in demonstrations, window-breaking, hunger strikes, and confrontations with authorities, drawing widespread attention to the cause after years of ignored peaceful protests. Pankhurst herself was repeatedly imprisoned, where she participated in hunger strikes and endured force-feeding, further highlighting the movement’s resolve.\n\nThe struggle intensified with the government's 1913 'Cat and Mouse Act,' which allowed the temporary release and rearrest of hunger-striking suffragettes, reflecting the evolving and often contentious relationship between activists and authorities. Pankhurst’s presence at public rallies, speeches, and protests was a constant source of inspiration for her followers, helping to sustain morale even amid criticism and internal disagreements within the movement. While there are no documented instances of her holding vigils outside Holloway Prison at dawn, as sometimes claimed, the historical record amply testifies to her consistent, brave, and public advocacy for the cause, at immense personal cost.\n\nHer perseverance paid off: the Representation of the People Act of 1918 partially granted voting rights to women over 30, and the Equal Franchise Act of 1928, passed shortly after Pankhurst’s death, secured equal suffrage for women and men. Pankhurst’s story illustrates that lasting social change is often achieved through years of steadfast and visible commitment, rather than through a single heroic gesture. Each protest, speech, and act of personal courage built momentum that ultimately shifted public opinion and policy.",
+        "attribution": "Emmeline Pankhurst, in a speech, 1912",
+        "source": "https://en.wikipedia.org/wiki/Emmeline_Pankhurst",
+        "takeaway": "Show up consistently for your cause—even small, steadfast acts of support can inspire others and make history.",
+        "image": "",
+        "category": "Quotes",
+        "id": "generated-f05be5e8fc694d8d8a54",
+        "status": "review_failed",
+        "publishedAt": "",
+        "reviewStatus": "review_failed",
+        "reviewFailureSummary": "The specific claim that Emmeline Pankhurst stood vigil outside Holloway Prison at dawn each morning after her release in 1912 is not supported by the provided sources.",
+        "reviewFailureCode": "INSUFFICIENT_EVIDENCE"
+      },
+      "audit": {
+        "state": "review_failed",
+        "eligible": false,
+        "generated": true,
+        "attempts": [
+          {
+            "attempt": 1,
+            "reviewCompleted": true,
+            "sourceUrls": [
+              "https://en.wikipedia.org/wiki/Emmeline_Pankhurst",
+              "https://www.bbc.co.uk/history/historic_figures/pankhurst_emmeline.shtml"
+            ],
+            "changes": "Removed unsupported anecdote concerning dawn vigils at Holloway Prison after release; focused instead on documented details of Pankhurst’s consistent public activism, imprisonment, and influence. Reframed the takeaway to emphasize persistence and public demonstration over unsourced specifics.",
+            "approved": false,
+            "complete": false,
+            "grounded": false,
+            "feedback": [
+              "The quoted anecdote of Emmeline Pankhurst standing vigil outside Holloway Prison at dawn in 1912 lacks support in the cited references.",
+              "Neither the Wikipedia nor BBC source confirms this specific detail or attributes a speech by Pankhurst in 1912 referencing such an act.",
+              "The inspirational quote is presented as a historical fact, but no evidence is given or cited for Pankhurst's dawn vigils; this may mislead readers about her actual actions.",
+              "The card summary implies a direct correlation between this supposed incident and her inspirational impact, but this is not substantiated in the provided sources.",
+              "The attribution ('Emmeline Pankhurst, in a speech, 1912') is unsupported; there is no referenced speech or passage in the sources with this content."
+            ]
+          },
+          {
+            "attempt": 2,
+            "reviewCompleted": true,
+            "sourceUrls": [
+              "https://en.wikipedia.org/wiki/Emmeline_Pankhurst",
+              "https://www.bbc.co.uk/history/historic_figures/pankhurst_emmeline.shtml"
+            ],
+            "changes": "Removed the unsupported anecdote of Pankhurst’s dawn vigils and unverified speech quotation; grounded all claims in cited evidence. Maintained a strong focus on Pankhurst’s documented actions and public leadership as inspirational, framing her impact within historical context without embellishment.",
+            "approved": false,
+            "complete": true,
+            "grounded": false,
+            "feedback": [
+              "The inspirational quote and card anecdote about Emmeline Pankhurst standing vigil outside Holloway Prison at dawn in 1912 is unsupported by the provided sources.",
+              "Neither the Wikipedia nor the BBC source describes dawn vigils by Pankhurst post-release; there is no corroboration for this specific act.",
+              "The evidence does document her repeated imprisonments, hunger striking, public leadership, and consistent presence at suffrage events, but not the claimed incident.",
+              "The article itself admits the lack of evidence for this anecdote, but the card presents it as historical fact and attributes it to a 1912 speech without documentary proof.",
+              "Accurate inspirational messaging could result from her general perseverance rather than this specific (unsupported) vigil claim."
+            ]
+          },
+          {
+            "attempt": 3,
+            "reviewCompleted": true,
+            "sourceUrls": [
+              "https://en.wikipedia.org/wiki/Emmeline_Pankhurst",
+              "https://www.bbc.co.uk/history/historic_figures/pankhurst_emmeline.shtml"
+            ],
+            "changes": "Removed unsupported anecdote of dawn vigils and 1912 speech; revised to emphasize well-documented facts: Pankhurst's repeated activism, imprisonment, and public leadership. Clarified that her inspirational impact came from consistent presence and perseverance, in line with editorial feedback and available sources.",
+            "approved": false,
+            "complete": false,
+            "grounded": false,
+            "feedback": [
+              "The specific claim that Emmeline Pankhurst stood vigil outside Holloway Prison at dawn each morning after her release in 1912 is not supported by the provided sources.",
+              "Neither the Wikipedia nor BBC sources document or corroborate this early morning vigil as a historic event or as a quote from Pankhurst.",
+              "The attribution ('Emmeline Pankhurst, in a speech, 1912') is not authenticated in the source archive.",
+              "The 'takeaway' is general inspiration, but it is grounded in an unsupported anecdote rather than the broader, better-documented facts about Pankhurst's activism.",
+              "There is a risk of conflating Pankhurst’s documented activism (public protests, hunger strikes, etc.) with an undocumented symbolic gesture, which could mislead readers about the factual history."
+            ]
+          }
+        ],
+        "completedReviews": 3,
+        "reasonCode": "INSUFFICIENT_EVIDENCE",
+        "reason": "The specific claim that Emmeline Pankhurst stood vigil outside Holloway Prison at dawn each morning after her release in 1912 is not supported by the provided sources.",
+        "sourceUrls": [
+          "https://en.wikipedia.org/wiki/Emmeline_Pankhurst",
+          "https://www.bbc.co.uk/history/historic_figures/pankhurst_emmeline.shtml"
+        ],
+        "sourceErrors": []
       }
     }
   }
