@@ -932,37 +932,114 @@
       "publication": "ready_for_publish"
     },
     "reflection-012": {
+      "previousReview": {
+        "state": "review_failed",
+        "checkedAt": "2026-11-09T22:41:06.546174Z",
+        "source": "https://plato.stanford.edu/entries/pragmatism/",
+        "reviewAttempts": [
+          {
+            "attempt": 1,
+            "approved": false,
+            "issues": [
+              "Goes far beyond the concise card: introduces substantial additional history, context, figures, and theory not in card",
+              "Attributes specific philosophical tenets (fallibilism, experimentalism, revision) in relation to strategy and identity—partial but not direct support in Stanford SEP entry",
+              "Includes invented narrative on psychological attitudes (e.g., 'not evidence of inherent personal inadequacy', 'calls for creative reevaluation') not found in the source"
+            ]
+          },
+          {
+            "attempt": 2,
+            "approved": false,
+            "issues": [
+              "Generated article length 387 outside 600-1100 words"
+            ]
+          },
+          {
+            "attempt": 3,
+            "approved": false,
+            "issues": [
+              "The source material supports core pragmatist ideas but does not directly verify several specific claims and quotations attributed to Peirce, James, Dewey, Rorty, or Putnam as described in the article.",
+              "There are interpretive paraphrases and possible attributions of motives to historical philosophers without direct evidence or explicit quotations from the source.",
+              "The original card is a brief, original reflection, whereas the article expands the theme considerably, blending historical summary with the card’s message, making full fidelity to the card questionable."
+            ]
+          }
+        ],
+        "attemptCount": 3,
+        "reviewFailureSummary": "Article not yet approved by reviewer; Saved text has not passed a matching editorial review",
+        "sourceAccessible": true,
+        "sourceUrls": [
+          "https://plato.stanford.edu/entries/pragmatism/",
+          "https://en.wikipedia.org/wiki/Mahatma_Gandhi"
+        ],
+        "sourceCount": 2,
+        "wordCount": 694,
+        "reviewedTextMatchesSaved": false,
+        "originalSource": "https://plato.stanford.edu/entries/pragmatism/",
+        "evidenceSource": "https://plato.stanford.edu/entries/pragmatism/",
+        "issues": [
+          "Article not yet approved by reviewer",
+          "Saved text has not passed a matching editorial review"
+        ],
+        "factualRisk": "high",
+        "imageStatus": "awaiting_visual_and_license_review",
+        "publication": "ready_for_publish"
+      },
+      "recoveryBatchId": "historical-36-v1",
       "state": "review_failed",
-      "checkedAt": "2026-11-09T22:41:06.546174Z",
+      "checkedAt": "2026-11-10T01:31:44.742028Z",
       "source": "https://plato.stanford.edu/entries/pragmatism/",
+      "failureCodes": [
+        "EDITORIAL_QUALITY_FAILED"
+      ],
       "reviewAttempts": [
         {
           "attempt": 1,
           "approved": false,
           "issues": [
-            "Goes far beyond the concise card: introduces substantial additional history, context, figures, and theory not in card",
-            "Attributes specific philosophical tenets (fallibilism, experimentalism, revision) in relation to strategy and identity—partial but not direct support in Stanford SEP entry",
-            "Includes invented narrative on psychological attitudes (e.g., 'not evidence of inherent personal inadequacy', 'calls for creative reevaluation') not found in the source"
-          ]
+            "The article goes beyond the core claim of the card and introduces significant factual exposition and quotations not present in the card.",
+            "It includes invented motives and attributions of intent or method to historical figures without explicit support in the source (e.g., the implication that all named pragmatists directly and self-consciously modeled 'method revision' as described).",
+            "The article contains several long quotations or paraphrases (such as Peirce's statements about belief and inquiry, James's views, and details about Addams' and Dewey's applications) that are not directly cited in the supplied source and cannot be conclusively verified without fuller source content."
+          ],
+          "completedEditorialReview": true
         },
         {
           "attempt": 2,
           "approved": false,
           "issues": [
-            "Generated article length 387 outside 600-1100 words"
-          ]
+            "Generated article length 215 outside 600-1100 words"
+          ],
+          "failureCode": "EDITORIAL_QUALITY_FAILED"
         },
         {
           "attempt": 3,
           "approved": false,
           "issues": [
-            "The source material supports core pragmatist ideas but does not directly verify several specific claims and quotations attributed to Peirce, James, Dewey, Rorty, or Putnam as described in the article.",
-            "There are interpretive paraphrases and possible attributions of motives to historical philosophers without direct evidence or explicit quotations from the source.",
-            "The original card is a brief, original reflection, whereas the article expands the theme considerably, blending historical summary with the card’s message, making full fidelity to the card questionable."
-          ]
+            "The article introduces quotations and explicit attributions (e.g., Peirce's 'pragmatic maxim', Dewey’s advocacy for 'learning by doing') that are not directly supported by the provided source.",
+            "Some narrative details, such as descriptions of the scientific revolution's influence or Dewey's 'learning by doing', are more expansive, interpretive, or specific than the evidence in the provided SEP entry.",
+            "The article discusses the 'central insight of pragmatism' in language very close to the card's phrasing, but moves from the general to the specific (e.g., 'adjust the means—do not surrender the end') in a way not directly quoted or explicitly framed as the card's own original reflection."
+          ],
+          "completedEditorialReview": true
+        },
+        {
+          "attempt": 4,
+          "approved": false,
+          "issues": [
+            "Generated article length 310 outside 600-1100 words"
+          ],
+          "failureCode": "EDITORIAL_QUALITY_FAILED"
+        },
+        {
+          "attempt": 5,
+          "approved": false,
+          "issues": [
+            "The article makes extensive historical and interpretative claims not directly supported or quoted by the supplied Stanford Encyclopedia of Philosophy source.",
+            "There are synthesized or stylized explanations of the positions of Peirce, James, Dewey, Lewis, and Rorty that go beyond the specific content present in the evidence.",
+            "The article extrapolates the influence of pragmatism on fields such as conflict resolution, organizational change, and social innovation without source support."
+          ],
+          "completedEditorialReview": true
         }
       ],
-      "attemptCount": 3,
+      "attemptCount": 5,
+      "completedEditorialReviews": 3,
       "reviewFailureSummary": "Article not yet approved by reviewer; Saved text has not passed a matching editorial review",
       "sourceAccessible": true,
       "sourceUrls": [
@@ -970,7 +1047,7 @@
         "https://en.wikipedia.org/wiki/Mahatma_Gandhi"
       ],
       "sourceCount": 2,
-      "wordCount": 694,
+      "wordCount": 788,
       "reviewedTextMatchesSaved": false,
       "originalSource": "https://plato.stanford.edu/entries/pragmatism/",
       "evidenceSource": "https://plato.stanford.edu/entries/pragmatism/",
@@ -980,7 +1057,7 @@
       ],
       "factualRisk": "high",
       "imageStatus": "awaiting_visual_and_license_review",
-      "publication": "ready_for_publish"
+      "publication": "blocked_unapproved_review"
     },
     "reflection-013": {
       "state": "approved",
