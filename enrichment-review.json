@@ -1240,50 +1240,89 @@
       "publication": "blocked_unapproved_review"
     },
     "reflection-016": {
-      "state": "review_failed",
-      "checkedAt": "2026-11-09T22:43:44.161218Z",
+      "previousReview": {
+        "state": "review_failed",
+        "checkedAt": "2026-11-09T22:43:44.161218Z",
+        "source": "https://plato.stanford.edu/entries/ethics/",
+        "reviewAttempts": [
+          {
+            "attempt": 1,
+            "approved": false,
+            "issues": [
+              "Generated article length 598 outside 600-1100 words"
+            ]
+          },
+          {
+            "attempt": 2,
+            "approved": false,
+            "issues": [
+              "Cites specific philosophers and historical context (e.g. Socrates, Mill, Kant) without direct evidence from the supplied source.",
+              "Makes factual claims about the history, frameworks, and societal impact of ethics beyond what is present in the provided source.",
+              "Supplied source is only a URL with no accessible content or quotations to verify academic claims."
+            ]
+          },
+          {
+            "attempt": 3,
+            "approved": false,
+            "issues": [
+              "Generated article length 197 outside 600-1100 words"
+            ]
+          }
+        ],
+        "attemptCount": 3,
+        "reviewFailureSummary": "Article not yet approved by reviewer; Saved text has not passed a matching editorial review",
+        "sourceAccessible": true,
+        "sourceUrls": [
+          "https://en.wikipedia.org/wiki/Kurt_Cobain"
+        ],
+        "sourceCount": 1,
+        "wordCount": 773,
+        "reviewedTextMatchesSaved": false,
+        "originalSource": "https://plato.stanford.edu/entries/ethics/",
+        "evidenceSource": "https://en.wikipedia.org/wiki/Kurt_Cobain",
+        "issues": [
+          "Article not yet approved by reviewer",
+          "Saved text has not passed a matching editorial review"
+        ],
+        "factualRisk": "high",
+        "imageStatus": "awaiting_visual_and_license_review",
+        "publication": "ready_for_publish"
+      },
+      "recoveryBatchId": "historical-36-v1",
+      "state": "approved",
+      "checkedAt": "2026-11-10T01:33:15.487028Z",
       "source": "https://plato.stanford.edu/entries/ethics/",
+      "failureCodes": [],
       "reviewAttempts": [
         {
           "attempt": 1,
           "approved": false,
           "issues": [
-            "Generated article length 598 outside 600-1100 words"
-          ]
+            "Generated article length 595 outside 600-1100 words"
+          ],
+          "failureCode": "EDITORIAL_QUALITY_FAILED"
         },
         {
           "attempt": 2,
-          "approved": false,
-          "issues": [
-            "Cites specific philosophers and historical context (e.g. Socrates, Mill, Kant) without direct evidence from the supplied source.",
-            "Makes factual claims about the history, frameworks, and societal impact of ethics beyond what is present in the provided source.",
-            "Supplied source is only a URL with no accessible content or quotations to verify academic claims."
-          ]
-        },
-        {
-          "attempt": 3,
-          "approved": false,
-          "issues": [
-            "Generated article length 197 outside 600-1100 words"
-          ]
+          "approved": true,
+          "issues": [],
+          "completedEditorialReview": true
         }
       ],
-      "attemptCount": 3,
-      "reviewFailureSummary": "Article not yet approved by reviewer; Saved text has not passed a matching editorial review",
+      "attemptCount": 2,
+      "completedEditorialReviews": 1,
+      "reviewFailureSummary": "",
       "sourceAccessible": true,
       "sourceUrls": [
         "https://en.wikipedia.org/wiki/Kurt_Cobain"
       ],
       "sourceCount": 1,
-      "wordCount": 773,
-      "reviewedTextMatchesSaved": false,
+      "wordCount": 767,
+      "reviewedTextMatchesSaved": true,
       "originalSource": "https://plato.stanford.edu/entries/ethics/",
       "evidenceSource": "https://en.wikipedia.org/wiki/Kurt_Cobain",
-      "issues": [
-        "Article not yet approved by reviewer",
-        "Saved text has not passed a matching editorial review"
-      ],
-      "factualRisk": "high",
+      "issues": [],
+      "factualRisk": "low",
       "imageStatus": "awaiting_visual_and_license_review",
       "publication": "ready_for_publish"
     },

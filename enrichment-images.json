@@ -4172,7 +4172,7 @@
       "state": "awaiting_visual_and_license_review"
     },
     "reflection-016": {
-      "checkedAt": "2026-11-09T22:43:44.161202Z",
+      "checkedAt": "2026-11-10T01:33:15.487002Z",
       "queries": [
         "Think beyond yourself"
       ],
@@ -4198,16 +4198,16 @@
         },
         {
           "state": "needs_manual_license_review",
-          "fileTitle": "File:Beyond the Horizon (1920).djvu",
-          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Beyond_the_Horizon_%281920%29.djvu/page1-1280px-Beyond_the_Horizon_%281920%29.djvu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Beyond_the_Horizon_(1920).djvu",
-          "creator": "Eugene O'Neill",
-          "attribution": "Eugene O'Neill",
+          "fileTitle": "File:Beyond the dreams of avarice (IA beyonddreamsavar00besa).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Beyond_the_dreams_of_avarice_%28IA_beyonddreamsavar00besa%29.pdf/page1-500px-Beyond_the_dreams_of_avarice_%28IA_beyonddreamsavar00besa%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Beyond_the_dreams_of_avarice_(IA_beyonddreamsavar00besa).pdf",
+          "creator": "Besant, Walter, Sir, 1836-1901",
+          "attribution": "Besant, Walter, Sir, 1836-1901",
           "license": "public-domain",
           "licenseUrl": "",
           "usageTerms": "Public domain",
-          "mime": "image/vnd.djvu",
-          "description": "1920 first edition of  Beyond the Horizon: a play in three acts  by Eugene O'Neill.",
+          "mime": "application/pdf",
+          "description": "Subjects:",
           "requiresVisualReview": true,
           "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
           "visualCheck": {
