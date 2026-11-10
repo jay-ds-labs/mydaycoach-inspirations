@@ -41,6 +41,12 @@ jobs:
         run: |
           python3 scripts/enrich_library.py
           python3 scripts/publication_gate.py
+          python3 scripts/finalize_refresh.py
+          git add refresh-status.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Finalize refresh editorial outcomes"
+            git push origin "HEAD:${CONTENT_TARGET_BRANCH}"
+          fi
           python3 - <<'PY'
           import json
           data=json.load(open("enrichment-status.json"))
