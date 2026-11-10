@@ -4666,42 +4666,118 @@
     },
     "generated-b95e6966fa494baab3e8": {
       "previousReview": {
+        "previousReview": {
+          "state": "review_failed",
+          "checkedAt": "2026-11-09T22:58:49.827832Z",
+          "source": "https://www.nature.com/articles/535018a",
+          "reviewAttempts": [
+            {
+              "attempt": 1,
+              "approved": false,
+              "issues": [
+                "Cannot fully verify several concrete claims and narrative details due to partial/inaccessible source evidence.",
+                "Source link provided refers to a specific Nature article but its content is not supplied for verification.",
+                "Numerous quotes about Röntgen’s humility, method, and impact are asserted without direct sourcing from the supplied evidence."
+              ]
+            },
+            {
+              "attempt": 2,
+              "approved": false,
+              "issues": [
+                "Generated article length 170 outside 600-1100 words"
+              ]
+            },
+            {
+              "attempt": 3,
+              "approved": false,
+              "issues": [
+                "Generation/review error: HTTP Error 503: Service Unavailable"
+              ]
+            }
+          ],
+          "attemptCount": 3,
+          "reviewFailureSummary": "Article not yet approved by reviewer; Saved text has not passed a matching editorial review",
+          "sourceAccessible": true,
+          "sourceUrls": [
+            "https://en.wikipedia.org/wiki/Heart_failure"
+          ],
+          "sourceCount": 1,
+          "wordCount": 732,
+          "reviewedTextMatchesSaved": false,
+          "originalSource": "https://www.nature.com/articles/535018a",
+          "evidenceSource": "https://en.wikipedia.org/wiki/Heart_failure",
+          "issues": [
+            "Article not yet approved by reviewer",
+            "Saved text has not passed a matching editorial review"
+          ],
+          "factualRisk": "high",
+          "imageStatus": "awaiting_visual_and_license_review",
+          "publication": "ready_for_publish"
+        },
+        "recoveryBatchId": "historical-36-v1",
         "state": "review_failed",
-        "checkedAt": "2026-11-09T22:58:49.827832Z",
+        "checkedAt": "2026-11-10T01:46:45.520350Z",
         "source": "https://www.nature.com/articles/535018a",
+        "failureCodes": [
+          "EDITORIAL_QUALITY_FAILED"
+        ],
         "reviewAttempts": [
           {
             "attempt": 1,
             "approved": false,
             "issues": [
-              "Cannot fully verify several concrete claims and narrative details due to partial/inaccessible source evidence.",
-              "Source link provided refers to a specific Nature article but its content is not supplied for verification.",
-              "Numerous quotes about Röntgen’s humility, method, and impact are asserted without direct sourcing from the supplied evidence."
-            ]
+              "Source evidence is inaccessible or missing.",
+              "Cannot verify support for specific quotations or factual claims.",
+              "Cannot verify accuracy of attributions to Röntgen’s actions or motives."
+            ],
+            "completedEditorialReview": true
           },
           {
             "attempt": 2,
             "approved": false,
             "issues": [
-              "Generated article length 170 outside 600-1100 words"
-            ]
+              "Source provided is not relevant to the article's subject or claims.",
+              "No evidence to verify accuracy of statements about Röntgen's character, methods, communication style, or motivations.",
+              "Claims about Röntgen's choices regarding patents, commercial exploitation, and sharing of techniques are unsupported by the supplied evidence."
+            ],
+            "completedEditorialReview": true
           },
           {
             "attempt": 3,
             "approved": false,
             "issues": [
-              "Generation/review error: HTTP Error 503: Service Unavailable"
-            ]
+              "Generated article length 265 outside 600-1100 words"
+            ],
+            "failureCode": "EDITORIAL_QUALITY_FAILED"
+          },
+          {
+            "attempt": 4,
+            "approved": false,
+            "issues": [
+              "Generated article length 427 outside 600-1100 words"
+            ],
+            "failureCode": "EDITORIAL_QUALITY_FAILED"
+          },
+          {
+            "attempt": 5,
+            "approved": false,
+            "issues": [
+              "No direct quotations from Wilhelm Röntgen are provided or verified",
+              "Some assertions about Röntgen's motives and ethics lack explicit support from the supplied source",
+              "The supplied evidence (a Wikipedia article about heart failure) is irrelevant and does not verify any claims in the article"
+            ],
+            "completedEditorialReview": true
           }
         ],
-        "attemptCount": 3,
+        "attemptCount": 5,
+        "completedEditorialReviews": 3,
         "reviewFailureSummary": "Article not yet approved by reviewer; Saved text has not passed a matching editorial review",
         "sourceAccessible": true,
         "sourceUrls": [
           "https://en.wikipedia.org/wiki/Heart_failure"
         ],
         "sourceCount": 1,
-        "wordCount": 732,
+        "wordCount": 753,
         "reviewedTextMatchesSaved": false,
         "originalSource": "https://www.nature.com/articles/535018a",
         "evidenceSource": "https://en.wikipedia.org/wiki/Heart_failure",
@@ -4711,11 +4787,11 @@
         ],
         "factualRisk": "high",
         "imageStatus": "awaiting_visual_and_license_review",
-        "publication": "ready_for_publish"
+        "publication": "blocked_unapproved_review"
       },
-      "recoveryBatchId": "historical-36-v1",
+      "recoveryBatchId": "remaining-27-v2",
       "state": "review_failed",
-      "checkedAt": "2026-11-10T01:46:45.520350Z",
+      "checkedAt": "2026-11-10T02:34:02.568525Z",
       "source": "https://www.nature.com/articles/535018a",
       "failureCodes": [
         "EDITORIAL_QUALITY_FAILED"
@@ -4725,9 +4801,9 @@
           "attempt": 1,
           "approved": false,
           "issues": [
-            "Source evidence is inaccessible or missing.",
-            "Cannot verify support for specific quotations or factual claims.",
-            "Cannot verify accuracy of attributions to Röntgen’s actions or motives."
+            "Source provided is unrelated to Wilhelm Röntgen or X-rays—source is about heart failure",
+            "Factual claims about Röntgen's experiments and character are not verifiable with given evidence",
+            "No evidence provided for the first X-ray image of his wife's hand"
           ],
           "completedEditorialReview": true
         },
@@ -4735,9 +4811,9 @@
           "attempt": 2,
           "approved": false,
           "issues": [
-            "Source provided is not relevant to the article's subject or claims.",
-            "No evidence to verify accuracy of statements about Röntgen's character, methods, communication style, or motivations.",
-            "Claims about Röntgen's choices regarding patents, commercial exploitation, and sharing of techniques are unsupported by the supplied evidence."
+            "No quotations are present despite the card being in the 'Quotes' category",
+            "The claim about Röntgen's integrity and lack of urge for personal gain is not substantiated in the source evidence",
+            "The conclusion about inspiring 'confidence in honest scientific communication' extends beyond what's supported by the source"
           ],
           "completedEditorialReview": true
         },
@@ -4745,48 +4821,33 @@
           "attempt": 3,
           "approved": false,
           "issues": [
-            "Generated article length 265 outside 600-1100 words"
-          ],
-          "failureCode": "EDITORIAL_QUALITY_FAILED"
-        },
-        {
-          "attempt": 4,
-          "approved": false,
-          "issues": [
-            "Generated article length 427 outside 600-1100 words"
-          ],
-          "failureCode": "EDITORIAL_QUALITY_FAILED"
-        },
-        {
-          "attempt": 5,
-          "approved": false,
-          "issues": [
-            "No direct quotations from Wilhelm Röntgen are provided or verified",
-            "Some assertions about Röntgen's motives and ethics lack explicit support from the supplied source",
-            "The supplied evidence (a Wikipedia article about heart failure) is irrelevant and does not verify any claims in the article"
+            "No source evidence supplied addresses or supports claims about Wilhelm Röntgen or X-rays",
+            "No confirmation from provided evidence that Röntgen observed X-rays in 1895, performed related experiments, or published without patenting",
+            "No verification of Röntgen's influence on diagnostic medicine or scientific communication is possible from the evidence"
           ],
           "completedEditorialReview": true
         }
       ],
-      "attemptCount": 5,
+      "attemptCount": 3,
       "completedEditorialReviews": 3,
-      "reviewFailureSummary": "Article not yet approved by reviewer; Saved text has not passed a matching editorial review",
+      "reviewFailureSummary": "No source evidence supplied addresses or supports claims about Wilhelm Röntgen or X-rays; No confirmation from provided evidence that Röntgen observed X-rays in 1895, performed related experiments, or published without patenting",
       "sourceAccessible": true,
       "sourceUrls": [
         "https://en.wikipedia.org/wiki/Heart_failure"
       ],
       "sourceCount": 1,
-      "wordCount": 753,
-      "reviewedTextMatchesSaved": false,
+      "wordCount": 178,
+      "reviewedTextMatchesSaved": true,
       "originalSource": "https://www.nature.com/articles/535018a",
       "evidenceSource": "https://en.wikipedia.org/wiki/Heart_failure",
       "issues": [
-        "Article not yet approved by reviewer",
-        "Saved text has not passed a matching editorial review"
+        "No source evidence supplied addresses or supports claims about Wilhelm Röntgen or X-rays",
+        "No confirmation from provided evidence that Röntgen observed X-rays in 1895, performed related experiments, or published without patenting",
+        "No verification of Röntgen's influence on diagnostic medicine or scientific communication is possible from the evidence"
       ],
       "factualRisk": "high",
       "imageStatus": "awaiting_visual_and_license_review",
-      "publication": "blocked_unapproved_review"
+      "publication": "ready_for_publish"
     },
     "generated-f05be5e8fc694d8d8a54": {
       "previousReview": {
