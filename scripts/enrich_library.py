@@ -136,7 +136,7 @@ def main():
     feed=json.loads(FEED.read_text(encoding="utf-8"))
     original=[x for x in feed["items"] if x.get("status")!="published"]
     reviews=json.loads(REVIEWS.read_text(encoding="utf-8")) if REVIEWS.exists() else {"items":{}}
-    done={k for k,v in reviews["items"].items() if v.get("state")=="approved" and any(i["id"]==k and 600<=len(str(i.get("detail") or "").split())<=1100 for i in original)}
+    done={k for k,v in reviews["items"].items() if v.get("state") in ("approved","review_failed","needs_manual_review") and any(i["id"]==k and 600<=len(str(i.get("detail") or "").split())<=1100 for i in original)}
     if RETRY_REVIEW:
         remaining=[x for x in original if reviews["items"].get(x["id"],{}).get("state") in ("review_failed","needs_review","review_pending_retry","needs_manual_review") or (x["id"] not in done and x["id"] in reviews["items"])]
     else:
@@ -165,13 +165,17 @@ def main():
             source=evidence_bundle(records)
             source_urls=[r["url"] for r in records]
             issues=[];best_detail="";best_result=None;best_issues=[];attempts=[]
+            completed_reviews=0
+            length_failures=0
             approved=False
             infrastructure_error=None
             if not records:
                 issues=["No subject-specific evidence found"]+source_errors
             status["stage"]="generation"
             if records:
-                for attempt in range(MAX_ATTEMPTS):
+                for attempt in range(MAX_ATTEMPTS+3):
+                    if completed_reviews>=MAX_ATTEMPTS or length_failures>=3:
+                        break
                     attempt_record={"attempt":attempt+1,"approved":False,"issues":[]}
                     try:
                         draft=compose(item,source or "No independent source was retrieved. Avoid unverifiable specifics; explain uncertainty.", "; ".join(issues))
@@ -182,6 +186,8 @@ def main():
                         if not MIN_WORDS<=words<=MAX_WORDS:
                             issues=["Generated article length "+str(words)+" outside 600-1100 words"]
                             attempt_record["issues"]=issues[:3]
+                            attempt_record["failureCode"]="EDITORIAL_QUALITY_FAILED"
+                            length_failures+=1
                             attempts.append(attempt_record)
                             continue
                         status["generated"]+=1
@@ -191,6 +197,8 @@ def main():
                         # Python owns deterministic length checks; ignore numerical model errors.
                         editorial_issues=[str(x)[:300] for x in result.get("issues",[])
                             if not re.search(r"(word count|article length|\\bwords?\\b.*\\b(600|1100)\\b|\\b(600|1100)\\b.*\\bwords?\\b)",str(x),re.I)]
+                        completed_reviews+=1
+                        attempt_record["completedEditorialReview"]=True
                         editorial_pass=result.get("approved") is True and not editorial_issues
                         attempt_record["approved"]=editorial_pass
                         attempt_record["issues"]=editorial_issues[:3]
@@ -256,6 +264,7 @@ def main():
                     ["FACTUAL_CONTRADICTION"] if any("unsupported" in str(x).lower() or "factual" in str(x).lower() for x in issues) else
                     ["EDITORIAL_QUALITY_FAILED"] if state!="approved" else []),
                 "reviewAttempts":attempts,"attemptCount":len(attempts),
+                "completedEditorialReviews":completed_reviews,
                 "reviewFailureSummary":"; ".join(issues[:2])[:350] if state!="approved" else "",
                 "sourceAccessible":bool(records),"sourceUrls":source_urls,
                 "sourceCount":len(records),"wordCount":saved_words,
