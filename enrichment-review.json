@@ -6128,44 +6128,120 @@
     },
     "generated-effa8452725d4abf9c91": {
       "previousReview": {
+        "previousReview": {
+          "state": "review_failed",
+          "checkedAt": "2026-11-09T23:03:43.939433Z",
+          "source": "https://plato.stanford.edu/entries/materialism-india/",
+          "reviewAttempts": [
+            {
+              "attempt": 1,
+              "approved": false,
+              "issues": [
+                "The provided source evidence does not include or confirm any substantive facts about the Cārvāka school, its materialism, skepticism, or the details presented in the article.",
+                "There is no direct evidence from the supplied Wikipedia link or its content that supports specific claims made in the article about the Cārvāka school's doctrines, history, or influence.",
+                "The article's assertions about specific texts (e.g., Jayarāśi’s 'Tattvopaplava-siṃha'), historical context, and ethical positions cannot be verified from the supplied evidence."
+              ]
+            },
+            {
+              "attempt": 2,
+              "approved": false,
+              "issues": [
+                "Generation/review error: HTTP Error 503: Service Unavailable"
+              ]
+            },
+            {
+              "attempt": 3,
+              "approved": false,
+              "issues": [
+                "The main source provided does not include content on Indian philosophy or the Cārvāka school.",
+                "No direct evidence found in the source supporting specific factual claims about Cārvāka views, materialism, or historical context.",
+                "Claims about the Cārvāka stance toward perception, inference, and scriptures are unsupported by the supplied source."
+              ]
+            }
+          ],
+          "attemptCount": 3,
+          "reviewFailureSummary": "Article not yet approved by reviewer; Saved text has not passed a matching editorial review",
+          "sourceAccessible": true,
+          "sourceUrls": [
+            "https://en.wikipedia.org/wiki/Ancient_philosophy"
+          ],
+          "sourceCount": 1,
+          "wordCount": 653,
+          "reviewedTextMatchesSaved": false,
+          "originalSource": "https://plato.stanford.edu/entries/materialism-india/",
+          "evidenceSource": "https://en.wikipedia.org/wiki/Ancient_philosophy",
+          "issues": [
+            "Article not yet approved by reviewer",
+            "Saved text has not passed a matching editorial review"
+          ],
+          "factualRisk": "high",
+          "imageStatus": "awaiting_visual_and_license_review",
+          "publication": "ready_for_publish"
+        },
+        "recoveryBatchId": "historical-36-v1",
         "state": "review_failed",
-        "checkedAt": "2026-11-09T23:03:43.939433Z",
+        "checkedAt": "2026-11-10T01:54:31.451054Z",
         "source": "https://plato.stanford.edu/entries/materialism-india/",
+        "failureCodes": [
+          "EDITORIAL_QUALITY_FAILED"
+        ],
         "reviewAttempts": [
           {
             "attempt": 1,
             "approved": false,
             "issues": [
-              "The provided source evidence does not include or confirm any substantive facts about the Cārvāka school, its materialism, skepticism, or the details presented in the article.",
-              "There is no direct evidence from the supplied Wikipedia link or its content that supports specific claims made in the article about the Cārvāka school's doctrines, history, or influence.",
-              "The article's assertions about specific texts (e.g., Jayarāśi’s 'Tattvopaplava-siṃha'), historical context, and ethical positions cannot be verified from the supplied evidence."
-            ]
+              "The article describes in detail Cārvāka philosophy, referencing specific doctrines and historical context, but the provided source evidence is limited to a Wikipedia page about ancient philosophy in general, without specific corroboration for Cārvāka claims.",
+              "No direct evidence is supplied for quotations or detailed reconstructions of Cārvāka positions (e.g., rejection of supernaturalism, doctrine of perception as sole means of knowledge, denial of atman, critique of rituals, etc.).",
+              "Many factual statements (origins, influence, critiques by other schools, etc.) cannot be confirmed by the given source evidence."
+            ],
+            "completedEditorialReview": true
           },
           {
             "attempt": 2,
             "approved": false,
             "issues": [
-              "Generation/review error: HTTP Error 503: Service Unavailable"
-            ]
+              "Generated article length 466 outside 600-1100 words"
+            ],
+            "failureCode": "EDITORIAL_QUALITY_FAILED"
           },
           {
             "attempt": 3,
             "approved": false,
             "issues": [
-              "The main source provided does not include content on Indian philosophy or the Cārvāka school.",
-              "No direct evidence found in the source supporting specific factual claims about Cārvāka views, materialism, or historical context.",
-              "Claims about the Cārvāka stance toward perception, inference, and scriptures are unsupported by the supplied source."
-            ]
+              "Source evidence does not contain direct verification of specific factual claims, details, or quotations about the Cārvāka school.",
+              "Article makes detailed claims about Cārvāka epistemology, ethics, and influence not corroborated by the supplied source.",
+              "Plato Stanford source is referenced in card but not present in provided evidence; Wikipedia source does not discuss Cārvāka."
+            ],
+            "completedEditorialReview": true
+          },
+          {
+            "attempt": 4,
+            "approved": false,
+            "issues": [
+              "Generated article length 175 outside 600-1100 words"
+            ],
+            "failureCode": "EDITORIAL_QUALITY_FAILED"
+          },
+          {
+            "attempt": 5,
+            "approved": false,
+            "issues": [
+              "No evidence supplied from the cited Stanford Encyclopedia source; only Wikipedia on 'Ancient philosophy' provided",
+              "Article contains numerous historical and philosophical claims about Cārvāka unsupported by the supplied Wikipedia evidence",
+              "Reconstruction of Cārvāka metaphysics and ethics is not substantiated by extant data in source"
+            ],
+            "completedEditorialReview": true
           }
         ],
-        "attemptCount": 3,
+        "attemptCount": 5,
+        "completedEditorialReviews": 3,
         "reviewFailureSummary": "Article not yet approved by reviewer; Saved text has not passed a matching editorial review",
         "sourceAccessible": true,
         "sourceUrls": [
           "https://en.wikipedia.org/wiki/Ancient_philosophy"
         ],
         "sourceCount": 1,
-        "wordCount": 653,
+        "wordCount": 796,
         "reviewedTextMatchesSaved": false,
         "originalSource": "https://plato.stanford.edu/entries/materialism-india/",
         "evidenceSource": "https://en.wikipedia.org/wiki/Ancient_philosophy",
@@ -6175,11 +6251,11 @@
         ],
         "factualRisk": "high",
         "imageStatus": "awaiting_visual_and_license_review",
-        "publication": "ready_for_publish"
+        "publication": "blocked_unapproved_review"
       },
-      "recoveryBatchId": "historical-36-v1",
+      "recoveryBatchId": "remaining-27-v2",
       "state": "review_failed",
-      "checkedAt": "2026-11-10T01:54:31.451054Z",
+      "checkedAt": "2026-11-10T02:37:08.149384Z",
       "source": "https://plato.stanford.edu/entries/materialism-india/",
       "failureCodes": [
         "EDITORIAL_QUALITY_FAILED"
@@ -6189,9 +6265,9 @@
           "attempt": 1,
           "approved": false,
           "issues": [
-            "The article describes in detail Cārvāka philosophy, referencing specific doctrines and historical context, but the provided source evidence is limited to a Wikipedia page about ancient philosophy in general, without specific corroboration for Cārvāka claims.",
-            "No direct evidence is supplied for quotations or detailed reconstructions of Cārvāka positions (e.g., rejection of supernaturalism, doctrine of perception as sole means of knowledge, denial of atman, critique of rituals, etc.).",
-            "Many factual statements (origins, influence, critiques by other schools, etc.) cannot be confirmed by the given source evidence."
+            "The provided Wikipedia source does not mention the Cārvāka school.",
+            "No direct evidence from supplied sources supports the article's claims about Cārvāka materialism, empirical stance, or ethical views.",
+            "Claims about Cārvāka skepticism, rejection of scripture, immortality of the soul, afterlife, and their influence are unsupported by the evidence presented."
           ],
           "completedEditorialReview": true
         },
@@ -6199,58 +6275,44 @@
           "attempt": 2,
           "approved": false,
           "issues": [
-            "Generated article length 466 outside 600-1100 words"
+            "The main factual source does not substantiate concrete claims about Cārvāka's specific doctrines.",
+            "Claims about Cārvāka's materialism, empirical observation, and rejection of supernatural explanations are not directly supported by the provided evidence.",
+            "No primary details or quotations about Cārvāka appear in the accessible evidence."
           ],
-          "failureCode": "EDITORIAL_QUALITY_FAILED"
+          "completedEditorialReview": true
         },
         {
           "attempt": 3,
           "approved": false,
           "issues": [
-            "Source evidence does not contain direct verification of specific factual claims, details, or quotations about the Cārvāka school.",
-            "Article makes detailed claims about Cārvāka epistemology, ethics, and influence not corroborated by the supplied source.",
-            "Plato Stanford source is referenced in card but not present in provided evidence; Wikipedia source does not discuss Cārvāka."
-          ],
-          "completedEditorialReview": true
-        },
-        {
-          "attempt": 4,
-          "approved": false,
-          "issues": [
-            "Generated article length 175 outside 600-1100 words"
-          ],
-          "failureCode": "EDITORIAL_QUALITY_FAILED"
-        },
-        {
-          "attempt": 5,
-          "approved": false,
-          "issues": [
-            "No evidence supplied from the cited Stanford Encyclopedia source; only Wikipedia on 'Ancient philosophy' provided",
-            "Article contains numerous historical and philosophical claims about Cārvāka unsupported by the supplied Wikipedia evidence",
-            "Reconstruction of Cārvāka metaphysics and ethics is not substantiated by extant data in source"
+            "Main claim that Cārvāka championed empirical observation and rational inquiry is only partially supported and remains debated.",
+            "Assertion that Cārvāka expressly advocated for pursuit of tangible well-being goes beyond available evidence from secondary sources.",
+            "Article overstates the certainty of Cārvāka doctrines, where historical evidence is acknowledged as fragmentary and indirect."
           ],
           "completedEditorialReview": true
         }
       ],
-      "attemptCount": 5,
+      "attemptCount": 3,
       "completedEditorialReviews": 3,
-      "reviewFailureSummary": "Article not yet approved by reviewer; Saved text has not passed a matching editorial review",
+      "reviewFailureSummary": "Main claim that Cārvāka championed empirical observation and rational inquiry is only partially supported and remains debated.; Assertion that Cārvāka expressly advocated for pursuit of tangible well-being goes beyond available evidence from secondary sources.",
       "sourceAccessible": true,
       "sourceUrls": [
         "https://en.wikipedia.org/wiki/Ancient_philosophy"
       ],
       "sourceCount": 1,
-      "wordCount": 796,
-      "reviewedTextMatchesSaved": false,
+      "wordCount": 137,
+      "reviewedTextMatchesSaved": true,
       "originalSource": "https://plato.stanford.edu/entries/materialism-india/",
       "evidenceSource": "https://en.wikipedia.org/wiki/Ancient_philosophy",
       "issues": [
-        "Article not yet approved by reviewer",
-        "Saved text has not passed a matching editorial review"
+        "Main claim that Cārvāka championed empirical observation and rational inquiry is only partially supported and remains debated.",
+        "Assertion that Cārvāka expressly advocated for pursuit of tangible well-being goes beyond available evidence from secondary sources.",
+        "Article overstates the certainty of Cārvāka doctrines, where historical evidence is acknowledged as fragmentary and indirect.",
+        "Original card's confident tone about Cārvāka's precise doctrines is not supported by the caution present in the source material."
       ],
-      "factualRisk": "high",
+      "factualRisk": "medium",
       "imageStatus": "awaiting_visual_and_license_review",
-      "publication": "blocked_unapproved_review"
+      "publication": "ready_for_publish"
     },
     "generated-91784adf38f444548a2b": {
       "previousReview": {
