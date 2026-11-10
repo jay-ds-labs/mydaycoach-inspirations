@@ -1,12 +1,59 @@
 {
   "state": "running",
   "total": 27,
-  "completed": 0,
-  "generated": 0,
-  "reviewed": 0,
-  "approved": 0,
+  "completed": 1,
+  "generated": 1,
+  "reviewed": 1,
+  "approved": 1,
   "reviewFailed": 0,
-  "eligible": 0,
+  "eligible": 1,
   "startedAt": "2026-11-10T05:27:53.628646Z",
-  "items": {}
+  "items": {
+    "turing-computing": {
+      "item": {
+        "id": "turing-computing",
+        "category": "Stories",
+        "title": "Work that outlasts its moment",
+        "body": "Alan Turing helped develop foundational ideas in computing and contributed to British codebreaking during World War II.",
+        "attribution": "The Alan Turing Institute",
+        "source": "https://en.wikipedia.org/wiki/Alan_Turing",
+        "takeaway": "Invest time in learning something whose value compounds.",
+        "status": "ready_for_publish",
+        "publishedAt": "",
+        "reviewStatus": "approved",
+        "reviewFailureSummary": "",
+        "detail": "Alan Turing’s life illustrates the enduring impact of foundational work, even when its immediate recognition is elusive. Born in London in 1912, Turing showed early interest in science and mathematics, attending King’s College, Cambridge, and later earning a doctorate at Princeton University. In 1936, he introduced the concept of a 'Turing machine,' which formalized the idea of algorithmic computation and laid the groundwork for computer science. Although this was a theoretical concept, its value and influence have grown exponentially with the ascent of digital computers.\n\nDuring World War II, Turing worked at Britain’s Government Code and Cypher School at Bletchley Park, where he led Hut 8, focusing on breaking German naval Enigma ciphers. Building on pre-war Polish breakthroughs, Turing developed methods and electromechanical machines that helped decode encrypted messages. Intelligence gained from his team’s work—referred to as ‘Ultra’—contributed significantly to the Allied war effort, most notably during the Battle of the Atlantic. Due to secrecy rules, much of Turing’s critical role remained unknown for decades, and the full importance of his contributions was only understood later.\n\nAfter the war, Turing continued to innovate, designing one of the first stored-program computers at the National Physical Laboratory and working at the University of Manchester on early computing machines. He expanded his impact by applying computational principles to biology, developing mathematical models that explained natural patterns (now known as Turing patterns). Despite his pioneering work, Turing faced harsh discrimination: in 1952, he was prosecuted for his sexuality under laws of the time, which led to personal hardship and his early death in 1954. Turing’s legacy, once unsung, now anchors modern computing and artificial intelligence. His story reminds us that investments in deep, foundational learning and problem-solving can generate far-reaching, even unanticipated value—work done today can outlast its moment, transforming both society and the future.",
+        "reviewFailureCode": ""
+      },
+      "audit": {
+        "state": "approved",
+        "eligible": true,
+        "generated": true,
+        "attempts": [
+          {
+            "attempt": 1,
+            "reviewCompleted": true,
+            "sourceUrls": [
+              "https://en.wikipedia.org/wiki/Alan_Turing"
+            ],
+            "changes": "Replaced unrelated material with a new narrative focused on Alan Turing, based strictly on supported historical details from the Wikipedia article. Preserved and expanded upon Turing’s contributions, the delay in public recognition, and the long-term impact of his work. Contextualized his legacy in both historical and practical terms, per the card’s subject and instruction.",
+            "approved": true,
+            "complete": true,
+            "grounded": true,
+            "feedback": []
+          }
+        ],
+        "completedReviews": 1,
+        "reasonCode": "",
+        "reason": "",
+        "sourceUrls": [
+          "https://en.wikipedia.org/wiki/Alan_Turing"
+        ],
+        "sourceErrors": [
+          "https://www.britannica.com/biography/Alan-Turing Source retrieval failed: HTTP Error 403: Forbidden",
+          "https://www.turing.ac.uk/ Source retrieval failed: HTTP Error 403: Forbidden"
+        ]
+      }
+    }
+  }
 }
