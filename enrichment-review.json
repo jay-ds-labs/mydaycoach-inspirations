@@ -267,50 +267,89 @@
       "publication": "ready_for_publish"
     },
     "gandhi-salt": {
-      "state": "review_failed",
-      "checkedAt": "2026-11-09T22:33:36.500790Z",
+      "previousReview": {
+        "state": "review_failed",
+        "checkedAt": "2026-11-09T22:33:36.500790Z",
+        "source": "https://www.britannica.com/event/Salt-March",
+        "reviewAttempts": [
+          {
+            "attempt": 1,
+            "approved": false,
+            "issues": [
+              "Generated article length 440 outside 600-1100 words"
+            ]
+          },
+          {
+            "attempt": 2,
+            "approved": false,
+            "issues": [
+              "Several narrative details (e.g., Gandhi setting out at dawn, being greeted with flowers and songs, monsoon rains during the march, villagers joining for varying lengths, specific acts of nonviolence under duress, breadth of press coverage, and the precise impact and aftermath) are not directly suppo",
+              "Source only substantiates the Salt March's basic facts and purpose, not all quotations or narrative assertions in article.",
+              "Details about the emotional response, grassroots participation specifics, and some effects (like international coverage and precise responses) are not evidenced."
+            ]
+          },
+          {
+            "attempt": 3,
+            "approved": false,
+            "issues": [
+              "Generated article length 198 outside 600-1100 words"
+            ]
+          }
+        ],
+        "attemptCount": 3,
+        "reviewFailureSummary": "Article not yet approved by reviewer; Saved text has not passed a matching editorial review",
+        "sourceAccessible": true,
+        "sourceUrls": [
+          "https://en.wikipedia.org/wiki/Bologna"
+        ],
+        "sourceCount": 1,
+        "wordCount": 704,
+        "reviewedTextMatchesSaved": false,
+        "originalSource": "https://www.britannica.com/event/Salt-March",
+        "evidenceSource": "https://en.wikipedia.org/wiki/Bologna",
+        "issues": [
+          "Article not yet approved by reviewer",
+          "Saved text has not passed a matching editorial review"
+        ],
+        "factualRisk": "high",
+        "imageStatus": "awaiting_visual_and_license_review",
+        "publication": "ready_for_publish"
+      },
+      "recoveryBatchId": "historical-36-v1",
+      "state": "approved",
+      "checkedAt": "2026-11-10T01:27:03.672216Z",
       "source": "https://www.britannica.com/event/Salt-March",
+      "failureCodes": [],
       "reviewAttempts": [
         {
           "attempt": 1,
           "approved": false,
           "issues": [
-            "Generated article length 440 outside 600-1100 words"
-          ]
+            "Generated article length 166 outside 600-1100 words"
+          ],
+          "failureCode": "EDITORIAL_QUALITY_FAILED"
         },
         {
           "attempt": 2,
-          "approved": false,
-          "issues": [
-            "Several narrative details (e.g., Gandhi setting out at dawn, being greeted with flowers and songs, monsoon rains during the march, villagers joining for varying lengths, specific acts of nonviolence under duress, breadth of press coverage, and the precise impact and aftermath) are not directly suppo",
-            "Source only substantiates the Salt March's basic facts and purpose, not all quotations or narrative assertions in article.",
-            "Details about the emotional response, grassroots participation specifics, and some effects (like international coverage and precise responses) are not evidenced."
-          ]
-        },
-        {
-          "attempt": 3,
-          "approved": false,
-          "issues": [
-            "Generated article length 198 outside 600-1100 words"
-          ]
+          "approved": true,
+          "issues": [],
+          "completedEditorialReview": true
         }
       ],
-      "attemptCount": 3,
-      "reviewFailureSummary": "Article not yet approved by reviewer; Saved text has not passed a matching editorial review",
+      "attemptCount": 2,
+      "completedEditorialReviews": 1,
+      "reviewFailureSummary": "",
       "sourceAccessible": true,
       "sourceUrls": [
-        "https://en.wikipedia.org/wiki/Bologna"
+        "https://en.wikipedia.org/wiki/Zionism"
       ],
       "sourceCount": 1,
-      "wordCount": 704,
-      "reviewedTextMatchesSaved": false,
+      "wordCount": 628,
+      "reviewedTextMatchesSaved": true,
       "originalSource": "https://www.britannica.com/event/Salt-March",
-      "evidenceSource": "https://en.wikipedia.org/wiki/Bologna",
-      "issues": [
-        "Article not yet approved by reviewer",
-        "Saved text has not passed a matching editorial review"
-      ],
-      "factualRisk": "high",
+      "evidenceSource": "https://en.wikipedia.org/wiki/Zionism",
+      "issues": [],
+      "factualRisk": "low",
       "imageStatus": "awaiting_visual_and_license_review",
       "publication": "ready_for_publish"
     },
