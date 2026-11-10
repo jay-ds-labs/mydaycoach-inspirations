@@ -3018,42 +3018,118 @@
       "publication": "blocked_unapproved_review"
     },
     "generated-b153d63332d44b54aa56": {
+      "previousReview": {
+        "state": "review_failed",
+        "checkedAt": "2026-11-09T22:55:40.732077Z",
+        "source": "https://www.britannica.com/event/Salt-March",
+        "reviewAttempts": [
+          {
+            "attempt": 1,
+            "approved": false,
+            "issues": [
+              "Generation/review error: HTTP Error 503: Service Unavailable"
+            ]
+          },
+          {
+            "attempt": 2,
+            "approved": false,
+            "issues": [
+              "Generation/review error: HTTP Error 503: Service Unavailable"
+            ]
+          },
+          {
+            "attempt": 3,
+            "approved": false,
+            "issues": [
+              "Supplied source evidence is unrelated to the Salt March or Gandhi",
+              "No factual claims in the article can be cross-verified with the provided evidence",
+              "Approval requires matching factual claims with the credible source, but evidence is inaccessible"
+            ]
+          }
+        ],
+        "attemptCount": 3,
+        "reviewFailureSummary": "Article not yet approved by reviewer; Saved text has not passed a matching editorial review",
+        "sourceAccessible": true,
+        "sourceUrls": [
+          "https://en.wikipedia.org/wiki/List_of_stock_characters"
+        ],
+        "sourceCount": 1,
+        "wordCount": 745,
+        "reviewedTextMatchesSaved": false,
+        "originalSource": "https://www.britannica.com/event/Salt-March",
+        "evidenceSource": "https://en.wikipedia.org/wiki/List_of_stock_characters",
+        "issues": [
+          "Article not yet approved by reviewer",
+          "Saved text has not passed a matching editorial review"
+        ],
+        "factualRisk": "high",
+        "imageStatus": "awaiting_visual_and_license_review",
+        "publication": "ready_for_publish"
+      },
+      "recoveryBatchId": "historical-36-v1",
       "state": "review_failed",
-      "checkedAt": "2026-11-09T22:55:40.732077Z",
+      "checkedAt": "2026-11-10T01:43:13.428938Z",
       "source": "https://www.britannica.com/event/Salt-March",
+      "failureCodes": [
+        "EDITORIAL_QUALITY_FAILED"
+      ],
       "reviewAttempts": [
         {
           "attempt": 1,
           "approved": false,
           "issues": [
-            "Generation/review error: HTTP Error 503: Service Unavailable"
-          ]
+            "Many details and quotations in the article are not directly supported by the supplied evidence.",
+            "The only supplied source is a Wikipedia page about stock characters, not the Salt March or Gandhi.",
+            "Cannot verify the accuracy of factual claims about the organization, events, and international coverage of the Salt March."
+          ],
+          "completedEditorialReview": true
         },
         {
           "attempt": 2,
           "approved": false,
           "issues": [
-            "Generation/review error: HTTP Error 503: Service Unavailable"
-          ]
+            "Generated article length 465 outside 600-1100 words"
+          ],
+          "failureCode": "EDITORIAL_QUALITY_FAILED"
         },
         {
           "attempt": 3,
           "approved": false,
           "issues": [
-            "Supplied source evidence is unrelated to the Salt March or Gandhi",
-            "No factual claims in the article can be cross-verified with the provided evidence",
-            "Approval requires matching factual claims with the credible source, but evidence is inaccessible"
-          ]
+            "Source evidence not provided or accessible: Only a Wikipedia list of stock characters is included, not corroborating the factual claims made in the article.",
+            "Cannot verify details of the Salt March, Gandhi’s actions, participant numbers, international reaction, or outcomes based on the provided source.",
+            "Many narrative and historical claims (e.g., the exact route, Gandhi’s speeches, size of crowds, imprisonment numbers, influence on international opinion) are not supported by the supplied evidence."
+          ],
+          "completedEditorialReview": true
+        },
+        {
+          "attempt": 4,
+          "approved": false,
+          "issues": [
+            "Generated article length 574 outside 600-1100 words"
+          ],
+          "failureCode": "EDITORIAL_QUALITY_FAILED"
+        },
+        {
+          "attempt": 5,
+          "approved": false,
+          "issues": [
+            "Source is not accessible or relevant: Provided source is a list of stock characters and does not support any of the historical claims made in the article.",
+            "No supporting evidence for quoted figures or events: The article contains numerous factual claims (dates, distances, numbers arrested, motivations, impact) without any corroborating evidence from the supplied source.",
+            "Inadequate attribution of direct speech, thoughts, or motives: The article presents details and motivations as fact (e.g., Gandhi's intent, strategy) without supporting evidence."
+          ],
+          "completedEditorialReview": true
         }
       ],
-      "attemptCount": 3,
+      "attemptCount": 5,
+      "completedEditorialReviews": 3,
       "reviewFailureSummary": "Article not yet approved by reviewer; Saved text has not passed a matching editorial review",
       "sourceAccessible": true,
       "sourceUrls": [
         "https://en.wikipedia.org/wiki/List_of_stock_characters"
       ],
       "sourceCount": 1,
-      "wordCount": 745,
+      "wordCount": 720,
       "reviewedTextMatchesSaved": false,
       "originalSource": "https://www.britannica.com/event/Salt-March",
       "evidenceSource": "https://en.wikipedia.org/wiki/List_of_stock_characters",
@@ -3063,7 +3139,7 @@
       ],
       "factualRisk": "high",
       "imageStatus": "awaiting_visual_and_license_review",
-      "publication": "ready_for_publish"
+      "publication": "blocked_unapproved_review"
     },
     "generated-d58dc053c2964eb89391": {
       "state": "review_failed",
