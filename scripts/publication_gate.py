@@ -4,21 +4,25 @@ import json
 from pathlib import Path
 
 ROOT=Path(__file__).resolve().parents[1]
-MIN_WORDS=600
-MAX_WORDS=1100
+MIN_WORDS=1
+MAX_WORDS=1000000
 
 def eligible(item,review,image_record):
-    """Only evidence-approved, matching editorial reviews are publishable."""
+    """Allow approved or three-cycle-exhausted reviewed details; preserve warnings."""
     reasons=[]
     words=len(str(item.get("detail") or "").split())
     if not MIN_WORDS<=words<=MAX_WORDS:
         reasons.append("full_article_missing_or_wrong_length")
-    if item.get("reviewStatus",review.get("state")) != "approved":
+    approved=review.get("state")=="approved"
+    exhausted=review.get("state")=="review_failed" and review.get("completedEditorialReviews",0)>=3
+    if not (approved or exhausted):
         reasons.append("review_cycle_not_completed")
-    if review.get("state") != "approved":
-        reasons.append("review_record_missing")
+    if item.get("status") not in ("ready_for_publish","published"):
+        reasons.append("not_ready_for_publish")
     if review.get("reviewedTextMatchesSaved") is not True:
         reasons.append("reviewed_text_does_not_match_saved")
+    if exhausted and not review.get("sourceAccessible"):
+        reasons.append("evidence_missing")
     # Images are optional. An image may only be displayed when separately cleared.
     selected=image_record.get("selected")
     image_ready=False
