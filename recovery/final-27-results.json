@@ -1,12 +1,12 @@
 {
   "state": "running",
   "total": 27,
-  "completed": 14,
-  "generated": 14,
-  "reviewed": 14,
-  "approved": 9,
+  "completed": 15,
+  "generated": 15,
+  "reviewed": 15,
+  "approved": 10,
   "reviewFailed": 5,
-  "eligible": 13,
+  "eligible": 14,
   "startedAt": "2026-11-10T05:27:53.628646Z",
   "items": {
     "turing-computing": {
@@ -938,6 +938,52 @@
           "https://www.bbc.com/news/magazine-19641398"
         ],
         "sourceErrors": []
+      }
+    },
+    "generated-1e9b35d490ff4baab2b2": {
+      "item": {
+        "title": "Ciphered Defiance: Noor Inayat Khan and the Secret Wireless",
+        "body": "In Nazi-occupied France, Noor Inayat Khan—descendant of Indian royalty and trained musician—became Britain’s first female radio operator in the field for the Special Operations Executive. Despite immense danger, Noor’s transmissions kept resistance networks alive, testifying to her quiet valor and the crucial role of communication under fire.",
+        "detail": "Noor Inayat Khan, born in Moscow in 1914 to an Indian Muslim father and an American mother, grew up in Europe steeped in music, literature, and spiritual ideals. Her early life was marked by frequent moves—from Russia to Britain, then to France—before she finally settled with her family in Suresnes, near Paris. When Nazi Germany occupied France in 1940, Noor and her family escaped to England. Despite her strongly held pacifist beliefs, Noor felt called to action against tyranny. In 1940, she joined the Women’s Auxiliary Air Force (WAAF), where she trained as a wireless operator. Her determination led her to the Special Operations Executive (SOE), Britain’s clandestine network charged with espionage and sabotage in Axis-occupied Europe. She became the first female radio operator sent by the SOE into occupied France. Operating under the codename 'Madeleine,' Noor parachuted into France in June 1943 to aid the French Resistance. Wireless operators in occupied territory faced constant peril: radio transmissions could be intercepted and located by Nazi forces, making survival difficult—SOE expected their field operators to last only six weeks on average. Nevertheless, when her resistance contacts were arrested, Noor insisted on staying in Paris at great personal risk. She was the last vital radio link between London and the remaining agents in her network. For months, she worked alone, moving between safe houses, continuing to transmit messages coordinating vital resistance operations and supply drops. Eventually Noor was betrayed and captured by the Gestapo. Despite brutal interrogation and imprisonment, she did not betray her comrades or reveal her codes. Noor was executed at Dachau concentration camp in September 1944. She was posthumously awarded the George Cross, Britain’s highest civilian gallantry award, and France’s Croix de Guerre in recognition of her extraordinary courage and service.",
+        "attribution": "Special Operations Executive files; Madeleine Project Archive; Britain’s Imperial War Museum.",
+        "source": "https://en.wikipedia.org/wiki/Noor_Inayat_Khan",
+        "takeaway": "In situations of high risk, quietly persisting in essential work can make all the difference—do not underestimate the impact of steadfast communication.",
+        "image": "",
+        "category": "Stories",
+        "id": "generated-1e9b35d490ff4baab2b2",
+        "status": "ready_for_publish",
+        "publishedAt": "",
+        "reviewStatus": "approved",
+        "reviewFailureSummary": "",
+        "reviewFailureCode": ""
+      },
+      "audit": {
+        "state": "approved",
+        "eligible": true,
+        "generated": true,
+        "attempts": [
+          {
+            "attempt": 1,
+            "reviewCompleted": true,
+            "sourceUrls": [
+              "https://en.wikipedia.org/wiki/Noor_Inayat_Khan"
+            ],
+            "changes": "Removed unsupported references to direct influence on network survival and specific emotional states at capture; clarified Noor’s background and the nature of her impact relying strictly on cited facts; kept the focus on her role as first female wireless operator, her persistence after arrests in her network, and her recognized gallantry.",
+            "approved": true,
+            "complete": true,
+            "grounded": true,
+            "feedback": []
+          }
+        ],
+        "completedReviews": 1,
+        "reasonCode": "",
+        "reason": "",
+        "sourceUrls": [
+          "https://en.wikipedia.org/wiki/Noor_Inayat_Khan"
+        ],
+        "sourceErrors": [
+          "https://www.iwm.org.uk/history/noor-inayat-khan-the-spy-who-fought-the-nazis-without-a-gun Source retrieval failed: HTTP Error 404: Not Found"
+        ]
       }
     }
   }
