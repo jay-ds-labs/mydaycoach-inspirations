@@ -1,12 +1,12 @@
 {
   "state": "running",
   "total": 27,
-  "completed": 20,
-  "generated": 19,
-  "reviewed": 20,
-  "approved": 14,
+  "completed": 21,
+  "generated": 20,
+  "reviewed": 21,
+  "approved": 15,
   "reviewFailed": 6,
-  "eligible": 18,
+  "eligible": 19,
   "startedAt": "2026-11-10T05:27:53.628646Z",
   "items": {
     "turing-computing": {
@@ -1266,6 +1266,52 @@
           "https://www.bbc.co.uk/history/historic_figures/pankhurst_emmeline.shtml"
         ],
         "sourceErrors": []
+      }
+    },
+    "generated-df847014cc764b76b0e5": {
+      "item": {
+        "title": "Learning from Frida Kahlo: Art as Survival and Self-Affirmation",
+        "body": "Frida Kahlo's journey shows how art can express unspeakable pain and rebuild identity after traumatic adversity. Through her paintings, Kahlo transformed physical and emotional suffering into images of resilience, sharing a message of defiance and authenticity that resonates far beyond her era.",
+        "detail": "Frida Kahlo's life and work are a testament to the power of creativity in the face of hardship. Born in Coyoacán, Mexico, in 1907, Kahlo contracted polio as a child, which left her physically disabled. At 18, a devastating bus accident caused severe injuries and chronic pain that would shape her entire life. During her long recovery, Kahlo turned to painting—using a special easel that allowed her to work from her bed and a mirror to study her own image. This period marked the beginning of her lifelong practice of self-portraiture.\n\nKahlo’s paintings are not simply images—they are visual diaries of her pain, her identity, and her struggle to find meaning amid suffering. She once explained her focus on self-portraiture: she painted herself because she was often alone and was the subject she knew best. In her art, Kahlo blended Mexican folk traditions and symbols with elements of European art and personal mythology, exploring themes like gender, class, race, identity, and the body. Works such as 'Self-Portrait with Thorn Necklace and Hummingbird' and 'The Wounded Deer' give shape to her internal world and chronic pain, transforming private suffering into universal expressions of resilience.\n\nDespite repeated hospitalizations, difficult surgeries, and a turbulent marriage to Diego Rivera, Kahlo never abandoned her artistic voice. Her pursuit of painting was not just a form of survival; it was an act of defiance against the limitations imposed by illness and society. Kahlo participated in the cultural life of her era, joining the Mexican Communist Party and advocating for social causes. Professionally, she overcame barriers placed before women artists during her lifetime and became, posthumously, a celebrated figure in art history and a symbol for feminism, LGBTQ+ identity, and Mexican cultural heritage.\n\nThe authenticity in Kahlo’s work—her refusal to hide pain or complexity—continues to inspire people worldwide. She demonstrated that deeply personal stories, no matter how difficult, hold the power to connect with others and foster empathy and understanding. Kahlo’s art remains an enduring example of turning adversity into creative strength.",
+        "attribution": "Frida Kahlo",
+        "source": "https://en.wikipedia.org/wiki/Frida_Kahlo",
+        "takeaway": "Use your talent to transform adversity into self-expression—your story and perspective matter.",
+        "image": "",
+        "category": "Quotes",
+        "id": "generated-df847014cc764b76b0e5",
+        "status": "ready_for_publish",
+        "publishedAt": "",
+        "reviewStatus": "approved",
+        "reviewFailureSummary": "",
+        "reviewFailureCode": ""
+      },
+      "audit": {
+        "state": "approved",
+        "eligible": true,
+        "generated": true,
+        "attempts": [
+          {
+            "attempt": 1,
+            "reviewCompleted": true,
+            "sourceUrls": [
+              "https://en.wikipedia.org/wiki/Frida_Kahlo"
+            ],
+            "changes": "Rewritten to focus specifically on Frida Kahlo, integrating biographical details drawn from the verified Wikipedia source; emphasized her transformation of personal pain into self-affirming and culturally significant art, and clarified the sources for each claim. Removed previous material on broader art history and institutional barriers, which was not sourced directly to Kahlo. Shortened slightly for coherence and preserved the spirit and accuracy of the original card.",
+            "approved": true,
+            "complete": true,
+            "grounded": true,
+            "feedback": []
+          }
+        ],
+        "completedReviews": 1,
+        "reasonCode": "",
+        "reason": "",
+        "sourceUrls": [
+          "https://en.wikipedia.org/wiki/Frida_Kahlo"
+        ],
+        "sourceErrors": [
+          "https://www.theguardian.com/artanddesign/2018/jun/09/frida-kahlo-paintings-v&a-physical-suffering-self-expression Source retrieval failed: HTTP Error 404: Not Found"
+        ]
       }
     }
   }
