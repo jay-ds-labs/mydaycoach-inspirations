@@ -1,11 +1,18 @@
 {
-  "state": "awaiting_review",
-  "completed": 15,
+  "state": "running",
+  "stage": "generation",
+  "completed": 0,
   "total": 15,
-  "quotes": 5,
-  "stories": 5,
-  "philosophy": 5,
-  "startedAt": "2026-11-08T21:10:25.019613Z",
-  "completedAt": "2026-11-08T21:13:18.172837Z",
-  "error": null
+  "quotes": 0,
+  "stories": 0,
+  "philosophy": 0,
+  "generated": 0,
+  "reviewed": 0,
+  "approved": 0,
+  "needsReview": 0,
+  "reviewFailed": 0,
+  "startedAt": "2026-11-10T06:08:52.589909Z",
+  "completedAt": null,
+  "error": null,
+  "outcomes": []
 }
