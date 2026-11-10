@@ -1,22 +1,16 @@
 {
-  "state": "awaiting_editorial_approval",
-  "stage": "done",
+  "state": "running",
+  "stage": "generation",
   "completed": 70,
   "total": 70,
-  "batchTotal": 0,
+  "batchTotal": 5,
   "batchCompleted": 0,
   "generated": 0,
   "reviewed": 0,
   "approved": 0,
   "needsReview": 0,
-  "startedAt": "2026-11-09T23:04:48.627870Z",
-  "completedAt": "2026-11-09T23:04:49.834406Z",
+  "startedAt": "2026-11-10T01:25:55.934098Z",
+  "completedAt": null,
   "currentId": null,
-  "error": null,
-  "contentReady": 34,
-  "contentNeedsReview": 36,
-  "reviewFailed": 36,
-  "publicationReady": 65,
-  "publicationBlocked": 5,
-  "qualityGate": "full_article_required_review_advisory"
+  "error": null
 }
