@@ -231,11 +231,12 @@ def main():
             state=("review_pending_retry" if infrastructure_error=="REVIEW_API_UNAVAILABLE"
                    else "needs_manual_review" if infrastructure_error=="REVIEW_API_FORBIDDEN" or not records
                    else "approved" if approved and records and MIN_WORDS<=saved_words<=MAX_WORDS
+                   else "review_pending_retry" if completed_reviews==0 and length_failures<3
                    else "review_failed")
             if state=="approved":
                 item["status"]="ready_for_publish"
             if state!="approved":
-                issues=(best_issues or issues or ["No approved review of the saved article"])
+                issues=list(best_issues or issues or ["No approved review of the saved article"])
                 if not exact_review:
                     issues.append("Saved text has not passed a matching editorial review")
                 if not MIN_WORDS<=saved_words<=MAX_WORDS:
