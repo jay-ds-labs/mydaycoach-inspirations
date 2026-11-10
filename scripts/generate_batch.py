@@ -30,7 +30,8 @@ def persist():
 
 def generate(category, existing):
     entry = request_json(
-        f"Return JSON for one distinct {category} inspiration with title, body, attribution, "
+        f"Create ONE original, historically accurate, distinct {category} inspiration. "
+        "Return JSON with title, body, attribution, "
         "source, takeaway, and detail. Body is a short summary; detail is an initial draft. "
         "Choose a well-documented subject and a specific credible HTTPS source page. "
         "Use an exact quotation only with reliable attribution, or choose a different subject. "

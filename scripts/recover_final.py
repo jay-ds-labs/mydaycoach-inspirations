@@ -35,6 +35,22 @@ def main():
         "reviewed": 0, "approved": 0, "reviewFailed": 0, "eligible": 0,
         "startedAt": now(), "items": {},
     }
+    # A malformed response before any editorial review did not use a review attempt.
+    # Recover these technical failures when this workflow is resumed after a fix.
+    retryable = {"INVALID_ARTICLE", "INVALID_REVIEW_OUTPUT", "INVALID_MODEL_OUTPUT"}
+    previous = result["items"]
+    retry_ids = [key for key, value in previous.items()
+                 if not value["audit"]["completedReviews"] and value["audit"]["reasonCode"] in retryable]
+    for key in retry_ids:
+        previous.pop(key)
+    if retry_ids:
+        audits = [value["audit"] for value in previous.values()]
+        result.update(state="running", completed=len(audits),
+                      generated=sum(a["generated"] for a in audits),
+                      reviewed=sum(a["completedReviews"] > 0 for a in audits),
+                      approved=sum(a["state"] == "approved" for a in audits),
+                      reviewFailed=sum(a["state"] == "review_failed" for a in audits),
+                      eligible=sum(a["eligible"] for a in audits))
     checkpoint(result)
     for row in manifest:
         item_id = row["id"]
