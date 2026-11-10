@@ -2902,6 +2902,34 @@
         "reviewFailureCode": "INSUFFICIENT_EVIDENCE",
         "reviewFailureSummary": "No credible or relevant evidence about Thurgood Marshall or his work is present in the cited sources."
       }
+    },
+    "generated-ab8ececeb41d4f13b8fe": {
+      "state": "approved",
+      "eligible": true,
+      "generated": false,
+      "attempts": [
+        {
+          "attempt": 1,
+          "reviewCompleted": true,
+          "sourceUrls": [
+            "https://en.wikipedia.org/wiki/Ida_B._Wells"
+          ],
+          "changes": "Reviewed the existing draft because composition returned no article.",
+          "approved": true,
+          "complete": true,
+          "grounded": true,
+          "feedback": []
+        }
+      ],
+      "completedReviews": 1,
+      "reasonCode": "",
+      "reason": "",
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Ida_B._Wells"
+      ],
+      "sourceErrors": [
+        "https://www.pbs.org/weta/washingtonweek/blog-post/ida-b-wells-crusade-justice Source retrieval failed: HTTP Error 404: Not Found"
+      ]
     }
   }
 }

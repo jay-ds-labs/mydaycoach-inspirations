@@ -1123,6 +1123,22 @@
       "reviewFailureSummary": "Nearly all direct textual evidence from original Cārvāka texts is lost; most knowledge is reconstructed from opponents' accounts, so reconstruction carries a risk of bias and incompleteness.",
       "reviewFailureCode": "EDITORIAL_QUALITY_FAILED",
       "recoveryFinalized": true
+    },
+    {
+      "title": "Courage in Ink: Ida B. Wells and the Exposé That Changed History",
+      "body": "In the face of personal risk, journalist Ida B. Wells published fearless investigations into the horrors of lynching, using facts and moral clarity to spark change.",
+      "attribution": "Ida B. Wells (1862–1931), Investigative Journalist and Civil Rights Advocate",
+      "source": "https://en.wikipedia.org/wiki/Ida_B._Wells",
+      "takeaway": "Standing firm in truth, even when confronted by danger and societal opposition, can illuminate injustice and initiate long-overdue change.",
+      "detail": "In 1892, following the murder of three Black business owners and the widespread terror of lynchings, Ida B. Wells risked her livelihood and life by publishing data-driven exposés in her Memphis newspaper, the Free Speech. Despite direct threats, her commitment did not waver; she wrote, 'The way to right wrongs is to turn the light of truth upon them.' Her tireless advocacy—supported by detailed research and relentless reporting—challenged prevailing narratives, mobilized national and international outrage, and laid crucial groundwork for the modern civil rights movement. Wells's work demonstrates that change often begins with the courage to unveil truth, however unwelcome, and a steadfast belief that shining that light can alter society’s course.",
+      "id": "generated-ab8ececeb41d4f13b8fe",
+      "category": "Quotes",
+      "status": "ready_for_publish",
+      "publishedAt": "",
+      "image": "https://raw.githubusercontent.com/jay-ds-labs/mydaycoach-inspirations/main/images/inspire/reflection-030.webp",
+      "reviewStatus": "approved",
+      "reviewFailureCode": "",
+      "reviewFailureSummary": ""
     }
   ]
 }
