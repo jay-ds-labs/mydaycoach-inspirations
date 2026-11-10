@@ -1,6 +1,6 @@
 {
   "state": "running",
-  "stage": "generation",
+  "stage": "research",
   "completed": 70,
   "total": 70,
   "batchTotal": 5,
@@ -11,6 +11,6 @@
   "needsReview": 0,
   "startedAt": "2026-11-10T01:25:55.934098Z",
   "completedAt": null,
-  "currentId": null,
+  "currentId": "turing-computing",
   "error": null
 }
