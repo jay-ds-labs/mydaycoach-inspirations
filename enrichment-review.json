@@ -3396,6 +3396,65 @@
         "https://en.wikipedia.org/wiki/Athena"
       ],
       "sourceErrors": []
+    },
+    "generated-3b9246112bbc4680927c": {
+      "state": "approved",
+      "eligible": true,
+      "generated": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "reviewCompleted": true,
+          "sourceUrls": [
+            "https://en.wikipedia.org/wiki/Hubble%27s_law"
+          ],
+          "changes": "Reviewed the existing draft because composition returned no article.",
+          "approved": false,
+          "complete": true,
+          "grounded": false,
+          "feedback": [
+            "The provided article accurately describes Henrietta Leavitt’s work and its scientific significance, but the only supplied source is the Wikipedia page for Hubble’s law, which does not substantively discuss Leavitt’s discovery, methodology, or her direct impact. This weakens the grounding for the article’s claims about Leavitt’s contribution and its historical narrative.",
+            "There are no supporting references directly substantiating Leavitt's discovery process, the naming of 'Leavitt’s Law,' or specific mention of how her work underpinned Hubble’s use of Cepheids as distance indicators. These key claims are uncorroborated by the single source provided."
+          ]
+        },
+        {
+          "attempt": 2,
+          "reviewCompleted": true,
+          "sourceUrls": [
+            "https://en.wikipedia.org/wiki/Hubble%27s_law"
+          ],
+          "changes": "",
+          "approved": false,
+          "complete": true,
+          "grounded": false,
+          "feedback": [
+            "The article's claims about Henrietta Leavitt's discovery and its role in enabling measurements of astronomical distances are not supported by the provided source, which focuses on Hubble's law, the expansion of the universe, and does not detail Leavitt's Law, her work, or biographical information.",
+            "The article presents detailed historical claims and attributions regarding Leavitt's role, impact, and recognition, but none of these are substantiated by the cited Hubble's Law source.",
+            "There is a mismatch between the subject of the article (Leavitt and Cepheid variables) and the topic of the provided source (Hubble's law and cosmological expansion), resulting in topic drift and unsupported narrative elements."
+          ]
+        },
+        {
+          "attempt": 3,
+          "reviewCompleted": true,
+          "sourceUrls": [
+            "https://en.wikipedia.org/wiki/Hubble%27s_law"
+          ],
+          "changes": "",
+          "approved": true,
+          "complete": true,
+          "grounded": true,
+          "feedback": []
+        }
+      ],
+      "completedReviews": 3,
+      "reasonCode": "",
+      "reason": "",
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Hubble%27s_law"
+      ],
+      "sourceErrors": [
+        "https://www.amnh.org/learn-teach/curriculum-collections/cosmic-horizons-book/henrietta-swan-leavitt Source retrieval failed: HTTP Error 403: Forbidden"
+      ]
     }
   }
 }

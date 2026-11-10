@@ -1203,6 +1203,22 @@
       "reviewStatus": "approved",
       "reviewFailureCode": "",
       "reviewFailureSummary": ""
+    },
+    {
+      "title": "Measuring the Stars: Henrietta Leavitt’s Law and the Expansion of the Universe",
+      "body": "Henrietta Swan Leavitt’s discovery of the relationship between the brightness and period of Cepheid variable stars enabled astronomers to measure astronomical distances, fueling new questions about our place in the cosmos.",
+      "attribution": "Henrietta Swan Leavitt",
+      "source": "https://en.wikipedia.org/wiki/Hubble%27s_law",
+      "takeaway": "Curiosity-led perseverance—even in unnoticed roles—can lay the groundwork for transformative change, showing the power of seeking patterns beneath seeming complexity.",
+      "detail": "In the early decades of the twentieth century, astronomers began to glimpse the immensity of the universe beyond the Milky Way. Crucial to this revolution was the ability to measure vast cosmic distances, a task that had long eluded scientists. Edwin Hubble's landmark 1929 observation—that galaxies are moving away from us at speeds proportional to their distance—would soon transform our vision of an expanding universe. This relationship, now known as Hubble's Law, relies on determining how far away galaxies are from Earth—a challenge first overcome by calibrating standard candles, celestial objects of known luminosity.\n\nCentral to this method were Cepheid variable stars, whose use as distance markers enabled astronomers to build the cosmic distance ladder. When Hubble identified Cepheid variables in nearby galaxies, he was able to measure their distances accurately for the first time. By combining these distances with measurements of redshift—the stretching of light due to the motion of galaxies—he demonstrated that more distant galaxies move away faster, leading to the profound conclusion that the universe itself is expanding.\n\nAlthough the discovery of the expansion of the universe is often credited to Hubble, it drew upon earlier theoretical and observational work. Alexander Friedmann and Georges Lemaître, for example, provided the mathematical and conceptual framework for an expanding cosmos, while astronomers like Carl Wirtz noticed patterns in galactic redshifts. What unified these threads was a method—a way to gauge the true scale of the universe. By linking celestial phenomena across immeasurable distances, astronomers built the foundation for modern cosmology and set in motion our ongoing quest to understand the universe’s birth, growth, and fate.",
+      "id": "generated-3b9246112bbc4680927c",
+      "category": "Philosophy",
+      "status": "ready_for_publish",
+      "publishedAt": "",
+      "image": "https://raw.githubusercontent.com/jay-ds-labs/mydaycoach-inspirations/main/images/inspire/reflection-001.webp",
+      "reviewStatus": "approved",
+      "reviewFailureCode": "",
+      "reviewFailureSummary": ""
     }
   ]
 }
