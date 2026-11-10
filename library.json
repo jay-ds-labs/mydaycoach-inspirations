@@ -1235,6 +1235,22 @@
       "reviewStatus": "approved",
       "reviewFailureCode": "",
       "reviewFailureSummary": ""
+    },
+    {
+      "title": "Marie Curie and the Quiet Revolution of Scientific Integrity",
+      "body": "Marie Curie's steadfast adherence to scientific truth—despite skepticism and adversity—transformed the world’s approach to research, setting enduring standards for ethical inquiry and dedication to objective results.",
+      "attribution": "Marie Curie",
+      "source": "https://www.nobelprize.org/prizes/physics/1903/marie-curie/biographical/",
+      "takeaway": "Lasting progress in any field demands unflagging honesty and objectivity, even when recognition or comfort lies elsewhere.",
+      "detail": "Marie Curie, a pioneering scientist in the study of radioactivity, exemplified unwavering scientific integrity at a time when women, and outsiders more broadly, faced profound barriers in academic circles. When she and Pierre Curie discovered polonium and radium, skepticism ran high, yet she maintained strict standards: double-checking her data, refining measurements, and publishing methods transparently. Her refusal to patent the process for isolating radium—choosing instead to give knowledge freely to the scientific community—marked her devotion to the open, collaborative nature of progress. This choice was radical, sacrificing personal gain to foster communal advancement. The rigorous honesty and solidarity she demonstrated stand as a model for establishing trust and credibility in science. As described in her official Nobel Prize biography: 'Her arduous work, carried out in difficult conditions, contributed enormously to the foundation and development of modern science.' Curie’s path shows that the quiet revolution of progress often consists, not of dramatic pronouncements, but of consistent truthfulness and an unwavering allegiance to the evidence, regardless of society’s doubts or personal obstacles.",
+      "id": "generated-b324d6e01e644525a228",
+      "category": "Philosophy",
+      "status": "ready_for_publish",
+      "publishedAt": "",
+      "image": "https://raw.githubusercontent.com/jay-ds-labs/mydaycoach-inspirations/main/images/inspire/reflection-001.webp",
+      "reviewStatus": "approved",
+      "reviewFailureCode": "",
+      "reviewFailureSummary": ""
     }
   ]
 }

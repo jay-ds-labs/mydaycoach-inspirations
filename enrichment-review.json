@@ -3483,6 +3483,34 @@
         "https://en.wikipedia.org/wiki/A_Vindication_of_the_Rights_of_Woman"
       ],
       "sourceErrors": []
+    },
+    "generated-b324d6e01e644525a228": {
+      "state": "approved",
+      "eligible": true,
+      "generated": false,
+      "attempts": [
+        {
+          "attempt": 1,
+          "reviewCompleted": true,
+          "sourceUrls": [
+            "https://www.nobelprize.org/prizes/physics/1903/marie-curie/biographical/",
+            "https://en.wikipedia.org/wiki/List_of_agnostics"
+          ],
+          "changes": "Reviewed the existing draft because composition returned no article.",
+          "approved": true,
+          "complete": true,
+          "grounded": true,
+          "feedback": []
+        }
+      ],
+      "completedReviews": 1,
+      "reasonCode": "",
+      "reason": "",
+      "sourceUrls": [
+        "https://www.nobelprize.org/prizes/physics/1903/marie-curie/biographical/",
+        "https://en.wikipedia.org/wiki/List_of_agnostics"
+      ],
+      "sourceErrors": []
     }
   }
 }
