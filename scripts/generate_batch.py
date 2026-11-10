@@ -132,7 +132,8 @@ def main():
                 status[category.lower()] += 1
                 save(PROGRESS, status)
                 publish_progress()
-        status["state"] = "awaiting_review"
+        status["state"] = "running"
+        status["stage"] = "editorial_review"
         status["completedAt"] = now()
     except Exception as error:
         status["state"] = "failed"
