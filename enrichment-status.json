@@ -1,6 +1,6 @@
 {
   "state": "running",
-  "stage": "image_audit",
+  "stage": "research",
   "completed": 16,
   "total": 36,
   "batchTotal": 5,
@@ -11,6 +11,6 @@
   "needsReview": 3,
   "startedAt": "2026-11-10T01:38:24.417878Z",
   "completedAt": null,
-  "currentId": "generated-0f18752c304a466e9970",
+  "currentId": "generated-f919ea06f96c4b68b11b",
   "error": null
 }
