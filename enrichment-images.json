@@ -1487,7 +1487,7 @@
       "state": "awaiting_visual_and_license_review"
     },
     "goodall-gombe": {
-      "checkedAt": "2026-11-09T22:34:30.543027Z",
+      "checkedAt": "2026-11-10T01:28:05.653022Z",
       "queries": [
         "Careful observation"
       ],
@@ -1509,11 +1509,8 @@
           "visualCheck": {
             "state": "needs_visual_review",
             "confidence": "high",
-            "issues": [
-              "Different context and subject matter",
-              "Historical military observation vs. primate behavioral research"
-            ],
-            "explanation": "The image depicts a World War I military observation balloon with a US Major. The inspiration relates to Jane Goodall's long-term chimpanzee research starting in 1960, which is focused on primate behavior study in a natural environment. The image context and subject matter are different, focusing on military observation rather than biological research or animal behavior."
+            "issues": [],
+            "explanation": "The image depicts a US Major training in a World War I observation balloon, relating to military observation techniques in early 20th-century warfare. The inspiration focuses on Jane Goodall's primate behavioral research starting in 1960, which is a scientific field study in primatology, not military observation. There is no direct relevance between the historical military observation balloon and the careful behavioral observation of chimpanzees."
           }
         },
         {
@@ -1533,8 +1530,12 @@
           "visualCheck": {
             "state": "needs_visual_review",
             "confidence": "high",
-            "issues": [],
-            "explanation": "The image shows an observation window in a concrete wall at a former ammunition storage facility in Germany. This setting is unrelated to Jane Goodall's long-term chimpanzee research at Gombe or primate behavior studies. The themes and context do not align with careful scientific observation of wildlife, as described in the inspiration."
+            "issues": [
+              "The image shows an observation window in a concrete wall of a military ammunition storage facility.",
+              "The inspiration is about primate behavioral research and careful observation in a natural setting.",
+              "There is no visible connection between the military observation window and Jane Goodall's chimpanzee research."
+            ],
+            "explanation": "The image depicts a man-made observation window in a concrete wall at a Bundeswehr ammunition depot in Germany, which does not relate to the natural, scientific context of Jane Goodall's pioneering chimpanzee research in Gombe. Therefore, it is not visually relevant to the inspiration about careful observation in primate behavior studies."
           }
         },
         {
@@ -1555,11 +1556,9 @@
             "state": "needs_visual_review",
             "confidence": "high",
             "issues": [
-              "The image depicts a person carefully observing another person crafting a pot, which relates to observation of human activity or craft.",
-              "The inspiration is about Jane Goodall’s careful observation of chimpanzees at Gombe, which is a specific scientific field study of primate behavior.",
-              "The context and subject of the image do not visually or contextually connect to primate research or Jane Goodall’s scientific work."
+              "Content mismatch"
             ],
-            "explanation": "While the image involves careful observation, the subject matter (human pot crafting and observation) is distinct from the inspiration about Jane Goodall’s primate research and transformative study of chimpanzee behavior. Therefore, the image is not visibly relevant to the inspiration provided."
+            "explanation": "The image shows a person carefully observing pot crafting in what appears to be a workshop setting. The inspiration relates to Jane Goodall's ethological research on chimpanzees at Gombe, focusing on primate behavior. This image does not visually or contextually relate to scientific animal observation or primate research, but rather to a human craft observation. Therefore, it is not relevant to the inspiration."
           }
         },
         {
