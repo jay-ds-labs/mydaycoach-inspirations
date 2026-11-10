@@ -1,12 +1,12 @@
 {
   "state": "running",
   "total": 27,
-  "completed": 1,
-  "generated": 1,
-  "reviewed": 1,
-  "approved": 1,
+  "completed": 2,
+  "generated": 2,
+  "reviewed": 2,
+  "approved": 2,
   "reviewFailed": 0,
-  "eligible": 1,
+  "eligible": 2,
   "startedAt": "2026-11-10T05:27:53.628646Z",
   "items": {
     "turing-computing": {
@@ -52,6 +52,53 @@
         "sourceErrors": [
           "https://www.britannica.com/biography/Alan-Turing Source retrieval failed: HTTP Error 403: Forbidden",
           "https://www.turing.ac.uk/ Source retrieval failed: HTTP Error 403: Forbidden"
+        ]
+      }
+    },
+    "goodall-gombe": {
+      "item": {
+        "id": "goodall-gombe",
+        "category": "Stories",
+        "title": "Careful observation",
+        "body": "Jane Goodall began her long-term chimpanzee research at Gombe in 1960, transforming understanding of primate behavior.",
+        "attribution": "Jane Goodall Institute",
+        "source": "https://en.wikipedia.org/wiki/Jane_Goodall",
+        "takeaway": "Observe your habits before trying to change them.",
+        "status": "ready_for_publish",
+        "detail": "In July 1960, Jane Goodall arrived at Gombe Stream National Park in Tanzania to observe wild chimpanzees. With no formal scientific degree at the time, she began her research with an open mind and a willingness to spend hours quietly watching chimpanzee families go about their daily lives. Goodall's careful observation led to groundbreaking discoveries: she documented that chimpanzees use tools to fish for termites, a behavior previously considered uniquely human. She also noted their complex social relationships, emotions, and the ways they expressed affection through hugs, pats, and play. These findings challenged longstanding beliefs about the difference between humans and other animals.\n\nGoodall's method was patient and immersive. Rather than trying to immediately intervene or shape chimpanzee behavior, she first learned to recognize individual chimps, name them, and understand their habits and personalities. This approach took time: initially the chimpanzees fled at her presence, but by returning day after day and simply observing, she gradually gained their trust. Over months and years, Goodall built a detailed understanding of how chimpanzee societies functioned, sharing her insights through scientific publications and books accessible to a wide audience.\n\nHer pioneering work went on to influence not just primatology but also animal welfare, conservation, and the way we think about our relationship to the natural world. Goodall’s emphasis on observation before action is now considered a hallmark of good scientific and practical inquiry. Before trying to change a system, behavior, or relationship, understanding it deeply—by seeing patterns, habits, and connections—can reveal what works and what needs care.\n\nGoodall’s example underscores that progress often begins with patient, open-minded observation. By taking time to witness and understand the complexity of a problem or pattern, we open up pathways to meaningful, respectful change.",
+        "reviewStatus": "approved",
+        "reviewFailureSummary": "",
+        "publishedAt": "",
+        "reviewFailureCode": ""
+      },
+      "audit": {
+        "state": "approved",
+        "eligible": true,
+        "generated": true,
+        "attempts": [
+          {
+            "attempt": 1,
+            "reviewCompleted": true,
+            "sourceUrls": [
+              "https://en.wikipedia.org/wiki/Jane_Goodall",
+              "https://janegoodall.org/"
+            ],
+            "changes": "Removed unrelated material from previous draft about Washoe and sign language. Focused exclusively on Jane Goodall and her early research at Gombe, expanding context and practical meaning while strictly using evidence from supplied sources.",
+            "approved": true,
+            "complete": true,
+            "grounded": true,
+            "feedback": []
+          }
+        ],
+        "completedReviews": 1,
+        "reasonCode": "",
+        "reason": "",
+        "sourceUrls": [
+          "https://en.wikipedia.org/wiki/Jane_Goodall",
+          "https://janegoodall.org/"
+        ],
+        "sourceErrors": [
+          "https://www.britannica.com/biography/Jane-Goodall Source retrieval failed: HTTP Error 403: Forbidden"
         ]
       }
     }
