@@ -1,12 +1,58 @@
 {
   "state": "running",
   "total": 27,
-  "completed": 0,
+  "completed": 1,
   "generated": 0,
   "reviewed": 0,
   "approved": 0,
-  "reviewFailed": 0,
+  "reviewFailed": 1,
   "eligible": 0,
   "startedAt": "2026-11-10T05:27:53.628646Z",
-  "items": {}
+  "items": {
+    "turing-computing": {
+      "item": {
+        "id": "turing-computing",
+        "category": "Stories",
+        "title": "Work that outlasts its moment",
+        "body": "Alan Turing helped develop foundational ideas in computing and contributed to British codebreaking during World War II.",
+        "attribution": "The Alan Turing Institute",
+        "source": "https://en.wikipedia.org/wiki/Alan_Turing",
+        "takeaway": "Invest time in learning something whose value compounds.",
+        "status": "review_failed",
+        "publishedAt": "",
+        "reviewStatus": "review_failed",
+        "reviewFailureSummary": "No usable article within the app's storage limit",
+        "detail": "Review failed [INVALID_ARTICLE]. No usable article within the app's storage limit\n\nOscar Wilde, an Irish author and poet, came of age during the late Victorian era, where literature, philosophy, and personal expression were rapidly evolving. Educated at Trinity College Dublin and later at Magdalen College, Oxford, Wilde excelled as a classicist and began to identify with the aestheticism movement, which championed 'art for art’s sake.' His subsequent move to London immersed him in the bustling social and cultural circles of the city. There, Wilde became a prolific figure—writing plays, poetry, and prose that quickly earned acclaim for their wit, critique, and beauty. His works, such as 'The Picture of Dorian Gray,' interrogated Victorian society’s norms, aesthetic values, and moral boundaries, securing his reputation as one of the era’s great dramatists. Wilde’s life later faced public scandal and legal consequences due to his sexuality, resulting in imprisonment and personal hardship. Yet, his contributions continued to resonate, influencing not just literary criticism but broader cultural understandings of identity, art, and expression. Wilde’s ability to shape a literary legacy that rose above his immediate circumstances illustrates how the enduring power of creative effort can transcend even the most challenging moments.",
+        "reviewFailureCode": "INVALID_ARTICLE"
+      },
+      "audit": {
+        "state": "review_failed",
+        "eligible": false,
+        "generated": false,
+        "attempts": [
+          {
+            "attempt": 1,
+            "reviewCompleted": false,
+            "sourceUrls": [
+              "https://en.wikipedia.org/wiki/Alan_Turing",
+              "https://en.wikipedia.org/wiki/Oscar_Wilde"
+            ],
+            "errorCode": "INVALID_ARTICLE",
+            "error": "No usable article within the app's storage limit"
+          }
+        ],
+        "completedReviews": 0,
+        "reasonCode": "INVALID_ARTICLE",
+        "reason": "No usable article within the app's storage limit",
+        "sourceUrls": [
+          "https://en.wikipedia.org/wiki/Alan_Turing",
+          "https://en.wikipedia.org/wiki/Oscar_Wilde"
+        ],
+        "sourceErrors": [
+          "https://www.britannica.com/biography/Alan-Turing Source retrieval failed: HTTP Error 403: Forbidden",
+          "https://www.turing.ac.uk/ Source retrieval failed: HTTP Error 403: Forbidden"
+        ]
+      }
+    }
+  }
 }
