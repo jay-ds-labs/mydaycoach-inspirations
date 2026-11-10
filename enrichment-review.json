@@ -3455,6 +3455,34 @@
       "sourceErrors": [
         "https://www.amnh.org/learn-teach/curriculum-collections/cosmic-horizons-book/henrietta-swan-leavitt Source retrieval failed: HTTP Error 403: Forbidden"
       ]
+    },
+    "generated-0094e2c44d0a417cb46b": {
+      "state": "approved",
+      "eligible": true,
+      "generated": false,
+      "attempts": [
+        {
+          "attempt": 1,
+          "reviewCompleted": true,
+          "sourceUrls": [
+            "https://plato.stanford.edu/entries/wollstonecraft/#EduEquWom",
+            "https://en.wikipedia.org/wiki/A_Vindication_of_the_Rights_of_Woman"
+          ],
+          "changes": "Reviewed the existing draft because composition returned no article.",
+          "approved": true,
+          "complete": true,
+          "grounded": true,
+          "feedback": []
+        }
+      ],
+      "completedReviews": 1,
+      "reasonCode": "",
+      "reason": "",
+      "sourceUrls": [
+        "https://plato.stanford.edu/entries/wollstonecraft/#EduEquWom",
+        "https://en.wikipedia.org/wiki/A_Vindication_of_the_Rights_of_Woman"
+      ],
+      "sourceErrors": []
     }
   }
 }

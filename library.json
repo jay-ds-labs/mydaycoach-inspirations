@@ -1219,6 +1219,22 @@
       "reviewStatus": "approved",
       "reviewFailureCode": "",
       "reviewFailureSummary": ""
+    },
+    {
+      "title": "Mary Wollstonecraft and the Ethics of Universal Education",
+      "body": "Mary Wollstonecraft, in her groundbreaking 1792 work 'A Vindication of the Rights of Woman,' argued that education should be accessible to all, regardless of gender. Her philosophical stance laid the foundation for future debates about equality and the fundamental right to learn, centering education as key to moral and civic development.",
+      "attribution": "Mary Wollstonecraft",
+      "source": "https://plato.stanford.edu/entries/wollstonecraft/#EduEquWom",
+      "takeaway": "Access to education is a moral imperative for building a just society, as it enables autonomy and cultivates virtue in every individual.",
+      "detail": "In 'A Vindication of the Rights of Woman' (1792), Wollstonecraft articulated one of the earliest comprehensive arguments in favor of educational equality. She contended that the denial of education to women was not only unjust but also diminished society as a whole, preventing women from becoming morally autonomous beings and responsible citizens. Wollstonecraft rejected the notion that female inferiority was innate; instead, she attributed social differences to the lack of educational opportunity. According to her, 'the mind cannot be free without knowledge,' and thus, universal education was essential for the cultivation of virtue and reason in both men and women. This principle challenged the prevailing philosophical and social norms of the era and provided a rational foundation for later feminist and egalitarian movements.",
+      "id": "generated-0094e2c44d0a417cb46b",
+      "category": "Philosophy",
+      "status": "ready_for_publish",
+      "publishedAt": "",
+      "image": "https://raw.githubusercontent.com/jay-ds-labs/mydaycoach-inspirations/main/images/inspire/reflection-001.webp",
+      "reviewStatus": "approved",
+      "reviewFailureCode": "",
+      "reviewFailureSummary": ""
     }
   ]
 }
