@@ -151,6 +151,7 @@ def finalize(item, alternatives=(), allow_card_correction=False, progress=lambda
     complete = grounded = approved = False
     code = content_error(source_errors)
     reason = "No usable supporting source was retrieved."
+    reviewed_detail = None
     if records:
         card["source"] = records[0]["url"]
         for number in range(1, 4):
@@ -162,9 +163,24 @@ def finalize(item, alternatives=(), allow_card_correction=False, progress=lambda
                 draft = compose(card, prior, feedback, records, allow_card_correction)
                 detail = draft.get("detail", "")
                 if not isinstance(detail, str) or not detail.strip() or len(detail) > 11500:
-                    raise ReviewError("INVALID_ARTICLE", f"No usable article in model response (fields: {sorted(draft)})")
+                    if prior and len(prior) <= 11500 and prior != reviewed_detail:
+                        detail = prior
+                        draft = {"changes": "Reviewed the existing draft because composition returned no article."}
+                    else:
+                        draft = request_json(
+                            "Write one original, accurate, publication-quality inspiration as a JSON object "
+                            "with keys detail and takeaway. The detail key must contain the actual complete "
+                            "article in paragraphs. Return no card fields. Word count is advisory. "
+                            "Keep the subject and exact historical setting of this card: "
+                            + json.dumps(card, ensure_ascii=False) + "\nEvidence from the source (may be truncated):\n"
+                            + evidence_bundle(records) + "\nRevise to address: "
+                            + json.dumps(feedback, ensure_ascii=False) + "\nPrevious full draft:\n" + prior
+                        )
+                        detail = draft.get("detail", "")
+                        if not isinstance(detail, str) or not detail.strip() or len(detail) > 11500:
+                            raise ReviewError("INVALID_ARTICLE", "Model returned no usable full article")
+                generated = generated or detail.strip() != prior
                 prior = detail.strip()
-                generated = True
                 complete = grounded = approved = False
                 if allow_card_correction:
                     for field in ("title", "body", "attribution"):
@@ -174,6 +190,7 @@ def finalize(item, alternatives=(), allow_card_correction=False, progress=lambda
                 attempt["changes"] = str(draft.get("changes", ""))[:500]
                 progress("review")
                 result = editorial_review(card, prior, records)
+                reviewed_detail = prior
                 complete = result["complete"]
                 grounded = result["grounded"]
                 approved = result["approved"] and complete and grounded
