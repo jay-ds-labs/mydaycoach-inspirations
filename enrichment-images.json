@@ -2986,7 +2986,7 @@
       "state": "awaiting_visual_and_license_review"
     },
     "reflection-009": {
-      "checkedAt": "2026-11-09T22:39:25.563090Z",
+      "checkedAt": "2026-11-10T01:30:30.136184Z",
       "queries": [
         "Respond with compassion"
       ],
@@ -3080,21 +3080,6 @@
         },
         {
           "state": "needs_manual_license_review",
-          "fileTitle": "File:INTERNATIONAL RELATIONS BUDGET FOR FISCAL YEAR 2006 (IA gov.gpo.fdsys.CHRG-109hhrg98814).pdf",
-          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/INTERNATIONAL_RELATIONS_BUDGET_FOR_FISCAL_YEAR_2006_%28IA_gov.gpo.fdsys.CHRG-109hhrg98814%29.pdf/page1-960px-INTERNATIONAL_RELATIONS_BUDGET_FOR_FISCAL_YEAR_2006_%28IA_gov.gpo.fdsys.CHRG-109hhrg98814%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:INTERNATIONAL_RELATIONS_BUDGET_FOR_FISCAL_YEAR_2006_(IA_gov.gpo.fdsys.CHRG-109hhrg98814).pdf",
-          "creator": "Committee on International Relations",
-          "attribution": "Committee on International Relations",
-          "license": "public-domain",
-          "licenseUrl": "",
-          "usageTerms": "Public domain",
-          "mime": "application/pdf",
-          "description": "Government Publishing Office   U.S. Congress House of Representatives Committee on International Relations  INTERNATIONAL RELATIONS BUDGET FOR FISCAL YEAR 2006  Date(s) Held: 2005-02-17   109th Congress, 1st Session  GPO Document Source:  https://www.gpo.gov/fdsys/pkg/CHRG-109hhrg98814/content-detail.html \" rel=\"nofollow\">CHRG-109hhrg98814   Related Items:   Congressional Serial No. 109-16  \n Subjects: 109th;House",
-          "requiresVisualReview": true,
-          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
-        },
-        {
-          "state": "needs_manual_license_review",
           "fileTitle": "File:LESSONS LEARNED FROM THE BOSTON MARATHON BOMBINGS- PREPARING FOR AND RESPONDING TO THE ATTACK (IA gov.gpo.fdsys.CHRG-113shrg82575).pdf",
           "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/LESSONS_LEARNED_FROM_THE_BOSTON_MARATHON_BOMBINGS-_PREPARING_FOR_AND_RESPONDING_TO_THE_ATTACK_%28IA_gov.gpo.fdsys.CHRG-113shrg82575%29.pdf/page1-960px-LESSONS_LEARNED_FROM_THE_BOSTON_MARATHON_BOMBINGS-_PREPARING_FOR_AND_RESPONDING_TO_THE_ATTACK_%28IA_gov.gpo.fdsys.CHRG-113shrg82575%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "descriptionUrl": "https://commons.wikimedia.org/wiki/File:LESSONS_LEARNED_FROM_THE_BOSTON_MARATHON_BOMBINGS-_PREPARING_FOR_AND_RESPONDING_TO_THE_ATTACK_(IA_gov.gpo.fdsys.CHRG-113shrg82575).pdf",
@@ -3150,6 +3135,21 @@
           "usageTerms": "Public domain",
           "mime": "application/pdf",
           "description": "Government Publishing Office   U.S. Congress Senate Committee on Homeland Security and Governmental Affairs  RECOVERING FROM HURRICANE KATRINA: RESPONDING TO THE IMMEDIATE NEEDS OF ITS VICTIMS  Date(s) Held: 2005-09-28   109th Congress, 1st Session  GPO Document Source:  https://www.gpo.gov/fdsys/pkg/CHRG-109shrg24236/content-detail.html \" rel=\"nofollow\">CHRG-109shrg24236  Superintendents of Documents ID: Y 4.G 74/9  Witnesses:   Hon. Robert A. Eckels, County Judge, Harris County, Texas  Hon. Me",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Talking with Kids About Being Online.pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Talking_with_Kids_About_Being_Online.pdf/page1-500px-Talking_with_Kids_About_Being_Online.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Talking_with_Kids_About_Being_Online.pdf",
+          "creator": "Melania Trump/Federal Trade Commission",
+          "attribution": "Melania Trump/Federal Trade Commission",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "A Federal Trade Commission booklet, promoted by First Lady Melania Trump. Compare to  Net Cetera- Chatting with Kids About Being Online.pdf .",
           "requiresVisualReview": true,
           "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
         }
