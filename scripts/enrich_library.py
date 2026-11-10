@@ -231,9 +231,9 @@ def main():
             saved_words=len(saved_detail.split())
             exact_review=bool(best_detail and best_result) and saved_detail==best_detail
             approved=bool(best_result) and exact_review and not best_issues and best_result.get("approved") is True
-            state=("approved" if approved and records and MIN_WORDS<=saved_words<=MAX_WORDS
-                   else "review_pending_retry" if infrastructure_error=="REVIEW_API_UNAVAILABLE"
-                   else "needs_manual_review" if infrastructure_error=="REVIEW_API_FORBIDDEN"
+            state=("review_pending_retry" if infrastructure_error=="REVIEW_API_UNAVAILABLE"
+                   else "needs_manual_review" if infrastructure_error=="REVIEW_API_FORBIDDEN" or not records
+                   else "approved" if approved and records and MIN_WORDS<=saved_words<=MAX_WORDS
                    else "review_failed")
             if state=="approved":
                 item["status"]="ready_for_publish"
