@@ -1116,54 +1116,128 @@
       "publication": "ready_for_publish"
     },
     "reflection-015": {
+      "previousReview": {
+        "state": "review_failed",
+        "checkedAt": "2026-11-09T22:42:33.875211Z",
+        "source": "https://plato.stanford.edu/entries/ethics/",
+        "reviewAttempts": [
+          {
+            "attempt": 1,
+            "approved": false,
+            "issues": [
+              "Several specific claims about Gandhi’s actions and methods (e.g., seeking input from peasants or particular steps in disagreement resolution) are not directly cited or supported by the provided source.",
+              "Claims regarding Gandhi’s stepwise method for addressing disagreement and interpreting adversarial positions extend beyond the evidence supplied.",
+              "Details about Gandhi’s interactions with religious and caste groups and his method of dialogue are asserted without direct supporting evidence."
+            ]
+          },
+          {
+            "attempt": 2,
+            "approved": false,
+            "issues": [
+              "Generated article length 314 outside 600-1100 words"
+            ]
+          },
+          {
+            "attempt": 3,
+            "approved": false,
+            "issues": [
+              "Article repeatedly attributes motives and internal reasoning to Gandhi unsupported by the source",
+              "The article discusses Gandhi's emphasis on 'empathy', 'generously interpreting', 'understanding the fears and concerns of the British', and 'translating arguments into ethical vocabulary familiar to adversaries', none of which are directly supported by the supplied evidence",
+              "Mentions specific tactics (explaining grievances in British terms, focus on dialogue and mutual respect) that are not explicitly substantiated in the source"
+            ]
+          }
+        ],
+        "attemptCount": 3,
+        "reviewFailureSummary": "Article not yet approved by reviewer; Saved text has not passed a matching editorial review",
+        "sourceAccessible": true,
+        "sourceUrls": [
+          "https://en.wikipedia.org/wiki/Mahatma_Gandhi"
+        ],
+        "sourceCount": 1,
+        "wordCount": 655,
+        "reviewedTextMatchesSaved": false,
+        "originalSource": "https://plato.stanford.edu/entries/ethics/",
+        "evidenceSource": "https://en.wikipedia.org/wiki/Mahatma_Gandhi",
+        "issues": [
+          "Article not yet approved by reviewer",
+          "Saved text has not passed a matching editorial review"
+        ],
+        "factualRisk": "high",
+        "imageStatus": "awaiting_visual_and_license_review",
+        "publication": "ready_for_publish"
+      },
+      "recoveryBatchId": "historical-36-v1",
       "state": "review_failed",
-      "checkedAt": "2026-11-09T22:42:33.875211Z",
+      "checkedAt": "2026-11-10T01:32:51.608753Z",
       "source": "https://plato.stanford.edu/entries/ethics/",
+      "failureCodes": [
+        "EDITORIAL_QUALITY_FAILED"
+      ],
       "reviewAttempts": [
         {
           "attempt": 1,
           "approved": false,
           "issues": [
-            "Several specific claims about Gandhi’s actions and methods (e.g., seeking input from peasants or particular steps in disagreement resolution) are not directly cited or supported by the provided source.",
-            "Claims regarding Gandhi’s stepwise method for addressing disagreement and interpreting adversarial positions extend beyond the evidence supplied.",
-            "Details about Gandhi’s interactions with religious and caste groups and his method of dialogue are asserted without direct supporting evidence."
-          ]
+            "The source evidence is limited to a Wikipedia summary and does not support all detailed claims about Malcolm X’s personal transformations or motivations.",
+            "Several quotations and attributions of internal mental process (e.g., 'recognizing the limits and strengths in each viewpoint', 'deliberate effort to move dialogue beyond entrenched misunderstanding') are not directly sourced or supported.",
+            "The philosophical analysis and narrative expand well beyond what is given in the original card and source, introducing interpretations and claims without direct evidence."
+          ],
+          "completedEditorialReview": true
         },
         {
           "attempt": 2,
           "approved": false,
           "issues": [
-            "Generated article length 314 outside 600-1100 words"
-          ]
+            "Generated article length 334 outside 600-1100 words"
+          ],
+          "failureCode": "EDITORIAL_QUALITY_FAILED"
         },
         {
           "attempt": 3,
           "approved": false,
           "issues": [
-            "Article repeatedly attributes motives and internal reasoning to Gandhi unsupported by the source",
-            "The article discusses Gandhi's emphasis on 'empathy', 'generously interpreting', 'understanding the fears and concerns of the British', and 'translating arguments into ethical vocabulary familiar to adversaries', none of which are directly supported by the supplied evidence",
-            "Mentions specific tactics (explaining grievances in British terms, focus on dialogue and mutual respect) that are not explicitly substantiated in the source"
-          ]
+            "Generated article length 581 outside 600-1100 words"
+          ],
+          "failureCode": "EDITORIAL_QUALITY_FAILED"
+        },
+        {
+          "attempt": 4,
+          "approved": false,
+          "issues": [
+            "Main factual claims about Malcolm X’s life and changing views are only partially supported by the supplied evidence",
+            "Several specific events and quotations about Malcolm X’s personal reflection and rhetorical evolution are not directly sourced",
+            "Description of his post-Mecca views and statements are asserted with detail that is not supported by the evidence supplied"
+          ],
+          "completedEditorialReview": true
+        },
+        {
+          "attempt": 5,
+          "approved": false,
+          "issues": [
+            "Generated article length 273 outside 600-1100 words"
+          ],
+          "failureCode": "EDITORIAL_QUALITY_FAILED"
         }
       ],
-      "attemptCount": 3,
+      "attemptCount": 5,
+      "completedEditorialReviews": 2,
       "reviewFailureSummary": "Article not yet approved by reviewer; Saved text has not passed a matching editorial review",
       "sourceAccessible": true,
       "sourceUrls": [
-        "https://en.wikipedia.org/wiki/Mahatma_Gandhi"
+        "https://en.wikipedia.org/wiki/Malcolm_X"
       ],
       "sourceCount": 1,
-      "wordCount": 655,
+      "wordCount": 736,
       "reviewedTextMatchesSaved": false,
       "originalSource": "https://plato.stanford.edu/entries/ethics/",
-      "evidenceSource": "https://en.wikipedia.org/wiki/Mahatma_Gandhi",
+      "evidenceSource": "https://en.wikipedia.org/wiki/Malcolm_X",
       "issues": [
         "Article not yet approved by reviewer",
         "Saved text has not passed a matching editorial review"
       ],
       "factualRisk": "high",
       "imageStatus": "awaiting_visual_and_license_review",
-      "publication": "ready_for_publish"
+      "publication": "blocked_unapproved_review"
     },
     "reflection-016": {
       "state": "review_failed",
