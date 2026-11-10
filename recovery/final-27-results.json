@@ -1,11 +1,11 @@
 {
   "state": "running",
   "total": 27,
-  "completed": 9,
+  "completed": 10,
   "generated": 0,
   "reviewed": 0,
   "approved": 0,
-  "reviewFailed": 9,
+  "reviewFailed": 10,
   "eligible": 0,
   "startedAt": "2026-11-10T05:27:53.628646Z",
   "items": {
@@ -398,6 +398,51 @@
         ],
         "sourceErrors": [
           "https://www.energy.gov/articles/first-nuclear-reactor Source retrieval failed: HTTP Error 404: Not Found"
+        ]
+      }
+    },
+    "generated-67e4272aeda74d329cc9": {
+      "item": {
+        "title": "Consistent Preparation: Frederick Douglass on the Value of Diligence",
+        "body": "In the late 19th century, Frederick Douglass, born into slavery and later a leader in the abolitionist movement, spoke on the importance of continuous self-education and preparation. His insight into the slow, daily work of learning shows the power of quiet diligence—a reminder that persistent effort, even when unseen, shapes both character and destiny.",
+        "detail": "Review failed [INVALID_ARTICLE]. No usable article within the app's storage limit\n\nIn the late 19th century, Frederick Douglass was known throughout the United States as a powerful advocate for education and self-improvement. Born into slavery and having endured significant hardships, Douglass’s journey to national prominence was marked by perseverance and a commitment to learning. While there is a tradition of attributing messages of diligence and steady effort to his public addresses, specific records from his 1894 commencement speech at Douglass High School in Baltimore are limited. However, Douglass’s broader legacy demonstrates a consistent emphasis on growth through daily learning, despite obstacles. His life illustrates how sustained educational effort and preparedness—principles he embodied and advocated—can change both personal destiny and contribute to broader social progress. Rather than overnight transformation, Douglass’s achievements came through regular study, engagement, and reflection, making him an enduring example of how quiet dedication can have lasting impact.",
+        "attribution": "Frederick Douglass, Commencement Address, Douglass High School, Baltimore, Maryland, June 1894",
+        "source": "https://en.wikipedia.org/wiki/Frederick_Douglass",
+        "takeaway": "Dedicate yourself to consistent daily effort in mastering your craft or cause, knowing that steady preparation is the foundation of genuine success.",
+        "image": "",
+        "category": "Quotes",
+        "id": "generated-67e4272aeda74d329cc9",
+        "status": "review_failed",
+        "publishedAt": "",
+        "reviewStatus": "review_failed",
+        "reviewFailureSummary": "No usable article within the app's storage limit",
+        "reviewFailureCode": "INVALID_ARTICLE"
+      },
+      "audit": {
+        "state": "review_failed",
+        "eligible": false,
+        "generated": false,
+        "attempts": [
+          {
+            "attempt": 1,
+            "reviewCompleted": false,
+            "sourceUrls": [
+              "https://en.wikipedia.org/wiki/Frederick_Douglass",
+              "https://en.wikipedia.org/wiki/Washington_College"
+            ],
+            "errorCode": "INVALID_ARTICLE",
+            "error": "No usable article within the app's storage limit"
+          }
+        ],
+        "completedReviews": 0,
+        "reasonCode": "INVALID_ARTICLE",
+        "reason": "No usable article within the app's storage limit",
+        "sourceUrls": [
+          "https://en.wikipedia.org/wiki/Frederick_Douglass",
+          "https://en.wikipedia.org/wiki/Washington_College"
+        ],
+        "sourceErrors": [
+          "https://www.loc.gov/exhibits/african-american-odyssey/abolitionist-frederick-douglass.html Source retrieval failed: HTTP Error 404: Not Found"
         ]
       }
     }
