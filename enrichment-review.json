@@ -109,42 +109,116 @@
     },
     "turing-computing": {
       "previousReview": {
+        "previousReview": {
+          "state": "review_failed",
+          "checkedAt": "2026-11-09T22:43:15.376522Z",
+          "source": "https://www.turing.ac.uk/",
+          "reviewAttempts": [
+            {
+              "attempt": 1,
+              "approved": false,
+              "issues": [
+                "Generated article length 595 outside 600-1100 words"
+              ]
+            },
+            {
+              "attempt": 2,
+              "approved": false,
+              "issues": [
+                "No accessible or relevant evidence about Alan Turing provided; supplied source concerns Oscar Wilde",
+                "Cannot verify any concrete factual claims regarding Turing, Bletchley Park, Enigma machine, or Turing's postwar influence",
+                "Article's claims about the historical impact of Turing and wartime cryptography are unsupported by the evidence supplied"
+              ]
+            },
+            {
+              "attempt": 3,
+              "approved": false,
+              "issues": [
+                "Generated article length 449 outside 600-1100 words"
+              ]
+            }
+          ],
+          "attemptCount": 3,
+          "reviewFailureSummary": "Article not yet approved by reviewer; Saved text has not passed a matching editorial review",
+          "sourceAccessible": true,
+          "sourceUrls": [
+            "https://en.wikipedia.org/wiki/Oscar_Wilde"
+          ],
+          "sourceCount": 1,
+          "wordCount": 651,
+          "reviewedTextMatchesSaved": false,
+          "originalSource": "https://www.turing.ac.uk/",
+          "evidenceSource": "https://en.wikipedia.org/wiki/Oscar_Wilde",
+          "issues": [
+            "Article not yet approved by reviewer",
+            "Saved text has not passed a matching editorial review"
+          ],
+          "factualRisk": "high",
+          "imageStatus": "awaiting_visual_and_license_review",
+          "publication": "ready_for_publish"
+        },
+        "recoveryBatchId": "historical-36-v1",
         "state": "review_failed",
-        "checkedAt": "2026-11-09T22:43:15.376522Z",
+        "checkedAt": "2026-11-10T01:26:47.774748Z",
         "source": "https://www.turing.ac.uk/",
+        "failureCodes": [
+          "EDITORIAL_QUALITY_FAILED"
+        ],
         "reviewAttempts": [
           {
             "attempt": 1,
             "approved": false,
             "issues": [
-              "Generated article length 595 outside 600-1100 words"
-            ]
+              "Generated article length 597 outside 600-1100 words"
+            ],
+            "failureCode": "EDITORIAL_QUALITY_FAILED"
           },
           {
             "attempt": 2,
             "approved": false,
             "issues": [
-              "No accessible or relevant evidence about Alan Turing provided; supplied source concerns Oscar Wilde",
-              "Cannot verify any concrete factual claims regarding Turing, Bletchley Park, Enigma machine, or Turing's postwar influence",
-              "Article's claims about the historical impact of Turing and wartime cryptography are unsupported by the evidence supplied"
-            ]
+              "No supplied evidence for Alan Turing, Bletchley Park, Enigma codebreaking, or the Alan Turing Institute—supplied evidence pertains only to Oscar Wilde",
+              "Key factual claims about Turing's work, historical context, and legacy are unverifiable with the provided source",
+              "Attribution source is listed but not accessible as evidence"
+            ],
+            "completedEditorialReview": true
           },
           {
             "attempt": 3,
             "approved": false,
             "issues": [
-              "Generated article length 449 outside 600-1100 words"
-            ]
+              "Generated article length 197 outside 600-1100 words"
+            ],
+            "failureCode": "EDITORIAL_QUALITY_FAILED"
+          },
+          {
+            "attempt": 4,
+            "approved": false,
+            "issues": [
+              "No evidence provided from the listed source (Oscar Wilde) to verify any claims about Alan Turing",
+              "Claims and quotations about Turing are not supported by the supplied evidence",
+              "Article content is not matched to any verifiable source from the provided material"
+            ],
+            "completedEditorialReview": true
+          },
+          {
+            "attempt": 5,
+            "approved": false,
+            "issues": [
+              "Generated article length 350 outside 600-1100 words"
+            ],
+            "failureCode": "EDITORIAL_QUALITY_FAILED"
           }
         ],
-        "attemptCount": 3,
+        "attemptCount": 5,
+        "completedEditorialReviews": 2,
         "reviewFailureSummary": "Article not yet approved by reviewer; Saved text has not passed a matching editorial review",
         "sourceAccessible": true,
         "sourceUrls": [
           "https://en.wikipedia.org/wiki/Oscar_Wilde"
         ],
         "sourceCount": 1,
-        "wordCount": 651,
+        "wordCount": 629,
         "reviewedTextMatchesSaved": false,
         "originalSource": "https://www.turing.ac.uk/",
         "evidenceSource": "https://en.wikipedia.org/wiki/Oscar_Wilde",
@@ -154,31 +228,33 @@
         ],
         "factualRisk": "high",
         "imageStatus": "awaiting_visual_and_license_review",
-        "publication": "ready_for_publish"
+        "publication": "blocked_unapproved_review"
       },
-      "recoveryBatchId": "historical-36-v1",
+      "recoveryBatchId": "remaining-27-v2",
       "state": "review_failed",
-      "checkedAt": "2026-11-10T01:26:47.774748Z",
+      "checkedAt": "2026-11-10T02:26:06.639952Z",
       "source": "https://www.turing.ac.uk/",
       "failureCodes": [
-        "EDITORIAL_QUALITY_FAILED"
+        "FACTUAL_CONTRADICTION"
       ],
       "reviewAttempts": [
         {
           "attempt": 1,
           "approved": false,
           "issues": [
-            "Generated article length 597 outside 600-1100 words"
+            "Partial evidence: Only Alan Turing Institute site provided as source; actual evidence for article's claims about Turing's work, Bletchley Park, Enigma, and the Institute not directly accessible here",
+            "Oscar Wilde Wikipedia article is irrelevant as evidence",
+            "No direct citation or evidence for claims about Turing's work at Bletchley Park or specifics about the Institute's activities"
           ],
-          "failureCode": "EDITORIAL_QUALITY_FAILED"
+          "completedEditorialReview": true
         },
         {
           "attempt": 2,
           "approved": false,
           "issues": [
-            "No supplied evidence for Alan Turing, Bletchley Park, Enigma codebreaking, or the Alan Turing Institute—supplied evidence pertains only to Oscar Wilde",
-            "Key factual claims about Turing's work, historical context, and legacy are unverifiable with the provided source",
-            "Attribution source is listed but not accessible as evidence"
+            "No supplied evidence directly supports claims about Alan Turing's work or legacy",
+            "The only source is about Oscar Wilde, not Alan Turing",
+            "Cannot verify descriptions of Bletchley Park, codebreaking methods, or the work and legacy of the Alan Turing Institute"
           ],
           "completedEditorialReview": true
         },
@@ -186,48 +262,34 @@
           "attempt": 3,
           "approved": false,
           "issues": [
-            "Generated article length 197 outside 600-1100 words"
-          ],
-          "failureCode": "EDITORIAL_QUALITY_FAILED"
-        },
-        {
-          "attempt": 4,
-          "approved": false,
-          "issues": [
-            "No evidence provided from the listed source (Oscar Wilde) to verify any claims about Alan Turing",
-            "Claims and quotations about Turing are not supported by the supplied evidence",
-            "Article content is not matched to any verifiable source from the provided material"
+            "Article does not match the assigned card, which is about Alan Turing, not Oscar Wilde",
+            "No connection is made to Alan Turing or computing per the card",
+            "Article misattributes the core topic and focuses on Wilde rather than the assigned subject"
           ],
           "completedEditorialReview": true
-        },
-        {
-          "attempt": 5,
-          "approved": false,
-          "issues": [
-            "Generated article length 350 outside 600-1100 words"
-          ],
-          "failureCode": "EDITORIAL_QUALITY_FAILED"
         }
       ],
-      "attemptCount": 5,
-      "completedEditorialReviews": 2,
-      "reviewFailureSummary": "Article not yet approved by reviewer; Saved text has not passed a matching editorial review",
+      "attemptCount": 3,
+      "completedEditorialReviews": 3,
+      "reviewFailureSummary": "Article does not match the assigned card, which is about Alan Turing, not Oscar Wilde; No connection is made to Alan Turing or computing per the card",
       "sourceAccessible": true,
       "sourceUrls": [
         "https://en.wikipedia.org/wiki/Oscar_Wilde"
       ],
       "sourceCount": 1,
-      "wordCount": 629,
-      "reviewedTextMatchesSaved": false,
+      "wordCount": 186,
+      "reviewedTextMatchesSaved": true,
       "originalSource": "https://www.turing.ac.uk/",
       "evidenceSource": "https://en.wikipedia.org/wiki/Oscar_Wilde",
       "issues": [
-        "Article not yet approved by reviewer",
-        "Saved text has not passed a matching editorial review"
+        "Article does not match the assigned card, which is about Alan Turing, not Oscar Wilde",
+        "No connection is made to Alan Turing or computing per the card",
+        "Article misattributes the core topic and focuses on Wilde rather than the assigned subject",
+        "Factual claims about Wilde are well-supported, but their presence is irrelevant given the mismatch"
       ],
       "factualRisk": "high",
       "imageStatus": "awaiting_visual_and_license_review",
-      "publication": "blocked_unapproved_review"
+      "publication": "ready_for_publish"
     },
     "james-webb": {
       "state": "approved",

@@ -1058,7 +1058,7 @@
       "state": "awaiting_visual_and_license_review"
     },
     "turing-computing": {
-      "checkedAt": "2026-11-10T01:26:47.774726Z",
+      "checkedAt": "2026-11-10T02:26:06.639922Z",
       "queries": [
         "Work that outlasts its moment"
       ],
@@ -1152,6 +1152,21 @@
         },
         {
           "state": "needs_manual_license_review",
+          "fileTitle": "File:The history of the Philadelphia School of Anatomy - and its relations to medical teaching a lecture, delivered March 1, 1875, at its dissolution (IA b3367498x).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/The_history_of_the_Philadelphia_School_of_Anatomy_-_and_its_relations_to_medical_teaching_a_lecture%2C_delivered_March_1%2C_1875%2C_at_its_dissolution_%28IA_b3367498x%29.pdf/page1-500px-thumbnail.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:The_history_of_the_Philadelphia_School_of_Anatomy_-_and_its_relations_to_medical_teaching_a_lecture,_delivered_March_1,_1875,_at_its_dissolution_(IA_b3367498x).pdf",
+          "creator": "Keen, William W. (William Williams), 1837-1932",
+          "attribution": "Keen, William W. (William Williams), 1837-1932",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "32 pages ; 19 cm\n \n Subjects: Philadelphia School of Anatomy; Education, Medical -- history; Anatomy -- education; Philadelphia (Pa.)",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
           "fileTitle": "File:The problem of greater New York and its solution (IA problemofgreater00brea).pdf",
           "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/The_problem_of_greater_New_York_and_its_solution_%28IA_problemofgreater00brea%29.pdf/page1-500px-The_problem_of_greater_New_York_and_its_solution_%28IA_problemofgreater00brea%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "descriptionUrl": "https://commons.wikimedia.org/wiki/File:The_problem_of_greater_New_York_and_its_solution_(IA_problemofgreater00brea).pdf",
@@ -1162,21 +1177,6 @@
           "usageTerms": "Public domain",
           "mime": "application/pdf",
           "description": "Accompanied by 3 folded reference maps \n Avery Classics copy: From the library of Seymour Durst with his bookplate \n Avery Classics copy: Ink stamp on t.p. and free front endpaper \"Library, The Real Estate Board of New York, Inc\"  \n Subjects: Harbors",
-          "requiresVisualReview": true,
-          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
-        },
-        {
-          "state": "needs_manual_license_review",
-          "fileTitle": "File:The problem of war and its solution (IA problemofwaritss00granrich).pdf",
-          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/The_problem_of_war_and_its_solution_%28IA_problemofwaritss00granrich%29.pdf/page1-500px-The_problem_of_war_and_its_solution_%28IA_problemofwaritss00granrich%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:The_problem_of_war_and_its_solution_(IA_problemofwaritss00granrich).pdf",
-          "creator": "Grant, John E",
-          "attribution": "Grant, John E",
-          "license": "public-domain",
-          "licenseUrl": "",
-          "usageTerms": "Public domain",
-          "mime": "application/pdf",
-          "description": "Subjects: War; World War, 1914-1918 -- Economic aspects; Land tenure -- Great Britain; Economic history -- 1918-1945; Economic history",
           "requiresVisualReview": true,
           "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
         },
