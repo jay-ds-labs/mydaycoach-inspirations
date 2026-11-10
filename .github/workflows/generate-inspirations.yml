@@ -52,3 +52,14 @@ jobs:
           data=json.load(open("enrichment-status.json"))
           print("Editorial review completed:",data.get("approved"),"approved;",data.get("needsReview"),"not approved")
           PY
+      - name: Clear stuck refresh status on failure
+        if: failure()
+        env:
+          CONTENT_TARGET_BRANCH: ${{ github.ref_name }}
+        run: |
+          python3 scripts/fail_refresh.py
+          git add refresh-status.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Record interrupted refresh for safe retry"
+            git push origin "HEAD:${CONTENT_TARGET_BRANCH}"
+          fi
