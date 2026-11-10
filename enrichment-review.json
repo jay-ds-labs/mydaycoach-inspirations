@@ -3778,33 +3778,110 @@
       "publication": "blocked_unapproved_review"
     },
     "generated-f05be5e8fc694d8d8a54": {
+      "previousReview": {
+        "state": "review_failed",
+        "checkedAt": "2026-11-09T22:59:13.355794Z",
+        "source": "https://www.bbc.co.uk/history/historic_figures/pankhurst_emmeline.shtml",
+        "reviewAttempts": [
+          {
+            "attempt": 1,
+            "approved": false,
+            "issues": [
+              "Generation/review error: HTTP Error 503: Service Unavailable"
+            ]
+          },
+          {
+            "attempt": 2,
+            "approved": false,
+            "issues": [
+              "Generation/review error: HTTP Error 503: Service Unavailable"
+            ]
+          },
+          {
+            "attempt": 3,
+            "approved": false,
+            "issues": [
+              "Generation/review error: HTTP Error 503: Service Unavailable"
+            ]
+          }
+        ],
+        "attemptCount": 3,
+        "reviewFailureSummary": "Article not yet approved by reviewer; Saved text has not passed a matching editorial review",
+        "sourceAccessible": true,
+        "sourceUrls": [
+          "https://www.bbc.co.uk/history/historic_figures/pankhurst_emmeline.shtml",
+          "https://en.wikipedia.org/wiki/Emmeline_Pankhurst"
+        ],
+        "sourceCount": 2,
+        "wordCount": 834,
+        "reviewedTextMatchesSaved": false,
+        "originalSource": "https://www.bbc.co.uk/history/historic_figures/pankhurst_emmeline.shtml",
+        "evidenceSource": "https://www.bbc.co.uk/history/historic_figures/pankhurst_emmeline.shtml",
+        "issues": [
+          "Article not yet approved by reviewer",
+          "Saved text has not passed a matching editorial review"
+        ],
+        "factualRisk": "high",
+        "imageStatus": "awaiting_visual_and_license_review",
+        "publication": "ready_for_publish"
+      },
+      "recoveryBatchId": "historical-36-v1",
       "state": "review_failed",
-      "checkedAt": "2026-11-09T22:59:13.355794Z",
+      "checkedAt": "2026-11-10T01:47:59.295792Z",
       "source": "https://www.bbc.co.uk/history/historic_figures/pankhurst_emmeline.shtml",
+      "failureCodes": [
+        "EDITORIAL_QUALITY_FAILED"
+      ],
       "reviewAttempts": [
         {
           "attempt": 1,
           "approved": false,
           "issues": [
-            "Generation/review error: HTTP Error 503: Service Unavailable"
-          ]
+            "No evidence provided that Pankhurst stood vigil outside Holloway Prison at dawn each morning after her release in 1912",
+            "No direct quotation or statement from Pankhurst or contemporaries is cited for the described dawn vigils",
+            "Several assertions about her specific presence and actions at Holloway Prison are not supported by the supplied sources"
+          ],
+          "completedEditorialReview": true
         },
         {
           "attempt": 2,
           "approved": false,
           "issues": [
-            "Generation/review error: HTTP Error 503: Service Unavailable"
-          ]
+            "Generated article length 595 outside 600-1100 words"
+          ],
+          "failureCode": "EDITORIAL_QUALITY_FAILED"
         },
         {
           "attempt": 3,
           "approved": false,
           "issues": [
-            "Generation/review error: HTTP Error 503: Service Unavailable"
-          ]
+            "No direct evidence in the supplied sources for Pankhurst's daily dawn vigil outside Holloway Prison after release in 1912",
+            "Article presents prescriptive motives and internal states not directly evidenced in sources",
+            "Multiple evocative details (predawn gatherings, passing bread, whispered support) are not supported by the supplied BBC or Wikipedia sources"
+          ],
+          "completedEditorialReview": true
+        },
+        {
+          "attempt": 4,
+          "approved": false,
+          "issues": [
+            "Generated article length 575 outside 600-1100 words"
+          ],
+          "failureCode": "EDITORIAL_QUALITY_FAILED"
+        },
+        {
+          "attempt": 5,
+          "approved": false,
+          "issues": [
+            "The card states Pankhurst stood vigil outside Holloway Prison at dawn each morning after her release in 1912, but no supplied evidence confirms this specific daily dawn vigil or its timing.",
+            "Article includes detailed claims about Pankhurst ‘appearing at dawn’ outside Holloway and frequenting morning vigils which are not directly substantiated by the provided BBC source.",
+            "Article closely paraphrases card’s narrative of consistent dawn presence, but the BBC source only says she endured arrest, hunger strike, and returned to activism—not that she stood vigil at dawn or refused to rest each morning after release."
+          ],
+          "completedEditorialReview": true
         }
       ],
-      "attemptCount": 3,
+      "attemptCount": 5,
+      "completedEditorialReviews": 3,
       "reviewFailureSummary": "Article not yet approved by reviewer; Saved text has not passed a matching editorial review",
       "sourceAccessible": true,
       "sourceUrls": [
@@ -3812,7 +3889,7 @@
         "https://en.wikipedia.org/wiki/Emmeline_Pankhurst"
       ],
       "sourceCount": 2,
-      "wordCount": 834,
+      "wordCount": 859,
       "reviewedTextMatchesSaved": false,
       "originalSource": "https://www.bbc.co.uk/history/historic_figures/pankhurst_emmeline.shtml",
       "evidenceSource": "https://www.bbc.co.uk/history/historic_figures/pankhurst_emmeline.shtml",
@@ -3822,7 +3899,7 @@
       ],
       "factualRisk": "high",
       "imageStatus": "awaiting_visual_and_license_review",
-      "publication": "ready_for_publish"
+      "publication": "blocked_unapproved_review"
     },
     "generated-df847014cc764b76b0e5": {
       "state": "review_failed",
