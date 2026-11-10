@@ -2930,6 +2930,34 @@
       "sourceErrors": [
         "https://www.pbs.org/weta/washingtonweek/blog-post/ida-b-wells-crusade-justice Source retrieval failed: HTTP Error 404: Not Found"
       ]
+    },
+    "generated-ae416d128e5049f68ea7": {
+      "state": "approved",
+      "eligible": true,
+      "generated": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "reviewCompleted": true,
+          "sourceUrls": [
+            "https://www.womenshistory.org/education-resources/biographies/mary-edwards-walker",
+            "https://en.wikipedia.org/wiki/Margaret"
+          ],
+          "changes": "Removed unsupported quotations and speculative language. Tightened narrative for coherence and historical accuracy, grounding each detail in the provided reputable source. Clarified that Walker wore practical clothing for professional and hygienic reasons. Emphasized her medical role, activism for women's rights, and lifelong resistance to social limitations, drawing only from supported material.",
+          "approved": true,
+          "complete": true,
+          "grounded": true,
+          "feedback": []
+        }
+      ],
+      "completedReviews": 1,
+      "reasonCode": "",
+      "reason": "",
+      "sourceUrls": [
+        "https://www.womenshistory.org/education-resources/biographies/mary-edwards-walker",
+        "https://en.wikipedia.org/wiki/Margaret"
+      ],
+      "sourceErrors": []
     }
   }
 }
