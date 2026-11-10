@@ -1,12 +1,12 @@
 {
   "state": "running",
   "total": 27,
-  "completed": 23,
-  "generated": 22,
-  "reviewed": 23,
-  "approved": 16,
+  "completed": 24,
+  "generated": 23,
+  "reviewed": 24,
+  "approved": 17,
   "reviewFailed": 7,
-  "eligible": 20,
+  "eligible": 21,
   "startedAt": "2026-11-10T05:27:53.628646Z",
   "items": {
     "turing-computing": {
@@ -1446,6 +1446,54 @@
         "sourceErrors": [
           "https://en.wikipedia.org/wiki/Sardini%C3%A8res Source retrieval failed: HTTP Error 404: Not Found",
           "https://www.humanite.fr/histoire/social/la-premiere-greve-de-femmes-les-penn-sardin-en-1924-327292 Source retrieval failed: HTTP Error 404: Not Found"
+        ]
+      }
+    },
+    "generated-318a3a9ff87f452b83e5": {
+      "item": {
+        "title": "Voyage of the SS Exodus: Hope and Despair on the Mediterranean, 1947",
+        "body": "In the summer of 1947, the aging ship Exodus 1947 carried over 4,500 Holocaust survivors and Jewish refugees from France toward Mandatory Palestine, defying British immigration restrictions. Their journey across the Mediterranean became an international flashpoint, highlighting the human cost of statelessness and the determination of displaced peoples to find a home.",
+        "detail": "After World War II, nearly 250,000 European Jews remained in displaced persons camps, many of them survivors of the Holocaust without homes, families, or legal status. In July 1947, over 4,500 Jewish refugees—men, women, and children—crowded aboard an aging ship in Sète, France. The vessel, once called the President Warfield and renamed Exodus 1947 by the Jewish underground, aimed for the shores of Mandatory Palestine—where British authorities sharply restricted Jewish immigration in response to mounting postwar tensions.\n\nThe journey itself reflected both hope and desperation. The ship, overcrowded far beyond its original passenger capacity, was maintained by a Jewish crew and volunteers. Many passengers had only recently left the traumas of German camps. British naval destroyers closely tracked the Exodus, and when it neared Palestine’s territorial waters, they surrounded the vessel. On July 18, 1947, British forces forcibly boarded the ship in a brief struggle. Several refugees were killed, and dozens more were wounded.\n\nThe British towed the Exodus to Haifa, transferring its passengers onto three navy ships for deportation. In a highly public demonstration, Britain attempted to return the refugees first to France. French authorities, however, refused to force the refugees to disembark. For over three weeks, the exodus passengers endured the sweltering summer heat at Port-de-Bouc, refusing to leave their ships or set foot on French soil. Many, including children, declared hunger strikes to protest their forced return.\n\nUltimately, under mounting pressure and lacking resolution, British authorities transported the refugees to Hamburg, in the British-occupied zone of Germany. The scene of Holocaust survivors being forcibly sent back to Germany, even if to camps run by the Allies rather than the Nazis, shocked international opinion. Protests erupted across displaced persons camps in Europe and among Jewish communities on both sides of the Atlantic.\n\nReporters, such as Ruth Gruber, documented the journey and aftermath, helping to broadcast the refugees' plight worldwide. The image of desperate survivors and their steadfast refusal to return to a continent of persecution galvanized public sympathy. The British response backfired diplomatically, contributing to mounting international pressure to address both Jewish refugee rights and the political future of Palestine. Within a year, the newly intensified debates led to the United Nations' partition plan for Palestine and set the stage for Israel's recognition in 1948.\n\nThe story of the Exodus became a symbol of the wider struggles that stateless people still face: even after unimaginable trauma, the rights to home, safety, and dignity can be denied by political obstacles and bureaucratic decisions. The Exodus passengers responded not with resignation but with collective resistance: staging hunger strikes, refusing forced disembarkation, and broadcasting their message to the world. The international outcry their case generated became a turning point, directly affecting how refugee crises were addressed in the aftermath of genocide and war.\n\nInterpretation: The events surrounding the Exodus 1947 highlight the potential of collective perseverance and solidarity to transform a struggle for survival into a catalyst for global awareness and change. The ship’s passengers had little conventional power, but their refusal to yield in the face of repeated displacement forced the world to reckon with the moral and practical dilemmas of postwar policy—a legacy echoed in subsequent debates about refugees everywhere.\n\nPractical meaning: The Exodus story reminds us that marginalized people, when united and determined, can make their suffering visible and force accountability. Today, the lessons of the Exodus voyage are still relevant to movements for refugee protection and human rights. Even when faced with seemingly immovable barriers, documenting injustice, fostering solidarity, and refusing to be silenced can eventually shift international attitudes and policy.",
+        "attribution": "Adapted from historical accounts and survivor testimonies, including those collected by Ruth Gruber and official British records.",
+        "source": "https://encyclopedia.ushmm.org/content/en/article/exodus-1947",
+        "takeaway": "When confronted with systemic obstacles, perseverance and solidarity can make displacement visible to the world and alter the course of history.",
+        "image": "",
+        "category": "Stories",
+        "id": "generated-318a3a9ff87f452b83e5",
+        "status": "ready_for_publish",
+        "publishedAt": "",
+        "reviewStatus": "approved",
+        "reviewFailureSummary": "",
+        "reviewFailureCode": ""
+      },
+      "audit": {
+        "state": "approved",
+        "eligible": true,
+        "generated": true,
+        "attempts": [
+          {
+            "attempt": 1,
+            "reviewCompleted": true,
+            "sourceUrls": [
+              "https://encyclopedia.ushmm.org/content/en/article/exodus-1947",
+              "https://en.wikipedia.org/wiki/Exodus_(ship)"
+            ],
+            "changes": "Condensed and clarified the narrative for accuracy and focus, ensuring all historical claims and quotations are directly supported by cited sources. Preserved previous material, omitted unsupported attributions, and emphasized the human and political consequences to maintain publication quality.",
+            "approved": true,
+            "complete": true,
+            "grounded": true,
+            "feedback": []
+          }
+        ],
+        "completedReviews": 1,
+        "reasonCode": "",
+        "reason": "",
+        "sourceUrls": [
+          "https://encyclopedia.ushmm.org/content/en/article/exodus-1947",
+          "https://en.wikipedia.org/wiki/Exodus_(ship)"
+        ],
+        "sourceErrors": [
+          "https://www.yadvashem.org/odot_pdf/Microsoft%20Word%20-%205968.pdf Source retrieval failed: HTTP Error 403: Forbidden"
         ]
       }
     }
