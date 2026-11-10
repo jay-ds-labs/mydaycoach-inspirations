@@ -1,5 +1,5 @@
 {
-  "state": "running",
+  "state": "failed",
   "stage": "research",
   "completed": 73,
   "total": 70,
@@ -10,7 +10,7 @@
   "approved": 1,
   "needsReview": 2,
   "startedAt": "2026-11-10T01:25:55.934098Z",
-  "completedAt": null,
+  "completedAt": "2026-11-10T01:28:07.567764Z",
   "currentId": "reflection-009",
-  "error": null
+  "error": "Command '['git', 'push', 'origin', 'HEAD:fix/editorial-review-resilience']' returned non-zero exit status 1."
 }
