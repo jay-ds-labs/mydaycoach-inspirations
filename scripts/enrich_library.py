@@ -56,7 +56,7 @@ def persist(message):
     subprocess.run(["git","add",FEED.name,PROGRESS.name,REVIEWS.name,IMAGES.name],check=True)
     if subprocess.run(["git","diff","--cached","--quiet"]).returncode:
         subprocess.run(["git","commit","-m",message],check=True)
-        subprocess.run(["git","push","origin","HEAD:main"],check=True)
+        subprocess.run(["git","push","origin","HEAD:"+os.getenv("CONTENT_TARGET_BRANCH","main")],check=True)
 
 def model_json(prompt,model):
     payload={"model":model,"input":[{"role":"user","content":prompt}],
@@ -238,7 +238,9 @@ def main():
                 "queries":[item.get("title","")],"candidates":image_results,
                 "errors":image_errors,"selected":None,
                 "state":"awaiting_visual_and_license_review"}
+            previous_review=reviews["items"].get(item["id"],{})
             reviews["items"][item["id"]]={
+                "previousReview":previous_review if previous_review else None,
                 "state":state,"checkedAt":now(),"source":preferred_source,
                 "failureCodes":([infrastructure_error] if infrastructure_error else
                     ["INSUFFICIENT_EVIDENCE"] if not records else
