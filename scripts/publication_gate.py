@@ -47,8 +47,7 @@ def main():
     reviews=json.loads((ROOT/"enrichment-review.json").read_text(encoding="utf-8"))
     images=json.loads((ROOT/"enrichment-images.json").read_text(encoding="utf-8"))
     result=assess(feed,reviews,images)
-    (ROOT/"publication-gate.json").write_text(json.dumps(result,indent=2)+"
-",encoding="utf-8")
+    (ROOT/"publication-gate.json").write_text(json.dumps(result,indent=2)+"\n",encoding="utf-8")
     print(json.dumps({"ready":result["ready"],"blocked":result["blocked"]},indent=2))
 
 if __name__=="__main__":
