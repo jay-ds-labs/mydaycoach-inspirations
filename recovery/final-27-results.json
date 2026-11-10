@@ -1,5 +1,5 @@
 {
-  "state": "running",
+  "state": "completed",
   "total": 27,
   "completed": 27,
   "generated": 26,
@@ -1724,5 +1724,6 @@
         ]
       }
     }
-  }
+  },
+  "completedAt": "2026-11-10T05:38:04.677426Z"
 }
