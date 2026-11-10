@@ -12,6 +12,7 @@ import re
 import time
 import urllib.request
 import uuid
+from api_resilience import call_with_retry, classify_error
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 FEED = ROOT / "library.json"
