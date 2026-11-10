@@ -145,7 +145,9 @@ def main():
     if batch_ids:
         requested=json.loads(Path(batch_ids).read_text(encoding="utf-8")).get("generatedIds",[])
         requested_set=set(requested)
-        selected=[x for x in original if x["id"] in requested_set][:BATCH_SIZE]
+        selected=[x for x in original if x["id"] in requested_set and
+                  (not reviews["items"].get(x["id"],{}).get("recoveryBatchId") or
+                   reviews["items"][x["id"]].get("state")=="review_pending_retry")][:BATCH_SIZE]
     else:
         selected=remaining[:BATCH_SIZE]
     images=json.loads(IMAGES.read_text(encoding="utf-8")) if IMAGES.exists() else {"items":{}}
@@ -257,6 +259,7 @@ def main():
             previous_review=reviews["items"].get(item["id"],{})
             reviews["items"][item["id"]]={
                 "previousReview":previous_review if previous_review else None,
+                "recoveryBatchId":os.getenv("ENRICH_RECOVERY_BATCH_ID","") if batch_ids else "",
                 "state":state,"checkedAt":now(),"source":preferred_source,
                 "failureCodes":([infrastructure_error] if infrastructure_error else
                     ["INSUFFICIENT_EVIDENCE"] if not records else
