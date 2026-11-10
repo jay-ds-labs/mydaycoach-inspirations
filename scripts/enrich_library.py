@@ -246,7 +246,10 @@ def main():
             item["reviewFailureSummary"]="; ".join(issues[:2])[:350] if state!="approved" else ""
             status["stage"]="image_audit"
             write(PROGRESS,status)
-            image_results,image_errors=image_candidates(item)
+            try:
+                image_results,image_errors=image_candidates(item)
+            except Exception as image_error:
+                image_results,image_errors=[],["Image discovery unavailable: "+str(image_error)[:180]]
             images["items"][item["id"]]={"checkedAt":now(),
                 "queries":[item.get("title","")],"candidates":image_results,
                 "errors":image_errors,"selected":None,
