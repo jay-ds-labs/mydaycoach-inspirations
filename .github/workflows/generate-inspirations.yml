@@ -35,6 +35,7 @@ jobs:
           OPENAI_CONTENT_MODEL: gpt-4.1
           OPENAI_REVIEW_MODEL: gpt-4.1
           ENRICH_BATCH_SIZE: "15"
+          ENRICH_TARGET_IDS_FILE: refresh-status.json
           ENRICH_MAX_ATTEMPTS: "3"
           CONTENT_TARGET_BRANCH: ${{ github.ref_name }}
         run: |
