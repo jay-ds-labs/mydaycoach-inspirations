@@ -141,7 +141,13 @@ def main():
         remaining=[x for x in original if reviews["items"].get(x["id"],{}).get("state") in ("review_failed","needs_review","review_pending_retry","needs_manual_review") or (x["id"] not in done and x["id"] in reviews["items"])]
     else:
         remaining=[x for x in original if x["id"] not in done]
-    selected=remaining[:BATCH_SIZE]
+    batch_ids=os.getenv("ENRICH_TARGET_IDS_FILE","")
+    if batch_ids:
+        requested=json.loads(Path(batch_ids).read_text(encoding="utf-8")).get("generatedIds",[])
+        requested_set=set(requested)
+        selected=[x for x in original if x["id"] in requested_set][:BATCH_SIZE]
+    else:
+        selected=remaining[:BATCH_SIZE]
     images=json.loads(IMAGES.read_text(encoding="utf-8")) if IMAGES.exists() else {"items":{}}
     status={"state":"running","stage":"generation","completed":len(done),
             "total":len(original),"batchTotal":len(selected),"batchCompleted":0,
