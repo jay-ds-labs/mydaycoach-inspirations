@@ -1,12 +1,12 @@
 {
   "state": "running",
   "total": 27,
-  "completed": 15,
+  "completed": 16,
   "generated": 15,
-  "reviewed": 15,
-  "approved": 10,
+  "reviewed": 16,
+  "approved": 11,
   "reviewFailed": 5,
-  "eligible": 14,
+  "eligible": 15,
   "startedAt": "2026-11-10T05:27:53.628646Z",
   "items": {
     "turing-computing": {
@@ -983,6 +983,52 @@
         ],
         "sourceErrors": [
           "https://www.iwm.org.uk/history/noor-inayat-khan-the-spy-who-fought-the-nazis-without-a-gun Source retrieval failed: HTTP Error 404: Not Found"
+        ]
+      }
+    },
+    "generated-b153d63332d44b54aa56": {
+      "item": {
+        "title": "The Salt March: Gandhi’s Unyielding Step for Freedom",
+        "body": "In March 1930, Mahatma Gandhi led a 240-mile march to the sea, challenging British colonial salt laws. This act of nonviolent defiance galvanized millions in India and drew global attention to the Indian independence movement, proving how peaceful resistance can unsettle even the mightiest empires.",
+        "detail": "In colonial India, the British government imposed and tightly controlled a monopoly on the production and sale of salt, a basic necessity for all people. This salt tax disproportionately hurt the country's poor and became a symbol of the colonial regime's exploitative economic control. In 1930, Mohandas Gandhi sought to highlight this injustice in a way that ordinary citizens could directly understand and participate in. He set out on what became known as the Salt March, walking miles with a growing group of followers toward the Arabian Sea. By collecting natural salt in defiance of British regulations, the marchers committed an illegal yet peaceful act. The Salt March soon encouraged others across India to bypass government salt laws in everyday acts of civil disobedience. While the direct outcome was not immediate legislative change, this campaign successfully mobilized widespread participation and attention within India, pointing to the unifying power of peaceful protest focused on a shared, practical issue felt by millions.",
+        "attribution": "Based on historical records and contemporaneous news accounts. See sources below.",
+        "source": "https://en.wikipedia.org/wiki/Salt_March",
+        "takeaway": "Identify a specific, everyday injustice—and organize directly around it with action everyone can join.",
+        "image": "",
+        "category": "Stories",
+        "id": "generated-b153d63332d44b54aa56",
+        "status": "ready_for_publish",
+        "publishedAt": "",
+        "reviewStatus": "approved",
+        "reviewFailureSummary": "",
+        "reviewFailureCode": ""
+      },
+      "audit": {
+        "state": "approved",
+        "eligible": true,
+        "generated": false,
+        "attempts": [
+          {
+            "attempt": 1,
+            "reviewCompleted": true,
+            "sourceUrls": [
+              "https://en.wikipedia.org/wiki/Salt_March"
+            ],
+            "changes": "Reviewed the existing draft because composition returned no article.",
+            "approved": true,
+            "complete": true,
+            "grounded": true,
+            "feedback": []
+          }
+        ],
+        "completedReviews": 1,
+        "reasonCode": "",
+        "reason": "",
+        "sourceUrls": [
+          "https://en.wikipedia.org/wiki/Salt_March"
+        ],
+        "sourceErrors": [
+          "https://www.britannica.com/event/Salt-March Source retrieval failed: HTTP Error 403: Forbidden"
         ]
       }
     }
