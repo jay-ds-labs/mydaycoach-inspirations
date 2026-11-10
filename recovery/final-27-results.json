@@ -1,0 +1,12 @@
+{
+  "state": "running",
+  "total": 27,
+  "completed": 0,
+  "generated": 0,
+  "reviewed": 0,
+  "approved": 0,
+  "reviewFailed": 0,
+  "eligible": 0,
+  "startedAt": "2026-11-10T05:27:53.628646Z",
+  "items": {}
+}
