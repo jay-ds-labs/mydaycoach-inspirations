@@ -1,11 +1,11 @@
 {
   "state": "running",
   "total": 27,
-  "completed": 1,
+  "completed": 2,
   "generated": 0,
   "reviewed": 0,
   "approved": 0,
-  "reviewFailed": 1,
+  "reviewFailed": 2,
   "eligible": 0,
   "startedAt": "2026-11-10T05:27:53.628646Z",
   "items": {
@@ -51,6 +51,50 @@
         "sourceErrors": [
           "https://www.britannica.com/biography/Alan-Turing Source retrieval failed: HTTP Error 403: Forbidden",
           "https://www.turing.ac.uk/ Source retrieval failed: HTTP Error 403: Forbidden"
+        ]
+      }
+    },
+    "goodall-gombe": {
+      "item": {
+        "id": "goodall-gombe",
+        "category": "Stories",
+        "title": "Careful observation",
+        "body": "Jane Goodall began her long-term chimpanzee research at Gombe in 1960, transforming understanding of primate behavior.",
+        "attribution": "Jane Goodall Institute",
+        "source": "https://en.wikipedia.org/wiki/Jane_Goodall",
+        "takeaway": "Observe your habits before trying to change them.",
+        "status": "review_failed",
+        "detail": "Review failed [INVALID_ARTICLE]. No usable article within the app's storage limit\n\nIn 1967, researchers R. Allen Gardner and Beatrix Gardner launched a pioneering experiment to teach a young chimpanzee named Washoe American Sign Language (ASL). Previous studies had shown that chimpanzees could not replicate spoken language sounds, but the Gardners hypothesized that gestural communication might be possible, given that chimps use gestures naturally in the wild. Over time, Washoe learned to use approximately 350 signs, even transferring some of this knowledge to another chimp, Loulis. The project broke new ground by demonstrating that a non-human primate could acquire and actively use elements of human language in daily interactions, challenging previous assumptions about the cognitive and communicative capacities of great apes. Washoe's experience at Central Washington University further highlighted the importance of environment and social learning in animal research.",
+        "reviewStatus": "review_failed",
+        "reviewFailureSummary": "No usable article within the app's storage limit",
+        "publishedAt": "",
+        "reviewFailureCode": "INVALID_ARTICLE"
+      },
+      "audit": {
+        "state": "review_failed",
+        "eligible": false,
+        "generated": false,
+        "attempts": [
+          {
+            "attempt": 1,
+            "reviewCompleted": false,
+            "sourceUrls": [
+              "https://en.wikipedia.org/wiki/Jane_Goodall",
+              "https://janegoodall.org/"
+            ],
+            "errorCode": "INVALID_ARTICLE",
+            "error": "No usable article within the app's storage limit"
+          }
+        ],
+        "completedReviews": 0,
+        "reasonCode": "INVALID_ARTICLE",
+        "reason": "No usable article within the app's storage limit",
+        "sourceUrls": [
+          "https://en.wikipedia.org/wiki/Jane_Goodall",
+          "https://janegoodall.org/"
+        ],
+        "sourceErrors": [
+          "https://www.britannica.com/biography/Jane-Goodall Source retrieval failed: HTTP Error 403: Forbidden"
         ]
       }
     }
