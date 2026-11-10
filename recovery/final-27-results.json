@@ -1,12 +1,12 @@
 {
   "state": "running",
   "total": 27,
-  "completed": 13,
-  "generated": 13,
-  "reviewed": 13,
-  "approved": 8,
+  "completed": 14,
+  "generated": 14,
+  "reviewed": 14,
+  "approved": 9,
   "reviewFailed": 5,
-  "eligible": 12,
+  "eligible": 13,
   "startedAt": "2026-11-10T05:27:53.628646Z",
   "items": {
     "turing-computing": {
@@ -892,6 +892,52 @@
         "sourceErrors": [
           "https://www.nps.gov/gwca/learn/historyculture/george-washington-carver-biography.htm Source retrieval failed: HTTP Error 404: Not Found"
         ]
+      }
+    },
+    "generated-f919ea06f96c4b68b11b": {
+      "item": {
+        "title": "Saving Faces: Harold Gillies and the Dawn of Modern Reconstructive Surgery",
+        "body": "During World War I, surgeon Harold Gillies pioneered groundbreaking techniques in plastic and reconstructive surgery for soldiers suffering horrific facial injuries. His compassionate, innovative approach not only restored appearances and function but changed medicine’s understanding of trauma and recovery for generations to come.",
+        "detail": "During the First World War, the scale and severity of battlefield injuries changed medicine—and lives—forever. Soldiers exposed to new weapons suffered devastating facial wounds that not only destroyed tissue and bone, but often left them unrecognizable, confronting both physical and psychological trauma. At this crossroads stood Sir Harold Gillies, a New Zealand-born surgeon who would fundamentally alter the course of reconstructive surgery. \n\nGillies initially trained as an otolaryngologist but found his true calling in the chaos of war. Inspired after observing pioneering jaw repair work in France, Gillies recognized both the technical challenge and the human necessity of rebuilding faces. He persuaded military authorities to establish dedicated facilities for facial injuries, leading to the creation of the Queen's Hospital at Sidcup in 1917—a groundbreaking institution that eventually performed over 11,000 operations on more than 5,000 men.\n\nWorking with multidisciplinary teams—including other surgeons, nurses, and artists—Gillies pioneered new techniques for skin grafts, flap surgery, and tissue reconstruction. A notable early patient, sailor Walter Yeo, is believed to be one of the first people to receive advanced facial flap surgery under Gillies’ care. Gillies’ innovations not only restored appearances and physical function but also attended to the deep psychological wounds of disfigurement, which could isolate survivors from their communities and families.\n\nGillies was recognized as the 'father of modern plastic surgery.' His compassionate, patient-centered approach—listening to soldiers’ wishes, striving for dignity as well as utility—redefined what was possible in surgical recovery. The ripple effects of his work went far beyond wartime Britain. Techniques he developed became the backbone of reconstructive and plastic surgery worldwide, and his training shaped generations of future surgeons, including his cousin Archibald McIndoe, who would go on to treat Second World War airmen.\n\nThe story of Gillies and his patients marks a turning point in the medical response to trauma, where technical skill and empathy came together to heal both body and spirit. In the words attributed to Gillies regarding another area of transformative surgery: if a procedure brings true happiness, it is perhaps the greatest gift medicine has to offer. Though the physical scars of war could not be erased, the dedication to restoring identity and humanity in the face of devastation endures as one of medicine’s most inspirational chapters.",
+        "attribution": "Written by OpenAI's GPT-4, drawing from published historical accounts of Harold Gillies and World War I medicine.",
+        "source": "https://en.wikipedia.org/wiki/Harold_Gillies",
+        "takeaway": "Innovate compassionately—combine technical skill with empathy to restore dignity where it’s been lost.",
+        "image": "",
+        "category": "Stories",
+        "id": "generated-f919ea06f96c4b68b11b",
+        "status": "ready_for_publish",
+        "publishedAt": "",
+        "reviewStatus": "approved",
+        "reviewFailureSummary": "",
+        "reviewFailureCode": ""
+      },
+      "audit": {
+        "state": "approved",
+        "eligible": true,
+        "generated": true,
+        "attempts": [
+          {
+            "attempt": 1,
+            "reviewCompleted": true,
+            "sourceUrls": [
+              "https://en.wikipedia.org/wiki/Harold_Gillies",
+              "https://www.bbc.com/news/magazine-19641398"
+            ],
+            "changes": "Added more about Gillies' training and inspiration, and described the context and impact using specific examples from source (Walter Yeo, Queen’s Hospital); included Gillies’ enduring legacy and philosophy, addressed psychological aspects, and preserved all supported material from previous drafts. Ensured historical statements were supported by evidence from the provided Wikipedia source, paraphrasing or omitting unsupported quotes.",
+            "approved": true,
+            "complete": true,
+            "grounded": true,
+            "feedback": []
+          }
+        ],
+        "completedReviews": 1,
+        "reasonCode": "",
+        "reason": "",
+        "sourceUrls": [
+          "https://en.wikipedia.org/wiki/Harold_Gillies",
+          "https://www.bbc.com/news/magazine-19641398"
+        ],
+        "sourceErrors": []
       }
     }
   }
