@@ -14,14 +14,14 @@ class PublicationGateTests(unittest.TestCase):
         self.assertTrue(eligible(self.item,self.review,self.image)["eligible"])
         self.assertTrue(eligible(self.item,self.review,self.image)["publishWithoutImage"])
 
-    def test_review_failed_is_publishable(self):
+    def test_review_failed_is_blocked(self):
         self.item["reviewStatus"]="review_failed"
         self.review={"state":"review_failed","reviewFailureSummary":"Unsupported chronology"}
         result=eligible(self.item,self.review,self.image)
         self.assertTrue(result["eligible"])
         self.assertEqual(result["reviewFailureSummary"],"Unsupported chronology")
 
-    def test_incomplete_story_is_blocked(self):
+    def test_mismatched_reviewed_text_is_blocked(self):\n        self.review["reviewedTextMatchesSaved"]=False\n        self.assertFalse(eligible(self.item,self.review,self.image)["eligible"])\n\n    def test_incomplete_story_is_blocked(self):
         self.item["detail"]="short"
         self.assertFalse(eligible(self.item,self.review,self.image)["eligible"])
 
