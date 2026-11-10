@@ -1,12 +1,12 @@
 {
   "state": "running",
   "total": 27,
-  "completed": 5,
-  "generated": 5,
-  "reviewed": 5,
+  "completed": 6,
+  "generated": 6,
+  "reviewed": 6,
   "approved": 4,
-  "reviewFailed": 1,
-  "eligible": 5,
+  "reviewFailed": 2,
+  "eligible": 6,
   "startedAt": "2026-11-10T05:27:53.628646Z",
   "items": {
     "turing-computing": {
@@ -300,6 +300,83 @@
           "https://en.wikipedia.org/wiki/Compassion",
           "https://plato.stanford.edu/entries/buddha/",
           "https://en.wikipedia.org/wiki/Religious_naturalism"
+        ],
+        "sourceErrors": []
+      }
+    },
+    "reflection-012": {
+      "item": {
+        "id": "reflection-012",
+        "category": "Philosophy",
+        "title": "Revise the method",
+        "body": "A strategy is a tool, not an identity. A failed method need not invalidate your goal.",
+        "attribution": "MyDayCoach original reflection — not a historical quotation",
+        "source": "https://en.wikipedia.org/wiki/Pragmatism",
+        "takeaway": "Change one part of a routine that isn't working.",
+        "status": "ready_for_publish",
+        "detail": "Review failed [EDITORIAL_QUALITY_FAILED]. Article is a well-written, cohesive summary of core pragmatist philosophy and its implications; it accurately describes primary thinkers, the practical maxim, and the emphasis on the utility and revisability of strategies, all of which are supported in the cited sources\n\nIn the late nineteenth century, American philosophers like Charles Sanders Peirce, William James, and later John Dewey pioneered pragmatism—a philosophical tradition that emphasizes the practical outcomes of ideas rather than viewing any principle or method as absolute. Pragmatists held that beliefs and strategies are valuable not for their conformity to some fixed reality, but for the real-world results they enable. Peirce captured this with his 'pragmatic maxim,' urging us to define concepts, goals, or beliefs by examining their practical effects.\n\nThis perspective fundamentally reshaped approaches to problem-solving. Instead of treating a single method or strategy as a reflection of identity, the pragmatists asked: does it work? If a particular method fails, it is not the goal that must be abandoned—only the tool. This ethos encouraged a climate in which experimentation, revision, and adaptation are natural and necessary. John Dewey, for example, championed ongoing reform in education and democracy, advocating that institutions and habits should be shifted or discarded if they no longer serve their purpose. Progress, in this view, requires continuous adjustment and the willingness to reflect critically on what is working and what is not.\n\nBy treating strategies as tentative, pragmatism guards against dogmatism. A failed method is not a failed self, nor a failed goal, but an opportunity to learn and refine. This attitude, rooted deeply in the origins of American pragmatism, has left a durable legacy: innovation and resilience arise from the freedom to experiment—and revise—without fearing that changing tactics undermines one's ultimate direction.",
+        "reviewStatus": "review_failed",
+        "reviewFailureSummary": "Article is a well-written, cohesive summary of core pragmatist philosophy and its implications; it accurately describes primary thinkers, the practical maxim, and the emphasis on the utility and revisability of strategies, all of which are supported in the cited sources",
+        "publishedAt": "",
+        "reviewFailureCode": "EDITORIAL_QUALITY_FAILED"
+      },
+      "audit": {
+        "state": "review_failed",
+        "eligible": true,
+        "generated": true,
+        "attempts": [
+          {
+            "attempt": 1,
+            "reviewCompleted": true,
+            "sourceUrls": [
+              "https://en.wikipedia.org/wiki/Pragmatism",
+              "https://plato.stanford.edu/entries/pragmatism/"
+            ],
+            "changes": "Reviewed the existing draft because composition returned no article.",
+            "approved": false,
+            "complete": true,
+            "grounded": true,
+            "feedback": []
+          },
+          {
+            "attempt": 2,
+            "reviewCompleted": true,
+            "sourceUrls": [
+              "https://en.wikipedia.org/wiki/Pragmatism",
+              "https://plato.stanford.edu/entries/pragmatism/"
+            ],
+            "changes": "",
+            "approved": false,
+            "complete": true,
+            "grounded": true,
+            "feedback": []
+          },
+          {
+            "attempt": 3,
+            "reviewCompleted": true,
+            "sourceUrls": [
+              "https://en.wikipedia.org/wiki/Pragmatism",
+              "https://plato.stanford.edu/entries/pragmatism/"
+            ],
+            "changes": "",
+            "approved": false,
+            "complete": true,
+            "grounded": true,
+            "feedback": [
+              "Article is a well-written, cohesive summary of core pragmatist philosophy and its implications; it accurately describes primary thinkers, the practical maxim, and the emphasis on the utility and revisability of strategies, all of which are supported in the cited sources.",
+              "It avoids attributing direct quotations or historical claims without support, and the explanatory examples are consistent with established scholarship; no topic drift, fabrication, or misleading summary is present.",
+              "However, the material presented (especially the final paragraphs) restates philosophical interpretations in a way that is a secondary explanation rather than advancing a novel, research-based editorial thesis. The article lacks any critical engagement (pro or con) with rival interpretations or dissent within the tradition—a minimal standard for strong editorial review.",
+              "There is no direct analysis or citation of specific passages from the provided sources, relying instead on general interpretations. The reflection card is properly labeled as an original thought, not a historical or attributed quote.",
+              "Claimed takeaways, such as 'A failed method is not a failed self, nor a failed goal', are faithful to pragmatic ethos but are generalizations rather than proven historical arguments. There could be more engagement with recent scholarship or deeper distinctions within pragmatism."
+            ]
+          }
+        ],
+        "completedReviews": 3,
+        "reasonCode": "EDITORIAL_QUALITY_FAILED",
+        "reason": "Article is a well-written, cohesive summary of core pragmatist philosophy and its implications; it accurately describes primary thinkers, the practical maxim, and the emphasis on the utility and revisability of strategies, all of which are supported in the cited sources",
+        "sourceUrls": [
+          "https://en.wikipedia.org/wiki/Pragmatism",
+          "https://plato.stanford.edu/entries/pragmatism/"
         ],
         "sourceErrors": []
       }
