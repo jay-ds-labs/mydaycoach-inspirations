@@ -13,13 +13,14 @@ concurrency:
   cancel-in-progress: false
 jobs:
   recover:
-    if: github.ref == 'refs/heads/fix/editorial-review-resilience' && (github.event_name == 'workflow_dispatch' || github.event.head_commit.message == 'Start controlled historical-36-v1 recovery')
+    if: github.ref == 'refs/heads/fix/editorial-review-resilience' && (github.event_name == 'workflow_dispatch' || github.event.head_commit.message == 'Resume controlled historical-36-v1 recovery from saved results')
     runs-on: ubuntu-latest
     timeout-minutes: 360
     steps:
       - uses: actions/checkout@v4
         with:
           persist-credentials: true
+          fetch-depth: 0
       - name: Configure git
         run: |
           git config user.name "MyDayCoach Content Bot"
@@ -59,6 +60,8 @@ jobs:
           outcomes={}
           for id in target:
               record=reviews[id]
+              if record.get("recoveryBatchId")!="historical-36-v1":
+                  raise RuntimeError(f"Recovery result missing for {id}")
               state=record.get("state","unknown")
               outcomes[state]=outcomes.get(state,0)+1
           print("Recovery results:",outcomes)
