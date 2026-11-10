@@ -97,8 +97,12 @@ def main():
                   "completedAt": None, "error": None}
     # Reconcile persisted IDs against the library before generating any replacements.
     existing_ids = {item["id"] for item in library["items"]}
-    status["generatedIds"] = [x for x in status.get("generatedIds",[]) if x in existing_ids]
+    recovered_ids = [item["id"] for item in library["items"] if item.get("batchId")==status["batchId"]]
+    status["generatedIds"] = list(dict.fromkeys(
+        [x for x in status.get("generatedIds",[]) if x in existing_ids] + recovered_ids))
     status["completed"] = len(status["generatedIds"])
+    if status["completed"] > TARGET:
+        raise RuntimeError("Batch contains more than 15 generated IDs")
     for category in CATEGORIES:
         status[category.lower()] = sum(
             item.get("category")==category and item["id"] in status["generatedIds"]
