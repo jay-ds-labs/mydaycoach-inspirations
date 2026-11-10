@@ -1,0 +1,58 @@
+name: Recover 36 historically failed editorial reviews
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: inspiration-generation
+  cancel-in-progress: false
+jobs:
+  recover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Configure git
+        run: |
+          git config user.name "MyDayCoach Content Bot"
+          git config user.email "content-bot@users.noreply.github.com"
+      - name: Validate before touching historical records
+        run: |
+          python3 -m compileall -q scripts
+          python3 -m unittest discover -s tests -p 'test_*.py' -v
+      - name: Re-review exact historical failures in small resumable batches
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_CONTENT_MODEL: gpt-4.1
+          OPENAI_REVIEW_MODEL: gpt-4.1
+          ENRICH_TARGET_IDS_FILE: recovery/failed-review-36.json
+          ENRICH_RECOVERY_BATCH_ID: historical-36-v1
+          ENRICH_BATCH_SIZE: "5"
+          ENRICH_MAX_ATTEMPTS: "3"
+          CONTENT_TARGET_BRANCH: ${{ github.ref_name }}
+        run: |
+          test -n "$OPENAI_API_KEY" || { echo "Missing OPENAI_API_KEY"; exit 1; }
+          python3 - <<'PY'
+          import json,subprocess,sys
+          from pathlib import Path
+          manifest=json.loads(Path("recovery/failed-review-36.json").read_text())
+          target=set(manifest["generatedIds"])
+          if len(target)!=36:
+              raise RuntimeError("Recovery manifest must contain exactly 36 unique IDs")
+          for batch in range(1,9):
+              reviews=json.loads(Path("enrichment-review.json").read_text())["items"]
+              remaining=[id for id in target if reviews.get(id,{}).get("recoveryBatchId")!="historical-36-v1"]
+              if not remaining:
+                  break
+              print(f"Recovery batch {batch}: {len(remaining)} left",flush=True)
+              subprocess.run([sys.executable,"scripts/enrich_library.py"],check=True)
+          reviews=json.loads(Path("enrichment-review.json").read_text())["items"]
+          outcomes={}
+          for id in target:
+              record=reviews[id]
+              state=record.get("state","unknown")
+              outcomes[state]=outcomes.get(state,0)+1
+          print("Recovery results:",outcomes)
+          PY
