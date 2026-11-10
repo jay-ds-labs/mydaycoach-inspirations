@@ -4024,49 +4024,89 @@
       "publication": "blocked_unapproved_review"
     },
     "generated-e3df52444a20475181c6": {
-      "state": "review_failed",
-      "checkedAt": "2026-11-09T22:59:34.883385Z",
+      "previousReview": {
+        "state": "review_failed",
+        "checkedAt": "2026-11-09T22:59:34.883385Z",
+        "source": "https://www.masshist.org/digitaladams/archive/doc?id=L17760331aa",
+        "reviewAttempts": [
+          {
+            "attempt": 1,
+            "approved": false,
+            "issues": [
+              "Generation/review error: HTTP Error 503: Service Unavailable"
+            ]
+          },
+          {
+            "attempt": 2,
+            "approved": false,
+            "issues": [
+              "Generation/review error: HTTP Error 503: Service Unavailable"
+            ]
+          },
+          {
+            "attempt": 3,
+            "approved": false,
+            "issues": [
+              "Generated article length 402 outside 600-1100 words"
+            ]
+          }
+        ],
+        "attemptCount": 3,
+        "reviewFailureSummary": "Generated article length 402 outside 600-1100 words; Saved text has not passed a matching editorial review",
+        "sourceAccessible": true,
+        "sourceUrls": [
+          "https://www.masshist.org/digitaladams/archive/doc?id=L17760331aa",
+          "https://en.wikipedia.org/wiki/Benjamin_Franklin"
+        ],
+        "sourceCount": 2,
+        "wordCount": 767,
+        "reviewedTextMatchesSaved": false,
+        "originalSource": "https://www.masshist.org/digitaladams/archive/doc?id=L17760331aa",
+        "evidenceSource": "https://www.masshist.org/digitaladams/archive/doc?id=L17760331aa",
+        "issues": [
+          "Generated article length 402 outside 600-1100 words",
+          "Saved text has not passed a matching editorial review"
+        ],
+        "factualRisk": "high",
+        "imageStatus": "awaiting_visual_and_license_review",
+        "publication": "ready_for_publish"
+      },
+      "recoveryBatchId": "historical-36-v1",
+      "state": "approved",
+      "checkedAt": "2026-11-10T01:49:18.907289Z",
       "source": "https://www.masshist.org/digitaladams/archive/doc?id=L17760331aa",
+      "failureCodes": [],
       "reviewAttempts": [
         {
           "attempt": 1,
           "approved": false,
           "issues": [
-            "Generation/review error: HTTP Error 503: Service Unavailable"
-          ]
+            "Generated article length 569 outside 600-1100 words"
+          ],
+          "failureCode": "EDITORIAL_QUALITY_FAILED"
         },
         {
           "attempt": 2,
-          "approved": false,
-          "issues": [
-            "Generation/review error: HTTP Error 503: Service Unavailable"
-          ]
-        },
-        {
-          "attempt": 3,
-          "approved": false,
-          "issues": [
-            "Generated article length 402 outside 600-1100 words"
-          ]
+          "approved": true,
+          "issues": [],
+          "completedEditorialReview": true
         }
       ],
-      "attemptCount": 3,
-      "reviewFailureSummary": "Generated article length 402 outside 600-1100 words; Saved text has not passed a matching editorial review",
+      "attemptCount": 2,
+      "completedEditorialReviews": 1,
+      "reviewFailureSummary": "",
       "sourceAccessible": true,
       "sourceUrls": [
         "https://www.masshist.org/digitaladams/archive/doc?id=L17760331aa",
         "https://en.wikipedia.org/wiki/Benjamin_Franklin"
       ],
       "sourceCount": 2,
-      "wordCount": 767,
-      "reviewedTextMatchesSaved": false,
+      "wordCount": 838,
+      "reviewedTextMatchesSaved": true,
       "originalSource": "https://www.masshist.org/digitaladams/archive/doc?id=L17760331aa",
       "evidenceSource": "https://www.masshist.org/digitaladams/archive/doc?id=L17760331aa",
-      "issues": [
-        "Generated article length 402 outside 600-1100 words",
-        "Saved text has not passed a matching editorial review"
-      ],
-      "factualRisk": "high",
+      "issues": [],
+      "factualRisk": "low",
       "imageStatus": "awaiting_visual_and_license_review",
       "publication": "ready_for_publish"
     },
