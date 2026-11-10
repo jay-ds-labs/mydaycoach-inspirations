@@ -48,8 +48,7 @@ def now():
 
 def write(path,data):
     tmp=path.with_suffix(".tmp")
-    tmp.write_text(json.dumps(data,indent=2,ensure_ascii=False)+"
-",encoding="utf-8")
+    tmp.write_text(json.dumps(data,indent=2,ensure_ascii=False)+"\n",encoding="utf-8")
     tmp.replace(path)
 
 def persist(message):
@@ -103,11 +102,8 @@ def compose(item,source,feedback=""):
         "with keys detail and takeaway. The existing card fields must NOT be rewritten. "
         "Keep the subject and exact historical setting of this card: "+
         json.dumps({k:item.get(k,"") for k in ("category","title","body","attribution","source","takeaway")},ensure_ascii=False)+
-        "
-Evidence from the source (may be truncated):
-"+source+
-        "
-Write 750-950 words in detail, narrative paragraphs, a strong opening, "
+        "\nEvidence from the source (may be truncated):\n"+source+
+        "\nWrite 750-950 words in detail, narrative paragraphs, a strong opening, "
         "specific context, and an actionable closing. Do not add unsupported direct quotes, "
         "dates, dramatic dialogue, motives, or fabricated events. "
         "For philosophy distinguish interpretation from historical fact. "
@@ -127,11 +123,7 @@ def review(item,detail,source):
         "is engaging and coherent. Do not assess or mention article word count: Python validates length. If evidence is partial or inaccessible "
         "set approved=false. You cannot verify image licensing, so do not claim to have done so. "
         "Card: "+json.dumps({k:item.get(k,"") for k in ("category","title","body","source","attribution")})+
-        "
-Source evidence:
-"+source+"
-Article:
-"+detail,REVIEW_MODEL)
+        "\nSource evidence:\n"+source+"\nArticle:\n"+detail,REVIEW_MODEL)
 
 def main():
     if not os.getenv("OPENAI_API_KEY"):
