@@ -1948,42 +1948,118 @@
       "publication": "ready_for_publish"
     },
     "reflection-029": {
+      "previousReview": {
+        "state": "review_failed",
+        "checkedAt": "2026-11-09T22:50:04.558970Z",
+        "source": "https://plato.stanford.edu/entries/ethics/",
+        "reviewAttempts": [
+          {
+            "attempt": 1,
+            "approved": false,
+            "issues": [
+              "Generated article length 595 outside 600-1100 words"
+            ]
+          },
+          {
+            "attempt": 2,
+            "approved": false,
+            "issues": [
+              "Article's central claims about Ali's mentorship, encouragement, and direct support to others are framed as factual but lack specific supporting evidence in the supplied source.",
+              "The source provides Ali's background and achievements, but does not give explicit examples or documentation of Ali's mentoring relationships or the concrete ways he fostered others' growth beyond public inspiration.",
+              "The philosophical discussion about classical ethics and references to the Stanford Encyclopedia is general and not directly anchored to evidence in the supplied source."
+            ]
+          },
+          {
+            "attempt": 3,
+            "approved": false,
+            "issues": [
+              "Generated article length 484 outside 600-1100 words"
+            ]
+          }
+        ],
+        "attemptCount": 3,
+        "reviewFailureSummary": "Article not yet approved by reviewer; Saved text has not passed a matching editorial review",
+        "sourceAccessible": true,
+        "sourceUrls": [
+          "https://en.wikipedia.org/wiki/Muhammad_Ali"
+        ],
+        "sourceCount": 1,
+        "wordCount": 754,
+        "reviewedTextMatchesSaved": false,
+        "originalSource": "https://plato.stanford.edu/entries/ethics/",
+        "evidenceSource": "https://en.wikipedia.org/wiki/Muhammad_Ali",
+        "issues": [
+          "Article not yet approved by reviewer",
+          "Saved text has not passed a matching editorial review"
+        ],
+        "factualRisk": "high",
+        "imageStatus": "awaiting_visual_and_license_review",
+        "publication": "ready_for_publish"
+      },
+      "recoveryBatchId": "historical-36-v1",
       "state": "review_failed",
-      "checkedAt": "2026-11-09T22:50:04.558970Z",
+      "checkedAt": "2026-11-10T01:36:31.845149Z",
       "source": "https://plato.stanford.edu/entries/ethics/",
+      "failureCodes": [
+        "EDITORIAL_QUALITY_FAILED"
+      ],
       "reviewAttempts": [
         {
           "attempt": 1,
           "approved": false,
           "issues": [
-            "Generated article length 595 outside 600-1100 words"
-          ]
+            "Extensive claims about Ali's quiet, person-to-person mentorship, advice, and specific support to young or peer athletes are not directly supported by the supplied evidence.",
+            "No source evidence links Ali's supposed philosophy about 'supporting others’ growth' to actions such as mentoring, training, or introducing young athletes to trainers.",
+            "Quotations from or paraphrases of 'philosophical traditions' or summaries of the Stanford Encyclopedia of Philosophy are not matched with specific supporting evidence from the supplied source."
+          ],
+          "completedEditorialReview": true
         },
         {
           "attempt": 2,
           "approved": false,
           "issues": [
-            "Article's central claims about Ali's mentorship, encouragement, and direct support to others are framed as factual but lack specific supporting evidence in the supplied source.",
-            "The source provides Ali's background and achievements, but does not give explicit examples or documentation of Ali's mentoring relationships or the concrete ways he fostered others' growth beyond public inspiration.",
-            "The philosophical discussion about classical ethics and references to the Stanford Encyclopedia is general and not directly anchored to evidence in the supplied source."
-          ]
+            "Generated article length 166 outside 600-1100 words"
+          ],
+          "failureCode": "EDITORIAL_QUALITY_FAILED"
         },
         {
           "attempt": 3,
           "approved": false,
           "issues": [
-            "Generated article length 484 outside 600-1100 words"
-          ]
+            "Article makes multiple factual claims about Muhammad Ali's behavior, influence, and philosophy that are not fully supported in the single supplied source.",
+            "Details such as Ali offering advice to up-and-coming boxers, specific mentorship instances, or private acts of encouragement are not evidenced in the provided Wikipedia excerpt.",
+            "Claims about Ali's humility, post-boxing encouragement, and direct influence on younger athletes like Sugar Ray Leonard are not documented in the evidence."
+          ],
+          "completedEditorialReview": true
+        },
+        {
+          "attempt": 4,
+          "approved": false,
+          "issues": [
+            "Generated article length 357 outside 600-1100 words"
+          ],
+          "failureCode": "EDITORIAL_QUALITY_FAILED"
+        },
+        {
+          "attempt": 5,
+          "approved": false,
+          "issues": [
+            "Several factual claims regarding Muhammad Ali's mentorship, advocacy, and frequent public support are not clearly evidenced in the supplied source",
+            "Assertions about Ali's support and mentorship for younger boxers and marginalized communities not directly confirmed in evidence",
+            "Reference to Ali's public events, training sessions, and charitable activities lacks direct support in provided source"
+          ],
+          "completedEditorialReview": true
         }
       ],
-      "attemptCount": 3,
+      "attemptCount": 5,
+      "completedEditorialReviews": 3,
       "reviewFailureSummary": "Article not yet approved by reviewer; Saved text has not passed a matching editorial review",
       "sourceAccessible": true,
       "sourceUrls": [
         "https://en.wikipedia.org/wiki/Muhammad_Ali"
       ],
       "sourceCount": 1,
-      "wordCount": 754,
+      "wordCount": 690,
       "reviewedTextMatchesSaved": false,
       "originalSource": "https://plato.stanford.edu/entries/ethics/",
       "evidenceSource": "https://en.wikipedia.org/wiki/Muhammad_Ali",
@@ -1993,7 +2069,7 @@
       ],
       "factualRisk": "high",
       "imageStatus": "awaiting_visual_and_license_review",
-      "publication": "ready_for_publish"
+      "publication": "blocked_unapproved_review"
     },
     "reflection-030": {
       "state": "approved",

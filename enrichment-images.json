@@ -6362,7 +6362,7 @@
       "state": "awaiting_visual_and_license_review"
     },
     "reflection-029": {
-      "checkedAt": "2026-11-09T22:50:04.558954Z",
+      "checkedAt": "2026-11-10T01:36:31.845122Z",
       "queries": [
         "Support someone else's growth"
       ],
@@ -6486,6 +6486,21 @@
         },
         {
           "state": "needs_manual_license_review",
+          "fileTitle": "File:INTERVIEWS OF TEST AND EVALUATION PERSONNEL TO DETERMINE REQUIREMENTS FOR TOOL SUPPORT (IA interviewsoftest1094563511).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/INTERVIEWS_OF_TEST_AND_EVALUATION_PERSONNEL_TO_DETERMINE_REQUIREMENTS_FOR_TOOL_SUPPORT_%28IA_interviewsoftest1094563511%29.pdf/page1-960px-INTERVIEWS_OF_TEST_AND_EVALUATION_PERSONNEL_TO_DETERMINE_REQUIREMENTS_FOR_TOOL_SUPPORT_%28IA_interviewsoftest1094563511%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:INTERVIEWS_OF_TEST_AND_EVALUATION_PERSONNEL_TO_DETERMINE_REQUIREMENTS_FOR_TOOL_SUPPORT_(IA_interviewsoftest1094563511).pdf",
+          "creator": "Thompson, Erin M.",
+          "attribution": "Thompson, Erin M.",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "Department of Defense test and evaluation (T&E) is a specialized field that has unique challenges. Acquisition professionals in T&E positions rely on slow, antiquated, “by-hand” methods based on heuristics to estimate test durations, costs of testing, and risks associated with different factors of their test programs and how each will impact the overall test effort. The research questions in this thesis are: 1) How could Marine Corps Systems Command (MCSC) benefit from incorporation of automatio",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
           "fileTitle": "File:MOVING FORWARD ON HAITI- HOW THE U.S. AND THE INTERNATIONAL COMMUNITY CAN HELP (IA gov.gpo.fdsys.CHRG-109hhrg30144).pdf",
           "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/MOVING_FORWARD_ON_HAITI-_HOW_THE_U.S._AND_THE_INTERNATIONAL_COMMUNITY_CAN_HELP_%28IA_gov.gpo.fdsys.CHRG-109hhrg30144%29.pdf/page1-960px-MOVING_FORWARD_ON_HAITI-_HOW_THE_U.S._AND_THE_INTERNATIONAL_COMMUNITY_CAN_HELP_%28IA_gov.gpo.fdsys.CHRG-109hhrg30144%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "descriptionUrl": "https://commons.wikimedia.org/wiki/File:MOVING_FORWARD_ON_HAITI-_HOW_THE_U.S._AND_THE_INTERNATIONAL_COMMUNITY_CAN_HELP_(IA_gov.gpo.fdsys.CHRG-109hhrg30144).pdf",
@@ -6511,21 +6526,6 @@
           "usageTerms": "Public domain",
           "mime": "application/pdf",
           "description": "Hospital awarded SECNAV Letter of Commendation It's not just a job ... but an adventure! The Directorate For Administration: Quietly working behind the scenes to provide critical support services for the health care team WHAT! More Talk About Fit Reps! Chaplain 's Corner. .. In Perfect Health Command Career Counselor's Corner Patient Appreciation Day scheduled Letters ... Hospital's Health Promotion classes a hit with 'Sugarless Babies' Quesfions? Try the \"Hospital Mailbox\" \n \n Subjects: NH Twen",
-          "requiresVisualReview": true,
-          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
-        },
-        {
-          "state": "needs_manual_license_review",
-          "fileTitle": "File:The growth of English industry and commerce during the early and middle ages (IA cu31924014033884).pdf",
-          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/The_growth_of_English_industry_and_commerce_during_the_early_and_middle_ages_%28IA_cu31924014033884%29.pdf/page1-500px-The_growth_of_English_industry_and_commerce_during_the_early_and_middle_ages_%28IA_cu31924014033884%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:The_growth_of_English_industry_and_commerce_during_the_early_and_middle_ages_(IA_cu31924014033884).pdf",
-          "creator": "Cunningham, W. (William), 1849-1919",
-          "attribution": "Cunningham, W. (William), 1849-1919",
-          "license": "public-domain",
-          "licenseUrl": "",
-          "usageTerms": "Public domain",
-          "mime": "application/pdf",
-          "description": "The metadata below describe the original scanning. Follow the \"All Files: HTTP\" link in the \"View the book\" box to the left to find XML files that contain more metadata about the original images and the derived formats (OCR results, PDF etc.). See also the  What is the directory structure for the texts?  FAQ for information about file content and naming conventions. \n \"First instalment of the second edition of my Growth of English industry and commerce, published in 1882.\"--Pref \n \"List of autho",
           "requiresVisualReview": true,
           "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
         }
