@@ -41,14 +41,14 @@ def generate(category, existing, feedback=None):
         f"Create ONE original, historically accurate, distinct {category} inspiration. "
         "Avoid these titles and subjects: " + ", ".join(existing[-100:]) +
         ". Return ONLY a JSON object with title, body (35-75 word synopsis), "
-        "detail (650-950 words, richly written, engaging, contextual, accurate), "
+        "detail (aim for about 1000 words when appropriate; concise quotations may be much shorter), "
         "attribution, source (specific credible HTTPS source URL), takeaway (one actionable sentence), "
         "image (a verified, reusable HTTPS image URL, or empty string), and category. "
         "For Quotes, include an accurately attributed quotation and its original context. "
         "For Stories, narrate a documented real event. For Philosophy, explain an actual school or thinker. "
         "Do not fabricate citations, quotations, URLs or image licensing; if unsure, return empty source. "
         "Do not output markdown. Category must be " + category + ". "
-        "The detail field MUST contain at least 750 whitespace-separated words. "
+        "Detail must be useful and complete, with no strict minimum or maximum word count. "
         "Write complete paragraphs, not an outline. " +
         (("Previous attempt was rejected: " + feedback + ". Correct this issue.") if feedback else "")
     )
@@ -69,8 +69,8 @@ def generate(category, existing, feedback=None):
     entry = json.loads("".join(chunks))
     if entry.get("category") != category:
         raise ValueError("Category mismatch")
-    if len(entry.get("detail", "").split()) < 500:
-        raise ValueError("Article too short")
+    if not str(entry.get("detail","")).strip():
+        raise ValueError("Missing full detail")
     if not entry.get("source", "").startswith("https://"):
         raise ValueError("Missing credible source URL")
     if not all(entry.get(k, "").strip() for k in ("title","body","detail","attribution","takeaway")):
