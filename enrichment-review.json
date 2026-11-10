@@ -3505,35 +3505,112 @@
     },
     "generated-f919ea06f96c4b68b11b": {
       "previousReview": {
+        "previousReview": {
+          "state": "review_failed",
+          "checkedAt": "2026-11-09T22:55:10.065635Z",
+          "source": "https://www.bbc.com/news/magazine-19641398",
+          "reviewAttempts": [
+            {
+              "attempt": 1,
+              "approved": false,
+              "issues": [
+                "Generation/review error: HTTP Error 503: Service Unavailable"
+              ]
+            },
+            {
+              "attempt": 2,
+              "approved": false,
+              "issues": [
+                "The provided source does not contain any information about Harold Gillies, World War I reconstructive surgery, or the associated historical context.",
+                "Citations and factual claims about Gillies’ contributions, techniques (e.g., 'tubed pedicle'), and the Queen’s Hospital are unsupported by the supplied source.",
+                "Quotations and specific details about Gillies’ philosophy, team composition, surgical innovations, and the psychological/social impact are not verifiable from the given evidence."
+              ]
+            },
+            {
+              "attempt": 3,
+              "approved": false,
+              "issues": [
+                "Generated article length 563 outside 600-1100 words"
+              ]
+            }
+          ],
+          "attemptCount": 3,
+          "reviewFailureSummary": "Article not yet approved by reviewer; Saved text has not passed a matching editorial review",
+          "sourceAccessible": true,
+          "sourceUrls": [
+            "https://www.bbc.com/news/magazine-19641398",
+            "https://en.wikipedia.org/wiki/Transplantation_%28medicine%29"
+          ],
+          "sourceCount": 2,
+          "wordCount": 677,
+          "reviewedTextMatchesSaved": false,
+          "originalSource": "https://www.bbc.com/news/magazine-19641398",
+          "evidenceSource": "https://www.bbc.com/news/magazine-19641398",
+          "issues": [
+            "Article not yet approved by reviewer",
+            "Saved text has not passed a matching editorial review"
+          ],
+          "factualRisk": "high",
+          "imageStatus": "awaiting_visual_and_license_review",
+          "publication": "ready_for_publish"
+        },
+        "recoveryBatchId": "historical-36-v1",
         "state": "review_failed",
-        "checkedAt": "2026-11-09T22:55:10.065635Z",
+        "checkedAt": "2026-11-10T01:41:02.461950Z",
         "source": "https://www.bbc.com/news/magazine-19641398",
+        "failureCodes": [
+          "EDITORIAL_QUALITY_FAILED"
+        ],
         "reviewAttempts": [
           {
             "attempt": 1,
             "approved": false,
             "issues": [
-              "Generation/review error: HTTP Error 503: Service Unavailable"
-            ]
+              "Source provided does not match the topic of Harold Gillies or reconstructive surgery",
+              "No substantiating evidence for specific claims about Gillies' techniques, philosophy, or impact",
+              "Article relies on historical details and quotations that cannot be cross-verified from the provided BBC article"
+            ],
+            "completedEditorialReview": true
           },
           {
             "attempt": 2,
             "approved": false,
             "issues": [
-              "The provided source does not contain any information about Harold Gillies, World War I reconstructive surgery, or the associated historical context.",
-              "Citations and factual claims about Gillies’ contributions, techniques (e.g., 'tubed pedicle'), and the Queen’s Hospital are unsupported by the supplied source.",
-              "Quotations and specific details about Gillies’ philosophy, team composition, surgical innovations, and the psychological/social impact are not verifiable from the given evidence."
-            ]
+              "Generated article length 308 outside 600-1100 words"
+            ],
+            "failureCode": "EDITORIAL_QUALITY_FAILED"
           },
           {
             "attempt": 3,
             "approved": false,
             "issues": [
-              "Generated article length 563 outside 600-1100 words"
-            ]
+              "Provided source does not mention Harold Gillies or WWI reconstructive surgery",
+              "No direct support for any factual claims about Gillies's techniques or impact",
+              "No evidence supporting numbers cited (5,000 servicemen treated, etc.)"
+            ],
+            "completedEditorialReview": true
+          },
+          {
+            "attempt": 4,
+            "approved": false,
+            "issues": [
+              "Generated article length 228 outside 600-1100 words"
+            ],
+            "failureCode": "EDITORIAL_QUALITY_FAILED"
+          },
+          {
+            "attempt": 5,
+            "approved": false,
+            "issues": [
+              "Provided BBC source is not about Harold Gillies or World War I medicine",
+              "No evidence supplied directly supports the article's claims about Gillies's specific practices or innovations",
+              "Significant factual claims (e.g., use of artists, development of 'tubed pedicle flaps', establishment of specialized wards at Queen Mary's, detailed innovations attributed to Gillies) are unsupported by the provided evidence"
+            ],
+            "completedEditorialReview": true
           }
         ],
-        "attemptCount": 3,
+        "attemptCount": 5,
+        "completedEditorialReviews": 3,
         "reviewFailureSummary": "Article not yet approved by reviewer; Saved text has not passed a matching editorial review",
         "sourceAccessible": true,
         "sourceUrls": [
@@ -3541,7 +3618,7 @@
           "https://en.wikipedia.org/wiki/Transplantation_%28medicine%29"
         ],
         "sourceCount": 2,
-        "wordCount": 677,
+        "wordCount": 652,
         "reviewedTextMatchesSaved": false,
         "originalSource": "https://www.bbc.com/news/magazine-19641398",
         "evidenceSource": "https://www.bbc.com/news/magazine-19641398",
@@ -3551,23 +3628,23 @@
         ],
         "factualRisk": "high",
         "imageStatus": "awaiting_visual_and_license_review",
-        "publication": "ready_for_publish"
+        "publication": "blocked_unapproved_review"
       },
-      "recoveryBatchId": "historical-36-v1",
+      "recoveryBatchId": "remaining-27-v2",
       "state": "review_failed",
-      "checkedAt": "2026-11-10T01:41:02.461950Z",
+      "checkedAt": "2026-11-10T02:32:04.365104Z",
       "source": "https://www.bbc.com/news/magazine-19641398",
       "failureCodes": [
-        "EDITORIAL_QUALITY_FAILED"
+        "FACTUAL_CONTRADICTION"
       ],
       "reviewAttempts": [
         {
           "attempt": 1,
           "approved": false,
           "issues": [
-            "Source provided does not match the topic of Harold Gillies or reconstructive surgery",
-            "No substantiating evidence for specific claims about Gillies' techniques, philosophy, or impact",
-            "Article relies on historical details and quotations that cannot be cross-verified from the provided BBC article"
+            "Source provided does not discuss Harold Gillies or World War I reconstructive surgery.",
+            "No evidence from the supplied sources to support the concrete claims or quotations in the article.",
+            "Claims about tube pedicle skin grafts, Queen's Hospital at Sidcup, and multidisciplinary approaches are unsupported by the given evidence."
           ],
           "completedEditorialReview": true
         },
@@ -3575,59 +3652,45 @@
           "attempt": 2,
           "approved": false,
           "issues": [
-            "Generated article length 308 outside 600-1100 words"
+            "Main factual claim—Harold Gillies pioneering reconstructive surgery—not supported by supplied evidence",
+            "No reference to Harold Gillies or specific details about plastic surgery in the provided sources",
+            "Article omits mention of Gillies, thus does not match the original card’s focus"
           ],
-          "failureCode": "EDITORIAL_QUALITY_FAILED"
+          "completedEditorialReview": true
         },
         {
           "attempt": 3,
           "approved": false,
           "issues": [
-            "Provided source does not mention Harold Gillies or WWI reconstructive surgery",
-            "No direct support for any factual claims about Gillies's techniques or impact",
-            "No evidence supporting numbers cited (5,000 servicemen treated, etc.)"
-          ],
-          "completedEditorialReview": true
-        },
-        {
-          "attempt": 4,
-          "approved": false,
-          "issues": [
-            "Generated article length 228 outside 600-1100 words"
-          ],
-          "failureCode": "EDITORIAL_QUALITY_FAILED"
-        },
-        {
-          "attempt": 5,
-          "approved": false,
-          "issues": [
-            "Provided BBC source is not about Harold Gillies or World War I medicine",
-            "No evidence supplied directly supports the article's claims about Gillies's specific practices or innovations",
-            "Significant factual claims (e.g., use of artists, development of 'tubed pedicle flaps', establishment of specialized wards at Queen Mary's, detailed innovations attributed to Gillies) are unsupported by the provided evidence"
+            "Key factual claims about Harold Gillies are not specifically supported by the supplied evidence.",
+            "Neither provided source is relevant to Harold Gillies, WWI plastic surgery, or the history of reconstructive surgery.",
+            "Several claims (such as collaboration with artists and psychological rehabilitation approaches) are unsupported by the evidence."
           ],
           "completedEditorialReview": true
         }
       ],
-      "attemptCount": 5,
+      "attemptCount": 3,
       "completedEditorialReviews": 3,
-      "reviewFailureSummary": "Article not yet approved by reviewer; Saved text has not passed a matching editorial review",
+      "reviewFailureSummary": "Key factual claims about Harold Gillies are not specifically supported by the supplied evidence.; Neither provided source is relevant to Harold Gillies, WWI plastic surgery, or the history of reconstructive surgery.",
       "sourceAccessible": true,
       "sourceUrls": [
         "https://www.bbc.com/news/magazine-19641398",
         "https://en.wikipedia.org/wiki/Transplantation_%28medicine%29"
       ],
       "sourceCount": 2,
-      "wordCount": 652,
-      "reviewedTextMatchesSaved": false,
+      "wordCount": 138,
+      "reviewedTextMatchesSaved": true,
       "originalSource": "https://www.bbc.com/news/magazine-19641398",
       "evidenceSource": "https://www.bbc.com/news/magazine-19641398",
       "issues": [
-        "Article not yet approved by reviewer",
-        "Saved text has not passed a matching editorial review"
+        "Key factual claims about Harold Gillies are not specifically supported by the supplied evidence.",
+        "Neither provided source is relevant to Harold Gillies, WWI plastic surgery, or the history of reconstructive surgery.",
+        "Several claims (such as collaboration with artists and psychological rehabilitation approaches) are unsupported by the evidence.",
+        "No direct evidence supports the narrative of the article as matching the original card."
       ],
       "factualRisk": "high",
       "imageStatus": "awaiting_visual_and_license_review",
-      "publication": "blocked_unapproved_review"
+      "publication": "ready_for_publish"
     },
     "generated-1e9b35d490ff4baab2b2": {
       "previousReview": {
