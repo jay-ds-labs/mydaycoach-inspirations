@@ -1,6 +1,6 @@
 {
-  "state": "running",
-  "stage": "image_audit",
+  "state": "awaiting_editorial_approval",
+  "stage": "done",
   "completed": 23,
   "total": 36,
   "batchTotal": 5,
@@ -10,7 +10,13 @@
   "approved": 3,
   "needsReview": 2,
   "startedAt": "2026-11-10T01:42:09.233263Z",
-  "completedAt": null,
-  "currentId": "generated-79fd0a1882254f4d9a2c",
-  "error": null
+  "completedAt": "2026-11-10T01:45:04.243674Z",
+  "currentId": null,
+  "error": null,
+  "contentReady": 40,
+  "contentNeedsReview": 30,
+  "reviewFailed": 29,
+  "publicationReady": 53,
+  "publicationBlocked": 17,
+  "qualityGate": "full_article_and_approved_review_required"
 }
