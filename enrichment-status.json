@@ -1,6 +1,6 @@
 {
   "state": "running",
-  "stage": "generation",
+  "stage": "research",
   "completed": 23,
   "total": 36,
   "batchTotal": 5,
@@ -11,6 +11,6 @@
   "needsReview": 0,
   "startedAt": "2026-11-10T01:45:05.623006Z",
   "completedAt": null,
-  "currentId": null,
+  "currentId": "generated-df16a53a8569448998a2",
   "error": null
 }
