@@ -83,15 +83,32 @@ def generate(category, existing, feedback=None):
 
 def main():
     library = json.loads(FEED.read_text(encoding="utf-8"))
-    status = {"state": "running", "completed": 0, "total": TARGET,
-              "quotes": 0, "stories": 0, "philosophy": 0,
-              "startedAt": now(), "completedAt": None, "error": None, "generatedIds": []}
+    previous = json.loads(PROGRESS.read_text(encoding="utf-8")) if PROGRESS.exists() else {}
+    resumable = previous.get("state") in ("running", "failed") and bool(previous.get("batchId"))
+    if resumable:
+        status = previous
+        status["state"] = "running"
+        status["error"] = None
+    else:
+        status = {"state": "running", "completed": 0, "total": TARGET,
+                  "quotes": 0, "stories": 0, "philosophy": 0,
+                  "batchId": "batch-" + uuid.uuid4().hex,
+                  "generatedIds": [], "startedAt": now(),
+                  "completedAt": None, "error": None}
+    # Reconcile persisted IDs against the library before generating any replacements.
+    existing_ids = {item["id"] for item in library["items"]}
+    status["generatedIds"] = [x for x in status.get("generatedIds",[]) if x in existing_ids]
+    status["completed"] = len(status["generatedIds"])
+    for category in CATEGORIES:
+        status[category.lower()] = sum(
+            item.get("category")==category and item["id"] in status["generatedIds"]
+            for item in library["items"])
     save(PROGRESS, status)
     publish_progress()
     existing = [item["title"] for item in library["items"]]
     try:
         for category in CATEGORIES:
-            for index in range(5):
+            for index in range(status[category.lower()],5):
                 feedback = None
                 for attempt in range(6):
                     try:
@@ -106,6 +123,7 @@ def main():
                         print(f"{category} article {index + 1}/5 attempt {attempt + 1}/6 rejected: {feedback}", flush=True)
                         if attempt == 5: raise
                         time.sleep(min(2 ** attempt, 12))
+                entry["batchId"] = status["batchId"]
                 library["items"].append(entry)
                 existing.append(entry["title"])
                 save(FEED, library)
