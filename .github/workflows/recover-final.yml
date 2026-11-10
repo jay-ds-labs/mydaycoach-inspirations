@@ -1,0 +1,28 @@
+name: Final Inspire recovery
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [recovery/final-27.json]
+permissions:
+  contents: write
+concurrency:
+  group: inspiration-generation
+  cancel-in-progress: false
+jobs:
+  recover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Verify and run recovery
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: |
+          test -n "$OPENAI_API_KEY" || { echo 'Missing OPENAI_API_KEY'; exit 1; }
+          git config user.name "MyDayCoach Content Bot"
+          git config user.email "content-bot@users.noreply.github.com"
+          python3 -m unittest discover -s tests -v
+          python3 scripts/recover_final.py

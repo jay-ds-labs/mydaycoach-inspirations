@@ -1,0 +1,202 @@
+[
+  {
+    "id": "turing-computing",
+    "sources": [
+      "https://www.britannica.com/biography/Alan-Turing",
+      "https://en.wikipedia.org/wiki/Alan_Turing"
+    ],
+    "correctCard": false
+  },
+  {
+    "id": "goodall-gombe",
+    "sources": [
+      "https://www.britannica.com/biography/Jane-Goodall",
+      "https://en.wikipedia.org/wiki/Jane_Goodall"
+    ],
+    "correctCard": false
+  },
+  {
+    "id": "reflection-009",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Compassion"
+    ],
+    "correctCard": false
+  },
+  {
+    "id": "reflection-012",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Pragmatism"
+    ],
+    "correctCard": false
+  },
+  {
+    "id": "reflection-015",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Perspective-taking"
+    ],
+    "correctCard": false
+  },
+  {
+    "id": "reflection-023",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Active_listening"
+    ],
+    "correctCard": false
+  },
+  {
+    "id": "reflection-026",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Attention"
+    ],
+    "correctCard": false
+  },
+  {
+    "id": "reflection-029",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Mentorship"
+    ],
+    "correctCard": false
+  },
+  {
+    "id": "generated-da803a5ee0fd4c0e85a5",
+    "sources": [
+      "https://www.energy.gov/articles/first-nuclear-reactor",
+      "https://en.wikipedia.org/wiki/Chicago_Pile-1"
+    ],
+    "correctCard": true
+  },
+  {
+    "id": "generated-67e4272aeda74d329cc9",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Frederick_Douglass"
+    ],
+    "correctCard": true
+  },
+  {
+    "id": "generated-b81a4035c8844769a302",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Florence_Nightingale"
+    ],
+    "correctCard": true
+  },
+  {
+    "id": "generated-26c079b50ce3413cade2",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Eleanor_Roosevelt"
+    ],
+    "correctCard": true
+  },
+  {
+    "id": "generated-0f18752c304a466e9970",
+    "sources": [
+      "https://en.wikipedia.org/wiki/George_Washington_Carver"
+    ],
+    "correctCard": true
+  },
+  {
+    "id": "generated-f919ea06f96c4b68b11b",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Harold_Gillies"
+    ],
+    "correctCard": false
+  },
+  {
+    "id": "generated-1e9b35d490ff4baab2b2",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Noor_Inayat_Khan"
+    ],
+    "correctCard": true
+  },
+  {
+    "id": "generated-b153d63332d44b54aa56",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Salt_March"
+    ],
+    "correctCard": false
+  },
+  {
+    "id": "generated-79fd0a1882254f4d9a2c",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Ibn_Tufayl",
+      "https://en.wikipedia.org/wiki/Hayy_ibn_Yaqdhan"
+    ],
+    "correctCard": false
+  },
+  {
+    "id": "generated-df16a53a8569448998a2",
+    "sources": [
+      "https://www.gutenberg.org/files/23/23-h/23-h.htm",
+      "https://en.wikipedia.org/wiki/Narrative_of_the_Life_of_Frederick_Douglass%2C_an_American_Slave"
+    ],
+    "correctCard": true
+  },
+  {
+    "id": "generated-b95e6966fa494baab3e8",
+    "sources": [
+      "https://www.nobelprize.org/prizes/physics/1901/rontgen/facts/",
+      "https://en.wikipedia.org/wiki/Wilhelm_R%C3%B6ntgen"
+    ],
+    "correctCard": true
+  },
+  {
+    "id": "generated-f05be5e8fc694d8d8a54",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Emmeline_Pankhurst"
+    ],
+    "correctCard": true
+  },
+  {
+    "id": "generated-df847014cc764b76b0e5",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Frida_Kahlo"
+    ],
+    "correctCard": false
+  },
+  {
+    "id": "generated-d0c04c62cade4bedb617",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Minnie_Vautrin"
+    ],
+    "correctCard": true
+  },
+  {
+    "id": "generated-ff74bf7d679241b290b9",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Douarnenez",
+      "https://en.wikipedia.org/wiki/Sardini%C3%A8res"
+    ],
+    "correctCard": true
+  },
+  {
+    "id": "generated-318a3a9ff87f452b83e5",
+    "sources": [
+      "https://encyclopedia.ushmm.org/content/en/article/exodus-1947",
+      "https://en.wikipedia.org/wiki/Exodus_(ship)"
+    ],
+    "correctCard": false
+  },
+  {
+    "id": "generated-8708a154934f4a84b2f4",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Halifax_Explosion",
+      "https://en.wikipedia.org/wiki/Vincent_Coleman_(train_dispatcher)"
+    ],
+    "correctCard": true
+  },
+  {
+    "id": "generated-1bb6df6f67924b09b6bd",
+    "sources": [
+      "https://encyclopedia.ushmm.org/content/en/article/janusz-korczak-1",
+      "https://en.wikipedia.org/wiki/Janusz_Korczak"
+    ],
+    "correctCard": true
+  },
+  {
+    "id": "generated-effa8452725d4abf9c91",
+    "sources": [
+      "https://iep.utm.edu/indmat/",
+      "https://en.wikipedia.org/wiki/Charvaka"
+    ],
+    "correctCard": true
+  }
+]
