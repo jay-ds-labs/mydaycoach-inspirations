@@ -7703,7 +7703,7 @@
       "state": "awaiting_visual_and_license_review"
     },
     "generated-05f5dde4e8034a279b4a": {
-      "checkedAt": "2026-11-09T23:04:26.855503Z",
+      "checkedAt": "2026-11-10T01:55:07.756065Z",
       "queries": [
         "Montesquieu and the Spirit of Laws: Climate, Custom, and the Shaping of Justice"
       ],
@@ -7767,6 +7767,21 @@
         },
         {
           "state": "needs_manual_license_review",
+          "fileTitle": "File:The evidences and doctrines of the Catholic Church- showing that the former are no less convincing, than the latter are propitious to the happiness of society (IA TheEvidencesAndDoctrines).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/The_evidences_and_doctrines_of_the_Catholic_Church-_showing_that_the_former_are_no_less_convincing%2C_than_the_latter_are_propitious_to_the_happiness_of_society_%28IA_TheEvidencesAndDoctrines%29.pdf/page1-500px-thumbnail.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:The_evidences_and_doctrines_of_the_Catholic_Church-_showing_that_the_former_are_no_less_convincing,_than_the_latter_are_propitious_to_the_happiness_of_society_(IA_TheEvidencesAndDoctrines).pdf",
+          "creator": "MacHale, John, 1791-1881",
+          "attribution": "MacHale, John, 1791-1881",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "CONTENTS.  \n CHAPTER I. \nNECESSITY OF REVELATION. \nSingular interest of the Jewish history. - Religious indifference. - Primary truths of religion, the relics of primitive revelation . - Social destination of man, not the result of choice or compact. - Authority, a principal source of knowledge. - Desire of immortality. - Alliance of truth and virtue. - General corruption of the ancient world. - Sketch of the sects and opinions of Pagan philosophy 1 \nCHAPTER II. \nAUTHORITY OF THE BOOKS OF MOSES.",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
+        },
+        {
+          "state": "needs_manual_license_review",
           "fileTitle": "File:The man of the North and the man of the South or, The influence of climate (IA manofnorthsouth00bornrich).pdf",
           "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/The_man_of_the_North_and_the_man_of_the_South_or%2C_The_influence_of_climate_%28IA_manofnorthsouth00bornrich%29.pdf/page1-500px-The_man_of_the_North_and_the_man_of_the_South_or%2C_The_influence_of_climate_%28IA_manofnorthsouth00bornrich%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "descriptionUrl": "https://commons.wikimedia.org/wiki/File:The_man_of_the_North_and_the_man_of_the_South_or,_The_influence_of_climate_(IA_manofnorthsouth00bornrich).pdf",
@@ -7777,21 +7792,6 @@
           "usageTerms": "Public domain",
           "mime": "application/pdf",
           "description": "Subjects: Human beings -- Effect of environment on; Civilization -- History",
-          "requiresVisualReview": true,
-          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
-        },
-        {
-          "state": "needs_manual_license_review",
-          "fileTitle": "File:The philosophical dictionary, comprising the opinions of all the best writers on moral, political and theological subjects ... who have written in favour of the liberties and happiness o (IA b3309150x).pdf",
-          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/The_philosophical_dictionary%2C_comprising_the_opinions_of_all_the_best_writers_on_moral%2C_political_and_theological_subjects_..._who_have_written_in_favour_of_the_liberties_and_happiness_o_%28IA_b3309150x%29.pdf/page1-500px-thumbnail.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:The_philosophical_dictionary,_comprising_the_opinions_of_all_the_best_writers_on_moral,_political_and_theological_subjects_..._who_have_written_in_favour_of_the_liberties_and_happiness_o_(IA_b3309150x).pdf",
-          "creator": "",
-          "attribution": "",
-          "license": "public-domain",
-          "licenseUrl": "",
-          "usageTerms": "Public domain",
-          "mime": "application/pdf",
-          "description": "viii, 260 unnumbered leaves : (8vo)\n \n Subjects: Philosophy",
           "requiresVisualReview": true,
           "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified."
         },

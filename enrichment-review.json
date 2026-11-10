@@ -4893,50 +4893,82 @@
       "publication": "ready_for_publish"
     },
     "generated-05f5dde4e8034a279b4a": {
-      "state": "review_failed",
-      "checkedAt": "2026-11-09T23:04:26.855518Z",
+      "previousReview": {
+        "state": "review_failed",
+        "checkedAt": "2026-11-09T23:04:26.855518Z",
+        "source": "https://plato.stanford.edu/entries/montesquieu/#SpriLawsAndCompMeth",
+        "reviewAttempts": [
+          {
+            "attempt": 1,
+            "approved": false,
+            "issues": [
+              "Generation/review error: HTTP Error 503: Service Unavailable"
+            ]
+          },
+          {
+            "attempt": 2,
+            "approved": false,
+            "issues": [
+              "Several concrete factual claims and interpretive summaries are not directly supported by the Stanford Encyclopedia of Philosophy (SEP) entry provided",
+              "The SEP entry does not explicitly discuss or verify Montesquieu's theory of climate, geography, economy, custom, and history in the specific way described in the article",
+              "The article asserts that Montesquieu's work 'instigated the modern study of sociology, political science, and legal pluralism,' but the SEP source stops short of making these claims"
+            ]
+          },
+          {
+            "attempt": 3,
+            "approved": false,
+            "issues": [
+              "Generation/review error: HTTP Error 503: Service Unavailable"
+            ]
+          }
+        ],
+        "attemptCount": 3,
+        "reviewFailureSummary": "Article not yet approved by reviewer; Saved text has not passed a matching editorial review",
+        "sourceAccessible": true,
+        "sourceUrls": [
+          "https://plato.stanford.edu/entries/montesquieu/#SpriLawsAndCompMeth"
+        ],
+        "sourceCount": 1,
+        "wordCount": 799,
+        "reviewedTextMatchesSaved": false,
+        "originalSource": "https://plato.stanford.edu/entries/montesquieu/#SpriLawsAndCompMeth",
+        "evidenceSource": "https://plato.stanford.edu/entries/montesquieu/#SpriLawsAndCompMeth",
+        "issues": [
+          "Article not yet approved by reviewer",
+          "Saved text has not passed a matching editorial review"
+        ],
+        "factualRisk": "high",
+        "imageStatus": "awaiting_visual_and_license_review",
+        "publication": "ready_for_publish"
+      },
+      "recoveryBatchId": "historical-36-v1",
+      "state": "approved",
+      "checkedAt": "2026-11-10T01:55:07.756095Z",
       "source": "https://plato.stanford.edu/entries/montesquieu/#SpriLawsAndCompMeth",
+      "failureCodes": [],
       "reviewAttempts": [
         {
           "attempt": 1,
-          "approved": false,
-          "issues": [
-            "Generation/review error: HTTP Error 503: Service Unavailable"
-          ]
-        },
-        {
-          "attempt": 2,
-          "approved": false,
-          "issues": [
-            "Several concrete factual claims and interpretive summaries are not directly supported by the Stanford Encyclopedia of Philosophy (SEP) entry provided",
-            "The SEP entry does not explicitly discuss or verify Montesquieu's theory of climate, geography, economy, custom, and history in the specific way described in the article",
-            "The article asserts that Montesquieu's work 'instigated the modern study of sociology, political science, and legal pluralism,' but the SEP source stops short of making these claims"
-          ]
-        },
-        {
-          "attempt": 3,
-          "approved": false,
-          "issues": [
-            "Generation/review error: HTTP Error 503: Service Unavailable"
-          ]
+          "approved": true,
+          "issues": [],
+          "completedEditorialReview": true
         }
       ],
-      "attemptCount": 3,
-      "reviewFailureSummary": "Article not yet approved by reviewer; Saved text has not passed a matching editorial review",
+      "attemptCount": 1,
+      "completedEditorialReviews": 1,
+      "reviewFailureSummary": "",
       "sourceAccessible": true,
       "sourceUrls": [
-        "https://plato.stanford.edu/entries/montesquieu/#SpriLawsAndCompMeth"
+        "https://plato.stanford.edu/entries/montesquieu/#SpriLawsAndCompMeth",
+        "https://en.wikipedia.org/wiki/Voltaire"
       ],
-      "sourceCount": 1,
-      "wordCount": 799,
-      "reviewedTextMatchesSaved": false,
+      "sourceCount": 2,
+      "wordCount": 818,
+      "reviewedTextMatchesSaved": true,
       "originalSource": "https://plato.stanford.edu/entries/montesquieu/#SpriLawsAndCompMeth",
       "evidenceSource": "https://plato.stanford.edu/entries/montesquieu/#SpriLawsAndCompMeth",
-      "issues": [
-        "Article not yet approved by reviewer",
-        "Saved text has not passed a matching editorial review"
-      ],
-      "factualRisk": "high",
+      "issues": [],
+      "factualRisk": "low",
       "imageStatus": "awaiting_visual_and_license_review",
       "publication": "ready_for_publish"
     },
