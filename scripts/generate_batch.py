@@ -28,7 +28,7 @@ def save(path, data):
 def publish_progress():
     subprocess.run(["git","add","library.json","refresh-status.json"],check=True)
     subprocess.run(["git","commit","-m","Update inspiration generation progress"],check=True)
-    subprocess.run(["git","push","origin","HEAD:main"],check=True)
+    subprocess.run(["git","push","origin","HEAD:"+os.getenv("CONTENT_TARGET_BRANCH","main")],check=True)
 
 def now():
     return dt.datetime.now(dt.timezone.utc).isoformat().replace("+00:00", "Z")
@@ -56,8 +56,10 @@ def generate(category, existing, feedback=None):
     req = urllib.request.Request("https://api.openai.com/v1/responses",
         data=json.dumps(payload).encode(), headers={
             "Authorization": "Bearer " + api_key, "Content-Type": "application/json"})
-    with urllib.request.urlopen(req, timeout=180) as response:
-        result = json.load(response)
+    def send():
+        with urllib.request.urlopen(req, timeout=180) as response:
+            return json.load(response)
+    result = call_with_retry(send)
     chunks = [part.get("text", "") for output in result.get("output", [])
               for part in output.get("content", []) if part.get("type") == "output_text"]
     if not chunks:
@@ -96,6 +98,8 @@ def main():
                             raise ValueError("Duplicate title")
                         break
                     except Exception as error:
+                        if classify_error(error) in ("REVIEW_API_UNAVAILABLE","REVIEW_API_FORBIDDEN"):
+                            raise
                         feedback = str(error)[:180]
                         print(f"{category} article {index + 1}/5 attempt {attempt + 1}/6 rejected: {feedback}", flush=True)
                         if attempt == 5: raise
