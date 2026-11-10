@@ -13,6 +13,7 @@ from pathlib import Path
 import re
 import subprocess
 import time
+from api_resilience import call_with_retry, classify_error
 import urllib.error
 import urllib.request
 from audit_images import candidates as image_candidates
@@ -127,7 +128,7 @@ def main():
     reviews=json.loads(REVIEWS.read_text(encoding="utf-8")) if REVIEWS.exists() else {"items":{}}
     done={k for k,v in reviews["items"].items() if v.get("state") in ("approved","review_failed") and any(i["id"]==k and 600<=len(str(i.get("detail") or "").split())<=1100 for i in original)}
     if RETRY_REVIEW:
-        remaining=[x for x in original if reviews["items"].get(x["id"],{}).get("state") in ("review_failed","needs_review") or (x["id"] not in done and x["id"] in reviews["items"])]
+        remaining=[x for x in original if reviews["items"].get(x["id"],{}).get("state") in ("review_failed","needs_review","review_pending_retry","needs_manual_review") or (x["id"] not in done and x["id"] in reviews["items"])]
     else:
         remaining=[x for x in original if x["id"] not in done]
     selected=remaining[:BATCH_SIZE]
@@ -193,14 +194,14 @@ def main():
             if best_detail:
                 item["detail"]=best_detail
             complete=MIN_WORDS<=len(str(item.get("detail") or "").split())<=MAX_WORDS
-            item["status"]="ready_for_publish" if complete else "draft"
+            item["status"]="draft"  # Fail closed until evidence and editorial review approve.
             if item["status"]=="draft":
                 item["publishedAt"]=""
             saved_detail=item.get("detail","")
             saved_words=len(saved_detail.split())
             exact_review=bool(best_detail and best_result) and saved_detail==best_detail
             approved=bool(best_result) and exact_review and not best_issues and best_result.get("approved") is True
-            state="approved" if approved and records and MIN_WORDS<=saved_words<=MAX_WORDS else "review_failed"
+            state=("approved" if approved and records and MIN_WORDS<=saved_words<=MAX_WORDS\n                   else "review_pending_retry" if infrastructure_error=="REVIEW_API_UNAVAILABLE"\n                   else "needs_manual_review" if infrastructure_error=="REVIEW_API_FORBIDDEN"\n                   else "review_failed")\n            if state=="approved":\n                item["status"]="ready_for_publish"
             if state!="approved":
                 issues=(best_issues or issues or ["No approved review of the saved article"])
                 if not exact_review:
@@ -210,7 +211,7 @@ def main():
             else:
                 issues=[]
             item["reviewStatus"]=state
-            item["reviewFailureSummary"]="; ".join(issues[:2])[:350] if state=="review_failed" else ""
+            item["reviewFailureSummary"]="; ".join(issues[:2])[:350] if state!="approved" else ""
             status["stage"]="image_audit"
             write(PROGRESS,status)
             image_results,image_errors=image_candidates(item)
@@ -219,20 +220,20 @@ def main():
                 "errors":image_errors,"selected":None,
                 "state":"awaiting_visual_and_license_review"}
             reviews["items"][item["id"]]={
-                "state":state,"checkedAt":now(),"source":preferred_source,
+                "state":state,"checkedAt":now(),"source":preferred_source,\n                "failureCodes":([infrastructure_error] if infrastructure_error else\n                    ["INSUFFICIENT_EVIDENCE"] if not records else\n                    ["EDITORIAL_QUALITY_FAILED"] if not complete else\n                    ["FACTUAL_CONTRADICTION"] if any("unsupported" in str(x).lower() or "factual" in str(x).lower() for x in issues) else\n                    ["EDITORIAL_QUALITY_FAILED"] if state!="approved" else []),
                 "reviewAttempts":attempts,"attemptCount":len(attempts),
-                "reviewFailureSummary":"; ".join(issues[:2])[:350] if state=="review_failed" else "",
+                "reviewFailureSummary":"; ".join(issues[:2])[:350] if state!="approved" else "",
                 "sourceAccessible":bool(records),"sourceUrls":source_urls,
                 "sourceCount":len(records),"wordCount":saved_words,
                 "reviewedTextMatchesSaved":exact_review,
                 "originalSource":original_source,"evidenceSource":source_urls[0] if source_urls else "",
                 "issues":issues,"factualRisk":(best_result or {}).get("factual_risk","high"),
                 "imageStatus":"awaiting_visual_and_license_review",
-                "publication":"ready_for_publish" if complete else "blocked_incomplete_article"
+                "publication":"ready_for_publish" if state=="approved" else "blocked_unapproved_review"
             }
             status["reviewed"]+=1
             status["approved"]+=int(state=="approved")
-            status["needsReview"]+=int(state=="review_failed")
+            status["needsReview"]+=int(state!="approved")
             status["completed"]+=1
             status["batchCompleted"]+=1
             write(FEED,feed);write(REVIEWS,reviews);write(IMAGES,images);write(PROGRESS,status)
@@ -243,7 +244,7 @@ def main():
         status["reviewFailed"]=sum(v.get("state")=="review_failed" for v in reviews["items"].values())
         status["publicationReady"]=sum(x.get("status")=="ready_for_publish" for x in original)
         status["publicationBlocked"]=sum(x.get("status")=="draft" for x in original)
-        status["qualityGate"]="full_article_required_review_advisory"
+        status["qualityGate"]="full_article_and_approved_review_required"
         status["stage"]="done";status["currentId"]=None;status["completedAt"]=now()
     except Exception as error:
         status["state"]="failed";status["error"]=str(error)[:400];status["completedAt"]=now()
