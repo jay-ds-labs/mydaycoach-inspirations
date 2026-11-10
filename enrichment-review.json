@@ -3368,6 +3368,34 @@
       "sourceErrors": [
         "https://www.nps.gov/articles/underground-railroad.htm Source retrieval failed: HTTP Error 404: Not Found"
       ]
+    },
+    "generated-64d253d2c0434724bd3d": {
+      "state": "approved",
+      "eligible": true,
+      "generated": false,
+      "attempts": [
+        {
+          "attempt": 1,
+          "reviewCompleted": true,
+          "sourceUrls": [
+            "https://plato.stanford.edu/entries/socrates/#SocratesTrialAndDeath",
+            "https://en.wikipedia.org/wiki/Athena"
+          ],
+          "changes": "Reviewed the existing draft because composition returned no article.",
+          "approved": true,
+          "complete": true,
+          "grounded": true,
+          "feedback": []
+        }
+      ],
+      "completedReviews": 1,
+      "reasonCode": "",
+      "reason": "",
+      "sourceUrls": [
+        "https://plato.stanford.edu/entries/socrates/#SocratesTrialAndDeath",
+        "https://en.wikipedia.org/wiki/Athena"
+      ],
+      "sourceErrors": []
     }
   }
 }

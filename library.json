@@ -1187,6 +1187,22 @@
       "reviewStatus": "approved",
       "reviewFailureCode": "",
       "reviewFailureSummary": ""
+    },
+    {
+      "title": "Sacrifice for Freedom: Socrates Before the Jury",
+      "body": "Facing the death penalty in ancient Athens, Socrates upheld his commitment to truth and philosophical inquiry, refusing to abandon his principles even when offered clemency. His choice illuminates the philosophical idea that integrity sometimes requires sacrificing one's own welfare for a greater good.",
+      "attribution": "Socrates, as presented in Plato's 'Apology'",
+      "source": "https://plato.stanford.edu/entries/socrates/#SocratesTrialAndDeath",
+      "takeaway": "True integrity may demand personal sacrifice, especially in the pursuit of truth.",
+      "detail": "In 399 BCE, Socrates stood before an Athenian jury, accused of impiety and corrupting the city's youth. Rather than plead for his life, Socrates challenged his accusers and defended his method of questioning as a service to Athens. He rejected the option to avoid punishment by ceasing his philosophy or abandoning the city, maintaining that an unexamined life was not worth living. According to Plato’s account, Socrates accepted the verdict and drank poison, demonstrating a deeply held conviction about the primacy of integrity, truth, and the examined life. His example has shaped centuries of philosophical thought on conscience and the moral costs of authentic living.",
+      "id": "generated-64d253d2c0434724bd3d",
+      "category": "Philosophy",
+      "status": "ready_for_publish",
+      "publishedAt": "",
+      "image": "https://raw.githubusercontent.com/jay-ds-labs/mydaycoach-inspirations/main/images/inspire/reflection-001.webp",
+      "reviewStatus": "approved",
+      "reviewFailureCode": "",
+      "reviewFailureSummary": ""
     }
   ]
 }
