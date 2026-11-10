@@ -1,12 +1,12 @@
 {
   "state": "running",
   "total": 27,
-  "completed": 12,
-  "generated": 12,
-  "reviewed": 12,
-  "approved": 7,
+  "completed": 13,
+  "generated": 13,
+  "reviewed": 13,
+  "approved": 8,
   "reviewFailed": 5,
-  "eligible": 11,
+  "eligible": 12,
   "startedAt": "2026-11-10T05:27:53.628646Z",
   "items": {
     "turing-computing": {
@@ -845,6 +845,52 @@
         ],
         "sourceErrors": [
           "https://www.nps.gov/articles/000/a-force-for-human-rights.htm Source retrieval failed: HTTP Error 404: Not Found"
+        ]
+      }
+    },
+    "generated-0f18752c304a466e9970": {
+      "item": {
+        "title": "The Perseverance of George Washington Carver: Science from Scraps",
+        "body": "George Washington Carver rose from slavery to become one of the most influential agricultural scientists in American history. Working with limited resources, Carver transformed Southern agriculture by discovering hundreds of uses for peanuts, sweet potatoes, and other crops, helping to improve the lives of countless impoverished farmers.",
+        "detail": "George Washington Carver, born into slavery around 1864 in Missouri, faced extraordinary hardship early in life. After being freed, Carver was raised by Moses and Susan Carver—his former enslavers—who encouraged his education, even as opportunities for Black children were severely limited. He endured long walks to attend segregated schools, sometimes sleeping in barns for lack of shelter, yet he persisted, motivated by advice he received as a youth: to learn all he could and then give his learning back to the people.\n\nCarver’s path to higher education was marked by racial discrimination; he was denied entry to some colleges solely because of his race. Nevertheless, he eventually earned his bachelor’s and master’s degrees in agriculture from Iowa State University—the first Black student and faculty member at the school. His early scientific work, especially in plant diseases and botany, brought him national attention.\n\nIn 1896, Booker T. Washington invited Carver to lead the Agriculture Department at Tuskegee Institute. There, Carver dedicated 47 years to developing practical agricultural methods tailored to poor Southern farmers. Cotton monoculture had depleted the soil’s nutrients, threatening farmers’ livelihoods. Carver championed alternatives: he taught crop rotation and encouraged the cultivation of peanuts, sweet potatoes, and other legumes, which could both replenish the soil and provide farmers with valuable food and market products.\n\nCarver’s approach emphasized creative solutions with minimal resources. He conducted much of his early research in makeshift laboratories, using simple tools and readily available materials. He and his team published over forty practical bulletins for farmers—guides packed with advice on combating soil exhaustion, growing alternative crops, and recipes for making food and household goods from peanuts and sweet potatoes. Many of these instructions aimed to help impoverished families become more self-sufficient.\n\nBeyond science, Carver was a tireless advocate for education and environmental sustainability. He developed the Jesup Wagon, a mobile classroom designed to bring agricultural training directly to rural communities. He was widely recognized for his wide-reaching impact and was one of the most renowned Black scientists of the early twentieth century, inspiring both Black and white Americans with his achievements despite the era’s severe racial polarization.\n\nCarver’s story is not merely one of personal success. His career was grounded in the conviction that knowledge and resourcefulness could improve entire communities, even under the harshest limitations. Carver’s life demonstrates that, with persistence, ingenuity, and a mindset of service to others, it is possible to turn even the most humble resources into lasting contributions.",
+        "attribution": "George Washington Carver",
+        "source": "https://en.wikipedia.org/wiki/George_Washington_Carver",
+        "takeaway": "Make the most of what you have, and let your efforts benefit others as well as yourself.",
+        "image": "",
+        "category": "Stories",
+        "id": "generated-0f18752c304a466e9970",
+        "status": "ready_for_publish",
+        "publishedAt": "",
+        "reviewStatus": "approved",
+        "reviewFailureSummary": "",
+        "reviewFailureCode": ""
+      },
+      "audit": {
+        "state": "approved",
+        "eligible": true,
+        "generated": true,
+        "attempts": [
+          {
+            "attempt": 1,
+            "reviewCompleted": true,
+            "sourceUrls": [
+              "https://en.wikipedia.org/wiki/George_Washington_Carver"
+            ],
+            "changes": "Structured the narrative, provided more explicit context about Carver's background and challenges, clarified and evidenced all biographical and historical points with verifiable details from the Wikipedia source. Removed any unsupported hooks or myths. Emphasized Carver’s approach to resourcefulness based on the actual evidence, replaced generalizations or unsourced inspiration with practical, documentable facts.",
+            "approved": true,
+            "complete": true,
+            "grounded": true,
+            "feedback": []
+          }
+        ],
+        "completedReviews": 1,
+        "reasonCode": "",
+        "reason": "",
+        "sourceUrls": [
+          "https://en.wikipedia.org/wiki/George_Washington_Carver"
+        ],
+        "sourceErrors": [
+          "https://www.nps.gov/gwca/learn/historyculture/george-washington-carver-biography.htm Source retrieval failed: HTTP Error 404: Not Found"
         ]
       }
     }
