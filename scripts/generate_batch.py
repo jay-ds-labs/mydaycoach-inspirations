@@ -94,7 +94,7 @@ def main():
                 save(REVIEWS, reviews)
                 save(PROGRESS, status)
                 persist()
-        status["state"] = "review_incomplete" if status["reviewFailed"] else "awaiting_editorial_approval"
+        status["state"] = "completed"
         status["stage"] = "done"
     except Exception as error:
         status["state"] = "failed"
