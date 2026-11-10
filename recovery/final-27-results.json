@@ -1,11 +1,11 @@
 {
   "state": "running",
   "total": 27,
-  "completed": 22,
-  "generated": 21,
-  "reviewed": 22,
+  "completed": 23,
+  "generated": 22,
+  "reviewed": 23,
   "approved": 16,
-  "reviewFailed": 6,
+  "reviewFailed": 7,
   "eligible": 20,
   "startedAt": "2026-11-10T05:27:53.628646Z",
   "items": {
@@ -1357,6 +1357,95 @@
         ],
         "sourceErrors": [
           "https://www.npr.org/templates/story/story.php?storyId=1622547 Source retrieval failed: HTTP Error 404: Not Found"
+        ]
+      }
+    },
+    "generated-ff74bf7d679241b290b9": {
+      "item": {
+        "title": "The Tides of Resistance: The Fishermen’s Revolt in Brittany, 1924",
+        "body": "In 1924, the fishermen of Douarnenez, Brittany, launched a historic strike against low wages and unjust work conditions. Their solidarity not only shook the sardine industry but paved the way for France's national labor reforms and inspired a new era of workers’ rights.",
+        "detail": "Review failed [INSUFFICIENT_EVIDENCE]. The article asserts that the 1924 Douarnenez fishermen's strike 'paved the way for France's national labor reforms and inspired a new era of workers' rights'—this is not supported by the supplied Wikipedia article.\n\nIn the early 20th century, Douarnenez—located on the Brittany coast of France—was a thriving port town dependent on its sardine fishing and, most importantly, its canning industries. The backbone of the sardine canneries were women workers, known for their distinctive head coverings and referred to as 'Penn Sardin.' By the 1920s, these women faced long hours and low pay under increasingly difficult conditions. Discontent simmered. The resulting labor movement in Douarnenez reflected growing unrest throughout industrial France, but its character here was unique: it was led locally by the women cannery workers themselves.\n\nAccording to historical summaries, the strikes for better working conditions conducted by the Penn Sardin in the 1920s were a defining episode for Douarnenez. Though detailed firsthand records are limited, these actions are recognized as having deep local importance. They led Douarnenez to become one of the first communist municipalities in France—a rare and significant political transformation for a small town. The experience is memorialized through monuments and the continuing local memory of the Penn Sardin’s determination.\n\nThese strikes did not directly trigger nationwide legal changes, but their legacy demonstrates the power of collective action at the local level. The solidarity shown by Douarnenez’s women workers set a precedent for labor organization and helped shape the social identity of their community. Their story illustrates the practical and transformative force such movements can have, even when the immediate focus is local, rather than national.",
+        "attribution": "Édouard Mazé, Les Penn Sardin; CGT (Confédération Générale du Travail) archives",
+        "source": "https://en.wikipedia.org/wiki/Douarnenez",
+        "takeaway": "Stand together with others facing injustice—solidarity transforms what seems impossible into lasting change.",
+        "image": "",
+        "category": "Stories",
+        "id": "generated-ff74bf7d679241b290b9",
+        "status": "review_failed",
+        "publishedAt": "",
+        "reviewStatus": "review_failed",
+        "reviewFailureSummary": "The article asserts that the 1924 Douarnenez fishermen's strike 'paved the way for France's national labor reforms and inspired a new era of workers' rights'—this is not supported by the supplied Wikipedia article.",
+        "reviewFailureCode": "INSUFFICIENT_EVIDENCE"
+      },
+      "audit": {
+        "state": "review_failed",
+        "eligible": false,
+        "generated": true,
+        "attempts": [
+          {
+            "attempt": 1,
+            "reviewCompleted": true,
+            "sourceUrls": [
+              "https://en.wikipedia.org/wiki/Douarnenez"
+            ],
+            "changes": "Removed unsupported hook about direct impact on national labor reforms and clarified the actual historical setting, per source. All claims now directly reflect the evidence: Douarnenez's 1920s labor strikes, led by the Penn Sardin women, brought visibility to labor issues and influenced local politics, but immediate and national effects remain more limited per documentation. Kept interpretation separate from fact, omitted references to broader French worker reforms, and reinforced context—especi",
+            "approved": false,
+            "complete": false,
+            "grounded": false,
+            "feedback": [
+              "Key claims in both the card and article (notably, the 1924 strike ushering in national labor reforms and a new era of workers’ rights) lack clear, documented support in the provided Wikipedia source.",
+              "Wikipedia supports the occurrence of significant labor strikes in the 1920s in Douarnenez, especially by the Penn Sardin, and acknowledges their influence on the town’s political leanings (becoming one of the first communist municipalities), but makes no claim about direct national impact or broad labor reform.",
+              "References to 'historic strike against low wages and unjust work conditions' and 'paved the way for France's national labor reforms' cannot be directly substantiated by the cited Wikipedia page or the extracted evidence.",
+              "The CGT archives and other named sources are not provided or directly cited in the evidence excerpt; attribution is therefore unverifiable.",
+              "While the article’s summary of local history is broadly consistent with facts in the Wikipedia page, assertions about wider, lasting national change are not clearly grounded in the presented evidence."
+            ]
+          },
+          {
+            "attempt": 2,
+            "reviewCompleted": true,
+            "sourceUrls": [
+              "https://en.wikipedia.org/wiki/Douarnenez"
+            ],
+            "changes": "Removed claims about national labor reforms and broad workers' rights impacts that were unsupported by the evidence. Omitted unverifiable attributions (e.g., CGT archives). Strengthened the focus on the verifiable local impact: labor strikes in Douarnenez, the role of the Penn Sardin, and the town's political transformation. Preserved historical context and practical meaning, aligning all claims with material in the provided source.",
+            "approved": false,
+            "complete": false,
+            "grounded": false,
+            "feedback": [
+              "The summary and article focus on labor activism primarily by women ('Penn Sardin') factory workers in Douarnenez but the card claims this as a 'fishermen's revolt,' which is not supported by the cited Wikipedia source.",
+              "Strikes in Douarnenez in the 1920s were led by women sardine cannery workers, not fishermen; the card misattributes the agency of the labor action.",
+              "The claim that these strikes directly 'inspired a new era of workers’ rights' and 'paved the way for France's national labor reforms' is not substantiated in the Wikipedia source: the source notes local significance (first communist municipality), not direct national legislative impact.",
+              "The statement on 'solidarity' is an interpretive takeaway; while plausible, its broad implication is not directly supported with evidence.",
+              "No direct quotes or detailed archival evidence are provided; the source is limited to general Wikipedia content."
+            ]
+          },
+          {
+            "attempt": 3,
+            "reviewCompleted": true,
+            "sourceUrls": [
+              "https://en.wikipedia.org/wiki/Douarnenez"
+            ],
+            "changes": "Corrected agency of the strike from 'fishermen' to women sardine cannery workers ('Penn Sardin'), removed unsupported claims about direct national impact or reforms, and grounded the takeaway in the local, documented effect as described in the Wikipedia source. Preserved historical context and emphasized the significance of local solidarity.",
+            "approved": false,
+            "complete": true,
+            "grounded": false,
+            "feedback": [
+              "The article asserts that the 1924 Douarnenez fishermen's strike 'paved the way for France's national labor reforms and inspired a new era of workers' rights'—this is not supported by the supplied Wikipedia article.",
+              "The article accurately notes the significance and local impact of the strikes by women factory workers (Penn Sardin), including Douarnenez's early Communist governance, which is partially supported by the Wikipedia article.",
+              "There is no substantiated evidence provided in the summary or the source for broad national consequences or direct legislative outcomes stemming from the Douarnenez strikes.",
+              "Some quotations and paraphrased claims in the article stretch beyond what the Wikipedia page documents, especially regarding the strike's national influence.",
+              "The takeaway and introductory paragraph overstate the confirmed scope of the strike's impact."
+            ]
+          }
+        ],
+        "completedReviews": 3,
+        "reasonCode": "INSUFFICIENT_EVIDENCE",
+        "reason": "The article asserts that the 1924 Douarnenez fishermen's strike 'paved the way for France's national labor reforms and inspired a new era of workers' rights'—this is not supported by the supplied Wikipedia article.",
+        "sourceUrls": [
+          "https://en.wikipedia.org/wiki/Douarnenez"
+        ],
+        "sourceErrors": [
+          "https://en.wikipedia.org/wiki/Sardini%C3%A8res Source retrieval failed: HTTP Error 404: Not Found",
+          "https://www.humanite.fr/histoire/social/la-premiere-greve-de-femmes-les-penn-sardin-en-1924-327292 Source retrieval failed: HTTP Error 404: Not Found"
         ]
       }
     }
