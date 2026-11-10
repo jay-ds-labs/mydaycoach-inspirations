@@ -1,11 +1,11 @@
 {
   "state": "running",
   "total": 27,
-  "completed": 10,
+  "completed": 11,
   "generated": 0,
   "reviewed": 0,
   "approved": 0,
-  "reviewFailed": 10,
+  "reviewFailed": 11,
   "eligible": 0,
   "startedAt": "2026-11-10T05:27:53.628646Z",
   "items": {
@@ -443,6 +443,53 @@
         ],
         "sourceErrors": [
           "https://www.loc.gov/exhibits/african-american-odyssey/abolitionist-frederick-douglass.html Source retrieval failed: HTTP Error 404: Not Found"
+        ]
+      }
+    },
+    "generated-b81a4035c8844769a302": {
+      "item": {
+        "title": "The Quiet Intensity of Florence Nightingale: Statistics and the Light of Truth",
+        "body": "During the Crimean War, Florence Nightingale’s innovative use of statistics and evidence-based practices revolutionized military medicine. Her pursuit of truth through numbers, practiced quietly and diligently, not only saved countless lives, but established a legacy for scientific integrity in public health advocacy.",
+        "detail": "Review failed [INVALID_ARTICLE]. No usable article within the app's storage limit\n\nNo information regarding Florence Nightingale, her contributions to statistics, or her role in the Crimean War is available in the supplied evidence. The provided source discusses the Android operating system, its development, and its deployment, and contains no mention of any historical figures or events related to medicine or statistics in the nineteenth century. Without direct evidence or reference to Florence Nightingale’s work, it is not possible to accurately recount her influence on military medicine or the field of public health advocacy within the context of this source.",
+        "attribution": "Florence Nightingale",
+        "source": "https://en.wikipedia.org/wiki/Florence_Nightingale",
+        "takeaway": "Base your actions and arguments on carefully gathered evidence, and communicate uncomfortable truths with clarity and integrity.",
+        "image": "",
+        "category": "Quotes",
+        "quotation": "\"I never gave or took an excuse.\"",
+        "original_context": "This statement by Florence Nightingale appears in multiple letters and was cited by her contemporaries to encapsulate her refusal to settle for explanations that sidestep responsibility; she brought this ethic to her transformational work in healthcare during and after the Crimean War.",
+        "id": "generated-b81a4035c8844769a302",
+        "status": "review_failed",
+        "publishedAt": "",
+        "reviewStatus": "review_failed",
+        "reviewFailureSummary": "No usable article within the app's storage limit",
+        "reviewFailureCode": "INVALID_ARTICLE"
+      },
+      "audit": {
+        "state": "review_failed",
+        "eligible": false,
+        "generated": false,
+        "attempts": [
+          {
+            "attempt": 1,
+            "reviewCompleted": false,
+            "sourceUrls": [
+              "https://en.wikipedia.org/wiki/Florence_Nightingale",
+              "https://en.wikipedia.org/wiki/Android_%28operating_system%29"
+            ],
+            "errorCode": "INVALID_ARTICLE",
+            "error": "No usable article within the app's storage limit"
+          }
+        ],
+        "completedReviews": 0,
+        "reasonCode": "INVALID_ARTICLE",
+        "reason": "No usable article within the app's storage limit",
+        "sourceUrls": [
+          "https://en.wikipedia.org/wiki/Florence_Nightingale",
+          "https://en.wikipedia.org/wiki/Android_%28operating_system%29"
+        ],
+        "sourceErrors": [
+          "https://www.statisticsviews.com/details/feature/4713541/Florence-Nightingale-The-founder-of-modern-nursing-and-a-pioneer-in-statistics.html Source retrieval failed: HTTP Error 404: Not Found"
         ]
       }
     }
