@@ -1,11 +1,11 @@
 {
   "state": "running",
   "total": 27,
-  "completed": 7,
+  "completed": 8,
   "generated": 0,
   "reviewed": 0,
   "approved": 0,
-  "reviewFailed": 7,
+  "reviewFailed": 8,
   "eligible": 0,
   "startedAt": "2026-11-10T05:27:53.628646Z",
   "items": {
@@ -310,6 +310,50 @@
           "https://plato.stanford.edu/entries/well-being/"
         ],
         "sourceErrors": []
+      }
+    },
+    "reflection-029": {
+      "item": {
+        "id": "reflection-029",
+        "category": "Philosophy",
+        "title": "Support someone else's growth",
+        "body": "A meaningful contribution can be helping another person succeed.",
+        "attribution": "MyDayCoach original reflection — not a historical quotation",
+        "source": "https://en.wikipedia.org/wiki/Mentorship",
+        "takeaway": "Offer specific encouragement or useful feedback to a colleague.",
+        "status": "review_failed",
+        "detail": "Review failed [INVALID_ARTICLE]. No usable article within the app's storage limit\n\nMuhammad Ali’s celebrated boxing career was marked by exceptional individual achievement, yet his development and accomplishments were grounded in a context of both structured training and broader cultural influence. According to the overview of Ali’s life, he began formal boxing training at the age of 12 in Louisville, Kentucky. Though the source focuses on his personal milestones—such as his Olympic gold medal win at age 18, rapid professional ascendancy, and reformulation of his public identity—it is implicit that his growth occurred within established systems of amateur and professional boxing. These systems, by their nature, involve organized coaching, athletic support, and regulated competition. Ali’s ability to rise from a young amateur to a world-champion athlete depended not only on his own determination but also on infrastructures designed to foster talent. This context reminds us that, in any field, individual success stories often rest on the foundations provided by others—whether coaches, mentors, family, or the community. By recognizing these networks and contributing to the development of others in our spheres, we can help create conditions where new achievements become possible.",
+        "reviewStatus": "review_failed",
+        "reviewFailureSummary": "No usable article within the app's storage limit",
+        "publishedAt": "",
+        "reviewFailureCode": "INVALID_ARTICLE"
+      },
+      "audit": {
+        "state": "review_failed",
+        "eligible": false,
+        "generated": false,
+        "attempts": [
+          {
+            "attempt": 1,
+            "reviewCompleted": false,
+            "sourceUrls": [
+              "https://en.wikipedia.org/wiki/Mentorship",
+              "https://en.wikipedia.org/wiki/Muhammad_Ali"
+            ],
+            "errorCode": "INVALID_ARTICLE",
+            "error": "No usable article within the app's storage limit"
+          }
+        ],
+        "completedReviews": 0,
+        "reasonCode": "INVALID_ARTICLE",
+        "reason": "No usable article within the app's storage limit",
+        "sourceUrls": [
+          "https://en.wikipedia.org/wiki/Mentorship",
+          "https://en.wikipedia.org/wiki/Muhammad_Ali"
+        ],
+        "sourceErrors": [
+          "https://plato.stanford.edu/entries/ethics/ Source retrieval failed: HTTP Error 404: Not Found"
+        ]
       }
     }
   }
