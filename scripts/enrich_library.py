@@ -91,6 +91,9 @@ def evidence(url):
         if len(clean)<350:
             return "", "Source has insufficient readable evidence"
         return clean[:14000], ""
+    except urllib.error.HTTPError as error:
+        return "", ("SOURCE_ACCESS_DENIED: HTTP 403" if error.code==403 else
+                    "Source retrieval failed: HTTP "+str(error.code))
     except Exception as error:
         return "", "Source retrieval failed: "+str(error)[:140]
 
@@ -262,7 +265,7 @@ def main():
                 "recoveryBatchId":recovery_id if batch_ids else "",
                 "state":state,"checkedAt":now(),"source":preferred_source,
                 "failureCodes":([infrastructure_error] if infrastructure_error else
-                    ["INSUFFICIENT_EVIDENCE"] if not records else
+                    (["SOURCE_ACCESS_DENIED","INSUFFICIENT_EVIDENCE"] if any("SOURCE_ACCESS_DENIED" in x for x in source_errors) else ["INSUFFICIENT_EVIDENCE"]) if not records else
                     ["EDITORIAL_QUALITY_FAILED"] if not complete else
                     ["FACTUAL_CONTRADICTION"] if any("unsupported" in str(x).lower() or "factual" in str(x).lower() for x in issues) else
                     ["EDITORIAL_QUALITY_FAILED"] if state!="approved" else []),
