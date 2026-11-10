@@ -874,37 +874,112 @@
     },
     "reflection-009": {
       "previousReview": {
+        "previousReview": {
+          "state": "review_failed",
+          "checkedAt": "2026-11-09T22:39:25.563106Z",
+          "source": "https://plato.stanford.edu/entries/buddha/",
+          "reviewAttempts": [
+            {
+              "attempt": 1,
+              "approved": false,
+              "issues": [
+                "Some specific claims are not directly supported by the provided source (e.g., the Eightfold Path details, specifics about the Nikāyas, explicit linkage to 'karuṇā' and 'mettā', and narrative reconstructions of the Buddha's conduct and motivation).",
+                "The source discusses the Buddha’s general approach and philosophical tradition but does not substantiate some narrative details (e.g., precise examples of his responses to criticism or inclusion of marginalized people).",
+                "Some statements paraphrase or infer motivations/actions without direct textual evidence."
+              ]
+            },
+            {
+              "attempt": 2,
+              "approved": false,
+              "issues": [
+                "Generated article length 527 outside 600-1100 words"
+              ]
+            },
+            {
+              "attempt": 3,
+              "approved": false,
+              "issues": [
+                "Significant expansion beyond the card's concise message.",
+                "Many assertions about the Buddha’s teachings on compassion, non-self, and practical action introduce interpretations and details not directly evidenced in the source.",
+                "Article provides historical narrative, interpretive analysis, and paraphrased quotations that aren't clearly supported by the Stanford source, which is more focused on the philosophical context than specifics of compassion or action."
+              ]
+            }
+          ],
+          "attemptCount": 3,
+          "reviewFailureSummary": "Article not yet approved by reviewer; Saved text has not passed a matching editorial review",
+          "sourceAccessible": true,
+          "sourceUrls": [
+            "https://plato.stanford.edu/entries/buddha/",
+            "https://en.wikipedia.org/wiki/Lyndon_B._Johnson"
+          ],
+          "sourceCount": 2,
+          "wordCount": 837,
+          "reviewedTextMatchesSaved": false,
+          "originalSource": "https://plato.stanford.edu/entries/buddha/",
+          "evidenceSource": "https://plato.stanford.edu/entries/buddha/",
+          "issues": [
+            "Article not yet approved by reviewer",
+            "Saved text has not passed a matching editorial review"
+          ],
+          "factualRisk": "high",
+          "imageStatus": "awaiting_visual_and_license_review",
+          "publication": "ready_for_publish"
+        },
+        "recoveryBatchId": "historical-36-v1",
         "state": "review_failed",
-        "checkedAt": "2026-11-09T22:39:25.563106Z",
+        "checkedAt": "2026-11-10T01:30:30.136214Z",
         "source": "https://plato.stanford.edu/entries/buddha/",
+        "failureCodes": [
+          "EDITORIAL_QUALITY_FAILED"
+        ],
         "reviewAttempts": [
           {
             "attempt": 1,
             "approved": false,
             "issues": [
-              "Some specific claims are not directly supported by the provided source (e.g., the Eightfold Path details, specifics about the Nikāyas, explicit linkage to 'karuṇā' and 'mettā', and narrative reconstructions of the Buddha's conduct and motivation).",
-              "The source discusses the Buddha’s general approach and philosophical tradition but does not substantiate some narrative details (e.g., precise examples of his responses to criticism or inclusion of marginalized people).",
-              "Some statements paraphrase or infer motivations/actions without direct textual evidence."
-            ]
+              "Generated article length 107 outside 600-1100 words"
+            ],
+            "failureCode": "EDITORIAL_QUALITY_FAILED"
           },
           {
             "attempt": 2,
             "approved": false,
             "issues": [
-              "Generated article length 527 outside 600-1100 words"
-            ]
+              "Several claims and quotations about the Buddha's specific prescriptions regarding compassion and non-judgment (e.g., 'when faced with conflict, difficulty, or distress...the appropriate response is not judgment or withdrawal, but conscious compassion'), although plausible, are not directly supported",
+              "The article frequently extrapolates or interprets Buddha’s motives (e.g., 'His critique of conceptions of permanent selfhood...was motivated not just by metaphysical considerations, but by a recognition that clinging...underlies much of human dissatisfaction and suffering') without direct textual ev",
+              "Descriptions of how the Buddha answered specific conflicts or instructed his followers in practical compassion are generally stated as fact but are only loosely reflected in the SEP article, which avoids specifics about interpersonal prescriptions."
+            ],
+            "completedEditorialReview": true
           },
           {
             "attempt": 3,
             "approved": false,
             "issues": [
-              "Significant expansion beyond the card's concise message.",
-              "Many assertions about the Buddha’s teachings on compassion, non-self, and practical action introduce interpretations and details not directly evidenced in the source.",
-              "Article provides historical narrative, interpretive analysis, and paraphrased quotations that aren't clearly supported by the Stanford source, which is more focused on the philosophical context than specifics of compassion or action."
-            ]
+              "Generated article length 597 outside 600-1100 words"
+            ],
+            "failureCode": "EDITORIAL_QUALITY_FAILED"
+          },
+          {
+            "attempt": 4,
+            "approved": false,
+            "issues": [
+              "Card is a general reflection about compassion not requiring agreement, but the article is a broad historical and doctrinal summary of the Buddha's life and teachings—much more detailed and wide-ranging than the original card.",
+              "Article attributes attitudes and motives to the Buddha (e.g. 'clinical view of suffering', 'advocated restraint in judgment', 'discouraged responding with anger or self-righteousness') in a narrative and interpretive mode that is not directly supported by the source: the Stanford Encyclopedia of Phi",
+              "Several descriptions verging on paraphrased or synthesized speech and sentiments (e.g. 'invited others to examine their pain...not to dwell in guilt or judgment'; 'choosing to listen before reacting, seeking to alleviate distress') are interpretive extrapolations, not directly evidenced in the cited"
+            ],
+            "completedEditorialReview": true
+          },
+          {
+            "attempt": 5,
+            "approved": false,
+            "issues": [
+              "Generated article length 566 outside 600-1100 words"
+            ],
+            "failureCode": "EDITORIAL_QUALITY_FAILED"
           }
         ],
-        "attemptCount": 3,
+        "attemptCount": 5,
+        "completedEditorialReviews": 2,
         "reviewFailureSummary": "Article not yet approved by reviewer; Saved text has not passed a matching editorial review",
         "sourceAccessible": true,
         "sourceUrls": [
@@ -912,7 +987,7 @@
           "https://en.wikipedia.org/wiki/Lyndon_B._Johnson"
         ],
         "sourceCount": 2,
-        "wordCount": 837,
+        "wordCount": 780,
         "reviewedTextMatchesSaved": false,
         "originalSource": "https://plato.stanford.edu/entries/buddha/",
         "evidenceSource": "https://plato.stanford.edu/entries/buddha/",
@@ -922,81 +997,48 @@
         ],
         "factualRisk": "high",
         "imageStatus": "awaiting_visual_and_license_review",
-        "publication": "ready_for_publish"
+        "publication": "blocked_unapproved_review"
       },
-      "recoveryBatchId": "historical-36-v1",
-      "state": "review_failed",
-      "checkedAt": "2026-11-10T01:30:30.136214Z",
+      "recoveryBatchId": "remaining-27-v2",
+      "state": "approved",
+      "checkedAt": "2026-11-10T02:26:59.089433Z",
       "source": "https://plato.stanford.edu/entries/buddha/",
-      "failureCodes": [
-        "EDITORIAL_QUALITY_FAILED"
-      ],
+      "failureCodes": [],
       "reviewAttempts": [
         {
           "attempt": 1,
           "approved": false,
           "issues": [
-            "Generated article length 107 outside 600-1100 words"
+            "Article contains detailed reconstructions of the Buddha's attitude and explicit statements about compassion (karuṇā) as a guiding principle and as a practical skill, which are not specifically detailed in the supplied Stanford source.",
+            "Article attributes to the Buddha specific instructions about responding with a 'gentle, understanding heart' even towards those who challenge or disagree, which goes beyond the general discussion of Buddhist compassion in the SEP entry.",
+            "The SEP source analyzes the philosophical context, non-self, and general ideas, but does not provide documentation for these specific behavioral counsels or the term 'karuṇā' in context."
           ],
-          "failureCode": "EDITORIAL_QUALITY_FAILED"
+          "completedEditorialReview": true
         },
         {
           "attempt": 2,
-          "approved": false,
-          "issues": [
-            "Several claims and quotations about the Buddha's specific prescriptions regarding compassion and non-judgment (e.g., 'when faced with conflict, difficulty, or distress...the appropriate response is not judgment or withdrawal, but conscious compassion'), although plausible, are not directly supported",
-            "The article frequently extrapolates or interprets Buddha’s motives (e.g., 'His critique of conceptions of permanent selfhood...was motivated not just by metaphysical considerations, but by a recognition that clinging...underlies much of human dissatisfaction and suffering') without direct textual ev",
-            "Descriptions of how the Buddha answered specific conflicts or instructed his followers in practical compassion are generally stated as fact but are only loosely reflected in the SEP article, which avoids specifics about interpersonal prescriptions."
-          ],
+          "approved": true,
+          "issues": [],
           "completedEditorialReview": true
-        },
-        {
-          "attempt": 3,
-          "approved": false,
-          "issues": [
-            "Generated article length 597 outside 600-1100 words"
-          ],
-          "failureCode": "EDITORIAL_QUALITY_FAILED"
-        },
-        {
-          "attempt": 4,
-          "approved": false,
-          "issues": [
-            "Card is a general reflection about compassion not requiring agreement, but the article is a broad historical and doctrinal summary of the Buddha's life and teachings—much more detailed and wide-ranging than the original card.",
-            "Article attributes attitudes and motives to the Buddha (e.g. 'clinical view of suffering', 'advocated restraint in judgment', 'discouraged responding with anger or self-righteousness') in a narrative and interpretive mode that is not directly supported by the source: the Stanford Encyclopedia of Phi",
-            "Several descriptions verging on paraphrased or synthesized speech and sentiments (e.g. 'invited others to examine their pain...not to dwell in guilt or judgment'; 'choosing to listen before reacting, seeking to alleviate distress') are interpretive extrapolations, not directly evidenced in the cited"
-          ],
-          "completedEditorialReview": true
-        },
-        {
-          "attempt": 5,
-          "approved": false,
-          "issues": [
-            "Generated article length 566 outside 600-1100 words"
-          ],
-          "failureCode": "EDITORIAL_QUALITY_FAILED"
         }
       ],
-      "attemptCount": 5,
+      "attemptCount": 2,
       "completedEditorialReviews": 2,
-      "reviewFailureSummary": "Article not yet approved by reviewer; Saved text has not passed a matching editorial review",
+      "reviewFailureSummary": "",
       "sourceAccessible": true,
       "sourceUrls": [
         "https://plato.stanford.edu/entries/buddha/",
         "https://en.wikipedia.org/wiki/Lyndon_B._Johnson"
       ],
       "sourceCount": 2,
-      "wordCount": 780,
-      "reviewedTextMatchesSaved": false,
+      "wordCount": 217,
+      "reviewedTextMatchesSaved": true,
       "originalSource": "https://plato.stanford.edu/entries/buddha/",
       "evidenceSource": "https://plato.stanford.edu/entries/buddha/",
-      "issues": [
-        "Article not yet approved by reviewer",
-        "Saved text has not passed a matching editorial review"
-      ],
-      "factualRisk": "high",
+      "issues": [],
+      "factualRisk": "low",
       "imageStatus": "awaiting_visual_and_license_review",
-      "publication": "blocked_unapproved_review"
+      "publication": "ready_for_publish"
     },
     "reflection-010": {
       "state": "approved",
