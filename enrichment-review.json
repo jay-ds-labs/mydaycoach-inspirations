@@ -5638,36 +5638,65 @@
     },
     "generated-318a3a9ff87f452b83e5": {
       "previousReview": {
-        "state": "review_failed",
-        "checkedAt": "2026-11-09T23:01:12.866055Z",
+        "previousReview": {
+          "state": "review_failed",
+          "checkedAt": "2026-11-09T23:01:12.866055Z",
+          "source": "https://www.yadvashem.org/odot_pdf/Microsoft%20Word%20-%205968.pdf",
+          "reviewAttempts": [
+            {
+              "attempt": 1,
+              "approved": true,
+              "issues": []
+            }
+          ],
+          "attemptCount": 1,
+          "reviewFailureSummary": "No subject-specific evidence found; Source retrieval failed: HTTP Error 403: Forbidden",
+          "sourceAccessible": false,
+          "sourceUrls": [],
+          "sourceCount": 0,
+          "wordCount": 779,
+          "reviewedTextMatchesSaved": true,
+          "originalSource": "https://www.yadvashem.org/odot_pdf/Microsoft%20Word%20-%205968.pdf",
+          "evidenceSource": "",
+          "issues": [
+            "No subject-specific evidence found",
+            "Source retrieval failed: HTTP Error 403: Forbidden"
+          ],
+          "factualRisk": "low",
+          "imageStatus": "awaiting_visual_and_license_review",
+          "publication": "ready_for_publish"
+        },
+        "recoveryBatchId": "historical-36-v1",
+        "state": "needs_manual_review",
+        "checkedAt": "2026-11-10T01:51:25.411326Z",
         "source": "https://www.yadvashem.org/odot_pdf/Microsoft%20Word%20-%205968.pdf",
-        "reviewAttempts": [
-          {
-            "attempt": 1,
-            "approved": true,
-            "issues": []
-          }
+        "failureCodes": [
+          "SOURCE_ACCESS_DENIED",
+          "INSUFFICIENT_EVIDENCE"
         ],
-        "attemptCount": 1,
-        "reviewFailureSummary": "No subject-specific evidence found; Source retrieval failed: HTTP Error 403: Forbidden",
+        "reviewAttempts": [],
+        "attemptCount": 0,
+        "completedEditorialReviews": 0,
+        "reviewFailureSummary": "No subject-specific evidence found; SOURCE_ACCESS_DENIED: HTTP 403",
         "sourceAccessible": false,
         "sourceUrls": [],
         "sourceCount": 0,
         "wordCount": 779,
-        "reviewedTextMatchesSaved": true,
+        "reviewedTextMatchesSaved": false,
         "originalSource": "https://www.yadvashem.org/odot_pdf/Microsoft%20Word%20-%205968.pdf",
         "evidenceSource": "",
         "issues": [
           "No subject-specific evidence found",
-          "Source retrieval failed: HTTP Error 403: Forbidden"
+          "SOURCE_ACCESS_DENIED: HTTP 403",
+          "Saved text has not passed a matching editorial review"
         ],
-        "factualRisk": "low",
+        "factualRisk": "high",
         "imageStatus": "awaiting_visual_and_license_review",
-        "publication": "ready_for_publish"
+        "publication": "blocked_unapproved_review"
       },
-      "recoveryBatchId": "historical-36-v1",
+      "recoveryBatchId": "remaining-27-v2",
       "state": "needs_manual_review",
-      "checkedAt": "2026-11-10T01:51:25.411326Z",
+      "checkedAt": "2026-11-10T02:35:43.198848Z",
       "source": "https://www.yadvashem.org/odot_pdf/Microsoft%20Word%20-%205968.pdf",
       "failureCodes": [
         "SOURCE_ACCESS_DENIED",
@@ -5691,7 +5720,7 @@
       ],
       "factualRisk": "high",
       "imageStatus": "awaiting_visual_and_license_review",
-      "publication": "blocked_unapproved_review"
+      "publication": "blocked_pending_review"
     },
     "generated-8708a154934f4a84b2f4": {
       "previousReview": {
