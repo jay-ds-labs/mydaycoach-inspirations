@@ -5307,42 +5307,118 @@
     },
     "generated-d0c04c62cade4bedb617": {
       "previousReview": {
+        "previousReview": {
+          "state": "review_failed",
+          "checkedAt": "2026-11-09T23:00:09.050089Z",
+          "source": "https://www.npr.org/templates/story/story.php?storyId=1622547",
+          "reviewAttempts": [
+            {
+              "attempt": 1,
+              "approved": false,
+              "issues": [
+                "Generation/review error: HTTP Error 503: Service Unavailable"
+              ]
+            },
+            {
+              "attempt": 2,
+              "approved": false,
+              "issues": [
+                "Generation/review error: HTTP Error 503: Service Unavailable"
+              ]
+            },
+            {
+              "attempt": 3,
+              "approved": false,
+              "issues": [
+                "Source evidence provided does not explicitly confirm details about Minnie Vautrin’s actions or the extent of Ginling College’s sanctuary role.",
+                "Key concrete claims—such as Ginling sheltering thousands under Vautrin, her negotiations with Japanese soldiers, her daily reporting to authorities, and her specific actions—are not directly supported by the given Wikipedia article.",
+                "Quotations and attributions to Vautrin’s diaries, Iris Chang, and Hua-ling Hu are referenced, but their content is not independently supplied in the evidence."
+              ]
+            }
+          ],
+          "attemptCount": 3,
+          "reviewFailureSummary": "Article not yet approved by reviewer; Saved text has not passed a matching editorial review",
+          "sourceAccessible": true,
+          "sourceUrls": [
+            "https://en.wikipedia.org/wiki/Nanjing_Massacre"
+          ],
+          "sourceCount": 1,
+          "wordCount": 921,
+          "reviewedTextMatchesSaved": false,
+          "originalSource": "https://www.npr.org/templates/story/story.php?storyId=1622547",
+          "evidenceSource": "https://en.wikipedia.org/wiki/Nanjing_Massacre",
+          "issues": [
+            "Article not yet approved by reviewer",
+            "Saved text has not passed a matching editorial review"
+          ],
+          "factualRisk": "high",
+          "imageStatus": "awaiting_visual_and_license_review",
+          "publication": "ready_for_publish"
+        },
+        "recoveryBatchId": "historical-36-v1",
         "state": "review_failed",
-        "checkedAt": "2026-11-09T23:00:09.050089Z",
+        "checkedAt": "2026-11-10T01:50:23.890632Z",
         "source": "https://www.npr.org/templates/story/story.php?storyId=1622547",
+        "failureCodes": [
+          "EDITORIAL_QUALITY_FAILED"
+        ],
         "reviewAttempts": [
           {
             "attempt": 1,
             "approved": false,
             "issues": [
-              "Generation/review error: HTTP Error 503: Service Unavailable"
-            ]
+              "No concrete evidence provided in the supplied source or card for specific numbers (e.g., 'ten thousand' refugees at Ginling)",
+              "Descriptions of Vautrin's detailed actions (negotiating with Japanese soldiers, daily diary records) exceed directly supported facts in supplied evidence",
+              "Specific references to the organization of daily life at Ginling, the role of local staff, and ongoing operations after the massacre are not confirmed by the given sources"
+            ],
+            "completedEditorialReview": true
           },
           {
             "attempt": 2,
             "approved": false,
             "issues": [
-              "Generation/review error: HTTP Error 503: Service Unavailable"
-            ]
+              "Generated article length 432 outside 600-1100 words"
+            ],
+            "failureCode": "EDITORIAL_QUALITY_FAILED"
           },
           {
             "attempt": 3,
             "approved": false,
             "issues": [
-              "Source evidence provided does not explicitly confirm details about Minnie Vautrin’s actions or the extent of Ginling College’s sanctuary role.",
-              "Key concrete claims—such as Ginling sheltering thousands under Vautrin, her negotiations with Japanese soldiers, her daily reporting to authorities, and her specific actions—are not directly supported by the given Wikipedia article.",
-              "Quotations and attributions to Vautrin’s diaries, Iris Chang, and Hua-ling Hu are referenced, but their content is not independently supplied in the evidence."
-            ]
+              "No access to the NPR source or direct quotes from Vautrin’s diaries provided for verification",
+              "The precise number of refugees (10,000) hosted at Ginling College is not directly corroborated in source evidence",
+              "Specific actions attributed to Vautrin—such as negotiating with soldiers, organizing sanitation, and establishing routines—are described generally but not directly supported by supplied evidence"
+            ],
+            "completedEditorialReview": true
+          },
+          {
+            "attempt": 4,
+            "approved": false,
+            "issues": [
+              "Generated article length 301 outside 600-1100 words"
+            ],
+            "failureCode": "EDITORIAL_QUALITY_FAILED"
+          },
+          {
+            "attempt": 5,
+            "approved": false,
+            "issues": [
+              "No direct access to the NPR source or evidence about specific diary quotations or narrative details.",
+              "Wikipedia confirms the Nanking Massacre but does not detail Minnie Vautrin's actions or the specific experiences at Ginling College.",
+              "Numbers such as 'nearly 10,000 women and children' lack direct sourcing verification in provided evidence."
+            ],
+            "completedEditorialReview": true
           }
         ],
-        "attemptCount": 3,
+        "attemptCount": 5,
+        "completedEditorialReviews": 3,
         "reviewFailureSummary": "Article not yet approved by reviewer; Saved text has not passed a matching editorial review",
         "sourceAccessible": true,
         "sourceUrls": [
           "https://en.wikipedia.org/wiki/Nanjing_Massacre"
         ],
         "sourceCount": 1,
-        "wordCount": 921,
+        "wordCount": 866,
         "reviewedTextMatchesSaved": false,
         "originalSource": "https://www.npr.org/templates/story/story.php?storyId=1622547",
         "evidenceSource": "https://en.wikipedia.org/wiki/Nanjing_Massacre",
@@ -5352,82 +5428,37 @@
         ],
         "factualRisk": "high",
         "imageStatus": "awaiting_visual_and_license_review",
-        "publication": "ready_for_publish"
+        "publication": "blocked_unapproved_review"
       },
-      "recoveryBatchId": "historical-36-v1",
-      "state": "review_failed",
-      "checkedAt": "2026-11-10T01:50:23.890632Z",
+      "recoveryBatchId": "remaining-27-v2",
+      "state": "approved",
+      "checkedAt": "2026-11-10T02:35:09.232964Z",
       "source": "https://www.npr.org/templates/story/story.php?storyId=1622547",
-      "failureCodes": [
-        "EDITORIAL_QUALITY_FAILED"
-      ],
+      "failureCodes": [],
       "reviewAttempts": [
         {
           "attempt": 1,
-          "approved": false,
-          "issues": [
-            "No concrete evidence provided in the supplied source or card for specific numbers (e.g., 'ten thousand' refugees at Ginling)",
-            "Descriptions of Vautrin's detailed actions (negotiating with Japanese soldiers, daily diary records) exceed directly supported facts in supplied evidence",
-            "Specific references to the organization of daily life at Ginling, the role of local staff, and ongoing operations after the massacre are not confirmed by the given sources"
-          ],
-          "completedEditorialReview": true
-        },
-        {
-          "attempt": 2,
-          "approved": false,
-          "issues": [
-            "Generated article length 432 outside 600-1100 words"
-          ],
-          "failureCode": "EDITORIAL_QUALITY_FAILED"
-        },
-        {
-          "attempt": 3,
-          "approved": false,
-          "issues": [
-            "No access to the NPR source or direct quotes from Vautrin’s diaries provided for verification",
-            "The precise number of refugees (10,000) hosted at Ginling College is not directly corroborated in source evidence",
-            "Specific actions attributed to Vautrin—such as negotiating with soldiers, organizing sanitation, and establishing routines—are described generally but not directly supported by supplied evidence"
-          ],
-          "completedEditorialReview": true
-        },
-        {
-          "attempt": 4,
-          "approved": false,
-          "issues": [
-            "Generated article length 301 outside 600-1100 words"
-          ],
-          "failureCode": "EDITORIAL_QUALITY_FAILED"
-        },
-        {
-          "attempt": 5,
-          "approved": false,
-          "issues": [
-            "No direct access to the NPR source or evidence about specific diary quotations or narrative details.",
-            "Wikipedia confirms the Nanking Massacre but does not detail Minnie Vautrin's actions or the specific experiences at Ginling College.",
-            "Numbers such as 'nearly 10,000 women and children' lack direct sourcing verification in provided evidence."
-          ],
+          "approved": true,
+          "issues": [],
           "completedEditorialReview": true
         }
       ],
-      "attemptCount": 5,
-      "completedEditorialReviews": 3,
-      "reviewFailureSummary": "Article not yet approved by reviewer; Saved text has not passed a matching editorial review",
+      "attemptCount": 1,
+      "completedEditorialReviews": 1,
+      "reviewFailureSummary": "",
       "sourceAccessible": true,
       "sourceUrls": [
         "https://en.wikipedia.org/wiki/Nanjing_Massacre"
       ],
       "sourceCount": 1,
-      "wordCount": 866,
-      "reviewedTextMatchesSaved": false,
+      "wordCount": 243,
+      "reviewedTextMatchesSaved": true,
       "originalSource": "https://www.npr.org/templates/story/story.php?storyId=1622547",
       "evidenceSource": "https://en.wikipedia.org/wiki/Nanjing_Massacre",
-      "issues": [
-        "Article not yet approved by reviewer",
-        "Saved text has not passed a matching editorial review"
-      ],
-      "factualRisk": "high",
+      "issues": [],
+      "factualRisk": "low",
       "imageStatus": "awaiting_visual_and_license_review",
-      "publication": "blocked_unapproved_review"
+      "publication": "ready_for_publish"
     },
     "generated-ff74bf7d679241b290b9": {
       "previousReview": {
