@@ -48,7 +48,8 @@ def now():
 
 def write(path,data):
     tmp=path.with_suffix(".tmp")
-    tmp.write_text(json.dumps(data,indent=2,ensure_ascii=False)+"\n",encoding="utf-8")
+    tmp.write_text(json.dumps(data,indent=2,ensure_ascii=False)+"
+",encoding="utf-8")
     tmp.replace(path)
 
 def persist(message):
@@ -97,8 +98,11 @@ def compose(item,source,feedback=""):
         "with keys detail and takeaway. The existing card fields must NOT be rewritten. "
         "Keep the subject and exact historical setting of this card: "+
         json.dumps({k:item.get(k,"") for k in ("category","title","body","attribution","source","takeaway")},ensure_ascii=False)+
-        "\nEvidence from the source (may be truncated):\n"+source+
-        "\nWrite 750-950 words in detail, narrative paragraphs, a strong opening, "
+        "
+Evidence from the source (may be truncated):
+"+source+
+        "
+Write 750-950 words in detail, narrative paragraphs, a strong opening, "
         "specific context, and an actionable closing. Do not add unsupported direct quotes, "
         "dates, dramatic dialogue, motives, or fabricated events. "
         "For philosophy distinguish interpretation from historical fact. "
@@ -118,7 +122,11 @@ def review(item,detail,source):
         "is engaging and coherent. Do not assess or mention article word count: Python validates length. If evidence is partial or inaccessible "
         "set approved=false. You cannot verify image licensing, so do not claim to have done so. "
         "Card: "+json.dumps({k:item.get(k,"") for k in ("category","title","body","source","attribution")})+
-        "\nSource evidence:\n"+source+"\nArticle:\n"+detail,REVIEW_MODEL)
+        "
+Source evidence:
+"+source+"
+Article:
+"+detail,REVIEW_MODEL)
 
 def main():
     if not os.getenv("OPENAI_API_KEY"):
@@ -150,6 +158,7 @@ def main():
             source_urls=[r["url"] for r in records]
             issues=[];best_detail="";best_result=None;best_issues=[];attempts=[]
             approved=False
+            infrastructure_error=None
             if not records:
                 issues=["No subject-specific evidence found"]+source_errors
             status["stage"]="generation"
@@ -186,9 +195,14 @@ def main():
                         attempts.append(attempt_record)
                         issues=editorial_issues or ["Factual or editorial review did not approve"]
                     except Exception as error:
+                        code=classify_error(error)
                         issues=["Generation/review error: "+str(error)[:250]]
                         attempt_record["issues"]=issues[:3]
+                        attempt_record["failureCode"]=code
                         attempts.append(attempt_record)
+                        if code in ("REVIEW_API_UNAVAILABLE","REVIEW_API_FORBIDDEN"):
+                            infrastructure_error=code
+                            break
                     time.sleep(1)
             # Preserve existing valid text if all new attempts fail; never claim it passed.
             if best_detail:
@@ -201,7 +215,12 @@ def main():
             saved_words=len(saved_detail.split())
             exact_review=bool(best_detail and best_result) and saved_detail==best_detail
             approved=bool(best_result) and exact_review and not best_issues and best_result.get("approved") is True
-            state=("approved" if approved and records and MIN_WORDS<=saved_words<=MAX_WORDS\n                   else "review_pending_retry" if infrastructure_error=="REVIEW_API_UNAVAILABLE"\n                   else "needs_manual_review" if infrastructure_error=="REVIEW_API_FORBIDDEN"\n                   else "review_failed")\n            if state=="approved":\n                item["status"]="ready_for_publish"
+            state=("approved" if approved and records and MIN_WORDS<=saved_words<=MAX_WORDS
+                   else "review_pending_retry" if infrastructure_error=="REVIEW_API_UNAVAILABLE"
+                   else "needs_manual_review" if infrastructure_error=="REVIEW_API_FORBIDDEN"
+                   else "review_failed")
+            if state=="approved":
+                item["status"]="ready_for_publish"
             if state!="approved":
                 issues=(best_issues or issues or ["No approved review of the saved article"])
                 if not exact_review:
@@ -220,7 +239,12 @@ def main():
                 "errors":image_errors,"selected":None,
                 "state":"awaiting_visual_and_license_review"}
             reviews["items"][item["id"]]={
-                "state":state,"checkedAt":now(),"source":preferred_source,\n                "failureCodes":([infrastructure_error] if infrastructure_error else\n                    ["INSUFFICIENT_EVIDENCE"] if not records else\n                    ["EDITORIAL_QUALITY_FAILED"] if not complete else\n                    ["FACTUAL_CONTRADICTION"] if any("unsupported" in str(x).lower() or "factual" in str(x).lower() for x in issues) else\n                    ["EDITORIAL_QUALITY_FAILED"] if state!="approved" else []),
+                "state":state,"checkedAt":now(),"source":preferred_source,
+                "failureCodes":([infrastructure_error] if infrastructure_error else
+                    ["INSUFFICIENT_EVIDENCE"] if not records else
+                    ["EDITORIAL_QUALITY_FAILED"] if not complete else
+                    ["FACTUAL_CONTRADICTION"] if any("unsupported" in str(x).lower() or "factual" in str(x).lower() for x in issues) else
+                    ["EDITORIAL_QUALITY_FAILED"] if state!="approved" else []),
                 "reviewAttempts":attempts,"attemptCount":len(attempts),
                 "reviewFailureSummary":"; ".join(issues[:2])[:350] if state!="approved" else "",
                 "sourceAccessible":bool(records),"sourceUrls":source_urls,
