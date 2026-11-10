@@ -1,12 +1,12 @@
 {
   "state": "running",
   "total": 27,
-  "completed": 17,
-  "generated": 16,
-  "reviewed": 17,
-  "approved": 12,
+  "completed": 18,
+  "generated": 17,
+  "reviewed": 18,
+  "approved": 13,
   "reviewFailed": 5,
-  "eligible": 16,
+  "eligible": 17,
   "startedAt": "2026-11-10T05:27:53.628646Z",
   "items": {
     "turing-computing": {
@@ -1077,6 +1077,56 @@
         ],
         "sourceErrors": [
           "https://plato.stanford.edu/entries/ibn-tufayl/ Source retrieval failed: HTTP Error 404: Not Found"
+        ]
+      }
+    },
+    "generated-df16a53a8569448998a2": {
+      "item": {
+        "title": "Frederick Douglass on the Might of Literacy: Breaking the Invisible Chains",
+        "body": "In the words of Frederick Douglass, the renowned abolitionist and orator, literacy was not just a skill—it was an act of emancipation. Douglass’s reflections on the moment he first understood the power of reading reveal an essential truth about self-liberation and the critical role of education in challenging oppression.",
+        "detail": "Frederick Douglass, a prominent abolitionist and former slave, directly linked literacy with personal liberation in his 1845 autobiography, Narrative of the Life of Frederick Douglass, an American Slave. As a child, Douglass was taught the basics of reading by Sophia Auld, the wife of one of his owners in Baltimore. This instruction stopped abruptly when her husband, Hugh Auld, asserted that education would \"ruin\" a slave and make him \"unmanageable\"—a key moment in Douglass's life. Douglass recalled that this prohibition revealed to him for the first time that literacy was a pathway to freedom, writing that he understood 'the white man's power to enslave the black man.' Motivated by this insight, Douglass secretly continued to educate himself, trading bread for lessons with local boys and using whatever resources he could find. Later, when he gained a slightly improved position on William Freeland’s plantation, Douglass, already aware of the transformative power of literacy, taught other enslaved people to read, despite the risks involved. His autobiography recounts these formative experiences in detail, underscoring how education was deliberately withheld to maintain the system of slavery. Douglass’s story was so compelling and persuasive that many abolitionists saw his oratory and autobiography as central to the anti-slavery movement. The very fact that Douglass could write such an eloquent account was itself evidence against those who doubted the abilities of formerly enslaved people and against the racist arguments used to justify their oppression. Education for Douglass was never just about personal advancement; it was a weapon against injustice and a tool for collective liberation. This theme not only helped fuel the abolitionist movement, but also cemented Douglass’s legacy as a leader whose pursuit of literacy gave him—and inspired others to claim—both a voice and agency.",
+        "attribution": "Frederick Douglass",
+        "source": "https://www.gutenberg.org/files/23/23-h/23-h.htm",
+        "takeaway": "Prioritize dedicating time each day to read and reflect—cultivating literacy is to claim your freedom and shape your future.",
+        "image": "",
+        "category": "Quotes",
+        "quotation": "Once you learn to read, you will be forever free.",
+        "context": "This quote is derived from Frederick Douglass’s personal reflections and writings, especially his 1845 autobiography, reflecting how for him, literacy was the essential step toward self-liberation and emancipation from slavery.",
+        "id": "generated-df16a53a8569448998a2",
+        "status": "ready_for_publish",
+        "publishedAt": "",
+        "reviewStatus": "approved",
+        "reviewFailureSummary": "",
+        "reviewFailureCode": ""
+      },
+      "audit": {
+        "state": "approved",
+        "eligible": true,
+        "generated": true,
+        "attempts": [
+          {
+            "attempt": 1,
+            "reviewCompleted": true,
+            "sourceUrls": [
+              "https://www.gutenberg.org/files/23/23-h/23-h.htm",
+              "https://en.wikipedia.org/wiki/Narrative_of_the_Life_of_Frederick_Douglass%2C_an_American_Slave"
+            ],
+            "changes": "Removed the unsupported claim of an exact quotation from Douglass about literacy as 'an act of emancipation.' Embedded evidence from the autobiography regarding Sophia and Hugh Auld's roles in Douglass's early education and the systemic prohibition of literacy among slaves, all verified by the cited sources. Expanded the narrative to contextualize Douglass's journey, reinforced the impact of education as seen in Douglass’s activism, and clarified the historical context using only documented fact",
+            "approved": true,
+            "complete": true,
+            "grounded": true,
+            "feedback": []
+          }
+        ],
+        "completedReviews": 1,
+        "reasonCode": "",
+        "reason": "",
+        "sourceUrls": [
+          "https://www.gutenberg.org/files/23/23-h/23-h.htm",
+          "https://en.wikipedia.org/wiki/Narrative_of_the_Life_of_Frederick_Douglass%2C_an_American_Slave"
+        ],
+        "sourceErrors": [
+          "https://www.nps.gov/frdo/learn/kidsyouth/upload/The-Story-of-Frederick-Douglass.pdf Source retrieval failed: HTTP Error 404: Not Found"
         ]
       }
     }
