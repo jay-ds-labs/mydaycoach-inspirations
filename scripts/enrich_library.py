@@ -53,9 +53,18 @@ def write(path,data):
 
 def persist(message):
     subprocess.run(["git","add",FEED.name,PROGRESS.name,REVIEWS.name,IMAGES.name],check=True)
-    if subprocess.run(["git","diff","--cached","--quiet"]).returncode:
-        subprocess.run(["git","commit","-m",message],check=True)
-        subprocess.run(["git","push","origin","HEAD:"+os.getenv("CONTENT_TARGET_BRANCH","main")],check=True)
+    if subprocess.run(["git","diff","--cached","--quiet"]).returncode == 0:
+        return
+    subprocess.run(["git","commit","-m",message],check=True)
+    push = ["git", "push", "origin", "HEAD:" + os.getenv("CONTENT_TARGET_BRANCH", "main")]
+    for attempt in range(3):
+        result = subprocess.run(push, text=True, stderr=subprocess.PIPE)
+        if result.returncode == 0:
+            return
+        print(result.stderr, end="", flush=True)
+        if attempt == 2 or "missing necessary objects" not in result.stderr:
+            result.check_returncode()
+        time.sleep(2 ** attempt)
 
 def model_json(prompt,model):
     payload={"model":model,"input":[{"role":"user","content":prompt}],
@@ -146,8 +155,14 @@ def main():
     else:
         selected=remaining[:BATCH_SIZE]
     images=json.loads(IMAGES.read_text(encoding="utf-8")) if IMAGES.exists() else {"items":{}}
-    status={"state":"running","stage":"generation","completed":len(done),
-            "total":len(original),"batchTotal":len(selected),"batchCompleted":0,
+    completed = len(done)
+    total = len(original)
+    if batch_ids and recovery_id:
+        completed = sum(reviews["items"].get(item_id, {}).get("recoveryBatchId") == recovery_id
+                        for item_id in requested_set)
+        total = len(requested_set)
+    status={"state":"running","stage":"generation","completed":completed,
+            "total":total,"batchTotal":len(selected),"batchCompleted":0,
             "generated":0,"reviewed":0,"approved":0,"needsReview":0,
             "startedAt":now(),"completedAt":None,"currentId":None,"error":None}
     write(PROGRESS,status);write(REVIEWS,reviews);write(IMAGES,images);persist("Start resumable editorial enrichment batch")
