@@ -27,6 +27,8 @@ def save(path, data):
 
 def publish_progress():
     subprocess.run(["git","add","library.json","refresh-status.json"],check=True)
+    if subprocess.run(["git","diff","--cached","--quiet"]).returncode == 0:
+        return
     subprocess.run(["git","commit","-m","Update inspiration generation progress"],check=True)
     subprocess.run(["git","push","origin","HEAD:"+os.getenv("CONTENT_TARGET_BRANCH","main")],check=True)
 
@@ -83,7 +85,7 @@ def main():
     library = json.loads(FEED.read_text(encoding="utf-8"))
     status = {"state": "running", "completed": 0, "total": TARGET,
               "quotes": 0, "stories": 0, "philosophy": 0,
-              "startedAt": now(), "completedAt": None, "error": None}
+              "startedAt": now(), "completedAt": None, "error": None, "generatedIds": []}
     save(PROGRESS, status)
     publish_progress()
     existing = [item["title"] for item in library["items"]]
@@ -107,6 +109,7 @@ def main():
                 library["items"].append(entry)
                 existing.append(entry["title"])
                 save(FEED, library)
+                status["generatedIds"].append(entry["id"])
                 status["completed"] += 1
                 status[category.lower()] += 1
                 save(PROGRESS, status)
