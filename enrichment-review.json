@@ -2648,42 +2648,116 @@
       "publication": "ready_for_publish"
     },
     "generated-0f18752c304a466e9970": {
+      "previousReview": {
+        "state": "review_failed",
+        "checkedAt": "2026-11-09T22:54:42.246338Z",
+        "source": "https://www.nps.gov/gwca/learn/historyculture/george-washington-carver-biography.htm",
+        "reviewAttempts": [
+          {
+            "attempt": 1,
+            "approved": false,
+            "issues": [
+              "Generated article length 514 outside 600-1100 words"
+            ]
+          },
+          {
+            "attempt": 2,
+            "approved": false,
+            "issues": [
+              "Generated article length 548 outside 600-1100 words"
+            ]
+          },
+          {
+            "attempt": 3,
+            "approved": false,
+            "issues": [
+              "No direct source evidence provided for verification",
+              "Factual claims about Carver's work and life cannot be validated against supplied evidence",
+              "Source evidence is about Lonnie Johnson, not George Washington Carver"
+            ]
+          }
+        ],
+        "attemptCount": 3,
+        "reviewFailureSummary": "Article not yet approved by reviewer; Saved text has not passed a matching editorial review",
+        "sourceAccessible": true,
+        "sourceUrls": [
+          "https://en.wikipedia.org/wiki/Lonnie_Johnson_%28inventor%29"
+        ],
+        "sourceCount": 1,
+        "wordCount": 617,
+        "reviewedTextMatchesSaved": false,
+        "originalSource": "https://www.nps.gov/gwca/learn/historyculture/george-washington-carver-biography.htm",
+        "evidenceSource": "https://en.wikipedia.org/wiki/Lonnie_Johnson_%28inventor%29",
+        "issues": [
+          "Article not yet approved by reviewer",
+          "Saved text has not passed a matching editorial review"
+        ],
+        "factualRisk": "high",
+        "imageStatus": "awaiting_visual_and_license_review",
+        "publication": "ready_for_publish"
+      },
+      "recoveryBatchId": "historical-36-v1",
       "state": "review_failed",
-      "checkedAt": "2026-11-09T22:54:42.246338Z",
+      "checkedAt": "2026-11-10T01:40:12.003267Z",
       "source": "https://www.nps.gov/gwca/learn/historyculture/george-washington-carver-biography.htm",
+      "failureCodes": [
+        "EDITORIAL_QUALITY_FAILED"
+      ],
       "reviewAttempts": [
         {
           "attempt": 1,
           "approved": false,
           "issues": [
-            "Generated article length 514 outside 600-1100 words"
-          ]
+            "Generated article length 422 outside 600-1100 words"
+          ],
+          "failureCode": "EDITORIAL_QUALITY_FAILED"
         },
         {
           "attempt": 2,
           "approved": false,
           "issues": [
-            "Generated article length 548 outside 600-1100 words"
-          ]
+            "No actual source evidence for verification provided: only an unrelated Lonnie Johnson article is included",
+            "Cannot confirm any factual claims or quotations without access to original sources",
+            "Factual claims about Carver's birth, education, professional career, and scientific contributions are unverified with supplied evidence"
+          ],
+          "completedEditorialReview": true
         },
         {
           "attempt": 3,
           "approved": false,
           "issues": [
-            "No direct source evidence provided for verification",
-            "Factual claims about Carver's work and life cannot be validated against supplied evidence",
-            "Source evidence is about Lonnie Johnson, not George Washington Carver"
-          ]
+            "Generated article length 132 outside 600-1100 words"
+          ],
+          "failureCode": "EDITORIAL_QUALITY_FAILED"
+        },
+        {
+          "attempt": 4,
+          "approved": false,
+          "issues": [
+            "No evidence supplied for verification—all claims unsupported",
+            "No access to the referenced National Park Service biography",
+            "Multiple quotations and personal motives attributed to Carver lack sourced support"
+          ],
+          "completedEditorialReview": true
+        },
+        {
+          "attempt": 5,
+          "approved": false,
+          "issues": [
+            "Generated article length 321 outside 600-1100 words"
+          ],
+          "failureCode": "EDITORIAL_QUALITY_FAILED"
         }
       ],
-      "attemptCount": 3,
+      "attemptCount": 5,
+      "completedEditorialReviews": 2,
       "reviewFailureSummary": "Article not yet approved by reviewer; Saved text has not passed a matching editorial review",
       "sourceAccessible": true,
       "sourceUrls": [
         "https://en.wikipedia.org/wiki/Lonnie_Johnson_%28inventor%29"
       ],
       "sourceCount": 1,
-      "wordCount": 617,
+      "wordCount": 612,
       "reviewedTextMatchesSaved": false,
       "originalSource": "https://www.nps.gov/gwca/learn/historyculture/george-washington-carver-biography.htm",
       "evidenceSource": "https://en.wikipedia.org/wiki/Lonnie_Johnson_%28inventor%29",
@@ -2693,7 +2767,7 @@
       ],
       "factualRisk": "high",
       "imageStatus": "awaiting_visual_and_license_review",
-      "publication": "ready_for_publish"
+      "publication": "blocked_unapproved_review"
     },
     "generated-f919ea06f96c4b68b11b": {
       "state": "review_failed",
