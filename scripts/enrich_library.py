@@ -136,7 +136,7 @@ def main():
     feed=json.loads(FEED.read_text(encoding="utf-8"))
     original=[x for x in feed["items"] if x.get("status")!="published"]
     reviews=json.loads(REVIEWS.read_text(encoding="utf-8")) if REVIEWS.exists() else {"items":{}}
-    done={k for k,v in reviews["items"].items() if v.get("state") in ("approved","review_failed") and any(i["id"]==k and 600<=len(str(i.get("detail") or "").split())<=1100 for i in original)}
+    done={k for k,v in reviews["items"].items() if v.get("state")=="approved" and any(i["id"]==k and 600<=len(str(i.get("detail") or "").split())<=1100 for i in original)}
     if RETRY_REVIEW:
         remaining=[x for x in original if reviews["items"].get(x["id"],{}).get("state") in ("review_failed","needs_review","review_pending_retry","needs_manual_review") or (x["id"] not in done and x["id"] in reviews["items"])]
     else:
@@ -170,7 +170,7 @@ def main():
             if not records:
                 issues=["No subject-specific evidence found"]+source_errors
             status["stage"]="generation"
-            if True:
+            if records:
                 for attempt in range(MAX_ATTEMPTS):
                     attempt_record={"attempt":attempt+1,"approved":False,"issues":[]}
                     try:
@@ -207,10 +207,10 @@ def main():
                         issues=["Generation/review error: "+str(error)[:250]]
                         attempt_record["issues"]=issues[:3]
                         attempt_record["failureCode"]=code
-                        attempts.append(attempt_record)
                         if code in ("REVIEW_API_UNAVAILABLE","REVIEW_API_FORBIDDEN"):
                             infrastructure_error=code
                             break
+                        attempts.append(attempt_record)
                     time.sleep(1)
             # Preserve existing valid text if all new attempts fail; never claim it passed.
             if best_detail:
@@ -274,7 +274,7 @@ def main():
             persist("Enrich and review inspiration "+item["id"])
         status["state"]="batch_complete" if len(remaining)>len(selected) else "awaiting_editorial_approval"
         status["contentReady"]=sum(v.get("state")=="approved" for v in reviews["items"].values())
-        status["contentNeedsReview"]=sum(v.get("state") in ("needs_review","review_failed") for v in reviews["items"].values())
+        status["contentNeedsReview"]=sum(v.get("state") in ("needs_review","review_failed","review_pending_retry","needs_manual_review") for v in reviews["items"].values())
         status["reviewFailed"]=sum(v.get("state")=="review_failed" for v in reviews["items"].values())
         status["publicationReady"]=sum(x.get("status")=="ready_for_publish" for x in original)
         status["publicationBlocked"]=sum(x.get("status")=="draft" for x in original)
