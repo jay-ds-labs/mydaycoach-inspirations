@@ -1,12 +1,12 @@
 {
   "state": "running",
   "total": 27,
-  "completed": 9,
-  "generated": 9,
-  "reviewed": 9,
+  "completed": 10,
+  "generated": 10,
+  "reviewed": 10,
   "approved": 5,
-  "reviewFailed": 4,
-  "eligible": 8,
+  "reviewFailed": 5,
+  "eligible": 9,
   "startedAt": "2026-11-10T05:27:53.628646Z",
   "items": {
     "turing-computing": {
@@ -644,6 +644,96 @@
         ],
         "sourceErrors": [
           "https://www.energy.gov/articles/first-nuclear-reactor Source retrieval failed: HTTP Error 404: Not Found"
+        ]
+      }
+    },
+    "generated-67e4272aeda74d329cc9": {
+      "item": {
+        "title": "Frederick Douglass: Diligence and the Power of Daily Progress",
+        "body": "In the late 19th century, Frederick Douglass, born into slavery and later a leader in the abolitionist movement, spoke on the importance of continuous self-education and preparation. His insight into the slow, daily work of learning shows the power of quiet diligence—a reminder that persistent effort, even when unseen, shapes both character and destiny.",
+        "detail": "Review failed [UNSUPPORTED_QUOTE]. No specific attributed quote or paraphrase from Douglass can be directly verified for the stated philosophy of 'daily diligence' or 'quiet preparation.'\n\nFrederick Douglass was born into slavery in Maryland in 1818 and, through determined self-education, became one of the 19th century’s leading abolitionists and advocates for civil rights. Despite laws and customs in the American South that forbade enslaved people from reading and writing, Douglass taught himself, often risking severe punishment for each small victory in his learning. After he escaped to the North in 1838, this skill set him apart—both as a renowned orator and author. His autobiographies and public career became 'a living counterexample' to the era’s prejudices, especially claims that Black people were intellectually inferior or incapable of self-improvement. Douglass’s progress was neither quick nor easy: in his narratives, he described the persistent, daily efforts required to achieve literacy and knowledge. These small, unseen acts of discipline—reading at night in secret, trading bread with boys for reading lessons—enabled the growth and resilience that made his future leadership possible. When Northern audiences doubted that someone who had spent years enslaved could display such eloquence and intellect, Douglass wrote and spoke openly about the slow, cumulative work behind his achievements. At each stage, Douglass stressed that growth and the capacity to effect change come as the result of patient, sustained effort over time. This pattern was not limited to his youth: Douglass continued advocating for persistence in causes like women’s suffrage and equal rights throughout his life. Though no direct quote has been found wherein Douglass states his philosophy in terms of 'daily diligence' or 'quiet preparation,' the theme runs through his major works and public example. A contemporary reader can look to Douglass’s life as a model for the value of consistent, intentional work—even in the face of seemingly insurmountable obstacles. His journey reminds us that habits of effort and preparedness often shape the path to transformation, both personal and societal.",
+        "attribution": "Frederick Douglass (based on biographical records and published writings; not from a specific 1894 speech)",
+        "source": "https://en.wikipedia.org/wiki/Frederick_Douglass",
+        "takeaway": "Dedicate yourself to consistent daily effort in mastering your craft or cause, knowing that steady preparation is the foundation of genuine success.",
+        "image": "",
+        "category": "Quotes",
+        "id": "generated-67e4272aeda74d329cc9",
+        "status": "ready_for_publish",
+        "publishedAt": "",
+        "reviewStatus": "review_failed",
+        "reviewFailureSummary": "No specific attributed quote or paraphrase from Douglass can be directly verified for the stated philosophy of 'daily diligence' or 'quiet preparation.'",
+        "reviewFailureCode": "UNSUPPORTED_QUOTE"
+      },
+      "audit": {
+        "state": "review_failed",
+        "eligible": true,
+        "generated": true,
+        "attempts": [
+          {
+            "attempt": 1,
+            "reviewCompleted": true,
+            "sourceUrls": [
+              "https://en.wikipedia.org/wiki/Frederick_Douglass"
+            ],
+            "changes": "Removed unsupported direct quotations and hooks tied to specific speeches; clarified that there is no transcript from the 1894 address but retained focus on Douglass’s well-documented approach to daily preparation and education; emphasized the continuity between his experiences and the broader message about diligence.",
+            "approved": false,
+            "complete": false,
+            "grounded": false,
+            "feedback": [
+              "The card's main message is presented as a direct inspiration and quote from a specific Douglass speech ('Commencement Address, Douglass High School, Baltimore, Maryland, June 1894') but no transcript or direct evidence from this speech is provided or cited.",
+              "The Wikipedia article on Frederick Douglass contains extensive biographical information and evidence of his commitment to self-education and diligence but does not corroborate any specific statements from the Douglass High School address in 1894.",
+              "The summary attributes Douglass’s advocacy for preparation and diligence in general, which is broadly consistent with his life and writings, but the card implies a specific, verifiable historical utterance or theme from a particular event without sourcing.",
+              "There is risk of misleading readers by suggesting authenticity or direct quotation when the evidence is circumstantial and generalized.",
+              "No other sources or primary historical records (such as Douglass’s autobiographies, letters, or other speeches) are provided to directly support the summary's assertion that Douglass espoused the principles of steady daily preparation as stated in the Douglass High School address."
+            ]
+          },
+          {
+            "attempt": 2,
+            "reviewCompleted": true,
+            "sourceUrls": [
+              "https://en.wikipedia.org/wiki/Frederick_Douglass"
+            ],
+            "changes": "Removed the implication that the specific message came from the Douglass High School 1894 commencement address, as no transcript or quotation is available; revised the narrative to focus on documented aspects of Douglass’s life and philosophy as evidenced by his autobiography and Wikipedia entry; clarified that the takeaway and inspiration derive from Douglass’s public life and published writings rather than a single unsupported speech.",
+            "approved": false,
+            "complete": true,
+            "grounded": true,
+            "feedback": [
+              "The article and quote attribute Douglass with a message about daily preparation, diligence, and self-education, which is broadly supported by Douglass's autobiographies and life story, as well as secondary sources.",
+              "However, the article references a 'specific 1894 commencement address at Douglass High School' but immediately concedes no record of this speech is available, and the insight is presented as a generalization drawn from biographical records, not a direct quote or paraphrase from Douglass.",
+              "The Wikipedia source and Douglass's writings substantiate the overarching themes of diligence and self-education, but the lack of a clearly sourced quote or direct documented statement makes the central attribution composite rather than strictly historical.",
+              "The editorial synthesis is faithful in spirit and theme to Douglass's life, but the quote risks being read as a direct historical statement, which it is not.",
+              "There is no indication of intentional fabrications or subject drift, but editorially the piece would be stronger with clearer demarcation between Douglass's verifiable words and contemporary paraphrase.",
+              "The article does not commit topic drift, and it accurately represents Douglass's life and legacy; however, readers might misinterpret the passage as a direct or closely paraphrased Douglass statement."
+            ]
+          },
+          {
+            "attempt": 3,
+            "reviewCompleted": true,
+            "sourceUrls": [
+              "https://en.wikipedia.org/wiki/Frederick_Douglass",
+              "https://en.wikipedia.org/wiki/Chicano"
+            ],
+            "changes": "Removed implication of a direct Douglass quote or apparent paraphrase; clarified that the card's insight is synthesized from verifiable facts about his life and supported themes in his writings, rather than any lost or specific speech. Explicitly acknowledged that the overarching lesson comes from Douglass’s documented actions and autobiographies. Preserved historical context from the previous draft while improving transparency and accuracy. Contextualized the takeaway to focus on practical insp",
+            "approved": false,
+            "complete": true,
+            "grounded": true,
+            "feedback": [
+              "No specific attributed quote or paraphrase from Douglass can be directly verified for the stated philosophy of 'daily diligence' or 'quiet preparation.'",
+              "The takeaway is inspired by Douglass's life but is not explicitly framed in these terms by Douglass in the documented sources.",
+              "Wikipedia confirms Douglass's self-education, incremental progress, and advocacy for persistence, but does not directly connect these themes as a summarized philosophical statement authored by Douglass.",
+              "The content is well-supported regarding Douglass’s life story and general themes but lacks direct primary-source evidence for the specific theme language."
+            ]
+          }
+        ],
+        "completedReviews": 3,
+        "reasonCode": "UNSUPPORTED_QUOTE",
+        "reason": "No specific attributed quote or paraphrase from Douglass can be directly verified for the stated philosophy of 'daily diligence' or 'quiet preparation.'",
+        "sourceUrls": [
+          "https://en.wikipedia.org/wiki/Frederick_Douglass",
+          "https://en.wikipedia.org/wiki/Chicano"
+        ],
+        "sourceErrors": [
+          "https://www.loc.gov/exhibits/african-american-odyssey/abolitionist-frederick-douglass.html Source retrieval failed: HTTP Error 404: Not Found"
         ]
       }
     }
