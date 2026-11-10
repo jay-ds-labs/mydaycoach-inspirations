@@ -1,12 +1,12 @@
 {
   "state": "running",
   "total": 27,
-  "completed": 4,
-  "generated": 2,
-  "reviewed": 2,
-  "approved": 2,
+  "completed": 5,
+  "generated": 3,
+  "reviewed": 3,
+  "approved": 3,
   "reviewFailed": 2,
-  "eligible": 2,
+  "eligible": 3,
   "startedAt": "2026-11-10T05:27:53.628646Z",
   "items": {
     "turing-computing": {
@@ -184,6 +184,70 @@
           "https://plato.stanford.edu/entries/pragmatism/"
         ],
         "sourceErrors": []
+      }
+    },
+    "reflection-015": {
+      "item": {
+        "id": "reflection-015",
+        "category": "Philosophy",
+        "title": "Respect other perspectives",
+        "body": "Moral reasoning improves when you take another person's interests seriously.",
+        "attribution": "MyDayCoach original reflection — not a historical quotation",
+        "source": "https://en.wikipedia.org/wiki/Perspective-taking",
+        "takeaway": "Explain a disagreement in terms the other person would recognize.",
+        "status": "ready_for_publish",
+        "detail": "Perspective-taking is the ability to view a situation or concept from another person's point of view. This capacity develops gradually: young children start out viewing the world mostly from their own standpoint, but as they mature, they improve at imagining how someone else might see or experience the same situation. Research in developmental psychology—such as Piaget’s three mountain problem and Selman’s stages of social perspective-taking—shows that children progress from egocentric thinking toward understanding that different people may have different information, experiences, or values. This process leads, by adulthood, to a more nuanced appreciation of how someone’s environment and culture shape their beliefs.\n\nPerspective-taking is distinct from but related to 'theory of mind' (the recognition that others have independent thoughts and feelings) and 'empathy' (the ability to share emotions). Where theory of mind is recognizing difference, and empathy is feeling with others, perspective-taking involves the cognitive act of genuinely exploring another person's reasoning or priorities—even if you do not share them.\n\nCritically, perspective-taking is not the same as agreeing with another person or giving up your own values. Rather, it means making a sincere effort to understand what beliefs or concerns are guiding someone else's view. Evidence suggests that this skill enables people to communicate more effectively and reduce misunderstandings, especially in conflict or disagreement. For example, when people frame their explanations in terms the other party would accept ('If I were in your shoes, I might also think…'), dialogue becomes more respectful and productive. Perspective-taking thus supports ethical and cooperative interactions by grounding them in mutual recognition, rather than mere assertion of difference. While it is one of many factors shaping our moral and social reasoning, developing this habit is a practical route to deeper understanding and less polarized conversations.",
+        "reviewStatus": "approved",
+        "reviewFailureSummary": "",
+        "publishedAt": "",
+        "reviewFailureCode": ""
+      },
+      "audit": {
+        "state": "approved",
+        "eligible": true,
+        "generated": true,
+        "attempts": [
+          {
+            "attempt": 1,
+            "reviewCompleted": true,
+            "sourceUrls": [
+              "https://en.wikipedia.org/wiki/Perspective-taking"
+            ],
+            "changes": "Expanded explanation of perspective-taking using published research from Wikipedia (source); clarified developmental stages and distinction from theory of mind; provided more context about how and why perspective-taking supports rational and ethical discourse; clarified that this is an original reflection, not a historical quotation; preserved the card's practical takeaway.",
+            "approved": false,
+            "complete": true,
+            "grounded": true,
+            "feedback": [
+              "The main inspirational assertion ('Moral reasoning improves when you take another person's interests seriously') and the suggested takeaway ('Explain a disagreement in terms the other person would recognize') are broadly supported by the cited Wikipedia article and the associated scientific literature.",
+              "The article faithfully summarizes research and theory about perspective-taking, including its developmental trajectory, distinctions between theory of mind and empathy, and its value for ethical reasoning and cooperation.",
+              "Most claims are grounded in the credible summary of psychological and developmental findings.",
+              "However, the article lacks reference to specific experimental or longitudinal studies directly showing that 'moral reasoning' (as measured in formal psychology) improves solely as a result of perspective-taking. Though the cited literature supports a connection between perspective-taking and empathy, and both with prosocial outcomes, explicit causal evidence about moral reasoning per se is not detailed in the summary.",
+              "The article slightly overstates the linked outcome ('moral reasoning improves...') as a simple result of perspective-taking, when complex factors may mediate this effect. The Wikipedia source notes a relationship but does not confirm that perspective-taking alone improves formal moral reasoning, which may be measured differently across studies.",
+              "No quotations are misused, and original reflections are marked as such."
+            ]
+          },
+          {
+            "attempt": 2,
+            "reviewCompleted": true,
+            "sourceUrls": [
+              "https://en.wikipedia.org/wiki/Perspective-taking"
+            ],
+            "changes": "Clarified the distinction between perspective-taking and formal moral reasoning, avoiding an unsupported claim of simple causal improvement. Integrated direct findings about developmental progression and the value of perspective-taking for communication and understanding. Preserved discussion of empathy, theory of mind, and practical application. Honed the language to emphasize nuance and evidence-supported outcomes, per editorial feedback. No unsupported historical claims made.",
+            "approved": true,
+            "complete": true,
+            "grounded": true,
+            "feedback": []
+          }
+        ],
+        "completedReviews": 2,
+        "reasonCode": "",
+        "reason": "",
+        "sourceUrls": [
+          "https://en.wikipedia.org/wiki/Perspective-taking"
+        ],
+        "sourceErrors": [
+          "https://plato.stanford.edu/entries/ethics/ Source retrieval failed: HTTP Error 404: Not Found"
+        ]
       }
     }
   }
