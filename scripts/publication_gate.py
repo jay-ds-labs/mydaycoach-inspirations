@@ -17,7 +17,9 @@ def eligible(item,review,image_record):
         reasons.append("review_cycle_not_completed")
     if review.get("state") != "approved":
         reasons.append("review_record_missing")
-    if review.get("reviewedTextMatchesSaved") is not True:\n        reasons.append("reviewed_text_does_not_match_saved")\n    # Images are optional. An image may only be displayed when separately cleared.
+    if review.get("reviewedTextMatchesSaved") is not True:
+        reasons.append("reviewed_text_does_not_match_saved")
+    # Images are optional. An image may only be displayed when separately cleared.
     selected=image_record.get("selected")
     image_ready=False
     if isinstance(selected,dict):
@@ -45,7 +47,8 @@ def main():
     reviews=json.loads((ROOT/"enrichment-review.json").read_text(encoding="utf-8"))
     images=json.loads((ROOT/"enrichment-images.json").read_text(encoding="utf-8"))
     result=assess(feed,reviews,images)
-    (ROOT/"publication-gate.json").write_text(json.dumps(result,indent=2)+"\n",encoding="utf-8")
+    (ROOT/"publication-gate.json").write_text(json.dumps(result,indent=2)+"
+",encoding="utf-8")
     print(json.dumps({"ready":result["ready"],"blocked":result["blocked"]},indent=2))
 
 if __name__=="__main__":
