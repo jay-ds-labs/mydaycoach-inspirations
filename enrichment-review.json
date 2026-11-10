@@ -3340,6 +3340,34 @@
         "reviewFailureCode": "INSUFFICIENT_EVIDENCE",
         "reviewFailureSummary": "Claims about Schliemann's excavation and Troy's archaeological discovery are unsupported by the provided source, which solely concerns Homer’s poetry."
       }
+    },
+    "generated-28f3200d7bd0412fa229": {
+      "state": "approved",
+      "eligible": true,
+      "generated": false,
+      "attempts": [
+        {
+          "attempt": 1,
+          "reviewCompleted": true,
+          "sourceUrls": [
+            "https://en.wikipedia.org/wiki/Underground_Railroad"
+          ],
+          "changes": "Reviewed the existing draft because composition returned no article.",
+          "approved": true,
+          "complete": true,
+          "grounded": true,
+          "feedback": []
+        }
+      ],
+      "completedReviews": 1,
+      "reasonCode": "",
+      "reason": "",
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Underground_Railroad"
+      ],
+      "sourceErrors": [
+        "https://www.nps.gov/articles/underground-railroad.htm Source retrieval failed: HTTP Error 404: Not Found"
+      ]
     }
   }
 }
