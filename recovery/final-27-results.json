@@ -1,11 +1,11 @@
 {
   "state": "running",
   "total": 27,
-  "completed": 2,
+  "completed": 3,
   "generated": 2,
   "reviewed": 2,
   "approved": 2,
-  "reviewFailed": 0,
+  "reviewFailed": 1,
   "eligible": 2,
   "startedAt": "2026-11-10T05:27:53.628646Z",
   "items": {
@@ -100,6 +100,48 @@
         "sourceErrors": [
           "https://www.britannica.com/biography/Jane-Goodall Source retrieval failed: HTTP Error 403: Forbidden"
         ]
+      }
+    },
+    "reflection-009": {
+      "item": {
+        "id": "reflection-009",
+        "category": "Philosophy",
+        "title": "Respond with compassion",
+        "body": "Compassion can guide action without requiring that you agree with every behavior.",
+        "attribution": "MyDayCoach original reflection — not a historical quotation",
+        "source": "https://en.wikipedia.org/wiki/Compassion",
+        "takeaway": "Offer a thoughtful response to someone having a difficult day.",
+        "status": "review_failed",
+        "detail": "Review failed [INVALID_ARTICLE]. No usable article in model response (fields: ['attribution', 'body', 'category', 'changes', 'id', 'takeaway', 'title'])\n\nIn the philosophical context of early Buddhism, as represented by the historical figure Gautama (the Buddha) in 5th-century BCE northern India, the core teachings revolve around a practical approach to alleviating suffering. Buddha is historically noted for his focus on the realities of human experience—namely, that suffering is an inevitable part of life and that liberation from suffering lies in understanding the self (or non-self) and cultivating attitudes that help overcome ignorance and attachment. Rather than theorizing for its own sake, the Buddha’s approach emphasizes actions and dispositions that contribute to well-being, both one’s own and that of others. In this context, the traditions inspired by the Buddha interpret compassion as a guiding principle—not necessarily because one agrees with all behaviors or viewpoints, but because a compassionate response is seen as practically conducive to reducing suffering. The tradition stresses mindful, considerate engagement with others and cautions against allowing disagreement or judgment to close off the possibility of empathetic connection. This outlook does not mean condoning all actions, but rather maintaining an open, humane presence, which aligns with the broader Buddhist goal of liberation from cycles of reactivity and harm. Although later Buddhist texts elaborate these themes, the surviving early record consistently frames the Buddha’s method as practical and focused on responses that lessen suffering in daily life.",
+        "reviewStatus": "review_failed",
+        "reviewFailureSummary": "No usable article in model response (fields: ['attribution', 'body', 'category', 'changes', 'id', 'takeaway', 'title'])",
+        "publishedAt": "",
+        "reviewFailureCode": "INVALID_ARTICLE"
+      },
+      "audit": {
+        "state": "review_failed",
+        "eligible": false,
+        "generated": false,
+        "attempts": [
+          {
+            "attempt": 1,
+            "reviewCompleted": false,
+            "sourceUrls": [
+              "https://en.wikipedia.org/wiki/Compassion",
+              "https://plato.stanford.edu/entries/buddha/"
+            ],
+            "errorCode": "INVALID_ARTICLE",
+            "error": "No usable article in model response (fields: ['attribution', 'body', 'category', 'changes', 'id', 'takeaway', 'title'])"
+          }
+        ],
+        "completedReviews": 0,
+        "reasonCode": "INVALID_ARTICLE",
+        "reason": "No usable article in model response (fields: ['attribution', 'body', 'category', 'changes', 'id', 'takeaway', 'title'])",
+        "sourceUrls": [
+          "https://en.wikipedia.org/wiki/Compassion",
+          "https://plato.stanford.edu/entries/buddha/"
+        ],
+        "sourceErrors": []
       }
     }
   }
