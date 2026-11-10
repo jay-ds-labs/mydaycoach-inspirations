@@ -22,6 +22,7 @@ jobs:
         run: |
           python3 -m compileall -q scripts
           python3 -m unittest discover -s tests -p 'test_*.py' -v
+          python3 scripts/recovery_preflight.py
       - name: Re-review exact historical failures in small resumable batches
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
