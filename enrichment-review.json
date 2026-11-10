@@ -4522,42 +4522,118 @@
       "publication": "blocked_unapproved_review"
     },
     "generated-1bb6df6f67924b09b6bd": {
+      "previousReview": {
+        "state": "review_failed",
+        "checkedAt": "2026-11-09T23:02:27.041847Z",
+        "source": "https://encyclopedia.ushmm.org/content/en/article/janusz-korczak",
+        "reviewAttempts": [
+          {
+            "attempt": 1,
+            "approved": false,
+            "issues": [
+              "Generation/review error: HTTP Error 503: Service Unavailable"
+            ]
+          },
+          {
+            "attempt": 2,
+            "approved": false,
+            "issues": [
+              "Source evidence does not mention Janusz Korczak or his secret schools in the Warsaw Ghetto.",
+              "No direct support for claims about Korczak's activities, philosophy, or quotations from survivor accounts or his writings.",
+              "Details about the secret education, teaching methods, and ethical stances attributed to Korczak are not corroborated by the given evidence."
+            ]
+          },
+          {
+            "attempt": 3,
+            "approved": false,
+            "issues": [
+              "Generated article length 211 outside 600-1100 words"
+            ]
+          }
+        ],
+        "attemptCount": 3,
+        "reviewFailureSummary": "Article not yet approved by reviewer; Saved text has not passed a matching editorial review",
+        "sourceAccessible": true,
+        "sourceUrls": [
+          "https://en.wikipedia.org/wiki/Jewish_Ghetto_Police_in_Warsaw_Ghetto"
+        ],
+        "sourceCount": 1,
+        "wordCount": 763,
+        "reviewedTextMatchesSaved": false,
+        "originalSource": "https://encyclopedia.ushmm.org/content/en/article/janusz-korczak",
+        "evidenceSource": "https://en.wikipedia.org/wiki/Jewish_Ghetto_Police_in_Warsaw_Ghetto",
+        "issues": [
+          "Article not yet approved by reviewer",
+          "Saved text has not passed a matching editorial review"
+        ],
+        "factualRisk": "high",
+        "imageStatus": "awaiting_visual_and_license_review",
+        "publication": "ready_for_publish"
+      },
+      "recoveryBatchId": "historical-36-v1",
       "state": "review_failed",
-      "checkedAt": "2026-11-09T23:02:27.041847Z",
+      "checkedAt": "2026-11-10T01:53:18.094583Z",
       "source": "https://encyclopedia.ushmm.org/content/en/article/janusz-korczak",
+      "failureCodes": [
+        "EDITORIAL_QUALITY_FAILED"
+      ],
       "reviewAttempts": [
         {
           "attempt": 1,
           "approved": false,
           "issues": [
-            "Generation/review error: HTTP Error 503: Service Unavailable"
-          ]
+            "Key factual claims about Korczak secretly organizing schools in the ghetto are not directly supported by cited source evidence.",
+            "No direct evidence provided for Korczak's specific activities adapting orphanage routines into makeshift classrooms, lesson content, or methods under occupation.",
+            "No supporting evidence for survivor or chronicler descriptions referenced (describing routines, hope, or how lessons preserved dignity)."
+          ],
+          "completedEditorialReview": true
         },
         {
           "attempt": 2,
           "approved": false,
           "issues": [
-            "Source evidence does not mention Janusz Korczak or his secret schools in the Warsaw Ghetto.",
-            "No direct support for claims about Korczak's activities, philosophy, or quotations from survivor accounts or his writings.",
-            "Details about the secret education, teaching methods, and ethical stances attributed to Korczak are not corroborated by the given evidence."
-          ]
+            "Generated article length 316 outside 600-1100 words"
+          ],
+          "failureCode": "EDITORIAL_QUALITY_FAILED"
         },
         {
           "attempt": 3,
           "approved": false,
           "issues": [
-            "Generated article length 211 outside 600-1100 words"
-          ]
+            "Article includes claims about Korczak organizing secret schools inside the Warsaw Ghetto and specific educational practices, but evidence from the supplied source is not sufficient to confirm these facts.",
+            "The only directly supplied source relates to the Jewish Ghetto Police, not Janusz Korczak, his educational activities, or the secret classes.",
+            "Article references widespread educational activities and ethical philosophy, which, while supported broadly by Holocaust scholarship, are not specifically confirmed in the evidence provided."
+          ],
+          "completedEditorialReview": true
+        },
+        {
+          "attempt": 4,
+          "approved": false,
+          "issues": [
+            "Generated article length 339 outside 600-1100 words"
+          ],
+          "failureCode": "EDITORIAL_QUALITY_FAILED"
+        },
+        {
+          "attempt": 5,
+          "approved": false,
+          "issues": [
+            "No direct evidence provided for Korczak organizing secret schools specifically in the Warsaw Ghetto",
+            "Factual claims about clandestine teaching, curriculum, and routine are not explicitly supported by supplied source",
+            "Cited survivor accounts and later scholarship are mentioned as supporting, but not specifically quoted or referenced"
+          ],
+          "completedEditorialReview": true
         }
       ],
-      "attemptCount": 3,
+      "attemptCount": 5,
+      "completedEditorialReviews": 3,
       "reviewFailureSummary": "Article not yet approved by reviewer; Saved text has not passed a matching editorial review",
       "sourceAccessible": true,
       "sourceUrls": [
         "https://en.wikipedia.org/wiki/Jewish_Ghetto_Police_in_Warsaw_Ghetto"
       ],
       "sourceCount": 1,
-      "wordCount": 763,
+      "wordCount": 815,
       "reviewedTextMatchesSaved": false,
       "originalSource": "https://encyclopedia.ushmm.org/content/en/article/janusz-korczak",
       "evidenceSource": "https://en.wikipedia.org/wiki/Jewish_Ghetto_Police_in_Warsaw_Ghetto",
@@ -4567,7 +4643,7 @@
       ],
       "factualRisk": "high",
       "imageStatus": "awaiting_visual_and_license_review",
-      "publication": "ready_for_publish"
+      "publication": "blocked_unapproved_review"
     },
     "generated-ffef1f8bed1e49bfa232": {
       "state": "approved",
