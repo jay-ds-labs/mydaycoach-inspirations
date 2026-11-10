@@ -8,16 +8,16 @@ MIN_WORDS=600
 MAX_WORDS=1100
 
 def eligible(item,review,image_record):
-    """Review failures are advisory; a complete article is publishable without an image."""
+    """Only evidence-approved, matching editorial reviews are publishable."""
     reasons=[]
     words=len(str(item.get("detail") or "").split())
     if not MIN_WORDS<=words<=MAX_WORDS:
         reasons.append("full_article_missing_or_wrong_length")
-    if item.get("reviewStatus",review.get("state")) not in ("approved","review_failed"):
+    if item.get("reviewStatus",review.get("state")) != "approved":
         reasons.append("review_cycle_not_completed")
-    if review.get("state") not in ("approved","review_failed"):
+    if review.get("state") != "approved":
         reasons.append("review_record_missing")
-    # Images are optional. An image may only be displayed when separately cleared.
+    if review.get("reviewedTextMatchesSaved") is not True:\n        reasons.append("reviewed_text_does_not_match_saved")\n    # Images are optional. An image may only be displayed when separately cleared.
     selected=image_record.get("selected")
     image_ready=False
     if isinstance(selected,dict):
