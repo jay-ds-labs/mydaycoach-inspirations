@@ -6,7 +6,7 @@ from publication_gate import eligible
 
 class PublicationGateTests(unittest.TestCase):
     def setUp(self):
-        self.item={"id":"test","detail":"word "*700,"reviewStatus":"approved"}
+        self.item={"id":"test","detail":"word "*700,"reviewStatus":"approved","status":"ready_for_publish"}
         self.review={"state":"approved","reviewedTextMatchesSaved":True}
         self.image={"candidates":[],"selected":None}
 
@@ -21,12 +21,22 @@ class PublicationGateTests(unittest.TestCase):
         self.assertFalse(result["eligible"])
         self.assertEqual(result["reviewFailureSummary"],"Unsupported chronology")
 
+    def test_three_completed_reviews_can_be_ready_with_review_failed(self):
+        self.item["reviewStatus"]="review_failed"
+        self.review={"state":"review_failed","completedEditorialReviews":3,
+                     "sourceAccessible":True,"reviewedTextMatchesSaved":True}
+        self.assertTrue(eligible(self.item,self.review,self.image)["eligible"])
+
+    def test_short_quote_is_eligible(self):
+        self.item["detail"]="A concise quotation with verified context."
+        self.assertTrue(eligible(self.item,self.review,self.image)["eligible"])
+
     def test_mismatched_reviewed_text_is_blocked(self):
         self.review["reviewedTextMatchesSaved"]=False
         self.assertFalse(eligible(self.item,self.review,self.image)["eligible"])
 
     def test_incomplete_story_is_blocked(self):
-        self.item["detail"]="short"
+        self.item["detail"]=""
         self.assertFalse(eligible(self.item,self.review,self.image)["eligible"])
 
     def test_missing_review_cycle_is_blocked(self):
