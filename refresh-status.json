@@ -1,16 +1,16 @@
 {
   "state": "running",
-  "stage": "review",
-  "completed": 4,
+  "stage": "generation",
+  "completed": 5,
   "total": 15,
-  "quotes": 4,
+  "quotes": 5,
   "stories": 0,
   "philosophy": 0,
   "generated": 5,
-  "reviewed": 4,
+  "reviewed": 5,
   "approved": 2,
   "needsReview": 0,
-  "reviewFailed": 2,
+  "reviewFailed": 3,
   "startedAt": "2026-11-10T06:08:52.589909Z",
   "completedAt": null,
   "error": null,
@@ -42,6 +42,13 @@
       "state": "approved",
       "reasonCode": "",
       "eligible": true
+    },
+    {
+      "id": "generated-0047f451621d4c2ea202",
+      "category": "Quotes",
+      "state": "review_failed",
+      "reasonCode": "INSUFFICIENT_EVIDENCE",
+      "eligible": false
     }
   ]
 }

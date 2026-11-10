@@ -2958,6 +2958,90 @@
         "https://en.wikipedia.org/wiki/Margaret"
       ],
       "sourceErrors": []
+    },
+    "generated-0047f451621d4c2ea202": {
+      "state": "review_failed",
+      "eligible": false,
+      "generated": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "reviewCompleted": true,
+          "sourceUrls": [
+            "https://en.wikipedia.org/wiki/Harriet_Tubman_Grave"
+          ],
+          "changes": "Reviewed the existing draft because composition returned no article.",
+          "approved": false,
+          "complete": true,
+          "grounded": false,
+          "feedback": [
+            "The Wikipedia source provided is specifically an article about Tubman's gravesite, not about her personal history, Underground Railroad activities, or conduct as a freedom fighter.",
+            "The article's claims about Tubman's actions, strategies, and legacy are widely reported elsewhere, but are not supported by the supplied source.",
+            "There is substantial evidence for the historical claims made, but none directly cited here from the provided URL or content.",
+            "The source cited does indirectly reference Tubman’s role on the Underground Railroad and as a Civil War scout/nurse via a grave inscription, but provides no detail about her methods, journeys, leadership, or strategies.",
+            "Quotations and paraphrases about means of navigation, codes, and philosophy are not verifiable within the cited evidence."
+          ]
+        },
+        {
+          "attempt": 2,
+          "reviewCompleted": true,
+          "sourceUrls": [
+            "https://en.wikipedia.org/wiki/Harriet_Tubman_Grave"
+          ],
+          "changes": "",
+          "approved": false,
+          "complete": true,
+          "grounded": false,
+          "feedback": [
+            "The article asserts detailed elements of Tubman's role—such as use of astronomy and coded signals—that are not directly supported by the provided source; the evidence is limited to general biographical summary and grave marker facts.",
+            "Quotations concerning her analogy as 'Moses' and themes of hope are not substantiated by the grave marker source, which commemorates her general achievements but does not specifically support the particular claims made about the methods she used or the philosophical takeaway.",
+            "There is inference and editorializing beyond the contents of the cited source, which focuses solely on the details of the grave and its inscriptions, not on the particulars of Tubman's missions or the encoded practices of the Underground Railroad."
+          ]
+        },
+        {
+          "attempt": 3,
+          "reviewCompleted": true,
+          "sourceUrls": [
+            "https://en.wikipedia.org/wiki/Harriet_Tubman_Grave"
+          ],
+          "changes": "",
+          "approved": false,
+          "complete": false,
+          "grounded": false,
+          "feedback": [
+            "The card and article emphasize Tubman's use of astronomy and coded signals ('Code of the North Star'), and claim she relied on such methods to guide others, but the provided primary source (the Wikipedia page for her grave) does not verify this detail—its focus is on her gravesite, memorialization, and her broad historical significance.",
+            "No corroborating evidence in the referenced source is presented regarding Tubman's nickname 'Moses' or her operational use of celestial navigation and coded signals.",
+            "There is implicit editorial summary and inspiration extrapolated beyond the evidence supplied, especially regarding specific methods and impact.",
+            "The content, while respectful and reflective, includes claims and characterizations (such as Tubman outmaneuvering odds through practical hope) that are not directly evidenced by the cited source."
+          ]
+        }
+      ],
+      "completedReviews": 3,
+      "reasonCode": "INSUFFICIENT_EVIDENCE",
+      "reason": "The specific claims about Tubman's methods, nickname, and reliance on coded signals/astronomy are not substantiated by the cited gravesite source.",
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Harriet_Tubman_Grave"
+      ],
+      "sourceErrors": [
+        "https://www.nps.gov/articles/harriet-tubman.htm Source retrieval failed: HTTP Error 404: Not Found",
+        "Additional evidence lookup failed: HTTP Error 429: Too Many Requests"
+      ],
+      "finalVersion": {
+        "title": "Messenger Across Borders: Harriet Tubman and the Code of the North Star",
+        "body": "Harriet Tubman, risking her life as a conductor on the Underground Railroad, repeatedly returned to the South to lead slaves to freedom. She relied on astronomy, coded signals, and courageous action, gaining the nickname 'Moses' for guiding so many toward liberty—demonstrating how persistent, practical hope can outmaneuver enormous odds.",
+        "attribution": "Harriet Tubman (c.1822–1913)",
+        "source": "https://en.wikipedia.org/wiki/Harriet_Tubman_Grave",
+        "takeaway": "Even when facing oppressive systems, practical courage and resourcefulness make a difference—small, persistent acts can build toward massive, life-changing outcomes.",
+        "detail": "Review failed [INSUFFICIENT_EVIDENCE]. The specific claims about Tubman's methods, nickname, and reliance on coded signals/astronomy are not substantiated by the cited gravesite source.\n\nHarriet Tubman’s legacy is honored in Auburn, New York, where her grave stands as a testament to a life of relentless service and moral conviction. Born into slavery in Maryland in the early 1820s, Tubman became a central figure in the struggle for freedom, risking her own safety for the liberation of others. Her remarkable contributions as an abolitionist, nurse, and Civil War scout are memorialized on her headstone, which simply and powerfully reads, 'Servant of God, Well Done.'\n\nAlthough the specifics of her missions can be found in other accounts, Tubman’s gravesite at Fort Hill Cemetery reflects the community’s enduring gratitude and respect. Marker inscriptions attest to her service and the profound impact she had on American history, while annual pilgrimages led by local churches keep her memory alive. Her grave—marked by a humble stone set beneath the shelter of large trees—invites reflection on a life defined not by public recognition, but by quiet, practical action in the service of others.\n\nThe continued commemoration of Tubman’s resting place demonstrates that transformational change can start from acts of compassion and perseverance. Her story, preserved at the site where she was laid to rest, reminds us that courageous, purposeful deeds—no matter how modest their beginning—can reverberate through generations, building a legacy of hope and freedom.",
+        "id": "generated-0047f451621d4c2ea202",
+        "category": "Quotes",
+        "status": "review_failed",
+        "publishedAt": "",
+        "image": "https://raw.githubusercontent.com/jay-ds-labs/mydaycoach-inspirations/main/images/inspire/reflection-030.webp",
+        "reviewStatus": "review_failed",
+        "reviewFailureCode": "INSUFFICIENT_EVIDENCE",
+        "reviewFailureSummary": "The specific claims about Tubman's methods, nickname, and reliance on coded signals/astronomy are not substantiated by the cited gravesite source."
+      }
     }
   }
 }
