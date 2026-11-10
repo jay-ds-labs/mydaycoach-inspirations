@@ -1,11 +1,11 @@
 {
   "state": "running",
   "total": 27,
-  "completed": 6,
+  "completed": 7,
   "generated": 0,
   "reviewed": 0,
   "approved": 0,
-  "reviewFailed": 6,
+  "reviewFailed": 7,
   "eligible": 0,
   "startedAt": "2026-11-10T05:27:53.628646Z",
   "items": {
@@ -268,6 +268,48 @@
         "sourceErrors": [
           "https://plato.stanford.edu/entries/ethics/ Source retrieval failed: HTTP Error 404: Not Found"
         ]
+      }
+    },
+    "reflection-026": {
+      "item": {
+        "id": "reflection-026",
+        "category": "Philosophy",
+        "title": "Choose deliberate attention",
+        "body": "Attention is limited; where you direct it influences what you learn and do.",
+        "attribution": "MyDayCoach original reflection — not a historical quotation",
+        "source": "https://en.wikipedia.org/wiki/Attention",
+        "takeaway": "Protect one 20-minute period from interruptions.",
+        "status": "review_failed",
+        "detail": "Review failed [INVALID_ARTICLE]. No usable article within the app's storage limit\n\nPhilosophical explorations of well-being, as discussed in the referenced Stanford Encyclopedia of Philosophy article, seek to define what ultimately makes life go well for a person. Different theories address this: hedonist views focus on pleasure, desire theories emphasize the satisfaction of preferences, and objective list theories propose certain goods as inherently beneficial. Across these theories, well-being involves experiencing goods—like friendship, health, or achievement—that give life value for the individual. While the article reflects on how elements such as meaning, virtue, or positive emotion shape a flourishing life, it does not explicitly name deliberate attention as a foundational component. Attention, though a relevant faculty in the practical pursuit of well-being, is not treated as a primary subject or mechanism of well-being in the philosophical account described. Instead, the core philosophical question remains: What is good for a person, and how are these goods integrated into a life worth living? Protecting time from interruptions—such as by carving out uninterrupted periods for meaningful activity—can support individuals in achieving the goods that philosophers identify as contributing to well-being, but this step is an application to daily practice rather than a core philosophical tenet from the source.",
+        "reviewStatus": "review_failed",
+        "reviewFailureSummary": "No usable article within the app's storage limit",
+        "publishedAt": "",
+        "reviewFailureCode": "INVALID_ARTICLE"
+      },
+      "audit": {
+        "state": "review_failed",
+        "eligible": false,
+        "generated": false,
+        "attempts": [
+          {
+            "attempt": 1,
+            "reviewCompleted": false,
+            "sourceUrls": [
+              "https://en.wikipedia.org/wiki/Attention",
+              "https://plato.stanford.edu/entries/well-being/"
+            ],
+            "errorCode": "INVALID_ARTICLE",
+            "error": "No usable article within the app's storage limit"
+          }
+        ],
+        "completedReviews": 0,
+        "reasonCode": "INVALID_ARTICLE",
+        "reason": "No usable article within the app's storage limit",
+        "sourceUrls": [
+          "https://en.wikipedia.org/wiki/Attention",
+          "https://plato.stanford.edu/entries/well-being/"
+        ],
+        "sourceErrors": []
       }
     }
   }
