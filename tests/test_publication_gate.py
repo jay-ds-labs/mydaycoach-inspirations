@@ -18,10 +18,14 @@ class PublicationGateTests(unittest.TestCase):
         self.item["reviewStatus"]="review_failed"
         self.review={"state":"review_failed","reviewFailureSummary":"Unsupported chronology"}
         result=eligible(self.item,self.review,self.image)
-        self.assertTrue(result["eligible"])
+        self.assertFalse(result["eligible"])
         self.assertEqual(result["reviewFailureSummary"],"Unsupported chronology")
 
-    def test_mismatched_reviewed_text_is_blocked(self):\n        self.review["reviewedTextMatchesSaved"]=False\n        self.assertFalse(eligible(self.item,self.review,self.image)["eligible"])\n\n    def test_incomplete_story_is_blocked(self):
+    def test_mismatched_reviewed_text_is_blocked(self):
+        self.review["reviewedTextMatchesSaved"]=False
+        self.assertFalse(eligible(self.item,self.review,self.image)["eligible"])
+
+    def test_incomplete_story_is_blocked(self):
         self.item["detail"]="short"
         self.assertFalse(eligible(self.item,self.review,self.image)["eligible"])
 
