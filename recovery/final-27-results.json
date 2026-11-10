@@ -1,12 +1,12 @@
 {
   "state": "running",
   "total": 27,
-  "completed": 10,
-  "generated": 10,
-  "reviewed": 10,
-  "approved": 5,
+  "completed": 11,
+  "generated": 11,
+  "reviewed": 11,
+  "approved": 6,
   "reviewFailed": 5,
-  "eligible": 9,
+  "eligible": 10,
   "startedAt": "2026-11-10T05:27:53.628646Z",
   "items": {
     "turing-computing": {
@@ -734,6 +734,54 @@
         ],
         "sourceErrors": [
           "https://www.loc.gov/exhibits/african-american-odyssey/abolitionist-frederick-douglass.html Source retrieval failed: HTTP Error 404: Not Found"
+        ]
+      }
+    },
+    "generated-b81a4035c8844769a302": {
+      "item": {
+        "title": "The Quiet Intensity of Florence Nightingale: Statistics and the Light of Truth",
+        "body": "During the Crimean War, Florence Nightingale’s innovative use of statistics and evidence-based practices revolutionized military medicine. Her pursuit of truth through numbers, practiced quietly and diligently, not only saved countless lives, but established a legacy for scientific integrity in public health advocacy.",
+        "detail": "Florence Nightingale (1820–1910) is widely regarded as the founder of modern nursing and a pioneering figure in the use of statistics in public health. During the Crimean War, Nightingale served as a manager and trainer of nurses, organizing care for wounded soldiers at the Selimiye Barracks in Constantinople. Her interventions in hospital hygiene and sanitation, such as improved cleanliness and living standards, led to significant reductions in death rates among soldiers—a documented achievement outlined in the historical record. Following the war, Nightingale embarked on extensive efforts to professionalize nursing, establishing the world’s first secular nursing school at St Thomas’ Hospital in London in 1860. Beyond her hands-on nursing work, Nightingale made profound contributions as an innovator in statistics; she developed the polar area diagram, also known as the Nightingale rose diagram, to visually demonstrate preventable causes of mortality. This early form of data visualization was designed to communicate complex statistical evidence in an accessible way, supporting evidence-based advocacy for hospital reform. Nightingale’s writings often sought to educate a broad audience, sometimes using plain English so her insights could reach those with limited literacy, embodying her commitment to both intellectual rigor and accessible impact. Even today, her approach is honored through the Nightingale Pledge for nurses, the Florence Nightingale Medal, and International Nurses Day, all reflecting her lasting influence on health care, scientific integrity, and social reform.",
+        "attribution": "Florence Nightingale",
+        "source": "https://en.wikipedia.org/wiki/Florence_Nightingale",
+        "takeaway": "Base your actions and arguments on carefully gathered evidence, and communicate uncomfortable truths with clarity and integrity.",
+        "image": "",
+        "category": "Quotes",
+        "quotation": "\"I never gave or took an excuse.\"",
+        "original_context": "This statement by Florence Nightingale appears in multiple letters and was cited by her contemporaries to encapsulate her refusal to settle for explanations that sidestep responsibility; she brought this ethic to her transformational work in healthcare during and after the Crimean War.",
+        "id": "generated-b81a4035c8844769a302",
+        "status": "ready_for_publish",
+        "publishedAt": "",
+        "reviewStatus": "approved",
+        "reviewFailureSummary": "",
+        "reviewFailureCode": ""
+      },
+      "audit": {
+        "state": "approved",
+        "eligible": true,
+        "generated": true,
+        "attempts": [
+          {
+            "attempt": 1,
+            "reviewCompleted": true,
+            "sourceUrls": [
+              "https://en.wikipedia.org/wiki/Florence_Nightingale"
+            ],
+            "changes": "Expanded factual foundation by citing Nightingale’s work in the Crimean War, her documented reforms, her use of the polar area diagram for data visualization, and her establishment of professional nursing. Stated supported facts only, removed unsupported generalizations from the prior card, addressed context of her role as a statistician and reformer, clarified meaning and distilled a practical, evidence-based takeaway. All material directly supported by the Wikipedia source.",
+            "approved": true,
+            "complete": true,
+            "grounded": true,
+            "feedback": []
+          }
+        ],
+        "completedReviews": 1,
+        "reasonCode": "",
+        "reason": "",
+        "sourceUrls": [
+          "https://en.wikipedia.org/wiki/Florence_Nightingale"
+        ],
+        "sourceErrors": [
+          "https://www.statisticsviews.com/details/feature/4713541/Florence-Nightingale-The-founder-of-modern-nursing-and-a-pioneer-in-statistics.html Source retrieval failed: HTTP Error 404: Not Found"
         ]
       }
     }
