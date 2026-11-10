@@ -217,8 +217,8 @@ def main():
                             best_detail=detail;best_result=result;best_issues=[]
                             attempts.append(attempt_record)
                             break
-                        if not best_detail or len(editorial_issues)<len(best_issues):
-                            best_detail=detail;best_result=result;best_issues=editorial_issues or ["Reviewer did not approve"]
+                        # Keep the actual reviewed text paired with its review.
+                        best_detail=detail;best_result=result;best_issues=editorial_issues or ["Reviewer did not approve"]
                         attempts.append(attempt_record)
                         issues=editorial_issues or ["Factual or editorial review did not approve"]
                     except Exception as error:
@@ -248,7 +248,7 @@ def main():
                    else "needs_manual_review" if completed_reviews==0 and length_failures>=3
                    else "review_pending_retry" if completed_reviews==0
                    else "review_failed")
-            if state=="approved" or (completed_reviews>=MAX_ATTEMPTS and saved_detail.strip()):
+            if state=="approved" or (completed_reviews>=MAX_ATTEMPTS and exact_review and saved_detail.strip()):
                 item["status"]="ready_for_publish"
             if state!="approved":
                 issues=list(best_issues or issues or ["No approved review of the saved article"])
