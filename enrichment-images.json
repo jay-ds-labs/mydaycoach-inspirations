@@ -5372,7 +5372,7 @@
       "state": "awaiting_visual_and_license_review"
     },
     "reflection-023": {
-      "checkedAt": "2026-11-10T01:34:37.678932Z",
+      "checkedAt": "2026-11-10T02:28:40.950644Z",
       "queries": [
         "Listen before advising"
       ],
@@ -5392,10 +5392,14 @@
           "requiresVisualReview": true,
           "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
           "visualCheck": {
-            "state": "relevant_candidate",
-            "confidence": "high",
-            "issues": [],
-            "explanation": "The image shows a group of police officers listening to a briefing, which directly relates to the inspiration 'Listen before advising.' This scenario exemplifies the act of listening and understanding before taking action or giving advice, aligning well with the philosophical concept of understanding another's experience before offering solutions."
+            "state": "needs_visual_review",
+            "confidence": "medium",
+            "issues": [
+              "Image depicts a formal training session, which relates indirectly to the concept of listening before advising but is contextually specific.",
+              "The inspiration is philosophical and general, while the image is a practical, real-world scenario with police officers.",
+              "Provenance and intent of image as illustration of philosophical idea is uncertain."
+            ],
+            "explanation": "The image shows Iraqi police officers listening to a briefing, which aligns with the inspiration's theme of listening before advising or acting. This setting illustrates the importance of understanding through listening prior to taking action or giving advice. However, the image's context is a specific training exercise, which makes the philosophical connection indirect and somewhat interpretive rather than explicit. Thus, while relevant, there is some uncertainty about the suitability of this image as a representation of the broader philosophical concept."
           }
         },
         {
@@ -5415,8 +5419,10 @@
           "visualCheck": {
             "state": "needs_visual_review",
             "confidence": "medium",
-            "issues": [],
-            "explanation": "The image shows members of a military team listening to instructions before a task, which visually aligns with the inspiration 'Listen before advising.' This depicts an act of listening and understanding before taking action. However, the context is military training rather than a direct philosophical setting, so the connection is metaphorical rather than explicit."
+            "issues": [
+              "The image context is military training rather than a philosophical setting"
+            ],
+            "explanation": "The image shows military personnel listening to instructions, which aligns with the idea of 'listening before advising' as it depicts an instance where listening and understanding instructions precede action. However, the context is specific to military training rather than a broader philosophical concept, which lowers the confidence somewhat. The connection to the inspiration is metaphorical rather than literal."
           }
         },
         {

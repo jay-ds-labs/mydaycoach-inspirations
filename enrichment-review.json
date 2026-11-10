@@ -1858,42 +1858,106 @@
     },
     "reflection-023": {
       "previousReview": {
+        "previousReview": {
+          "state": "review_failed",
+          "checkedAt": "2026-11-09T22:47:20.936014Z",
+          "source": "https://plato.stanford.edu/entries/ethics/",
+          "reviewAttempts": [
+            {
+              "attempt": 1,
+              "approved": false,
+              "issues": [
+                "Generated article length 387 outside 600-1100 words"
+              ]
+            },
+            {
+              "attempt": 2,
+              "approved": false,
+              "issues": [
+                "Original source not specifically cited for any quotation or concrete claim.",
+                "Article references Socrates, Kant, and Iris Murdoch with specific philosophical ideas not explicitly supported by the provided source.",
+                "Article expands on clinical practice and professional ethics beyond what is supplied in the card or source."
+              ]
+            },
+            {
+              "attempt": 3,
+              "approved": false,
+              "issues": [
+                "Generated article length 451 outside 600-1100 words"
+              ]
+            }
+          ],
+          "attemptCount": 3,
+          "reviewFailureSummary": "Article not yet approved by reviewer; Saved text has not passed a matching editorial review",
+          "sourceAccessible": true,
+          "sourceUrls": [
+            "https://en.wikipedia.org/wiki/LeBron_James"
+          ],
+          "sourceCount": 1,
+          "wordCount": 618,
+          "reviewedTextMatchesSaved": false,
+          "originalSource": "https://plato.stanford.edu/entries/ethics/",
+          "evidenceSource": "https://en.wikipedia.org/wiki/LeBron_James",
+          "issues": [
+            "Article not yet approved by reviewer",
+            "Saved text has not passed a matching editorial review"
+          ],
+          "factualRisk": "high",
+          "imageStatus": "awaiting_visual_and_license_review",
+          "publication": "ready_for_publish"
+        },
+        "recoveryBatchId": "historical-36-v1",
         "state": "review_failed",
-        "checkedAt": "2026-11-09T22:47:20.936014Z",
+        "checkedAt": "2026-11-10T01:34:37.678961Z",
         "source": "https://plato.stanford.edu/entries/ethics/",
+        "failureCodes": [
+          "EDITORIAL_QUALITY_FAILED"
+        ],
         "reviewAttempts": [
           {
             "attempt": 1,
             "approved": false,
             "issues": [
-              "Generated article length 387 outside 600-1100 words"
-            ]
+              "Generated article length 457 outside 600-1100 words"
+            ],
+            "failureCode": "EDITORIAL_QUALITY_FAILED"
           },
           {
             "attempt": 2,
             "approved": false,
             "issues": [
-              "Original source not specifically cited for any quotation or concrete claim.",
-              "Article references Socrates, Kant, and Iris Murdoch with specific philosophical ideas not explicitly supported by the provided source.",
-              "Article expands on clinical practice and professional ethics beyond what is supplied in the card or source."
-            ]
+              "Generated article length 310 outside 600-1100 words"
+            ],
+            "failureCode": "EDITORIAL_QUALITY_FAILED"
           },
           {
             "attempt": 3,
             "approved": false,
             "issues": [
-              "Generated article length 451 outside 600-1100 words"
-            ]
+              "Article contains detailed references to Aristotle, Kant, and care ethics not supported by the supplied source",
+              "Source evidence is inaccessible or not provided for verification of philosophical claims or quotations",
+              "Article attributes concepts and history to philosophical figures and traditions without direct evidence from the cited Stanford Encyclopedia of Philosophy entry"
+            ],
+            "completedEditorialReview": true
+          },
+          {
+            "attempt": 4,
+            "approved": false,
+            "issues": [
+              "Generated article length 134 outside 600-1100 words"
+            ],
+            "failureCode": "EDITORIAL_QUALITY_FAILED"
           }
         ],
-        "attemptCount": 3,
+        "attemptCount": 4,
+        "completedEditorialReviews": 1,
         "reviewFailureSummary": "Article not yet approved by reviewer; Saved text has not passed a matching editorial review",
         "sourceAccessible": true,
         "sourceUrls": [
           "https://en.wikipedia.org/wiki/LeBron_James"
         ],
         "sourceCount": 1,
-        "wordCount": 618,
+        "wordCount": 693,
         "reviewedTextMatchesSaved": false,
         "originalSource": "https://plato.stanford.edu/entries/ethics/",
         "evidenceSource": "https://en.wikipedia.org/wiki/LeBron_James",
@@ -1903,11 +1967,11 @@
         ],
         "factualRisk": "high",
         "imageStatus": "awaiting_visual_and_license_review",
-        "publication": "ready_for_publish"
+        "publication": "blocked_unapproved_review"
       },
-      "recoveryBatchId": "historical-36-v1",
+      "recoveryBatchId": "remaining-27-v2",
       "state": "review_failed",
-      "checkedAt": "2026-11-10T01:34:37.678961Z",
+      "checkedAt": "2026-11-10T02:28:40.950725Z",
       "source": "https://plato.stanford.edu/entries/ethics/",
       "failureCodes": [
         "EDITORIAL_QUALITY_FAILED"
@@ -1917,56 +1981,53 @@
           "attempt": 1,
           "approved": false,
           "issues": [
-            "Generated article length 457 outside 600-1100 words"
+            "Claims about philosophical traditions and specific philosophers like Immanuel Kant are not substantiated by the provided source.",
+            "The provided source (LeBron James Wikipedia article) is irrelevant and does not support the article’s philosophical claims.",
+            "There is no evidence from the Stanford Encyclopedia of Philosophy or any other philosophy sources supplied."
           ],
-          "failureCode": "EDITORIAL_QUALITY_FAILED"
+          "completedEditorialReview": true
         },
         {
           "attempt": 2,
           "approved": false,
           "issues": [
-            "Generated article length 310 outside 600-1100 words"
+            "Source evidence is inaccessible for verification",
+            "Article discusses philosophical concepts (e.g., care ethics, empathy, paternalism) not directly referenced in or supportable by the supplied evidence",
+            "Source provided is about LeBron James and unrelated to philosophy or the Stanford Encyclopedia of Ethics entry"
           ],
-          "failureCode": "EDITORIAL_QUALITY_FAILED"
+          "completedEditorialReview": true
         },
         {
           "attempt": 3,
           "approved": false,
           "issues": [
-            "Article contains detailed references to Aristotle, Kant, and care ethics not supported by the supplied source",
-            "Source evidence is inaccessible or not provided for verification of philosophical claims or quotations",
-            "Article attributes concepts and history to philosophical figures and traditions without direct evidence from the cited Stanford Encyclopedia of Philosophy entry"
+            "Supplied source evidence is unrelated to the philosophy card topic",
+            "No support provided for claims about listening or human relationships",
+            "The article makes general philosophical assertions without verifiable attribution or evidence"
           ],
           "completedEditorialReview": true
-        },
-        {
-          "attempt": 4,
-          "approved": false,
-          "issues": [
-            "Generated article length 134 outside 600-1100 words"
-          ],
-          "failureCode": "EDITORIAL_QUALITY_FAILED"
         }
       ],
-      "attemptCount": 4,
-      "completedEditorialReviews": 1,
-      "reviewFailureSummary": "Article not yet approved by reviewer; Saved text has not passed a matching editorial review",
+      "attemptCount": 3,
+      "completedEditorialReviews": 3,
+      "reviewFailureSummary": "Supplied source evidence is unrelated to the philosophy card topic; No support provided for claims about listening or human relationships",
       "sourceAccessible": true,
       "sourceUrls": [
         "https://en.wikipedia.org/wiki/LeBron_James"
       ],
       "sourceCount": 1,
-      "wordCount": 693,
-      "reviewedTextMatchesSaved": false,
+      "wordCount": 105,
+      "reviewedTextMatchesSaved": true,
       "originalSource": "https://plato.stanford.edu/entries/ethics/",
       "evidenceSource": "https://en.wikipedia.org/wiki/LeBron_James",
       "issues": [
-        "Article not yet approved by reviewer",
-        "Saved text has not passed a matching editorial review"
+        "Supplied source evidence is unrelated to the philosophy card topic",
+        "No support provided for claims about listening or human relationships",
+        "The article makes general philosophical assertions without verifiable attribution or evidence"
       ],
       "factualRisk": "high",
       "imageStatus": "awaiting_visual_and_license_review",
-      "publication": "blocked_unapproved_review"
+      "publication": "ready_for_publish"
     },
     "reflection-024": {
       "state": "approved",
