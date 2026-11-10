@@ -2817,6 +2817,91 @@
         "reviewFailureCode": "INSUFFICIENT_EVIDENCE",
         "reviewFailureSummary": "The article discusses Grace Hopper, but the only source provided is an unrelated Wikipedia page about Rihanna."
       }
+    },
+    "generated-e8a8e7528b8e426098c8": {
+      "state": "review_failed",
+      "eligible": false,
+      "generated": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "reviewCompleted": true,
+          "sourceUrls": [
+            "https://en.wikipedia.org/wiki/Japanese_war_crimes"
+          ],
+          "changes": "Reviewed the existing draft because composition returned no article.",
+          "approved": false,
+          "complete": false,
+          "grounded": false,
+          "feedback": [
+            "The article discusses Thurgood Marshall and the U.S. civil rights movement, but the sole source is about Japanese war crimes, which is unrelated in both subject and evidence to the editorial.",
+            "There is no credible support or relevant context from the cited source for any claims or reflections about Marshall, Brown v. Board, or U.S. history.",
+            "No factual or documentary connection is established between the inspiration, article content, and the provided evidence."
+          ]
+        },
+        {
+          "attempt": 2,
+          "reviewCompleted": true,
+          "sourceUrls": [
+            "https://en.wikipedia.org/wiki/Japanese_war_crimes"
+          ],
+          "changes": "",
+          "approved": false,
+          "complete": false,
+          "grounded": false,
+          "feedback": [
+            "Card discusses Thurgood Marshall and the pursuit of justice in US civil rights, but source and article focus exclusively on Japanese war crimes in WWII, unrelated to Marshall or the US legal system.",
+            "No evidence in the cited source supports the card’s narrative or the editorial themes of Marshall’s legal strategy, advocacy, or the US struggle for civil rights.",
+            "There is a complete topic mismatch (drift) between card and cited evidence.",
+            "Card’s attribution and takeaway are not grounded in the article or source content."
+          ]
+        },
+        {
+          "attempt": 3,
+          "reviewCompleted": true,
+          "sourceUrls": [
+            "https://en.wikipedia.org/wiki/Japanese_war_crimes",
+            "https://en.wikipedia.org/wiki/African-American_history"
+          ],
+          "changes": "",
+          "approved": false,
+          "complete": false,
+          "grounded": false,
+          "feedback": [
+            "The inspiration centers on Thurgood Marshall and the pursuit of civil rights and legal equality in the United States, specifically referencing his role in Brown v. Board of Education.",
+            "The only evidence provided is from Wikipedia articles about Japanese war crimes and African-American history. The Japanese war crimes article is unrelated to Thurgood Marshall, Brown v. Board, or the American civil rights movement.",
+            "The African-American history source contains basic historical context, but there is no specific evidence or discussion of Thurgood Marshall, his legal work, or the related Supreme Court case.",
+            "There are no quotations or paraphrased ideas from Thurgood Marshall, nor are there direct references to his career or legacy in the sources provided.",
+            "The claims about Marshall’s life, strategies, and impact are neither directly supported nor mentioned in the given source evidence."
+          ]
+        }
+      ],
+      "completedReviews": 3,
+      "reasonCode": "INSUFFICIENT_EVIDENCE",
+      "reason": "No credible or relevant evidence about Thurgood Marshall or his work is present in the cited sources.",
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Japanese_war_crimes",
+        "https://en.wikipedia.org/wiki/African-American_history"
+      ],
+      "sourceErrors": [
+        "https://www.oyez.org/justices/thurgood_marshall Source has insufficient readable evidence"
+      ],
+      "finalVersion": {
+        "title": "Justice in the Shadow of Power: Thurgood Marshall and the Pursuit of Equality",
+        "body": "Thurgood Marshall’s legal work, particularly as the lead attorney in Brown v. Board of Education, reminds us that even entrenched systems of injustice can be changed through unwavering commitment, strategic advocacy, and faith in the law’s promise. His life demonstrates that progress is built by those who persistently challenge unfair norms, even when the odds seem insurmountable.",
+        "attribution": "Inspired by the life and words of Justice Thurgood Marshall",
+        "source": "https://en.wikipedia.org/wiki/Japanese_war_crimes",
+        "takeaway": "Effective change often begins with a single determined voice—sometimes in opposition—and grows as that voice proves both courageous and expert.",
+        "detail": "Review failed [INSUFFICIENT_EVIDENCE]. No credible or relevant evidence about Thurgood Marshall or his work is present in the cited sources.\n\nBoth before and during World War II, the Empire of Japan committed extensive war crimes and crimes against humanity across the Asia-Pacific region. These atrocities, sometimes described as the 'Asian Holocaust,' resulted in the deaths of tens of millions of people. The Japanese imperial military forces perpetrated acts ranging from mass killings and sexual slavery to forced labor, starvation, torture, and inhumane medical experimentation—most notoriously under units such as Unit 731. The Nanjing Massacre, the systematic exploitation of 'comfort women,' and brutal purges against civilian populations reflect a grim history of violence and dehumanization. \n\nCrucially, these crimes were not isolated acts by rogue individuals but were known, condoned, and at times ordered by Japanese military and political leadership. Documentation, including oral testimonies from both victims and Japanese veterans, indicate widespread participation or tacit approval by rank-and-file soldiers. In many occupied areas, local populations lived in constant peril and were subject to atrocities with little prospect of justice or recourse. \n\nAfter the war, the Allied occupation facilitated some legal reckoning through the International Military Tribunal for the Far East and other war crimes trials. However, the process of acknowledgment and accountability was incomplete: many perpetrators faced limited consequences, and issues of formal apology and reparations have continued to challenge regional relations to the present day. The enduring legacy of these wartime crimes highlights not only the destructive capacity of unchecked state power but also the necessity of vigilance, historical remembrance, and an unwavering commitment to upholding international law and human rights for all.",
+        "id": "generated-e8a8e7528b8e426098c8",
+        "category": "Quotes",
+        "status": "review_failed",
+        "publishedAt": "",
+        "image": "https://raw.githubusercontent.com/jay-ds-labs/mydaycoach-inspirations/main/images/inspire/reflection-030.webp",
+        "reviewStatus": "review_failed",
+        "reviewFailureCode": "INSUFFICIENT_EVIDENCE",
+        "reviewFailureSummary": "No credible or relevant evidence about Thurgood Marshall or his work is present in the cited sources."
+      }
     }
   }
 }
