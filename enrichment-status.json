@@ -1,6 +1,6 @@
 {
   "state": "running",
-  "stage": "generation",
+  "stage": "research",
   "completed": 8,
   "total": 36,
   "batchTotal": 5,
@@ -11,6 +11,6 @@
   "needsReview": 0,
   "startedAt": "2026-11-10T01:34:02.783408Z",
   "completedAt": null,
-  "currentId": null,
+  "currentId": "reflection-023",
   "error": null
 }
