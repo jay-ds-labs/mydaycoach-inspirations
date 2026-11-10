@@ -1,6 +1,11 @@
 name: Recover 36 historically failed editorial reviews
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - fix/editorial-review-resilience
+    paths:
+      - .github/workflows/recover-failed-reviews.yml
 permissions:
   contents: write
 concurrency:
@@ -8,6 +13,7 @@ concurrency:
   cancel-in-progress: false
 jobs:
   recover:
+    if: github.ref == 'refs/heads/fix/editorial-review-resilience' && (github.event_name == 'workflow_dispatch' || github.event.head_commit.message == 'Start controlled historical-36-v1 recovery')
     runs-on: ubuntu-latest
     timeout-minutes: 360
     steps:
