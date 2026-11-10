@@ -1,11 +1,11 @@
 {
   "state": "running",
   "total": 27,
-  "completed": 11,
+  "completed": 12,
   "generated": 0,
   "reviewed": 0,
   "approved": 0,
-  "reviewFailed": 11,
+  "reviewFailed": 12,
   "eligible": 0,
   "startedAt": "2026-11-10T05:27:53.628646Z",
   "items": {
@@ -490,6 +490,51 @@
         ],
         "sourceErrors": [
           "https://www.statisticsviews.com/details/feature/4713541/Florence-Nightingale-The-founder-of-modern-nursing-and-a-pioneer-in-statistics.html Source retrieval failed: HTTP Error 404: Not Found"
+        ]
+      }
+    },
+    "generated-26c079b50ce3413cade2": {
+      "item": {
+        "title": "Perseverance Amid Adversity: Eleanor Roosevelt’s Call to Conscience",
+        "body": "Eleanor Roosevelt’s leadership through periods of national crisis—most notably during the Great Depression and World War II—offered profound insights on the power of individual conscience and courage. Her words reflect not only moral clarity but also a call for unyielding ethical responsibility, even when faced with immense public and private pressures.",
+        "detail": "Review failed [INVALID_ARTICLE]. No usable article within the app's storage limit\n\nDuring the era of the Great Depression and World War II, Eleanor Roosevelt's public work and advocacy for human rights positioned her as a significant figure in the promotion of social welfare, though the specific initiatives and statements attributed to her should be supported by direct historical sources. While her name became closely associated with national efforts to address social inequality and support moral responsibility in government, the distinction between her documented actions and broader interpretations of her influence is crucial. The direct evidence provided references her daughter, Anna Roosevelt Halsted, who herself was active in journalism and public service during and after this period. In the absence of substantiated and specific direct quotations or actions of Eleanor Roosevelt relevant to this setting, the historical record underscores the broader context: members of the Roosevelt family engaged with issues of public welfare and human rights, contributing to a national conversation about ethical responsibility. This legacy, though often interpreted as an inspiration for personal conscience and public service, must be referenced carefully, distinguishing Eleanor's recognized leadership from family members’ later contributions.",
+        "attribution": "Eleanor Roosevelt",
+        "source": "https://en.wikipedia.org/wiki/Eleanor_Roosevelt",
+        "takeaway": "Face your hesitations directly and act upon your ethical convictions, even when you feel unprepared.",
+        "image": "",
+        "category": "Quotes",
+        "id": "generated-26c079b50ce3413cade2",
+        "status": "review_failed",
+        "publishedAt": "",
+        "reviewStatus": "review_failed",
+        "reviewFailureSummary": "No usable article within the app's storage limit",
+        "reviewFailureCode": "INVALID_ARTICLE"
+      },
+      "audit": {
+        "state": "review_failed",
+        "eligible": false,
+        "generated": false,
+        "attempts": [
+          {
+            "attempt": 1,
+            "reviewCompleted": false,
+            "sourceUrls": [
+              "https://en.wikipedia.org/wiki/Eleanor_Roosevelt",
+              "https://en.wikipedia.org/wiki/Anna_Roosevelt_Halsted"
+            ],
+            "errorCode": "INVALID_ARTICLE",
+            "error": "No usable article within the app's storage limit"
+          }
+        ],
+        "completedReviews": 0,
+        "reasonCode": "INVALID_ARTICLE",
+        "reason": "No usable article within the app's storage limit",
+        "sourceUrls": [
+          "https://en.wikipedia.org/wiki/Eleanor_Roosevelt",
+          "https://en.wikipedia.org/wiki/Anna_Roosevelt_Halsted"
+        ],
+        "sourceErrors": [
+          "https://www.nps.gov/articles/000/a-force-for-human-rights.htm Source retrieval failed: HTTP Error 404: Not Found"
         ]
       }
     }
