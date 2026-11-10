@@ -2929,34 +2929,88 @@
     },
     "generated-b81a4035c8844769a302": {
       "previousReview": {
-        "state": "review_failed",
-        "checkedAt": "2026-11-09T22:53:09.688888Z",
+        "previousReview": {
+          "state": "review_failed",
+          "checkedAt": "2026-11-09T22:53:09.688888Z",
+          "source": "https://www.statisticsviews.com/details/feature/4713541/Florence-Nightingale-The-founder-of-modern-nursing-and-a-pioneer-in-statistics.html",
+          "reviewAttempts": [
+            {
+              "attempt": 1,
+              "approved": false,
+              "issues": [
+                "Generated article length 295 outside 600-1100 words"
+              ]
+            },
+            {
+              "attempt": 2,
+              "approved": false,
+              "issues": [
+                "Generated article length 506 outside 600-1100 words"
+              ]
+            },
+            {
+              "attempt": 3,
+              "approved": false,
+              "issues": [
+                "Generated article length 582 outside 600-1100 words"
+              ]
+            }
+          ],
+          "attemptCount": 3,
+          "reviewFailureSummary": "Generated article length 582 outside 600-1100 words; Saved text has not passed a matching editorial review",
+          "sourceAccessible": true,
+          "sourceUrls": [
+            "https://en.wikipedia.org/wiki/Android_%28operating_system%29"
+          ],
+          "sourceCount": 1,
+          "wordCount": 649,
+          "reviewedTextMatchesSaved": false,
+          "originalSource": "https://www.statisticsviews.com/details/feature/4713541/Florence-Nightingale-The-founder-of-modern-nursing-and-a-pioneer-in-statistics.html",
+          "evidenceSource": "https://en.wikipedia.org/wiki/Android_%28operating_system%29",
+          "issues": [
+            "Generated article length 582 outside 600-1100 words",
+            "Saved text has not passed a matching editorial review"
+          ],
+          "factualRisk": "high",
+          "imageStatus": "awaiting_visual_and_license_review",
+          "publication": "ready_for_publish"
+        },
+        "recoveryBatchId": "historical-36-v1",
+        "state": "needs_manual_review",
+        "checkedAt": "2026-11-10T01:38:50.551284Z",
         "source": "https://www.statisticsviews.com/details/feature/4713541/Florence-Nightingale-The-founder-of-modern-nursing-and-a-pioneer-in-statistics.html",
+        "failureCodes": [
+          "EDITORIAL_QUALITY_FAILED"
+        ],
         "reviewAttempts": [
           {
             "attempt": 1,
             "approved": false,
             "issues": [
-              "Generated article length 295 outside 600-1100 words"
-            ]
+              "Generated article length 557 outside 600-1100 words"
+            ],
+            "failureCode": "EDITORIAL_QUALITY_FAILED"
           },
           {
             "attempt": 2,
             "approved": false,
             "issues": [
-              "Generated article length 506 outside 600-1100 words"
-            ]
+              "Generated article length 147 outside 600-1100 words"
+            ],
+            "failureCode": "EDITORIAL_QUALITY_FAILED"
           },
           {
             "attempt": 3,
             "approved": false,
             "issues": [
-              "Generated article length 582 outside 600-1100 words"
-            ]
+              "Generated article length 567 outside 600-1100 words"
+            ],
+            "failureCode": "EDITORIAL_QUALITY_FAILED"
           }
         ],
         "attemptCount": 3,
-        "reviewFailureSummary": "Generated article length 582 outside 600-1100 words; Saved text has not passed a matching editorial review",
+        "completedEditorialReviews": 0,
+        "reviewFailureSummary": "Generated article length 567 outside 600-1100 words; Saved text has not passed a matching editorial review",
         "sourceAccessible": true,
         "sourceUrls": [
           "https://en.wikipedia.org/wiki/Android_%28operating_system%29"
@@ -2967,65 +3021,73 @@
         "originalSource": "https://www.statisticsviews.com/details/feature/4713541/Florence-Nightingale-The-founder-of-modern-nursing-and-a-pioneer-in-statistics.html",
         "evidenceSource": "https://en.wikipedia.org/wiki/Android_%28operating_system%29",
         "issues": [
-          "Generated article length 582 outside 600-1100 words",
+          "Generated article length 567 outside 600-1100 words",
           "Saved text has not passed a matching editorial review"
         ],
         "factualRisk": "high",
         "imageStatus": "awaiting_visual_and_license_review",
-        "publication": "ready_for_publish"
+        "publication": "blocked_unapproved_review"
       },
-      "recoveryBatchId": "historical-36-v1",
-      "state": "needs_manual_review",
-      "checkedAt": "2026-11-10T01:38:50.551284Z",
+      "recoveryBatchId": "remaining-27-v2",
+      "state": "review_failed",
+      "checkedAt": "2026-11-10T02:30:45.412772Z",
       "source": "https://www.statisticsviews.com/details/feature/4713541/Florence-Nightingale-The-founder-of-modern-nursing-and-a-pioneer-in-statistics.html",
       "failureCodes": [
-        "EDITORIAL_QUALITY_FAILED"
+        "FACTUAL_CONTRADICTION"
       ],
       "reviewAttempts": [
         {
           "attempt": 1,
           "approved": false,
           "issues": [
-            "Generated article length 557 outside 600-1100 words"
+            "Supplied evidence is unrelated to Florence Nightingale or the Crimean War",
+            "No support offered for claims about Nightingale's use of statistics or impact on public health",
+            "Claims about mortality reduction, polar area diagrams, and medical reforms are unsubstantiated by evidence"
           ],
-          "failureCode": "EDITORIAL_QUALITY_FAILED"
+          "completedEditorialReview": true
         },
         {
           "attempt": 2,
           "approved": false,
           "issues": [
-            "Generated article length 147 outside 600-1100 words"
+            "No supplied evidence relates to Florence Nightingale or her contributions to statistics or medicine",
+            "Source evidence concerns Android operating system, not the historical subject of the article",
+            "Cannot confirm any factual claim or quotation in the article based on the supplied evidence"
           ],
-          "failureCode": "EDITORIAL_QUALITY_FAILED"
+          "completedEditorialReview": true
         },
         {
           "attempt": 3,
           "approved": false,
           "issues": [
-            "Generated article length 567 outside 600-1100 words"
+            "No evidence provided about Florence Nightingale",
+            "Supplied evidence only covers Android OS",
+            "Article's factual claims unsupported by evidence"
           ],
-          "failureCode": "EDITORIAL_QUALITY_FAILED"
+          "completedEditorialReview": true
         }
       ],
       "attemptCount": 3,
-      "completedEditorialReviews": 0,
-      "reviewFailureSummary": "Generated article length 567 outside 600-1100 words; Saved text has not passed a matching editorial review",
+      "completedEditorialReviews": 3,
+      "reviewFailureSummary": "No evidence provided about Florence Nightingale; Supplied evidence only covers Android OS",
       "sourceAccessible": true,
       "sourceUrls": [
         "https://en.wikipedia.org/wiki/Android_%28operating_system%29"
       ],
       "sourceCount": 1,
-      "wordCount": 649,
-      "reviewedTextMatchesSaved": false,
+      "wordCount": 88,
+      "reviewedTextMatchesSaved": true,
       "originalSource": "https://www.statisticsviews.com/details/feature/4713541/Florence-Nightingale-The-founder-of-modern-nursing-and-a-pioneer-in-statistics.html",
       "evidenceSource": "https://en.wikipedia.org/wiki/Android_%28operating_system%29",
       "issues": [
-        "Generated article length 567 outside 600-1100 words",
-        "Saved text has not passed a matching editorial review"
+        "No evidence provided about Florence Nightingale",
+        "Supplied evidence only covers Android OS",
+        "Article's factual claims unsupported by evidence",
+        "Mismatch between provided card and evidence"
       ],
       "factualRisk": "high",
       "imageStatus": "awaiting_visual_and_license_review",
-      "publication": "blocked_unapproved_review"
+      "publication": "ready_for_publish"
     },
     "generated-26c079b50ce3413cade2": {
       "previousReview": {
