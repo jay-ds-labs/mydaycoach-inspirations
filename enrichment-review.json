@@ -3091,42 +3091,118 @@
     },
     "generated-26c079b50ce3413cade2": {
       "previousReview": {
+        "previousReview": {
+          "state": "review_failed",
+          "checkedAt": "2026-11-09T22:53:35.958114Z",
+          "source": "https://www.nps.gov/articles/000/a-force-for-human-rights.htm",
+          "reviewAttempts": [
+            {
+              "attempt": 1,
+              "approved": false,
+              "issues": [
+                "No direct evidence from the source provided",
+                "Some quotations and key claims not directly supported",
+                "Partial/inaccessible evidence for attributed actions and exact quotations"
+              ]
+            },
+            {
+              "attempt": 2,
+              "approved": false,
+              "issues": [
+                "Generation/review error: HTTP Error 503: Service Unavailable"
+              ]
+            },
+            {
+              "attempt": 3,
+              "approved": false,
+              "issues": [
+                "Generated article length 218 outside 600-1100 words"
+              ]
+            }
+          ],
+          "attemptCount": 3,
+          "reviewFailureSummary": "Article not yet approved by reviewer; Saved text has not passed a matching editorial review",
+          "sourceAccessible": true,
+          "sourceUrls": [
+            "https://en.wikipedia.org/wiki/Anna_Roosevelt_Halsted"
+          ],
+          "sourceCount": 1,
+          "wordCount": 636,
+          "reviewedTextMatchesSaved": false,
+          "originalSource": "https://www.nps.gov/articles/000/a-force-for-human-rights.htm",
+          "evidenceSource": "https://en.wikipedia.org/wiki/Anna_Roosevelt_Halsted",
+          "issues": [
+            "Article not yet approved by reviewer",
+            "Saved text has not passed a matching editorial review"
+          ],
+          "factualRisk": "high",
+          "imageStatus": "awaiting_visual_and_license_review",
+          "publication": "ready_for_publish"
+        },
+        "recoveryBatchId": "historical-36-v1",
         "state": "review_failed",
-        "checkedAt": "2026-11-09T22:53:35.958114Z",
+        "checkedAt": "2026-11-10T01:39:38.624457Z",
         "source": "https://www.nps.gov/articles/000/a-force-for-human-rights.htm",
+        "failureCodes": [
+          "EDITORIAL_QUALITY_FAILED"
+        ],
         "reviewAttempts": [
           {
             "attempt": 1,
             "approved": false,
             "issues": [
-              "No direct evidence from the source provided",
-              "Some quotations and key claims not directly supported",
-              "Partial/inaccessible evidence for attributed actions and exact quotations"
-            ]
+              "Some quotations and specific claims lack direct support from the supplied source evidence.",
+              "Much of the article’s detailed narrative about Eleanor Roosevelt’s advocacy, travels, and personal philosophy is not directly corroborated by the provided NPS source or the evidence about Anna Roosevelt Halsted.",
+              "Motivations and internal reasoning are inferred for Eleanor Roosevelt (e.g., her refusal to let despair paralyze her, her philosophy about leadership), but these are not explicitly supported by the evidence."
+            ],
+            "completedEditorialReview": true
           },
           {
             "attempt": 2,
             "approved": false,
             "issues": [
-              "Generation/review error: HTTP Error 503: Service Unavailable"
-            ]
+              "Generated article length 221 outside 600-1100 words"
+            ],
+            "failureCode": "EDITORIAL_QUALITY_FAILED"
           },
           {
             "attempt": 3,
             "approved": false,
             "issues": [
-              "Generated article length 218 outside 600-1100 words"
-            ]
+              "Source evidence is insufficient: supplied evidence relates to Anna Roosevelt Halsted, not Eleanor Roosevelt directly",
+              "No direct quotations from Eleanor Roosevelt are provided or sourced",
+              "Key factual claims about Eleanor Roosevelt’s actions, writings, and influence are not explicitly supported by the provided evidence"
+            ],
+            "completedEditorialReview": true
+          },
+          {
+            "attempt": 4,
+            "approved": false,
+            "issues": [
+              "Generated article length 250 outside 600-1100 words"
+            ],
+            "failureCode": "EDITORIAL_QUALITY_FAILED"
+          },
+          {
+            "attempt": 5,
+            "approved": false,
+            "issues": [
+              "Significant concrete claims about Eleanor Roosevelt's actions and philosophy are not directly supported by the provided source evidence",
+              "No quotations or specific details from the provided National Park Service article are given to substantiate key assertions",
+              "The only actual source supplied describes Anna Roosevelt Halsted, not Eleanor Roosevelt herself, and does not cover the actions or principles attributed to Eleanor Roosevelt in the article"
+            ],
+            "completedEditorialReview": true
           }
         ],
-        "attemptCount": 3,
+        "attemptCount": 5,
+        "completedEditorialReviews": 3,
         "reviewFailureSummary": "Article not yet approved by reviewer; Saved text has not passed a matching editorial review",
         "sourceAccessible": true,
         "sourceUrls": [
           "https://en.wikipedia.org/wiki/Anna_Roosevelt_Halsted"
         ],
         "sourceCount": 1,
-        "wordCount": 636,
+        "wordCount": 621,
         "reviewedTextMatchesSaved": false,
         "originalSource": "https://www.nps.gov/articles/000/a-force-for-human-rights.htm",
         "evidenceSource": "https://en.wikipedia.org/wiki/Anna_Roosevelt_Halsted",
@@ -3136,11 +3212,11 @@
         ],
         "factualRisk": "high",
         "imageStatus": "awaiting_visual_and_license_review",
-        "publication": "ready_for_publish"
+        "publication": "blocked_unapproved_review"
       },
-      "recoveryBatchId": "historical-36-v1",
+      "recoveryBatchId": "remaining-27-v2",
       "state": "review_failed",
-      "checkedAt": "2026-11-10T01:39:38.624457Z",
+      "checkedAt": "2026-11-10T02:31:11.512015Z",
       "source": "https://www.nps.gov/articles/000/a-force-for-human-rights.htm",
       "failureCodes": [
         "EDITORIAL_QUALITY_FAILED"
@@ -3150,9 +3226,9 @@
           "attempt": 1,
           "approved": false,
           "issues": [
-            "Some quotations and specific claims lack direct support from the supplied source evidence.",
-            "Much of the article’s detailed narrative about Eleanor Roosevelt’s advocacy, travels, and personal philosophy is not directly corroborated by the provided NPS source or the evidence about Anna Roosevelt Halsted.",
-            "Motivations and internal reasoning are inferred for Eleanor Roosevelt (e.g., her refusal to let despair paralyze her, her philosophy about leadership), but these are not explicitly supported by the evidence."
+            "Some factual claims are not directly supported by supplied evidence",
+            "'My Day' column and its influence are not mentioned in the evidence",
+            "No evidence provided about Eleanor Roosevelt's specific actions during the Great Depression or WWII"
           ],
           "completedEditorialReview": true
         },
@@ -3160,58 +3236,44 @@
           "attempt": 2,
           "approved": false,
           "issues": [
-            "Generated article length 221 outside 600-1100 words"
+            "Source does not substantiate factual claims about Eleanor Roosevelt's specific actions or words",
+            "Article refers to Eleanor Roosevelt while supplied evidence is about Anna Roosevelt Halsted",
+            "No direct support for the claim of Eleanor Roosevelt's influence or ethical leadership during Great Depression or WWII"
           ],
-          "failureCode": "EDITORIAL_QUALITY_FAILED"
+          "completedEditorialReview": true
         },
         {
           "attempt": 3,
           "approved": false,
           "issues": [
-            "Source evidence is insufficient: supplied evidence relates to Anna Roosevelt Halsted, not Eleanor Roosevelt directly",
-            "No direct quotations from Eleanor Roosevelt are provided or sourced",
-            "Key factual claims about Eleanor Roosevelt’s actions, writings, and influence are not explicitly supported by the provided evidence"
-          ],
-          "completedEditorialReview": true
-        },
-        {
-          "attempt": 4,
-          "approved": false,
-          "issues": [
-            "Generated article length 250 outside 600-1100 words"
-          ],
-          "failureCode": "EDITORIAL_QUALITY_FAILED"
-        },
-        {
-          "attempt": 5,
-          "approved": false,
-          "issues": [
-            "Significant concrete claims about Eleanor Roosevelt's actions and philosophy are not directly supported by the provided source evidence",
-            "No quotations or specific details from the provided National Park Service article are given to substantiate key assertions",
-            "The only actual source supplied describes Anna Roosevelt Halsted, not Eleanor Roosevelt herself, and does not cover the actions or principles attributed to Eleanor Roosevelt in the article"
+            "No direct evidence for Eleanor Roosevelt's specific statements or actions as described in the card",
+            "Supplied source covers Anna Roosevelt Halsted, not Eleanor Roosevelt",
+            "Article references themes and legacy not directly supported by supplied factbase"
           ],
           "completedEditorialReview": true
         }
       ],
-      "attemptCount": 5,
+      "attemptCount": 3,
       "completedEditorialReviews": 3,
-      "reviewFailureSummary": "Article not yet approved by reviewer; Saved text has not passed a matching editorial review",
+      "reviewFailureSummary": "No direct evidence for Eleanor Roosevelt's specific statements or actions as described in the card; Supplied source covers Anna Roosevelt Halsted, not Eleanor Roosevelt",
       "sourceAccessible": true,
       "sourceUrls": [
         "https://en.wikipedia.org/wiki/Anna_Roosevelt_Halsted"
       ],
       "sourceCount": 1,
-      "wordCount": 621,
-      "reviewedTextMatchesSaved": false,
+      "wordCount": 179,
+      "reviewedTextMatchesSaved": true,
       "originalSource": "https://www.nps.gov/articles/000/a-force-for-human-rights.htm",
       "evidenceSource": "https://en.wikipedia.org/wiki/Anna_Roosevelt_Halsted",
       "issues": [
-        "Article not yet approved by reviewer",
-        "Saved text has not passed a matching editorial review"
+        "No direct evidence for Eleanor Roosevelt's specific statements or actions as described in the card",
+        "Supplied source covers Anna Roosevelt Halsted, not Eleanor Roosevelt",
+        "Article references themes and legacy not directly supported by supplied factbase",
+        "No direct quotations or direct historical support for claims attributed to Eleanor Roosevelt in this context"
       ],
       "factualRisk": "high",
       "imageStatus": "awaiting_visual_and_license_review",
-      "publication": "blocked_unapproved_review"
+      "publication": "ready_for_publish"
     },
     "generated-9a22c3a9fb674c32af2a": {
       "state": "approved",
