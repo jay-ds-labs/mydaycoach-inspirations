@@ -3694,54 +3694,130 @@
     },
     "generated-1e9b35d490ff4baab2b2": {
       "previousReview": {
+        "previousReview": {
+          "state": "review_failed",
+          "checkedAt": "2026-11-09T22:55:19.275815Z",
+          "source": "https://www.iwm.org.uk/history/noor-inayat-khan-the-spy-who-fought-the-nazis-without-a-gun",
+          "reviewAttempts": [
+            {
+              "attempt": 1,
+              "approved": false,
+              "issues": [
+                "Generation/review error: HTTP Error 503: Service Unavailable"
+              ]
+            },
+            {
+              "attempt": 2,
+              "approved": false,
+              "issues": [
+                "Generation/review error: HTTP Error 503: Service Unavailable"
+              ]
+            },
+            {
+              "attempt": 3,
+              "approved": false,
+              "issues": [
+                "Generation/review error: HTTP Error 503: Service Unavailable"
+              ]
+            }
+          ],
+          "attemptCount": 3,
+          "reviewFailureSummary": "Generation/review error: HTTP Error 503: Service Unavailable; Saved text has not passed a matching editorial review",
+          "sourceAccessible": true,
+          "sourceUrls": [
+            "https://en.wikipedia.org/wiki/1953_Iranian_coup_d%27%C3%A9tat"
+          ],
+          "sourceCount": 1,
+          "wordCount": 793,
+          "reviewedTextMatchesSaved": false,
+          "originalSource": "https://www.iwm.org.uk/history/noor-inayat-khan-the-spy-who-fought-the-nazis-without-a-gun",
+          "evidenceSource": "https://en.wikipedia.org/wiki/1953_Iranian_coup_d%27%C3%A9tat",
+          "issues": [
+            "Generation/review error: HTTP Error 503: Service Unavailable",
+            "Saved text has not passed a matching editorial review"
+          ],
+          "factualRisk": "high",
+          "imageStatus": "awaiting_visual_and_license_review",
+          "publication": "ready_for_publish"
+        },
+        "recoveryBatchId": "historical-36-v1",
         "state": "review_failed",
-        "checkedAt": "2026-11-09T22:55:19.275815Z",
+        "checkedAt": "2026-11-10T01:42:06.452379Z",
         "source": "https://www.iwm.org.uk/history/noor-inayat-khan-the-spy-who-fought-the-nazis-without-a-gun",
+        "failureCodes": [
+          "EDITORIAL_QUALITY_FAILED"
+        ],
         "reviewAttempts": [
           {
             "attempt": 1,
             "approved": false,
             "issues": [
-              "Generation/review error: HTTP Error 503: Service Unavailable"
-            ]
+              "No direct supporting evidence from sources is provided for the detailed biographical and operational facts about Noor Inayat Khan.",
+              "Supplied evidence is unrelated and about the 1953 Iranian coup, not Noor Inayat Khan.",
+              "Unable to verify attributions to SOE files, Madeleine Project Archive, and Imperial War Museum due to missing or inaccessible evidence."
+            ],
+            "completedEditorialReview": true
           },
           {
             "attempt": 2,
             "approved": false,
             "issues": [
-              "Generation/review error: HTTP Error 503: Service Unavailable"
-            ]
+              "Generated article length 409 outside 600-1100 words"
+            ],
+            "failureCode": "EDITORIAL_QUALITY_FAILED"
           },
           {
             "attempt": 3,
             "approved": false,
             "issues": [
-              "Generation/review error: HTTP Error 503: Service Unavailable"
-            ]
+              "No source evidence supplied; source link inaccessible for verification",
+              "Cannot confirm specific quotations, detailed anecdotes, or operational specifics without access to the referenced sources",
+              "Cannot verify details such as Noor's precise movements, actions under interrogation, or survivor accounts cited"
+            ],
+            "completedEditorialReview": true
+          },
+          {
+            "attempt": 4,
+            "approved": false,
+            "issues": [
+              "Generated article length 508 outside 600-1100 words"
+            ],
+            "failureCode": "EDITORIAL_QUALITY_FAILED"
+          },
+          {
+            "attempt": 5,
+            "approved": false,
+            "issues": [
+              "Factual claims and quotations are not directly supported by the supplied source evidence",
+              "Supplied source evidence pertains to the 1953 Iranian coup, irrelevant to the article's subject",
+              "Cannot verify events about Noor Inayat Khan, SOE activities, or circumstances of her life and death from evidence provided"
+            ],
+            "completedEditorialReview": true
           }
         ],
-        "attemptCount": 3,
-        "reviewFailureSummary": "Generation/review error: HTTP Error 503: Service Unavailable; Saved text has not passed a matching editorial review",
+        "attemptCount": 5,
+        "completedEditorialReviews": 3,
+        "reviewFailureSummary": "Article not yet approved by reviewer; Saved text has not passed a matching editorial review",
         "sourceAccessible": true,
         "sourceUrls": [
           "https://en.wikipedia.org/wiki/1953_Iranian_coup_d%27%C3%A9tat"
         ],
         "sourceCount": 1,
-        "wordCount": 793,
+        "wordCount": 646,
         "reviewedTextMatchesSaved": false,
         "originalSource": "https://www.iwm.org.uk/history/noor-inayat-khan-the-spy-who-fought-the-nazis-without-a-gun",
         "evidenceSource": "https://en.wikipedia.org/wiki/1953_Iranian_coup_d%27%C3%A9tat",
         "issues": [
-          "Generation/review error: HTTP Error 503: Service Unavailable",
+          "Article not yet approved by reviewer",
           "Saved text has not passed a matching editorial review"
         ],
         "factualRisk": "high",
         "imageStatus": "awaiting_visual_and_license_review",
-        "publication": "ready_for_publish"
+        "publication": "blocked_unapproved_review"
       },
-      "recoveryBatchId": "historical-36-v1",
+      "recoveryBatchId": "remaining-27-v2",
       "state": "review_failed",
-      "checkedAt": "2026-11-10T01:42:06.452379Z",
+      "checkedAt": "2026-11-10T02:32:30.641440Z",
       "source": "https://www.iwm.org.uk/history/noor-inayat-khan-the-spy-who-fought-the-nazis-without-a-gun",
       "failureCodes": [
         "EDITORIAL_QUALITY_FAILED"
@@ -3751,9 +3827,9 @@
           "attempt": 1,
           "approved": false,
           "issues": [
-            "No direct supporting evidence from sources is provided for the detailed biographical and operational facts about Noor Inayat Khan.",
-            "Supplied evidence is unrelated and about the 1953 Iranian coup, not Noor Inayat Khan.",
-            "Unable to verify attributions to SOE files, Madeleine Project Archive, and Imperial War Museum due to missing or inaccessible evidence."
+            "Several details not supported in the supplied source evidence, such as Noor's background as a pacifist, musician, and children's author.",
+            "No evidence provided supports narrative specifics such as Noor being the last undetected wireless operator in Paris or the frequency of agent capture.",
+            "No evidence supports claims regarding her specific movements, methods, or the results of her work in terms of intelligence flow or persistence."
           ],
           "completedEditorialReview": true
         },
@@ -3761,58 +3837,43 @@
           "attempt": 2,
           "approved": false,
           "issues": [
-            "Generated article length 409 outside 600-1100 words"
+            "Article does not match the original card topic: card is about Noor Inayat Khan, article is about the 1953 Iranian coup.",
+            "No factual claims from the card about Noor Inayat Khan or the Special Operations Executive are supported in the article.",
+            "Claims and information in the article pertain to Iranian history, not Noor Inayat Khan."
           ],
-          "failureCode": "EDITORIAL_QUALITY_FAILED"
+          "completedEditorialReview": true
         },
         {
           "attempt": 3,
           "approved": false,
           "issues": [
-            "No source evidence supplied; source link inaccessible for verification",
-            "Cannot confirm specific quotations, detailed anecdotes, or operational specifics without access to the referenced sources",
-            "Cannot verify details such as Noor's precise movements, actions under interrogation, or survivor accounts cited"
-          ],
-          "completedEditorialReview": true
-        },
-        {
-          "attempt": 4,
-          "approved": false,
-          "issues": [
-            "Generated article length 508 outside 600-1100 words"
-          ],
-          "failureCode": "EDITORIAL_QUALITY_FAILED"
-        },
-        {
-          "attempt": 5,
-          "approved": false,
-          "issues": [
-            "Factual claims and quotations are not directly supported by the supplied source evidence",
-            "Supplied source evidence pertains to the 1953 Iranian coup, irrelevant to the article's subject",
-            "Cannot verify events about Noor Inayat Khan, SOE activities, or circumstances of her life and death from evidence provided"
+            "No source evidence provided is relevant to Noor Inayat Khan or the SOE",
+            "Cannot verify any concrete claim about Noor Inayat Khan from supplied evidence",
+            "No supporting details on her activities, identity, or context presented in source"
           ],
           "completedEditorialReview": true
         }
       ],
-      "attemptCount": 5,
+      "attemptCount": 3,
       "completedEditorialReviews": 3,
-      "reviewFailureSummary": "Article not yet approved by reviewer; Saved text has not passed a matching editorial review",
+      "reviewFailureSummary": "No source evidence provided is relevant to Noor Inayat Khan or the SOE; Cannot verify any concrete claim about Noor Inayat Khan from supplied evidence",
       "sourceAccessible": true,
       "sourceUrls": [
         "https://en.wikipedia.org/wiki/1953_Iranian_coup_d%27%C3%A9tat"
       ],
       "sourceCount": 1,
-      "wordCount": 646,
-      "reviewedTextMatchesSaved": false,
+      "wordCount": 151,
+      "reviewedTextMatchesSaved": true,
       "originalSource": "https://www.iwm.org.uk/history/noor-inayat-khan-the-spy-who-fought-the-nazis-without-a-gun",
       "evidenceSource": "https://en.wikipedia.org/wiki/1953_Iranian_coup_d%27%C3%A9tat",
       "issues": [
-        "Article not yet approved by reviewer",
-        "Saved text has not passed a matching editorial review"
+        "No source evidence provided is relevant to Noor Inayat Khan or the SOE",
+        "Cannot verify any concrete claim about Noor Inayat Khan from supplied evidence",
+        "No supporting details on her activities, identity, or context presented in source"
       ],
       "factualRisk": "high",
       "imageStatus": "awaiting_visual_and_license_review",
-      "publication": "blocked_unapproved_review"
+      "publication": "ready_for_publish"
     },
     "generated-b153d63332d44b54aa56": {
       "previousReview": {
