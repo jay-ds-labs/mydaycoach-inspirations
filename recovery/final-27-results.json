@@ -1,12 +1,12 @@
 {
   "state": "running",
   "total": 27,
-  "completed": 6,
-  "generated": 6,
-  "reviewed": 6,
+  "completed": 7,
+  "generated": 7,
+  "reviewed": 7,
   "approved": 4,
-  "reviewFailed": 2,
-  "eligible": 6,
+  "reviewFailed": 3,
+  "eligible": 7,
   "startedAt": "2026-11-10T05:27:53.628646Z",
   "items": {
     "turing-computing": {
@@ -377,6 +377,96 @@
         "sourceUrls": [
           "https://en.wikipedia.org/wiki/Pragmatism",
           "https://plato.stanford.edu/entries/pragmatism/"
+        ],
+        "sourceErrors": []
+      }
+    },
+    "reflection-026": {
+      "item": {
+        "id": "reflection-026",
+        "category": "Philosophy",
+        "title": "Choose deliberate attention",
+        "body": "Attention is limited; where you direct it influences what you learn and do.",
+        "attribution": "MyDayCoach original reflection — not a historical quotation",
+        "source": "https://en.wikipedia.org/wiki/Attention",
+        "takeaway": "Protect one 20-minute period from interruptions.",
+        "status": "ready_for_publish",
+        "detail": "Review failed [EDITORIAL_QUALITY_FAILED]. The article accurately synthesizes a historical and psychological account of attention and links it to contemporary well-being theories, but the claim that 'research shows that goods such as knowledge, achievement, and meaningful relationships are accessible only throug\n\nThroughout history, philosophers and psychologists have returned to the theme that attention—the focused allocation of our limited mental resources—shapes not just perception, but the quality of our lives. In the 16th century, Juan Luis Vives observed that careful attention to experience supports stronger memory. Nicolas Malebranche in the 17th century highlighted that attention purifies our perceptions, making them less confused. Wilhelm Wundt and William James systematized this view in psychology, with James famously describing attention as the mind's selective embrace of one object or thought to the exclusion of others, which is essential for clarity, memory, and learning. Modern cognitive psychology continues to find that attention is inherently limited: you can only process a few items or tasks at once, and frequent switching leads to slower thinking and more errors, borne out by well-replicated effects like the Stroop effect and the psychological refractory period. While classical philosophical theories of well-being (including hedonism, desire satisfaction, and objective list theories) do not count 'attention' itself as a basic component of a good life, they do agree that goods such as knowledge, achievement, and meaningful relationships matter—and consistently, research shows that these are accessible only through the gateway of focused attention. In daily life, where attention is constantly solicited by devices, notifications, and competing priorities, even small interventions to protect your cognitive resources can have outsized impact. Giving yourself a single, interruption-free period for focused thinking—such as 20 minutes without digital distractions—is a practical way to apply what science and philosophy reveal: that what you attend to, and how you attend to it, will shape not just what you learn or remember, but the very substance of what makes your life good. In essence, deliberate attention is how you curate your world.",
+        "reviewStatus": "review_failed",
+        "reviewFailureSummary": "The article accurately synthesizes a historical and psychological account of attention and links it to contemporary well-being theories, but the claim that 'research shows that goods such as knowledge, achievement, and meaningful relationships are accessible only throug",
+        "publishedAt": "",
+        "reviewFailureCode": "EDITORIAL_QUALITY_FAILED"
+      },
+      "audit": {
+        "state": "review_failed",
+        "eligible": true,
+        "generated": true,
+        "attempts": [
+          {
+            "attempt": 1,
+            "reviewCompleted": true,
+            "sourceUrls": [
+              "https://en.wikipedia.org/wiki/Attention",
+              "https://plato.stanford.edu/entries/well-being/"
+            ],
+            "changes": "Replaced previous draft that emphasized well-being theory with a focused, evidence-based explanation of attention's limits and the practical rationale for protecting focus, as described in historical and empirical sources on attention. Maintained the practical takeaway and subject as requested. Provided concrete, sourced context and meaning; omitted unsupported philosophical linkage.",
+            "approved": false,
+            "complete": true,
+            "grounded": true,
+            "feedback": [
+              "The article accurately relies on established cognitive psychology regarding the limitations and importance of attention, referencing both the historical context (William James, key findings from experiments on attention limits and multitasking costs) and contemporary neuroscience support from the provided Wikipedia article (SOURCE 1).",
+              "The practical advice—protecting a 20-minute period for undistracted focus—fits with the conclusions implied by the empirical literature cited, even though no empirical study is specifically referenced for the '20-minute' recommendation.",
+              "The article is cautious in its philosophical claims. It correctly uses SOURCE 2 (Stanford Encyclopedia of Philosophy) to demonstrate that attention is not a foundational element in major philosophical theories of well-being.",
+              "There is a minor inferential leap connecting efficient allocation of attention to the broader quality of life/well-being. While attention plausibly affects aspects of experience, the philosophical literature does not grant it foundational status in well-being, and no direct empirical evidence connecting a single protected attention interval to improved well-being is cited.",
+              "The attribution of the reflection as MyDayCoach original is proper, and the article does not misrepresent it as a historical or empirical claim."
+            ]
+          },
+          {
+            "attempt": 2,
+            "reviewCompleted": true,
+            "sourceUrls": [
+              "https://en.wikipedia.org/wiki/Attention",
+              "https://plato.stanford.edu/entries/well-being/"
+            ],
+            "changes": "Expanded historical and scientific context using only sourced material, explicitly separated the empirical basis for attention's limits from broader philosophical claims about well-being, clarified that leading philosophical accounts do not list attention as fundamental but that attention shapes experiential goods, and directly linked the practical takeaway to these findings. Omitted inferential leaps and did not attribute improvements in well-being directly to the practice but maintained the ra",
+            "approved": false,
+            "complete": true,
+            "grounded": true,
+            "feedback": [
+              "The article accurately summarizes the history and science of attention, is consistent with the Wikipedia summary and philosophy source, and does not misrepresent its source.",
+              "Sources confirm the claims about attention as a limited resource, supported by both classical and modern psychological theory (e.g., Wundt, James, empirical studies on task-switching).",
+              "The statement that leading philosophical theories of well-being do not treat attention as a core constituent is well-grounded in the Stanford Encyclopedia of Philosophy source, and the article carefully distinguishes between attention as instrumental vs. constitutive of well-being.",
+              "The recommendation to protect a 20-minute period from interruption is a practical application, not directly found in the sources but appropriately inferred from cognitive science evidence about focused attention and task performance; however, explicit empirical backing for '20 minutes' is not directly cited.",
+              "The article is editorially coherent, avoids topic drift, improperly used quotations, or unsupported summaries. It also clearly notes the reflection is an original rather than a historical quote.",
+              "Minor issue: The practical suggestion to protect a '20-minute period' is sensible and reasonable but is not directly grounded in cited literature (neither Wikipedia nor SEP), so the numeric suggestion is editorial, not evidence-based."
+            ]
+          },
+          {
+            "attempt": 3,
+            "reviewCompleted": true,
+            "sourceUrls": [
+              "https://en.wikipedia.org/wiki/Attention",
+              "https://plato.stanford.edu/entries/well-being/"
+            ],
+            "changes": "Clarified the origin of historical views on attention, reaffirmed that attention is an instrumental rather than intrinsic constituent of well-being per philosophical theory, expanded and clarified the evidence base for claims about cognitive limits using named empirical effects, and made explicit the rationale for the practical suggestion, acknowledging its status as an editorial inference from psychological science. Preserved the prior practical suggestion but clarified its inferential nature a",
+            "approved": false,
+            "complete": true,
+            "grounded": true,
+            "feedback": [
+              "The article accurately synthesizes a historical and psychological account of attention and links it to contemporary well-being theories, but the claim that 'research shows that goods such as knowledge, achievement, and meaningful relationships are accessible only through the gateway of focused attention' is only indirectly supported; while the sources support the role and limitation of attention in cognition, they do not directly establish that all such goods are exclusively accessible by attent",
+              "The article asserts that 'even small interventions to protect your cognitive resources can have outsized impact,' which is plausible but not directly evidenced in the cited sources.",
+              "The recommendation for 'one 20-minute period from interruptions' is a practical application, not in itself problematic, but it is not specifically referenced or supported by the cited academic or scientific sources.",
+              "The connection between classical philosophical theories of well-being (hedonism, desire satisfaction, objective list) and the necessity of focused attention for accessing the goods they value is interpretive and not directly confirmed in the Stanford Encyclopedia entry.",
+              "While the article is well-written and coherent, some formulations interpret or extend the cited sources rather than strictly reporting their findings (particularly the integration with theories of well-being)."
+            ]
+          }
+        ],
+        "completedReviews": 3,
+        "reasonCode": "EDITORIAL_QUALITY_FAILED",
+        "reason": "The article accurately synthesizes a historical and psychological account of attention and links it to contemporary well-being theories, but the claim that 'research shows that goods such as knowledge, achievement, and meaningful relationships are accessible only throug",
+        "sourceUrls": [
+          "https://en.wikipedia.org/wiki/Attention",
+          "https://plato.stanford.edu/entries/well-being/"
         ],
         "sourceErrors": []
       }
