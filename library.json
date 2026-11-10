@@ -633,10 +633,10 @@
       "quotation": "\"I never gave or took an excuse.\"",
       "original_context": "This statement by Florence Nightingale appears in multiple letters and was cited by her contemporaries to encapsulate her refusal to settle for explanations that sidestep responsibility; she brought this ethic to her transformational work in healthcare during and after the Crimean War.",
       "id": "generated-b81a4035c8844769a302",
-      "status": "ready_for_publish",
+      "status": "draft",
       "publishedAt": "",
-      "reviewStatus": "review_failed",
-      "reviewFailureSummary": "Generated article length 582 outside 600-1100 words; Saved text has not passed a matching editorial review"
+      "reviewStatus": "needs_manual_review",
+      "reviewFailureSummary": "Generated article length 567 outside 600-1100 words; Saved text has not passed a matching editorial review"
     },
     {
       "title": "Perseverance Amid Adversity: Eleanor Roosevelt’s Call to Conscience",
