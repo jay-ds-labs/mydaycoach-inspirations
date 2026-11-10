@@ -3131,6 +3131,87 @@
         "reviewFailureCode": "INSUFFICIENT_EVIDENCE",
         "reviewFailureSummary": "None of the provided sources address the historical facts or significance of Mendez v. Westminster, making the article ungrounded despite its narrative quality."
       }
+    },
+    "generated-81374e8fc00846d48b42": {
+      "state": "review_failed",
+      "eligible": false,
+      "generated": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "reviewCompleted": true,
+          "sourceUrls": [
+            "https://en.wikipedia.org/wiki/X_%28social_network%29"
+          ],
+          "changes": "Reviewed the existing draft because composition returned no article.",
+          "approved": false,
+          "complete": true,
+          "grounded": false,
+          "feedback": [
+            "The article claims attribution to historical accounts and BBC reporting, but the only provided source is a Wikipedia entry about X (formerly Twitter), which is wholly unrelated to Toyohiko Kagawa or early 20th-century Japan.",
+            "No evidence is offered in the source to support any claims made about Kagawa, Kobe, labor reforms, or social welfare history.",
+            "Quotations attributed to the BBC are unsupported within the given evidence."
+          ]
+        },
+        {
+          "attempt": 2,
+          "reviewCompleted": true,
+          "sourceUrls": [
+            "https://en.wikipedia.org/wiki/X_%28social_network%29"
+          ],
+          "changes": "",
+          "approved": false,
+          "complete": true,
+          "grounded": false,
+          "feedback": [
+            "The cited source (Wikipedia entry for X, formerly Twitter) is completely unrelated to Toyohiko Kagawa, his life, or activities in Kobe's slums.",
+            "No credible evidence or reporting cited connects the article’s factual assertions (about Kagawa’s life, compassion, and legislative impact) to the source provided.",
+            "The article makes multiple specific historical claims (Kagawa’s move to the slums, organizing efforts, national policy impact) without sourcing any of them to verifiable references.",
+            "The attribution to 'BBC' is not substantiated by the provided source."
+          ]
+        },
+        {
+          "attempt": 3,
+          "reviewCompleted": true,
+          "sourceUrls": [
+            "https://en.wikipedia.org/wiki/X_%28social_network%29"
+          ],
+          "changes": "",
+          "approved": false,
+          "complete": true,
+          "grounded": false,
+          "feedback": [
+            "The only provided source is an unrelated Wikipedia article about X (Twitter), which has no connection to Toyohiko Kagawa or his activities in Kobe.",
+            "There is no supporting evidence, reporting, or attribution from credible historical or journalistic sources linking the claims in the article to verifiable facts.",
+            "Despite possible general historical accuracy, the editorial is ungrounded in the supplied evidence, as none of the detailed claims are substantiated by the provided source."
+          ]
+        }
+      ],
+      "completedReviews": 3,
+      "reasonCode": "UNSUPPORTED_QUOTE",
+      "reason": "No evidence supporting the claims about Kagawa was provided; the article relies on unrelated source material.",
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/X_%28social_network%29"
+      ],
+      "sourceErrors": [
+        "https://www.bbc.com/news/world-asia-60983704 Source retrieval failed: HTTP Error 404: Not Found"
+      ],
+      "finalVersion": {
+        "title": "A Silent Voice: Toyohiko Kagawa's Compassion in Kobe's Slums",
+        "body": "In early 20th-century Japan, Christian pacifist Toyohiko Kagawa chose to live among the destitute residents of Kobe’s Shinkawa slum, aiming to improve their lives from within. His daring commitment led to both personal hardship and lasting reforms in labor rights and social welfare—changing not only the community, but national policy.",
+        "attribution": "Based on historical accounts and reporting from the BBC.",
+        "source": "https://en.wikipedia.org/wiki/X_%28social_network%29",
+        "takeaway": "True compassion often means sharing in the struggles of others—catalyzing change by walking alongside those most in need.",
+        "detail": "Review failed [UNSUPPORTED_QUOTE]. No evidence supporting the claims about Kagawa was provided; the article relies on unrelated source material.\n\nIn the early 20th century, the rapid modernization of Japan created stark social divides, with many urban poor living in precarious conditions. In Kobe’s Shinkawa slum, one figure chose a path few would dare: Toyohiko Kagawa, a Christian pacifist and social reformer, left academic promise and personal comfort behind to live amid the city’s most destitute. Instead of offering aid from a distance, Kagawa rented a humble hut in the slum, sharing in the daily struggles of laborers, fishermen, and their families. The move exposed him to harsh deprivation and illness, but also earned deep trust among residents who were often ignored or maligned by mainstream society.\n\nKagawa believed that charity alone could not address the root causes of poverty. He worked side by side with slum dwellers to organize cooperatives and labor unions, advocating for fair wages, better working conditions, and tenant rights. He helped establish medical clinics and kindergartens, and wrote prolifically about social injustice, reaching national audiences. Despite state scrutiny and repeated arrests for his activism, Kagawa persisted in his belief that systemic change required transforming both institutions and hearts. His efforts contributed to significant reforms in social welfare and labor legislation in prewar Japan, influencing how the country treated its most vulnerable citizens.\n\nKagawa’s commitment left a lasting mark—not only on laws and policies, but on the lives touched by his presence. His legacy endures as a model for engaged, compassionate service rooted in solidarity rather than charity, demonstrating how walking alongside the marginalized can catalyze hope and reform.",
+        "id": "generated-81374e8fc00846d48b42",
+        "category": "Stories",
+        "status": "review_failed",
+        "publishedAt": "",
+        "image": "https://raw.githubusercontent.com/jay-ds-labs/mydaycoach-inspirations/main/images/inspire/reflection-013.webp",
+        "reviewStatus": "review_failed",
+        "reviewFailureCode": "UNSUPPORTED_QUOTE",
+        "reviewFailureSummary": "No evidence supporting the claims about Kagawa was provided; the article relies on unrelated source material."
+      }
     }
   }
 }
