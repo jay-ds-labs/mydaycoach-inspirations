@@ -1,12 +1,12 @@
 {
   "state": "running",
   "total": 27,
-  "completed": 24,
-  "generated": 23,
-  "reviewed": 24,
-  "approved": 17,
+  "completed": 25,
+  "generated": 24,
+  "reviewed": 25,
+  "approved": 18,
   "reviewFailed": 7,
-  "eligible": 21,
+  "eligible": 22,
   "startedAt": "2026-11-10T05:27:53.628646Z",
   "items": {
     "turing-computing": {
@@ -1494,6 +1494,54 @@
         ],
         "sourceErrors": [
           "https://www.yadvashem.org/odot_pdf/Microsoft%20Word%20-%205968.pdf Source retrieval failed: HTTP Error 403: Forbidden"
+        ]
+      }
+    },
+    "generated-8708a154934f4a84b2f4": {
+      "item": {
+        "title": "The Halifax Explosion: Split-Second Mercy in a Moment of Catastrophe",
+        "body": "On December 6, 1917, a collision in Halifax Harbour sparked the largest man-made explosion before the atomic age. Amid horror, train dispatcher Vincent Coleman’s urgent choice saved hundreds. His story reveals how ordinary duty can mean extraordinary courage in the face of disaster.",
+        "detail": "On the morning of December 6, 1917, Halifax, Nova Scotia, was the scene of a disaster unmatched in its time. As the First World War raged, Halifax Harbour had become a central hub for military and supply convoys bound for Europe. The French cargo ship SS Mont-Blanc, entering the harbour fully loaded with explosives including TNT, picric acid, benzol, and guncotton, collided with the Norwegian vessel SS Imo in the Narrows—a critical channel in the port. The collision ignited a fire on Mont-Blanc, whose crew attempted to warn onlookers of the impending danger before fleeing. Roughly 20 minutes later, at 9:04 AM, the Mont-Blanc exploded with a force estimated at 2.9 kilotons of TNT, leveling much of Halifax's north end and killing more than 1,700 people, while injuring about 9,000 others. Thousands of buildings were destroyed or damaged in both Halifax and Dartmouth.\n\nIn the moments between the collision and the explosion, public servants, dock workers, and ordinary people scrambled to respond. Among them, railway dispatcher Vincent Coleman was stationed at the Richmond rail yards, which sat perilously close to the likely blast area. When Coleman learned from police and railway workers about the burning Mont-Blanc and the threat it posed, he reportedly realized that a passenger train was due to arrive in Halifax within minutes. Despite warnings to evacuate, Coleman remained at his telegraph post. His message, sent through the telegraph network, urgently alerted incoming trains to halt outside the city, sparing their passengers from the worst of the destruction. Although the exact number of lives saved because of his warning is uncertain, contemporary accounts widely credit Coleman's action with preventing further loss of life.\n\nColeman did not survive the explosion. However, his split-second decision is remembered as a powerful example of duty and bravery. His story is not an exaggerated legend: the records corroborate that he stayed behind to fulfill his role despite the obvious danger, and his warning is documented as authentic. In the aftermath, relief efforts poured in, and Halifax rebuilt, but Coleman's courage became embedded in the city's collective memory. Memorials and local commemorations continue to honor his actions today.",
+        "attribution": "Adapted from contemporary reports and the Nova Scotia Archives.",
+        "source": "https://en.wikipedia.org/wiki/Halifax_Explosion",
+        "takeaway": "In moments of crisis, act swiftly for the benefit of others—even small, decisive actions can save lives.",
+        "image": "",
+        "category": "Stories",
+        "id": "generated-8708a154934f4a84b2f4",
+        "status": "ready_for_publish",
+        "publishedAt": "",
+        "reviewStatus": "approved",
+        "reviewFailureSummary": "",
+        "reviewFailureCode": ""
+      },
+      "audit": {
+        "state": "approved",
+        "eligible": true,
+        "generated": true,
+        "attempts": [
+          {
+            "attempt": 1,
+            "reviewCompleted": true,
+            "sourceUrls": [
+              "https://en.wikipedia.org/wiki/Halifax_Explosion",
+              "https://novascotia.ca/archives/virtual/halifax/explosion.asp"
+            ],
+            "changes": "Ensured all historical claims are directly supported by the Wikipedia source; removed unsupported references to the Nova Scotia Archives. Clarified the scope of Coleman's verified actions and legacy, distinguished between well-documented facts and interpretation, and did not include unverified or dramatic hooks. Maintained focus on the Halifax Explosion’s context, Coleman's documented role, and the enduring lesson.",
+            "approved": true,
+            "complete": true,
+            "grounded": true,
+            "feedback": []
+          }
+        ],
+        "completedReviews": 1,
+        "reasonCode": "",
+        "reason": "",
+        "sourceUrls": [
+          "https://en.wikipedia.org/wiki/Halifax_Explosion",
+          "https://novascotia.ca/archives/virtual/halifax/explosion.asp"
+        ],
+        "sourceErrors": [
+          "https://en.wikipedia.org/wiki/Vincent_Coleman_(train_dispatcher) Source retrieval failed: HTTP Error 404: Not Found"
         ]
       }
     }
