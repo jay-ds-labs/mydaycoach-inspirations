@@ -920,10 +920,10 @@
       "image": "",
       "category": "Stories",
       "id": "generated-318a3a9ff87f452b83e5",
-      "status": "ready_for_publish",
+      "status": "draft",
       "publishedAt": "",
-      "reviewStatus": "review_failed",
-      "reviewFailureSummary": "No subject-specific evidence found; Source retrieval failed: HTTP Error 403: Forbidden"
+      "reviewStatus": "needs_manual_review",
+      "reviewFailureSummary": "No subject-specific evidence found; SOURCE_ACCESS_DENIED: HTTP 403"
     },
     {
       "title": "The Halifax Explosion: Split-Second Mercy in a Moment of Catastrophe",
