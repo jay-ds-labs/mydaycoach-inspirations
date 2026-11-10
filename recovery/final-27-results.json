@@ -1,12 +1,12 @@
 {
   "state": "running",
   "total": 27,
-  "completed": 26,
-  "generated": 25,
-  "reviewed": 26,
+  "completed": 27,
+  "generated": 26,
+  "reviewed": 27,
   "approved": 19,
-  "reviewFailed": 7,
-  "eligible": 23,
+  "reviewFailed": 8,
+  "eligible": 24,
   "startedAt": "2026-11-10T05:27:53.628646Z",
   "items": {
     "turing-computing": {
@@ -1630,6 +1630,98 @@
           "https://encyclopedia.ushmm.org/content/en/article/janusz-korczak"
         ],
         "sourceErrors": []
+      }
+    },
+    "generated-effa8452725d4abf9c91": {
+      "item": {
+        "title": "The Cārvāka View: Materialism and Skepticism in Ancient India",
+        "body": "Explore the Cārvāka school, an ancient Indian philosophy that championed materialism and empirical observation, rejecting supernatural explanations and advocating for a life based on direct experience, rational inquiry, and the pursuit of tangible well-being.",
+        "detail": "Review failed [EDITORIAL_QUALITY_FAILED]. Nearly all direct textual evidence from original Cārvāka texts is lost; most knowledge is reconstructed from opponents' accounts, so reconstruction carries a risk of bias and incompleteness.\n\nThe Cārvāka (or Lokāyata) tradition stands out as ancient India’s most radical and explicit school of materialism and skepticism. Its influence is attested from at least the first millennium BCE, though nearly all direct Cārvāka texts have been lost; what we know comes from the criticisms and summaries in rival philosophical schools.\n\nAt a time when Indian intellectual life was dominated by spiritual and ritualistic traditions—Vedic Brahmanism, Jainism, Buddhism—the Cārvāka sharply diverged by denying the existence of any supernatural reality. Of central importance to Cārvāka thought was its naturalistic metaphysics: the claim that only the four elements (earth, air, fire, water) exist, and that abstract entities such as gods, immortal souls, karma, or a spiritual afterlife are fictions. Instead, all phenomena were seen as products of material interactions, reducible to observable causes.\n\nAs for knowledge, Cārvāka thinkers famously insisted that direct perception (pratyakṣa) provides the only trustworthy foundation for belief. They regarded inference (anumāna) and testimony (śabda) with suspicion, especially for any claim about what lies beyond immediate experience. While inferences drawn from repeated, consistent observation could be provisionally accepted, the Cārvāka tradition rejected speculative reasoning grounded in religious authority or scriptural texts. In the words of the Internet Encyclopedia of Philosophy, 'the epistemological authority of perception' was their central tenet, accompanied by 'skepticism towards testimony and inference' where these were not grounded in empirical evidence ([source](https://iep.utm.edu/indmat/)).\n\nOn ethics, the Cārvāka are often described as promoting hedonism—the view that pleasure is the highest good—since, in their view, only the tangible pleasures and pains of this mortal existence are real. They denied that so-called virtues, religious rituals, or ascetic practices had merit, since these were motivated by belief in unobservable rewards or punishments after death. However, most descriptions of Cārvāka ethics come from rival schools and are likely colored by polemic. While they do broadly link Cārvāka to hedonism and the pursuit of well-being in this life, detailed Cārvāka arguments on morality remain largely inaccessible. The consensus from scholarship is that their core ethical teaching rejected self-denial based on supernatural claims, favoring instead what they saw as a reasonable pursuit of pleasure and avoidance of suffering.\n\nBecause nearly all original material is lost and much of what survives comes through opponents, the history and doctrine of Cārvāka remain incomplete and open to debate. Most sources agree, however, that its discourse challenged supernatural and ritual authority, providing a persistent voice of skepticism and rationalism within the wider context of Indian philosophy. The term 'Lokāyata' (literally, 'what is found among the people' or 'worldly') reflects both a populist tone and a focus on this-worldly concerns, in contrast to the otherworldly emphasis of their contemporaries (cf. [source](https://iep.utm.edu/indmat/)). Over time, religious authorities labeled the Cārvāka heretical, sometimes pejoratively equating their ideas with sophistry, but their skeptical stance remained a distinctive—if marginalized—strand of Indian thought.\n\nThe intellectual humility built into the Cārvāka approach remains instructive. By recognizing the limits of knowledge and rejecting arguments about unseen things unless supported by direct evidence, they modeled a mode of inquiry that resonates with the spirit of later science and secular philosophy. As the available evidence indicates, their philosophy stands as an ancient challenge to dogma, inviting us to carefully weigh claims and prioritize the knowledge that comes from our own experience.",
+        "attribution": "Derived from the philosophical reconstructions of the Cārvāka (Lokāyata) school as discussed in classical Indian texts and secondary scholarship.",
+        "source": "https://iep.utm.edu/indmat/",
+        "takeaway": "Approach every claim, especially those about unseen realities, with healthy skepticism—trust what is observable and demonstrated.",
+        "image": "",
+        "category": "Philosophy",
+        "id": "generated-effa8452725d4abf9c91",
+        "status": "ready_for_publish",
+        "publishedAt": "",
+        "reviewStatus": "review_failed",
+        "reviewFailureSummary": "Nearly all direct textual evidence from original Cārvāka texts is lost; most knowledge is reconstructed from opponents' accounts, so reconstruction carries a risk of bias and incompleteness.",
+        "reviewFailureCode": "EDITORIAL_QUALITY_FAILED"
+      },
+      "audit": {
+        "state": "review_failed",
+        "eligible": true,
+        "generated": true,
+        "attempts": [
+          {
+            "attempt": 1,
+            "reviewCompleted": true,
+            "sourceUrls": [
+              "https://iep.utm.edu/indmat/",
+              "https://en.wikipedia.org/wiki/Charvaka"
+            ],
+            "changes": "Expanded and clarified the historical context based on the provided source, explicitly avoiding unsupported hooks. Emphasized the lack of primary sources and the reliance on hostile secondary reports for reconstructing Cārvāka doctrine. Incorporated explanations of their naturalism, epistemology, and hedonistic ethics as reconstructed from the evidence, clearly distinguishing these accounts from interpretation. Updated the takeaway to reflect both the philosophical lesson and the caution necessa",
+            "approved": false,
+            "complete": true,
+            "grounded": true,
+            "feedback": [
+              "Although the article is coherent, accurate, and consistently faithful to source summaries, it occasionally overstates the degree of certainty given the fragmentary evidence and polemical nature of sources. However, it correctly qualifies this near the end by noting the limitations of historical reconstruction.",
+              "There is no direct access to original Cārvāka (Bṛhaspati Sūtra) texts; all reconstructions are necessarily filtered through secondary and often adversarial sources. The article makes this clear.",
+              "The article's description of Cārvāka ethics as 'hedonism' is supported by scholarship and sources, but this is a generalization from hostile texts and should be interpreted with caution. The article acknowledges controversy over precise doctrines.",
+              "No material claims or quotations are made that fall outside the available source evidence. However, some statements (e.g., clear hedonistic ethics, explicit denial of causal law) should be understood as attributions made by rival sources, and not direct Cārvāka textual statements."
+            ]
+          },
+          {
+            "attempt": 2,
+            "reviewCompleted": true,
+            "sourceUrls": [
+              "https://iep.utm.edu/indmat/",
+              "https://en.wikipedia.org/wiki/Charvaka"
+            ],
+            "changes": "Clarified the degree of certainty regarding Cārvāka doctrines and their ethical claims by consistently attributing source material to secondary, often adversarial, texts. Acknowledged the fragmentary and polemical nature of the evidence throughout the narrative, and reframed the discussion of hedonism and the doctrine of 'pleasure as the good' as plausible but not directly sourced. Balanced the recounting of Cārvāka influence with explicit mention of scholarly caution. Preserved all previously s",
+            "approved": false,
+            "complete": true,
+            "grounded": true,
+            "feedback": [
+              "The review accurately covers the contours of Cārvāka/Lokāyata philosophy as reconstructed from secondary and polemical sources, clearly signposting evidential uncertainties and polemical bias in the available material.",
+              "The article is transparent about the fragmentary nature of primary texts and how the school’s ethical views (particularly hedonism) may be exaggerated by rivals; this is correct and reflected in the cited sources.",
+              "All major philosophical claims—materialist ontology, epistemic reliance on perception, skepticism towards testimony and inference, and a focus on tangible well-being—are reliably supported by secondary scholarship and referenced textual evidence.",
+              "The summary and takeaway distilled from the sources are fair, and the article avoids projecting stronger claims or attributions not supported by the evidence.",
+              "There is no misleading quote, nor a card summary or leap not substantiated by the sources. Therefore, the content is well-grounded and editorially cautious, though it cannot be called robustly 'complete' in a scholarly sense due to unavoidable gaps in historical record; however, for the scope of a general-audience editorial review, this is appropriate."
+            ]
+          },
+          {
+            "attempt": 3,
+            "reviewCompleted": true,
+            "sourceUrls": [
+              "https://iep.utm.edu/indmat/",
+              "https://en.wikipedia.org/wiki/Charvaka",
+              "https://en.wikipedia.org/wiki/French_philosophy"
+            ],
+            "changes": "Clarified and further foregrounded that nearly all knowledge about Cārvāka comes from secondary sources or polemical accounts, in accordance with editorial feedback. Retained all core themes—materialist ontology, empirical epistemology, and the focus on this-worldly well-being—supported by the sources. Removed any language implying unsupported completeness or direct quotations not verified in the given evidence. Strengthened the narrative with explicit context on evidential uncertainty and its i",
+            "approved": false,
+            "complete": true,
+            "grounded": true,
+            "feedback": [
+              "Nearly all direct textual evidence from original Cārvāka texts is lost; most knowledge is reconstructed from opponents' accounts, so reconstruction carries a risk of bias and incompleteness.",
+              "Most attributions about Cārvāka ethics (hedonism/pleasure as highest good) come through polemical characterizations by rivals, not authentic Cārvāka arguments.",
+              "Some nuances—such as possible positive ethical development beyond hedonism and the evolution of the terminology—remain debated or unclear in primary evidence.",
+              "Characterizations of Cārvāka influence and historical impact rest on synthesis across secondary and tertiary sources due to sparse direct quotations."
+            ]
+          }
+        ],
+        "completedReviews": 3,
+        "reasonCode": "EDITORIAL_QUALITY_FAILED",
+        "reason": "Nearly all direct textual evidence from original Cārvāka texts is lost; most knowledge is reconstructed from opponents' accounts, so reconstruction carries a risk of bias and incompleteness.",
+        "sourceUrls": [
+          "https://iep.utm.edu/indmat/",
+          "https://en.wikipedia.org/wiki/Charvaka",
+          "https://en.wikipedia.org/wiki/French_philosophy"
+        ],
+        "sourceErrors": [
+          "https://plato.stanford.edu/entries/materialism-india/ Source retrieval failed: HTTP Error 404: Not Found"
+        ]
       }
     }
   }
