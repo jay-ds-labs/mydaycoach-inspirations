@@ -2096,35 +2096,112 @@
     },
     "reflection-026": {
       "previousReview": {
+        "previousReview": {
+          "state": "review_failed",
+          "checkedAt": "2026-11-09T22:48:53.831619Z",
+          "source": "https://plato.stanford.edu/entries/well-being/",
+          "reviewAttempts": [
+            {
+              "attempt": 1,
+              "approved": false,
+              "issues": [
+                "Numerous specific factual claims and quotations in the article (e.g., positive psychology findings, empirical research on attention and well-being, actionable recommendations) are not directly and explicitly supported by the supplied source.",
+                "The Stanford Encyclopedia of Philosophy entry does not grant as large a focus to the practical role of attention in well-being as the article suggests.",
+                "The recommendation of a specific actionable practice (e.g., 20 minutes of uninterrupted attention) is not substantiated in the SEP source."
+              ]
+            },
+            {
+              "attempt": 2,
+              "approved": false,
+              "issues": [
+                "Generated article length 459 outside 600-1100 words"
+              ]
+            },
+            {
+              "attempt": 3,
+              "approved": false,
+              "issues": [
+                "Generated article length 499 outside 600-1100 words"
+              ]
+            }
+          ],
+          "attemptCount": 3,
+          "reviewFailureSummary": "Article not yet approved by reviewer; Saved text has not passed a matching editorial review",
+          "sourceAccessible": true,
+          "sourceUrls": [
+            "https://plato.stanford.edu/entries/well-being/",
+            "https://en.wikipedia.org/wiki/Martin_Luther_King_Jr."
+          ],
+          "sourceCount": 2,
+          "wordCount": 882,
+          "reviewedTextMatchesSaved": false,
+          "originalSource": "https://plato.stanford.edu/entries/well-being/",
+          "evidenceSource": "https://plato.stanford.edu/entries/well-being/",
+          "issues": [
+            "Article not yet approved by reviewer",
+            "Saved text has not passed a matching editorial review"
+          ],
+          "factualRisk": "high",
+          "imageStatus": "awaiting_visual_and_license_review",
+          "publication": "ready_for_publish"
+        },
+        "recoveryBatchId": "historical-36-v1",
         "state": "review_failed",
-        "checkedAt": "2026-11-09T22:48:53.831619Z",
+        "checkedAt": "2026-11-10T01:35:35.517443Z",
         "source": "https://plato.stanford.edu/entries/well-being/",
+        "failureCodes": [
+          "EDITORIAL_QUALITY_FAILED"
+        ],
         "reviewAttempts": [
           {
             "attempt": 1,
             "approved": false,
             "issues": [
-              "Numerous specific factual claims and quotations in the article (e.g., positive psychology findings, empirical research on attention and well-being, actionable recommendations) are not directly and explicitly supported by the supplied source.",
-              "The Stanford Encyclopedia of Philosophy entry does not grant as large a focus to the practical role of attention in well-being as the article suggests.",
-              "The recommendation of a specific actionable practice (e.g., 20 minutes of uninterrupted attention) is not substantiated in the SEP source."
-            ]
+              "Generated article length 545 outside 600-1100 words"
+            ],
+            "failureCode": "EDITORIAL_QUALITY_FAILED"
           },
           {
             "attempt": 2,
             "approved": false,
             "issues": [
-              "Generated article length 459 outside 600-1100 words"
-            ]
+              "Several paragraphs extensively discuss Aristotle, eudaimonia, and other details that are not present in the card's original language or summary.",
+              "The original card makes no historical references or claims about Aristotle or ancient philosophy—it only states that attention shapes learning and action.",
+              "The article includes invented or unverified narrative details about ancient philosophers' concerns and modern digital distractions, which are not present in the source or card."
+            ],
+            "completedEditorialReview": true
           },
           {
             "attempt": 3,
             "approved": false,
             "issues": [
-              "Generated article length 499 outside 600-1100 words"
-            ]
+              "Generated article length 227 outside 600-1100 words"
+            ],
+            "failureCode": "EDITORIAL_QUALITY_FAILED"
+          },
+          {
+            "attempt": 4,
+            "approved": false,
+            "issues": [
+              "Article includes detailed claims about the role of 'attention' in philosophical conceptions of well-being that are not directly supported by the cited Stanford Encyclopedia of Philosophy (SEP) entry",
+              "Article attributes to Aristotle and the 'eudaimonic tradition' the explicit foundational importance of attention, but SEP does not specifically discuss 'attention' in Aristotle's ethics or in objective list theories",
+              "Descriptions of the attention economy and digital distraction are not present in the supplied academic evidence"
+            ],
+            "completedEditorialReview": true
+          },
+          {
+            "attempt": 5,
+            "approved": false,
+            "issues": [
+              "The original card claims: 'Attention is limited; where you direct it influences what you learn and do.'",
+              "Stanford Encyclopedia of Philosophy (SEP) source does not directly address attention as a thematic or foundational concept regarding well-being.",
+              "Article contains several extrapolations about the practical philosophical role of attention not supported or clearly discussed in the source."
+            ],
+            "completedEditorialReview": true
           }
         ],
-        "attemptCount": 3,
+        "attemptCount": 5,
+        "completedEditorialReviews": 3,
         "reviewFailureSummary": "Article not yet approved by reviewer; Saved text has not passed a matching editorial review",
         "sourceAccessible": true,
         "sourceUrls": [
@@ -2132,7 +2209,7 @@
           "https://en.wikipedia.org/wiki/Martin_Luther_King_Jr."
         ],
         "sourceCount": 2,
-        "wordCount": 882,
+        "wordCount": 685,
         "reviewedTextMatchesSaved": false,
         "originalSource": "https://plato.stanford.edu/entries/well-being/",
         "evidenceSource": "https://plato.stanford.edu/entries/well-being/",
@@ -2142,11 +2219,11 @@
         ],
         "factualRisk": "high",
         "imageStatus": "awaiting_visual_and_license_review",
-        "publication": "ready_for_publish"
+        "publication": "blocked_unapproved_review"
       },
-      "recoveryBatchId": "historical-36-v1",
+      "recoveryBatchId": "remaining-27-v2",
       "state": "review_failed",
-      "checkedAt": "2026-11-10T01:35:35.517443Z",
+      "checkedAt": "2026-11-10T02:29:12.113196Z",
       "source": "https://plato.stanford.edu/entries/well-being/",
       "failureCodes": [
         "EDITORIAL_QUALITY_FAILED"
@@ -2156,17 +2233,19 @@
           "attempt": 1,
           "approved": false,
           "issues": [
-            "Generated article length 545 outside 600-1100 words"
+            "Article introduces claim that internal allocation of attention is a shared feature in well-being theories, which is not supported by the source.",
+            "The role of 'deliberate attention' is asserted as central in both ancient and modern theories, but source does not substantiate attention itself as a major theme in well-being philosophy.",
+            "The synthesis between 'attention' and theories such as eudaimonia or positive psychology is an interpretative leap not present in the Stanford Encyclopedia entry."
           ],
-          "failureCode": "EDITORIAL_QUALITY_FAILED"
+          "completedEditorialReview": true
         },
         {
           "attempt": 2,
           "approved": false,
           "issues": [
-            "Several paragraphs extensively discuss Aristotle, eudaimonia, and other details that are not present in the card's original language or summary.",
-            "The original card makes no historical references or claims about Aristotle or ancient philosophy—it only states that attention shapes learning and action.",
-            "The article includes invented or unverified narrative details about ancient philosophers' concerns and modern digital distractions, which are not present in the source or card."
+            "The article implies that deliberate attention is thematically supported by the source, but the source does not specifically address or prioritize 'attention' as a central concept in philosophical discussions of well-being.",
+            "There is a risk of over-interpretation: the article extends the supplied card's focus on attention to a broader context not substantiated directly by the source.",
+            "The source discusses outcomes, experiences, and various elements constituting well-being, but does not anchor well-being to attention in the way the article suggests."
           ],
           "completedEditorialReview": true
         },
@@ -2174,51 +2253,35 @@
           "attempt": 3,
           "approved": false,
           "issues": [
-            "Generated article length 227 outside 600-1100 words"
-          ],
-          "failureCode": "EDITORIAL_QUALITY_FAILED"
-        },
-        {
-          "attempt": 4,
-          "approved": false,
-          "issues": [
-            "Article includes detailed claims about the role of 'attention' in philosophical conceptions of well-being that are not directly supported by the cited Stanford Encyclopedia of Philosophy (SEP) entry",
-            "Article attributes to Aristotle and the 'eudaimonic tradition' the explicit foundational importance of attention, but SEP does not specifically discuss 'attention' in Aristotle's ethics or in objective list theories",
-            "Descriptions of the attention economy and digital distraction are not present in the supplied academic evidence"
-          ],
-          "completedEditorialReview": true
-        },
-        {
-          "attempt": 5,
-          "approved": false,
-          "issues": [
-            "The original card claims: 'Attention is limited; where you direct it influences what you learn and do.'",
-            "Stanford Encyclopedia of Philosophy (SEP) source does not directly address attention as a thematic or foundational concept regarding well-being.",
-            "Article contains several extrapolations about the practical philosophical role of attention not supported or clearly discussed in the source."
+            "The article introduces 'deliberate attention' as a central concern, which is not supported as a core philosophical component in the supplied source.",
+            "The original card’s claim about the importance of directing limited attention is not substantiated by the provided source evidence.",
+            "The provided source does not discuss attention as a foundational or primary element in philosophical theories of well-being."
           ],
           "completedEditorialReview": true
         }
       ],
-      "attemptCount": 5,
+      "attemptCount": 3,
       "completedEditorialReviews": 3,
-      "reviewFailureSummary": "Article not yet approved by reviewer; Saved text has not passed a matching editorial review",
+      "reviewFailureSummary": "The article introduces 'deliberate attention' as a central concern, which is not supported as a core philosophical component in the supplied source.; The original card’s claim about the importance of directing limited attention is not substantiated by the provided source evidence.",
       "sourceAccessible": true,
       "sourceUrls": [
         "https://plato.stanford.edu/entries/well-being/",
         "https://en.wikipedia.org/wiki/Martin_Luther_King_Jr."
       ],
       "sourceCount": 2,
-      "wordCount": 685,
-      "reviewedTextMatchesSaved": false,
+      "wordCount": 192,
+      "reviewedTextMatchesSaved": true,
       "originalSource": "https://plato.stanford.edu/entries/well-being/",
       "evidenceSource": "https://plato.stanford.edu/entries/well-being/",
       "issues": [
-        "Article not yet approved by reviewer",
-        "Saved text has not passed a matching editorial review"
+        "The article introduces 'deliberate attention' as a central concern, which is not supported as a core philosophical component in the supplied source.",
+        "The original card’s claim about the importance of directing limited attention is not substantiated by the provided source evidence.",
+        "The provided source does not discuss attention as a foundational or primary element in philosophical theories of well-being.",
+        "Sections about 'carving out uninterrupted periods' and applying attention are not drawn from the SEP article but are extrapolations."
       ],
-      "factualRisk": "high",
+      "factualRisk": "medium",
       "imageStatus": "awaiting_visual_and_license_review",
-      "publication": "blocked_unapproved_review"
+      "publication": "ready_for_publish"
     },
     "reflection-027": {
       "state": "approved",
