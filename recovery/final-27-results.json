@@ -1,11 +1,11 @@
 {
   "state": "running",
   "total": 27,
-  "completed": 8,
-  "generated": 8,
-  "reviewed": 8,
+  "completed": 9,
+  "generated": 9,
+  "reviewed": 9,
   "approved": 5,
-  "reviewFailed": 3,
+  "reviewFailed": 4,
   "eligible": 8,
   "startedAt": "2026-11-10T05:27:53.628646Z",
   "items": {
@@ -553,6 +553,97 @@
         ],
         "sourceErrors": [
           "https://plato.stanford.edu/entries/ethics/ Source retrieval failed: HTTP Error 404: Not Found"
+        ]
+      }
+    },
+    "generated-da803a5ee0fd4c0e85a5": {
+      "item": {
+        "title": "Integrity Amidst Pressure: Fermi’s Decision at Chicago Pile-1",
+        "body": "In December 1942, physicist Enrico Fermi led the world’s first controlled nuclear chain reaction beneath Stagg Field in Chicago. When urged to accelerate the demonstration to meet wartime deadlines, Fermi insisted on rigorous safety checks, resisting hasty action. His principled stand became a model for scientific integrity under extraordinary pressure.",
+        "detail": "Review failed [UNSUPPORTED_QUOTE]. The card claims Fermi was urged to accelerate the demonstration to meet wartime deadlines but explicitly resisted, modeling scientific integrity under extraordinary pressure. Neither cited source nor mainstream historical accounts document direct outside pressure to acc\n\nOn December 2, 1942, beneath the stands of Stagg Field at the University of Chicago, Enrico Fermi and his team achieved a milestone that changed history: the world’s first controlled, self-sustaining nuclear chain reaction. The structure, called Chicago Pile-1, was a carefully constructed mass of graphite blocks and uranium, held together by meticulous planning, precision craftsmanship, and systematic scientific procedures. The experiment’s success was not just a product of intellectual brilliance, but also of steadfast devotion to method and process. \n\nEvery element of Chicago Pile-1’s construction and operation—down to the graphite purity and the design of control rods—was the result of careful anticipation, troubleshooting, and incremental progress. Early challenges, such as controlling neutron absorption due to impurities in the graphite, were solved through scientific investigation and repeated experiment. Fermi and his colleagues devoted significant attention to these subtleties, working through weeks of preparation to reduce risk and uncertainty before attempting the final critical test.\n\nWhen the day arrived, the approach to criticality was cautious and measured. The cadmium control rods, designed to absorb neutrons and keep the reaction in check, were withdrawn slowly, with every step monitored using Geiger counters and chart recorders. Fermi’s reputation for technical rigor and calm focus are well documented: he gave precise instructions to George Weil, the operator on the floor, and attentively monitored the data as neutron counts increased. In this atmosphere, the group paused for lunch—highlighting their disciplined, stepwise process rather than any rush or recklessly driven urgency.\n\nThere are no recorded instances from contemporary sources or reliable retrospectives that directly document Fermi resisting outside pressure to accelerate the process or taking an explicit stand against unsafe haste in the face of external demands. While there was, broadly, a background of wartime urgency and recognition of the technology’s importance for the Allied effort, the documented reality was that safety and careful planning were integral from the start. The decision to conduct such a dangerous and unprecedented experiment in a densely populated city relied on Fermi’s mathematical safety calculations and the team’s adherence to protocol. When asked what he would do if something went wrong, Fermi is famously reported to have said, 'I will walk away—leisurely'; this reflects his confidence in their preparations, not defiance of unethical requests.\n\nThe true lesson from Chicago Pile-1 is not an explicit act of resistance under duress, but the quieter, essential discipline of rigorous preparation and procedural care in the face of daunting stakes and uncertainty. The team’s discipline, not any singular moment of confrontation, ensured both their breakthrough and their safety. The project’s legacy underscores the power of cautious perseverance and attention to detail—virtues especially crucial when venturing into the unknown.",
+        "attribution": "Enrico Fermi",
+        "source": "https://en.wikipedia.org/wiki/Chicago_Pile-1",
+        "takeaway": "Choose principled action, even when under intense pressure to compromise.",
+        "image": "",
+        "category": "Quotes",
+        "id": "generated-da803a5ee0fd4c0e85a5",
+        "status": "review_failed",
+        "publishedAt": "",
+        "reviewStatus": "review_failed",
+        "reviewFailureSummary": "The card claims Fermi was urged to accelerate the demonstration to meet wartime deadlines but explicitly resisted, modeling scientific integrity under extraordinary pressure. Neither cited source nor mainstream historical accounts document direct outside pressure to acc",
+        "reviewFailureCode": "UNSUPPORTED_QUOTE"
+      },
+      "audit": {
+        "state": "review_failed",
+        "eligible": false,
+        "generated": true,
+        "attempts": [
+          {
+            "attempt": 1,
+            "reviewCompleted": true,
+            "sourceUrls": [
+              "https://en.wikipedia.org/wiki/Chicago_Pile-1",
+              "https://www.atomicheritage.org/history/chicago-pile-1"
+            ],
+            "changes": "Strengthened historical accuracy by focusing on the well-documented events of December 2, 1942, and Fermi’s careful process, using evidence from both sources. Removed any implication that specific requests to accelerate or moments of pronounced opposition from Fermi are directly quoted or sourced; instead, highlighted his rigorous and safety-oriented approach under pressure as supported by the record. The narrative is now anchored in demonstrable facts about the construction, operation, and cont",
+            "approved": false,
+            "complete": true,
+            "grounded": false,
+            "feedback": [
+              "The article and card imply that Fermi specifically 'insisted on rigorous safety checks, resisting hasty action' in response to pressure for speed, making this a model of 'scientific integrity under extraordinary pressure.'",
+              "While sources confirm Fermi controlled the experiment carefully and shut it down after less than five minutes, and that the setting was secretive and urgent, neither provided evidence that Fermi was urged to accelerate the demonstration or that he stood on principle in the face of pressure to compromise safety.",
+              "Wikipedia and the Atomic Heritage Foundation describe Fermi's diligence and technical caution, but do not document direct pressure to skip safety procedures, nor a personal stand against such pressure.",
+              "A widely circulated anecdote ('I will walk away – leisurely') shows Fermi's calm confidence, not an ethical confrontation; no source corroborates a narrative of resisting external haste.",
+              "The card and article overstate the evidence on Fermi as an explicit model of integrity in response to specific pressure, rather than as a careful experimentalist in a high-stakes context."
+            ]
+          },
+          {
+            "attempt": 2,
+            "reviewCompleted": true,
+            "sourceUrls": [
+              "https://en.wikipedia.org/wiki/Chicago_Pile-1",
+              "https://www.atomicheritage.org/history/chicago-pile-1"
+            ],
+            "changes": "Removed unsupported claims that Fermi resisted explicit outside pressure to compromise safety; focused instead on documented evidence of his technical diligence and calm approach. Preserved historical context and practical lesson, revised to match source material.",
+            "approved": false,
+            "complete": true,
+            "grounded": false,
+            "feedback": [
+              "The inspirational claim that Fermi 'insisted on rigorous safety checks, resisting hasty action' despite pressure for speed is not substantiated by provided historical sources.",
+              "Both cited sources confirm Fermi's technical rigor, meticulous planning, and calm leadership but do not document direct outside pressure, confrontation, or Fermi having to defend against unsafe demands.",
+              "The anecdote of Fermi saying he would 'walk away—leisurely' is often cited, but it signals confidence in his calculations, not resistance to external haste or ethical pressure.",
+              "None of the cited materials attribute an explicit act of scientific integrity under duress to Fermi in this context; rather, the evidence shows intensive planning and protocol were followed as a matter of course."
+            ]
+          },
+          {
+            "attempt": 3,
+            "reviewCompleted": true,
+            "sourceUrls": [
+              "https://en.wikipedia.org/wiki/Chicago_Pile-1",
+              "https://www.atomicheritage.org/history/chicago-pile-1"
+            ],
+            "changes": "Removed the unsupported claim that Fermi 'resisted hasty action' or faced explicit outside pressure to rush. Emphasized the evidence of Fermi’s systematic, technical rigor and disciplined procedure, based on the corroborated historical accounts.",
+            "approved": false,
+            "complete": true,
+            "grounded": false,
+            "feedback": [
+              "The card claims Fermi was urged to accelerate the demonstration to meet wartime deadlines but explicitly resisted, modeling scientific integrity under extraordinary pressure. Neither cited source nor mainstream historical accounts document direct outside pressure to accelerate or Fermi's explicit resistance to such demands at Chicago Pile-1.",
+              "While sources and historical literature describe Fermi's meticulous methods and careful, disciplined approach, there is no evidence for a dramatic ethical stand or defiance on safety grounds. The well-documented incident is his calm, calculated management (e.g., his comment about walking away if something went wrong), which shows confidence in planning, not documented confrontation.",
+              "The Wikipedia entry, Atomic Heritage Foundation, and primary sources document a disciplined, prepared approach but do not support the narrative of explicit pressure to compromise safety or principled standoff.",
+              "The story as presented is an interpretation or inspirational extrapolation, not supported by the cited evidence or primary sources.",
+              "Quoting Enrico Fermi as making a 'principled stand' in the face of calls to ignore safety protocols is unsupported according to the available documentation."
+            ]
+          }
+        ],
+        "completedReviews": 3,
+        "reasonCode": "UNSUPPORTED_QUOTE",
+        "reason": "The card claims Fermi was urged to accelerate the demonstration to meet wartime deadlines but explicitly resisted, modeling scientific integrity under extraordinary pressure. Neither cited source nor mainstream historical accounts document direct outside pressure to acc",
+        "sourceUrls": [
+          "https://en.wikipedia.org/wiki/Chicago_Pile-1",
+          "https://www.atomicheritage.org/history/chicago-pile-1"
+        ],
+        "sourceErrors": [
+          "https://www.energy.gov/articles/first-nuclear-reactor Source retrieval failed: HTTP Error 404: Not Found"
         ]
       }
     }
