@@ -3511,6 +3511,89 @@
         "https://en.wikipedia.org/wiki/List_of_agnostics"
       ],
       "sourceErrors": []
+    },
+    "generated-b048d86b9d3346bf9be4": {
+      "state": "review_failed",
+      "eligible": false,
+      "generated": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "reviewCompleted": true,
+          "sourceUrls": [
+            "https://en.wikipedia.org/wiki/Women_in_science"
+          ],
+          "changes": "Reviewed the existing draft because composition returned no article.",
+          "approved": false,
+          "complete": false,
+          "grounded": false,
+          "feedback": [
+            "The article presents detailed claims about Maria Sibylla Merian’s direct impact on overturning spontaneous generation and her specific contributions to entomology, but the only cited source (a broad Wikipedia article about women in science) does not substantiate or specifically address these claims.",
+            "There is a lack of direct evidence in the provided source for Merian’s documented observations, her impact on scientific doctrine, the details of her magnum opus, or her explicit influence on the field of entomology.",
+            "The article’s summary of Merian’s impact risks overstatement and lacks specific references to support the particular historical and scientific assertions.",
+            "The evidence cited is general background on women's roles in science, not a focused account of Merian or her achievements."
+          ]
+        },
+        {
+          "attempt": 2,
+          "reviewCompleted": true,
+          "sourceUrls": [
+            "https://en.wikipedia.org/wiki/Women_in_science"
+          ],
+          "changes": "",
+          "approved": false,
+          "complete": true,
+          "grounded": false,
+          "feedback": [
+            "The provided source (Wikipedia: Women in Science) does not specifically cover Maria Sibylla Merian or substantiate the specific historical claims and details presented in the article.",
+            "Key factual assertions about Merian's empirical methods, discovery of metamorphosis stages, and influence on scientific understanding are not directly supported by the excerpted source.",
+            "Article relies on general historical context and provides unsupported, potentially embellished claims about Merian’s impact and methodology.",
+            "Source summary at best provides indirect context about women in science but does not address Merian’s work or legacy, failing to meet grounding or editorial quality standards."
+          ]
+        },
+        {
+          "attempt": 3,
+          "reviewCompleted": true,
+          "sourceUrls": [
+            "https://en.wikipedia.org/wiki/Women_in_science"
+          ],
+          "changes": "",
+          "approved": false,
+          "complete": true,
+          "grounded": false,
+          "feedback": [
+            "The article makes several factual claims about Maria Sibylla Merian's contributions, methods, and historical context that are not specifically supported or referenced by the provided source.",
+            "The supplied source is a general overview of women in science and does not substantiate details about Merian's work, her challenge to spontaneous generation, her field trips, or her influence on scientific investigation.",
+            "Key claims—such as Merian's direct refutation of spontaneous generation, travel to Suriname, and detailed studies of insect metamorphosis—are not traceable to evidence given in the cited source.",
+            "The article implies Merian’s impact and legacy but provides no primary or detailed secondary source linking her actions to the stated changes in scientific dogma."
+          ]
+        }
+      ],
+      "completedReviews": 3,
+      "reasonCode": "INSUFFICIENT_EVIDENCE",
+      "reason": "Central historical and scientific claims are not substantiated by the provided source.",
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Women_in_science"
+      ],
+      "sourceErrors": [
+        "https://www.rmg.co.uk/stories/topics/maria-sibylla-merian-17th-century-artist-naturalist Source retrieval failed: HTTP Error 404: Not Found"
+      ],
+      "finalVersion": {
+        "title": "Maria Sibylla Merian: Observation as a Path to Understanding",
+        "body": "Maria Sibylla Merian, working in the 17th century, transformed entomology by observing insects directly in their natural habitats, challenging prevailing scientific dogma. Through years of patient study, she documented caterpillar metamorphosis—showing that empirical observation can overturn assumptions and open new realms of understanding.",
+        "attribution": "Maria Sibylla Merian (1647–1717)",
+        "source": "https://en.wikipedia.org/wiki/Women_in_science",
+        "takeaway": "Careful observation and curiosity can challenge orthodoxy and expand knowledge, no matter your starting point.",
+        "detail": "Review failed [INSUFFICIENT_EVIDENCE]. Central historical and scientific claims are not substantiated by the provided source.\n\nIn 17th-century Europe, scientific orthodoxy held that insects arose by spontaneous generation, a belief based more on tradition than direct evidence. Maria Sibylla Merian (1647–1717), a German naturalist and scientific illustrator, challenged this view through an unwavering commitment to firsthand observation. Trained as an artist, Merian’s fascination with insects led her to meticulously document their life cycles, beginning in her own garden. She observed caterpillars as they ate, grew, and spun cocoons, carefully recording each stage of their transformation into butterflies and moths.\n\nUnlike many of her contemporaries, Merian did not rely on inherited wisdom or secondhand reports. Instead, she conducted detailed fieldwork, sometimes traveling as far as Suriname in South America to study exotic species directly in their habitats. Her illustrations and notes captured the gradual metamorphosis of insects in unprecedented detail, providing empirical evidence that refuted the notion of spontaneous generation. Merian’s work not only advanced entomology but also set new standards for scientific investigation: observation, patience, and a willingness to question established beliefs.\n\nMerian’s legacy stands as an enduring testament to the power of curiosity and careful observation. At a time when women faced barriers to participation in formal science, her achievements were remarkable acts of persistence and intellectual independence. By letting nature speak for itself, Merian expanded the boundaries of knowledge, showing that direct engagement with the world can reveal truths overlooked by dogma.",
+        "id": "generated-b048d86b9d3346bf9be4",
+        "category": "Philosophy",
+        "status": "review_failed",
+        "publishedAt": "",
+        "image": "https://raw.githubusercontent.com/jay-ds-labs/mydaycoach-inspirations/main/images/inspire/reflection-001.webp",
+        "reviewStatus": "review_failed",
+        "reviewFailureCode": "INSUFFICIENT_EVIDENCE",
+        "reviewFailureSummary": "Central historical and scientific claims are not substantiated by the provided source."
+      }
     }
   }
 }
