@@ -1,12 +1,12 @@
 {
   "state": "running",
   "total": 27,
-  "completed": 5,
-  "generated": 3,
-  "reviewed": 3,
-  "approved": 3,
+  "completed": 6,
+  "generated": 4,
+  "reviewed": 4,
+  "approved": 4,
   "reviewFailed": 2,
-  "eligible": 3,
+  "eligible": 4,
   "startedAt": "2026-11-10T05:27:53.628646Z",
   "items": {
     "turing-computing": {
@@ -244,6 +244,51 @@
         "reason": "",
         "sourceUrls": [
           "https://en.wikipedia.org/wiki/Perspective-taking"
+        ],
+        "sourceErrors": [
+          "https://plato.stanford.edu/entries/ethics/ Source retrieval failed: HTTP Error 404: Not Found"
+        ]
+      }
+    },
+    "reflection-023": {
+      "item": {
+        "id": "reflection-023",
+        "category": "Philosophy",
+        "title": "Listen before advising",
+        "body": "Understanding another person's experience can be more useful than an immediate solution.",
+        "attribution": "MyDayCoach original reflection — not a historical quotation",
+        "source": "https://en.wikipedia.org/wiki/Active_listening",
+        "takeaway": "Ask what kind of help the other person wants.",
+        "status": "ready_for_publish",
+        "detail": "In conversations where someone shares a challenge or difficult feeling, the impulse to immediately offer advice is common. However, research on active listening—originating with psychologists Carl Rogers and Richard Farson—shows that taking time to listen actively and attentively creates stronger understanding, builds trust, and reduces misunderstandings. Active listening is not passive; it requires intentional engagement, including careful attention to both what is said and how it is expressed. Practicing active listening involves reflecting back what you have heard (paraphrasing), acknowledging emotions (reflective emotion), and asking open-ended questions to invite a fuller expression of the other person’s thoughts and feelings. This approach helps the speaker feel genuinely heard and valued, and often uncovers the type of support they truly need—whether that is advice, empathy, or simply a non-judgmental presence. For example, when a friend describes a work difficulty, an active listener might say, 'It sounds like that situation is very stressful for you. Can you tell me more about what happened?' rather than immediately proposing solutions. Evidence shows that this form of listening can 'bring about changes in people ... in their attitudes toward themselves and others' and fosters emotional growth and openness.[5] By focusing first on understanding, advice—if requested—can later be better tailored to the speaker’s real needs.",
+        "reviewStatus": "approved",
+        "reviewFailureSummary": "",
+        "publishedAt": "",
+        "reviewFailureCode": ""
+      },
+      "audit": {
+        "state": "approved",
+        "eligible": true,
+        "generated": true,
+        "attempts": [
+          {
+            "attempt": 1,
+            "reviewCompleted": true,
+            "sourceUrls": [
+              "https://en.wikipedia.org/wiki/Active_listening"
+            ],
+            "changes": "Added evidence from Carl Rogers and Richard Farson on the effects of active listening; included techniques (paraphrasing, emotion reflection, open-ended questions); illustrated with a practical example; emphasized the sequence of listening first and asking before advising; retained and expanded on core message.",
+            "approved": true,
+            "complete": true,
+            "grounded": true,
+            "feedback": []
+          }
+        ],
+        "completedReviews": 1,
+        "reasonCode": "",
+        "reason": "",
+        "sourceUrls": [
+          "https://en.wikipedia.org/wiki/Active_listening"
         ],
         "sourceErrors": [
           "https://plato.stanford.edu/entries/ethics/ Source retrieval failed: HTTP Error 404: Not Found"
