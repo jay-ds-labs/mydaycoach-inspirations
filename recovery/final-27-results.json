@@ -1,11 +1,11 @@
 {
   "state": "running",
   "total": 27,
-  "completed": 5,
+  "completed": 6,
   "generated": 0,
   "reviewed": 0,
   "approved": 0,
-  "reviewFailed": 5,
+  "reviewFailed": 6,
   "eligible": 0,
   "startedAt": "2026-11-10T05:27:53.628646Z",
   "items": {
@@ -220,6 +220,50 @@
         "sourceUrls": [
           "https://en.wikipedia.org/wiki/Perspective-taking",
           "https://en.wikipedia.org/wiki/Mahatma_Gandhi"
+        ],
+        "sourceErrors": [
+          "https://plato.stanford.edu/entries/ethics/ Source retrieval failed: HTTP Error 404: Not Found"
+        ]
+      }
+    },
+    "reflection-023": {
+      "item": {
+        "id": "reflection-023",
+        "category": "Philosophy",
+        "title": "Listen before advising",
+        "body": "Understanding another person's experience can be more useful than an immediate solution.",
+        "attribution": "MyDayCoach original reflection — not a historical quotation",
+        "source": "https://en.wikipedia.org/wiki/Active_listening",
+        "takeaway": "Ask what kind of help the other person wants.",
+        "status": "review_failed",
+        "detail": "Review failed [INVALID_ARTICLE]. No usable article within the app's storage limit\n\nTruly effective support in human relationships often begins with active listening rather than immediate advice. In many situations, advice given without understanding may miss the nuanced realities someone is facing. By pausing to listen fully, we honor the dignity of others and open the door to more meaningful connection. This approach recognizes that people are experts in their own experiences, and our role can be to witness and understand, rather than solve. The act of listening can build trust, foster empathy, and often reveals the most helpful way to aid someone—whether it is offering encouragement, a practical solution, or simply companionship through a difficult time.",
+        "reviewStatus": "review_failed",
+        "reviewFailureSummary": "No usable article within the app's storage limit",
+        "publishedAt": "",
+        "reviewFailureCode": "INVALID_ARTICLE"
+      },
+      "audit": {
+        "state": "review_failed",
+        "eligible": false,
+        "generated": false,
+        "attempts": [
+          {
+            "attempt": 1,
+            "reviewCompleted": false,
+            "sourceUrls": [
+              "https://en.wikipedia.org/wiki/Active_listening",
+              "https://en.wikipedia.org/wiki/Malcolm_X"
+            ],
+            "errorCode": "INVALID_ARTICLE",
+            "error": "No usable article within the app's storage limit"
+          }
+        ],
+        "completedReviews": 0,
+        "reasonCode": "INVALID_ARTICLE",
+        "reason": "No usable article within the app's storage limit",
+        "sourceUrls": [
+          "https://en.wikipedia.org/wiki/Active_listening",
+          "https://en.wikipedia.org/wiki/Malcolm_X"
         ],
         "sourceErrors": [
           "https://plato.stanford.edu/entries/ethics/ Source retrieval failed: HTTP Error 404: Not Found"
