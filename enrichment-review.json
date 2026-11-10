@@ -3534,40 +3534,114 @@
       "publication": "ready_for_publish"
     },
     "generated-df16a53a8569448998a2": {
+      "previousReview": {
+        "state": "review_failed",
+        "checkedAt": "2026-11-09T22:58:25.619207Z",
+        "source": "https://www.nps.gov/frdo/learn/kidsyouth/upload/The-Story-of-Frederick-Douglass.pdf",
+        "reviewAttempts": [
+          {
+            "attempt": 1,
+            "approved": false,
+            "issues": [
+              "Generation/review error: HTTP Error 503: Service Unavailable"
+            ]
+          },
+          {
+            "attempt": 2,
+            "approved": false,
+            "issues": [
+              "Generated article length 267 outside 600-1100 words"
+            ]
+          },
+          {
+            "attempt": 3,
+            "approved": false,
+            "issues": [
+              "Generation/review error: HTTP Error 503: Service Unavailable"
+            ]
+          }
+        ],
+        "attemptCount": 3,
+        "reviewFailureSummary": "Article not yet approved by reviewer; Saved text has not passed a matching editorial review",
+        "sourceAccessible": true,
+        "sourceUrls": [
+          "https://en.wikipedia.org/wiki/Hoodoo_%28spirituality%29"
+        ],
+        "sourceCount": 1,
+        "wordCount": 806,
+        "reviewedTextMatchesSaved": false,
+        "originalSource": "https://www.nps.gov/frdo/learn/kidsyouth/upload/The-Story-of-Frederick-Douglass.pdf",
+        "evidenceSource": "https://en.wikipedia.org/wiki/Hoodoo_%28spirituality%29",
+        "issues": [
+          "Article not yet approved by reviewer",
+          "Saved text has not passed a matching editorial review"
+        ],
+        "factualRisk": "high",
+        "imageStatus": "awaiting_visual_and_license_review",
+        "publication": "ready_for_publish"
+      },
+      "recoveryBatchId": "historical-36-v1",
       "state": "review_failed",
-      "checkedAt": "2026-11-09T22:58:25.619207Z",
+      "checkedAt": "2026-11-10T01:45:46.751218Z",
       "source": "https://www.nps.gov/frdo/learn/kidsyouth/upload/The-Story-of-Frederick-Douglass.pdf",
+      "failureCodes": [
+        "EDITORIAL_QUALITY_FAILED"
+      ],
       "reviewAttempts": [
         {
           "attempt": 1,
           "approved": false,
           "issues": [
-            "Generation/review error: HTTP Error 503: Service Unavailable"
-          ]
+            "Generated article length 369 outside 600-1100 words"
+          ],
+          "failureCode": "EDITORIAL_QUALITY_FAILED"
         },
         {
           "attempt": 2,
           "approved": false,
           "issues": [
-            "Generated article length 267 outside 600-1100 words"
-          ]
+            "No direct quotations from Frederick Douglass are cited or verified in the supplied source.",
+            "No provided evidence supports the specific claim that Douglass said 'Once you learn to read, you will be forever free.'",
+            "The article references multiple biographical details (Sophia Auld, bread for lessons, Hugh Auld's statements, use of 'The Columbian Orator') without citation from the supplied source or verification."
+          ],
+          "completedEditorialReview": true
         },
         {
           "attempt": 3,
           "approved": false,
           "issues": [
-            "Generation/review error: HTTP Error 503: Service Unavailable"
-          ]
+            "Generated article length 243 outside 600-1100 words"
+          ],
+          "failureCode": "EDITORIAL_QUALITY_FAILED"
+        },
+        {
+          "attempt": 4,
+          "approved": false,
+          "issues": [
+            "Source evidence is inaccessible, so factual claims cannot be fully verified",
+            "Some quotations and paraphrased sentiments attributed to Douglass are not confirmed present in provided evidence",
+            "Several broad historical claims (e.g. systemic barriers in contemporary times, clandestine education in the antebellum South) lack specific sourcing"
+          ],
+          "completedEditorialReview": true
+        },
+        {
+          "attempt": 5,
+          "approved": false,
+          "issues": [
+            "Generated article length 224 outside 600-1100 words"
+          ],
+          "failureCode": "EDITORIAL_QUALITY_FAILED"
         }
       ],
-      "attemptCount": 3,
+      "attemptCount": 5,
+      "completedEditorialReviews": 2,
       "reviewFailureSummary": "Article not yet approved by reviewer; Saved text has not passed a matching editorial review",
       "sourceAccessible": true,
       "sourceUrls": [
         "https://en.wikipedia.org/wiki/Hoodoo_%28spirituality%29"
       ],
       "sourceCount": 1,
-      "wordCount": 806,
+      "wordCount": 731,
       "reviewedTextMatchesSaved": false,
       "originalSource": "https://www.nps.gov/frdo/learn/kidsyouth/upload/The-Story-of-Frederick-Douglass.pdf",
       "evidenceSource": "https://en.wikipedia.org/wiki/Hoodoo_%28spirituality%29",
@@ -3577,7 +3651,7 @@
       ],
       "factualRisk": "high",
       "imageStatus": "awaiting_visual_and_license_review",
-      "publication": "ready_for_publish"
+      "publication": "blocked_unapproved_review"
     },
     "generated-b95e6966fa494baab3e8": {
       "state": "review_failed",
