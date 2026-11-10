@@ -2571,35 +2571,104 @@
     },
     "generated-da803a5ee0fd4c0e85a5": {
       "previousReview": {
+        "previousReview": {
+          "state": "review_failed",
+          "checkedAt": "2026-11-09T22:51:35.546417Z",
+          "source": "https://www.atomicheritage.org/history/chicago-pile-1",
+          "reviewAttempts": [
+            {
+              "attempt": 1,
+              "approved": false,
+              "issues": [
+                "Generation/review error: HTTP Error 503: Service Unavailable"
+              ]
+            },
+            {
+              "attempt": 2,
+              "approved": false,
+              "issues": [
+                "The claim that Fermi was 'urged to accelerate the demonstration to meet wartime deadlines' is only implied by historical context in the supplied sources and not directly supported by specific quotes or detailed documentation.",
+                "No explicit evidence is provided that Fermi 'insisted on rigorous safety checks' or that he 'resisted hasty action' against pressure—though he is shown to be methodical and cautious, explicit mention of external pressure and his resistance is lacking in the evidence supplied.",
+                "Phrases like 'he refused to allow haste or ambition to undermine the foundation of experimental integrity' are interpretative and go beyond what the sources directly attest."
+              ]
+            },
+            {
+              "attempt": 3,
+              "approved": false,
+              "issues": [
+                "Generated article length 317 outside 600-1100 words"
+              ]
+            }
+          ],
+          "attemptCount": 3,
+          "reviewFailureSummary": "Article not yet approved by reviewer; Saved text has not passed a matching editorial review",
+          "sourceAccessible": true,
+          "sourceUrls": [
+            "https://www.atomicheritage.org/history/chicago-pile-1",
+            "https://en.wikipedia.org/wiki/Enrico_Fermi"
+          ],
+          "sourceCount": 2,
+          "wordCount": 614,
+          "reviewedTextMatchesSaved": false,
+          "originalSource": "https://www.atomicheritage.org/history/chicago-pile-1",
+          "evidenceSource": "https://www.atomicheritage.org/history/chicago-pile-1",
+          "issues": [
+            "Article not yet approved by reviewer",
+            "Saved text has not passed a matching editorial review"
+          ],
+          "factualRisk": "high",
+          "imageStatus": "awaiting_visual_and_license_review",
+          "publication": "ready_for_publish"
+        },
+        "recoveryBatchId": "historical-36-v1",
         "state": "review_failed",
-        "checkedAt": "2026-11-09T22:51:35.546417Z",
+        "checkedAt": "2026-11-10T01:37:22.607776Z",
         "source": "https://www.atomicheritage.org/history/chicago-pile-1",
+        "failureCodes": [
+          "EDITORIAL_QUALITY_FAILED"
+        ],
         "reviewAttempts": [
           {
             "attempt": 1,
             "approved": false,
             "issues": [
-              "Generation/review error: HTTP Error 503: Service Unavailable"
-            ]
+              "Article introduces unverified details about 'mounting pressure' and urgency tied to wartime deadlines that are not explicitly confirmed in the given sources.",
+              "No direct evidence in the sources that Fermi was 'urged to accelerate the demonstration' or that he explicitly 'insisted on rigorous safety checks' in response to external pressure.",
+              "The assertion that Fermi's conduct 'became a template' or 'model for scientific integrity' is interpretive and not directly sourced."
+            ],
+            "completedEditorialReview": true
           },
           {
             "attempt": 2,
             "approved": false,
             "issues": [
-              "The claim that Fermi was 'urged to accelerate the demonstration to meet wartime deadlines' is only implied by historical context in the supplied sources and not directly supported by specific quotes or detailed documentation.",
-              "No explicit evidence is provided that Fermi 'insisted on rigorous safety checks' or that he 'resisted hasty action' against pressure—though he is shown to be methodical and cautious, explicit mention of external pressure and his resistance is lacking in the evidence supplied.",
-              "Phrases like 'he refused to allow haste or ambition to undermine the foundation of experimental integrity' are interpretative and go beyond what the sources directly attest."
-            ]
+              "Generated article length 480 outside 600-1100 words"
+            ],
+            "failureCode": "EDITORIAL_QUALITY_FAILED"
           },
           {
             "attempt": 3,
             "approved": false,
             "issues": [
-              "Generated article length 317 outside 600-1100 words"
-            ]
+              "The source does not explicitly state that Fermi was directly 'urged to accelerate the demonstration to meet wartime deadlines' or that he 'insisted on rigorous safety checks, resisting hasty action' in those exact words or detail.",
+              "The article infers a great deal about Fermi's mindset and ethical motives under pressure without direct evidence or quotations; much is interpretive rather than strictly sourced.",
+              "The article implies Fermi set a model for modern scientific ethics, which is reasonable but not explicitly documented in the supplied evidence."
+            ],
+            "completedEditorialReview": true
+          },
+          {
+            "attempt": 4,
+            "approved": false,
+            "issues": [
+              "The card claims Fermi 'insisted on rigorous safety checks, resisting hasty action' and presents this as a direct response to 'pressure to accelerate the demonstration to meet wartime deadlines', but the supplied evidence does not document explicit urgings from others or any recorded resistance or co",
+              "The article appropriately notes that direct refusals or explicit confrontations are undocumented but still creates a thematic narrative that may encourage the inference of more direct opposition than the evidence supports.",
+              "The card's quote 'His principled stand became a model for scientific integrity under extraordinary pressure' is an interpretive claim not directly substantiated by the cited evidence."
+            ],
+            "completedEditorialReview": true
           }
         ],
-        "attemptCount": 3,
+        "attemptCount": 4,
+        "completedEditorialReviews": 3,
         "reviewFailureSummary": "Article not yet approved by reviewer; Saved text has not passed a matching editorial review",
         "sourceAccessible": true,
         "sourceUrls": [
@@ -2607,7 +2676,7 @@
           "https://en.wikipedia.org/wiki/Enrico_Fermi"
         ],
         "sourceCount": 2,
-        "wordCount": 614,
+        "wordCount": 782,
         "reviewedTextMatchesSaved": false,
         "originalSource": "https://www.atomicheritage.org/history/chicago-pile-1",
         "evidenceSource": "https://www.atomicheritage.org/history/chicago-pile-1",
@@ -2617,75 +2686,38 @@
         ],
         "factualRisk": "high",
         "imageStatus": "awaiting_visual_and_license_review",
-        "publication": "ready_for_publish"
+        "publication": "blocked_unapproved_review"
       },
-      "recoveryBatchId": "historical-36-v1",
-      "state": "review_failed",
-      "checkedAt": "2026-11-10T01:37:22.607776Z",
+      "recoveryBatchId": "remaining-27-v2",
+      "state": "approved",
+      "checkedAt": "2026-11-10T02:29:50.503021Z",
       "source": "https://www.atomicheritage.org/history/chicago-pile-1",
-      "failureCodes": [
-        "EDITORIAL_QUALITY_FAILED"
-      ],
+      "failureCodes": [],
       "reviewAttempts": [
         {
           "attempt": 1,
-          "approved": false,
-          "issues": [
-            "Article introduces unverified details about 'mounting pressure' and urgency tied to wartime deadlines that are not explicitly confirmed in the given sources.",
-            "No direct evidence in the sources that Fermi was 'urged to accelerate the demonstration' or that he explicitly 'insisted on rigorous safety checks' in response to external pressure.",
-            "The assertion that Fermi's conduct 'became a template' or 'model for scientific integrity' is interpretive and not directly sourced."
-          ],
-          "completedEditorialReview": true
-        },
-        {
-          "attempt": 2,
-          "approved": false,
-          "issues": [
-            "Generated article length 480 outside 600-1100 words"
-          ],
-          "failureCode": "EDITORIAL_QUALITY_FAILED"
-        },
-        {
-          "attempt": 3,
-          "approved": false,
-          "issues": [
-            "The source does not explicitly state that Fermi was directly 'urged to accelerate the demonstration to meet wartime deadlines' or that he 'insisted on rigorous safety checks, resisting hasty action' in those exact words or detail.",
-            "The article infers a great deal about Fermi's mindset and ethical motives under pressure without direct evidence or quotations; much is interpretive rather than strictly sourced.",
-            "The article implies Fermi set a model for modern scientific ethics, which is reasonable but not explicitly documented in the supplied evidence."
-          ],
-          "completedEditorialReview": true
-        },
-        {
-          "attempt": 4,
-          "approved": false,
-          "issues": [
-            "The card claims Fermi 'insisted on rigorous safety checks, resisting hasty action' and presents this as a direct response to 'pressure to accelerate the demonstration to meet wartime deadlines', but the supplied evidence does not document explicit urgings from others or any recorded resistance or co",
-            "The article appropriately notes that direct refusals or explicit confrontations are undocumented but still creates a thematic narrative that may encourage the inference of more direct opposition than the evidence supports.",
-            "The card's quote 'His principled stand became a model for scientific integrity under extraordinary pressure' is an interpretive claim not directly substantiated by the cited evidence."
-          ],
+          "approved": true,
+          "issues": [],
           "completedEditorialReview": true
         }
       ],
-      "attemptCount": 4,
-      "completedEditorialReviews": 3,
-      "reviewFailureSummary": "Article not yet approved by reviewer; Saved text has not passed a matching editorial review",
+      "attemptCount": 1,
+      "completedEditorialReviews": 1,
+      "reviewFailureSummary": "",
       "sourceAccessible": true,
       "sourceUrls": [
         "https://www.atomicheritage.org/history/chicago-pile-1",
         "https://en.wikipedia.org/wiki/Enrico_Fermi"
       ],
       "sourceCount": 2,
-      "wordCount": 782,
-      "reviewedTextMatchesSaved": false,
+      "wordCount": 206,
+      "reviewedTextMatchesSaved": true,
       "originalSource": "https://www.atomicheritage.org/history/chicago-pile-1",
       "evidenceSource": "https://www.atomicheritage.org/history/chicago-pile-1",
-      "issues": [
-        "Article not yet approved by reviewer",
-        "Saved text has not passed a matching editorial review"
-      ],
-      "factualRisk": "high",
+      "issues": [],
+      "factualRisk": "low",
       "imageStatus": "awaiting_visual_and_license_review",
-      "publication": "blocked_unapproved_review"
+      "publication": "ready_for_publish"
     },
     "generated-67e4272aeda74d329cc9": {
       "previousReview": {
