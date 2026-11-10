@@ -20,9 +20,9 @@ jobs:
           git config user.email "content-bot@users.noreply.github.com"
       - name: Validate pipeline
         run: |
-          python3 -m py_compile scripts/enrich_library.py scripts/audit_images.py scripts/research.py scripts/publication_gate.py
+          python3 -m py_compile scripts/api_resilience.py scripts/enrich_library.py scripts/audit_images.py scripts/research.py scripts/publication_gate.py
           python3 -m unittest discover -s tests -p "test_*.py" -v
-      - name: Enrich all incomplete entries in batches of 20
+      - name: Enrich each unreviewed item once, in batches of 20
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           OPENAI_CONTENT_MODEL: gpt-4.1
@@ -30,6 +30,7 @@ jobs:
           ENRICH_BATCH_SIZE: "20"
           ENRICH_RETRY_REVIEW: "false"
           ENRICH_MAX_ATTEMPTS: "3"
+          CONTENT_TARGET_BRANCH: ${{ github.ref_name }}
         run: |
           test -n "$OPENAI_API_KEY" || { echo "Missing OPENAI_API_KEY"; exit 1; }
           python3 - <<'PY'
@@ -37,30 +38,26 @@ jobs:
           from pathlib import Path
           for batch in range(1,11):
               data=json.loads(Path("library.json").read_text())
+              reviews=json.loads(Path("enrichment-review.json").read_text()).get("items",{})
               pending=[x for x in data["items"] if x.get("status")!="published" and
-                  (not 600<=len(str(x.get("detail") or "").split())<=1100 or
-                   x.get("status")!="ready_for_publish")]
+                  reviews.get(x["id"],{}).get("state") not in
+                  ("approved","review_failed","needs_manual_review","review_pending_retry")]
               if not pending:
-                  print("All unpublished items have full details and are ready for publication.",flush=True)
+                  print("No unreviewed items remain. Non-approved items remain blocked.",flush=True)
                   break
-              print(f"Batch {batch}: {len(pending)} entries pending",flush=True)
+              print(f"Batch {batch}: {len(pending)} unreviewed entries",flush=True)
               subprocess.run([sys.executable,"scripts/enrich_library.py"],check=True)
-              updated=json.loads(Path("library.json").read_text())
-              remaining=[x for x in updated["items"] if x.get("status") not in ("published","ready_for_publish")]
-              if len(remaining)>=len(pending):
-                  raise RuntimeError("No progress: incomplete entries remain; inspect review failures")
           else:
               raise RuntimeError("Reached safety limit of 10 batches")
           PY
-      - name: Report completion
+      - name: Report outcomes without publishing failed reviews
         run: |
           python3 - <<'PY'
           import json
-          data=json.load(open("library.json"))
-          statuses={}
-          for item in data["items"]:
-              statuses[item.get("status","missing")]=statuses.get(item.get("status","missing"),0)+1
-          print("Final statuses:",statuses)
-          if statuses.get("draft",0):
-              raise SystemExit("Incomplete drafts remain")
+          data=json.load(open("enrichment-review.json"))
+          counts={}
+          for review in data.get("items",{}).values():
+              state=review.get("state","unknown")
+              counts[state]=counts.get(state,0)+1
+          print("Review outcomes:",counts)
           PY
