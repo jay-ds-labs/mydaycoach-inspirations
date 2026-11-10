@@ -3902,50 +3902,126 @@
       "publication": "blocked_unapproved_review"
     },
     "generated-df847014cc764b76b0e5": {
+      "previousReview": {
+        "state": "review_failed",
+        "checkedAt": "2026-11-09T22:59:22.068464Z",
+        "source": "https://www.theguardian.com/artanddesign/2018/jun/09/frida-kahlo-paintings-v&a-physical-suffering-self-expression",
+        "reviewAttempts": [
+          {
+            "attempt": 1,
+            "approved": false,
+            "issues": [
+              "Generation/review error: HTTP Error 503: Service Unavailable"
+            ]
+          },
+          {
+            "attempt": 2,
+            "approved": false,
+            "issues": [
+              "Generation/review error: HTTP Error 503: Service Unavailable"
+            ]
+          },
+          {
+            "attempt": 3,
+            "approved": false,
+            "issues": [
+              "Generation/review error: HTTP Error 503: Service Unavailable"
+            ]
+          }
+        ],
+        "attemptCount": 3,
+        "reviewFailureSummary": "Generation/review error: HTTP Error 503: Service Unavailable; Saved text has not passed a matching editorial review",
+        "sourceAccessible": true,
+        "sourceUrls": [
+          "https://en.wikipedia.org/wiki/Women_artists"
+        ],
+        "sourceCount": 1,
+        "wordCount": 806,
+        "reviewedTextMatchesSaved": false,
+        "originalSource": "https://www.theguardian.com/artanddesign/2018/jun/09/frida-kahlo-paintings-v&a-physical-suffering-self-expression",
+        "evidenceSource": "https://en.wikipedia.org/wiki/Women_artists",
+        "issues": [
+          "Generation/review error: HTTP Error 503: Service Unavailable",
+          "Saved text has not passed a matching editorial review"
+        ],
+        "factualRisk": "high",
+        "imageStatus": "awaiting_visual_and_license_review",
+        "publication": "ready_for_publish"
+      },
+      "recoveryBatchId": "historical-36-v1",
       "state": "review_failed",
-      "checkedAt": "2026-11-09T22:59:22.068464Z",
+      "checkedAt": "2026-11-10T01:48:53.892663Z",
       "source": "https://www.theguardian.com/artanddesign/2018/jun/09/frida-kahlo-paintings-v&a-physical-suffering-self-expression",
+      "failureCodes": [
+        "EDITORIAL_QUALITY_FAILED"
+      ],
       "reviewAttempts": [
         {
           "attempt": 1,
           "approved": false,
           "issues": [
-            "Generation/review error: HTTP Error 503: Service Unavailable"
-          ]
+            "Makes multiple specific factual claims about Kahlo’s personal experiences (illness, accident, exclusion from art networks/education, self-portraiture as resilience, etc.), but does not provide evidence beyond the general context of discrimination against women artists",
+            "Some formulations (e.g., Kahlo’s work as activism, her influence on later feminist movements) go beyond source evidence or present synthesis without sourcing",
+            "Ascribes intent, motivation, and interpretive meaning to Kahlo's choices not directly attributed to her words or verified by cited scholarship"
+          ],
+          "completedEditorialReview": true
         },
         {
           "attempt": 2,
           "approved": false,
           "issues": [
-            "Generation/review error: HTTP Error 503: Service Unavailable"
-          ]
+            "Generated article length 242 outside 600-1100 words"
+          ],
+          "failureCode": "EDITORIAL_QUALITY_FAILED"
         },
         {
           "attempt": 3,
           "approved": false,
           "issues": [
-            "Generation/review error: HTTP Error 503: Service Unavailable"
-          ]
+            "Several detailed biographical claims about Kahlo's accident, polio, and chronic pain require verification from the supplied evidence but are not directly supported.",
+            "The article makes interpretive claims about the political and social dimensions of Kahlo's work (e.g., indigenous identity, revolution) that are not substantiated by the provided Guardian source or Wikipedia source.",
+            "Specific references to motifs in Kahlo's paintings (broken columns, wounded animals, etc.) are not directly corroborated by the evidence supplied."
+          ],
+          "completedEditorialReview": true
+        },
+        {
+          "attempt": 4,
+          "approved": false,
+          "issues": [
+            "Generated article length 592 outside 600-1100 words"
+          ],
+          "failureCode": "EDITORIAL_QUALITY_FAILED"
+        },
+        {
+          "attempt": 5,
+          "approved": false,
+          "issues": [
+            "Several factual claims about Kahlo’s biographical details (birth year, specifics of her accident and recovery, use of special easel, isolation) are not directly supported by the provided source evidence.",
+            "Quotations or close paraphrases from the Guardian source are not verifiably present; claims of reference to 'Guardian’s coverage' are not substantiated.",
+            "The Wikipedia source provided covers women artists generally but does not specifically document Frida Kahlo’s personal experiences, technical innovations, or impact as described."
+          ],
+          "completedEditorialReview": true
         }
       ],
-      "attemptCount": 3,
-      "reviewFailureSummary": "Generation/review error: HTTP Error 503: Service Unavailable; Saved text has not passed a matching editorial review",
+      "attemptCount": 5,
+      "completedEditorialReviews": 3,
+      "reviewFailureSummary": "Article not yet approved by reviewer; Saved text has not passed a matching editorial review",
       "sourceAccessible": true,
       "sourceUrls": [
         "https://en.wikipedia.org/wiki/Women_artists"
       ],
       "sourceCount": 1,
-      "wordCount": 806,
+      "wordCount": 695,
       "reviewedTextMatchesSaved": false,
       "originalSource": "https://www.theguardian.com/artanddesign/2018/jun/09/frida-kahlo-paintings-v&a-physical-suffering-self-expression",
       "evidenceSource": "https://en.wikipedia.org/wiki/Women_artists",
       "issues": [
-        "Generation/review error: HTTP Error 503: Service Unavailable",
+        "Article not yet approved by reviewer",
         "Saved text has not passed a matching editorial review"
       ],
       "factualRisk": "high",
       "imageStatus": "awaiting_visual_and_license_review",
-      "publication": "ready_for_publish"
+      "publication": "blocked_unapproved_review"
     },
     "generated-e3df52444a20475181c6": {
       "state": "review_failed",
