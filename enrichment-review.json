@@ -3379,40 +3379,114 @@
       "publication": "ready_for_publish"
     },
     "generated-79fd0a1882254f4d9a2c": {
+      "previousReview": {
+        "state": "review_failed",
+        "checkedAt": "2026-11-09T22:57:43.299741Z",
+        "source": "https://plato.stanford.edu/entries/ibn-tufayl/",
+        "reviewAttempts": [
+          {
+            "attempt": 1,
+            "approved": false,
+            "issues": [
+              "Generation/review error: HTTP Error 503: Service Unavailable"
+            ]
+          },
+          {
+            "attempt": 2,
+            "approved": false,
+            "issues": [
+              "Generated article length 539 outside 600-1100 words"
+            ]
+          },
+          {
+            "attempt": 3,
+            "approved": false,
+            "issues": [
+              "Generation/review error: HTTP Error 503: Service Unavailable"
+            ]
+          }
+        ],
+        "attemptCount": 3,
+        "reviewFailureSummary": "Article not yet approved by reviewer; Saved text has not passed a matching editorial review",
+        "sourceAccessible": true,
+        "sourceUrls": [
+          "https://en.wikipedia.org/wiki/Abu_Bakr_%28name%29"
+        ],
+        "sourceCount": 1,
+        "wordCount": 774,
+        "reviewedTextMatchesSaved": false,
+        "originalSource": "https://plato.stanford.edu/entries/ibn-tufayl/",
+        "evidenceSource": "https://en.wikipedia.org/wiki/Abu_Bakr_%28name%29",
+        "issues": [
+          "Article not yet approved by reviewer",
+          "Saved text has not passed a matching editorial review"
+        ],
+        "factualRisk": "high",
+        "imageStatus": "awaiting_visual_and_license_review",
+        "publication": "ready_for_publish"
+      },
+      "recoveryBatchId": "historical-36-v1",
       "state": "review_failed",
-      "checkedAt": "2026-11-09T22:57:43.299741Z",
+      "checkedAt": "2026-11-10T01:45:02.838186Z",
       "source": "https://plato.stanford.edu/entries/ibn-tufayl/",
+      "failureCodes": [
+        "EDITORIAL_QUALITY_FAILED"
+      ],
       "reviewAttempts": [
         {
           "attempt": 1,
           "approved": false,
           "issues": [
-            "Generation/review error: HTTP Error 503: Service Unavailable"
-          ]
+            "Generated article length 438 outside 600-1100 words"
+          ],
+          "failureCode": "EDITORIAL_QUALITY_FAILED"
         },
         {
           "attempt": 2,
           "approved": false,
           "issues": [
-            "Generated article length 539 outside 600-1100 words"
-          ]
+            "The article makes several interpretative claims about the narrative arc, themes, and philosophical implications of 'Hayy ibn Yaqzan' that are not directly supported or specifically cited in the supplied Stanford Encyclopedia of Philosophy source.",
+            "Descriptions about Hayy's observations, tool-making, animal dissection, and philosophical reasoning, while plausible, are not verified with specific evidence from the supplied source.",
+            "Claims regarding the allegory's influence on later European Enlightenment thinkers, such as John Locke, and the direct connection via Latin translations, are asserted without direct source-based support."
+          ],
+          "completedEditorialReview": true
         },
         {
           "attempt": 3,
           "approved": false,
           "issues": [
-            "Generation/review error: HTTP Error 503: Service Unavailable"
-          ]
+            "Generated article length 203 outside 600-1100 words"
+          ],
+          "failureCode": "EDITORIAL_QUALITY_FAILED"
+        },
+        {
+          "attempt": 4,
+          "approved": false,
+          "issues": [
+            "Several detailed claims about narrative structure, philosophical influences, and historical impact are not verifiable from the supplied Stanford source excerpt.",
+            "Assertions about manuscript traditions concerning Hayy's origins (spontaneous generation or being brought as an infant) not directly verifiable from the supplied evidence.",
+            "Specific references to influences, such as Plato’s allegory of the cave and Islamic Neoplatonism, are not confirmed by the evidence provided."
+          ],
+          "completedEditorialReview": true
+        },
+        {
+          "attempt": 5,
+          "approved": false,
+          "issues": [
+            "Generated article length 328 outside 600-1100 words"
+          ],
+          "failureCode": "EDITORIAL_QUALITY_FAILED"
         }
       ],
-      "attemptCount": 3,
+      "attemptCount": 5,
+      "completedEditorialReviews": 2,
       "reviewFailureSummary": "Article not yet approved by reviewer; Saved text has not passed a matching editorial review",
       "sourceAccessible": true,
       "sourceUrls": [
         "https://en.wikipedia.org/wiki/Abu_Bakr_%28name%29"
       ],
       "sourceCount": 1,
-      "wordCount": 774,
+      "wordCount": 753,
       "reviewedTextMatchesSaved": false,
       "originalSource": "https://plato.stanford.edu/entries/ibn-tufayl/",
       "evidenceSource": "https://en.wikipedia.org/wiki/Abu_Bakr_%28name%29",
@@ -3422,7 +3496,7 @@
       ],
       "factualRisk": "high",
       "imageStatus": "awaiting_visual_and_license_review",
-      "publication": "ready_for_publish"
+      "publication": "blocked_unapproved_review"
     },
     "generated-ddcc00841a124bb7aa26": {
       "state": "approved",
