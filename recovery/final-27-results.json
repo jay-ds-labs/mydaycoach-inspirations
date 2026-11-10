@@ -1,12 +1,12 @@
 {
   "state": "running",
   "total": 27,
-  "completed": 21,
-  "generated": 20,
-  "reviewed": 21,
-  "approved": 15,
+  "completed": 22,
+  "generated": 21,
+  "reviewed": 22,
+  "approved": 16,
   "reviewFailed": 6,
-  "eligible": 19,
+  "eligible": 20,
   "startedAt": "2026-11-10T05:27:53.628646Z",
   "items": {
     "turing-computing": {
@@ -1311,6 +1311,52 @@
         ],
         "sourceErrors": [
           "https://www.theguardian.com/artanddesign/2018/jun/09/frida-kahlo-paintings-v&a-physical-suffering-self-expression Source retrieval failed: HTTP Error 404: Not Found"
+        ]
+      }
+    },
+    "generated-d0c04c62cade4bedb617": {
+      "item": {
+        "title": "Rescue at Nanking: Minnie Vautrin and the Protection of Ginling College",
+        "body": "In the midst of the Nanking Massacre (1937), American missionary Minnie Vautrin transformed the gates of Ginling Women’s College into a sanctuary, sheltering thousands of Chinese women and children from the violence outside. Her unwavering moral conviction illuminates the power of courage and resourcefulness when institutions collapse.",
+        "detail": "During the Nanking Massacre of late 1937, as Japanese troops overtook the city, most foreigners and officials left Nanking, leaving the civilian population—especially women and children—extremely vulnerable to violence and exploitation. Minnie Vautrin, an American missionary and acting president of Ginling Women’s College, chose to remain when others departed. She quickly transformed the college campus into a sanctuary, organizing the conversion of dormitories, classrooms, and offices into shelter for as many as ten thousand women and girls at the height of the violence (source: Wikipedia). Vautrin kept a daily diary during this period, recording both the horrors unfolding outside Ginling’s gates and her persistent efforts to shield those inside. She organized staff and student volunteers to maintain order, distributed rationed food, and provided emotional support during months of scarcity and fear. Vautrin’s role also required repeated, tense negotiations with Japanese military personnel, at times directly challenging soldiers and demanding written guarantees to protect the refugees. Her background as an educator and long-time missionary gave her both practical skills in organization and a deep moral conviction rooted in service to others. Despite immense psychological pressure—a burden evidenced by her later struggle with trauma—Vautrin’s leadership was recognized by both survivors and the Chinese government, which awarded her the Order of the Blue Jade for humanitarian service. Historical studies, as well as her own meticulous diaries, confirm that Ginling College under Vautrin’s leadership offered real and sometimes the only refuge for thousands during one of the twentieth century’s greatest atrocities.\n\nThe significance of Vautrin’s actions is amplified by the collapse of broader institutional structures: with civil authorities absent and international protections minimal, her individual initiative and moral commitment became the last line of defense for many. Her story has been highlighted by historians such as Iris Chang and Hua-ling Hu, who regard Vautrin as a striking example of the impact a single determined individual can have, even in situations seemingly beyond one person’s control.",
+        "attribution": "Based on Minnie Vautrin’s diaries and the work of historians such as Iris Chang and Hua-ling Hu.",
+        "source": "https://en.wikipedia.org/wiki/Minnie_Vautrin",
+        "takeaway": "In moments of crisis, individual moral courage and practical leadership can transform a single safe space into sanctuary for thousands.",
+        "image": "",
+        "category": "Stories",
+        "id": "generated-d0c04c62cade4bedb617",
+        "status": "ready_for_publish",
+        "publishedAt": "",
+        "reviewStatus": "approved",
+        "reviewFailureSummary": "",
+        "reviewFailureCode": ""
+      },
+      "audit": {
+        "state": "approved",
+        "eligible": true,
+        "generated": true,
+        "attempts": [
+          {
+            "attempt": 1,
+            "reviewCompleted": true,
+            "sourceUrls": [
+              "https://en.wikipedia.org/wiki/Minnie_Vautrin"
+            ],
+            "changes": "Removed all unsupported speculative hooks and quotations, clarified extent of Ginling College’s role and number of refugees (supported by Wikipedia), directly referenced Vautrin’s diaries and recognition by the Chinese government, and maintained focus strictly on verified historical events and Vautrin’s actions. Feedback did not highlight errors, but the draft was tightened and all hooks are now fully supported.",
+            "approved": true,
+            "complete": true,
+            "grounded": true,
+            "feedback": []
+          }
+        ],
+        "completedReviews": 1,
+        "reasonCode": "",
+        "reason": "",
+        "sourceUrls": [
+          "https://en.wikipedia.org/wiki/Minnie_Vautrin"
+        ],
+        "sourceErrors": [
+          "https://www.npr.org/templates/story/story.php?storyId=1622547 Source retrieval failed: HTTP Error 404: Not Found"
         ]
       }
     }
