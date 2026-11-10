@@ -5462,40 +5462,108 @@
     },
     "generated-ff74bf7d679241b290b9": {
       "previousReview": {
+        "previousReview": {
+          "state": "review_failed",
+          "checkedAt": "2026-11-09T23:00:54.992157Z",
+          "source": "https://www.humanite.fr/histoire/social/la-premiere-greve-de-femmes-les-penn-sardin-en-1924-327292",
+          "reviewAttempts": [
+            {
+              "attempt": 1,
+              "approved": false,
+              "issues": [
+                "Generation/review error: HTTP Error 503: Service Unavailable"
+              ]
+            },
+            {
+              "attempt": 2,
+              "approved": false,
+              "issues": [
+                "Generated article length 588 outside 600-1100 words"
+              ]
+            },
+            {
+              "attempt": 3,
+              "approved": false,
+              "issues": [
+                "Generation/review error: HTTP Error 503: Service Unavailable"
+              ]
+            }
+          ],
+          "attemptCount": 3,
+          "reviewFailureSummary": "Article not yet approved by reviewer; Saved text has not passed a matching editorial review",
+          "sourceAccessible": true,
+          "sourceUrls": [
+            "https://en.wikipedia.org/wiki/Arthur_de_Gobineau"
+          ],
+          "sourceCount": 1,
+          "wordCount": 734,
+          "reviewedTextMatchesSaved": false,
+          "originalSource": "https://www.humanite.fr/histoire/social/la-premiere-greve-de-femmes-les-penn-sardin-en-1924-327292",
+          "evidenceSource": "https://en.wikipedia.org/wiki/Arthur_de_Gobineau",
+          "issues": [
+            "Article not yet approved by reviewer",
+            "Saved text has not passed a matching editorial review"
+          ],
+          "factualRisk": "high",
+          "imageStatus": "awaiting_visual_and_license_review",
+          "publication": "ready_for_publish"
+        },
+        "recoveryBatchId": "historical-36-v1",
         "state": "review_failed",
-        "checkedAt": "2026-11-09T23:00:54.992157Z",
+        "checkedAt": "2026-11-10T01:51:20.475188Z",
         "source": "https://www.humanite.fr/histoire/social/la-premiere-greve-de-femmes-les-penn-sardin-en-1924-327292",
+        "failureCodes": [
+          "EDITORIAL_QUALITY_FAILED"
+        ],
         "reviewAttempts": [
           {
             "attempt": 1,
             "approved": false,
             "issues": [
-              "Generation/review error: HTTP Error 503: Service Unavailable"
-            ]
+              "Source provided does not match or support any factual claims in the article",
+              "No evidence from the supplied source about Douarnenez, Penn Sardin, or the 1924 strike in Brittany",
+              "No confirmation that the CGT played a specific role or that women initiated the strike based on the supplied evidence"
+            ],
+            "completedEditorialReview": true
           },
           {
             "attempt": 2,
             "approved": false,
             "issues": [
-              "Generated article length 588 outside 600-1100 words"
-            ]
+              "Generated article length 539 outside 600-1100 words"
+            ],
+            "failureCode": "EDITORIAL_QUALITY_FAILED"
           },
           {
             "attempt": 3,
             "approved": false,
             "issues": [
-              "Generation/review error: HTTP Error 503: Service Unavailable"
-            ]
+              "No source evidence provided for Douarnenez strike or Penn Sardin in 1924",
+              "Factual claims about strike events, wage negotiations, national impact, and women's roles are uncorroborated by the only source provided",
+              "Source supplied is about Arthur de Gobineau and is unrelated to labor history or Brittany"
+            ],
+            "completedEditorialReview": true
+          },
+          {
+            "attempt": 4,
+            "approved": false,
+            "issues": [
+              "Article subject does not match supplied card; article discusses Arthur de Gobineau, while card is about the 1924 Douarnenez fishermen's strike.",
+              "No evidence supplied relates to the Brittany strike, labor reforms, or Penn Sardin.",
+              "Article contains no factual claims or content about the strike, sardine industry, or 1924 Brittany."
+            ],
+            "completedEditorialReview": true
           }
         ],
-        "attemptCount": 3,
+        "attemptCount": 4,
+        "completedEditorialReviews": 3,
         "reviewFailureSummary": "Article not yet approved by reviewer; Saved text has not passed a matching editorial review",
         "sourceAccessible": true,
         "sourceUrls": [
           "https://en.wikipedia.org/wiki/Arthur_de_Gobineau"
         ],
         "sourceCount": 1,
-        "wordCount": 734,
+        "wordCount": 727,
         "reviewedTextMatchesSaved": false,
         "originalSource": "https://www.humanite.fr/histoire/social/la-premiere-greve-de-femmes-les-penn-sardin-en-1924-327292",
         "evidenceSource": "https://en.wikipedia.org/wiki/Arthur_de_Gobineau",
@@ -5505,11 +5573,11 @@
         ],
         "factualRisk": "high",
         "imageStatus": "awaiting_visual_and_license_review",
-        "publication": "ready_for_publish"
+        "publication": "blocked_unapproved_review"
       },
-      "recoveryBatchId": "historical-36-v1",
+      "recoveryBatchId": "remaining-27-v2",
       "state": "review_failed",
-      "checkedAt": "2026-11-10T01:51:20.475188Z",
+      "checkedAt": "2026-11-10T02:35:38.006666Z",
       "source": "https://www.humanite.fr/histoire/social/la-premiere-greve-de-femmes-les-penn-sardin-en-1924-327292",
       "failureCodes": [
         "EDITORIAL_QUALITY_FAILED"
@@ -5519,9 +5587,9 @@
           "attempt": 1,
           "approved": false,
           "issues": [
-            "Source provided does not match or support any factual claims in the article",
-            "No evidence from the supplied source about Douarnenez, Penn Sardin, or the 1924 strike in Brittany",
-            "No confirmation that the CGT played a specific role or that women initiated the strike based on the supplied evidence"
+            "Source evidence inaccessible: supplied evidence is about Arthur de Gobineau, not the 1924 Douarnenez strike.",
+            "Cannot verify factual accuracy or quotations in the article against the cited source.",
+            "No direct evidence is provided for the article's concrete claims regarding the events of the strike, its outcomes, or impact."
           ],
           "completedEditorialReview": true
         },
@@ -5529,50 +5597,44 @@
           "attempt": 2,
           "approved": false,
           "issues": [
-            "Generated article length 539 outside 600-1100 words"
+            "No supplied source directly supports article's claims or details",
+            "Referenced article and attribution documents are not visible for verification",
+            "Content relies on unsupplied evidence for specifics about strike leadership, impact, and outcomes"
           ],
-          "failureCode": "EDITORIAL_QUALITY_FAILED"
+          "completedEditorialReview": true
         },
         {
           "attempt": 3,
           "approved": false,
           "issues": [
-            "No source evidence provided for Douarnenez strike or Penn Sardin in 1924",
-            "Factual claims about strike events, wage negotiations, national impact, and women's roles are uncorroborated by the only source provided",
-            "Source supplied is about Arthur de Gobineau and is unrelated to labor history or Brittany"
-          ],
-          "completedEditorialReview": true
-        },
-        {
-          "attempt": 4,
-          "approved": false,
-          "issues": [
-            "Article subject does not match supplied card; article discusses Arthur de Gobineau, while card is about the 1924 Douarnenez fishermen's strike.",
-            "No evidence supplied relates to the Brittany strike, labor reforms, or Penn Sardin.",
-            "Article contains no factual claims or content about the strike, sardine industry, or 1924 Brittany."
+            "Claim of inspiring national labor reforms and a new era of workers’ rights is overstated and not directly supported by supplied source",
+            "Article specifies women ('Penn Sardin') led the strike, which conflicts with the card’s broad reference to 'fishermen'",
+            "Some concrete claims such as the movement paving way for national reforms or inspiring an era of workers’ rights are not clearly substantiated"
           ],
           "completedEditorialReview": true
         }
       ],
-      "attemptCount": 4,
+      "attemptCount": 3,
       "completedEditorialReviews": 3,
-      "reviewFailureSummary": "Article not yet approved by reviewer; Saved text has not passed a matching editorial review",
+      "reviewFailureSummary": "Claim of inspiring national labor reforms and a new era of workers’ rights is overstated and not directly supported by supplied source; Article specifies women ('Penn Sardin') led the strike, which conflicts with the card’s broad reference to 'fishermen'",
       "sourceAccessible": true,
       "sourceUrls": [
         "https://en.wikipedia.org/wiki/Arthur_de_Gobineau"
       ],
       "sourceCount": 1,
-      "wordCount": 727,
-      "reviewedTextMatchesSaved": false,
+      "wordCount": 177,
+      "reviewedTextMatchesSaved": true,
       "originalSource": "https://www.humanite.fr/histoire/social/la-premiere-greve-de-femmes-les-penn-sardin-en-1924-327292",
       "evidenceSource": "https://en.wikipedia.org/wiki/Arthur_de_Gobineau",
       "issues": [
-        "Article not yet approved by reviewer",
-        "Saved text has not passed a matching editorial review"
+        "Claim of inspiring national labor reforms and a new era of workers’ rights is overstated and not directly supported by supplied source",
+        "Article specifies women ('Penn Sardin') led the strike, which conflicts with the card’s broad reference to 'fishermen'",
+        "Some concrete claims such as the movement paving way for national reforms or inspiring an era of workers’ rights are not clearly substantiated",
+        "No direct evidence from provided source confirms disruption at national scale or impact beyond Brittany"
       ],
-      "factualRisk": "high",
+      "factualRisk": "medium",
       "imageStatus": "awaiting_visual_and_license_review",
-      "publication": "blocked_unapproved_review"
+      "publication": "ready_for_publish"
     },
     "generated-318a3a9ff87f452b83e5": {
       "previousReview": {
