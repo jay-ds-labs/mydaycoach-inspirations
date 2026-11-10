@@ -1,12 +1,12 @@
 {
   "state": "running",
   "total": 27,
-  "completed": 18,
-  "generated": 17,
-  "reviewed": 18,
-  "approved": 13,
+  "completed": 19,
+  "generated": 18,
+  "reviewed": 19,
+  "approved": 14,
   "reviewFailed": 5,
-  "eligible": 17,
+  "eligible": 18,
   "startedAt": "2026-11-10T05:27:53.628646Z",
   "items": {
     "turing-computing": {
@@ -1127,6 +1127,54 @@
         ],
         "sourceErrors": [
           "https://www.nps.gov/frdo/learn/kidsyouth/upload/The-Story-of-Frederick-Douglass.pdf Source retrieval failed: HTTP Error 404: Not Found"
+        ]
+      }
+    },
+    "generated-b95e6966fa494baab3e8": {
+      "item": {
+        "title": "Wilhelm Röntgen and the Glimpse Beyond the Visible",
+        "body": "In 1895, Wilhelm Röntgen uncovered X-rays while experimenting in his laboratory, forever altering the way humanity perceives the invisible. His observation, persistence, and integrity in presenting his findings without the urge for personal gain reflect a scientist’s devotion to truth. His insight fostered a new realm of diagnostic medicine and inspired confidence in honest scientific communication.",
+        "detail": "In November 1895, Wilhelm Conrad Röntgen, working in his laboratory at the University of Würzburg, encountered an anomaly while experimenting with cathode rays. He noticed that a fluorescent screen coated with barium platinocyanide glowed, even though it was shielded from direct light by a black cardboard cover meant to contain the rays. Intrigued, Röntgen methodically tested the phenomena, discovering that these unknown rays could pass through various materials, including human tissue and cardboard, but not denser substances like lead. He named them 'X-rays,' using 'X' as a symbol for the unknown. Röntgen didn't stop at mere observation. He devoted many consecutive days and nights to exploring the properties of these new rays, meticulously documenting their behavior, including their effects on photographic plates and their ability to reveal the internal structure of solid objects, most famously shown in a radiograph of his wife’s hand. Rather than keeping his results secret or seeking personal profit through patents, Röntgen quickly presented his findings in a clear, reproducible manner. He published his results at the end of 1895, providing enough detail for others to promptly verify and expand upon the discovery. Within weeks, his discovery was reported in the press, and within months, scientists around the world had reproduced his experiments. The openness with which Röntgen shared his methods allowed for the rapid adoption of X-ray imaging in medical diagnostics, transforming healthcare and inspiring further advances in physics and medicine.",
+        "attribution": "Wilhelm Conrad Röntgen",
+        "source": "https://www.nobelprize.org/prizes/physics/1901/rontgen/facts/",
+        "takeaway": "Approach new uncertainties with rigorous observation and a commitment to truth, even when the evidence reveals things beyond what you can see.",
+        "image": "",
+        "category": "Quotes",
+        "id": "generated-b95e6966fa494baab3e8",
+        "status": "ready_for_publish",
+        "publishedAt": "",
+        "reviewStatus": "approved",
+        "reviewFailureSummary": "",
+        "reviewFailureCode": ""
+      },
+      "audit": {
+        "state": "approved",
+        "eligible": true,
+        "generated": true,
+        "attempts": [
+          {
+            "attempt": 1,
+            "reviewCompleted": true,
+            "sourceUrls": [
+              "https://www.nobelprize.org/prizes/physics/1901/rontgen/facts/",
+              "https://en.wikipedia.org/wiki/Wilhelm_R%C3%B6ntgen"
+            ],
+            "changes": "Removed unverified quotations and unsupported claims about personal motivations. Added more detail about Röntgen's methodical approach, the reproducibility of his results, and their rapid dissemination based strictly on sourced facts, while clarifying that he neither patented nor concealed his methods. Strengthened the takeaway to highlight the importance of thorough observation and scientific openness, in line with the documented historical record.",
+            "approved": true,
+            "complete": true,
+            "grounded": true,
+            "feedback": []
+          }
+        ],
+        "completedReviews": 1,
+        "reasonCode": "",
+        "reason": "",
+        "sourceUrls": [
+          "https://www.nobelprize.org/prizes/physics/1901/rontgen/facts/",
+          "https://en.wikipedia.org/wiki/Wilhelm_R%C3%B6ntgen"
+        ],
+        "sourceErrors": [
+          "https://www.nature.com/articles/535018a Source retrieval failed: HTTP Error 404: Not Found"
         ]
       }
     }
