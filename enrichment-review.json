@@ -2737,6 +2737,86 @@
       "factualRisk": "low",
       "imageStatus": "awaiting_visual_and_license_review",
       "publication": "ready_for_publish"
+    },
+    "generated-f4597b9212f34d308eed": {
+      "state": "review_failed",
+      "eligible": false,
+      "generated": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "reviewCompleted": true,
+          "sourceUrls": [
+            "https://en.wikipedia.org/wiki/Rihanna"
+          ],
+          "changes": "Reviewed the existing draft because composition returned no article.",
+          "approved": false,
+          "complete": true,
+          "grounded": false,
+          "feedback": [
+            "The article is about Grace Hopper, but the provided source is about Rihanna and contains no relevant information about computer science or Grace Hopper.",
+            "There is no evidence, support, or reference for claims about Grace Hopper’s career, beliefs, or quotations in the cited source.",
+            "The attribution and quotes about Grace Hopper are unsupported and unverifiable based on the provided data."
+          ]
+        },
+        {
+          "attempt": 2,
+          "reviewCompleted": true,
+          "sourceUrls": [
+            "https://en.wikipedia.org/wiki/Rihanna"
+          ],
+          "changes": "",
+          "approved": false,
+          "complete": true,
+          "grounded": false,
+          "feedback": [
+            "The article is about Grace Hopper, but the source provided is about Rihanna, making the claims and quotations entirely unsupported by the cited evidence.",
+            "There is no connection between the Wikipedia article on Rihanna and any information about Grace Hopper or computer science.",
+            "The editorial content, while plausible, is not verifiable based on the supplied source."
+          ]
+        },
+        {
+          "attempt": 3,
+          "reviewCompleted": true,
+          "sourceUrls": [
+            "https://en.wikipedia.org/wiki/Rihanna"
+          ],
+          "changes": "",
+          "approved": false,
+          "complete": true,
+          "grounded": false,
+          "feedback": [
+            "The source provided is about Rihanna, not Grace Hopper.",
+            "No evidence or citation pertaining to Grace Hopper or COBOL is present in the supplied source.",
+            "The article’s claims and narrative about Hopper are unsupported by any referenced data."
+          ]
+        }
+      ],
+      "completedReviews": 3,
+      "reasonCode": "INSUFFICIENT_EVIDENCE",
+      "reason": "The article discusses Grace Hopper, but the only source provided is an unrelated Wikipedia page about Rihanna.",
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Rihanna"
+      ],
+      "sourceErrors": [
+        "https://www.history.com/news/grace-hopper-computer-programming-coding-cobol Source retrieval failed: HTTP Error 404: Not Found"
+      ],
+      "finalVersion": {
+        "title": "A Talent for Systems: Grace Hopper and the Beauty of Clarity",
+        "body": "Grace Hopper, pioneering computer scientist and rear admiral, valued precise problem-solving over personal acclaim. Her dedication to making computers accessible changed the field forever.",
+        "attribution": "Grace Hopper",
+        "source": "https://en.wikipedia.org/wiki/Rihanna",
+        "takeaway": "Work that clarifies understanding can empower countless others, even if its impact isn’t always celebrated in its own moment.",
+        "detail": "Review failed [INSUFFICIENT_EVIDENCE]. The article discusses Grace Hopper, but the only source provided is an unrelated Wikipedia page about Rihanna.\n\nDuring the mid-twentieth century, computer science was an emerging discipline, largely reserved for mathematicians and technical specialists. Rear Admiral Grace Hopper, a pioneering computer scientist serving in the United States Navy, transformed the field by insisting on clarity and accessibility. She championed the notion that computers should be understandable and usable by many, not just an elite few—a radical perspective in an era when programming was arcane and steeped in unintelligible machine code.\n\nHopper led the development of COBOL, one of the earliest high-level programming languages. COBOL allowed instructions to be written in an English-like syntax, making it comprehensible for non-technical professionals. Hopper saw this accessibility as not just a technical advancement but as a democratizing force in technology, enabling business analysts, administrators, and others to directly engage with the power of computing. Throughout her career, she argued that clear, systematic solutions could outlast the fame of any individual and create ripple effects across generations.\n\nAlthough her work was not always widely celebrated during her lifetime, Hopper's insistence on precise, user-oriented design paved the way for mass adoption of computers in business, government, and daily life. Her legacy is a testament to the hidden power of work that clarifies complex systems—work whose true significance is revealed in the opportunities it provides for others to succeed.",
+        "id": "generated-f4597b9212f34d308eed",
+        "category": "Quotes",
+        "status": "review_failed",
+        "publishedAt": "",
+        "image": "https://raw.githubusercontent.com/jay-ds-labs/mydaycoach-inspirations/main/images/inspire/reflection-030.webp",
+        "reviewStatus": "review_failed",
+        "reviewFailureCode": "INSUFFICIENT_EVIDENCE",
+        "reviewFailureSummary": "The article discusses Grace Hopper, but the only source provided is an unrelated Wikipedia page about Rihanna."
+      }
     }
   }
 }
