@@ -3256,6 +3256,90 @@
       "sourceErrors": [
         "https://www.newyorker.com/magazine/2016/09/19/remembering-jane-jacobs Source retrieval failed: HTTP Error 404: Not Found"
       ]
+    },
+    "generated-a83bb3ecc6cd4220aa6a": {
+      "state": "review_failed",
+      "eligible": false,
+      "generated": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "reviewCompleted": true,
+          "sourceUrls": [
+            "https://en.wikipedia.org/wiki/Homer"
+          ],
+          "changes": "Reviewed the existing draft because composition returned no article.",
+          "approved": false,
+          "complete": true,
+          "grounded": false,
+          "feedback": [
+            "The primary source cited is only about Homer and does not substantiate any biographical or archaeological details about Heinrich Schliemann nor his excavations.",
+            "There is a lack of direct evidence supporting the claims about Schliemann’s motivations, learning ancient Greek, the timeline of his excavations, and the precise impact of his discoveries.",
+            "Claims about artifacts matching the Iliad, 'Priam’s Treasure', and the reevaluation of Troy's historicity are historical assertions requiring stronger sourcing than a summary Wikipedia article on Homer.",
+            "The card attributes major advances and shifts in archaeological consensus solely to Schliemann without citing critical modern research or secondary scholarly analysis."
+          ]
+        },
+        {
+          "attempt": 2,
+          "reviewCompleted": true,
+          "sourceUrls": [
+            "https://en.wikipedia.org/wiki/Homer"
+          ],
+          "changes": "",
+          "approved": false,
+          "complete": true,
+          "grounded": false,
+          "feedback": [
+            "The article claims are largely accurate in broad historical outline but are not directly substantiated by the single cited source.",
+            "The source provided (Wikipedia's page on Homer) chiefly describes Homer's life, work, and influence, not Schliemann or the rediscovery of Troy.",
+            "There is no direct evidence or reference to Schliemann's excavations, findings, methods, or impact in the listed source.",
+            "Key factual claims (such as Schliemann's identification of Hisarlik, the excavation of 'Priam’s Treasure,' and the shift in scholarly consensus) are unsupported by the cited evidence."
+          ]
+        },
+        {
+          "attempt": 3,
+          "reviewCompleted": true,
+          "sourceUrls": [
+            "https://en.wikipedia.org/wiki/Homer"
+          ],
+          "changes": "",
+          "approved": false,
+          "complete": true,
+          "grounded": false,
+          "feedback": [
+            "The article recounts Schliemann's excavations and their implications for the historicity of Troy, but relies only on 'Homer' (a Wikipedia article about the poet and poetry, not archeology or Schliemann) as a source.",
+            "The claims about Schliemann's findings, 'Priam's Treasure,' and the archaeological context are not supported at all by the cited source, nor are they corroborated by the summary of Source 1.",
+            "The narrative makes several factual historical claims (about Schliemann's discoveries, their interpretation, and their impact), which are unsubstantiated by the evidence provided.",
+            "No archaeological, historical, or biographical sources are included—only literary context from the Homer Wikipedia page.",
+            "Readers could be misled into thinking the article is well-sourced when in fact it is not, undermining editorial quality."
+          ]
+        }
+      ],
+      "completedReviews": 3,
+      "reasonCode": "INSUFFICIENT_EVIDENCE",
+      "reason": "Claims about Schliemann's excavation and Troy's archaeological discovery are unsupported by the provided source, which solely concerns Homer’s poetry.",
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Homer"
+      ],
+      "sourceErrors": [
+        "https://www.britannica.com/biography/Heinrich-Schliemann Source retrieval failed: HTTP Error 403: Forbidden"
+      ],
+      "finalVersion": {
+        "title": "Hope Beyond Atlantis: Heinrich Schliemann’s Rediscovery of Troy",
+        "body": "In the 1870s, Heinrich Schliemann, fueled by childhood fascination and persistent self-study, set out to prove that Troy was more than myth. His bold excavation at Hisarlik, Turkey, unearthed ancient walls and artifacts, offering compelling evidence that the city described by Homer once truly existed and redefining the boundary between legend and history.",
+        "attribution": "Based on accounts of Heinrich Schliemann's archaeological work and multiple scholarly sources.",
+        "source": "https://en.wikipedia.org/wiki/Homer",
+        "takeaway": "Perseverance, openness to possibility, and critical curiosity can transform legendary tales into tangible discoveries, reshaping what we believe possible.",
+        "detail": "Review failed [INSUFFICIENT_EVIDENCE]. Claims about Schliemann's excavation and Troy's archaeological discovery are unsupported by the provided source, which solely concerns Homer’s poetry.\n\nFor centuries, the city of Troy was known largely through the epic poetry attributed to Homer, whose Iliad depicted a legendary war fought for love and honor. By the nineteenth century, many scholars dismissed Troy as a product of myth rather than a site anchored in history. Yet, Heinrich Schliemann—a self-taught archaeologist and entrepreneur—refused to accept that the boundaries between legend and truth were so impenetrable.\n\nDriven by a deep fascination with Homer’s poems from childhood, Schliemann scoured ancient texts and contemporary scholarship. He became convinced that the mound of Hisarlik in northwest Turkey, previously suggested by others, was the true site of ancient Troy. Starting in 1870, Schliemann led systematic excavations at Hisarlik, uncovering a complex stratigraphy of ancient settlements layered atop one another. His methods, while crude by present-day standards, yielded remarkable finds: massive defensive walls, stone buildings, and a trove of gold and artifacts famously dubbed 'Priam’s Treasure.'\n\nThough later research clarified that Schliemann’s identification of Priam's Troy pertained to an earlier stratum than that of Homeric lore, the implications of his discoveries were profound. Hisarlik was proven to be a major Bronze Age city, and the idea that Troy was purely myth crumbled under the weight of archaeological evidence. Schliemann’s work revitalized the study of ancient Anatolia and inspired generations to explore the factual roots beneath literary tradition. By daring to question received wisdom and daring to dig where others saw only legend, Schliemann transformed a story into a site, reshaping how history and myth are understood.",
+        "id": "generated-a83bb3ecc6cd4220aa6a",
+        "category": "Stories",
+        "status": "review_failed",
+        "publishedAt": "",
+        "image": "https://raw.githubusercontent.com/jay-ds-labs/mydaycoach-inspirations/main/images/inspire/reflection-013.webp",
+        "reviewStatus": "review_failed",
+        "reviewFailureCode": "INSUFFICIENT_EVIDENCE",
+        "reviewFailureSummary": "Claims about Schliemann's excavation and Troy's archaeological discovery are unsupported by the provided source, which solely concerns Homer’s poetry."
+      }
     }
   }
 }
