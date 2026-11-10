@@ -7163,11 +7163,31 @@
       "state": "awaiting_visual_and_license_review"
     },
     "generated-5875fedf413e4010bf96": {
-      "checkedAt": "2026-11-09T22:57:18.975797Z",
+      "checkedAt": "2026-11-10T01:44:15.865973Z",
       "queries": [
         "Wittgenstein and the Limits of Language: Meaning at the Edge of Expression"
       ],
-      "candidates": [],
+      "candidates": [
+        {
+          "state": "needs_manual_license_review",
+          "fileTitle": "File:Programme (IA programme0506bost).pdf",
+          "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Programme_%28IA_programme0506bost%29.pdf/page1-960px-Programme_%28IA_programme0506bost%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Programme_(IA_programme0506bost).pdf",
+          "creator": "Boston Symphony Orchestra",
+          "attribution": "Boston Symphony Orchestra",
+          "license": "public-domain",
+          "licenseUrl": "",
+          "usageTerms": "Public domain",
+          "mime": "application/pdf",
+          "description": "\"With historical and descriptive notes by William F. Apthorp\", 1897/98-1900/01; \"Philip Hale\", 1901/02-1922/23 \n Conductors: 18 -1897/98, Emil Paur; 1898/99-1905/06, Wilhelm Gericke; 1906/07, 1912/13-1917/18, Karl Muck; 1908/09-1911/12, Max Fiedler; 1922/23, Pierre Monteux \n The Boston Symphony Orchestra performed in the Boston Music Hall from 1881-1900 (1st-19th seasons.) \n Description based on: 40th season (1920-1921); title from cover \n Title from cover \n Boston Symphony Orchestra Program als",
+          "requiresVisualReview": true,
+          "note": "Metadata only; authenticity, relevance, and legal suitability not yet verified.",
+          "visualCheck": {
+            "state": "not_checked",
+            "reason": "No API key or license metadata not approved"
+          }
+        }
+      ],
       "errors": [],
       "selected": null,
       "state": "awaiting_visual_and_license_review"
