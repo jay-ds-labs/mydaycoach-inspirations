@@ -3042,6 +3042,95 @@
         "reviewFailureCode": "INSUFFICIENT_EVIDENCE",
         "reviewFailureSummary": "The specific claims about Tubman's methods, nickname, and reliance on coded signals/astronomy are not substantiated by the cited gravesite source."
       }
+    },
+    "generated-e786e78d9baf4d0fb614": {
+      "state": "review_failed",
+      "eligible": false,
+      "generated": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "reviewCompleted": true,
+          "sourceUrls": [
+            "https://en.wikipedia.org/wiki/Earl_Warren"
+          ],
+          "changes": "Reviewed the existing draft because composition returned no article.",
+          "approved": false,
+          "complete": true,
+          "grounded": false,
+          "feedback": [
+            "The source provided (Earl Warren's Wikipedia page) does not directly discuss Mendez v. Westminster or the Mendez family's lawsuit.",
+            "The article's central historical claims about the Mendez case, its plaintiffs, and its direct impact on desegregation are unsupported by the cited source.",
+            "No evidence is provided from the source linking the details of Mendez v. Westminster to Earl Warren or Brown v. Board of Education.",
+            "The attribution to the National Archives is not backed by an actual citation or evidence; the only source data is Earl Warren's biography, making the article ungrounded."
+          ]
+        },
+        {
+          "attempt": 2,
+          "reviewCompleted": true,
+          "sourceUrls": [
+            "https://en.wikipedia.org/wiki/Earl_Warren",
+            "https://en.wikipedia.org/wiki/Hispanic_and_Latino_Americans"
+          ],
+          "changes": "",
+          "approved": false,
+          "complete": true,
+          "grounded": false,
+          "feedback": [
+            "Main supporting source (SOURCE 1) is a biography of Earl Warren and does not substantively cover Mendez v. Westminster or the plaintiffs.",
+            "No source provided directly documents the events, outcome, or influence of Mendez v. Westminster.",
+            "The only source mentioning Hispanic Americans is generic demographic context and not specifically tied to the litigation or its legal impact.",
+            "Claims about the influence of Mendez v. Westminster on Brown v. Board of Education and Thurgood Marshall's involvement are not sourced."
+          ]
+        },
+        {
+          "attempt": 3,
+          "reviewCompleted": true,
+          "sourceUrls": [
+            "https://en.wikipedia.org/wiki/Earl_Warren",
+            "https://en.wikipedia.org/wiki/Hispanic_and_Latino_Americans",
+            "https://en.wikipedia.org/wiki/Brown_v._Board_of_Education"
+          ],
+          "changes": "",
+          "approved": false,
+          "complete": true,
+          "grounded": false,
+          "feedback": [
+            "The article provides a well-written narrative about Mendez v. Westminster, but the evidence provided in the listed sources does not actually support details of the case or connect Mendez v. Westminster with the later case of Brown v. Board of Education.",
+            "Source 1 (Earl Warren) does not discuss Mendez v. Westminster or its role as a precedent; it focuses on Warren himself and related cases.",
+            "Source 2 is a demographic background about Hispanic and Latino Americans and does not pertain to the subject of school desegregation or the Mendez case.",
+            "Source 3 covers Brown v. Board of Education, yet it does not mention Mendez v. Westminster, nor does it discuss its influence or any connection between Mendez and Brown.",
+            "There is no substantiation from these sources for specific claims about the Mendez case, including its historical details, legal arguments, outcomes, or influence on Brown."
+          ]
+        }
+      ],
+      "completedReviews": 3,
+      "reasonCode": "INSUFFICIENT_EVIDENCE",
+      "reason": "None of the provided sources address the historical facts or significance of Mendez v. Westminster, making the article ungrounded despite its narrative quality.",
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Earl_Warren",
+        "https://en.wikipedia.org/wiki/Hispanic_and_Latino_Americans",
+        "https://en.wikipedia.org/wiki/Brown_v._Board_of_Education"
+      ],
+      "sourceErrors": [
+        "https://www.archives.gov/education/lessons/mendez-v-westminster Source retrieval failed: HTTP Error 404: Not Found"
+      ],
+      "finalVersion": {
+        "title": "Justice Deferred: Mendez v. Westminster and the Fight Against School Segregation",
+        "body": "In 1946, Gonzalo and Felicitas Mendez brought a lawsuit that challenged the segregation of Mexican American children in California schools. Their victory in Mendez v. Westminster paved the way for nationwide desegregation, serving as a critical precedent for later cases like Brown v. Board of Education.",
+        "attribution": "National Archives",
+        "source": "https://en.wikipedia.org/wiki/Earl_Warren",
+        "takeaway": "Lasting change often begins with persistent local action—courage at the community level can shake the foundations of unjust systems.",
+        "detail": "Review failed [INSUFFICIENT_EVIDENCE]. None of the provided sources address the historical facts or significance of Mendez v. Westminster, making the article ungrounded despite its narrative quality.\n\nIn the mid-1940s, Mexican American families in Orange County, California faced entrenched educational segregation. Their children were often forced to attend separate schools, typically underfunded and inferior, on the basis of their ancestry—even though state law did not explicitly require such segregation. In 1945, Gonzalo and Felicitas Mendez, frustrated when their children were denied access to the local public school attended by white children, joined other families to challenge the practice in federal court. Their lawsuit, Mendez v. Westminster, contested the legality of this discrimination and argued that it violated the children’s constitutional right to equal protection under the law.\n\nThe federal court's ruling in 1946 found that segregating Mexican American children was not permitted by law and was fundamentally unjust. The court ordered several Orange County school districts to integrate, making Mendez v. Westminster the first federal case to declare school segregation unconstitutional within a state. Though the decision’s legal scope was limited to California, its social and legal significance was far-reaching. The case prompted statewide changes and helped inspire the California legislature to repeal remaining segregation statutes.\n\nMendez v. Westminster did not reach the Supreme Court, but its reasoning and legal strategies caught the attention of national civil rights organizations. When the Supreme Court considered Brown v. Board of Education less than a decade later, the groundwork laid in Mendez was visible in the legal arguments against school segregation. By demonstrating the power of local action and coalition-building, the Mendez family and their community paved the way for broader civil rights victories to come.",
+        "id": "generated-e786e78d9baf4d0fb614",
+        "category": "Stories",
+        "status": "review_failed",
+        "publishedAt": "",
+        "image": "https://raw.githubusercontent.com/jay-ds-labs/mydaycoach-inspirations/main/images/inspire/reflection-013.webp",
+        "reviewStatus": "review_failed",
+        "reviewFailureCode": "INSUFFICIENT_EVIDENCE",
+        "reviewFailureSummary": "None of the provided sources address the historical facts or significance of Mendez v. Westminster, making the article ungrounded despite its narrative quality."
+      }
     }
   }
 }
