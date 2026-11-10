@@ -2721,44 +2721,112 @@
     },
     "generated-67e4272aeda74d329cc9": {
       "previousReview": {
+        "previousReview": {
+          "state": "review_failed",
+          "checkedAt": "2026-11-09T22:52:26.262787Z",
+          "source": "https://www.loc.gov/exhibits/african-american-odyssey/abolitionist-frederick-douglass.html",
+          "reviewAttempts": [
+            {
+              "attempt": 1,
+              "approved": false,
+              "issues": [
+                "No direct quotations from Douglass's 1894 Douglass High School commencement address are provided or sourced",
+                "The article includes interpretations and paraphrasing of Douglass's philosophy not clearly supported by the supplied evidence",
+                "No primary or secondary source evidence from the source link confirms that Douglass delivered this specific message or speech in June 1894 as described"
+              ]
+            },
+            {
+              "attempt": 2,
+              "approved": false,
+              "issues": [
+                "Generated article length 185 outside 600-1100 words"
+              ]
+            },
+            {
+              "attempt": 3,
+              "approved": false,
+              "issues": [
+                "No evidence provided confirms that Frederick Douglass gave a commencement address at Douglass High School in Baltimore in June 1894.",
+                "No sourced quotations or contemporaneous accounts from Douglass’s supposed speech are cited or matched to the claims made.",
+                "The article attributes specific philosophies, advice, and themes to Douglass at a specific event without provided primary documentation."
+              ]
+            }
+          ],
+          "attemptCount": 3,
+          "reviewFailureSummary": "Article not yet approved by reviewer; Saved text has not passed a matching editorial review",
+          "sourceAccessible": true,
+          "sourceUrls": [
+            "https://en.wikipedia.org/wiki/Washington_College"
+          ],
+          "sourceCount": 1,
+          "wordCount": 836,
+          "reviewedTextMatchesSaved": false,
+          "originalSource": "https://www.loc.gov/exhibits/african-american-odyssey/abolitionist-frederick-douglass.html",
+          "evidenceSource": "https://en.wikipedia.org/wiki/Washington_College",
+          "issues": [
+            "Article not yet approved by reviewer",
+            "Saved text has not passed a matching editorial review"
+          ],
+          "factualRisk": "high",
+          "imageStatus": "awaiting_visual_and_license_review",
+          "publication": "ready_for_publish"
+        },
+        "recoveryBatchId": "historical-36-v1",
         "state": "review_failed",
-        "checkedAt": "2026-11-09T22:52:26.262787Z",
+        "checkedAt": "2026-11-10T01:38:21.598562Z",
         "source": "https://www.loc.gov/exhibits/african-american-odyssey/abolitionist-frederick-douglass.html",
+        "failureCodes": [
+          "EDITORIAL_QUALITY_FAILED"
+        ],
         "reviewAttempts": [
           {
             "attempt": 1,
             "approved": false,
             "issues": [
-              "No direct quotations from Douglass's 1894 Douglass High School commencement address are provided or sourced",
-              "The article includes interpretations and paraphrasing of Douglass's philosophy not clearly supported by the supplied evidence",
-              "No primary or secondary source evidence from the source link confirms that Douglass delivered this specific message or speech in June 1894 as described"
-            ]
+              "No direct access or quotations from the original 1894 Douglass High School commencement address are provided",
+              "No primary or secondary source is included that supports the specific content or paraphrases attributed to Frederick Douglass’s 1894 speech",
+              "Article reconstructs and interprets Douglass’s likely themes without confirming he said them at the cited event"
+            ],
+            "completedEditorialReview": true
           },
           {
             "attempt": 2,
             "approved": false,
             "issues": [
-              "Generated article length 185 outside 600-1100 words"
-            ]
+              "Source evidence does not directly verify Douglass's June 1894 speech or its contents.",
+              "No direct quotation or transcript from the Douglass High School commencement address is present in the provided source.",
+              "Source link leads to a Library of Congress page focusing on Douglass as an abolitionist, not specifically his 1894 address or its themes."
+            ],
+            "completedEditorialReview": true
           },
           {
             "attempt": 3,
             "approved": false,
             "issues": [
-              "No evidence provided confirms that Frederick Douglass gave a commencement address at Douglass High School in Baltimore in June 1894.",
-              "No sourced quotations or contemporaneous accounts from Douglass’s supposed speech are cited or matched to the claims made.",
-              "The article attributes specific philosophies, advice, and themes to Douglass at a specific event without provided primary documentation."
-            ]
+              "Generated article length 470 outside 600-1100 words"
+            ],
+            "failureCode": "EDITORIAL_QUALITY_FAILED"
+          },
+          {
+            "attempt": 4,
+            "approved": false,
+            "issues": [
+              "No direct quotations from Douglass's 1894 address are provided or sourced.",
+              "No supporting evidence from the supplied source to verify content of the 1894 Douglass High School commencement address.",
+              "Key narrative details (such as specific remarks to graduates, reported themes, or phrases) are asserted without direct substantiation from a primary or secondary historical source."
+            ],
+            "completedEditorialReview": true
           }
         ],
-        "attemptCount": 3,
+        "attemptCount": 4,
+        "completedEditorialReviews": 3,
         "reviewFailureSummary": "Article not yet approved by reviewer; Saved text has not passed a matching editorial review",
         "sourceAccessible": true,
         "sourceUrls": [
           "https://en.wikipedia.org/wiki/Washington_College"
         ],
         "sourceCount": 1,
-        "wordCount": 836,
+        "wordCount": 809,
         "reviewedTextMatchesSaved": false,
         "originalSource": "https://www.loc.gov/exhibits/african-american-odyssey/abolitionist-frederick-douglass.html",
         "evidenceSource": "https://en.wikipedia.org/wiki/Washington_College",
@@ -2768,11 +2836,11 @@
         ],
         "factualRisk": "high",
         "imageStatus": "awaiting_visual_and_license_review",
-        "publication": "ready_for_publish"
+        "publication": "blocked_unapproved_review"
       },
-      "recoveryBatchId": "historical-36-v1",
+      "recoveryBatchId": "remaining-27-v2",
       "state": "review_failed",
-      "checkedAt": "2026-11-10T01:38:21.598562Z",
+      "checkedAt": "2026-11-10T02:30:18.287873Z",
       "source": "https://www.loc.gov/exhibits/african-american-odyssey/abolitionist-frederick-douglass.html",
       "failureCodes": [
         "EDITORIAL_QUALITY_FAILED"
@@ -2782,9 +2850,9 @@
           "attempt": 1,
           "approved": false,
           "issues": [
-            "No direct access or quotations from the original 1894 Douglass High School commencement address are provided",
-            "No primary or secondary source is included that supports the specific content or paraphrases attributed to Frederick Douglass’s 1894 speech",
-            "Article reconstructs and interprets Douglass’s likely themes without confirming he said them at the cited event"
+            "No direct evidence provided for the claims about Frederick Douglass's 1894 commencement address.",
+            "The source supports Douglass's broader biography and values but not the specifics of the speech or quotes attributed to him.",
+            "No verification of quotations or specific claims made in the article."
           ],
           "completedEditorialReview": true
         },
@@ -2792,9 +2860,9 @@
           "attempt": 2,
           "approved": false,
           "issues": [
-            "Source evidence does not directly verify Douglass's June 1894 speech or its contents.",
-            "No direct quotation or transcript from the Douglass High School commencement address is present in the provided source.",
-            "Source link leads to a Library of Congress page focusing on Douglass as an abolitionist, not specifically his 1894 address or its themes."
+            "No direct quotation or specific citation from Douglass's 1894 commencement address is provided",
+            "Factual claims about Douglass's advice and beliefs are not specifically supported by the supplied evidence",
+            "Source focuses on Washington College, not Douglass or his views"
           ],
           "completedEditorialReview": true
         },
@@ -2802,40 +2870,34 @@
           "attempt": 3,
           "approved": false,
           "issues": [
-            "Generated article length 470 outside 600-1100 words"
-          ],
-          "failureCode": "EDITORIAL_QUALITY_FAILED"
-        },
-        {
-          "attempt": 4,
-          "approved": false,
-          "issues": [
-            "No direct quotations from Douglass's 1894 address are provided or sourced.",
-            "No supporting evidence from the supplied source to verify content of the 1894 Douglass High School commencement address.",
-            "Key narrative details (such as specific remarks to graduates, reported themes, or phrases) are asserted without direct substantiation from a primary or secondary historical source."
+            "The article states there is a lack of specific records of Douglass's 1894 commencement speech, but the card attributes a concrete quotation and insight to that speech without direct evidence.",
+            "No quotation or direct text from Douglass's 1894 address is presented or verified.",
+            "The general themes and interpretations are supported by Douglass’s legacy, but the concrete link to the cited speech/event is not supported with accessible records."
           ],
           "completedEditorialReview": true
         }
       ],
-      "attemptCount": 4,
+      "attemptCount": 3,
       "completedEditorialReviews": 3,
-      "reviewFailureSummary": "Article not yet approved by reviewer; Saved text has not passed a matching editorial review",
+      "reviewFailureSummary": "The article states there is a lack of specific records of Douglass's 1894 commencement speech, but the card attributes a concrete quotation and insight to that speech without direct evidence.; No quotation or direct text from Douglass's 1894 address is presented or verified.",
       "sourceAccessible": true,
       "sourceUrls": [
         "https://en.wikipedia.org/wiki/Washington_College"
       ],
       "sourceCount": 1,
-      "wordCount": 809,
-      "reviewedTextMatchesSaved": false,
+      "wordCount": 139,
+      "reviewedTextMatchesSaved": true,
       "originalSource": "https://www.loc.gov/exhibits/african-american-odyssey/abolitionist-frederick-douglass.html",
       "evidenceSource": "https://en.wikipedia.org/wiki/Washington_College",
       "issues": [
-        "Article not yet approved by reviewer",
-        "Saved text has not passed a matching editorial review"
+        "The article states there is a lack of specific records of Douglass's 1894 commencement speech, but the card attributes a concrete quotation and insight to that speech without direct evidence.",
+        "No quotation or direct text from Douglass's 1894 address is presented or verified.",
+        "The general themes and interpretations are supported by Douglass’s legacy, but the concrete link to the cited speech/event is not supported with accessible records.",
+        "The provided source does not contain or reference the speech or its contents."
       ],
-      "factualRisk": "high",
+      "factualRisk": "medium",
       "imageStatus": "awaiting_visual_and_license_review",
-      "publication": "blocked_unapproved_review"
+      "publication": "ready_for_publish"
     },
     "generated-807f2b11038c4161a1a7": {
       "state": "approved",
