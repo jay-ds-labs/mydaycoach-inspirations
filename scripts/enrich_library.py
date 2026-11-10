@@ -131,7 +131,7 @@ def main():
     feed=json.loads(FEED.read_text(encoding="utf-8"))
     original=[x for x in feed["items"] if x.get("status")!="published"]
     reviews=json.loads(REVIEWS.read_text(encoding="utf-8")) if REVIEWS.exists() else {"items":{}}
-    done={k for k,v in reviews["items"].items() if v.get("state") in ("approved","review_failed","needs_manual_review") and any(i["id"]==k and 600<=len(str(i.get("detail") or "").split())<=1100 for i in original)}
+    done={k for k,v in reviews["items"].items() if v.get("state") in ("approved","review_failed","needs_manual_review")}
     if RETRY_REVIEW:
         remaining=[x for x in original if reviews["items"].get(x["id"],{}).get("state") in ("review_failed","needs_review","review_pending_retry","needs_manual_review") or (x["id"] not in done and x["id"] in reviews["items"])]
     else:
@@ -227,7 +227,7 @@ def main():
             saved_detail=item.get("detail","")
             saved_words=len(saved_detail.split())
             exact_review=bool(best_detail and best_result) and saved_detail==best_detail
-            approved=bool(best_result) and exact_review and not best_issues and best_result.get("approved") is True
+            approved=bool(best_result) and exact_review and not best_issues and best_result.get("approved") is True and infrastructure_error is None
             state=("review_pending_retry" if infrastructure_error=="REVIEW_API_UNAVAILABLE"
                    else "needs_manual_review" if infrastructure_error=="REVIEW_API_FORBIDDEN" or not records
                    else "approved" if approved and records and MIN_WORDS<=saved_words<=MAX_WORDS
