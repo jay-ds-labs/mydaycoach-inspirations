@@ -65,8 +65,10 @@ def model_json(prompt,model):
         data=json.dumps(payload).encode("utf-8"),
         headers={"Authorization":"Bearer "+os.environ["OPENAI_API_KEY"],
                  "Content-Type":"application/json"})
-    with urllib.request.urlopen(request,timeout=180) as response:
-        raw=json.load(response)
+    def send():
+        with urllib.request.urlopen(request,timeout=180) as response:
+            return json.load(response)
+    raw=call_with_retry(send)
     parts=[p.get("text","") for o in raw.get("output",[])
            for p in o.get("content",[]) if p.get("type")=="output_text"]
     if not parts:
