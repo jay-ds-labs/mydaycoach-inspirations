@@ -6,8 +6,8 @@ ROOT=Path(__file__).resolve().parents[1]
 
 def validate(manifest, reviews, library):
     ids=manifest.get("generatedIds",[])
-    if len(ids)!=36 or len(set(ids))!=36:
-        raise ValueError("Recovery manifest must contain exactly 36 distinct IDs")
+    if len(ids)!=27 or len(set(ids))!=27:
+        raise ValueError("Recovery manifest must contain exactly 27 distinct IDs")
     by_id={x["id"]:x for x in library.get("items",[])}
     records=reviews.get("items",{})
     missing=[id for id in ids if id not in by_id or id not in records]
@@ -21,10 +21,10 @@ def validate(manifest, reviews, library):
     if unexpected:
         raise ValueError("Unexpected review state: "+", ".join(unexpected))
     return {"targetCount":len(ids),"alreadyApproved":sum(records[id].get("state")=="approved" for id in ids),
-            "remaining":sum(records[id].get("recoveryBatchId")!="historical-36-v1" for id in ids)}
+            "remaining":sum(records[id].get("recoveryBatchId")!="remaining-27-v2" for id in ids)}
 
 if __name__=="__main__":
-    manifest=json.loads((ROOT/"recovery/failed-review-36.json").read_text())
+    manifest=json.loads((ROOT/"recovery/remaining-27.json").read_text())
     reviews=json.loads((ROOT/"enrichment-review.json").read_text())
     library=json.loads((ROOT/"library.json").read_text())
     print(json.dumps(validate(manifest,reviews,library),indent=2))
