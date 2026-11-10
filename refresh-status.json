@@ -1,6 +1,6 @@
 {
-  "state": "running",
-  "stage": "generation",
+  "state": "completed",
+  "stage": "done",
   "completed": 15,
   "total": 15,
   "quotes": 5,
@@ -12,7 +12,7 @@
   "needsReview": 0,
   "reviewFailed": 7,
   "startedAt": "2026-11-10T06:08:52.589909Z",
-  "completedAt": null,
+  "completedAt": "2026-11-10T06:15:05.145432Z",
   "error": null,
   "outcomes": [
     {
