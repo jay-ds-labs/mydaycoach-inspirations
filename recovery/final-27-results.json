@@ -1,12 +1,12 @@
 {
   "state": "running",
   "total": 27,
-  "completed": 16,
-  "generated": 15,
-  "reviewed": 16,
-  "approved": 11,
+  "completed": 17,
+  "generated": 16,
+  "reviewed": 17,
+  "approved": 12,
   "reviewFailed": 5,
-  "eligible": 15,
+  "eligible": 16,
   "startedAt": "2026-11-10T05:27:53.628646Z",
   "items": {
     "turing-computing": {
@@ -1029,6 +1029,54 @@
         ],
         "sourceErrors": [
           "https://www.britannica.com/event/Salt-March Source retrieval failed: HTTP Error 403: Forbidden"
+        ]
+      }
+    },
+    "generated-79fd0a1882254f4d9a2c": {
+      "item": {
+        "title": "Ibn Tufail and the Solitary Reasoner: 'Hayy ibn Yaqzan' and Self-Taught Wisdom",
+        "body": "In the 12th century, Andalusian philosopher Ibn Tufail wrote 'Hayy ibn Yaqzan,' an allegory of a boy raised alone on a desert island. Through observation and contemplation, Hayy discovers the natural world, higher truths, and ultimately the divine, illustrating how reason and experience, independent of society, can lead one to profound knowledge.",
+        "detail": "Ibn Tufail, a 12th-century Andalusian Muslim polymath, wrote 'Hayy ibn Yaqzan' (Philosophus Autodidactus) around 1160 CE—a work widely considered the first philosophical novel and a landmark in both Arabic literature and philosophy. The narrative follows Hayy, a boy raised alone on a deserted island, without contact with other humans or exposure to any culture. Raised first by a gazelle and later on his own, Hayy learns by observing nature, conducting experiments, and reflecting on his experiences—developing knowledge in animal behavior, basic technology, astronomy, and the natural sciences. His careful reasoning and solitary inquiry ultimately leads him to the conclusion that the universe must have a creator. Over time, he becomes a self-taught philosopher, achieving a deep understanding of nature, the unity of creation, and the divine, without instruction or guidance from society, religion, or tradition.\n\nIbn Tufail uses Hayy’s journey as an allegory for the potential of human reason. Drawing inspiration from Avicenna (Ibn Sina) and influenced by both Aristotelian and Sufi traditions, he explores how a person, relying on empirical observation and rational inquiry (autodidacticism and the idea of tabula rasa), can ascend from ignorance to wisdom and from a purely material awareness to spiritual insight. The narrative presents the possibility that individuals can achieve ‘al-Insān al-Kāmil’ (the Perfect Human) merely by observing nature and thinking, without formal education. The story suggests that the knowledge gained through experience and reason does not necessarily contradict revelation and that religion and philosophy can be complementary.\n\nA key moment in the story occurs when Hayy, in adulthood, meets another person for the first time—a castaway named Absal. This encounter provides contrast between knowledge acquired in society and that attained alone. Hayy concludes that while religious practices and imagery serve society by shaping good behavior, ultimate truth is best discovered through personal investigation and contemplation. The work had a profound impact on later philosophical thinking. It directly influenced the European Enlightenment (notably thinkers such as John Locke, who developed the concept of 'tabula rasa', and possibly the desert island narrative of Robinson Crusoe). It remains a classic example of how narrative and philosophy can merge to propose that independent inquiry is a reliable path to both scientific and spiritual knowledge.",
+        "attribution": "Ibn Tufail (Abu Bakr Muhammad ibn Abd al-Malik ibn Muhammad ibn Tufail al-Qaisi al-Andalusi), 12th-century Andalusian philosopher.",
+        "source": "https://en.wikipedia.org/wiki/Ibn_Tufayl",
+        "takeaway": "Dedicate time to solitary reflection and careful reasoning about the world, embracing independent investigation as a path to deeper understanding.",
+        "image": "",
+        "category": "Philosophy",
+        "id": "generated-79fd0a1882254f4d9a2c",
+        "status": "ready_for_publish",
+        "publishedAt": "",
+        "reviewStatus": "approved",
+        "reviewFailureSummary": "",
+        "reviewFailureCode": ""
+      },
+      "audit": {
+        "state": "approved",
+        "eligible": true,
+        "generated": true,
+        "attempts": [
+          {
+            "attempt": 1,
+            "reviewCompleted": true,
+            "sourceUrls": [
+              "https://en.wikipedia.org/wiki/Ibn_Tufayl",
+              "https://en.wikipedia.org/wiki/Hayy_ibn_Yaqdhan"
+            ],
+            "changes": "Clarified the allegorical and historical context; integrated more evidence about the intellectual background and legacy (including references to autodidacticism, tabula rasa, and al-Insān al-Kāmil); included the impact of the novel on later philosophy and literature; ensured historical claims matched supplied evidence; preserved supported material from previous drafts; made the practical takeaway more explicit.",
+            "approved": true,
+            "complete": true,
+            "grounded": true,
+            "feedback": []
+          }
+        ],
+        "completedReviews": 1,
+        "reasonCode": "",
+        "reason": "",
+        "sourceUrls": [
+          "https://en.wikipedia.org/wiki/Ibn_Tufayl",
+          "https://en.wikipedia.org/wiki/Hayy_ibn_Yaqdhan"
+        ],
+        "sourceErrors": [
+          "https://plato.stanford.edu/entries/ibn-tufayl/ Source retrieval failed: HTTP Error 404: Not Found"
         ]
       }
     }
