@@ -4707,18 +4707,47 @@
       ]
     },
     "generated-b5ab83f51acb42849191": {
-      "state": "review_failed",
-      "eligible": false,
-      "generated": false,
-      "attempts": [],
-      "completedReviews": 0,
-      "reasonCode": "INSUFFICIENT_EVIDENCE",
-      "reason": "No usable supporting source was retrieved.",
-      "sourceUrls": [],
-      "sourceErrors": [
-        "Wikipedia lookup failed: HTTP Error 429: Too Many Requests"
+      "state": "approved",
+      "eligible": true,
+      "generated": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "reviewCompleted": true,
+          "sourceUrls": [
+            "https://en.wikipedia.org/wiki/Hedy_Lamarr",
+            "https://patents.google.com/patent/US2292387A/en",
+            "https://en.wikipedia.org/wiki/List_of_multiple_discoveries"
+          ],
+          "changes": "Replaced the unsupported claim that the idea was not adopted with a clearer statement that adoption is undocumented in the provided sources; softened the causal link to later technology; added sourced context on the player-piano mechanism and origins from secondary accounts; set the source to the patent page and added explicit labels for interpretation and secondary-source background. The card's original hook phrasing about the idea surviving the war was replaced with a reflective takeaway.",
+          "approved": true,
+          "complete": true,
+          "grounded": true,
+          "feedback": [
+            "The article under review is a short summary card, not the full card body. Expand ARTICLE_TO_REVIEW into a finished standalone article covering the patent, the mechanism, the origins, and the post-patent outcome, ending on a complete sentence."
+          ],
+          "warnings": [
+            "The patent's 'Hedy Kiesler Markey' legal name and the Navy's rejection are relevant context if the article is expanded.",
+            "If the full card is intended for review, submit its complete body text in ARTICLE_TO_REVIEW.",
+            "An isolated article-only check confirmed the ending is complete."
+          ],
+          "blockers": []
+        }
       ],
-      "warnings": [],
+      "completedReviews": 1,
+      "reasonCode": "",
+      "reason": "",
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Hedy_Lamarr",
+        "https://patents.google.com/patent/US2292387A/en",
+        "https://en.wikipedia.org/wiki/List_of_multiple_discoveries"
+      ],
+      "sourceErrors": [],
+      "warnings": [
+        "The patent's 'Hedy Kiesler Markey' legal name and the Navy's rejection are relevant context if the article is expanded.",
+        "If the full card is intended for review, submit its complete body text in ARTICLE_TO_REVIEW.",
+        "An isolated article-only check confirmed the ending is complete."
+      ],
       "previousAudits": [
         {
           "state": "review_failed",
@@ -4908,25 +4937,39 @@
               "The article describes the enemy-jamming motivation accurately; no factual error found in the core account."
             ]
           }
+        },
+        {
+          "state": "review_failed",
+          "eligible": false,
+          "generated": false,
+          "attempts": [],
+          "completedReviews": 0,
+          "reasonCode": "INSUFFICIENT_EVIDENCE",
+          "reason": "No usable supporting source was retrieved.",
+          "sourceUrls": [],
+          "sourceErrors": [
+            "Wikipedia lookup failed: HTTP Error 429: Too Many Requests"
+          ],
+          "warnings": [],
+          "finalVersion": {
+            "title": "Hedy Lamarr and the Frequency-Hopping Idea: Invention Born of Wartime Constraint",
+            "body": "During World War II, actress and self-taught inventor Hedy Lamarr, working with composer George Antheil, developed a frequency-hopping signaling system intended to make radio-guided torpedoes harder to jam. Patented in 1942, the concept was not documented as adopted by the U.S. Navy during the war, but its core principle is later discussed as related to modern spread-spectrum communication technologies.",
+            "attribution": "Hedy Lamarr and George Antheil, U.S. Patent 2,292,387 (1942)",
+            "source": "https://patents.google.com/patent/US2292387A/en",
+            "takeaway": "Useful ideas can arrive from unexpected places, and their value may be recognized only years after they are first proposed.",
+            "detail": "Review failed [INSUFFICIENT_EVIDENCE]. No usable supporting source was retrieved.\n\nIn the years of the Second World War, the American actress Hedy Lamarr and the composer George Antheil developed a secret communication system intended for radio-controlled torpedoes. The patent application was filed on June 10, 1941, and granted on August 11, 1942, as U.S. Patent 2,292,387, titled \"Secret communication system.\" The filing date came before the United States entered the war in December 1941, so the patent itself should be understood as a product of the broader wartime period rather than of any American wartime project. The patent describes a remote-control arrangement in which a transmitter and a receiver change their carrier frequencies together, from time to time, so that an enemy who has not seen the coordinating records cannot know which frequency a control impulse will use at any given moment.\n\nThe problem the inventors addressed was concrete. According to the patent's own background, radio control of a torpedo had been difficult because an enemy could discover the frequency of the control signals and block control by sending false signals on the same frequency. Changing frequency was the proposed remedy. The patent describes general remote control of such a craft as old and broadly not part of the invention. Our reading is that the emphasis of the claimed invention falls on the paired, synchronized records that coordinate frequency changes at the two stations. This is an interpretation of the patent's stated object and summary rather than a separately quoted claim.\n\nThe mechanism was built around player-piano rolls. The patent describes paper records with perforations positioned in a plurality of longitudinal rows, and notes that a conventional player-piano record may have 88 rows of perforations, which in the patent's example would permit 88 different carrier frequencies. This figure is an illustration drawn from the patent's design, not a description of any fielded system. A transmitting record and a receiving record were to run in step, driven by accurately calibrated constant-speed spring motors of the kind used for clocks and chronometers, and they changed the tuning of the apparatus from time to time.\n\nThe patent does not document whether the Navy adopted the system, and the sources available here do not establish a fielded torpedo control system resulting from it during the war. The later significance of the principle is best understood as a relationship of shared idea rather than proven lineage. General technical references describe modern frequency-hopping spread spectrum as changing the carrier frequency rapidly among many frequencies in a band according to a code known to both transmitter and receiver, and note its resistance to narrowband interference and its difficulty to intercept without the pattern. The Lamarr-Antheil patent describes a related idea of coordinated frequency changes, and the later technology is commonly discussed alongside it. Whether any specific later system descends directly from the patent's design is not established by the available evidence.\n\nThe history of the invention's reception is not documented in the sources provided, so this account does not describe when or how Lamarr was later recognized. Interpretively, the story illustrates how an idea shaped by a specific wartime problem can outlast that problem. Readers who want to verify the technical claims should consult the original patent text directly.",
+            "id": "generated-b5ab83f51acb42849191",
+            "category": "Stories",
+            "status": "review_failed",
+            "publishedAt": "",
+            "image": "https://raw.githubusercontent.com/jay-ds-labs/mydaycoach-inspirations/main/images/inspire/reflection-013.webp",
+            "reviewStatus": "review_failed",
+            "reviewFailureCode": "INSUFFICIENT_EVIDENCE",
+            "reviewFailureSummary": "No usable supporting source was retrieved.",
+            "reviewNotes": []
+          }
         }
-      ],
-      "finalVersion": {
-        "title": "Hedy Lamarr and the Frequency-Hopping Idea: Invention Born of Wartime Constraint",
-        "body": "During World War II, actress and self-taught inventor Hedy Lamarr, working with composer George Antheil, developed a frequency-hopping signaling system intended to make radio-guided torpedoes harder to jam. Patented in 1942, the concept was not documented as adopted by the U.S. Navy during the war, but its core principle is later discussed as related to modern spread-spectrum communication technologies.",
-        "attribution": "Hedy Lamarr and George Antheil, U.S. Patent 2,292,387 (1942)",
-        "source": "https://patents.google.com/patent/US2292387A/en",
-        "takeaway": "Useful ideas can arrive from unexpected places, and their value may be recognized only years after they are first proposed.",
-        "detail": "Review failed [INSUFFICIENT_EVIDENCE]. No usable supporting source was retrieved.\n\nIn the years of the Second World War, the American actress Hedy Lamarr and the composer George Antheil developed a secret communication system intended for radio-controlled torpedoes. The patent application was filed on June 10, 1941, and granted on August 11, 1942, as U.S. Patent 2,292,387, titled \"Secret communication system.\" The filing date came before the United States entered the war in December 1941, so the patent itself should be understood as a product of the broader wartime period rather than of any American wartime project. The patent describes a remote-control arrangement in which a transmitter and a receiver change their carrier frequencies together, from time to time, so that an enemy who has not seen the coordinating records cannot know which frequency a control impulse will use at any given moment.\n\nThe problem the inventors addressed was concrete. According to the patent's own background, radio control of a torpedo had been difficult because an enemy could discover the frequency of the control signals and block control by sending false signals on the same frequency. Changing frequency was the proposed remedy. The patent describes general remote control of such a craft as old and broadly not part of the invention. Our reading is that the emphasis of the claimed invention falls on the paired, synchronized records that coordinate frequency changes at the two stations. This is an interpretation of the patent's stated object and summary rather than a separately quoted claim.\n\nThe mechanism was built around player-piano rolls. The patent describes paper records with perforations positioned in a plurality of longitudinal rows, and notes that a conventional player-piano record may have 88 rows of perforations, which in the patent's example would permit 88 different carrier frequencies. This figure is an illustration drawn from the patent's design, not a description of any fielded system. A transmitting record and a receiving record were to run in step, driven by accurately calibrated constant-speed spring motors of the kind used for clocks and chronometers, and they changed the tuning of the apparatus from time to time.\n\nThe patent does not document whether the Navy adopted the system, and the sources available here do not establish a fielded torpedo control system resulting from it during the war. The later significance of the principle is best understood as a relationship of shared idea rather than proven lineage. General technical references describe modern frequency-hopping spread spectrum as changing the carrier frequency rapidly among many frequencies in a band according to a code known to both transmitter and receiver, and note its resistance to narrowband interference and its difficulty to intercept without the pattern. The Lamarr-Antheil patent describes a related idea of coordinated frequency changes, and the later technology is commonly discussed alongside it. Whether any specific later system descends directly from the patent's design is not established by the available evidence.\n\nThe history of the invention's reception is not documented in the sources provided, so this account does not describe when or how Lamarr was later recognized. Interpretively, the story illustrates how an idea shaped by a specific wartime problem can outlast that problem. Readers who want to verify the technical claims should consult the original patent text directly.",
-        "id": "generated-b5ab83f51acb42849191",
-        "category": "Stories",
-        "status": "review_failed",
-        "publishedAt": "",
-        "image": "https://raw.githubusercontent.com/jay-ds-labs/mydaycoach-inspirations/main/images/inspire/reflection-013.webp",
-        "reviewStatus": "review_failed",
-        "reviewFailureCode": "INSUFFICIENT_EVIDENCE",
-        "reviewFailureSummary": "No usable supporting source was retrieved.",
-        "reviewNotes": []
-      }
+      ]
     },
     "generated-812b224ac2834b35b6f3": {
       "state": "approved",
