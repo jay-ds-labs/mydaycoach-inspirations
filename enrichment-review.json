@@ -4656,6 +4656,91 @@
         "reviewFailureCode": "EDITORIAL_QUALITY_FAILED",
         "reviewFailureSummary": "The article is truncated mid-sentence and therefore is not a complete, coherent full article."
       }
+    },
+    "generated-301d38f650914c6d826d": {
+      "state": "review_failed",
+      "eligible": false,
+      "generated": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "reviewCompleted": true,
+          "sourceUrls": [
+            "https://en.wikipedia.org/wiki/List_of_mythological_objects"
+          ],
+          "changes": "Reviewed the existing draft because composition returned no article.",
+          "approved": false,
+          "complete": true,
+          "grounded": false,
+          "feedback": [
+            "The card's source URL points to a Wikipedia list of mythological objects, which does not discuss Diogenes of Sinope, the Cynics, or the lamp anecdote; the cited evidence is wrong-subject.",
+            "The article's claims about Diogenes, the Cynics, the lamp story, and Diogenes Laertius are not supported by any provided source excerpt.",
+            "The article references 'the Stanford entry' without any supporting source or access to it, so it is an unsupported citation.",
+            "The card attributes the lamp anecdote to Diogenes Laertius, Book VI, but the evidence provided does not verify this, and the card body frames it as unverified only partially.",
+            "The article is a coherent full piece, but its factual grounding rests entirely on material not present in the evidence."
+          ]
+        },
+        {
+          "attempt": 2,
+          "reviewCompleted": true,
+          "sourceUrls": [
+            "https://en.wikipedia.org/wiki/List_of_mythological_objects"
+          ],
+          "changes": "",
+          "approved": false,
+          "complete": true,
+          "grounded": false,
+          "feedback": [
+            "The source is a Wikipedia list of mythological armor and objects, not a source about Diogenes of Sinope, Cynicism, or the lamp anecdote; it is wrong-subject evidence for the article.",
+            "The card's source URL points to the same unrelated list, so the card's citation does not support its claims.",
+            "The article's claims about Diogenes (the storage jar, the lamp anecdote, Diogenes Laertius as the transmitter, the Cynics' provocative methods) are not supported by any provided evidence and rely on unverified background knowledge presented as fact.",
+            "The card attributes the lamp anecdote to Diogenes Laertius, Book VI, a specific citation that the supplied evidence does not verify.",
+            "The article is a complete, coherent piece, but its editorial strength is undermined by the lack of any grounding source for its historical claims."
+          ]
+        },
+        {
+          "attempt": 3,
+          "reviewCompleted": true,
+          "sourceUrls": [
+            "https://en.wikipedia.org/wiki/List_of_mythological_objects"
+          ],
+          "changes": "",
+          "approved": false,
+          "complete": false,
+          "grounded": false,
+          "feedback": [
+            "The article is a coherent, well-written essay, but the supplied evidence is a Wikipedia list of mythological objects (armor, helmets, etc.) and does not mention Diogenes of Sinope, the Cynics, the lamp anecdote, or Diogenes Laertius.",
+            "The card's source URL points to the same unrelated list, so the card's cited evidence does not support its subject.",
+            "Claims about Diogenes's dates, Cynic doctrine, the lamp anecdote, and Diogenes Laertius's third-century CE compilation are not grounded in any provided source.",
+            "The card's attribution and takeaway depend on this unsupported material, making the card summary misleading relative to its evidence."
+          ]
+        }
+      ],
+      "completedReviews": 3,
+      "reasonCode": "INSUFFICIENT_EVIDENCE",
+      "reason": "The cited source is an unrelated list of mythological armor and does not support any claims about Diogenes of Sinope or the lamp anecdote.",
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/List_of_mythological_objects"
+      ],
+      "sourceErrors": [
+        "https://plato.stanford.edu/entries/diogenes-cynic/ Source retrieval failed: HTTP Error 404: Not Found"
+      ],
+      "finalVersion": {
+        "title": "Diogenes and the Lamp at Noon: Honesty as a Way of Life",
+        "body": "Diogenes of Sinope, the Cynic philosopher of the fourth century BCE, rejected conventional wealth, status, and social polish in favor of a life lived in plain accordance with nature. Ancient anecdotes, preserved mainly by Diogenes Laertius, describe him carrying a lamp in daylight while claiming to search for an honest person. Whether or not every story is literal, the image captures his core claim: sincerity should be visible in conduct, not merely professed in speech.",
+        "attribution": "Diogenes of Sinope (c. 412–323 BCE), as recorded in Diogenes Laertius, Lives of the Eminent Philosophers, Book VI",
+        "source": "https://en.wikipedia.org/wiki/List_of_mythological_objects",
+        "takeaway": "Let your daily conduct, not your reputation, be the evidence of your integrity.",
+        "detail": "Review failed [INSUFFICIENT_EVIDENCE]. The cited source is an unrelated list of mythological armor and does not support any claims about Diogenes of Sinope or the lamp anecdote.\n\nDiogenes of Sinope, who lived roughly from 412 to 323 BCE, is among the most arresting figures in the history of Greek philosophy. He is usually associated with the movement later known as Cynicism, a name linked to the dog-like manner of its adherents and to their deliberate disregard for convention. Diogenes rejected the pursuit of wealth, political honor, and refined social manners. He argued that a good life was one lived in accordance with nature, with as few artificial needs as possible. Later tradition portrays him as a man who required almost nothing from the world, and many of the stories about him circulated as memorable illustrations of that stance.\n\nThe most famous of these stories shows him walking about in broad daylight with a lamp, claiming to be searching for an honest person. The anecdote survives mainly in the work of Diogenes Laertius, a writer of the third century CE who compiled biographies of ancient philosophers. Because he wrote centuries after his subject, and because ancient biographical collections often mixed reliable reports with colorful anecdotes, the episode should be read with caution. The lamp may have been meant as a joke, a rebuke, or a teaching device, and the literal truth of any single incident cannot be confirmed from the surviving record.\n\nWhatever its basis in fact, the image conveys a serious philosophical claim. Diogenes held that sincerity lies not in what a person says about their own virtue but in how they actually behave. Many people profess honesty, generosity, or self-control while their ordinary choices suggest otherwise. By mocking the distance between words and deeds, the Cynics aimed to expose hypocrisy in custom, in social rank, and in the pretensions of their contemporaries. Their methods were often provocative and humorous, and they were willing to embarrass the powerful in order to make a point.\n\nThe enduring value of the lamp story lies in the standard it sets. A person's values should hold up under ordinary observation, in small matters as much as in public ones. Whether one keeps minor promises, treats strangers courteously, or tells the truth when it is inconvenient reveals more about character than any declaration of principle. A modern reader can test their own commitments by asking whether those commitments appear in everyday habits, especially where no one is watching or where the stakes seem trivial.\n\nThis reading also calls for some humility about the sources. Scholars generally agree that the Cynics left few writings of their own, and that much of what is known about them comes from later reports that may be partial, embellished, or contradictory. The careful approach is to understand the lamp as a vivid expression of a moral idea rather than a documented event. Its lasting appeal is that it compresses a demanding ideal into a single image: integrity is shown not by reputation or eloquence but by the steady consistency of how one lives.",
+        "id": "generated-301d38f650914c6d826d",
+        "category": "Philosophy",
+        "status": "review_failed",
+        "publishedAt": "",
+        "image": "https://raw.githubusercontent.com/jay-ds-labs/mydaycoach-inspirations/main/images/inspire/reflection-001.webp",
+        "reviewStatus": "review_failed",
+        "reviewFailureCode": "INSUFFICIENT_EVIDENCE",
+        "reviewFailureSummary": "The cited source is an unrelated list of mythological armor and does not support any claims about Diogenes of Sinope or the lamp anecdote."
+      }
     }
   }
 }
