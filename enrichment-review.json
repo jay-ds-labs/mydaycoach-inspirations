@@ -3594,6 +3594,96 @@
         "reviewFailureCode": "INSUFFICIENT_EVIDENCE",
         "reviewFailureSummary": "Central historical and scientific claims are not substantiated by the provided source."
       }
+    },
+    "generated-de0c08f0fea849eb8c29": {
+      "state": "review_failed",
+      "eligible": false,
+      "generated": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "reviewCompleted": true,
+          "sourceUrls": [
+            "https://en.wikipedia.org/wiki/Charles_Babbage"
+          ],
+          "changes": "Removed the unsupported hook and its framing in the card and article; retained the subject, 1843 setting, Lovelace–Babbage Analytical Engine context, and the symbol-manipulation and general-rules points. Replaced the prior direct quotation with a paraphrase, since the quoted wording could not be verified against the supplied evidence. Added source-grounded context about Babbage and the Engine, and labeled the hypothetical example and interpretive claims explicitly.",
+          "approved": false,
+          "complete": true,
+          "grounded": false,
+          "feedback": [
+            "The article attributes to Lovelace the 1843 notes' suggestion that the Engine could manipulate symbols of any kind and follow general rules, which is not reflected in the provided source excerpt, which only covers Babbage.",
+            "The article states Lovelace's notes included a detailed method for computing Bernoulli numbers and that she was largely overlooked for about a century; neither claim is supported by the supplied source evidence.",
+            "The article describes Babbage as having originated the concept of a digital programmable computer and as the 'father of the computer' without clearly marking that these are characterizations from the source, and the Lovelace-specific claims rest on no cited evidence.",
+            "The card summary says Lovelace's 1843 notes 'suggested that such a machine might manipulate symbols of any kind, including music', which goes beyond what the supplied source supports and is not verifiable from the card's cited source, which is the Babbage Wikipedia page.",
+            "The card's cited source (Charles Babbage Wikipedia article) does not support claims specifically about Lovelace, so the card is grounded in wrong-subject evidence for its core claim."
+          ]
+        },
+        {
+          "attempt": 2,
+          "reviewCompleted": true,
+          "sourceUrls": [
+            "https://en.wikipedia.org/wiki/Charles_Babbage",
+            "https://en.wikipedia.org/wiki/Ada_Lovelace"
+          ],
+          "changes": "",
+          "approved": false,
+          "complete": true,
+          "grounded": false,
+          "feedback": [
+            "The card states that Lovelace's 1843 notes suggested the machine 'might manipulate symbols of any kind, including music' and that her insight was about following general rules; the article explicitly declines to assert the content of her notes, so the card's core claim is not supported by the supplied excerpts.",
+            "The card's takeaway and framing present the 1843 notes as a documented event and the 'general rules' insight as established, but the sources supplied do not document these specifics.",
+            "The card's attribution and category ('Quotes') imply a quotation, but no quotation from Lovelace appears in the article or sources.",
+            "The article is a coherent full piece, but its main thrust (the 'tool beyond its obvious purpose' lesson) is an interpretive leap from a historical fact the sources only partially support, and the card's wording overstates that support.",
+            "The card's claim that the insight 'remains a foundational idea in computing' is an unsourced evaluative claim."
+          ]
+        },
+        {
+          "attempt": 3,
+          "reviewCompleted": true,
+          "sourceUrls": [
+            "https://en.wikipedia.org/wiki/Charles_Babbage",
+            "https://en.wikipedia.org/wiki/Ada_Lovelace",
+            "https://en.wikipedia.org/wiki/Consciousness"
+          ],
+          "changes": "",
+          "approved": false,
+          "complete": true,
+          "grounded": false,
+          "feedback": [
+            "The card's body claims Lovelace's 1843 notes suggested the machine 'might manipulate symbols of any kind, including music' and that her insight was about following general rules; the article explicitly states the content of her notes is not documented in the supplied excerpts, so the card's specific claim is unsupported by the evidence.",
+            "The card attributes to Lovelace a quoted-style takeaway about seeing a tool's wider purpose, which is presented as her insight, not a documented quotation, yet the card's category is 'Quotes' with no verifiable quotation.",
+            "The card's source link points to the Charles Babbage Wikipedia page, while the specific 1843 claims are attributed to Lovelace's notes; the cited source does not support the Lovelace-specific claims.",
+            "The article itself is grounded in the sources for biographical facts, but the card summary overstates what the evidence supports, making it a misleading card summary."
+          ]
+        }
+      ],
+      "completedReviews": 3,
+      "reasonCode": "UNSUPPORTED_QUOTE",
+      "reason": "The card asserts specific content of Lovelace's 1843 notes (symbol manipulation, music) that the supplied evidence does not document, and attributes it to a source about Babbage.",
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Charles_Babbage",
+        "https://en.wikipedia.org/wiki/Ada_Lovelace",
+        "https://en.wikipedia.org/wiki/Consciousness"
+      ],
+      "sourceErrors": [
+        "https://www.britannica.com/biography/Ada-Lovelace Source retrieval failed: HTTP Error 403: Forbidden"
+      ],
+      "finalVersion": {
+        "title": "Ada Lovelace and the Limits of the Machine",
+        "body": "In 1843, Ada Lovelace published notes on Charles Babbage's proposed Analytical Engine that reached beyond calculation, suggesting that such a machine might manipulate symbols of any kind, including music. Her insight that a machine could follow general rules rather than only arithmetic remains a foundational idea in computing.",
+        "attribution": "Ada Lovelace",
+        "source": "https://en.wikipedia.org/wiki/Charles_Babbage",
+        "takeaway": "Seeing what a tool could do beyond its obvious purpose can open entirely new fields.",
+        "detail": "Review failed [UNSUPPORTED_QUOTE]. The card asserts specific content of Lovelace's 1843 notes (symbol manipulation, music) that the supplied evidence does not document, and attributes it to a source about Babbage.\n\nAugusta Ada King, Countess of Lovelace, known as Ada Lovelace (1815–1852), is best known for her work on Charles Babbage's proposed mechanical general-purpose computer, the Analytical Engine. Babbage, an English polymath, originated the concept of a digital programmable computer and is credited with inventing the first mechanical computer, the Difference Engine. The Analytical Engine was never completed during his lifetime, and the sources describe its programming as using a principle openly borrowed from the Jacquard loom.\n\nLovelace was the only legitimate child of the poet Lord Byron and the reformer Anne Isabella Milbanke. Lord Byron separated from his wife a month after Ada was born and died when she was eight. Although often ill in childhood, she pursued her studies with determination. She married William King in 1835, and when he was created Earl of Lovelace in 1838, she became Countess of Lovelace. Her educational and social circle brought her into contact with scientists including Charles Babbage, Michael Faraday and Charles Wheatstone.\n\nAmong the sources available for this article, Lovelace is described as the first to recognise that Babbage's machine had applications beyond pure calculation, and she is often considered the first computer programmer. The specific content of her 1843 notes, including any claims about symbol manipulation, music, or a worked method for Bernoulli numbers, is not documented in the excerpts supplied for this card and is therefore not asserted here.\n\nWhat the available evidence does support is the broader significance of the shift Lovelace is credited with: the recognition that a machine designed to produce numerical tables might be governed by general rules and applied to purposes its builders had not foreseen. That recognition offers a useful model for anyone who thinks of a tool only in terms of its obvious function. Asking what a familiar instrument could do beyond its intended task is one way of opening new fields, and it is the habit of mind associated with Lovelace's engagement with Babbage's engine.",
+        "id": "generated-de0c08f0fea849eb8c29",
+        "category": "Quotes",
+        "status": "review_failed",
+        "publishedAt": "",
+        "image": "https://raw.githubusercontent.com/jay-ds-labs/mydaycoach-inspirations/main/images/inspire/reflection-030.webp",
+        "reviewStatus": "review_failed",
+        "reviewFailureCode": "UNSUPPORTED_QUOTE",
+        "reviewFailureSummary": "The card asserts specific content of Lovelace's 1843 notes (symbol manipulation, music) that the supplied evidence does not document, and attributes it to a source about Babbage."
+      }
     }
   }
 }
