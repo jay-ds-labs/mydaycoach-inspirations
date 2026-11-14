@@ -1,3 +1,10 @@
 name = "mydaycoach-inspire"
 main = "worker.js"
 compatibility_date = "2026-11-01"
+
+
+# Choose the SAME existing D1 database as the coaching Worker.
+[[d1_databases]]
+binding = "LEARNING_DB"
+database_name = "mydaycoach-learning"
+database_id = "REPLACE_WITH_EXISTING_LEARNING_D1_ID"
