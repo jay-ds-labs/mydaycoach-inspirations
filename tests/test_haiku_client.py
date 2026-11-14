@@ -30,6 +30,8 @@ class HaikuClientTests(unittest.TestCase):
         self.assertEqual(opener.req.full_url,'https://inspire.example/ai/messages')
         self.assertEqual(opener.req.get_header('Authorization'),'Bearer private-access-token-1234')
         self.assertEqual(json.loads(opener.req.data),{'prompt':'Review'})
+        self.assertEqual(opener.req.get_header('User-agent'),'MyDayCoach-Inspiration/2.0')
+        self.assertEqual(opener.req.get_header('Accept'),'application/json')
     def test_visual_check_uses_same_haiku_client(self):
         with patch('audit_images.haiku_configured',return_value=True),patch('audit_images.haiku_json',return_value={'relevant':True,'confidence':'high'}) as call:
             result=audit_images.visual_check({'title':'A lesson'},{'state':'license_metadata_pass','imageUrl':'https://upload.wikimedia.org/a.jpg'})

@@ -48,7 +48,8 @@ def request_json(prompt, model=MODEL, image_url=None):
     if image_url:
         payload["imageUrl"] = image_url
     req = urllib.request.Request(base + "/ai/messages", data=json.dumps(payload).encode(),
-        headers={"Authorization": "Bearer " + token, "Content-Type": "application/json"})
+        headers={"Authorization": "Bearer " + token, "Content-Type": "application/json",
+                 "Accept": "application/json", "User-Agent": "MyDayCoach-Inspiration/2.0"})
     # Never forward the private access code through HTTP redirects.
     class NoRedirect(urllib.request.HTTPRedirectHandler):
         def redirect_request(self, req, fp, code, msg, headers, newurl):
