@@ -6,8 +6,8 @@
   "quotes": 5,
   "stories": 5,
   "philosophy": 5,
-  "generated": 14,
-  "reviewed": 14,
+  "generated": 15,
+  "reviewed": 15,
   "approved": 5,
   "needsReview": 0,
   "reviewFailed": 10,
@@ -79,10 +79,11 @@
       "eligible": false
     },
     {
+      "id": "generated-e0fa33b4832f4df184f0",
       "category": "Stories",
       "state": "review_failed",
-      "reasonCode": "INVALID_CARD",
-      "reason": "Generated card is missing required content",
+      "reasonCode": "INCOMPLETE_ARTICLE",
+      "reason": "The article is unfinished.",
       "eligible": false
     },
     {
@@ -128,5 +129,5 @@
       "eligible": false
     }
   ],
-  "recoveredAt": "2026-11-14T13:57:09.792528Z"
+  "recoveredAt": "2026-11-14T13:58:02.951460Z"
 }
