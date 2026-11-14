@@ -21,6 +21,8 @@ jobs:
           python-version: '3.12'
       - name: Python editorial regression tests
         run: python -m unittest discover -s tests -p 'test_*.py' -v
+      - name: Bundle paste-ready Inspire Worker
+        run: node backend/build.mjs
       - name: Worker authentication, provider and dispatch tests
         run: node --test tests/worker.test.mjs
       - name: Check only Haiku is used by model callers
@@ -30,6 +32,7 @@ jobs:
         with:
           name: Haiku-Inspire-Worker
           path: |
-            backend/worker.js
+            backend/dist/worker.mjs
             backend/wrangler.toml
+            docs/USAGE_SETUP.md
             docs/HAIKU_MIGRATION.md
