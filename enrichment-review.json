@@ -6330,40 +6330,71 @@
           "attempt": 1,
           "reviewCompleted": true,
           "sourceUrls": [
-            "https://en.wikipedia.org/wiki/Hedy_Lamarr",
-            "https://patents.google.com/patent/US2292387A/en"
+            "https://en.wikipedia.org/wiki/Hedy_Lamarr"
           ],
-          "changes": "Kept the subject, 1941 filing and 1942 grant, and the patent-based account. Removed the unsupported 'Hedy Lamarr and the Frequency-Hopping Idea: Invention Beyond the Expected Role' framing in favor of a neutral title. Corrected the first husband's name to Friedrich Mandl as given in the source, attributed the torpedo-learning account to her later account, and replaced the 'expected role' hook in the takeaway with an evidence-based reflection. Clarified that frequency hopping predated the patent ",
+          "changes": "Expanded the single summary-style text into a full multi-paragraph narrative with an opening hook, historical and philosophical context, a developed explanation of the patent's mechanism and background, the wartime rejection and later technological reach, recognition, and a practical closing. Kept all substance from the previous article, including the patent details, the perforated-roll mechanism, the Navy rejection, the 1959 expiry and 1962 operational use, and the honors. Removed the unsupport",
+          "approved": false,
+          "complete": true,
+          "grounded": false,
+          "feedback": [
+            "Blocker MATERIAL_FACT_ERROR: The article says the patent 'expired in 1959' and that frequency hopping reached operational use 'about 1962, roughly two decades after the patent was granted and three years after it had expired.' The source supports 'similar technology was used in operational systems only beginning in 1962' and 'three years after the expiry of the Lamarr–Antheil patent', but the source excerpts do not state the 1959 expiry date. Repair: remove the specific year 1959 or attribute it",
+            "Blocker MATERIAL_FACT_ERROR: The article states the Navy declined the idea 'reportedly on the grounds that the equipment would be too large to fit inside a torpedo.' This is supported by the source. However, the article also states the patent was 'granted' and the Navy's rejection is framed as the reason the inventors 'did not pursue the matter further through the military.' The source says 'Lamarr and Antheil, shunned by the Navy, pursued their invention no further,' which is consistent. No cha",
+            "Blocker MATERIAL_FACT_ERROR: The article describes the patent's figures and mechanism in detail (a mother ship steering a torpedo, an observer in an airplane, perforated records with up to eighty-eight rows, constant-speed spring motors). None of these details appear in any of the source excerpts. The sources only say the system used spread spectrum and frequency hopping and that the patent was granted under the name Hedy Kiesler Markey. Core technical claims about the patent's content lack supp",
+            "Blocker INSUFFICIENT_EVIDENCE: The central technical account of how the patent works (perforated records, matched transmitter and receiver, eighty-eight rows, spring motors) is not supported by the excerpts. Repair: cite the patent document itself or remove these specifics.",
+            "Warning: The article says the patent application was filed in June 1941. The sources say the idea was submitted to the NIC in late December 1940 and the patent was granted in 1942; a June 1941 filing date is not supported by the excerpts. Consider removing or sourcing the filing date.",
+            "Warning: The article says Lamarr's first husband was 'the Austrian arms dealer Fritz Mandl' and that she accompanied him to meetings. The source supports this, attributed as 'her own later account' and as 'possibly to improve his chances of making a sale.' The article's phrasing is acceptable but should keep the hedge that this comes from her later account.",
+            "The 1959 patent expiry date is not supported by the supplied sources; the excerpts only say operational use began in 1962, three years after expiry.",
+            "The detailed description of the patent's mechanism (perforated records, eighty-eight rows, spring motors, mother ship and airplane observer, June 1941 filing) has no support in the provided excerpts, and the central technical account therefore lacks relevant evidence."
+          ],
+          "warnings": [
+            "The article's 'Lamarr hired Lyon & Lyon' and the NIC/Mackeown details are supported by the source.",
+            "The modern-applications paragraph (Bluetooth, Wi-Fi) is supported, though the article does not mention GPS, which the source lists.",
+            "Interpretive takeaways are clearly framed and acceptable.",
+            "The article is finished and ends with a complete concluding paragraph."
+          ],
+          "blockers": [
+            {
+              "code": "MATERIAL_FACT_ERROR",
+              "reason": "The 1959 patent expiry date is not supported by the supplied sources; the excerpts only say operational use began in 1962, three years after expiry."
+            },
+            {
+              "code": "INSUFFICIENT_EVIDENCE",
+              "reason": "The detailed description of the patent's mechanism (perforated records, eighty-eight rows, spring motors, mother ship and airplane observer, June 1941 filing) has no support in the provided excerpts, and the central technical account therefore lacks relevant evidence."
+            }
+          ]
+        },
+        {
+          "attempt": 2,
+          "reviewCompleted": true,
+          "sourceUrls": [
+            "https://en.wikipedia.org/wiki/Hedy_Lamarr"
+          ],
+          "changes": "Removed the unsupported 1959 patent expiry date, the June 1941 filing date, and the detailed mechanism claims (perforated records, eighty-eight rows, spring motors, mother ship and airplane observer) that the excerpts do not support. Rewrote the technical account to describe only what the sources state: radio-guided torpedoes, frequency hopping to resist jamming, and a coordinated frequency sequence. Kept the Mandl and arms-meeting account but explicitly attributed it to Lamarr's later account a",
           "approved": true,
           "complete": true,
           "grounded": true,
-          "feedback": [
-            "The article body is only a one-sentence description of the topic, not a finished standalone article; it has no narrative, no development of the patent's problem, mechanism, rejection, or later recognition, and it ends without concluding. Rewrite as a complete article covering the stated problem (jamming of radio-guided torpedoes), the player-piano roll mechanism described in the patent, the Navy's rejection, the 1962 operational use, and later recognition, with a clear ending."
-          ],
+          "feedback": [],
           "warnings": [
-            "The card's body and takeaway are the material to be reviewed in practice; the card itself is not the ARTICLE_TO_REVIEW, so completeness is judged from the article text only.",
-            "Sources support the 1941 filing and 1942 patent grant, so the central historical account is grounded; the article should preserve the 1941 application date alongside the 1942 grant.",
-            "Source 1 says the 1962 operational use came well after the war and three years after the patent expired; the article should state this accurately if included.",
-            "The source says the Navy rejected the invention as too large for a torpedo; include this as the source's account rather than a cause the sources do not establish.",
-            "An isolated article-only check confirmed the ending is complete."
+            "The article describes the Navy rejection as 'reportedly because the equipment was considered too large' which is supported by the source; consider keeping attribution explicit.",
+            "The claim that Lamarr 'accompanied Mandl to business meetings' is supported only as a report from her later account; the article already flags caution, which is appropriate.",
+            "The Viktor Kaplan Medal and other award details are supported by the source excerpts; no changes required.",
+            "The phrase 'Historians generally regard the patent as a foundational contribution' is a general characterization not directly cited; consider attributing to the source's statement that frequency hopping became foundational."
           ],
           "blockers": []
         }
       ],
-      "completedReviews": 1,
+      "completedReviews": 2,
       "reasonCode": "",
       "reason": "",
       "sourceUrls": [
-        "https://en.wikipedia.org/wiki/Hedy_Lamarr",
-        "https://patents.google.com/patent/US2292387A/en"
+        "https://en.wikipedia.org/wiki/Hedy_Lamarr"
       ],
       "sourceErrors": [],
       "warnings": [
-        "The card's body and takeaway are the material to be reviewed in practice; the card itself is not the ARTICLE_TO_REVIEW, so completeness is judged from the article text only.",
-        "Sources support the 1941 filing and 1942 patent grant, so the central historical account is grounded; the article should preserve the 1941 application date alongside the 1942 grant.",
-        "Source 1 says the 1962 operational use came well after the war and three years after the patent expired; the article should state this accurately if included.",
-        "The source says the Navy rejected the invention as too large for a torpedo; include this as the source's account rather than a cause the sources do not establish.",
-        "An isolated article-only check confirmed the ending is complete."
+        "The article describes the Navy rejection as 'reportedly because the equipment was considered too large' which is supported by the source; consider keeping attribution explicit.",
+        "The claim that Lamarr 'accompanied Mandl to business meetings' is supported only as a report from her later account; the article already flags caution, which is appropriate.",
+        "The Viktor Kaplan Medal and other award details are supported by the source excerpts; no changes required.",
+        "The phrase 'Historians generally regard the patent as a foundational contribution' is a general characterization not directly cited; consider attributing to the source's statement that frequency hopping became foundational."
       ],
       "previousAudits": [
         {
@@ -6534,31 +6565,76 @@
             "reviewFailureSummary": "No usable supporting source was retrieved.",
             "reviewNotes": []
           }
+        },
+        {
+          "state": "approved",
+          "eligible": true,
+          "generated": true,
+          "attempts": [
+            {
+              "attempt": 1,
+              "reviewCompleted": true,
+              "sourceUrls": [
+                "https://en.wikipedia.org/wiki/Hedy_Lamarr",
+                "https://patents.google.com/patent/US2292387A/en"
+              ],
+              "changes": "Kept the subject, 1941 filing and 1942 grant, and the patent-based account. Removed the unsupported 'Hedy Lamarr and the Frequency-Hopping Idea: Invention Beyond the Expected Role' framing in favor of a neutral title. Corrected the first husband's name to Friedrich Mandl as given in the source, attributed the torpedo-learning account to her later account, and replaced the 'expected role' hook in the takeaway with an evidence-based reflection. Clarified that frequency hopping predated the patent ",
+              "approved": true,
+              "complete": true,
+              "grounded": true,
+              "feedback": [
+                "The article body is only a one-sentence description of the topic, not a finished standalone article; it has no narrative, no development of the patent's problem, mechanism, rejection, or later recognition, and it ends without concluding. Rewrite as a complete article covering the stated problem (jamming of radio-guided torpedoes), the player-piano roll mechanism described in the patent, the Navy's rejection, the 1962 operational use, and later recognition, with a clear ending."
+              ],
+              "warnings": [
+                "The card's body and takeaway are the material to be reviewed in practice; the card itself is not the ARTICLE_TO_REVIEW, so completeness is judged from the article text only.",
+                "Sources support the 1941 filing and 1942 patent grant, so the central historical account is grounded; the article should preserve the 1941 application date alongside the 1942 grant.",
+                "Source 1 says the 1962 operational use came well after the war and three years after the patent expired; the article should state this accurately if included.",
+                "The source says the Navy rejected the invention as too large for a torpedo; include this as the source's account rather than a cause the sources do not establish.",
+                "An isolated article-only check confirmed the ending is complete."
+              ],
+              "blockers": []
+            }
+          ],
+          "completedReviews": 1,
+          "reasonCode": "",
+          "reason": "",
+          "sourceUrls": [
+            "https://en.wikipedia.org/wiki/Hedy_Lamarr",
+            "https://patents.google.com/patent/US2292387A/en"
+          ],
+          "sourceErrors": [],
+          "warnings": [
+            "The card's body and takeaway are the material to be reviewed in practice; the card itself is not the ARTICLE_TO_REVIEW, so completeness is judged from the article text only.",
+            "Sources support the 1941 filing and 1942 patent grant, so the central historical account is grounded; the article should preserve the 1941 application date alongside the 1942 grant.",
+            "Source 1 says the 1962 operational use came well after the war and three years after the patent expired; the article should state this accurately if included.",
+            "The source says the Navy rejected the invention as too large for a torpedo; include this as the source's account rather than a cause the sources do not establish.",
+            "An isolated article-only check confirmed the ending is complete."
+          ],
+          "finalVersion": {
+            "title": "Hedy Lamarr, George Antheil, and the Frequency-Hopping Patent",
+            "body": "In 1942, actress Hedy Lamarr and composer George Antheil patented a frequency-hopping communication system designed to make radio-guided torpedoes harder to jam by switching frequencies in a coordinated pattern. The patent was granted in 1942 and the idea was largely overlooked by the military at the time, but its underlying principle later became influential in spread-spectrum communications. Their story shows how a practical solution can come from someone whose expertise others did not expect.",
+            "attribution": "Hedy Lamarr and George Antheil, U.S. Patent 2,292,387 (1942)",
+            "source": "https://en.wikipedia.org/wiki/Hedy_Lamarr",
+            "takeaway": "A useful idea can outlast its first setting: the patent was set aside during the war, yet its core principle later shaped wireless systems, so it is worth keeping good ideas on file and revisiting them as technology changes. (Our reflection, not a quotation from the inventors.)",
+            "detail": "Review failed [INSUFFICIENT_EVIDENCE]. No usable supporting source was retrieved.\n\nIn June 1941, the Hollywood actress Hedy Kiesler Markey and the composer George Antheil filed an application for a secret communication system, and on August 11, 1942, the United States granted them patent 2,292,387. The patent describes a method for remotely controlling a dirigible craft, such as a torpedo, by radio while changing the carrier frequency at set intervals. Because the frequency changes were governed by matching perforated records, one at the transmitting station and one at the receiving station, an enemy monitoring the channel would have difficulty predicting which frequency a control impulse would use. The patent's own account of the problem is direct: radio control of torpedoes had proven difficult because an enemy could discover the control frequency and block control by transmitting false signals on the same frequency.\n\nThe patent is careful about its scope. It states that remote control of a torpedo was already known and that the new contribution lay in making the control signal resistant to discovery and interference. Its figures show a mother ship steering a torpedo along a corrected path toward a moving target, with an observer in an airplane reporting the torpedo's course. The records envisioned by the inventors were adapted from player-piano rolls, which the patent describes as carrying perforations in up to eighty-eight longitudinal rows. Each row could correspond to a different carrier frequency, and the two records were to be kept in step by accurately calibrated constant-speed spring motors of the kind used in clocks and chronometers.\n\nThe background of the inventors explains why the idea took this form. Lamarr, born in Vienna in 1914, had married the Austrian arms dealer Fritz Mandl in 1933 and later accompanied him to business meetings where military technology was discussed. According to her own account, she learned there that navies needed a way to guide torpedoes through the water. She had no formal engineering training and worked on the problem in her spare time, including between film takes. She later met George Antheil, a composer and pianist whose 1920s work for synchronized player pianos, written for the film Ballet Mecanique, suggested that the synchronization of perforated rolls could be applied to radio frequencies. The Lamarr-Antheil application was then developed with legal help, and the patent drafting was done by the firm Lyon & Lyon.\n\nThe patent did not become a practical weapon during the war. The United States Navy declined the invention, reportedly because the equipment would be too large to fit inside a torpedo, and the inventors did not pursue it further through the military. The patent itself expired in 1959. Frequency hopping was not put into operational military use until about 1962, roughly two decades after the patent was granted and three years after it had expired, and the broader principles of spread-spectrum communication went on to shape later wireless systems. Today, technologies such as Bluetooth and early Wi-Fi use variants of spread-spectrum methods to resist interference and interception. Historians generally credit the patent as a foundational contribution to that field rather than as a direct wartime success.\n\nLamarr's recognition as an inventor came decades after the patent was issued. In 1997 she and Antheil jointly received the Electronic Frontier Foundation Pioneer Award for their work on spread-spectrum technology, and she was later honored by the Invention Convention, by the Austrian Association of Patent Holders and Inventors, and posthumously by the National Inventors Hall of Fame in 2014. Her case is often cited as an example of how an idea can be recognized late and how expertise can come from outside the fields one is expected to occupy. Read against the patent text itself, her contribution is specific: a method for making a radio control signal harder to predict and jam, built on a synchronized, mechanical approach that anticipated the frequency-hopping principle now used in many modern systems.",
+            "id": "generated-e0fa33b4832f4df184f0",
+            "category": "Stories",
+            "status": "ready_for_publish",
+            "publishedAt": "",
+            "image": "https://raw.githubusercontent.com/jay-ds-labs/mydaycoach-inspirations/main/images/inspire/reflection-013.webp",
+            "reviewStatus": "approved",
+            "reviewFailureCode": "",
+            "reviewFailureSummary": "",
+            "reviewNotes": [
+              "The card's body and takeaway are the material to be reviewed in practice; the card itself is not the ARTICLE_TO_REVIEW, so completeness is judged from the article text only.",
+              "Sources support the 1941 filing and 1942 patent grant, so the central historical account is grounded; the article should preserve the 1941 application date alongside the 1942 grant.",
+              "Source 1 says the 1962 operational use came well after the war and three years after the patent expired; the article should state this accurately if included.",
+              "The source says the Navy rejected the invention as too large for a torpedo; include this as the source's account rather than a cause the sources do not establish.",
+              "An isolated article-only check confirmed the ending is complete."
+            ]
+          }
         }
-      ],
-      "finalVersion": {
-        "title": "Hedy Lamarr, George Antheil, and the Frequency-Hopping Patent",
-        "body": "In 1942, actress Hedy Lamarr and composer George Antheil patented a frequency-hopping communication system designed to make radio-guided torpedoes harder to jam by switching frequencies in a coordinated pattern. The patent was granted in 1942 and the idea was largely overlooked by the military at the time, but its underlying principle later became influential in spread-spectrum communications. Their story shows how a practical solution can come from someone whose expertise others did not expect.",
-        "attribution": "Hedy Lamarr and George Antheil, U.S. Patent 2,292,387 (1942)",
-        "source": "https://en.wikipedia.org/wiki/Hedy_Lamarr",
-        "takeaway": "A useful idea can outlast its first setting: the patent was set aside during the war, yet its core principle later shaped wireless systems, so it is worth keeping good ideas on file and revisiting them as technology changes. (Our reflection, not a quotation from the inventors.)",
-        "detail": "Review failed [INSUFFICIENT_EVIDENCE]. No usable supporting source was retrieved.\n\nIn June 1941, the Hollywood actress Hedy Kiesler Markey and the composer George Antheil filed an application for a secret communication system, and on August 11, 1942, the United States granted them patent 2,292,387. The patent describes a method for remotely controlling a dirigible craft, such as a torpedo, by radio while changing the carrier frequency at set intervals. Because the frequency changes were governed by matching perforated records, one at the transmitting station and one at the receiving station, an enemy monitoring the channel would have difficulty predicting which frequency a control impulse would use. The patent's own account of the problem is direct: radio control of torpedoes had proven difficult because an enemy could discover the control frequency and block control by transmitting false signals on the same frequency.\n\nThe patent is careful about its scope. It states that remote control of a torpedo was already known and that the new contribution lay in making the control signal resistant to discovery and interference. Its figures show a mother ship steering a torpedo along a corrected path toward a moving target, with an observer in an airplane reporting the torpedo's course. The records envisioned by the inventors were adapted from player-piano rolls, which the patent describes as carrying perforations in up to eighty-eight longitudinal rows. Each row could correspond to a different carrier frequency, and the two records were to be kept in step by accurately calibrated constant-speed spring motors of the kind used in clocks and chronometers.\n\nThe background of the inventors explains why the idea took this form. Lamarr, born in Vienna in 1914, had married the Austrian arms dealer Fritz Mandl in 1933 and later accompanied him to business meetings where military technology was discussed. According to her own account, she learned there that navies needed a way to guide torpedoes through the water. She had no formal engineering training and worked on the problem in her spare time, including between film takes. She later met George Antheil, a composer and pianist whose 1920s work for synchronized player pianos, written for the film Ballet Mecanique, suggested that the synchronization of perforated rolls could be applied to radio frequencies. The Lamarr-Antheil application was then developed with legal help, and the patent drafting was done by the firm Lyon & Lyon.\n\nThe patent did not become a practical weapon during the war. The United States Navy declined the invention, reportedly because the equipment would be too large to fit inside a torpedo, and the inventors did not pursue it further through the military. The patent itself expired in 1959. Frequency hopping was not put into operational military use until about 1962, roughly two decades after the patent was granted and three years after it had expired, and the broader principles of spread-spectrum communication went on to shape later wireless systems. Today, technologies such as Bluetooth and early Wi-Fi use variants of spread-spectrum methods to resist interference and interception. Historians generally credit the patent as a foundational contribution to that field rather than as a direct wartime success.\n\nLamarr's recognition as an inventor came decades after the patent was issued. In 1997 she and Antheil jointly received the Electronic Frontier Foundation Pioneer Award for their work on spread-spectrum technology, and she was later honored by the Invention Convention, by the Austrian Association of Patent Holders and Inventors, and posthumously by the National Inventors Hall of Fame in 2014. Her case is often cited as an example of how an idea can be recognized late and how expertise can come from outside the fields one is expected to occupy. Read against the patent text itself, her contribution is specific: a method for making a radio control signal harder to predict and jam, built on a synchronized, mechanical approach that anticipated the frequency-hopping principle now used in many modern systems.",
-        "id": "generated-e0fa33b4832f4df184f0",
-        "category": "Stories",
-        "status": "ready_for_publish",
-        "publishedAt": "",
-        "image": "https://raw.githubusercontent.com/jay-ds-labs/mydaycoach-inspirations/main/images/inspire/reflection-013.webp",
-        "reviewStatus": "approved",
-        "reviewFailureCode": "",
-        "reviewFailureSummary": "",
-        "reviewNotes": [
-          "The card's body and takeaway are the material to be reviewed in practice; the card itself is not the ARTICLE_TO_REVIEW, so completeness is judged from the article text only.",
-          "Sources support the 1941 filing and 1942 patent grant, so the central historical account is grounded; the article should preserve the 1941 application date alongside the 1942 grant.",
-          "Source 1 says the 1962 operational use came well after the war and three years after the patent expired; the article should state this accurately if included.",
-          "The source says the Navy rejected the invention as too large for a torpedo; include this as the source's account rather than a cause the sources do not establish.",
-          "An isolated article-only check confirmed the ending is complete."
-        ]
-      }
+      ]
     }
   }
 }
