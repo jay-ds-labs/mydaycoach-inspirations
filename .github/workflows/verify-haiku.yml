@@ -1,0 +1,18 @@
+name: Check live Haiku connection
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  check:
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: One short paid Haiku check, no library mutation
+        env:
+          INSPIRE_WORKER_URL: ${{ vars.INSPIRE_WORKER_URL }}
+          INSPIRE_WORKER_TOKEN: ${{ secrets.INSPIRE_WORKER_TOKEN }}
+        run: python scripts/verify_haiku.py

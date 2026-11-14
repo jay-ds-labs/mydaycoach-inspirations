@@ -21,8 +21,9 @@ jobs:
           git config user.email "content-bot@users.noreply.github.com"
       - name: Expand existing drafts and persist progress
         env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          OPENAI_CONTENT_MODEL: gpt-4.1
+          INSPIRE_WORKER_URL: ${{ vars.INSPIRE_WORKER_URL }}
+          INSPIRE_WORKER_TOKEN: ${{ secrets.INSPIRE_WORKER_TOKEN }}
         run: |
-          test -n "$OPENAI_API_KEY" || { echo "Missing OPENAI_API_KEY secret"; exit 1; }
+          test -n "$INSPIRE_WORKER_URL" && test -n "$INSPIRE_WORKER_TOKEN" || { echo "Missing Inspire Worker URL/token"; exit 1; }
           python3 scripts/upgrade_existing.py
+

@@ -19,10 +19,12 @@ jobs:
           ref: main
       - name: Verify and run recovery
         env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          INSPIRE_WORKER_URL: ${{ vars.INSPIRE_WORKER_URL }}
+          INSPIRE_WORKER_TOKEN: ${{ secrets.INSPIRE_WORKER_TOKEN }}
         run: |
-          test -n "$OPENAI_API_KEY" || { echo 'Missing OPENAI_API_KEY'; exit 1; }
+          test -n "$INSPIRE_WORKER_URL" && test -n "$INSPIRE_WORKER_TOKEN" || { echo 'Missing Inspire Worker URL/token'; exit 1; }
           git config user.name "MyDayCoach Content Bot"
           git config user.email "content-bot@users.noreply.github.com"
           python3 -m unittest discover -s tests -v
           python3 scripts/recover_final.py
+

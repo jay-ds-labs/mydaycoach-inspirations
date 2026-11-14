@@ -24,14 +24,13 @@ jobs:
           python3 -m unittest discover -s tests -p "test_*.py" -v
       - name: Enrich all incomplete entries in batches of 20
         env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          OPENAI_CONTENT_MODEL: gpt-4.1
-          OPENAI_REVIEW_MODEL: gpt-4.1
+          INSPIRE_WORKER_URL: ${{ vars.INSPIRE_WORKER_URL }}
+          INSPIRE_WORKER_TOKEN: ${{ secrets.INSPIRE_WORKER_TOKEN }}
           ENRICH_BATCH_SIZE: "20"
           ENRICH_RETRY_REVIEW: "false"
           ENRICH_MAX_ATTEMPTS: "3"
         run: |
-          test -n "$OPENAI_API_KEY" || { echo "Missing OPENAI_API_KEY"; exit 1; }
+          test -n "$INSPIRE_WORKER_URL" && test -n "$INSPIRE_WORKER_TOKEN" || { echo "Missing Inspire Worker URL/token"; exit 1; }
           python3 - <<'PY'
           import json,subprocess,sys
           from pathlib import Path
@@ -64,3 +63,4 @@ jobs:
           if statuses.get("draft",0):
               raise SystemExit("Incomplete drafts remain")
           PY
+

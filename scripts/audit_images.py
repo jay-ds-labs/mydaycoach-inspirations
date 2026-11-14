@@ -14,6 +14,7 @@ FEED=ROOT/"library.json"
 IMAGES=ROOT/"enrichment-images.json"
 REVIEWS=ROOT/"enrichment-review.json"
 STATUS=ROOT/"image-audit-status.json"
+from haiku_client import request_json as haiku_json, configured as haiku_configured
 API="https://commons.wikimedia.org/w/api.php"
 HEADERS={"User-Agent":"MyDayCoachEditorial/1.2 (https://github.com/jay-ds-labs/mydaycoach-inspirations)"}
 ALLOWED={"cc0","public-domain","public domain","pd","cc-by-4.0","cc-by-sa-4.0",
@@ -69,9 +70,8 @@ def verify(page):
 
 def visual_check(item,candidate):
     """Vision-assisted relevance screening; not proof of historical authenticity."""
-    key=os.getenv("OPENAI_API_KEY","")
-    if not key or candidate.get("state")!="license_metadata_pass":
-        return {"state":"not_checked","reason":"No API key or license metadata not approved"}
+    if not haiku_configured() or candidate.get("state")!="license_metadata_pass":
+        return {"state":"not_checked","reason":"Haiku Worker connection missing or license metadata not approved"}
     prompt=("Assess whether this Wikimedia Commons image is visibly relevant to the "
         "following inspiration. Do not identify people from their faces. Use the file "
         "title and image description as context, but flag uncertain provenance. "
@@ -81,19 +81,8 @@ def visual_check(item,candidate):
             "category":item.get("category")})+
         "\nFile title: "+candidate.get("fileTitle","")+
         "\nDescription: "+candidate.get("description",""))
-    payload={"model":os.getenv("OPENAI_IMAGE_REVIEW_MODEL","gpt-4.1-mini"),
-        "input":[{"role":"user","content":[{"type":"input_text","text":prompt},
-            {"type":"input_image","image_url":candidate["imageUrl"]}]}],
-        "text":{"format":{"type":"json_object"}}}
     try:
-        req=urllib.request.Request("https://api.openai.com/v1/responses",
-            data=json.dumps(payload).encode(),headers={"Authorization":"Bearer "+key,
-                "Content-Type":"application/json"})
-        with urllib.request.urlopen(req,timeout=90) as resp:
-            response=json.load(resp)
-        output="".join(p.get("text","") for o in response.get("output",[])
-            for p in o.get("content",[]) if p.get("type")=="output_text")
-        verdict=json.loads(output)
+        verdict=haiku_json(prompt,image_url=candidate["imageUrl"])
         return {"state":"relevant_candidate" if verdict.get("relevant") and
             verdict.get("confidence")=="high" else "needs_visual_review",
             "confidence":verdict.get("confidence","low"),
@@ -199,3 +188,4 @@ def main():
 
 if __name__=="__main__":
     main()
+
