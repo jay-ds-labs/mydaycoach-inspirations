@@ -1508,6 +1508,27 @@
         "The card's claim that Socrates's 'distinctive kind of wisdom' rested on 'unusual honesty about the limits of his own knowledge' is a clearly framed interpretation supported by the sources' discussion of Socratic ignorance.",
         "The card attributes the Delphic oracle question and the search for wiser people to the Apology; the source excerpts do not include that passage, so this detail is not confirmed by the supplied excerpts, though it is consistent with Plato's Apology as widely known."
       ]
+    },
+    {
+      "title": "Diogenes and the Lamp at Noon: Honesty as a Way of Life",
+      "body": "Diogenes of Sinope, the Cynic philosopher of the fourth century BCE, rejected conventional wealth, status, and social polish in favor of a life lived in plain accordance with nature. Ancient anecdotes, preserved mainly by Diogenes Laertius, describe him carrying a lamp in daylight while claiming to search for an honest person. Whether or not every story is literal, the image captures his core claim: sincerity should be visible in conduct, not merely professed in speech.",
+      "attribution": "Diogenes of Sinope (c. 412–323 BCE), as recorded in Diogenes Laertius, Lives of the Eminent Philosophers, Book VI",
+      "source": "https://en.wikipedia.org/wiki/Diogenes",
+      "takeaway": "A reflective practice drawn from the lamp story: test your stated values against small, unobserved daily choices, since consistent conduct is what makes integrity believable.",
+      "detail": "Diogenes of Sinope, active in the fourth century BCE, is traditionally counted among the founders of Cynicism. Ancient anecdotes, preserved mainly through Diogenes Laertius and the wider source tradition, describe him walking the Athenian marketplace by day with a lit lantern, claiming to be searching for an honest person, which in Greek context means a wise man (sophos). The literal truth of any single episode is uncertain, but the image has become a lasting symbol of the claim that sincerity must show in conduct.",
+      "id": "generated-301d38f650914c6d826d",
+      "category": "Philosophy",
+      "status": "ready_for_publish",
+      "publishedAt": "",
+      "image": "https://raw.githubusercontent.com/jay-ds-labs/mydaycoach-inspirations/main/images/inspire/reflection-001.webp",
+      "reviewStatus": "approved",
+      "reviewFailureCode": "",
+      "reviewFailureSummary": "",
+      "reviewNotes": [
+        "The article says 'fourth century BCE' while the source gives c. 413/403 to c. 324/321 BC; this is broadly consistent but a more precise date range could be stated.",
+        "The source describes the lamp anecdote as 'looking for a man... a wise man (sophos)', and the lantern appears in Source 2 as a search for an honest man; the article reasonably connects these, but it could note that the wording varies across sources.",
+        "The card attribution cites Diogenes Laertius Book VI, which is not the article's own sourcing; the article itself only names the anecdote tradition generally."
+      ]
     }
   ]
 }

@@ -8,9 +8,9 @@
   "philosophy": 5,
   "generated": 15,
   "reviewed": 13,
-  "approved": 12,
+  "approved": 13,
   "needsReview": 0,
-  "reviewFailed": 3,
+  "reviewFailed": 2,
   "startedAt": "2026-11-14T13:02:48.709534Z",
   "completedAt": null,
   "error": null,
@@ -121,10 +121,10 @@
     {
       "id": "generated-301d38f650914c6d826d",
       "category": "Philosophy",
-      "state": "review_failed",
-      "reasonCode": "FALSE_ATTRIBUTION",
-      "reason": "The card attributes its source and attribution to Diogenes Laertius, Lives of the Eminent Philosophers, Book VI, but the supplied sources do not establish that specific book reference. The cited source URL is a list of mythological objects, which does not support the hi",
-      "eligible": false
+      "state": "approved",
+      "reasonCode": "",
+      "reason": "",
+      "eligible": true
     },
     {
       "id": "generated-61cb5141a99f46598bc0",
@@ -135,5 +135,5 @@
       "eligible": true
     }
   ],
-  "recoveredAt": "2026-11-14T14:03:10.358944Z"
+  "recoveredAt": "2026-11-14T14:03:21.952732Z"
 }
