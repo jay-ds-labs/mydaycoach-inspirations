@@ -1,5 +1,13 @@
 {
   "batchStartedAt": "2026-11-14T13:02:48.709534Z",
-  "reason": "Recover only two remaining slots after preserving readable patent evidence and adding bounded rate-limit retries.",
-  "recoveryAttempt": 3
+  "reason": "Replace six AI-approved synopses with complete multi-paragraph articles while preserving their IDs and full prior drafts.",
+  "recoveryAttempt": 4,
+  "repairArticleIds": [
+    "generated-de0c08f0fea849eb8c29",
+    "generated-76193ae8faf94f5e9333",
+    "generated-b5ab83f51acb42849191",
+    "generated-e0fa33b4832f4df184f0",
+    "generated-757d38321dbd4ea88807",
+    "generated-301d38f650914c6d826d"
+  ]
 }

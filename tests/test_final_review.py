@@ -5,6 +5,7 @@ from unittest.mock import patch
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'scripts'))
 from final_review import finalize, editorial_review, ReviewError
 CARD={'id':'sample','title':'Learning','body':'A short card','category':'Philosophy','attribution':'MyDayCoach','source':'https://example.org/evidence','takeaway':'Old takeaway','detail':'Earlier draft.'}
+ARTICLE='An opening with historical context.\n\nA developed account explains the event and its meaning.\n\nA practical closing offers a finished reflection.'
 SOURCE=[{'title':'Evidence','text':'Supporting record.','url':CARD['source']}]
 def verdict(blockers=(),warnings=()):
     return dict(approved=not blockers,complete=not any(b['code']=='INCOMPLETE_ARTICLE' for b in blockers),grounded=not any(b['code']!='INCOMPLETE_ARTICLE' for b in blockers),issues=[b['reason'] for b in blockers],blockers=list(blockers),warnings=list(warnings),researchQuery='',reasonCode=blockers[0]['code'] if blockers else '',failureReason=blockers[0]['reason'] if blockers else '')
@@ -34,7 +35,7 @@ class FinalReviewTests(unittest.TestCase):
         request.return_value={'approved':True,'issues':[],'grounded':True,'complete':True}
         with self.assertRaises(ReviewError):editorial_review(CARD,'Article.',SOURCE)
     @patch('final_review.research',return_value=(SOURCE,[]))
-    @patch('final_review.compose',return_value={'detail':'A finished article.','takeaway':'A corrected reflection.','source':CARD['source']})
+    @patch('final_review.compose',return_value={'detail':ARTICLE,'takeaway':'A corrected reflection.','source':CARD['source']})
     @patch('final_review.editorial_review',return_value=verdict(warnings=['Could polish opening.']))
     def test_card_takeaway_and_notes_are_saved_with_accepted_article(self,review,compose,research):
         item,audit=finalize(CARD,allow_card_correction=True)
@@ -46,12 +47,12 @@ class FinalReviewTests(unittest.TestCase):
     @patch('final_review.compose')
     @patch('final_review.editorial_review')
     def test_unfinished_article_is_repaired_then_reviewed(self,review,compose,research):
-        compose.side_effect=[{'detail':'A sentence that stops at'}, {'detail':'A complete account with an ending.'}]
+        compose.side_effect=[{'detail':'Opening context.\n\nA developed middle.\n\nA sentence that stops at'}, {'detail':ARTICLE+' A complete ending.'}]
         review.side_effect=[verdict([{'code':'INCOMPLETE_ARTICLE','reason':'Ends mid-sentence.'}]),verdict()]
         item,audit=finalize(CARD);self.assertTrue(audit['eligible']);self.assertEqual(2,audit['completedReviews'])
         self.assertIn('Ends mid-sentence.',compose.call_args.args[2]);self.assertTrue(item['detail'].endswith('ending.'))
     @patch('final_review.research',return_value=(SOURCE,[]))
-    @patch('final_review.compose',return_value={'detail':'Finished but false account.'})
+    @patch('final_review.compose',return_value={'detail':ARTICLE})
     @patch('final_review.editorial_review',return_value=verdict([{'code':'FALSE_ATTRIBUTION','reason':'Invented quote.'}]))
     @patch('final_review.refresh_evidence',return_value=SOURCE)
     def test_material_failure_after_three_attempts_stays_out_of_feed(self,refresh,review,compose,research):
@@ -75,3 +76,15 @@ class FinalReviewTests(unittest.TestCase):
         item={**CARD,'title':'Hedy Lamarr and frequency hopping','attribution':'Hedy Lamarr','source':'https://patents.google.com/patent/US2292387A/en'}
         records,_=research(item,[])
         self.assertEqual(item['source'],records[0]['url'])
+
+    def test_article_structure_distinguishes_synopsis_from_paragraphs_without_word_limit(self):
+        from final_review import article_structure
+        self.assertFalse(article_structure('Trial of Socrates, Athens, 399 BC.'))
+        self.assertTrue(article_structure(ARTICLE))
+
+    @patch('final_review.research',return_value=(SOURCE,[]))
+    @patch('final_review.compose',return_value={'detail':'A synopsis of the historical setting.'})
+    def test_synopsis_never_reaches_feed_even_with_friendly_review_policy(self,compose,research):
+        item,audit=finalize(CARD)
+        self.assertFalse(audit['eligible']);self.assertEqual('INVALID_ARTICLE',audit['reasonCode'])
+        self.assertEqual(0,audit['completedReviews'])
