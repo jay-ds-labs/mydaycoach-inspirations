@@ -4043,6 +4043,91 @@
         "reviewFailureCode": "UNSUPPORTED_QUOTE",
         "reviewFailureSummary": "The card and article attribute to Ibn Sina a documented practice of honest observation and self-correction that the cited evidence does not establish, making the central thesis misleadingly grounded."
       }
+    },
+    "generated-1b3ef94b8ed84442a163": {
+      "state": "review_failed",
+      "eligible": false,
+      "generated": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "reviewCompleted": true,
+          "sourceUrls": [
+            "https://en.wikipedia.org/wiki/Enrico_Fermi"
+          ],
+          "changes": "Kept the subject, 1942 Chicago Pile-1 setting, December 2 date, and title, body, and attribution as separate fields. Preserved the supported material from the previous draft (graphite and uranium, cadmium control rods, neutron detectors, stepwise withdrawal, physical safety rod). Removed the closing self-reflective question in favor of a takeaway, and clarified the interpretive framing of the lesson. Added Fermi's background from the provided source, paraphrasing the Nobel citation without quota",
+          "approved": false,
+          "complete": true,
+          "grounded": false,
+          "feedback": [
+            "The card states the pile was built 'beneath the stands of an unused University of Chicago squash court' and achieved criticality on 'December 2'; the supplied source excerpt does not contain these details, so they are unverified against the evidence provided.",
+            "The card claims the team 'raised the reactor's power in measured increments, checking neutron counts and control-rod behavior at each stage'; the article supports incremental rod withdrawal and instrument readings, but the card's framing of a deliberate verification philosophy is interpretive and only partly supported.",
+            "The card's takeaway, that ambitious goals were reached 'safely by advancing in verified steps', generalizes beyond what the source establishes and reads as a stronger causal claim than the evidence allows.",
+            "The article asserts Fermi's team 'did not treat the calculations as sufficient proof' and describes their approach as deliberate discipline; the source excerpt does not document the team's reasoning, which the article itself partly concedes.",
+            "The article's Nobel Prize and 'architect of the nuclear age' details are supported by the source, but the article's claim that the pile had graphite blocks and cadmium control rods is not confirmed in the excerpt."
+          ]
+        },
+        {
+          "attempt": 2,
+          "reviewCompleted": true,
+          "sourceUrls": [
+            "https://en.wikipedia.org/wiki/Enrico_Fermi"
+          ],
+          "changes": "",
+          "approved": false,
+          "complete": true,
+          "grounded": false,
+          "feedback": [
+            "The card's body claims the team raised power 'in measured increments, checking neutron counts and control-rod behavior at each stage' and that this reflects a deliberate philosophy of stepwise verification; the supplied article says the approach was incremental but explicitly states the record does not document the team's private reasoning, so the card's framing as intent is overstated.",
+            "The card's takeaway is presented as a lesson drawn from the Fermi story, but the attribution and framing imply documented methodology beyond what the evidence supports.",
+            "The card's date of achieving the chain reaction (December 2) and the squash-court location are not contained in the supplied source excerpt, so they are unverified against the provided evidence.",
+            "The card cites only the Wikipedia biography page as source, while the specific pile-construction and reactor-procedure details come from the article text rather than the excerpt shown, leaving the card's specific claims weakly anchored to the stated source.",
+            "The article itself is grounded in its own cautions but the card's summary drops that caveat, making the card summary misleading relative to its evidence."
+          ]
+        },
+        {
+          "attempt": 3,
+          "reviewCompleted": true,
+          "sourceUrls": [
+            "https://en.wikipedia.org/wiki/Enrico_Fermi"
+          ],
+          "changes": "",
+          "approved": false,
+          "complete": true,
+          "grounded": false,
+          "feedback": [
+            "The card attributes the 'stepwise verification' philosophy and 'discipline' framing to the team, but the article itself notes the record does not document the team's private reasoning; the card presents interpretation as documented intent.",
+            "The card's claim that the team checked 'neutron counts and control-rod behavior at each stage' and raised power in 'measured increments' is only partly supported by the article, which describes staged control-rod withdrawal and readings after each adjustment, not explicit power-level increments.",
+            "The card cites the Enrico Fermi Wikipedia page as its source, but the supporting evidence provided is only the biographical lead; it does not contain the specific date (December 2), the location (squash court), or the reactor-operation details, so those specifics are not grounded in the supplied source.",
+            "The article body is a stronger, more careful piece than the card; the card's takeaway and framing overreach relative to what the evidence supports."
+          ]
+        }
+      ],
+      "completedReviews": 3,
+      "reasonCode": "UNSUPPORTED_QUOTE",
+      "reason": "The card's specific operational details and its framing of the team's deliberate philosophy go beyond what the cited evidence supports, and the article itself concedes that intent is interpretation.",
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Enrico_Fermi"
+      ],
+      "sourceErrors": [
+        "https://www.energy.gov/ne/articles/chicago-pile-1-first-nuclear-reactor Source retrieval failed: HTTP Error 404: Not Found"
+      ],
+      "finalVersion": {
+        "title": "Fermi's Pile and the Discipline of Stepwise Verification",
+        "body": "In 1942, a team led by Enrico Fermi built Chicago Pile-1 beneath the stands of an unused University of Chicago squash court, achieving the first self-sustaining nuclear chain reaction on December 2. Rather than relying on theory alone, the group raised the reactor's power in measured increments, checking neutron counts and control-rod behavior at each stage before proceeding. The approach shows how ambitious goals can be reached safely by advancing in verified steps.",
+        "attribution": "Enrico Fermi and the Chicago Pile-1 team",
+        "source": "https://en.wikipedia.org/wiki/Enrico_Fermi",
+        "takeaway": "Advance ambitious work in small, measured stages, verifying each one before raising the stakes.",
+        "detail": "Review failed [UNSUPPORTED_QUOTE]. The card's specific operational details and its framing of the team's deliberate philosophy go beyond what the cited evidence supports, and the article itself concedes that intent is interpretation.\n\nEnrico Fermi was an Italian and naturalized-American physicist, widely recognized as the creator of Chicago Pile-1, the world's first artificial nuclear reactor, and as a member of the Manhattan Project. He won the 1938 Nobel Prize in Physics for demonstrations of new radioactive elements produced by neutron irradiation and for his related discovery of nuclear reactions brought about by slow neutrons. He was one of very few physicists who excelled in both theoretical and experimental work, a combination that mattered for a project requiring both sound calculation and careful measurement.\n\nChicago Pile-1 was the physical embodiment of that combination. The reactor was built from graphite and uranium, with cadmium control rods and neutron detectors monitoring its behavior. The team's approach to bringing it toward self-sustaining operation was incremental: control rods were withdrawn in stages, and instrument readings were taken after each adjustment to see whether the neutron population behaved as predicted. A safety rod stood ready to stop the reaction if the measurements departed from expectations. The available record supports these practical steps. It does not provide a direct account of the team's private reasoning, so any broader philosophy must be read as interpretation rather than documented intent.\n\nThe story is useful precisely because of that stepwise structure. Each increase in what was at stake followed a result that had been checked. Calculations were not treated as a substitute for measurement, and the pile was operated in a way that made surprises visible while they could still be controlled.\n\nA hypothetical example shows how the same logic transfers. Suppose a small team is building an internal tool. Rather than deploying it company-wide at once, they might first run it on a single dataset, compare its output against a known answer, and only then extend it to a second team. Each step is small enough to measure, and each yields a result that either supports the next move or exposes a problem while fixing it is still inexpensive.\n\nThe practical takeaway is to advance ambitious work in small, measured stages, verifying each one before raising the stakes. Identify the smallest measurable step that would show whether the approach is working, and commit further resources only after that step has been checked.",
+        "id": "generated-1b3ef94b8ed84442a163",
+        "category": "Stories",
+        "status": "review_failed",
+        "publishedAt": "",
+        "image": "https://raw.githubusercontent.com/jay-ds-labs/mydaycoach-inspirations/main/images/inspire/reflection-013.webp",
+        "reviewStatus": "review_failed",
+        "reviewFailureCode": "UNSUPPORTED_QUOTE",
+        "reviewFailureSummary": "The card's specific operational details and its framing of the team's deliberate philosophy go beyond what the cited evidence supports, and the article itself concedes that intent is interpretation."
+      }
     }
   }
 }
