@@ -8,9 +8,9 @@
   "philosophy": 5,
   "generated": 14,
   "reviewed": 14,
-  "approved": 1,
+  "approved": 2,
   "needsReview": 0,
-  "reviewFailed": 14,
+  "reviewFailed": 13,
   "startedAt": "2026-11-14T13:02:48.709534Z",
   "completedAt": null,
   "error": null,
@@ -26,9 +26,10 @@
     {
       "id": "generated-ad47ac364f9d455099d8",
       "category": "Quotes",
-      "state": "review_failed",
-      "reasonCode": "UNSUPPORTED_QUOTE",
-      "eligible": false
+      "state": "approved",
+      "reasonCode": "",
+      "reason": "",
+      "eligible": true
     },
     {
       "id": "generated-b69e0fdad0b146468c9b",
@@ -122,5 +123,5 @@
       "eligible": false
     }
   ],
-  "recoveredAt": "2026-11-14T13:54:54.664952Z"
+  "recoveredAt": "2026-11-14T13:55:21.733325Z"
 }
