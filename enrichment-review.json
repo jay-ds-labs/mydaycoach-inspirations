@@ -4192,6 +4192,104 @@
         "https://www.britannica.com/biography/Ignaz-Semmelweis Source retrieval failed: HTTP Error 403: Forbidden",
         "Additional evidence lookup failed: HTTP Error 429: Too Many Requests"
       ]
+    },
+    "generated-b5ab83f51acb42849191": {
+      "state": "review_failed",
+      "eligible": false,
+      "generated": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "reviewCompleted": true,
+          "sourceUrls": [
+            "https://patents.google.com/patent/US2292387A/en",
+            "https://en.wikipedia.org/wiki/Frequency-hopping_spread_spectrum"
+          ],
+          "changes": "Retained the subject, 1941/1942 setting, Navy non-adoption, and the spread-spectrum outcome from the prior draft. Removed the unsupported 'Lamarr received recognition' phrasing only where it was vague, and replaced it with the 1997 award date stated in the prior draft. Added patent filing and grant dates, the 88-row and clock-motor details, and the background problem (enemy discovering and jamming frequency) from the source text. Added the FHSS description and advantages from the Wikipedia evide",
+          "approved": false,
+          "complete": true,
+          "grounded": false,
+          "feedback": [
+            "The card title and body frame the invention as adopted in part by a later principle, but the card summary says the principle 'later became foundational' to spread-spectrum technologies; the article hedges this as shared principle, so the card overstates lineage.",
+            "The article states the patent was 'granted on August 11, 1942' and filed June 10, 1941; source supports both dates.",
+            "The article says the Lamarr-Antheil system was for 'radio-controlled torpedoes' and quotes the patent's concept of 88 frequencies; source supports these.",
+            "The article states Lamarr 'received public recognition for it in later life, including an award in 1997'; the provided source evidence does not contain any reference to a 1997 award, so this claim is unsupported by the supplied evidence.",
+            "The article states 'The Navy did not implement the system during the war'; the source material does not address Navy adoption, so this is an unsupported historical claim beyond the evidence.",
+            "The article describes the mechanism as using clock-style spring motors and tuning condensers; these details are supported by the patent excerpt.",
+            "The article's connection between the patent and later spread-spectrum technology relies on the Wikipedia excerpt for the general FHSS description; the article's claim that the patent 'anticipates this basic logic' is an interpretive judgment not directly stated in the sources.",
+            "The takeaway section is editorial reflection, which is acceptable as clearly marked interpretation, but the article is otherwise coherent and complete."
+          ]
+        },
+        {
+          "attempt": 2,
+          "reviewCompleted": true,
+          "sourceUrls": [
+            "https://patents.google.com/patent/US2292387A/en",
+            "https://en.wikipedia.org/wiki/Frequency-hopping_spread_spectrum",
+            "https://en.wikipedia.org/wiki/Torpedo"
+          ],
+          "changes": "",
+          "approved": false,
+          "complete": true,
+          "grounded": false,
+          "feedback": [
+            "The article's claim that the patent's 'claimed novelty lies in the method of secret coordination between the two stations' is an interpretive gloss not clearly stated in the excerpt, though broadly consistent.",
+            "The claim that the Navy 'did not implement the system during the war' is asserted from absence of evidence; the sources do not document Navy non-adoption, so this is an unsupported historical claim.",
+            "'Lamarr's recognition came late... she later received public recognition' is stated without any cited source; no source in the evidence supports the timing or form of recognition.",
+            "The article asserts that the patent describes 'longitudinal rows' and a 'constant-speed spring motor' correctly, but the 'synchronizing impulses ... helps explain why the authors could describe the coordination as relatively simple' is an editorial inference not in the patent text.",
+            "Card summary states the concept 'was not adopted by the U.S. Navy at the time' and that its principle 'later became foundational'; the article's hedged treatment is more cautious than the card's 'foundational' wording, a mild mismatch with the evidence.",
+            "Article's dates (filed June 10, 1941; granted August 11, 1942) are supported by the patent page, and the 88-row detail is supported, so these parts are grounded."
+          ]
+        },
+        {
+          "attempt": 3,
+          "reviewCompleted": true,
+          "sourceUrls": [
+            "https://patents.google.com/patent/US2292387A/en",
+            "https://en.wikipedia.org/wiki/Frequency-hopping_spread_spectrum",
+            "https://en.wikipedia.org/wiki/Torpedo"
+          ],
+          "changes": "Replaced the card's unsupported 'foundational' wording with a more cautious description of the later relationship; reworded the Navy point to say it is not documented as adopted rather than asserting non-adoption; kept the subject, 1942 patent setting, and takeaway; the detail below was revised to remove the unsupported recognition-timing claim and the editorial inference about synchronization.",
+          "approved": false,
+          "complete": true,
+          "grounded": false,
+          "feedback": [
+            "The article states the patent was filed June 10, 1941 and granted August 11, 1942; the source supports these dates (filing 1941-06-10, publication 1942-08-11), but the article calls the grant date 'granted' while the source lists 'Publication date' and 'Application granted' on 1942-08-11, which is consistent.",
+            "The article asserts the patent 'describes the claimed invention' emphasis as the paired synchronized records; this is flagged as interpretation, but the card and article frame the design as the basis of later spread-spectrum, which the sources do not establish as lineage; the article does hedge this appropriately.",
+            "The article claims the patent says the player-piano roll 'may have 88 rows' and 'would permit 88 different carrier frequencies'; the source supports this.",
+            "The article says Navy adoption is 'not documented'; the card says the same, so this is supported.",
+            "The card summary says the core principle is 'later discussed as related to modern spread-spectrum communication technologies,' which is supported by the framing, but the article's tone leans toward asserting conceptual kinship in the final paragraph ('the story illustrates how an idea... can outlast that problem'), which is a reflective interpretation and acceptable as marked interpretation.",
+            "The article's 'practical lesson' paragraph is an original reflection and is not presented as historical fact, so it is acceptable.",
+            "The source for the patent describes the torpedo remote control as 'old and broadly not part of the invention'; the article represents this accurately.",
+            "Editorial issue: the article is a coherent full piece but the opening sentence 'developed a secret communication system for radio-controlled torpedoes' overstates development relative to the card's 'intended to make radio-guided torpedoes harder to jam' and the patent's own framing of the system; this is a mild framing concern rather than an unsupported fact."
+          ]
+        }
+      ],
+      "completedReviews": 3,
+      "reasonCode": "EDITORIAL_QUALITY_FAILED",
+      "reason": "The article's opening overstates the system as a developed torpedo communication system, and its closing lessons drift beyond what the sources establish about the invention's later reception and significance.",
+      "sourceUrls": [
+        "https://patents.google.com/patent/US2292387A/en",
+        "https://en.wikipedia.org/wiki/Frequency-hopping_spread_spectrum",
+        "https://en.wikipedia.org/wiki/Torpedo"
+      ],
+      "sourceErrors": [],
+      "finalVersion": {
+        "title": "Hedy Lamarr and the Frequency-Hopping Idea: Invention Born of Wartime Constraint",
+        "body": "During World War II, actress and self-taught inventor Hedy Lamarr, working with composer George Antheil, developed a frequency-hopping signaling system intended to make radio-guided torpedoes harder to jam. Patented in 1942, the concept was not documented as adopted by the U.S. Navy during the war, but its core principle is later discussed as related to modern spread-spectrum communication technologies.",
+        "attribution": "Hedy Lamarr and George Antheil, U.S. Patent 2,292,387 (1942)",
+        "source": "https://patents.google.com/patent/US2292387A/en",
+        "takeaway": "Useful ideas can arrive from unexpected places, and their value may be recognized only years after they are first proposed.",
+        "detail": "Review failed [EDITORIAL_QUALITY_FAILED]. The article's opening overstates the system as a developed torpedo communication system, and its closing lessons drift beyond what the sources establish about the invention's later reception and significance.\n\nDuring World War II, the American actress Hedy Lamarr and the composer George Antheil developed a secret communication system for radio-controlled torpedoes. The patent application was filed on June 10, 1941, and granted on August 11, 1942, as U.S. Patent 2,292,387, titled \"Secret communication system.\" The patent describes a remote-control arrangement in which a transmitter and a receiver change their carrier frequencies together, from time to time, so that an enemy who has not seen the coordinating records cannot know which frequency a control impulse will use at any given moment.\n\nThe problem the inventors addressed was concrete. According to the patent's own background, radio control of a torpedo had been difficult because an enemy could discover the frequency of the control signals and block control by sending false signals on the same frequency. Changing frequency was the proposed remedy. The patent describes general remote control of such a craft as old and broadly not part of the invention. Our reading is that the emphasis of the claimed invention falls on the paired synchronized records that coordinate frequency changes at the two stations; this is an interpretation of the patent's stated object and summary, not a separately quoted claim.\n\nThe mechanism was built around player-piano rolls. The patent describes paper records with perforations positioned in a plurality of longitudinal rows, and notes that a conventional player-piano record may have 88 rows of perforations, which would permit 88 different carrier frequencies. A transmitting record and a receiving record were to run in step, driven by accurately calibrated constant-speed spring motors of the kind used for clocks and chronometers, and they changed the tuning of the apparatus from time to time. The patent also states that synchronizing impulses for correcting the phase relation of rotary apparatus were well known and highly developed in automatic telegraphy and television.\n\nThe patent itself does not document whether the Navy adopted the system, and the sources available here do not establish a fielded torpedo control system resulting from it during the war. The later significance of the principle is best understood as a relationship of shared idea rather than proven lineage. General technical references describe modern frequency-hopping spread spectrum as changing the carrier frequency rapidly among many frequencies in a band according to a code known to both transmitter and receiver, and note its resistance to narrowband interference, its difficulty to intercept without the pattern, and its ability to share a band with other transmissions. The Lamarr-Antheil patent describes a related idea of coordinated frequency changes, and the later technology is commonly discussed alongside it. Whether any specific later system descends directly from the patent's design is not established by the available evidence.\n\nThe history of the invention's reception is not documented in the sources provided, so this account does not describe when or how Lamarr was later recognized. Interpretively, the story illustrates how an idea shaped by a specific wartime problem can outlast that problem. A practical lesson is that an idea's usefulness may depend on technologies and needs that have not yet arrived, so judging ideas only by their immediate reception can be misleading. Readers who want to verify the technical claims should consult the original patent text directly.",
+        "id": "generated-b5ab83f51acb42849191",
+        "category": "Stories",
+        "status": "review_failed",
+        "publishedAt": "",
+        "image": "https://raw.githubusercontent.com/jay-ds-labs/mydaycoach-inspirations/main/images/inspire/reflection-013.webp",
+        "reviewStatus": "review_failed",
+        "reviewFailureCode": "EDITORIAL_QUALITY_FAILED",
+        "reviewFailureSummary": "The article's opening overstates the system as a developed torpedo communication system, and its closing lessons drift beyond what the sources establish about the invention's later reception and significance."
+      }
     }
   }
 }
