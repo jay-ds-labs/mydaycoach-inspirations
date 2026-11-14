@@ -3772,6 +3772,102 @@
         "reviewFailureCode": "UNSUPPORTED_QUOTE",
         "reviewFailureSummary": "The card cites a source about Tunisian geography that does not mention Ibn Khaldun, asabiyya, or the Muqaddimah, so the subject and its claims are ungrounded."
       }
+    },
+    "generated-b69e0fdad0b146468c9b": {
+      "state": "review_failed",
+      "eligible": false,
+      "generated": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "reviewCompleted": true,
+          "sourceUrls": [
+            "https://www.asme.org/topics-resources/content/lillian-moller-gilbreth",
+            "https://en.wikipedia.org/wiki/Lillian_Moller_Gilbreth"
+          ],
+          "changes": "Reviewed the existing draft because composition returned no article.",
+          "approved": false,
+          "complete": false,
+          "grounded": false,
+          "feedback": [
+            "The article is a short summary-style piece, not a coherent full article with development and structure.",
+            "The card's claim that Gilbreth 'applied motion study to factories, kitchens, and hospitals' and aimed to 'protect workers' well-being' is only partly supported; the sources mention hospitals and kitchens and human factors, but the card's framing of protecting workers is not directly stated.",
+            "The article claims her motion studies 'broke tasks into elemental movements, several of which the Gilbreths named and cataloged' and that her approach 'emphasized human fatigue'; neither claim appears in the provided source evidence.",
+            "The article says she 'became an advisor on household efficiency' and was 'a prominent advocate for women in engineering'; the sources support advisory roles on civil defense and women's issues and her firsts for women, but 'household efficiency' advisor is only loosely supported.",
+            "The article claims she earned 'a doctorate in psychology' combined with engineering as 'a rare pairing'; sources support the Ph.D. and that she was among the first female engineers with a Ph.D., so the 'rare pairing' framing is an unsupported embellishment.",
+            "The core 'lesson for everyday life' is an original reflection presented as editorial guidance, which is acceptable only if clearly marked as such; it is not clearly marked.",
+            "The card's attribution and takeaway are presented as Gilbreth's own argument, but the article does not tie the 'observe then measure human cost' lesson to a specific cited source statement.",
+            "The article's note about not including a quotation is appropriate and no unsupported quotation is present."
+          ]
+        },
+        {
+          "attempt": 2,
+          "reviewCompleted": true,
+          "sourceUrls": [
+            "https://www.asme.org/topics-resources/content/lillian-moller-gilbreth",
+            "https://en.wikipedia.org/wiki/Lillian_Moller_Gilbreth"
+          ],
+          "changes": "",
+          "approved": false,
+          "complete": true,
+          "grounded": false,
+          "feedback": [
+            "The card's body claims Gilbreth applied motion study to 'hospitals' and aimed to 'protect workers' well-being'; the source evidence mentions hospital design consulting only in passing and does not document a well-being aim as a stated goal, so the card overstates the evidence.",
+            "The card's attribution calls her an 'American industrial psychologist and engineer' and the takeaway is presented as her view, but the takeaway is an interpretive reading, not a quotation or documented statement.",
+            "The card is categorized as 'Quotes' yet contains no direct quotation from Gilbreth; the article itself notes the reflection is interpretive, so the card's framing as a quote-based inspiration is misleading.",
+            "The article states she was 'generally regarded as one of the first women to earn a Ph.D. in engineering-related work' and 'an early figure in industrial and organizational psychology'; the Wikipedia source supports this, but the article's claim that Gilbreth 'applied psychology to kitchen design work that drew on interviews with thousands of women' conflates the ASME source's 4,000 interviews with General Electric work, which is only loosely described.",
+            "The article claims she 'advised U.S. presidents on civil defense and women's issues'; the source says 'at least five U.S. presidents', which the article reduces without issue, but the article's sentence about 'her commencement address at the University of California' as an early 'first' is supported only by the ASME text, which is acceptable.",
+            "The article's final paragraph claims she showed women 'could pursue rigorous technical work and a full family life at once, a point she made through her own example'; this is a reasonable reading of the ASME source but is an interpretive claim presented as a documented fact."
+          ]
+        },
+        {
+          "attempt": 3,
+          "reviewCompleted": true,
+          "sourceUrls": [
+            "https://www.asme.org/topics-resources/content/lillian-moller-gilbreth",
+            "https://en.wikipedia.org/wiki/Lillian_Moller_Gilbreth",
+            "https://en.wikipedia.org/wiki/Management"
+          ],
+          "changes": "Removed the unsupported hook that the card's own framing implied: the card's 'Quotes' category and takeaway were presented as Gilbreth's view, so I recategorized the card's presentation as a reflection, kept the title and subject, and attributed the takeaway explicitly as interpretation. Removed the claim that she applied motion study to hospitals with a stated aim to protect workers' well-being; hospitals appear in the source only as a consulting area, and well-being is described only as the ge",
+          "approved": false,
+          "complete": true,
+          "grounded": false,
+          "feedback": [
+            "The card's body says sources do not document a stated aim of protecting workers' well-being, but the article and ASME source only describe her interest in the human element; this is a fair caveat, yet the card's takeaway is presented as her principle, which the article itself labels as an interpretive reflection rather than her statement.",
+            "The card's category is 'Quotes' but no quotation from Gilbreth appears in the card or article, so the category is misleading.",
+            "The article states she was 'the first female professor in the engineering school at Purdue' and 'the first woman elected to the National Academy of Engineering' as ASME facts, which is supported, but the article also claims she was 'appointed a resident lecturer at MIT in 1964' and 'advisor to at least five U.S. presidents' (supported by ASME), so these are fine; however the article's opening says she 'came into her own academically in high school' citing Wikipedia-derived framing without attrib",
+            "The article claims she was 'one of the first female engineers to earn a Ph.D.' and 'considered the first industrial/organizational psychologist' citing Wikipedia; Source 2 supports this, but the article attributes the 'time-and-motion' pioneer claim to Wikipedia while the card's attribution and framing never mention these sources.",
+            "The article describes the Gilbreths' household experiments as chronicled in books 'written by their children' and says 'both were later adapted into feature films', which Source 2 supports; the article's claim that the work 'applies beyond the factory floor' is explicitly flagged as the author's reflection, which is acceptable.",
+            "Source 3 (Management, Wikipedia) is unrelated to Gilbreth and is not used by the article, so it is irrelevant evidence rather than a grounding problem.",
+            "The article's assertion that Frank was 'an efficiency expert in construction management' is supported by the ASME text but the phrase 'efficiency expert' comes from Wikipedia in Source 2; minor attribution blending."
+          ]
+        }
+      ],
+      "completedReviews": 3,
+      "reasonCode": "EDITORIAL_QUALITY_FAILED",
+      "reason": "The card is categorized as 'Quotes' and its takeaway reads as Gilbreth's principle, but no quotation exists and the principle is the author's interpretive reflection, making the card summary misleading.",
+      "sourceUrls": [
+        "https://www.asme.org/topics-resources/content/lillian-moller-gilbreth",
+        "https://en.wikipedia.org/wiki/Lillian_Moller_Gilbreth",
+        "https://en.wikipedia.org/wiki/Management"
+      ],
+      "sourceErrors": [],
+      "finalVersion": {
+        "title": "Lillian Gilbreth and the Motion Study Mindset",
+        "body": "Industrial engineer and psychologist Lillian Gilbreth worked from the premise that work could be understood by carefully observing how people actually move, then redesigning tasks around those observations. Working with her husband Frank, she applied motion study to industrial and household tasks, and her consulting work extended to office equipment, household appliances, and hospitals. Sources describe her attention to the human element of work, though they do not document a stated aim of protecting workers' well-being in every project.",
+        "attribution": "Lillian Moller Gilbreth (1878–1972), American psychologist, industrial engineer, and educator",
+        "source": "https://www.asme.org/topics-resources/content/lillian-moller-gilbreth",
+        "takeaway": "Improvement begins with looking closely at what is really happening, not with assumptions about how work should go.",
+        "detail": "Review failed [EDITORIAL_QUALITY_FAILED]. The card is categorized as 'Quotes' and its takeaway reads as Gilbreth's principle, but no quotation exists and the principle is the author's interpretive reflection, making the card summary misleading.\n\nLillian Moller Gilbreth (1878–1972) is best known to many people as the model for the quirky, brilliant mother in the film Cheaper by the Dozen, but her professional reputation rests on work in industrial psychology and engineering. Born in Oakland, California, in 1878 to parents of German descent, she came into her own academically in high school and persuaded her father to let her attend college. When she was allowed to speak at her University of California commencement, it was an early marker of the many firsts that followed for a woman in her field. She went on to earn a master's degree and a doctorate in psychology. Wikipedia describes her as one of the first female engineers to earn a Ph.D. and as considered the first industrial/organizational psychologist; she is also recognized as an early pioneer in applying psychology to time-and-motion studies.\n\nShe worked with her husband, Frank Bunker Gilbreth, an efficiency expert in construction management, on scientific management and motion study. According to ASME, Frank was concerned with the technical side of worker efficiency, while Lillian was especially interested in the human element of the workplace. Their method was to observe work closely, break it into component motions, and look for unnecessary effort. They applied this even at home: with twelve children, they analyzed how to wash dishes, brush teeth, and perform other routine tasks. Two books written by their children, Cheaper by the Dozen (1948) and Belles on Their Toes (1950), described this family life, and both were later adapted into feature films.\n\nAfter Frank's sudden death in 1924, Lillian continued the work, raising eleven children under nineteen. ASME records that she became the first female professor in the engineering school at Purdue University and the first woman elected to the National Academy of Engineering. Her consulting for corporations applied psychology to problems in office equipment, household appliances, and hospitals, and her inventions included refrigerator door shelving and a foot-pedal trash can. As an industrial engineer at General Electric, ASME reports she interviewed more than 4,000 women to inform the proper height of stoves, sinks, and other kitchen fixtures. She taught at Bryn Mawr, Newark College of Engineering, Rutgers, and the University of Wisconsin, was appointed a resident lecturer at MIT in 1964, served as an advisor to at least five U.S. presidents on civil defense and women's issues, and received more than twenty honorary degrees.\n\nWhat connects these threads is a consistent method: careful observation of what people actually do, followed by redesign informed by that observation. The sources describe her work as attentive to the human side of work, though they do not document a single formal doctrine of protecting workers' well-being in each application, so that should be read as the general character of her humane approach rather than a documented policy.\n\nA note for the reader: the following is an interpretive reflection, not a statement from Gilbreth. The idea that improvement starts with looking closely at what is really happening, rather than with assumptions about how work should go, is a reasonable reading of her documented methods. It applies beyond the factory floor, to homes, offices, and any routine one wishes to improve.",
+        "id": "generated-b69e0fdad0b146468c9b",
+        "category": "Quotes",
+        "status": "review_failed",
+        "publishedAt": "",
+        "image": "https://raw.githubusercontent.com/jay-ds-labs/mydaycoach-inspirations/main/images/inspire/reflection-030.webp",
+        "reviewStatus": "review_failed",
+        "reviewFailureCode": "EDITORIAL_QUALITY_FAILED",
+        "reviewFailureSummary": "The card is categorized as 'Quotes' and its takeaway reads as Gilbreth's principle, but no quotation exists and the principle is the author's interpretive reflection, making the card summary misleading."
+      }
     }
   }
 }
