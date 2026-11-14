@@ -3684,6 +3684,94 @@
         "reviewFailureCode": "UNSUPPORTED_QUOTE",
         "reviewFailureSummary": "The card asserts specific content of Lovelace's 1843 notes (symbol manipulation, music) that the supplied evidence does not document, and attributes it to a source about Babbage."
       }
+    },
+    "generated-ad47ac364f9d455099d8": {
+      "state": "review_failed",
+      "eligible": false,
+      "generated": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "reviewCompleted": true,
+          "sourceUrls": [
+            "https://en.wikipedia.org/wiki/History_of_Tunisia"
+          ],
+          "changes": "Reviewed the existing draft because composition returned no article.",
+          "approved": false,
+          "complete": true,
+          "grounded": false,
+          "feedback": [
+            "The card cites a Wikipedia page on the History of Tunisia as the source, but the supplied source evidence is only a geographic and climate overview of Tunisia; it contains nothing about Ibn Khaldun, the Muqaddimah, or asabiyya, so the card's claims are not supported by its cited source.",
+            "The card's attribution and takeaway claims about Ibn Khaldun's method and asabiyya have no support in the provided evidence.",
+            "The article makes specific factual claims about the Muqaddimah's purpose and content (introduction to a universal history, critique of chroniclers, asabiyya and decline through luxury and factionalism) that are not grounded in any supplied source text.",
+            "The article explicitly says it paraphrases rather than quotes, but the review evidence does not include the Britannica entry or the Muqaddimah, so the content cannot be verified against the provided material.",
+            "The card summary is misleading relative to its cited source: it presents a historiography inspiration sourced to a country-overview page that does not discuss the subject."
+          ]
+        },
+        {
+          "attempt": 2,
+          "reviewCompleted": true,
+          "sourceUrls": [
+            "https://en.wikipedia.org/wiki/History_of_Tunisia"
+          ],
+          "changes": "",
+          "approved": false,
+          "complete": true,
+          "grounded": false,
+          "feedback": [
+            "The card's source URL points to the Wikipedia article on the History of Tunisia, which does not discuss Ibn Khaldun's Muqaddimah, asabiyya, or his method; the cited evidence is about Tunisian geography and climate.",
+            "The article's central claims (Muqaddimah as introduction to universal history, method of testing reports, asabiyya as a force of rise and decline) are not supported by the provided source evidence.",
+            "The card's attribution and takeaway therefore rest on material the cited source does not contain, making the card misleadingly sourced.",
+            "The article is a full coherent piece, but its biographical and interpretive claims are unsupported by the supplied evidence and the wrong-subject source cannot ground them.",
+            "Editorially the article is clear and balanced, but approval is blocked by the grounding failure."
+          ]
+        },
+        {
+          "attempt": 3,
+          "reviewCompleted": true,
+          "sourceUrls": [
+            "https://en.wikipedia.org/wiki/History_of_Tunisia",
+            "https://en.wikipedia.org/wiki/History_of_Islamic_economics"
+          ],
+          "changes": "",
+          "approved": false,
+          "complete": true,
+          "grounded": false,
+          "feedback": [
+            "The card's cited source (History of Tunisia) does not discuss Ibn Khaldun, the Muqaddimah, or asabiyya, so the card's attribution and takeaway are not supported by the supplied evidence.",
+            "The article's biographical and interpretive claims (birth in Tunis, Muqaddimah as introduction to universal history, asabiyya as driver of rise and decline, chroniclers repeating unverified reports) are not in the supplied sources; the article itself admits they rest on general knowledge rather than the source.",
+            "The article has no quotations, but the card is categorized as 'Quotes' and presents the work as evidence-grounded; the category does not match the content.",
+            "The card's summary asserts the Muqaddimah offers a 'model of disciplined, skeptical observation' and that Ibn Khaldun argued for testing reports; these are attributed to a source that says nothing about them, making the card misleading.",
+            "The supplied second source (History of Islamic economics) is also unrelated to Ibn Khaldun's theory of asabiyya, so no supplied evidence supports the subject."
+          ]
+        }
+      ],
+      "completedReviews": 3,
+      "reasonCode": "UNSUPPORTED_QUOTE",
+      "reason": "The card cites a source about Tunisian geography that does not mention Ibn Khaldun, asabiyya, or the Muqaddimah, so the subject and its claims are ungrounded.",
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/History_of_Tunisia",
+        "https://en.wikipedia.org/wiki/History_of_Islamic_economics"
+      ],
+      "sourceErrors": [
+        "https://www.britannica.com/biography/Ibn-Khaldun Source retrieval failed: HTTP Error 403: Forbidden"
+      ],
+      "finalVersion": {
+        "title": "Ibn Khaldun and the Cycles of Civilization: Patient Observation of How Societies Rise and Fall",
+        "body": "The fourteenth-century Tunisian historian Ibn Khaldun, in his Muqaddimah (Prolegomena), argued that history should be studied with method: testing reports against plausibility, human nature, and the conditions of social life rather than accepting them at face value. His account of 'asabiyya' (group solidarity) as a driver of dynastic rise and decline offers a model of disciplined, skeptical observation of collective human behavior.",
+        "attribution": "Ibn Khaldun (1332–1406), Tunisian historian and author of the Muqaddimah",
+        "source": "https://en.wikipedia.org/wiki/History_of_Tunisia",
+        "takeaway": "Examine historical and social claims against the realities of human nature and circumstance before accepting them.",
+        "detail": "Review failed [UNSUPPORTED_QUOTE]. The card cites a source about Tunisian geography that does not mention Ibn Khaldun, asabiyya, or the Muqaddimah, so the subject and its claims are ungrounded.\n\nIbn Khaldun (1332–1406) was a scholar born in Tunis, and his most enduring work, the Muqaddimah (Prolegomena), is usually presented as an introduction to a far larger universal history. Its central ambition was not simply to record the past but to explain how human societies work, and in doing so to suggest a method for distinguishing credible reports from implausible ones. Readers today often notice how seriously he took the problem of unreliable information, which gives the work a surprisingly modern feel.\n\nA recurring concern in discussions of his approach is the danger of accepting reports at face value. Chroniclers, as he is generally read, too often repeated accounts without asking whether the events described were plausible given what is known of human nature and ordinary social life. The disciplined response is to test a claim against the conditions under which it is said to have occurred: who had the means, what incentives were present, and whether the described behavior fits how people actually act. This is a practical kind of skepticism rather than cynicism.\n\nHis best-known analytical idea is asabiyya, commonly rendered as group solidarity or social cohesion. In the scholarly reading, cohesion within a group helps it achieve and hold power, while a weakening of that cohesion is associated with decline. Commentators often point to prosperity and its comforts, along with internal rivalry, as forces that erode solidarity over time. The precise mechanisms he describes, and how far he intended them as general laws, remain matters on which interpreters differ, so careful readers tend to treat his cycles as a framework for observation rather than a rigid formula.\n\nWhat makes this approach worth studying is its patience. It asks the observer to resist both the comfort of a tidy narrative and the lure of a single cause, and to weigh social, economic, and psychological conditions together. Anyone wishing to check his claims in detail should turn to the Muqaddimah itself and to a reliable scholarly reference, since the arguments are dense and their interpretation has a long history of debate. The aim here is to point toward a habit of mind rather than to reproduce his text.\n\nA note on sourcing: the card's cited URL (the Wikipedia article on the History of Tunisia) covers Tunisian geography and climate and does not discuss Ibn Khaldun, the Muqaddimah, or asabiyya. The biographical and interpretive statements above therefore rest on general scholarly knowledge rather than on the supplied source, and should be verified against a dedicated reference on Ibn Khaldun before publication.",
+        "id": "generated-ad47ac364f9d455099d8",
+        "category": "Quotes",
+        "status": "review_failed",
+        "publishedAt": "",
+        "image": "https://raw.githubusercontent.com/jay-ds-labs/mydaycoach-inspirations/main/images/inspire/reflection-030.webp",
+        "reviewStatus": "review_failed",
+        "reviewFailureCode": "UNSUPPORTED_QUOTE",
+        "reviewFailureSummary": "The card cites a source about Tunisian geography that does not mention Ibn Khaldun, asabiyya, or the Muqaddimah, so the subject and its claims are ungrounded."
+      }
     }
   }
 }
