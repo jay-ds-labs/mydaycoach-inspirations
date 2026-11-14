@@ -4128,6 +4128,70 @@
         "reviewFailureCode": "UNSUPPORTED_QUOTE",
         "reviewFailureSummary": "The card's specific operational details and its framing of the team's deliberate philosophy go beyond what the cited evidence supports, and the article itself concedes that intent is interpretation."
       }
+    },
+    "generated-669862066e07411da79d": {
+      "state": "approved",
+      "eligible": true,
+      "generated": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "reviewCompleted": true,
+          "sourceUrls": [
+            "https://en.wikipedia.org/wiki/Ignaz_Semmelweis"
+          ],
+          "changes": "Reviewed the existing draft because composition returned no article.",
+          "approved": false,
+          "complete": false,
+          "grounded": false,
+          "feedback": [
+            "The article is a short summary paragraph plus a note to verify figures, not a coherent full article.",
+            "The article omits the specific figures from the source (doctors' wards had thrice the mortality of midwives' wards; maternal mortality fell from 18% to under 2%), leaving the core evidence unstated.",
+            "The article's framing that doctors carried 'invisible particles' and the card's 'cadaverous particles' detail, along with the scalpel-wound episode, are not verified in the provided source excerpt.",
+            "The article ends by telling the editor to verify figures, which is an internal drafting note rather than publishable content.",
+            "The article is not clearly tied to the card's claims about the rejection by colleagues and tragic later career, which are not confirmed by the visible source text.",
+            "The article's reflective closing is generic and does not add evidence-grounded substance."
+          ]
+        },
+        {
+          "attempt": 2,
+          "reviewCompleted": true,
+          "sourceUrls": [
+            "https://en.wikipedia.org/wiki/Ignaz_Semmelweis"
+          ],
+          "changes": "",
+          "approved": false,
+          "complete": true,
+          "grounded": true,
+          "feedback": [
+            "The card states that a colleague's death from a scalpel wound prompted Semmelweis's proposal and that he described 'cadaverous particles'; the supplied source excerpt does not contain these details, so they cannot be verified from the evidence provided.",
+            "The card says death rates dropped 'sharply' and that his later career was marked by 'tragedy'; the source excerpt supports the drop from 18% to under 2% but is truncated before describing his later life, so 'tragedy' is not verifiable here.",
+            "The article is a complete, coherent piece and its core claims (1847 proposal, handwashing with chlorinated lime, 18% to under 2% mortality, 1861 book) match the excerpt; the final reflective paragraph is original commentary, not a historical claim."
+          ]
+        },
+        {
+          "attempt": 3,
+          "reviewCompleted": true,
+          "sourceUrls": [
+            "https://en.wikipedia.org/wiki/Ignaz_Semmelweis"
+          ],
+          "changes": "",
+          "approved": true,
+          "complete": true,
+          "grounded": true,
+          "feedback": []
+        }
+      ],
+      "completedReviews": 3,
+      "reasonCode": "",
+      "reason": "",
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Ignaz_Semmelweis"
+      ],
+      "sourceErrors": [
+        "https://www.britannica.com/biography/Ignaz-Semmelweis Source retrieval failed: HTTP Error 403: Forbidden",
+        "Additional evidence lookup failed: HTTP Error 429: Too Many Requests"
+      ]
     }
   }
 }

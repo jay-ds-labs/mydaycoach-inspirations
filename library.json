@@ -1251,6 +1251,22 @@
       "reviewStatus": "approved",
       "reviewFailureCode": "",
       "reviewFailureSummary": ""
+    },
+    {
+      "title": "Ignaz Semmelweis and the Cost of Ignored Evidence",
+      "body": "In 1847, Hungarian physician Ignaz Semmelweis noticed that women in the Vienna General Hospital's First Clinic, attended by medical students and doctors, died of childbed fever at far higher rates than those attended by midwives. After a colleague's death from a scalpel wound, he proposed that doctors were carrying invisible 'cadaverous particles' and required handwashing with chlorinated lime solution. Death rates dropped sharply, yet many colleagues rejected his explanation, and his later career was marked by frustration and tragedy.",
+      "attribution": "Ignaz Semmelweis, Vienna General Hospital, 1847",
+      "source": "https://en.wikipedia.org/wiki/Ignaz_Semmelweis",
+      "takeaway": "Good evidence can be correct and still be resisted; persuading others requires patience, clear data, and willingness to test your claims openly.",
+      "detail": "In 1847, Ignaz Semmelweis, a Hungarian physician working at the Vienna General Hospital, confronted a troubling pattern in the institution's First Obstetrical Clinic. Women attended there were dying of puerperal fever, also called childbed fever, at rates far higher than women in the hospital's other obstetrical ward, which was staffed by midwives. Doctors' wards had roughly three times the mortality of the midwives' wards. For a physician trained to follow evidence, the disparity demanded an explanation, and Semmelweis set out to find one by comparing the conditions under which the two groups were cared for.\n\nHe proposed a practical intervention: that healthcare workers in obstetrical clinics disinfect their hands before attending patients, using a chlorinated lime solution. The measure was simple, inexpensive, and testable. After it was adopted, the maternal mortality rate at the First Clinic fell dramatically, from about 18 percent to less than 2 percent. Semmelweis treated the change in practice as an experiment, observing what happened to outcomes when a single variable was altered, rather than relying on theory alone.\n\nThe results did not persuade the medical establishment of his day. Semmelweis could not offer a theoretical account of why handwashing worked, because the germ theory of disease that would later supply such an explanation had not yet been widely accepted. His findings contradicted prevailing views and the professional habits of physicians who did not see themselves as possible carriers of disease. Many colleagues rejected his conclusions, and he struggled to gain the recognition his data seemed to warrant. He eventually published his findings in 1861 in Etiology, Concept and Prophylaxis of Childbed Fever, a book that set out his reasoning and evidence in full.\n\nSemmelweis's case shows how evidence can be correct and still meet resistance when it challenges established routines, reputations, and explanatory frameworks. The episode also underlines the value of clear comparison, deliberate testing of a practice, and transparent reporting of outcomes. For anyone seeking to change a practice on the strength of data, his experience is a reminder that the quality of an argument must be matched by patience in persuading others and openness to scrutiny of one's own claims.",
+      "id": "generated-669862066e07411da79d",
+      "category": "Stories",
+      "status": "ready_for_publish",
+      "publishedAt": "",
+      "image": "https://raw.githubusercontent.com/jay-ds-labs/mydaycoach-inspirations/main/images/inspire/reflection-013.webp",
+      "reviewStatus": "approved",
+      "reviewFailureCode": "",
+      "reviewFailureSummary": ""
     }
   ]
 }
