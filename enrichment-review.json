@@ -5959,15 +5959,17 @@
             "https://en.wikipedia.org/wiki/Diogenes",
             "https://en.wikipedia.org/wiki/List_of_mythological_objects"
           ],
-          "changes": "Replaced the unsupported card hook ('Let your daily conduct, not your reputation, be the evidence of your integrity') in the takeaway with a labeled reflective takeaway, and removed the earlier unsupported attribution-style wording. Kept the subject, historical setting, and the lamp anecdote, and clarified that 'honest person' means 'wise man' in Greek context. Tightened the death and Alexander passages to note the disputed accounts, and expanded the evidence caveats about surviving works. No qu",
+          "changes": "Expanded the previous article into a fuller narrative with a stronger opening scene, developed historical context on Diogenes' life, exile and Cynic teaching, and a practical closing on testing values in everyday conduct. Kept the supported substance (Sinope, the coinage scandal, ceramic jar, begging, cup anecdote, Plato and Alexander stories, lamp, uncertain sources and death accounts). Paraphrased anecdotes as reported rather than asserting them as verified, and removed claims not clearly grou",
           "approved": true,
           "complete": true,
           "grounded": true,
           "feedback": [],
           "warnings": [
-            "The article says 'fourth century BCE' while the source gives c. 413/403 to c. 324/321 BC; this is broadly consistent but a more precise date range could be stated.",
-            "The source describes the lamp anecdote as 'looking for a man... a wise man (sophos)', and the lantern appears in Source 2 as a search for an honest man; the article reasonably connects these, but it could note that the wording varies across sources.",
-            "The card attribution cites Diogenes Laertius Book VI, which is not the article's own sourcing; the article itself only names the anecdote tradition generally."
+            "The article presents the Alexander 'step out of my sunlight' exchange as a story without citing its source; the excerpt includes a Plutarch-attributed Alexander quote but the sunlight anecdote itself is not shown in the excerpts, so consider noting it as a later anecdote.",
+            "The article says Diogenes 'is said to have called himself a dog' and mentions Plato's featherless biped with appropriate hedging; this is supported by the source excerpt.",
+            "The phrase 'a man who needed nothing from power and therefore could not be bought by it' is a clearly framed interpretation and is acceptable, but could be marked more explicitly as the article's reading.",
+            "The article says the lamp story is 'preserved mainly by Diogenes Laertius' in the card; the source excerpts mention the lantern in daylight but do not name Laertius for it, so the attribution in the card could be checked against the full source.",
+            "The phrase 'early fifth century to the late fourth century BCE' loosely matches the source's c. 413/403–324/321 BC range and is acceptable."
           ],
           "blockers": []
         }
@@ -5981,9 +5983,11 @@
       ],
       "sourceErrors": [],
       "warnings": [
-        "The article says 'fourth century BCE' while the source gives c. 413/403 to c. 324/321 BC; this is broadly consistent but a more precise date range could be stated.",
-        "The source describes the lamp anecdote as 'looking for a man... a wise man (sophos)', and the lantern appears in Source 2 as a search for an honest man; the article reasonably connects these, but it could note that the wording varies across sources.",
-        "The card attribution cites Diogenes Laertius Book VI, which is not the article's own sourcing; the article itself only names the anecdote tradition generally."
+        "The article presents the Alexander 'step out of my sunlight' exchange as a story without citing its source; the excerpt includes a Plutarch-attributed Alexander quote but the sunlight anecdote itself is not shown in the excerpts, so consider noting it as a later anecdote.",
+        "The article says Diogenes 'is said to have called himself a dog' and mentions Plato's featherless biped with appropriate hedging; this is supported by the source excerpt.",
+        "The phrase 'a man who needed nothing from power and therefore could not be bought by it' is a clearly framed interpretation and is acceptable, but could be marked more explicitly as the article's reading.",
+        "The article says the lamp story is 'preserved mainly by Diogenes Laertius' in the card; the source excerpts mention the lantern in daylight but do not name Laertius for it, so the attribution in the card could be checked against the full source.",
+        "The phrase 'early fifth century to the late fourth century BCE' loosely matches the source's c. 413/403–324/321 BC range and is acceptable."
       ],
       "previousAudits": [
         {
@@ -6197,29 +6201,68 @@
               "The card's birth/death dates (c. 412–323 BCE) differ slightly from the sources (c. 413/403–324/321 BCE); using the source's range is more accurate."
             ]
           }
+        },
+        {
+          "state": "approved",
+          "eligible": true,
+          "generated": true,
+          "attempts": [
+            {
+              "attempt": 1,
+              "reviewCompleted": true,
+              "sourceUrls": [
+                "https://en.wikipedia.org/wiki/Diogenes",
+                "https://en.wikipedia.org/wiki/List_of_mythological_objects"
+              ],
+              "changes": "Replaced the unsupported card hook ('Let your daily conduct, not your reputation, be the evidence of your integrity') in the takeaway with a labeled reflective takeaway, and removed the earlier unsupported attribution-style wording. Kept the subject, historical setting, and the lamp anecdote, and clarified that 'honest person' means 'wise man' in Greek context. Tightened the death and Alexander passages to note the disputed accounts, and expanded the evidence caveats about surviving works. No qu",
+              "approved": true,
+              "complete": true,
+              "grounded": true,
+              "feedback": [],
+              "warnings": [
+                "The article says 'fourth century BCE' while the source gives c. 413/403 to c. 324/321 BC; this is broadly consistent but a more precise date range could be stated.",
+                "The source describes the lamp anecdote as 'looking for a man... a wise man (sophos)', and the lantern appears in Source 2 as a search for an honest man; the article reasonably connects these, but it could note that the wording varies across sources.",
+                "The card attribution cites Diogenes Laertius Book VI, which is not the article's own sourcing; the article itself only names the anecdote tradition generally."
+              ],
+              "blockers": []
+            }
+          ],
+          "completedReviews": 1,
+          "reasonCode": "",
+          "reason": "",
+          "sourceUrls": [
+            "https://en.wikipedia.org/wiki/Diogenes",
+            "https://en.wikipedia.org/wiki/List_of_mythological_objects"
+          ],
+          "sourceErrors": [],
+          "warnings": [
+            "The article says 'fourth century BCE' while the source gives c. 413/403 to c. 324/321 BC; this is broadly consistent but a more precise date range could be stated.",
+            "The source describes the lamp anecdote as 'looking for a man... a wise man (sophos)', and the lantern appears in Source 2 as a search for an honest man; the article reasonably connects these, but it could note that the wording varies across sources.",
+            "The card attribution cites Diogenes Laertius Book VI, which is not the article's own sourcing; the article itself only names the anecdote tradition generally."
+          ],
+          "finalVersion": {
+            "title": "Diogenes and the Lamp at Noon: Honesty as a Way of Life",
+            "body": "Diogenes of Sinope, the Cynic philosopher of the fourth century BCE, rejected conventional wealth, status, and social polish in favor of a life lived in plain accordance with nature. Ancient anecdotes, preserved mainly by Diogenes Laertius, describe him carrying a lamp in daylight while claiming to search for an honest person. Whether or not every story is literal, the image captures his core claim: sincerity should be visible in conduct, not merely professed in speech.",
+            "attribution": "Diogenes of Sinope (c. 412–323 BCE), as recorded in Diogenes Laertius, Lives of the Eminent Philosophers, Book VI",
+            "source": "https://en.wikipedia.org/wiki/Diogenes",
+            "takeaway": "A reflective practice drawn from the lamp story: test your stated values against small, unobserved daily choices, since consistent conduct is what makes integrity believable.",
+            "detail": "Review failed [FALSE_ATTRIBUTION]. The card attributes its source and attribution to Diogenes Laertius, Lives of the Eminent Philosophers, Book VI, but the supplied sources do not establish that specific book reference. The cited source URL is a list of mythological objects, which does not support the hi\n\nDiogenes of Sinope, usually dated to roughly 413/403 to 324/321 BCE, is among the most provocative figures of Classical Greek philosophy. He is regarded as one of the founders of Cynicism, a movement whose name is traditionally linked to the dog-like boldness of its adherents and to their open disregard for social convention. Born into a prosperous family in Sinope, a Milesian colony on the Black Sea in Paphlagonia, he is said to have been exiled after a scandal involving the debasement of coinage, an episode that may have pushed him toward the radical rejection of wealth and status for which he became known. Whatever the precise circumstances, his later life was defined by poverty, self-sufficiency, and a deliberate refusal of the honors and comforts that most of his contemporaries pursued.\n\nHis teaching centered on the idea that a good life is one lived in accordance with nature, with as few artificial needs as possible. Ancient writers report that he lived for a time in a large ceramic jar, begged for food, and wandered public spaces with little more than a cloak and a walking stick. Such behavior was designed to expose what he regarded as the arbitrary character of social customs. He is also credited, in later tradition, with an early articulation of cosmopolitanism: when asked where he came from, he is said to have answered that he was a citizen of the world, a reply that questioned the idea that one's worth depends on membership in a particular city.\n\nThe most memorable anecdote about him describes him walking through the Athenian marketplace in daylight carrying a lit lamp, announcing that he was searching for an honest human being, which in Greek means a wise man. The story is preserved chiefly in the Lives of the Eminent Philosophers attributed to Diogenes Laertius, a writer who lived centuries after Diogenes and whose collection mixes reliable reports with vivid, sometimes doubtful, anecdotes. The literal truth of any single episode cannot be confirmed, and the lamp may have been intended as a joke, a rebuke, or a teaching device. Yet the image captures a serious claim that Cynics repeatedly made: sincerity is visible in conduct, and professing a virtue counts for little if ordinary choices contradict it.\n\nThis emphasis helps explain why the Cynics often behaved in ways that shocked their contemporaries. Their provocations were meant to strip away pretense and to show that many accepted norms rested on habit or vanity rather than on nature. Diogenes is said to have mocked the rich, the powerful, and the self-important with sharp wit, and his encounter with Alexander the Great, in which he is reported to have asked only that the king stand out of his sunlight, has become one of the enduring symbols of philosophical independence. Later reports also describe him dying in ways that seemed to affirm his indifference to convention, though ancient accounts of his death differ and should be treated with caution.\n\nA careful reader should also remember the limits of the evidence. The Cynics left little writing of their own, and what survives comes largely from later sources that may be partial, embellished, or inconsistent. Diogenes is said to have written dialogues, letters, and a political treatise, but none of these works has survived intact, so his thought must be reconstructed from fragments and anecdotes. Modern scholarship therefore tends to read the lamp story not as a verified event but as a memorable expression of a moral idea, one that has continued to resonate across centuries.\n\nThe lasting value of the image lies in the standard it sets. Integrity, on this view, is not established by reputation, eloquence, or public declarations, but by the steady consistency between what a person says and how they actually live. Whether one keeps small promises, treats strangers with courtesy, or tells the truth when it is inconvenient reveals more about character than any statement of principle. Diogenes' lamp, however literal or symbolic, asks each person to test their commitments against ordinary conduct, especially where no one is watching and the stakes seem slight.",
+            "id": "generated-301d38f650914c6d826d",
+            "category": "Philosophy",
+            "status": "ready_for_publish",
+            "publishedAt": "",
+            "image": "https://raw.githubusercontent.com/jay-ds-labs/mydaycoach-inspirations/main/images/inspire/reflection-001.webp",
+            "reviewStatus": "approved",
+            "reviewFailureCode": "",
+            "reviewFailureSummary": "",
+            "reviewNotes": [
+              "The article says 'fourth century BCE' while the source gives c. 413/403 to c. 324/321 BC; this is broadly consistent but a more precise date range could be stated.",
+              "The source describes the lamp anecdote as 'looking for a man... a wise man (sophos)', and the lantern appears in Source 2 as a search for an honest man; the article reasonably connects these, but it could note that the wording varies across sources.",
+              "The card attribution cites Diogenes Laertius Book VI, which is not the article's own sourcing; the article itself only names the anecdote tradition generally."
+            ]
+          }
         }
-      ],
-      "finalVersion": {
-        "title": "Diogenes and the Lamp at Noon: Honesty as a Way of Life",
-        "body": "Diogenes of Sinope, the Cynic philosopher of the fourth century BCE, rejected conventional wealth, status, and social polish in favor of a life lived in plain accordance with nature. Ancient anecdotes, preserved mainly by Diogenes Laertius, describe him carrying a lamp in daylight while claiming to search for an honest person. Whether or not every story is literal, the image captures his core claim: sincerity should be visible in conduct, not merely professed in speech.",
-        "attribution": "Diogenes of Sinope (c. 412–323 BCE), as recorded in Diogenes Laertius, Lives of the Eminent Philosophers, Book VI",
-        "source": "https://en.wikipedia.org/wiki/Diogenes",
-        "takeaway": "A reflective practice drawn from the lamp story: test your stated values against small, unobserved daily choices, since consistent conduct is what makes integrity believable.",
-        "detail": "Review failed [FALSE_ATTRIBUTION]. The card attributes its source and attribution to Diogenes Laertius, Lives of the Eminent Philosophers, Book VI, but the supplied sources do not establish that specific book reference. The cited source URL is a list of mythological objects, which does not support the hi\n\nDiogenes of Sinope, usually dated to roughly 413/403 to 324/321 BCE, is among the most provocative figures of Classical Greek philosophy. He is regarded as one of the founders of Cynicism, a movement whose name is traditionally linked to the dog-like boldness of its adherents and to their open disregard for social convention. Born into a prosperous family in Sinope, a Milesian colony on the Black Sea in Paphlagonia, he is said to have been exiled after a scandal involving the debasement of coinage, an episode that may have pushed him toward the radical rejection of wealth and status for which he became known. Whatever the precise circumstances, his later life was defined by poverty, self-sufficiency, and a deliberate refusal of the honors and comforts that most of his contemporaries pursued.\n\nHis teaching centered on the idea that a good life is one lived in accordance with nature, with as few artificial needs as possible. Ancient writers report that he lived for a time in a large ceramic jar, begged for food, and wandered public spaces with little more than a cloak and a walking stick. Such behavior was designed to expose what he regarded as the arbitrary character of social customs. He is also credited, in later tradition, with an early articulation of cosmopolitanism: when asked where he came from, he is said to have answered that he was a citizen of the world, a reply that questioned the idea that one's worth depends on membership in a particular city.\n\nThe most memorable anecdote about him describes him walking through the Athenian marketplace in daylight carrying a lit lamp, announcing that he was searching for an honest human being, which in Greek means a wise man. The story is preserved chiefly in the Lives of the Eminent Philosophers attributed to Diogenes Laertius, a writer who lived centuries after Diogenes and whose collection mixes reliable reports with vivid, sometimes doubtful, anecdotes. The literal truth of any single episode cannot be confirmed, and the lamp may have been intended as a joke, a rebuke, or a teaching device. Yet the image captures a serious claim that Cynics repeatedly made: sincerity is visible in conduct, and professing a virtue counts for little if ordinary choices contradict it.\n\nThis emphasis helps explain why the Cynics often behaved in ways that shocked their contemporaries. Their provocations were meant to strip away pretense and to show that many accepted norms rested on habit or vanity rather than on nature. Diogenes is said to have mocked the rich, the powerful, and the self-important with sharp wit, and his encounter with Alexander the Great, in which he is reported to have asked only that the king stand out of his sunlight, has become one of the enduring symbols of philosophical independence. Later reports also describe him dying in ways that seemed to affirm his indifference to convention, though ancient accounts of his death differ and should be treated with caution.\n\nA careful reader should also remember the limits of the evidence. The Cynics left little writing of their own, and what survives comes largely from later sources that may be partial, embellished, or inconsistent. Diogenes is said to have written dialogues, letters, and a political treatise, but none of these works has survived intact, so his thought must be reconstructed from fragments and anecdotes. Modern scholarship therefore tends to read the lamp story not as a verified event but as a memorable expression of a moral idea, one that has continued to resonate across centuries.\n\nThe lasting value of the image lies in the standard it sets. Integrity, on this view, is not established by reputation, eloquence, or public declarations, but by the steady consistency between what a person says and how they actually live. Whether one keeps small promises, treats strangers with courtesy, or tells the truth when it is inconvenient reveals more about character than any statement of principle. Diogenes' lamp, however literal or symbolic, asks each person to test their commitments against ordinary conduct, especially where no one is watching and the stakes seem slight.",
-        "id": "generated-301d38f650914c6d826d",
-        "category": "Philosophy",
-        "status": "ready_for_publish",
-        "publishedAt": "",
-        "image": "https://raw.githubusercontent.com/jay-ds-labs/mydaycoach-inspirations/main/images/inspire/reflection-001.webp",
-        "reviewStatus": "approved",
-        "reviewFailureCode": "",
-        "reviewFailureSummary": "",
-        "reviewNotes": [
-          "The article says 'fourth century BCE' while the source gives c. 413/403 to c. 324/321 BC; this is broadly consistent but a more precise date range could be stated.",
-          "The source describes the lamp anecdote as 'looking for a man... a wise man (sophos)', and the lantern appears in Source 2 as a search for an honest man; the article reasonably connects these, but it could note that the wording varies across sources.",
-          "The card attribution cites Diogenes Laertius Book VI, which is not the article's own sourcing; the article itself only names the anecdote tradition generally."
-        ]
-      }
+      ]
     },
     "generated-61cb5141a99f46598bc0": {
       "state": "approved",

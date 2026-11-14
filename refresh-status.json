@@ -8,9 +8,9 @@
   "philosophy": 5,
   "generated": 15,
   "reviewed": 15,
-  "approved": 14,
+  "approved": 15,
   "needsReview": 0,
-  "reviewFailed": 1,
+  "reviewFailed": 0,
   "startedAt": "2026-11-14T13:02:48.709534Z",
   "completedAt": null,
   "error": null,
@@ -121,10 +121,10 @@
     {
       "id": "generated-301d38f650914c6d826d",
       "category": "Philosophy",
-      "state": "review_failed",
+      "state": "approved",
       "reasonCode": "",
       "reason": "",
-      "eligible": false
+      "eligible": true
     },
     {
       "id": "generated-61cb5141a99f46598bc0",
@@ -135,5 +135,5 @@
       "eligible": true
     }
   ],
-  "recoveredAt": "2026-11-14T14:12:39.790751Z"
+  "recoveredAt": "2026-11-14T14:13:13.415279Z"
 }
