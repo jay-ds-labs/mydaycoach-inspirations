@@ -67,7 +67,8 @@ export function usageFetch(env,feature,purpose,fetcher=fetch,source='coach'){
 }
 const usageJson=(j,status=200)=>new Response(JSON.stringify(j),{status,headers:{'content-type':'application/json','cache-control':'no-store'}});
 function usageDate(s){if(!/^\d{4}-\d{2}-\d{2}$/.test(s||''))throw Error('INVALID_DATE');const d=new Date(s+'T00:00:00Z');if(!Number.isFinite(+d)||d.toISOString().slice(0,10)!==s)throw Error('INVALID_DATE');return s}
-export function usageDay(ms,tz){const p=new Intl.DateTimeFormat('en-CA',{timeZone:tz,year:'numeric',month:'2-digit',day:'2-digit'}).formatToParts(new Date(ms));return ['year','month','day'].map(k=>p.find(x=>x.type===k).value).join('-')}
+const usageDateFormatters=new Map();
+export function usageDay(ms,tz){if(!usageDateFormatters.has(tz)){if(usageDateFormatters.size>=32)usageDateFormatters.delete(usageDateFormatters.keys().next().value);usageDateFormatters.set(tz,new Intl.DateTimeFormat('en-CA',{timeZone:tz,year:'numeric',month:'2-digit',day:'2-digit'}))}const p=usageDateFormatters.get(tz).formatToParts(new Date(ms));return ['year','month','day'].map(k=>p.find(x=>x.type===k).value).join('-')}
 export function usageWeek(day){const d=new Date(day+'T12:00:00Z');d.setUTCDate(d.getUTCDate()-(d.getUTCDay()+6)%7);return d.toISOString().slice(0,10)}
 function usageEmpty(feature){return {feature,calls:0,inputTokens:0,outputTokens:0,cacheRead:0,cacheWrite5m:0,cacheWrite1h:0,searches:0,inputNano:0,outputNano:0,otherNano:0,totalNano:0,unmeasuredCalls:0,unpricedCalls:0,partialCalls:0}}
 function usageAdd(a,b){for(const k of Object.keys(a))if(k!=='feature'&&typeof a[k]==='number')a[k]+=b[k]||0;return a}
