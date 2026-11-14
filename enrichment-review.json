@@ -3868,6 +3868,93 @@
         "reviewFailureCode": "EDITORIAL_QUALITY_FAILED",
         "reviewFailureSummary": "The card is categorized as 'Quotes' and its takeaway reads as Gilbreth's principle, but no quotation exists and the principle is the author's interpretive reflection, making the card summary misleading."
       }
+    },
+    "generated-76193ae8faf94f5e9333": {
+      "state": "review_failed",
+      "eligible": false,
+      "generated": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "reviewCompleted": true,
+          "sourceUrls": [
+            "https://www.newadvent.org/fathers/2710.htm",
+            "https://en.wikipedia.org/wiki/Cyril_of_Alexandria"
+          ],
+          "changes": "Reviewed the existing draft because composition returned no article.",
+          "approved": false,
+          "complete": false,
+          "grounded": false,
+          "feedback": [
+            "The provided source evidence for the cited URL (New Advent, Jerome's Apology Against Rufinus) contains no mention of Hypatia, Socrates Scholasticus, Alexandria's teaching, or the 415 CE events, so the card's attribution to Socrates Scholasticus, Ecclesiastical History Book VII is unsupported by the supplied evidence.",
+            "The card's body makes specific historical claims (lectures in late 4th/early 5th century Alexandria, advising civic leaders, death in 415 CE) that are not established by any supplied source; the Cyril of Alexandria Wikipedia excerpt does not mention Hypatia.",
+            "The card category is 'Quotes' and the title implies a quotation-based piece, yet no verifiable quotation from Hypatia or any source is provided; the draft notes acknowledge none survive in verifiable form, creating a mismatch with the category.",
+            "The article is not supplied; only draft notes are provided, so no coherent full article exists to assess completeness.",
+            "The draft notes instruct the writer to use the Socrates Scholasticus passage as primary evidence, but that passage is not present in the supplied evidence, and the notes themselves say the URL must still be verified."
+          ]
+        },
+        {
+          "attempt": 2,
+          "reviewCompleted": true,
+          "sourceUrls": [
+            "https://www.newadvent.org/fathers/2710.htm",
+            "https://en.wikipedia.org/wiki/Cyril_of_Alexandria"
+          ],
+          "changes": "",
+          "approved": false,
+          "complete": true,
+          "grounded": false,
+          "feedback": [
+            "The card attributes the account of Hypatia's teaching, public standing, and death to Socrates Scholasticus, Ecclesiastical History Book VII, but the cited source (New Advent page) is Jerome's Apology Against Rufinus, which does not contain that account.",
+            "The provided source evidence does not support the specific claims about Hypatia's lectures, students, civic advisory role, or the 415 CE death; the only other source concerns Cyril of Alexandria and does not mention Hypatia.",
+            "The article's claims about Hypatia's teaching and death are not verifiable from the supplied evidence, though the article does hedge appropriately and states no fabricated quotations.",
+            "The card's 'attribution' and 'source' fields are misleading relative to the evidence actually provided, so the card summary is not faithful to its cited source.",
+            "The article is coherent and complete, but its factual grounding rests on a source that the evidence does not contain, and it does not engage with the cited Socrates Scholasticus text."
+          ]
+        },
+        {
+          "attempt": 3,
+          "reviewCompleted": true,
+          "sourceUrls": [
+            "https://www.newadvent.org/fathers/2710.htm",
+            "https://en.wikipedia.org/wiki/Cyril_of_Alexandria"
+          ],
+          "changes": "",
+          "approved": false,
+          "complete": true,
+          "grounded": false,
+          "feedback": [
+            "The card's attribution to Socrates Scholasticus, Ecclesiastical History Book VII, is not supported by the supplied sources; the New Advent page reproduces Jerome's Apology Against Rufinus.",
+            "The card's specific claims (Hypatia's lectures, students, civic counsel, and death in 415 CE) are not confirmed by the supplied evidence and are presented as established in the card body despite the article's caveat.",
+            "The second source concerns Cyril of Alexandria and does not mention Hypatia, so it cannot support any Hypatia-specific claim.",
+            "The card's takeaway and framing present the traditional narrative as a settled symbol without the uncertainty the article acknowledges."
+          ]
+        }
+      ],
+      "completedReviews": 3,
+      "reasonCode": "UNSUPPORTED_QUOTE",
+      "reason": "The card's attribution to Socrates Scholasticus and its specific historical claims about Hypatia are unsupported by the supplied sources, which do not contain that account.",
+      "sourceUrls": [
+        "https://www.newadvent.org/fathers/2710.htm",
+        "https://en.wikipedia.org/wiki/Cyril_of_Alexandria"
+      ],
+      "sourceErrors": [],
+      "finalVersion": {
+        "title": "Hypatia's Lamp: Teaching Reason Under Threat",
+        "body": "In Alexandria in the late fourth and early fifth centuries, the mathematician and philosopher Hypatia taught astronomy, mathematics, and Neoplatonic philosophy in public lectures. Ancient sources describe her as a respected teacher whose students came from across the city and beyond, and she advised civic leaders while keeping her commitment to inquiry. Her life ended in violence amid religious and political conflict in 415 CE, a tragedy that later writers repeatedly cited as a symbol of what is lost when open learning is silenced.",
+        "attribution": "Ancient historians of late antiquity, including Socrates Scholasticus (Ecclesiastical History, Book VII)",
+        "source": "https://www.newadvent.org/fathers/2710.htm",
+        "takeaway": "Keeping a space open for honest inquiry, even when it is unpopular, is a form of courage that communities depend on.",
+        "detail": "Review failed [UNSUPPORTED_QUOTE]. The card's attribution to Socrates Scholasticus and its specific historical claims about Hypatia are unsupported by the supplied sources, which do not contain that account.\n\nHypatia of Alexandria is remembered as one of the earliest women in the ancient world to earn a public reputation as a mathematician and philosopher. She is generally placed in Alexandria in the late fourth and early fifth centuries CE, a city then renowned for its libraries, scholars, and schools of learning. Her later reputation rests largely on accounts written by others, most prominently the Christian historian Socrates Scholasticus, whose Ecclesiastical History, Book VII, is the source the card names for her teaching, public standing, and violent death. The attribution needs care, however. The source material supplied for this review does not contain that account. The New Advent page cited on the card reproduces Jerome's Apology Against Rufinus, not Socrates Scholasticus, and the other supplied text concerns Cyril of Alexandria, a later Alexandrian patriarch who does not mention Hypatia. The specific details of her lectures, her students, her civic counsel, and her death in 415 CE therefore cannot be confirmed from the evidence in hand. They are reported in the later tradition, and this article presents them as such rather than as established fact.\n\nWhat the traditional accounts emphasize is her role as a teacher. She is described as lecturing on astronomy, mathematics, and the Neoplatonic philosophy then influential in Alexandria, and as drawing students from the city and from farther afield. Such instruction required technical skill and a willingness to engage openly with questions that scholars of different traditions debated. The accounts further suggest that civic figures sought her counsel, though the nature and extent of that role is likewise known only through later writers.\n\nThe events of her death are reported in connection with religious and political conflict in Alexandria, and the tensions between rival authorities and communities in that period are well documented. The details of who acted, why, and with what authorization are contested, and the story was retold by later writers for varied purposes, including Christian, pagan, and Enlightenment ones. It is therefore more accurate to say that her death became a lasting symbol of the dangers facing scholars in volatile times than to treat every detail of the traditional narrative as settled.\n\nNo verifiable quotation from Hypatia survives, so any presentation of her words would be invented. What endures is the image of a teacher who kept a space for reasoned inquiry open in a divided city. Communities that protect the freedom to ask hard questions, to examine evidence, and to teach what is uncertain or unpopular are following a principle that her life, as later remembered, dramatizes. The lesson is not that one person's example guarantees safety, but that intellectual freedom depends on people willing to hold it open when it is costly to do so.",
+        "id": "generated-76193ae8faf94f5e9333",
+        "category": "Quotes",
+        "status": "review_failed",
+        "publishedAt": "",
+        "image": "https://raw.githubusercontent.com/jay-ds-labs/mydaycoach-inspirations/main/images/inspire/reflection-030.webp",
+        "reviewStatus": "review_failed",
+        "reviewFailureCode": "UNSUPPORTED_QUOTE",
+        "reviewFailureSummary": "The card's attribution to Socrates Scholasticus and its specific historical claims about Hypatia are unsupported by the supplied sources, which do not contain that account."
+      }
     }
   }
 }
