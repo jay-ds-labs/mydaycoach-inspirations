@@ -43,7 +43,8 @@
       "id": "generated-76193ae8faf94f5e9333",
       "category": "Quotes",
       "state": "review_failed",
-      "reasonCode": "UNSUPPORTED_QUOTE",
+      "reasonCode": "INSUFFICIENT_EVIDENCE",
+      "reason": "The central historical account of Hypatia (her teaching, civic role, and death in Alexandria) is not supported by any supplied source; the only relevant source, Classical antiquity, does not mention her, and the Cyril text is not reported to discuss her.",
       "eligible": false
     },
     {
@@ -124,5 +125,5 @@
       "eligible": false
     }
   ],
-  "recoveredAt": "2026-11-14T13:55:35.883630Z"
+  "recoveredAt": "2026-11-14T13:56:13.182737Z"
 }
