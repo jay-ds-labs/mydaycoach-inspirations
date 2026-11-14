@@ -1339,6 +1339,28 @@
         "The card's source link points only to the Wikipedia page; the excerpts also mention the Book of Healing and the Canon's Latin translations, which could be cited for the claims about lasting use if a fuller source list is desired.",
         "Some excerpt text mentions Avicenna's clinical observations (for example, pulse and carotid sinus observations), but these are presented as details beyond the card's central claim and are not needed for the card to stand."
       ]
+    },
+    {
+      "title": "Fermi's Pile and the Discipline of Stepwise Verification",
+      "body": "In 1942, a team led by Enrico Fermi built Chicago Pile-1 beneath the stands of an unused University of Chicago squash court, achieving the first self-sustaining nuclear chain reaction on December 2. Rather than relying on theory alone, the group raised the reactor's power in measured increments, checking neutron counts and control-rod behavior at each stage before proceeding. The approach shows how ambitious goals can be reached safely by advancing in verified steps.",
+      "attribution": "Enrico Fermi and the Chicago Pile-1 team",
+      "source": "https://en.wikipedia.org/wiki/Enrico_Fermi",
+      "takeaway": "Advance ambitious work in small, measured stages, verifying each one before raising the stakes.",
+      "detail": "Enrico Fermi was an Italian and naturalized-American physicist, widely recognized as the creator of Chicago Pile-1, the world's first artificial nuclear reactor, and as a member of the Manhattan Project. He won the 1938 Nobel Prize in Physics for demonstrations of new radioactive elements produced by neutron irradiation and for his related discovery of nuclear reactions brought about by slow neutrons. He was one of very few physicists who excelled in both theoretical and experimental work, a combination that mattered for a project requiring both sound calculation and careful measurement.\n\nChicago Pile-1 was the physical embodiment of that combination. The reactor was built from graphite and uranium, with cadmium control rods and neutron detectors monitoring its behavior. The team's approach to bringing it toward self-sustaining operation was incremental: control rods were withdrawn in stages, and instrument readings were taken after each adjustment to see whether the neutron population behaved as predicted. A safety rod stood ready to stop the reaction if the measurements departed from expectations. The available record supports these practical steps. It does not provide a direct account of the team's private reasoning, so any broader philosophy must be read as interpretation rather than documented intent.\n\nThe story is useful precisely because of that stepwise structure. Each increase in what was at stake followed a result that had been checked. Calculations were not treated as a substitute for measurement, and the pile was operated in a way that made surprises visible while they could still be controlled.\n\nA hypothetical example shows how the same logic transfers. Suppose a small team is building an internal tool. Rather than deploying it company-wide at once, they might first run it on a single dataset, compare its output against a known answer, and only then extend it to a second team. Each step is small enough to measure, and each yields a result that either supports the next move or exposes a problem while fixing it is still inexpensive.\n\nThe practical takeaway is to advance ambitious work in small, measured stages, verifying each one before raising the stakes. Identify the smallest measurable step that would show whether the approach is working, and commit further resources only after that step has been checked.",
+      "id": "generated-1b3ef94b8ed84442a163",
+      "category": "Stories",
+      "status": "ready_for_publish",
+      "publishedAt": "",
+      "image": "https://raw.githubusercontent.com/jay-ds-labs/mydaycoach-inspirations/main/images/inspire/reflection-013.webp",
+      "reviewStatus": "approved",
+      "reviewFailureCode": "",
+      "reviewFailureSummary": "",
+      "reviewNotes": [
+        "The card says the team raised power 'in measured increments, checking neutron counts and control-rod behavior at each stage.' The article supports staged control-rod withdrawal with readings after each adjustment, so this is adequately grounded.",
+        "The card's claim that the approach 'shows how ambitious goals can be reached safely by advancing in verified steps' is a framed interpretation; consider labeling it as interpretation, since the article notes the record does not document the team's private reasoning.",
+        "The card's statement that the pile was built 'beneath the stands of an unused University of Chicago squash court' is supported by the article (squash court under the stands of Stagg Field), but the word 'unused' is not explicitly stated in the excerpts.",
+        "The card's 'Chicago Pile-1 ... on December 2' is supported. The card's source link points to the Wikipedia Enrico Fermi page, which matches the provided source."
+      ]
     }
   ]
 }
