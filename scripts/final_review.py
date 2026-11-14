@@ -132,8 +132,10 @@ def editorial_review(card, detail, records):
         "count; grounded=true when no material factual/evidence/attribution blocker remains. "
         "Set approved=true when complete and grounded and blockers is empty, even with warnings. "
         "Put minor suggestions in warnings, with issues containing actionable repairs for blockers only. "
-        "Card: " + json.dumps(card, ensure_ascii=False) + "\nArticle:\n" + detail
-        + "\nSource evidence:\n" + evidence_bundle(records), REVIEW_MODEL,
+        "Judge completeness only from ARTICLE_TO_REVIEW, never from the ending of a source excerpt. "
+        "SOURCE_EXCERPTS_START\n" + evidence_bundle(records) + "\nSOURCE_EXCERPTS_END\n"
+        + "Card: " + json.dumps(card, ensure_ascii=False)
+        + "\nARTICLE_TO_REVIEW_START\n" + detail + "\nARTICLE_TO_REVIEW_END", REVIEW_MODEL,
     )
     if type(result.get("approved")) is not bool:
         raise ReviewError("INVALID_REVIEW_OUTPUT", "Reviewer omitted the approval verdict")
@@ -145,6 +147,19 @@ def editorial_review(card, detail, records):
         raise ReviewError("INVALID_REVIEW_OUTPUT","Reviewer omitted valid material blocker details")
     if type(result.get("grounded")) is not bool or type(result.get("complete")) is not bool:
         raise ReviewError("INVALID_REVIEW_OUTPUT","Reviewer omitted completeness or grounding verdict")
+    if not result["complete"] or any(x["code"]=="INCOMPLETE_ARTICLE" for x in blockers):
+        # The live reviewer confused cut-off source excerpts with complete article endings.
+        # Resolve completeness in isolation, with no source excerpts to confuse the decision.
+        ending=request_json("Check only whether this standalone article is complete prose with a "
+            "finished ending. Do not judge style, length, factual sourcing or category. "
+            "A concise standalone article is complete; a cut-off sentence or outline is not. "
+            "Return JSON with boolean complete and a short reason. Article:\n"+detail,REVIEW_MODEL)
+        if type(ending.get("complete")) is not bool:
+            raise ReviewError("INVALID_REVIEW_OUTPUT","Completeness check omitted its verdict")
+        result["complete"]=ending["complete"]
+        if ending["complete"]:
+            blockers[:]=[x for x in blockers if x["code"]!="INCOMPLETE_ARTICLE"]
+            result["warnings"]=list(result.get("warnings",[]))+["An isolated article-only check confirmed the ending is complete."]
     if not result["complete"] and not any(x["code"]=="INCOMPLETE_ARTICLE" for x in blockers):
         blockers.append({"code":"INCOMPLETE_ARTICLE","reason":"The article is unfinished."})
     if not result["grounded"] and not blockers:
