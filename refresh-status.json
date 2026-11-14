@@ -1,6 +1,6 @@
 {
-  "state": "running",
-  "stage": "recovery",
+  "state": "completed",
+  "stage": "done",
   "completed": 15,
   "total": 15,
   "quotes": 5,
@@ -12,7 +12,7 @@
   "needsReview": 0,
   "reviewFailed": 6,
   "startedAt": "2026-11-14T13:02:48.709534Z",
-  "completedAt": null,
+  "completedAt": "2026-11-14T14:00:40.453810Z",
   "error": null,
   "outcomes": [
     {
