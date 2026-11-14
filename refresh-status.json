@@ -8,9 +8,9 @@
   "philosophy": 5,
   "generated": 15,
   "reviewed": 15,
-  "approved": 5,
+  "approved": 6,
   "needsReview": 0,
-  "reviewFailed": 10,
+  "reviewFailed": 9,
   "startedAt": "2026-11-14T13:02:48.709534Z",
   "completedAt": null,
   "error": null,
@@ -89,9 +89,10 @@
     {
       "id": "generated-812b224ac2834b35b6f3",
       "category": "Stories",
-      "state": "review_failed",
-      "reasonCode": "INSUFFICIENT_EVIDENCE",
-      "eligible": false
+      "state": "approved",
+      "reasonCode": "",
+      "reason": "",
+      "eligible": true
     },
     {
       "id": "generated-b82a8fed32914002be6d",
@@ -129,5 +130,5 @@
       "eligible": false
     }
   ],
-  "recoveredAt": "2026-11-14T13:58:02.951460Z"
+  "recoveredAt": "2026-11-14T13:58:30.501285Z"
 }

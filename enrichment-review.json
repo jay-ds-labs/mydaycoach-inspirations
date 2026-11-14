@@ -4820,8 +4820,8 @@
       }
     },
     "generated-812b224ac2834b35b6f3": {
-      "state": "review_failed",
-      "eligible": false,
+      "state": "approved",
+      "eligible": true,
       "generated": true,
       "attempts": [
         {
@@ -4829,21 +4829,30 @@
           "reviewCompleted": true,
           "sourceUrls": [
             "https://www.fourmilab.ch/babbage/sketch.html",
-            "https://en.wikipedia.org/wiki/Women_in_science"
+            "https://en.wikipedia.org/wiki/Ada_Lovelace",
+            "https://en.wikipedia.org/wiki/Consciousness"
           ],
-          "changes": "Removed the unsupported hook about the 'first published algorithm' being a settled consensus and framed it as scholarly assessment; kept title, body and attribution fields intact; expanded the narrative with the Menabrea memoir context and worked example drawn from the source; marked the paraphrase of Lovelace's 'no pretensions to originate' remark as needing verification against the source rather than presenting it as an exact quotation; separated interpretation (program in the modern sense, in",
+          "changes": "Reviewed the existing draft because composition returned no article.",
           "approved": false,
-          "complete": false,
+          "complete": true,
           "grounded": false,
           "feedback": [
-            "The article is an excerpt that ends mid-sentence ('It is thus that we can calculate the succession of') and so is not a coherent full article.",
-            "The card summary claims Lovelace 'argued that the engine could manipulate symbols beyond numbers' and that Note G is 'widely regarded as the first published algorithm'; the article itself flags the latter as a scholarly assessment, and the card presents it as settled fact, which is misleading.",
-            "The card's takeaway ('Careful explanation can reveal possibilities that others have not yet recognised') is a generalisation not directly supported by the source material and drifts from the subject of Note G.",
-            "The article's quotation 'has no pretensions to originate anything' is not verified in the provided source excerpt, which breaks off before Note G; the article itself asks readers to check the wording, but the claim is presented as sourced text.",
-            "The claim that Note G computes Bernoulli numbers via a 'table of operations and variables' and cycling through operations is not visible in the provided source excerpt, so these specifics are unsupported by the evidence supplied.",
-            "The attribution of the article's facts (Menabrea memoir date, Turin, Bibliothèque Universelle de Genève, 1843 publication) is consistent with Source 1, but the Source 2 Wikipedia material is unrelated to the Lovelace subject and provides no evidence for the article's claims.",
-            "The article's closing 'practical takeaway' is an original reflection that is not clearly marked as such, and it extends the historical lesson beyond what the sources establish.",
-            "Editorial quality is uneven: the article mixes an informative historical account with unsupported interpretive claims and does not reach a finished, polished state."
+            "Remove or correct the claim that Lovelace's Note G is 'widely regarded' as the first published algorithm; source 2 says it is 'often called' the first published computer program and notes Babbage's earlier unpublished programs and the controversy over credit, so the card's framing overstates the consensus.",
+            "Revise the card attribution/takeaway so it does not present Lovelace as sole author of the Note G method; source 2 states Babbage prepared the algorithm (or the method was developed with his help) and historians dispute the extent of her contribution.",
+            "Correct the claim that Note G described a method for Bernoulli numbers 'in complete detail' as settled fact; present it as the account the notes give, and note that the program was never tested because the engine was never built.",
+            "Ensure the 'symbols beyond numbers' point is attributed as a historical interpretation (e.g., Doron Swade's reading) rather than a direct Lovelace assertion, or cite the notes' musical-composition passage that source 2 quotes.",
+            "The card attributes Note G to Lovelace as 'the first published algorithm intended for machine execution' and as her method, while source 2 explicitly says Babbage wrote earlier unpublished programs, Babbage claims credit for the Note G algorithm, and the contribution is disputed. The card presents a contested authorship claim as settled."
+          ],
+          "warnings": [
+            "The article's claim that Lovelace stated the engine 'could manipulate symbols beyond numbers' is supported by the translated notes and secondary sources, but the card's phrasing 'seeing beyond calculation' is a framing choice.",
+            "The article discusses a 'passage frequently quoted' about originating ideas without quoting it; this is acceptable as paraphrase but consider naming the passage in the source so readers can locate it.",
+            "The card title and takeaway are reasonable but the takeaway is an interpretive lesson, which is allowed as a practical takeaway."
+          ],
+          "blockers": [
+            {
+              "code": "FALSE_ATTRIBUTION",
+              "reason": "The card attributes Note G to Lovelace as 'the first published algorithm intended for machine execution' and as her method, while source 2 explicitly says Babbage wrote earlier unpublished programs, Babbage claims credit for the Note G algorithm, and the contribution is disputed. The card presents a contested authorship claim as settled."
+            }
           ]
         },
         {
@@ -4851,72 +4860,137 @@
           "reviewCompleted": true,
           "sourceUrls": [
             "https://www.fourmilab.ch/babbage/sketch.html",
-            "https://en.wikipedia.org/wiki/Women_in_science",
-            "https://en.wikipedia.org/wiki/Ada_Lovelace"
+            "https://en.wikipedia.org/wiki/Ada_Lovelace",
+            "https://en.wikipedia.org/wiki/Consciousness"
           ],
           "changes": "",
-          "approved": false,
+          "approved": true,
           "complete": true,
-          "grounded": false,
-          "feedback": [
-            "The card's body states Note G 'described a method for computing Bernoulli numbers' and is 'widely regarded as the first published algorithm intended for machine execution'; the article supports the Bernoulli description but the 'first published algorithm' claim is an external scholarly characterisation not established by the provided source text.",
-            "The card's takeaway ('Careful explanation can reveal possibilities that others have not yet recognised') is an editorial generalisation not directly tied to the attributed notes.",
-            "The article quotes Lovelace's line about the engine having 'no pretensions to originate anything' and paraphrases it; the source excerpt provided is truncated before Note G and does not contain this passage, so the quotation cannot be verified from the supplied evidence.",
-            "Source 1 is cut off after the Difference Engine discussion and never reaches Note G, so claims about Note G's content (Bernoulli procedure, symbol manipulation argument) are not verifiable from the supplied evidence.",
-            "The article claims Menabrea's memoir was in the Bibliothèque Universelle de Genève in October 1842 and that notes were lettered A to G; the source confirms the October 1842 memoir and notes by the translator but the lettering A to G is not visible in the excerpt.",
-            "The article's description of Menabrea's polynomial and convergent-series generalisation is supported by the source, but the article's claim that the Difference Engine was 'only partly built' is attributed to Menabrea's summary only partially; the excerpt says it 'has been in part put together', which is consistent.",
-            "Source 3 (Wikipedia on Lovelace) supports the 'first to recognise' and 'often considered first programmer' framing but the article does not clearly attribute these framings as secondary interpretations in every instance."
-          ]
-        },
+          "grounded": true,
+          "feedback": [],
+          "warnings": [
+            "The card's attribution and body frame Note G as Lovelace's achievement without noting the contested authorship; the article handles this, but the card's 'first published algorithm' phrasing should retain the scholarly-interpretation qualifier.",
+            "The card body says Lovelace 'anticipated later ideas about general-purpose computing'; this is an interpretive claim supported by Source 2 and Doron Swade, so attributing it as historians' reading would be more precise.",
+            "The card's 'argued that the engine could manipulate symbols beyond numbers' is supported by the Note text quoted in Source 2 (musical example), so it is acceptable as paraphrase."
+          ],
+          "blockers": []
+        }
+      ],
+      "completedReviews": 2,
+      "reasonCode": "",
+      "reason": "",
+      "sourceUrls": [
+        "https://www.fourmilab.ch/babbage/sketch.html",
+        "https://en.wikipedia.org/wiki/Ada_Lovelace",
+        "https://en.wikipedia.org/wiki/Consciousness"
+      ],
+      "sourceErrors": [],
+      "warnings": [
+        "The card's attribution and body frame Note G as Lovelace's achievement without noting the contested authorship; the article handles this, but the card's 'first published algorithm' phrasing should retain the scholarly-interpretation qualifier.",
+        "The card body says Lovelace 'anticipated later ideas about general-purpose computing'; this is an interpretive claim supported by Source 2 and Doron Swade, so attributing it as historians' reading would be more precise.",
+        "The card's 'argued that the engine could manipulate symbols beyond numbers' is supported by the Note text quoted in Source 2 (musical example), so it is acceptable as paraphrase."
+      ],
+      "previousAudits": [
         {
-          "attempt": 3,
-          "reviewCompleted": true,
+          "state": "review_failed",
+          "eligible": false,
+          "generated": true,
+          "attempts": [
+            {
+              "attempt": 1,
+              "reviewCompleted": true,
+              "sourceUrls": [
+                "https://www.fourmilab.ch/babbage/sketch.html",
+                "https://en.wikipedia.org/wiki/Women_in_science"
+              ],
+              "changes": "Removed the unsupported hook about the 'first published algorithm' being a settled consensus and framed it as scholarly assessment; kept title, body and attribution fields intact; expanded the narrative with the Menabrea memoir context and worked example drawn from the source; marked the paraphrase of Lovelace's 'no pretensions to originate' remark as needing verification against the source rather than presenting it as an exact quotation; separated interpretation (program in the modern sense, in",
+              "approved": false,
+              "complete": false,
+              "grounded": false,
+              "feedback": [
+                "The article is an excerpt that ends mid-sentence ('It is thus that we can calculate the succession of') and so is not a coherent full article.",
+                "The card summary claims Lovelace 'argued that the engine could manipulate symbols beyond numbers' and that Note G is 'widely regarded as the first published algorithm'; the article itself flags the latter as a scholarly assessment, and the card presents it as settled fact, which is misleading.",
+                "The card's takeaway ('Careful explanation can reveal possibilities that others have not yet recognised') is a generalisation not directly supported by the source material and drifts from the subject of Note G.",
+                "The article's quotation 'has no pretensions to originate anything' is not verified in the provided source excerpt, which breaks off before Note G; the article itself asks readers to check the wording, but the claim is presented as sourced text.",
+                "The claim that Note G computes Bernoulli numbers via a 'table of operations and variables' and cycling through operations is not visible in the provided source excerpt, so these specifics are unsupported by the evidence supplied.",
+                "The attribution of the article's facts (Menabrea memoir date, Turin, Bibliothèque Universelle de Genève, 1843 publication) is consistent with Source 1, but the Source 2 Wikipedia material is unrelated to the Lovelace subject and provides no evidence for the article's claims.",
+                "The article's closing 'practical takeaway' is an original reflection that is not clearly marked as such, and it extends the historical lesson beyond what the sources establish.",
+                "Editorial quality is uneven: the article mixes an informative historical account with unsupported interpretive claims and does not reach a finished, polished state."
+              ]
+            },
+            {
+              "attempt": 2,
+              "reviewCompleted": true,
+              "sourceUrls": [
+                "https://www.fourmilab.ch/babbage/sketch.html",
+                "https://en.wikipedia.org/wiki/Women_in_science",
+                "https://en.wikipedia.org/wiki/Ada_Lovelace"
+              ],
+              "changes": "",
+              "approved": false,
+              "complete": true,
+              "grounded": false,
+              "feedback": [
+                "The card's body states Note G 'described a method for computing Bernoulli numbers' and is 'widely regarded as the first published algorithm intended for machine execution'; the article supports the Bernoulli description but the 'first published algorithm' claim is an external scholarly characterisation not established by the provided source text.",
+                "The card's takeaway ('Careful explanation can reveal possibilities that others have not yet recognised') is an editorial generalisation not directly tied to the attributed notes.",
+                "The article quotes Lovelace's line about the engine having 'no pretensions to originate anything' and paraphrases it; the source excerpt provided is truncated before Note G and does not contain this passage, so the quotation cannot be verified from the supplied evidence.",
+                "Source 1 is cut off after the Difference Engine discussion and never reaches Note G, so claims about Note G's content (Bernoulli procedure, symbol manipulation argument) are not verifiable from the supplied evidence.",
+                "The article claims Menabrea's memoir was in the Bibliothèque Universelle de Genève in October 1842 and that notes were lettered A to G; the source confirms the October 1842 memoir and notes by the translator but the lettering A to G is not visible in the excerpt.",
+                "The article's description of Menabrea's polynomial and convergent-series generalisation is supported by the source, but the article's claim that the Difference Engine was 'only partly built' is attributed to Menabrea's summary only partially; the excerpt says it 'has been in part put together', which is consistent.",
+                "Source 3 (Wikipedia on Lovelace) supports the 'first to recognise' and 'often considered first programmer' framing but the article does not clearly attribute these framings as secondary interpretations in every instance."
+              ]
+            },
+            {
+              "attempt": 3,
+              "reviewCompleted": true,
+              "sourceUrls": [
+                "https://www.fourmilab.ch/babbage/sketch.html",
+                "https://en.wikipedia.org/wiki/Women_in_science",
+                "https://en.wikipedia.org/wiki/Ada_Lovelace"
+              ],
+              "changes": "",
+              "approved": false,
+              "complete": true,
+              "grounded": false,
+              "feedback": [
+                "The card's body states Note G 'described a method for computing Bernoulli numbers' and that Lovelace argued the engine could manipulate symbols beyond numbers; the article supports this, but the card's claim that Note G is 'widely regarded as the first published algorithm intended for machine execution' is presented as settled fact while the article itself describes it as a scholarly interpretation that historians debate.",
+                "The card's takeaway ('Careful explanation can reveal possibilities that others have not yet recognised') is a reasonable reading but is an editorial interpretation not directly stated in the source excerpt, which is fetched Menabrea/Lovelace text without commentary on the reception of Note G.",
+                "The article claims Lovelace distinguished the engine's capacity to carry out instructions from any claim that it could originate ideas, but it explicitly paraphrases without quoting; the source excerpt provided is truncated before Note G, so this claim and the Bernoulli-number and symbol-manipulation claims cannot be verified against the supplied evidence.",
+                "The article's account of Menabrea's worked example (square numbers, first and second differences, dial mechanism) and the Difference Engine background is supported by SOURCE 1, but the article's description of Lovelace's notes as 'building on' this foundation is only partly evidenced in the truncated excerpt.",
+                "The article describes the 1842 memoir as published in the Bibliothèque Universelle de Genève and Lovelace's translation as published in 1843; SOURCE 1 supports both, but the article's statement that the engine 'was never completed' is only partly addressed by the excerpt, which says the Difference Engine was partly built and describes the Analytical Engine as proposed.",
+                "The article mixes the card's claim that Lovelace 'anticipated later ideas about general-purpose computing' with a historical judgement; SOURCE 3 supports Lovelace being recognized for applications beyond calculation, but the framing of her symbol argument's later influence is not sourced in the provided evidence.",
+                "SOURCE 2 (Women in science) is largely unrelated to the subject and provides no support for the article's specific claims about Lovelace; the article does not use it, so no wrong-subject evidence is relied upon, but the evidence base for Note G specifics is thin.",
+                "The card's source URL points to the Fourmilab text, but the card attribution and body are presented as summarising Note G content that the supplied excerpt does not reach; this makes the card summary insufficiently verified."
+              ]
+            }
+          ],
+          "completedReviews": 3,
+          "reasonCode": "INSUFFICIENT_EVIDENCE",
+          "reason": "The supplied source excerpt is truncated before Note G, so the article's specific claims about Bernoulli numbers, Lovelace's symbol-manipulation argument, and her caution about originality cannot be verified against the evidence.",
           "sourceUrls": [
             "https://www.fourmilab.ch/babbage/sketch.html",
             "https://en.wikipedia.org/wiki/Women_in_science",
             "https://en.wikipedia.org/wiki/Ada_Lovelace"
           ],
-          "changes": "",
-          "approved": false,
-          "complete": true,
-          "grounded": false,
-          "feedback": [
-            "The card's body states Note G 'described a method for computing Bernoulli numbers' and that Lovelace argued the engine could manipulate symbols beyond numbers; the article supports this, but the card's claim that Note G is 'widely regarded as the first published algorithm intended for machine execution' is presented as settled fact while the article itself describes it as a scholarly interpretation that historians debate.",
-            "The card's takeaway ('Careful explanation can reveal possibilities that others have not yet recognised') is a reasonable reading but is an editorial interpretation not directly stated in the source excerpt, which is fetched Menabrea/Lovelace text without commentary on the reception of Note G.",
-            "The article claims Lovelace distinguished the engine's capacity to carry out instructions from any claim that it could originate ideas, but it explicitly paraphrases without quoting; the source excerpt provided is truncated before Note G, so this claim and the Bernoulli-number and symbol-manipulation claims cannot be verified against the supplied evidence.",
-            "The article's account of Menabrea's worked example (square numbers, first and second differences, dial mechanism) and the Difference Engine background is supported by SOURCE 1, but the article's description of Lovelace's notes as 'building on' this foundation is only partly evidenced in the truncated excerpt.",
-            "The article describes the 1842 memoir as published in the Bibliothèque Universelle de Genève and Lovelace's translation as published in 1843; SOURCE 1 supports both, but the article's statement that the engine 'was never completed' is only partly addressed by the excerpt, which says the Difference Engine was partly built and describes the Analytical Engine as proposed.",
-            "The article mixes the card's claim that Lovelace 'anticipated later ideas about general-purpose computing' with a historical judgement; SOURCE 3 supports Lovelace being recognized for applications beyond calculation, but the framing of her symbol argument's later influence is not sourced in the provided evidence.",
-            "SOURCE 2 (Women in science) is largely unrelated to the subject and provides no support for the article's specific claims about Lovelace; the article does not use it, so no wrong-subject evidence is relied upon, but the evidence base for Note G specifics is thin.",
-            "The card's source URL points to the Fourmilab text, but the card attribution and body are presented as summarising Note G content that the supplied excerpt does not reach; this makes the card summary insufficiently verified."
-          ]
+          "sourceErrors": [],
+          "finalVersion": {
+            "title": "Ada Lovelace's Note G: Seeing Beyond Calculation",
+            "body": "In 1843 Ada Lovelace published an extended set of notes on Charles Babbage's Analytical Engine, a machine that was designed but never completed. Her Note G described a method for computing Bernoulli numbers and is widely regarded as the first published algorithm intended for machine execution. She also argued that the engine could manipulate symbols beyond numbers, a view that anticipated later ideas about general-purpose computing.",
+            "attribution": "Ada Lovelace, Notes to 'Sketch of the Analytical Engine' by L. F. Menabrea (1843)",
+            "source": "https://www.fourmilab.ch/babbage/sketch.html",
+            "takeaway": "Careful explanation can reveal possibilities that others have not yet recognised in a tool or idea.",
+            "detail": "Review failed [INSUFFICIENT_EVIDENCE]. The supplied source excerpt is truncated before Note G, so the article's specific claims about Bernoulli numbers, Lovelace's symbol-manipulation argument, and her caution about originality cannot be verified against the evidence.\n\nIn October 1842 the Turin military engineer L. F. Menabrea published a memoir in the Bibliothèque Universelle de Genève describing Charles Babbage's proposed Analytical Engine. Menabrea presented the machine as one that could, in principle, carry out not only arithmetic but analytical operations of any kind whose laws are known. Ada Augusta, Countess of Lovelace, translated the memoir into English and appended her own notes, which were published in 1843 and form the basis of her reputation in the history of computing.\n\nThe engine was never completed. Babbage's earlier Difference Engine, which Menabrea summarised as the immediate background to the new design, was itself only partly built. Menabrea explained its principle through a worked example. The square numbers 1, 4, 9, 16, 25 and so on have first differences 3, 5, 7, 9 and so on, and second differences that are constant at 2. Given a starting set of values, a mechanism of dials that advance one another by their registered counts can reproduce the whole series through addition alone. Menabrea generalised the idea to polynomials, whose highest-order differences are constant, and indicated how some infinite series might be handled by convergent approximation. Lovelace's notes build on this foundation and carry the reasoning toward a broader account of what such a machine could be asked to do.\n\nNote G is the part of her work most often discussed in histories of computing. In it she sets out a sequence of operations for calculating Bernoulli numbers, a set of rational numbers that arise in the study of sums of powers and in series expansions. She organised the steps around the engine's operations and the variables they act upon, showing how a repeated cycle would produce successive values. Many historians describe this as an early example of a program in the modern sense, an ordered procedure meant to be executed by a machine rather than by a human computer. That description is a scholarly interpretation, not a term Lovelace herself uses, and historians differ on how much credit belongs to her as opposed to Babbage, whose designs and notation she was explaining. The note is also commonly cited for her argument that the engine could manipulate symbols and not merely numbers, though the exact scope of that argument is itself debated.\n\nLovelace was careful about what the engine could not do. In a passage frequently quoted in discussions of computing, she distinguished the engine's capacity to carry out instructions from any claim that it could originate ideas. Readers who wish to quote this should check the exact wording at the source, since this account paraphrases rather than reproduces the text. Her broader claim about symbols, and its later influence on thinking about general-purpose machines, is a historical judgement rather than something the notes assert about the future.\n\nThe value of Note G lies less in a single technical result than in how a careful written explanation changed what the machine was taken to be. Babbage's engine was celebrated chiefly as a calculator, a faster way of producing tables. By working through a concrete procedure step by step, Lovelace made visible a different possibility: that the same mechanism could follow any well-defined set of rules over many kinds of symbol. For anyone evaluating a tool, the practical lesson is to describe exactly what it would do, one step at a time, since that discipline can expose capabilities and limits that a headline description conceals.",
+            "id": "generated-812b224ac2834b35b6f3",
+            "category": "Stories",
+            "status": "review_failed",
+            "publishedAt": "",
+            "image": "https://raw.githubusercontent.com/jay-ds-labs/mydaycoach-inspirations/main/images/inspire/reflection-013.webp",
+            "reviewStatus": "review_failed",
+            "reviewFailureCode": "INSUFFICIENT_EVIDENCE",
+            "reviewFailureSummary": "The supplied source excerpt is truncated before Note G, so the article's specific claims about Bernoulli numbers, Lovelace's symbol-manipulation argument, and her caution about originality cannot be verified against the evidence."
+          }
         }
-      ],
-      "completedReviews": 3,
-      "reasonCode": "INSUFFICIENT_EVIDENCE",
-      "reason": "The supplied source excerpt is truncated before Note G, so the article's specific claims about Bernoulli numbers, Lovelace's symbol-manipulation argument, and her caution about originality cannot be verified against the evidence.",
-      "sourceUrls": [
-        "https://www.fourmilab.ch/babbage/sketch.html",
-        "https://en.wikipedia.org/wiki/Women_in_science",
-        "https://en.wikipedia.org/wiki/Ada_Lovelace"
-      ],
-      "sourceErrors": [],
-      "finalVersion": {
-        "title": "Ada Lovelace's Note G: Seeing Beyond Calculation",
-        "body": "In 1843 Ada Lovelace published an extended set of notes on Charles Babbage's Analytical Engine, a machine that was designed but never completed. Her Note G described a method for computing Bernoulli numbers and is widely regarded as the first published algorithm intended for machine execution. She also argued that the engine could manipulate symbols beyond numbers, a view that anticipated later ideas about general-purpose computing.",
-        "attribution": "Ada Lovelace, Notes to 'Sketch of the Analytical Engine' by L. F. Menabrea (1843)",
-        "source": "https://www.fourmilab.ch/babbage/sketch.html",
-        "takeaway": "Careful explanation can reveal possibilities that others have not yet recognised in a tool or idea.",
-        "detail": "Review failed [INSUFFICIENT_EVIDENCE]. The supplied source excerpt is truncated before Note G, so the article's specific claims about Bernoulli numbers, Lovelace's symbol-manipulation argument, and her caution about originality cannot be verified against the evidence.\n\nIn October 1842 the Turin military engineer L. F. Menabrea published a memoir in the Bibliothèque Universelle de Genève describing Charles Babbage's proposed Analytical Engine. Menabrea presented the machine as one that could, in principle, carry out not only arithmetic but analytical operations of any kind whose laws are known. Ada Augusta, Countess of Lovelace, translated the memoir into English and appended her own notes, which were published in 1843 and form the basis of her reputation in the history of computing.\n\nThe engine was never completed. Babbage's earlier Difference Engine, which Menabrea summarised as the immediate background to the new design, was itself only partly built. Menabrea explained its principle through a worked example. The square numbers 1, 4, 9, 16, 25 and so on have first differences 3, 5, 7, 9 and so on, and second differences that are constant at 2. Given a starting set of values, a mechanism of dials that advance one another by their registered counts can reproduce the whole series through addition alone. Menabrea generalised the idea to polynomials, whose highest-order differences are constant, and indicated how some infinite series might be handled by convergent approximation. Lovelace's notes build on this foundation and carry the reasoning toward a broader account of what such a machine could be asked to do.\n\nNote G is the part of her work most often discussed in histories of computing. In it she sets out a sequence of operations for calculating Bernoulli numbers, a set of rational numbers that arise in the study of sums of powers and in series expansions. She organised the steps around the engine's operations and the variables they act upon, showing how a repeated cycle would produce successive values. Many historians describe this as an early example of a program in the modern sense, an ordered procedure meant to be executed by a machine rather than by a human computer. That description is a scholarly interpretation, not a term Lovelace herself uses, and historians differ on how much credit belongs to her as opposed to Babbage, whose designs and notation she was explaining. The note is also commonly cited for her argument that the engine could manipulate symbols and not merely numbers, though the exact scope of that argument is itself debated.\n\nLovelace was careful about what the engine could not do. In a passage frequently quoted in discussions of computing, she distinguished the engine's capacity to carry out instructions from any claim that it could originate ideas. Readers who wish to quote this should check the exact wording at the source, since this account paraphrases rather than reproduces the text. Her broader claim about symbols, and its later influence on thinking about general-purpose machines, is a historical judgement rather than something the notes assert about the future.\n\nThe value of Note G lies less in a single technical result than in how a careful written explanation changed what the machine was taken to be. Babbage's engine was celebrated chiefly as a calculator, a faster way of producing tables. By working through a concrete procedure step by step, Lovelace made visible a different possibility: that the same mechanism could follow any well-defined set of rules over many kinds of symbol. For anyone evaluating a tool, the practical lesson is to describe exactly what it would do, one step at a time, since that discipline can expose capabilities and limits that a headline description conceals.",
-        "id": "generated-812b224ac2834b35b6f3",
-        "category": "Stories",
-        "status": "review_failed",
-        "publishedAt": "",
-        "image": "https://raw.githubusercontent.com/jay-ds-labs/mydaycoach-inspirations/main/images/inspire/reflection-013.webp",
-        "reviewStatus": "review_failed",
-        "reviewFailureCode": "INSUFFICIENT_EVIDENCE",
-        "reviewFailureSummary": "The supplied source excerpt is truncated before Note G, so the article's specific claims about Bernoulli numbers, Lovelace's symbol-manipulation argument, and her caution about originality cannot be verified against the evidence."
-      }
+      ]
     },
     "generated-b82a8fed32914002be6d": {
       "state": "review_failed",
