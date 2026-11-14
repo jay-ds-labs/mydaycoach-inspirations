@@ -7,7 +7,7 @@
   "stories": 5,
   "philosophy": 5,
   "generated": 15,
-  "reviewed": 15,
+  "reviewed": 14,
   "approved": 11,
   "needsReview": 0,
   "reviewFailed": 4,
@@ -74,8 +74,8 @@
       "id": "generated-b5ab83f51acb42849191",
       "category": "Stories",
       "state": "review_failed",
-      "reasonCode": "INVALID_REVIEW_OUTPUT",
-      "reason": "Reviewer gave no material reason for a grounding failure",
+      "reasonCode": "INSUFFICIENT_EVIDENCE",
+      "reason": "No usable supporting source was retrieved.",
       "eligible": false
     },
     {
@@ -135,5 +135,5 @@
       "eligible": true
     }
   ],
-  "recoveredAt": "2026-11-14T14:02:55.894309Z"
+  "recoveredAt": "2026-11-14T14:02:57.695677Z"
 }
