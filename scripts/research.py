@@ -4,6 +4,9 @@ import urllib.parse
 import urllib.request
 import re
 import unicodedata
+import urllib.error
+import time
+from functools import lru_cache
 
 API="https://en.wikipedia.org/w/api.php"
 PILOT_QUERIES={"curie-nobel":"Marie Curie Nobel Prize",
@@ -51,10 +54,17 @@ def select_passages(text,query,budget=14000):
         chosen.add(i);used+=len(chunks[i])
     return "\n[excerpt]\n".join(chunks[i] for i in sorted(chosen))
 
+@lru_cache(maxsize=64)
 def get_json(url):
     req=urllib.request.Request(url,headers=HEADERS)
-    with urllib.request.urlopen(req,timeout=20) as response:
-        return json.load(response)
+    for attempt in range(3):
+        try:
+            with urllib.request.urlopen(req,timeout=20) as response:
+                return json.load(response)
+        except urllib.error.HTTPError as error:
+            if error.code not in {429,502,503,504} or attempt==2:raise
+            after=error.headers.get("Retry-After", "") if error.headers else ""
+            time.sleep(min(30,max(int(after) if after.isdecimal() else 0,(5,15)[attempt])))
 
 def specific(url):
     if not url.startswith("https://"):

@@ -65,14 +65,14 @@ def research(item, alternatives):
             records.append({"url": url, "text": content, "title": url})
         elif error:
             errors.append(f"{url} {error}")
-    records=[r for r in records if relevant(r,item)]
     if len(records) < 2:
         extra, lookup_errors = discover(item, "", fetch=evidence)
         records.extend(x for x in extra if x["url"] not in {r["url"] for r in records})
         errors.extend(lookup_errors)
     from research import words
     subject=words(subject_query(item))
-    records=[r for r in records if relevant(r,item)]
+    # Preserve readable supplied sources: patents may use legal/maiden names.
+    # The model checks substantive relevance; token matching only ranks citations.
     records.sort(key=lambda r:len(subject & words(r["title"]+" "+r["url"].replace("_"," "))),reverse=True)
     return records[:4], errors
 

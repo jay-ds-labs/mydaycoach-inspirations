@@ -42,3 +42,15 @@ class ResearchTests(unittest.TestCase):
     def test_story_subject_takes_precedence_over_the_historical_source_author(self):
         from research import subject_query
         self.assertEqual('Hypatia',subject_query({'title':"Hypatia's Lamp: Teaching Reason Under Threat",'attribution':'Socrates Scholasticus, Ecclesiastical History'}))
+
+    @patch('research.time.sleep')
+    @patch('research.urllib.request.urlopen')
+    def test_rate_limit_is_retried_then_cached(self,open_url,sleep):
+        import io,urllib.error
+        from research import get_json
+        get_json.cache_clear()
+        open_url.side_effect=[urllib.error.HTTPError('https://example.org/api',429,'Rate limit',{},None),io.BytesIO(b'{"ok":true}')]
+        self.assertEqual({'ok':True},get_json('https://example.org/api'))
+        self.assertEqual({'ok':True},get_json('https://example.org/api'))
+        self.assertEqual(2,open_url.call_count);sleep.assert_called_once()
+        get_json.cache_clear()

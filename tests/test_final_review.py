@@ -67,3 +67,11 @@ class FinalReviewTests(unittest.TestCase):
         item={**CARD,'title':"Hypatia's Lamp",'attribution':'Socrates Scholasticus','source':'https://example.org/general-history'}
         records,_=research(item,[])
         self.assertEqual('https://en.wikipedia.org/wiki/Hypatia',records[0]['url'])
+
+    @patch('final_review.evidence',return_value=('Inventors Hedy Kiesler Markey and George Antheil describe a secret communication system.', ''))
+    @patch('final_review.discover',return_value=([],['Wikipedia HTTP 429']))
+    def test_readable_patent_survives_name_alias_and_failed_fallback(self,discover,evidence):
+        from final_review import research
+        item={**CARD,'title':'Hedy Lamarr and frequency hopping','attribution':'Hedy Lamarr','source':'https://patents.google.com/patent/US2292387A/en'}
+        records,_=research(item,[])
+        self.assertEqual(item['source'],records[0]['url'])
