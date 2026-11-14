@@ -28,14 +28,16 @@ def persist():
         subprocess.run(["git", "commit", "-m", "Record reviewed inspiration refresh progress"], check=True, cwd=ROOT)
         subprocess.run(["git", "push", "origin", "HEAD:main"], check=True, cwd=ROOT)
 
-def generate(category, existing):
+def _generate(category, existing):
     entry = request_json(
         f"Create ONE original, historically accurate, distinct {category} inspiration. "
         "Return JSON with title, body, attribution, "
         "source, takeaway, and detail. Body is a short summary; detail is an initial draft. "
         "Choose a well-documented subject and a specific credible HTTPS source page. "
         "Use an exact quotation only with reliable attribution, or choose a different subject. "
-        "Do not invent events, quotes or links. Avoid repeating these titles: "
+        "Do not invent events, quotes or links. For Quotes choose an actual verifiable quotation, "
+        "not a biography mislabeled as a quote. Takeaway is our reflection, not words attributed "
+        "to the subject. All required fields must be nonempty strings. Avoid repeating these titles: "
         + json.dumps(existing[-150:], ensure_ascii=False)
     )
     required = ("title", "body", "attribution", "source", "takeaway")
@@ -46,9 +48,17 @@ def generate(category, existing):
     if entry["title"].strip().casefold() in {x.strip().casefold() for x in existing}:
         raise ReviewError("DUPLICATE_CARD", "Generated title already exists")
     return {**{k: entry[k].strip() for k in required},
-            "detail": str(entry.get("detail") or "")[:11500],
+            "detail": str(entry.get("detail") or ""),
             "id": "generated-" + uuid.uuid4().hex[:20], "category": category,
             "status": "draft", "publishedAt": "", "image": ART_ROOT + CATEGORY_ART[category]}
+
+def generate(category,existing):
+    for attempt in range(3):
+        try:
+            return _generate(category,existing)
+        except ReviewError as error:
+            if error.code not in {"INVALID_CARD","INVALID_MODEL_OUTPUT","DUPLICATE_CARD","INSUFFICIENT_EVIDENCE"} or attempt==2:
+                raise
 
 def main():
     library = json.loads(FEED.read_text(encoding="utf-8"))
@@ -107,3 +117,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
