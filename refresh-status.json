@@ -1,124 +1,18 @@
 {
-  "state": "completed",
-  "stage": "done",
-  "completed": 15,
+  "state": "running",
+  "stage": "generation",
+  "completed": 0,
   "total": 15,
-  "quotes": 5,
-  "stories": 5,
-  "philosophy": 5,
-  "generated": 15,
-  "reviewed": 15,
-  "approved": 8,
+  "quotes": 0,
+  "stories": 0,
+  "philosophy": 0,
+  "generated": 0,
+  "reviewed": 0,
+  "approved": 0,
   "needsReview": 0,
-  "reviewFailed": 7,
-  "startedAt": "2026-11-10T06:08:52.589909Z",
-  "completedAt": "2026-11-10T06:15:05.145432Z",
+  "reviewFailed": 0,
+  "startedAt": "2026-11-14T13:02:48.709534Z",
+  "completedAt": null,
   "error": null,
-  "outcomes": [
-    {
-      "id": "generated-f4597b9212f34d308eed",
-      "category": "Quotes",
-      "state": "review_failed",
-      "reasonCode": "INSUFFICIENT_EVIDENCE",
-      "eligible": false
-    },
-    {
-      "id": "generated-e8a8e7528b8e426098c8",
-      "category": "Quotes",
-      "state": "review_failed",
-      "reasonCode": "INSUFFICIENT_EVIDENCE",
-      "eligible": false
-    },
-    {
-      "id": "generated-ab8ececeb41d4f13b8fe",
-      "category": "Quotes",
-      "state": "approved",
-      "reasonCode": "",
-      "eligible": true
-    },
-    {
-      "id": "generated-ae416d128e5049f68ea7",
-      "category": "Quotes",
-      "state": "approved",
-      "reasonCode": "",
-      "eligible": true
-    },
-    {
-      "id": "generated-0047f451621d4c2ea202",
-      "category": "Quotes",
-      "state": "review_failed",
-      "reasonCode": "INSUFFICIENT_EVIDENCE",
-      "eligible": false
-    },
-    {
-      "id": "generated-e786e78d9baf4d0fb614",
-      "category": "Stories",
-      "state": "review_failed",
-      "reasonCode": "INSUFFICIENT_EVIDENCE",
-      "eligible": false
-    },
-    {
-      "id": "generated-81374e8fc00846d48b42",
-      "category": "Stories",
-      "state": "review_failed",
-      "reasonCode": "UNSUPPORTED_QUOTE",
-      "eligible": false
-    },
-    {
-      "id": "generated-74202d6dc22045dc8419",
-      "category": "Stories",
-      "state": "approved",
-      "reasonCode": "",
-      "eligible": true
-    },
-    {
-      "id": "generated-a83bb3ecc6cd4220aa6a",
-      "category": "Stories",
-      "state": "review_failed",
-      "reasonCode": "INSUFFICIENT_EVIDENCE",
-      "eligible": false
-    },
-    {
-      "id": "generated-28f3200d7bd0412fa229",
-      "category": "Stories",
-      "state": "approved",
-      "reasonCode": "",
-      "eligible": true
-    },
-    {
-      "id": "generated-64d253d2c0434724bd3d",
-      "category": "Philosophy",
-      "state": "approved",
-      "reasonCode": "",
-      "eligible": true
-    },
-    {
-      "id": "generated-3b9246112bbc4680927c",
-      "category": "Philosophy",
-      "state": "approved",
-      "reasonCode": "",
-      "eligible": true
-    },
-    {
-      "id": "generated-0094e2c44d0a417cb46b",
-      "category": "Philosophy",
-      "state": "approved",
-      "reasonCode": "",
-      "eligible": true
-    },
-    {
-      "id": "generated-b324d6e01e644525a228",
-      "category": "Philosophy",
-      "state": "approved",
-      "reasonCode": "",
-      "eligible": true
-    },
-    {
-      "id": "generated-b048d86b9d3346bf9be4",
-      "category": "Philosophy",
-      "state": "review_failed",
-      "reasonCode": "INSUFFICIENT_EVIDENCE",
-      "eligible": false
-    }
-  ]
+  "outcomes": []
 }
