@@ -5357,8 +5357,8 @@
       }
     },
     "generated-6e3be8720d384068b48a": {
-      "state": "review_failed",
-      "eligible": false,
+      "state": "approved",
+      "eligible": true,
       "generated": true,
       "attempts": [
         {
@@ -5366,79 +5366,120 @@
           "reviewCompleted": true,
           "sourceUrls": [
             "https://plato.stanford.edu/entries/heraclitus/",
-            "https://en.wikipedia.org/wiki/Ionian_school_%28philosophy%29"
+            "https://en.wikipedia.org/wiki/Heraclitus"
           ],
-          "changes": "Reviewed the existing draft because composition returned no article.",
-          "approved": false,
-          "complete": false,
+          "changes": "Replaced the card's unsupported chronology of his dates with the active-period framing (c. 500 BCE) supported by the source, while keeping the attribution field as supplied. Replaced the unsupported claim that 'the central insight remains widely studied' with a concrete account of the interpretive debate. Labeled the river image as a summary/paraphrase of doctrine rather than verbatim wording, and presented the competing textual readings (Arius Didymus's version versus Plato's stronger claim). A",
+          "approved": true,
+          "complete": true,
           "grounded": true,
-          "feedback": [
-            "The article is a fragment that stops mid-sentence ('at the mercy of one's'), so it is not a coherent full article.",
-            "The card summary claims the river image captures identity persisting through change, but the article itself states the river image is a paraphrase not securely attested, and the card does not flag this uncertainty.",
-            "The card's 'fire as basic material' and 'universal flux' framing is not developed in the provided article text, so the card's takeaway is not supported by the article shown.",
-            "The card's dates (c. 500 BCE for activity) are consistent with the source, but the card attributes 'c. 535–475 BCE' birth/death dates that are not stated in the provided source excerpt."
-          ]
-        },
-        {
-          "attempt": 2,
-          "reviewCompleted": true,
-          "sourceUrls": [
-            "https://plato.stanford.edu/entries/heraclitus/",
-            "https://en.wikipedia.org/wiki/Ionian_school_%28philosophy%29"
+          "feedback": [],
+          "warnings": [
+            "The card's 'c. 535–475 BCE' attribution dates for Heraclitus are not supported by the provided sources, which give only 'fl. c. 500 BC' and 'around 500 BCE'; consider aligning the attribution with the sources.",
+            "The card states 'stepping into the same river twice' as a traditional quotation; the article correctly notes the three surviving forms differ, so the card could more precisely say the river image is a traditional summary rather than a single secure quotation.",
+            "The card's 'the central insight remains widely studied' is fine, but the card body omits the article's key point that the Stanford source treats the single securely attested river fragment (B12) as pointing to stability through change, which the takeaway reflects well."
           ],
-          "changes": "",
-          "approved": false,
-          "complete": false,
-          "grounded": true,
-          "feedback": [
-            "The article is a coherent full piece, but the card's takeaway and body are a loose summary that is largely supported by the sources; however, the article is an editorial article rather than the card body, so completeness is not the issue here.",
-            "The card says 'Heraclitus of Ephesus, writing around 500 BCE' and the attribution gives c. 535–475 BCE; the article and SEP source say active around 500 BCE, so the card's dating is consistent, but the card does not reflect that the river image is a paraphrase rather than a verified quotation, which the article correctly flags.",
-            "The card body presents the river image as something Heraclitus 'captured' without noting it is a reported paraphrase, which is a minor misleading framing relative to the article's caution."
-          ]
-        },
-        {
-          "attempt": 3,
-          "reviewCompleted": true,
-          "sourceUrls": [
-            "https://plato.stanford.edu/entries/heraclitus/",
-            "https://en.wikipedia.org/wiki/Ionian_school_%28philosophy%29"
-          ],
-          "changes": "",
-          "approved": false,
-          "complete": false,
-          "grounded": true,
-          "feedback": [
-            "The article is a substantive, coherent piece of prose and is faithful to the source evidence on Heraclitus, so grounding is not the problem.",
-            "The article is cut off mid-sentence at the end (\"at the mercy of one's\"), so it is not a complete, coherent full article.",
-            "The card's body and takeaway are a brief summary and do not match the full article's scope, but the card itself is grounded in the source.",
-            "The Stanford source is cited for 'famous' river image as a paraphrase; the article correctly flags this, which is appropriate."
-          ]
+          "blockers": []
         }
       ],
-      "completedReviews": 3,
-      "reasonCode": "EDITORIAL_QUALITY_FAILED",
-      "reason": "The article is truncated mid-sentence and therefore is not a complete, coherent full article.",
+      "completedReviews": 1,
+      "reasonCode": "",
+      "reason": "",
       "sourceUrls": [
         "https://plato.stanford.edu/entries/heraclitus/",
-        "https://en.wikipedia.org/wiki/Ionian_school_%28philosophy%29"
+        "https://en.wikipedia.org/wiki/Heraclitus"
       ],
       "sourceErrors": [],
-      "finalVersion": {
-        "title": "Heraclitus and the River: Change as the Ground of Stability",
-        "body": "Heraclitus of Ephesus, writing around 500 BCE, held that the world is in constant flux, and that what looks like stability is an ongoing balance of opposing processes. His famous image of stepping into the same river twice captured the idea that identity persists through change rather than in spite of it. The fragments that survive are brief and aphoristic, so later readers have debated their precise meaning, but the central insight remains widely studied.",
-        "attribution": "Heraclitus of Ephesus (c. 535–475 BCE), pre-Socratic philosopher",
-        "source": "https://plato.stanford.edu/entries/heraclitus/",
-        "takeaway": "Stability is not the absence of change; it is the pattern that persists through it.",
-        "detail": "Review failed [EDITORIAL_QUALITY_FAILED]. The article is truncated mid-sentence and therefore is not a complete, coherent full article.\n\nHeraclitus of Ephesus was a Greek philosopher active around 500 BCE in Ephesus, a prominent city of Ionia on the coast of Asia Minor, a region whose Greek-speaking communities were under Persian rule during his lifetime. Little is known with certainty about his life. Most of the surviving stories about him, including reports that he resigned a ceremonial kingship to his brother and that he deposited a single book in the temple of Artemis at Ephesus, appear to be later anecdotes shaped by what readers thought his writings revealed about his character. Ancient authors also suggest he favored aristocratic rather than democratic government, though even this rests on inference from his remarks on politics.\n\nWhat survives of his thought comes almost entirely from fragments quoted by later writers such as Plato, Aristotle, Hippolytus, and Diogenes Laertius. Over one hundred fragments are preserved, and they are brief, aphoristic, and often elliptical. Theophrastus reportedly found the book seemingly half-finished, and modern scholars still disagree about whether it was a continuous argument or a collection of sayings. This matters for the most famous image associated with him, the claim that one cannot step into the same river twice. That image is usually reported as a paraphrase of his thought rather than a securely attested verbatim quotation, so it is best read as a summary of a doctrine rather than as his exact wording.\n\nThe doctrine the image is meant to convey is that things are in constant change, a view often called universal flux, while certain patterns persist. Heraclitus also emphasized the unity of opposites, the idea that apparent opposites such as day and night are bound together in a single process. On this reading, stability is not a static condition free of change but an ongoing balance of opposing processes. Fire is sometimes cited as a basic image of this constant transformation, though the ancient evidence for fire as a material principle is itself debated, and interpreters differ on how literally to take it.\n\nHeraclitus also differed from many predecessors in method and emphasis. Instead of focusing narrowly on the physical stuff of the cosmos as the Milesian thinkers Thales, Anaximander, and Anaximenes did, he turned attention toward human understanding, language, and the gap between what people experience and what they grasp. He criticized the mere accumulation of information, and he frequently wrote in a compressed style rich in wordplay, alliteration, and ambiguity. Aristotle noticed the ambiguity of some of his sentences and regarded it as a flaw, while later readers have come to see it as a deliberate literary technique.\n\nInterpreting Heraclitus remains difficult. Scholars have described him as a material monist, a process philosopher, a cosmologist, a metaphysician, and a religious thinker, and have debated whether he rejected the law of non-contradiction. Charles Kahn's detailed studies of his language and doctrines remain influential, and the Stanford Encyclopedia of Philosophy entry on Heraclitus offers a helpful starting point for the surviving textual evidence and the interpretive debates. The lasting interest of his work lies in its insistence that change and order are not opposites, and that understanding the world requires attention to the patterns that hold through transformation.",
-        "id": "generated-6e3be8720d384068b48a",
-        "category": "Philosophy",
-        "status": "review_failed",
-        "publishedAt": "",
-        "image": "https://raw.githubusercontent.com/jay-ds-labs/mydaycoach-inspirations/main/images/inspire/reflection-001.webp",
-        "reviewStatus": "review_failed",
-        "reviewFailureCode": "EDITORIAL_QUALITY_FAILED",
-        "reviewFailureSummary": "The article is truncated mid-sentence and therefore is not a complete, coherent full article."
-      }
+      "warnings": [
+        "The card's 'c. 535–475 BCE' attribution dates for Heraclitus are not supported by the provided sources, which give only 'fl. c. 500 BC' and 'around 500 BCE'; consider aligning the attribution with the sources.",
+        "The card states 'stepping into the same river twice' as a traditional quotation; the article correctly notes the three surviving forms differ, so the card could more precisely say the river image is a traditional summary rather than a single secure quotation.",
+        "The card's 'the central insight remains widely studied' is fine, but the card body omits the article's key point that the Stanford source treats the single securely attested river fragment (B12) as pointing to stability through change, which the takeaway reflects well."
+      ],
+      "previousAudits": [
+        {
+          "state": "review_failed",
+          "eligible": false,
+          "generated": true,
+          "attempts": [
+            {
+              "attempt": 1,
+              "reviewCompleted": true,
+              "sourceUrls": [
+                "https://plato.stanford.edu/entries/heraclitus/",
+                "https://en.wikipedia.org/wiki/Ionian_school_%28philosophy%29"
+              ],
+              "changes": "Reviewed the existing draft because composition returned no article.",
+              "approved": false,
+              "complete": false,
+              "grounded": true,
+              "feedback": [
+                "The article is a fragment that stops mid-sentence ('at the mercy of one's'), so it is not a coherent full article.",
+                "The card summary claims the river image captures identity persisting through change, but the article itself states the river image is a paraphrase not securely attested, and the card does not flag this uncertainty.",
+                "The card's 'fire as basic material' and 'universal flux' framing is not developed in the provided article text, so the card's takeaway is not supported by the article shown.",
+                "The card's dates (c. 500 BCE for activity) are consistent with the source, but the card attributes 'c. 535–475 BCE' birth/death dates that are not stated in the provided source excerpt."
+              ]
+            },
+            {
+              "attempt": 2,
+              "reviewCompleted": true,
+              "sourceUrls": [
+                "https://plato.stanford.edu/entries/heraclitus/",
+                "https://en.wikipedia.org/wiki/Ionian_school_%28philosophy%29"
+              ],
+              "changes": "",
+              "approved": false,
+              "complete": false,
+              "grounded": true,
+              "feedback": [
+                "The article is a coherent full piece, but the card's takeaway and body are a loose summary that is largely supported by the sources; however, the article is an editorial article rather than the card body, so completeness is not the issue here.",
+                "The card says 'Heraclitus of Ephesus, writing around 500 BCE' and the attribution gives c. 535–475 BCE; the article and SEP source say active around 500 BCE, so the card's dating is consistent, but the card does not reflect that the river image is a paraphrase rather than a verified quotation, which the article correctly flags.",
+                "The card body presents the river image as something Heraclitus 'captured' without noting it is a reported paraphrase, which is a minor misleading framing relative to the article's caution."
+              ]
+            },
+            {
+              "attempt": 3,
+              "reviewCompleted": true,
+              "sourceUrls": [
+                "https://plato.stanford.edu/entries/heraclitus/",
+                "https://en.wikipedia.org/wiki/Ionian_school_%28philosophy%29"
+              ],
+              "changes": "",
+              "approved": false,
+              "complete": false,
+              "grounded": true,
+              "feedback": [
+                "The article is a substantive, coherent piece of prose and is faithful to the source evidence on Heraclitus, so grounding is not the problem.",
+                "The article is cut off mid-sentence at the end (\"at the mercy of one's\"), so it is not a complete, coherent full article.",
+                "The card's body and takeaway are a brief summary and do not match the full article's scope, but the card itself is grounded in the source.",
+                "The Stanford source is cited for 'famous' river image as a paraphrase; the article correctly flags this, which is appropriate."
+              ]
+            }
+          ],
+          "completedReviews": 3,
+          "reasonCode": "EDITORIAL_QUALITY_FAILED",
+          "reason": "The article is truncated mid-sentence and therefore is not a complete, coherent full article.",
+          "sourceUrls": [
+            "https://plato.stanford.edu/entries/heraclitus/",
+            "https://en.wikipedia.org/wiki/Ionian_school_%28philosophy%29"
+          ],
+          "sourceErrors": [],
+          "finalVersion": {
+            "title": "Heraclitus and the River: Change as the Ground of Stability",
+            "body": "Heraclitus of Ephesus, writing around 500 BCE, held that the world is in constant flux, and that what looks like stability is an ongoing balance of opposing processes. His famous image of stepping into the same river twice captured the idea that identity persists through change rather than in spite of it. The fragments that survive are brief and aphoristic, so later readers have debated their precise meaning, but the central insight remains widely studied.",
+            "attribution": "Heraclitus of Ephesus (c. 535–475 BCE), pre-Socratic philosopher",
+            "source": "https://plato.stanford.edu/entries/heraclitus/",
+            "takeaway": "Stability is not the absence of change; it is the pattern that persists through it.",
+            "detail": "Review failed [EDITORIAL_QUALITY_FAILED]. The article is truncated mid-sentence and therefore is not a complete, coherent full article.\n\nHeraclitus of Ephesus was a Greek philosopher active around 500 BCE in Ephesus, a prominent city of Ionia on the coast of Asia Minor, a region whose Greek-speaking communities were under Persian rule during his lifetime. Little is known with certainty about his life. Most of the surviving stories about him, including reports that he resigned a ceremonial kingship to his brother and that he deposited a single book in the temple of Artemis at Ephesus, appear to be later anecdotes shaped by what readers thought his writings revealed about his character. Ancient authors also suggest he favored aristocratic rather than democratic government, though even this rests on inference from his remarks on politics.\n\nWhat survives of his thought comes almost entirely from fragments quoted by later writers such as Plato, Aristotle, Hippolytus, and Diogenes Laertius. Over one hundred fragments are preserved, and they are brief, aphoristic, and often elliptical. Theophrastus reportedly found the book seemingly half-finished, and modern scholars still disagree about whether it was a continuous argument or a collection of sayings. This matters for the most famous image associated with him, the claim that one cannot step into the same river twice. That image is usually reported as a paraphrase of his thought rather than a securely attested verbatim quotation, so it is best read as a summary of a doctrine rather than as his exact wording.\n\nThe doctrine the image is meant to convey is that things are in constant change, a view often called universal flux, while certain patterns persist. Heraclitus also emphasized the unity of opposites, the idea that apparent opposites such as day and night are bound together in a single process. On this reading, stability is not a static condition free of change but an ongoing balance of opposing processes. Fire is sometimes cited as a basic image of this constant transformation, though the ancient evidence for fire as a material principle is itself debated, and interpreters differ on how literally to take it.\n\nHeraclitus also differed from many predecessors in method and emphasis. Instead of focusing narrowly on the physical stuff of the cosmos as the Milesian thinkers Thales, Anaximander, and Anaximenes did, he turned attention toward human understanding, language, and the gap between what people experience and what they grasp. He criticized the mere accumulation of information, and he frequently wrote in a compressed style rich in wordplay, alliteration, and ambiguity. Aristotle noticed the ambiguity of some of his sentences and regarded it as a flaw, while later readers have come to see it as a deliberate literary technique.\n\nInterpreting Heraclitus remains difficult. Scholars have described him as a material monist, a process philosopher, a cosmologist, a metaphysician, and a religious thinker, and have debated whether he rejected the law of non-contradiction. Charles Kahn's detailed studies of his language and doctrines remain influential, and the Stanford Encyclopedia of Philosophy entry on Heraclitus offers a helpful starting point for the surviving textual evidence and the interpretive debates. The lasting interest of his work lies in its insistence that change and order are not opposites, and that understanding the world requires attention to the patterns that hold through transformation.",
+            "id": "generated-6e3be8720d384068b48a",
+            "category": "Philosophy",
+            "status": "review_failed",
+            "publishedAt": "",
+            "image": "https://raw.githubusercontent.com/jay-ds-labs/mydaycoach-inspirations/main/images/inspire/reflection-001.webp",
+            "reviewStatus": "review_failed",
+            "reviewFailureCode": "EDITORIAL_QUALITY_FAILED",
+            "reviewFailureSummary": "The article is truncated mid-sentence and therefore is not a complete, coherent full article."
+          }
+        }
+      ]
     },
     "generated-301d38f650914c6d826d": {
       "state": "review_failed",
