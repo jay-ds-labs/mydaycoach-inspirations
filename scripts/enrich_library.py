@@ -59,7 +59,7 @@ def persist(message):
 def model_json(prompt,model):
     return haiku_json(prompt, model=model)
 
-def evidence(url):
+def evidence(url, query=""):
     if not url.startswith("https://"):
         return "", "No HTTPS source"
     try:
@@ -68,13 +68,14 @@ def evidence(url):
             typ=resp.headers.get("Content-Type","").lower()
             if "text/html" not in typ and "text/plain" not in typ:
                 return "", "Source not accessible as text"
-            raw=resp.read(350000).decode("utf-8","replace")
+            raw=resp.read(1500000).decode("utf-8","replace")
         raw=re.sub(r"(?is)<(script|style|nav|footer|header)[^>]*>.*?</\1>"," ",raw)
         raw=re.sub(r"(?s)<[^>]+>"," ",raw)
         clean=html.unescape(re.sub(r"\s+"," ",raw)).strip()
         if len(clean)<350:
             return "", "Source has insufficient readable evidence"
-        return clean[:14000], ""
+        from research import select_passages
+        return select_passages(clean,query or url.replace("_"," ").replace("-"," ")), ""
     except Exception as error:
         return "", "Source retrieval failed: "+str(error)[:140]
 
