@@ -1317,6 +1317,28 @@
         "Source 1 says Frank 'was concerned with the technical side' and Lillian with 'the human element', which the article reports accurately as ASME's characterization.",
         "The article says ASME records her 'first woman elected to the National Academy of Engineering'; Source 1 supports this, so no factual error is present."
       ]
+    },
+    {
+      "title": "Ibn Sina and the Discipline of Self-Correction: Medicine Written as a Living Text",
+      "body": "Ibn Sina (Avicenna, c. 980–1037) assembled the vast medical encyclopedia known as The Canon of Medicine, which became a standard reference in European and Islamic medical education for centuries. Its enduring lesson is that careful synthesis, honest reporting of observed cases, and willingness to refine received doctrine together make knowledge useful beyond a single lifetime.",
+      "attribution": "Ibn Sina (Avicenna), physician and philosopher",
+      "source": "https://en.wikipedia.org/wiki/Avicenna",
+      "takeaway": "Lasting knowledge is built by organizing evidence carefully and revising it when observation demands.",
+      "detail": "Ibn Sina, known in the West as Avicenna, lived from about 980 to 1037 in the Islamic world of the late tenth and early eleventh centuries, a period often called the Islamic Golden Age. He moved among the courts of various Iranian rulers, and his intellectual range was exceptional. Alongside philosophy and medicine, his writings took in astronomy, alchemy, geography and geology, psychology, theology, logic, mathematics, physics, and poetry. He wrote most of his philosophical and scientific works in Arabic, though he also composed important texts in Persian. His philosophy belonged to the Peripatetic tradition derived from Aristotle, and he is regarded as one of its foremost proponents within the Muslim world.\n\nHis medical achievement is the work for which he is most widely remembered in the history of medicine. The Canon of Medicine is a large encyclopedia organizing the medical knowledge of its time into a systematic whole. It became a standard medical text at many medieval European universities and remained in use as late as 1650, a span of several centuries that testifies to its durability. Its value to later readers lay less in any single claim than in its structure: it gathered a broad body of material and arranged it so that students and practitioners could find, compare, and apply it.\n\nSeen against the wider history of thought, the Canon belongs to a long effort to organize medical knowledge that stretched back through many earlier traditions. Ancient and classical sources, the wider Islamic scholarly world, and other inherited bodies of learning all fed into the way medicine was taught and written. An encyclopedia of this kind depends on careful synthesis, on deciding which inherited statements to keep, and on presenting them in an order that serves a reader who must act on them. The discipline lies in that act of gathering and ordering, which allowed a complex field to be studied as one coherent subject rather than as scattered fragments.\n\nIt is worth being precise about what the surviving evidence can and cannot establish. The record confirms the scope of Ibn Sina's writings, the Canon's role as a standard reference, and its long period of use in medical education. Claims about the specific methods by which he tested inherited doctrine against his own clinical observations, or about particular corrections he made to authorities, go beyond what the sources summarized here directly demonstrate. A responsible reading therefore credits him with building a durable and well-organized body of medical knowledge, without attributing to him a detailed method that the evidence does not fully document.\n\nThe lasting lesson of the Canon is, in that sense, about the value of careful organization. Knowledge that is gathered widely, arranged with care, and kept accessible to those who come after can outlive its author by centuries. Ibn Sina's encyclopedia shows how a text can shape the education of physicians across generations, and how the patient work of synthesis can make inherited learning useful far beyond the lifetime of the person who assembled it.",
+      "id": "generated-cbee751f7f494285a63c",
+      "category": "Quotes",
+      "status": "ready_for_publish",
+      "publishedAt": "",
+      "image": "https://raw.githubusercontent.com/jay-ds-labs/mydaycoach-inspirations/main/images/inspire/reflection-030.webp",
+      "reviewStatus": "approved",
+      "reviewFailureCode": "",
+      "reviewFailureSummary": "",
+      "reviewNotes": [
+        "The card's takeaway says lasting knowledge is 'built by organizing evidence carefully and revising it when observation demands'; the article itself notes the sources do not document specific revisions by Ibn Sina, so the card's 'revising' emphasis could be softened to match the article's framing of organization as the core lesson.",
+        "The card's body says 'honest reporting of observed cases', which the sources do not directly document; consider aligning the body with the article's more cautious claim about structure and organization.",
+        "The card's source link points only to the Wikipedia page; the excerpts also mention the Book of Healing and the Canon's Latin translations, which could be cited for the claims about lasting use if a fuller source list is desired.",
+        "Some excerpt text mentions Avicenna's clinical observations (for example, pulse and carotid sinus observations), but these are presented as details beyond the card's central claim and are not needed for the card to stand."
+      ]
     }
   ]
 }

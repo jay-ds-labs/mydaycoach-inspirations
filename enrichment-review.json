@@ -4310,9 +4310,9 @@
       }
     },
     "generated-cbee751f7f494285a63c": {
-      "state": "review_failed",
-      "eligible": false,
-      "generated": true,
+      "state": "approved",
+      "eligible": true,
+      "generated": false,
       "attempts": [
         {
           "attempt": 1,
@@ -4321,81 +4321,122 @@
             "https://en.wikipedia.org/wiki/Avicenna"
           ],
           "changes": "Reviewed the existing draft because composition returned no article.",
-          "approved": false,
-          "complete": false,
-          "grounded": true,
-          "feedback": [
-            "The article is a single short paragraph and reads as a summary or outline rather than a coherent full article.",
-            "The article claims Ibn Sina 'records clinical experience and critical judgment about existing authorities' and that the work teaches a model of testing sources 'against practice'; the source excerpt supports only that the Canon became a standard text, not these specific methodological claims, though the card's framing is an interpretive gloss.",
-            "The card's attribution and takeaway ('willingness to refine received doctrine') are interpretive and not directly evidenced by the supplied source excerpt, which is truncated before any discussion of his method."
-          ]
-        },
-        {
-          "attempt": 2,
-          "reviewCompleted": true,
-          "sourceUrls": [
-            "https://en.wikipedia.org/wiki/Avicenna",
-            "https://en.wikipedia.org/wiki/Timeline_of_psychology"
-          ],
-          "changes": "",
-          "approved": false,
+          "approved": true,
           "complete": true,
-          "grounded": false,
-          "feedback": [
-            "The card's body and takeaway claim the Canon's lasting value rests on 'honest reporting of observed cases' and 'willingness to refine received doctrine,' which the source evidence does not document.",
-            "The card's attribution and framing center a 'discipline of self-correction' theme that the cited Wikipedia source does not support; the source describes the Canon's standing and use, not Ibn Sina's correction method.",
-            "The article itself acknowledges that the evidence does not establish his method of testing doctrine against clinical observation, yet the card presents self-correction as the defining lesson, creating a mismatch between card and article.",
-            "The card's source link points only to the Avicenna Wikipedia page, while the second evidence source (Timeline of psychology) is unrelated to Ibn Sina and does not support the article's content.",
-            "The article's claims about the Canon's organizing structure and its synthesis of ancient and Islamic sources go beyond what the provided source excerpt states, though they are broadly reasonable framing rather than fabricated facts."
-          ]
-        },
+          "grounded": true,
+          "feedback": [],
+          "warnings": [
+            "The card's takeaway says lasting knowledge is 'built by organizing evidence carefully and revising it when observation demands'; the article itself notes the sources do not document specific revisions by Ibn Sina, so the card's 'revising' emphasis could be softened to match the article's framing of organization as the core lesson.",
+            "The card's body says 'honest reporting of observed cases', which the sources do not directly document; consider aligning the body with the article's more cautious claim about structure and organization.",
+            "The card's source link points only to the Wikipedia page; the excerpts also mention the Book of Healing and the Canon's Latin translations, which could be cited for the claims about lasting use if a fuller source list is desired.",
+            "Some excerpt text mentions Avicenna's clinical observations (for example, pulse and carotid sinus observations), but these are presented as details beyond the card's central claim and are not needed for the card to stand."
+          ],
+          "blockers": []
+        }
+      ],
+      "completedReviews": 1,
+      "reasonCode": "",
+      "reason": "",
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Avicenna"
+      ],
+      "sourceErrors": [],
+      "warnings": [
+        "The card's takeaway says lasting knowledge is 'built by organizing evidence carefully and revising it when observation demands'; the article itself notes the sources do not document specific revisions by Ibn Sina, so the card's 'revising' emphasis could be softened to match the article's framing of organization as the core lesson.",
+        "The card's body says 'honest reporting of observed cases', which the sources do not directly document; consider aligning the body with the article's more cautious claim about structure and organization.",
+        "The card's source link points only to the Wikipedia page; the excerpts also mention the Book of Healing and the Canon's Latin translations, which could be cited for the claims about lasting use if a fuller source list is desired.",
+        "Some excerpt text mentions Avicenna's clinical observations (for example, pulse and carotid sinus observations), but these are presented as details beyond the card's central claim and are not needed for the card to stand."
+      ],
+      "previousAudits": [
         {
-          "attempt": 3,
-          "reviewCompleted": true,
+          "state": "review_failed",
+          "eligible": false,
+          "generated": true,
+          "attempts": [
+            {
+              "attempt": 1,
+              "reviewCompleted": true,
+              "sourceUrls": [
+                "https://en.wikipedia.org/wiki/Avicenna"
+              ],
+              "changes": "Reviewed the existing draft because composition returned no article.",
+              "approved": false,
+              "complete": false,
+              "grounded": true,
+              "feedback": [
+                "The article is a single short paragraph and reads as a summary or outline rather than a coherent full article.",
+                "The article claims Ibn Sina 'records clinical experience and critical judgment about existing authorities' and that the work teaches a model of testing sources 'against practice'; the source excerpt supports only that the Canon became a standard text, not these specific methodological claims, though the card's framing is an interpretive gloss.",
+                "The card's attribution and takeaway ('willingness to refine received doctrine') are interpretive and not directly evidenced by the supplied source excerpt, which is truncated before any discussion of his method."
+              ]
+            },
+            {
+              "attempt": 2,
+              "reviewCompleted": true,
+              "sourceUrls": [
+                "https://en.wikipedia.org/wiki/Avicenna",
+                "https://en.wikipedia.org/wiki/Timeline_of_psychology"
+              ],
+              "changes": "",
+              "approved": false,
+              "complete": true,
+              "grounded": false,
+              "feedback": [
+                "The card's body and takeaway claim the Canon's lasting value rests on 'honest reporting of observed cases' and 'willingness to refine received doctrine,' which the source evidence does not document.",
+                "The card's attribution and framing center a 'discipline of self-correction' theme that the cited Wikipedia source does not support; the source describes the Canon's standing and use, not Ibn Sina's correction method.",
+                "The article itself acknowledges that the evidence does not establish his method of testing doctrine against clinical observation, yet the card presents self-correction as the defining lesson, creating a mismatch between card and article.",
+                "The card's source link points only to the Avicenna Wikipedia page, while the second evidence source (Timeline of psychology) is unrelated to Ibn Sina and does not support the article's content.",
+                "The article's claims about the Canon's organizing structure and its synthesis of ancient and Islamic sources go beyond what the provided source excerpt states, though they are broadly reasonable framing rather than fabricated facts."
+              ]
+            },
+            {
+              "attempt": 3,
+              "reviewCompleted": true,
+              "sourceUrls": [
+                "https://en.wikipedia.org/wiki/Avicenna",
+                "https://en.wikipedia.org/wiki/Timeline_of_psychology",
+                "https://en.wikipedia.org/wiki/History_of_medicine"
+              ],
+              "changes": "",
+              "approved": false,
+              "complete": true,
+              "grounded": false,
+              "feedback": [
+                "The card's takeaway and body attribute to Ibn Sina a method of 'honest reporting of observed cases' and 'willingness to refine received doctrine,' which the source does not document; the article itself concedes these specific methods are not demonstrated.",
+                "The article's closing lesson about 'honest reporting' and self-correction is editorially framed as the card's title theme ('Discipline of Self-Correction'), which is not supported by the cited source.",
+                "The article's claim that the Canon was used 'as late as 1650' and became standard at European universities is supported, but the card's framing of 'careful synthesis, honest reporting... and willingness to refine' blends supported and unsupported elements into one lesson.",
+                "The article draws on Ancient and Islamic traditions and 'the wider Islamic scholarly world' without evidence in the provided sources beyond a generic history-of-medicine overview."
+              ]
+            }
+          ],
+          "completedReviews": 3,
+          "reasonCode": "UNSUPPORTED_QUOTE",
+          "reason": "The card and article attribute to Ibn Sina a documented practice of honest observation and self-correction that the cited evidence does not establish, making the central thesis misleadingly grounded.",
           "sourceUrls": [
             "https://en.wikipedia.org/wiki/Avicenna",
             "https://en.wikipedia.org/wiki/Timeline_of_psychology",
             "https://en.wikipedia.org/wiki/History_of_medicine"
           ],
-          "changes": "",
-          "approved": false,
-          "complete": true,
-          "grounded": false,
-          "feedback": [
-            "The card's takeaway and body attribute to Ibn Sina a method of 'honest reporting of observed cases' and 'willingness to refine received doctrine,' which the source does not document; the article itself concedes these specific methods are not demonstrated.",
-            "The article's closing lesson about 'honest reporting' and self-correction is editorially framed as the card's title theme ('Discipline of Self-Correction'), which is not supported by the cited source.",
-            "The article's claim that the Canon was used 'as late as 1650' and became standard at European universities is supported, but the card's framing of 'careful synthesis, honest reporting... and willingness to refine' blends supported and unsupported elements into one lesson.",
-            "The article draws on Ancient and Islamic traditions and 'the wider Islamic scholarly world' without evidence in the provided sources beyond a generic history-of-medicine overview."
-          ]
+          "sourceErrors": [
+            "https://www.britannica.com/biography/Avicenna Source retrieval failed: HTTP Error 403: Forbidden"
+          ],
+          "finalVersion": {
+            "title": "Ibn Sina and the Discipline of Self-Correction: Medicine Written as a Living Text",
+            "body": "Ibn Sina (Avicenna, c. 980–1037) assembled the vast medical encyclopedia known as The Canon of Medicine, which became a standard reference in European and Islamic medical education for centuries. Its enduring lesson is that careful synthesis, honest reporting of observed cases, and willingness to refine received doctrine together make knowledge useful beyond a single lifetime.",
+            "attribution": "Ibn Sina (Avicenna), physician and philosopher",
+            "source": "https://en.wikipedia.org/wiki/Avicenna",
+            "takeaway": "Lasting knowledge is built by organizing evidence carefully and revising it when observation demands.",
+            "detail": "Review failed [UNSUPPORTED_QUOTE]. The card and article attribute to Ibn Sina a documented practice of honest observation and self-correction that the cited evidence does not establish, making the central thesis misleadingly grounded.\n\nIbn Sina, known in the West as Avicenna, lived from about 980 to 1037 in the Islamic world of the late tenth and early eleventh centuries, a period often called the Islamic Golden Age. He moved among the courts of various Iranian rulers, and his intellectual range was exceptional. Alongside philosophy and medicine, his writings took in astronomy, alchemy, geography and geology, psychology, theology, logic, mathematics, physics, and poetry. He wrote most of his philosophical and scientific works in Arabic, though he also composed important texts in Persian. His philosophy belonged to the Peripatetic tradition derived from Aristotle, and he is regarded as one of its foremost proponents within the Muslim world.\n\nHis medical achievement is the work for which he is most widely remembered in the history of medicine. The Canon of Medicine is a large encyclopedia organizing the medical knowledge of its time into a systematic whole. It became a standard medical text at many medieval European universities and remained in use as late as 1650, a span of several centuries that testifies to its durability. Its value to later readers lay less in any single claim than in its structure: it gathered a broad body of material and arranged it so that students and practitioners could find, compare, and apply it.\n\nSeen against the wider history of thought, the Canon belongs to a long effort to organize medical knowledge that stretched back through many earlier traditions. Ancient and classical sources, the wider Islamic scholarly world, and other inherited bodies of learning all fed into the way medicine was taught and written. An encyclopedia of this kind depends on careful synthesis, on deciding which inherited statements to keep, and on presenting them in an order that serves a reader who must act on them. The discipline lies in that act of gathering and ordering, which allowed a complex field to be studied as one coherent subject rather than as scattered fragments.\n\nIt is worth being precise about what the surviving evidence can and cannot establish. The record confirms the scope of Ibn Sina's writings, the Canon's role as a standard reference, and its long period of use in medical education. Claims about the specific methods by which he tested inherited doctrine against his own clinical observations, or about particular corrections he made to authorities, go beyond what the sources summarized here directly demonstrate. A responsible reading therefore credits him with building a durable and well-organized body of medical knowledge, without attributing to him a detailed method that the evidence does not fully document.\n\nThe lasting lesson of the Canon is, in that sense, about the value of careful organization. Knowledge that is gathered widely, arranged with care, and kept accessible to those who come after can outlive its author by centuries. Ibn Sina's encyclopedia shows how a text can shape the education of physicians across generations, and how the patient work of synthesis can make inherited learning useful far beyond the lifetime of the person who assembled it.",
+            "id": "generated-cbee751f7f494285a63c",
+            "category": "Quotes",
+            "status": "review_failed",
+            "publishedAt": "",
+            "image": "https://raw.githubusercontent.com/jay-ds-labs/mydaycoach-inspirations/main/images/inspire/reflection-030.webp",
+            "reviewStatus": "review_failed",
+            "reviewFailureCode": "UNSUPPORTED_QUOTE",
+            "reviewFailureSummary": "The card and article attribute to Ibn Sina a documented practice of honest observation and self-correction that the cited evidence does not establish, making the central thesis misleadingly grounded."
+          }
         }
-      ],
-      "completedReviews": 3,
-      "reasonCode": "UNSUPPORTED_QUOTE",
-      "reason": "The card and article attribute to Ibn Sina a documented practice of honest observation and self-correction that the cited evidence does not establish, making the central thesis misleadingly grounded.",
-      "sourceUrls": [
-        "https://en.wikipedia.org/wiki/Avicenna",
-        "https://en.wikipedia.org/wiki/Timeline_of_psychology",
-        "https://en.wikipedia.org/wiki/History_of_medicine"
-      ],
-      "sourceErrors": [
-        "https://www.britannica.com/biography/Avicenna Source retrieval failed: HTTP Error 403: Forbidden"
-      ],
-      "finalVersion": {
-        "title": "Ibn Sina and the Discipline of Self-Correction: Medicine Written as a Living Text",
-        "body": "Ibn Sina (Avicenna, c. 980–1037) assembled the vast medical encyclopedia known as The Canon of Medicine, which became a standard reference in European and Islamic medical education for centuries. Its enduring lesson is that careful synthesis, honest reporting of observed cases, and willingness to refine received doctrine together make knowledge useful beyond a single lifetime.",
-        "attribution": "Ibn Sina (Avicenna), physician and philosopher",
-        "source": "https://en.wikipedia.org/wiki/Avicenna",
-        "takeaway": "Lasting knowledge is built by organizing evidence carefully and revising it when observation demands.",
-        "detail": "Review failed [UNSUPPORTED_QUOTE]. The card and article attribute to Ibn Sina a documented practice of honest observation and self-correction that the cited evidence does not establish, making the central thesis misleadingly grounded.\n\nIbn Sina, known in the West as Avicenna, lived from about 980 to 1037 in the Islamic world of the late tenth and early eleventh centuries, a period often called the Islamic Golden Age. He moved among the courts of various Iranian rulers, and his intellectual range was exceptional. Alongside philosophy and medicine, his writings took in astronomy, alchemy, geography and geology, psychology, theology, logic, mathematics, physics, and poetry. He wrote most of his philosophical and scientific works in Arabic, though he also composed important texts in Persian. His philosophy belonged to the Peripatetic tradition derived from Aristotle, and he is regarded as one of its foremost proponents within the Muslim world.\n\nHis medical achievement is the work for which he is most widely remembered in the history of medicine. The Canon of Medicine is a large encyclopedia organizing the medical knowledge of its time into a systematic whole. It became a standard medical text at many medieval European universities and remained in use as late as 1650, a span of several centuries that testifies to its durability. Its value to later readers lay less in any single claim than in its structure: it gathered a broad body of material and arranged it so that students and practitioners could find, compare, and apply it.\n\nSeen against the wider history of thought, the Canon belongs to a long effort to organize medical knowledge that stretched back through many earlier traditions. Ancient and classical sources, the wider Islamic scholarly world, and other inherited bodies of learning all fed into the way medicine was taught and written. An encyclopedia of this kind depends on careful synthesis, on deciding which inherited statements to keep, and on presenting them in an order that serves a reader who must act on them. The discipline lies in that act of gathering and ordering, which allowed a complex field to be studied as one coherent subject rather than as scattered fragments.\n\nIt is worth being precise about what the surviving evidence can and cannot establish. The record confirms the scope of Ibn Sina's writings, the Canon's role as a standard reference, and its long period of use in medical education. Claims about the specific methods by which he tested inherited doctrine against his own clinical observations, or about particular corrections he made to authorities, go beyond what the sources summarized here directly demonstrate. A responsible reading therefore credits him with building a durable and well-organized body of medical knowledge, without attributing to him a detailed method that the evidence does not fully document.\n\nThe lasting lesson of the Canon is, in that sense, about the value of careful organization. Knowledge that is gathered widely, arranged with care, and kept accessible to those who come after can outlive its author by centuries. Ibn Sina's encyclopedia shows how a text can shape the education of physicians across generations, and how the patient work of synthesis can make inherited learning useful far beyond the lifetime of the person who assembled it.",
-        "id": "generated-cbee751f7f494285a63c",
-        "category": "Quotes",
-        "status": "review_failed",
-        "publishedAt": "",
-        "image": "https://raw.githubusercontent.com/jay-ds-labs/mydaycoach-inspirations/main/images/inspire/reflection-030.webp",
-        "reviewStatus": "review_failed",
-        "reviewFailureCode": "UNSUPPORTED_QUOTE",
-        "reviewFailureSummary": "The card and article attribute to Ibn Sina a documented practice of honest observation and self-correction that the cited evidence does not establish, making the central thesis misleadingly grounded."
-      }
+      ]
     },
     "generated-1b3ef94b8ed84442a163": {
       "state": "review_failed",
