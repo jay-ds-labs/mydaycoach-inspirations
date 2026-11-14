@@ -7,10 +7,10 @@
   "stories": 5,
   "philosophy": 5,
   "generated": 15,
-  "reviewed": 14,
-  "approved": 14,
+  "reviewed": 15,
+  "approved": 15,
   "needsReview": 0,
-  "reviewFailed": 1,
+  "reviewFailed": 0,
   "startedAt": "2026-11-14T13:02:48.709534Z",
   "completedAt": null,
   "error": null,
@@ -81,10 +81,10 @@
     {
       "id": "generated-e0fa33b4832f4df184f0",
       "category": "Stories",
-      "state": "review_failed",
-      "reasonCode": "INSUFFICIENT_EVIDENCE",
-      "reason": "No usable supporting source was retrieved.",
-      "eligible": false
+      "state": "approved",
+      "reasonCode": "",
+      "reason": "",
+      "eligible": true
     },
     {
       "id": "generated-812b224ac2834b35b6f3",
@@ -135,5 +135,5 @@
       "eligible": true
     }
   ],
-  "recoveredAt": "2026-11-14T14:05:59.062177Z"
+  "recoveredAt": "2026-11-14T14:06:11.976147Z"
 }

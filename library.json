@@ -1550,6 +1550,29 @@
         "If the full card is intended for review, submit its complete body text in ARTICLE_TO_REVIEW.",
         "An isolated article-only check confirmed the ending is complete."
       ]
+    },
+    {
+      "title": "Hedy Lamarr, George Antheil, and the Frequency-Hopping Patent",
+      "body": "In 1942, actress Hedy Lamarr and composer George Antheil patented a frequency-hopping communication system designed to make radio-guided torpedoes harder to jam by switching frequencies in a coordinated pattern. The patent was granted in 1942 and the idea was largely overlooked by the military at the time, but its underlying principle later became influential in spread-spectrum communications. Their story shows how a practical solution can come from someone whose expertise others did not expect.",
+      "attribution": "Hedy Lamarr and George Antheil, U.S. Patent 2,292,387 (1942)",
+      "source": "https://en.wikipedia.org/wiki/Hedy_Lamarr",
+      "takeaway": "A useful idea can outlast its first setting: the patent was set aside during the war, yet its core principle later shaped wireless systems, so it is worth keeping good ideas on file and revisiting them as technology changes. (Our reflection, not a quotation from the inventors.)",
+      "detail": "Historical account of the 1941 application and 1942 U.S. patent 2,292,387 by Hedy Kiesler Markey (Hedy Lamarr) and George Antheil for a frequency-hopping secret communication system intended for radio control of torpedoes; covers the patent's stated problem, the player-piano roll mechanism, the Navy's rejection, the 1962 operational use, and later recognition.",
+      "id": "generated-e0fa33b4832f4df184f0",
+      "category": "Stories",
+      "status": "ready_for_publish",
+      "publishedAt": "",
+      "image": "https://raw.githubusercontent.com/jay-ds-labs/mydaycoach-inspirations/main/images/inspire/reflection-013.webp",
+      "reviewStatus": "approved",
+      "reviewFailureCode": "",
+      "reviewFailureSummary": "",
+      "reviewNotes": [
+        "The card's body and takeaway are the material to be reviewed in practice; the card itself is not the ARTICLE_TO_REVIEW, so completeness is judged from the article text only.",
+        "Sources support the 1941 filing and 1942 patent grant, so the central historical account is grounded; the article should preserve the 1941 application date alongside the 1942 grant.",
+        "Source 1 says the 1962 operational use came well after the war and three years after the patent expired; the article should state this accurately if included.",
+        "The source says the Navy rejected the invention as too large for a torpedo; include this as the source's account rather than a cause the sources do not establish.",
+        "An isolated article-only check confirmed the ending is complete."
+      ]
     }
   ]
 }
