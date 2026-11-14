@@ -4240,16 +4240,18 @@
           "attempt": 1,
           "reviewCompleted": true,
           "sourceUrls": [
-            "https://en.wikipedia.org/wiki/Hypatia"
+            "https://en.wikipedia.org/wiki/Hypatia",
+            "https://en.wikipedia.org/wiki/Timeline_of_women_in_science"
           ],
-          "changes": "Replaced the unsupported claim in the card and draft that Hypatia's teaching and counsel were documented in Socrates Scholasticus's account (which the supplied evidence does not contain) with claims supported by the Hypatia article: her Neoplatonism, her teaching of Plato and Aristotle, her Diophantus commentary, her Christian students, and her advisory role to Orestes. Attributed the death narrative to Socrates Scholasticus as a paraphrase, noted that the killers are not named, and removed the ",
+          "changes": "Rewrote the full article so the central historical account is supported by the supplied Wikipedia excerpts on Hypatia, which cover her teaching, Synesius, the Socrates Scholasticus account, and the later reception. Removed the unsupported attribution to a Socrates Scholasticus Book VII source and the New Advent and Cyril citations, since the previous review found they did not contain the claimed material. Added the Theon connection, the Arithmetica and Almagest commentary context, the parabalani",
           "approved": true,
           "complete": true,
           "grounded": true,
           "feedback": [],
           "warnings": [
-            "The card body contains substantial material (Alexandria's intellectual context, Arithmetica commentary, Saint Catherine legend) that the ARTICLE_TO_REVIEW does not carry; the reviewed article is a short standalone summary, so the card and article differ in scope and should be aligned before publication.",
-            "The reviewed article states she was 'remembered through accounts written largely after her lifetime' and that 'the specific claims about her death remain disputed.' Sources support both points (Socrates Scholasticus, Damascius, and Suda accounts are later; Cameron and Watts dispute the Belenkiy hypothesis and scholars differ on the murderers), so these are acceptable, though the article could name a source for the dispute."
+            "The article's claim that Socrates Scholasticus was a near contemporary is supported by the source's description of him as a contemporary; consider stating this directly with its source attribution.",
+            "The article says the parabalani's later edict was an 'imperial edict limiting the parabalani'; the source attributes the edict to Honorius and Theodosius II, which could be named for precision.",
+            "The article's phrase 'Hypatia is generally placed there in the late fourth and early fifth centuries CE' is reasonable, but the source gives a range (c. 350–370 birth, death 415), so a brief note of the 415 death date would strengthen the timeline."
           ],
           "blockers": []
         }
@@ -4258,14 +4260,14 @@
       "reasonCode": "",
       "reason": "",
       "sourceUrls": [
-        "https://en.wikipedia.org/wiki/Hypatia"
+        "https://en.wikipedia.org/wiki/Hypatia",
+        "https://en.wikipedia.org/wiki/Timeline_of_women_in_science"
       ],
-      "sourceErrors": [
-        "Wikipedia lookup failed: HTTP Error 429: Too Many Requests"
-      ],
+      "sourceErrors": [],
       "warnings": [
-        "The card body contains substantial material (Alexandria's intellectual context, Arithmetica commentary, Saint Catherine legend) that the ARTICLE_TO_REVIEW does not carry; the reviewed article is a short standalone summary, so the card and article differ in scope and should be aligned before publication.",
-        "The reviewed article states she was 'remembered through accounts written largely after her lifetime' and that 'the specific claims about her death remain disputed.' Sources support both points (Socrates Scholasticus, Damascius, and Suda accounts are later; Cameron and Watts dispute the Belenkiy hypothesis and scholars differ on the murderers), so these are acceptable, though the article could name a source for the dispute."
+        "The article's claim that Socrates Scholasticus was a near contemporary is supported by the source's description of him as a contemporary; consider stating this directly with its source attribution.",
+        "The article says the parabalani's later edict was an 'imperial edict limiting the parabalani'; the source attributes the edict to Honorius and Theodosius II, which could be named for precision.",
+        "The article's phrase 'Hypatia is generally placed there in the late fourth and early fifth centuries CE' is reasonable, but the source gives a range (c. 350–370 birth, death 415), so a brief note of the 415 death date would strengthen the timeline."
       ],
       "previousAudits": [
         {
@@ -4474,28 +4476,65 @@
               "The card's 'Cyril of Alexandria' text is referenced but not supplied as evidence; the article correctly notes this."
             ]
           }
+        },
+        {
+          "state": "approved",
+          "eligible": true,
+          "generated": true,
+          "attempts": [
+            {
+              "attempt": 1,
+              "reviewCompleted": true,
+              "sourceUrls": [
+                "https://en.wikipedia.org/wiki/Hypatia"
+              ],
+              "changes": "Replaced the unsupported claim in the card and draft that Hypatia's teaching and counsel were documented in Socrates Scholasticus's account (which the supplied evidence does not contain) with claims supported by the Hypatia article: her Neoplatonism, her teaching of Plato and Aristotle, her Diophantus commentary, her Christian students, and her advisory role to Orestes. Attributed the death narrative to Socrates Scholasticus as a paraphrase, noted that the killers are not named, and removed the ",
+              "approved": true,
+              "complete": true,
+              "grounded": true,
+              "feedback": [],
+              "warnings": [
+                "The card body contains substantial material (Alexandria's intellectual context, Arithmetica commentary, Saint Catherine legend) that the ARTICLE_TO_REVIEW does not carry; the reviewed article is a short standalone summary, so the card and article differ in scope and should be aligned before publication.",
+                "The reviewed article states she was 'remembered through accounts written largely after her lifetime' and that 'the specific claims about her death remain disputed.' Sources support both points (Socrates Scholasticus, Damascius, and Suda accounts are later; Cameron and Watts dispute the Belenkiy hypothesis and scholars differ on the murderers), so these are acceptable, though the article could name a source for the dispute."
+              ],
+              "blockers": []
+            }
+          ],
+          "completedReviews": 1,
+          "reasonCode": "",
+          "reason": "",
+          "sourceUrls": [
+            "https://en.wikipedia.org/wiki/Hypatia"
+          ],
+          "sourceErrors": [
+            "Wikipedia lookup failed: HTTP Error 429: Too Many Requests"
+          ],
+          "warnings": [
+            "The card body contains substantial material (Alexandria's intellectual context, Arithmetica commentary, Saint Catherine legend) that the ARTICLE_TO_REVIEW does not carry; the reviewed article is a short standalone summary, so the card and article differ in scope and should be aligned before publication.",
+            "The reviewed article states she was 'remembered through accounts written largely after her lifetime' and that 'the specific claims about her death remain disputed.' Sources support both points (Socrates Scholasticus, Damascius, and Suda accounts are later; Cameron and Watts dispute the Belenkiy hypothesis and scholars differ on the murderers), so these are acceptable, though the article could name a source for the dispute."
+          ],
+          "finalVersion": {
+            "title": "Hypatia's Lamp: Teaching Reason Under Threat",
+            "body": "Hypatia of Alexandria is remembered as one of the first women in the ancient world to earn a public reputation as a mathematician and philosopher. The city where she worked, Alexandria, was then a major city of the Roman Empire and a crossroads of Greek, Roman, Jewish, and Christian intellectual life. Its libraries, schools, and scholars drew students and teachers from across the Mediterranean. Hypatia is generally placed there in the late fourth and early fifth centuries CE, with her birth date still debated among scholars, some of whom place it around 370 and others who think it should be left unspecified.\n\nWhat can be said with reasonable confidence about her work is that she was a Neoplatonist who taught philosophy, astronomy, and mathematics. Like her father Theon, she followed the more moderate Neoplatonism associated with Plotinus rather than the more overtly pagan religious version associated with Iamblichus. Ancient sources describe her lecturing on Plato and Aristotle and giving public talks around the city. Her role as a commentator is also documented in later scholarship: she is credited with a commentary on Diophantus's Arithmetica, a work that set out more than one hundred mathematical problems solved with algebraic methods. Her commentary survives in part, embedded in later texts, and modern scholars differ on how much of the surviving material can be attributed to her. She is not known to have published independent works of philosophy, and she does not appear to have made groundbreaking discoveries. Her contribution was largely that of a teacher who preserved and explained important classical texts.\n\nHer students included Christians as well as pagans. Among the best documented is Synesius of Cyrene, who later became a bishop and continued to write to her. Those letters are among the main sources for her career. Her reputation as an inspiring teacher was, according to these sources, widely shared among both pagans and Christians in the city.\n\nThe later accounts of her death are another matter, and they must be handled with care. The Christian historian Socrates Scholasticus, writing in his Ecclesiastical History, reports that she was killed amid political rivalry in Alexandria. He suggests that she had frequent interviews with the Roman prefect Orestes, and that rumors spread among Christians that she was preventing a reconciliation between Orestes and the bishop. He also condemns the violence of the crowd. Scholars note that Socrates never explicitly names the killers, and historians have differing views on who they were. The traditional narrative is thus best understood as a set of claims shaped by writers with their own purposes, not as a fully settled account.\n\nHer death nonetheless became a lasting symbol. Writers across centuries retold her story, and later traditions even linked her to the legend of Saint Catherine of Alexandria. Enlightenment and modern writers have used her as an emblem of reason threatened by violence and intolerance. For that reason, it is more accurate to say that her fate came to represent the dangers facing scholars in volatile times than to treat every detail of the traditional story as proven.\n\nNo verifiable quotation from Hypatia survives, so this article offers none. What remains is the picture of a teacher who kept a space for reasoned inquiry open in a divided city. Our reflection is that the value of her example lies less in any single anecdote than in the principle it suggests: intellectual freedom depends on people willing to keep questions open, examine evidence carefully, and teach what is uncertain or unpopular, even when doing so carries cost. Communities that protect that freedom are honoring something that her life, as later remembered, dramatizes.",
+            "attribution": "Traditional later accounts of Hypatia, including those attributed to Socrates Scholasticus (Ecclesiastical History, Book VII), cited as the origin of the traditional claims about her death; the wording here is paraphrased rather than quoted.",
+            "source": "https://en.wikipedia.org/wiki/Hypatia",
+            "takeaway": "In our reflection, a community that protects honest inquiry, including unpopular questions and openly acknowledged uncertainty, keeps its shared learning alive even when that protection is costly.",
+            "detail": "Review failed [UNSUPPORTED_QUOTE]. The card's attribution to Socrates Scholasticus and its specific historical claims about Hypatia are unsupported by the supplied sources, which do not contain that account.\n\nHypatia of Alexandria is remembered as one of the earliest women in the ancient world to earn a public reputation as a mathematician and philosopher. She is generally placed in Alexandria in the late fourth and early fifth centuries CE, a city then renowned for its libraries, scholars, and schools of learning. Her later reputation rests largely on accounts written by others, most prominently the Christian historian Socrates Scholasticus, whose Ecclesiastical History, Book VII, is the source the card names for her teaching, public standing, and violent death. The attribution needs care, however. The source material supplied for this review does not contain that account. The New Advent page cited on the card reproduces Jerome's Apology Against Rufinus, not Socrates Scholasticus, and the other supplied text concerns Cyril of Alexandria, a later Alexandrian patriarch who does not mention Hypatia. The specific details of her lectures, her students, her civic counsel, and her death in 415 CE therefore cannot be confirmed from the evidence in hand. They are reported in the later tradition, and this article presents them as such rather than as established fact.\n\nWhat the traditional accounts emphasize is her role as a teacher. She is described as lecturing on astronomy, mathematics, and the Neoplatonic philosophy then influential in Alexandria, and as drawing students from the city and from farther afield. Such instruction required technical skill and a willingness to engage openly with questions that scholars of different traditions debated. The accounts further suggest that civic figures sought her counsel, though the nature and extent of that role is likewise known only through later writers.\n\nThe events of her death are reported in connection with religious and political conflict in Alexandria, and the tensions between rival authorities and communities in that period are well documented. The details of who acted, why, and with what authorization are contested, and the story was retold by later writers for varied purposes, including Christian, pagan, and Enlightenment ones. It is therefore more accurate to say that her death became a lasting symbol of the dangers facing scholars in volatile times than to treat every detail of the traditional narrative as settled.\n\nNo verifiable quotation from Hypatia survives, so any presentation of her words would be invented. What endures is the image of a teacher who kept a space for reasoned inquiry open in a divided city. Communities that protect the freedom to ask hard questions, to examine evidence, and to teach what is uncertain or unpopular are following a principle that her life, as later remembered, dramatizes. The lesson is not that one person's example guarantees safety, but that intellectual freedom depends on people willing to hold it open when it is costly to do so.",
+            "id": "generated-76193ae8faf94f5e9333",
+            "category": "Quotes",
+            "status": "ready_for_publish",
+            "publishedAt": "",
+            "image": "https://raw.githubusercontent.com/jay-ds-labs/mydaycoach-inspirations/main/images/inspire/reflection-030.webp",
+            "reviewStatus": "approved",
+            "reviewFailureCode": "",
+            "reviewFailureSummary": "",
+            "reviewNotes": [
+              "The card body contains substantial material (Alexandria's intellectual context, Arithmetica commentary, Saint Catherine legend) that the ARTICLE_TO_REVIEW does not carry; the reviewed article is a short standalone summary, so the card and article differ in scope and should be aligned before publication.",
+              "The reviewed article states she was 'remembered through accounts written largely after her lifetime' and that 'the specific claims about her death remain disputed.' Sources support both points (Socrates Scholasticus, Damascius, and Suda accounts are later; Cameron and Watts dispute the Belenkiy hypothesis and scholars differ on the murderers), so these are acceptable, though the article could name a source for the dispute."
+            ]
+          }
         }
-      ],
-      "finalVersion": {
-        "title": "Hypatia's Lamp: Teaching Reason Under Threat",
-        "body": "Hypatia of Alexandria is remembered as one of the first women in the ancient world to earn a public reputation as a mathematician and philosopher. The city where she worked, Alexandria, was then a major city of the Roman Empire and a crossroads of Greek, Roman, Jewish, and Christian intellectual life. Its libraries, schools, and scholars drew students and teachers from across the Mediterranean. Hypatia is generally placed there in the late fourth and early fifth centuries CE, with her birth date still debated among scholars, some of whom place it around 370 and others who think it should be left unspecified.\n\nWhat can be said with reasonable confidence about her work is that she was a Neoplatonist who taught philosophy, astronomy, and mathematics. Like her father Theon, she followed the more moderate Neoplatonism associated with Plotinus rather than the more overtly pagan religious version associated with Iamblichus. Ancient sources describe her lecturing on Plato and Aristotle and giving public talks around the city. Her role as a commentator is also documented in later scholarship: she is credited with a commentary on Diophantus's Arithmetica, a work that set out more than one hundred mathematical problems solved with algebraic methods. Her commentary survives in part, embedded in later texts, and modern scholars differ on how much of the surviving material can be attributed to her. She is not known to have published independent works of philosophy, and she does not appear to have made groundbreaking discoveries. Her contribution was largely that of a teacher who preserved and explained important classical texts.\n\nHer students included Christians as well as pagans. Among the best documented is Synesius of Cyrene, who later became a bishop and continued to write to her. Those letters are among the main sources for her career. Her reputation as an inspiring teacher was, according to these sources, widely shared among both pagans and Christians in the city.\n\nThe later accounts of her death are another matter, and they must be handled with care. The Christian historian Socrates Scholasticus, writing in his Ecclesiastical History, reports that she was killed amid political rivalry in Alexandria. He suggests that she had frequent interviews with the Roman prefect Orestes, and that rumors spread among Christians that she was preventing a reconciliation between Orestes and the bishop. He also condemns the violence of the crowd. Scholars note that Socrates never explicitly names the killers, and historians have differing views on who they were. The traditional narrative is thus best understood as a set of claims shaped by writers with their own purposes, not as a fully settled account.\n\nHer death nonetheless became a lasting symbol. Writers across centuries retold her story, and later traditions even linked her to the legend of Saint Catherine of Alexandria. Enlightenment and modern writers have used her as an emblem of reason threatened by violence and intolerance. For that reason, it is more accurate to say that her fate came to represent the dangers facing scholars in volatile times than to treat every detail of the traditional story as proven.\n\nNo verifiable quotation from Hypatia survives, so this article offers none. What remains is the picture of a teacher who kept a space for reasoned inquiry open in a divided city. Our reflection is that the value of her example lies less in any single anecdote than in the principle it suggests: intellectual freedom depends on people willing to keep questions open, examine evidence carefully, and teach what is uncertain or unpopular, even when doing so carries cost. Communities that protect that freedom are honoring something that her life, as later remembered, dramatizes.",
-        "attribution": "Traditional later accounts of Hypatia, including those attributed to Socrates Scholasticus (Ecclesiastical History, Book VII), cited as the origin of the traditional claims about her death; the wording here is paraphrased rather than quoted.",
-        "source": "https://en.wikipedia.org/wiki/Hypatia",
-        "takeaway": "In our reflection, a community that protects honest inquiry, including unpopular questions and openly acknowledged uncertainty, keeps its shared learning alive even when that protection is costly.",
-        "detail": "Review failed [UNSUPPORTED_QUOTE]. The card's attribution to Socrates Scholasticus and its specific historical claims about Hypatia are unsupported by the supplied sources, which do not contain that account.\n\nHypatia of Alexandria is remembered as one of the earliest women in the ancient world to earn a public reputation as a mathematician and philosopher. She is generally placed in Alexandria in the late fourth and early fifth centuries CE, a city then renowned for its libraries, scholars, and schools of learning. Her later reputation rests largely on accounts written by others, most prominently the Christian historian Socrates Scholasticus, whose Ecclesiastical History, Book VII, is the source the card names for her teaching, public standing, and violent death. The attribution needs care, however. The source material supplied for this review does not contain that account. The New Advent page cited on the card reproduces Jerome's Apology Against Rufinus, not Socrates Scholasticus, and the other supplied text concerns Cyril of Alexandria, a later Alexandrian patriarch who does not mention Hypatia. The specific details of her lectures, her students, her civic counsel, and her death in 415 CE therefore cannot be confirmed from the evidence in hand. They are reported in the later tradition, and this article presents them as such rather than as established fact.\n\nWhat the traditional accounts emphasize is her role as a teacher. She is described as lecturing on astronomy, mathematics, and the Neoplatonic philosophy then influential in Alexandria, and as drawing students from the city and from farther afield. Such instruction required technical skill and a willingness to engage openly with questions that scholars of different traditions debated. The accounts further suggest that civic figures sought her counsel, though the nature and extent of that role is likewise known only through later writers.\n\nThe events of her death are reported in connection with religious and political conflict in Alexandria, and the tensions between rival authorities and communities in that period are well documented. The details of who acted, why, and with what authorization are contested, and the story was retold by later writers for varied purposes, including Christian, pagan, and Enlightenment ones. It is therefore more accurate to say that her death became a lasting symbol of the dangers facing scholars in volatile times than to treat every detail of the traditional narrative as settled.\n\nNo verifiable quotation from Hypatia survives, so any presentation of her words would be invented. What endures is the image of a teacher who kept a space for reasoned inquiry open in a divided city. Communities that protect the freedom to ask hard questions, to examine evidence, and to teach what is uncertain or unpopular are following a principle that her life, as later remembered, dramatizes. The lesson is not that one person's example guarantees safety, but that intellectual freedom depends on people willing to hold it open when it is costly to do so.",
-        "id": "generated-76193ae8faf94f5e9333",
-        "category": "Quotes",
-        "status": "ready_for_publish",
-        "publishedAt": "",
-        "image": "https://raw.githubusercontent.com/jay-ds-labs/mydaycoach-inspirations/main/images/inspire/reflection-030.webp",
-        "reviewStatus": "approved",
-        "reviewFailureCode": "",
-        "reviewFailureSummary": "",
-        "reviewNotes": [
-          "The card body contains substantial material (Alexandria's intellectual context, Arithmetica commentary, Saint Catherine legend) that the ARTICLE_TO_REVIEW does not carry; the reviewed article is a short standalone summary, so the card and article differ in scope and should be aligned before publication.",
-          "The reviewed article states she was 'remembered through accounts written largely after her lifetime' and that 'the specific claims about her death remain disputed.' Sources support both points (Socrates Scholasticus, Damascius, and Suda accounts are later; Cameron and Watts dispute the Belenkiy hypothesis and scholars differ on the murderers), so these are acceptable, though the article could name a source for the dispute."
-        ]
-      }
+      ]
     },
     "generated-cbee751f7f494285a63c": {
       "state": "approved",
