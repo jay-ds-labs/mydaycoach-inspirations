@@ -1,1 +1,5 @@
-{"batchStartedAt":"2026-11-14T13:02:48.709534Z","reason":"Recover 14 rejected slots using owner-approved practical review and corrected evidence retrieval."}
+{
+  "batchStartedAt": "2026-11-14T13:02:48.709534Z",
+  "reason": "Resume remaining failed slots after live verification of reviewer notes and exact subject lookup.",
+  "recoveryAttempt": 2
+}

@@ -21,3 +21,7 @@ After recovery, tap Sync Library in the app. New Generate 15 calls use the pract
 ## Verification
 
 Regression coverage includes warning-only acceptance, exact quotation/material blocker rejection, malformed review rejection, unfinished-article repair/re-review, revised card takeaway, evidence beyond the old truncation, unrelated fallback exclusion, bounded card repair, recovery of missing cards, accepted-story preservation and repeat recovery without duplicate IDs. Worker auth/provider tests remain required. Synthetic tests prove contracts, not historical truth; the recovery run supplies live integration evidence and records final per-item outcomes.
+
+Live verification follow-up: an explicit empty material-blocker list with an unexplained grounded=false verdict is recorded as uncertainty in notes, rather than an unrepairable veto. Missing/malformed blocker lists still fail validation. Search the story subject (e.g. Hypatia) before its historical source author (e.g. Socrates Scholasticus). Regression suite now executes 36 Python tests plus 9 Worker tests.
+
+Completeness disagreements are checked once against the article alone, with explicit source/article boundaries in the main review. The primary citation is ranked by subject match so a peripheral mention does not displace the dedicated subject page. Card-repair responses explicitly require title, body, attribution, source and takeaway alongside detail.

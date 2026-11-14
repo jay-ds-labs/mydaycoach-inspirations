@@ -15,6 +15,16 @@ class FinalReviewTests(unittest.TestCase):
         result=editorial_review(CARD,'A full, finished article.',SOURCE)
         self.assertTrue(result['approved']);self.assertEqual([],result['blockers'])
     @patch('final_review.request_json')
+    def test_unexplained_doubt_without_material_blockers_is_a_note(self,request):
+        request.return_value={**verdict(), 'grounded':False,'approved':False}
+        result=editorial_review(CARD,'Complete account.',SOURCE)
+        self.assertTrue(result['approved']);self.assertTrue(result['warnings'])
+    @patch('final_review.request_json')
+    def test_cut_off_source_excerpt_cannot_veto_a_finished_article(self,request):
+        request.side_effect=[verdict([{'code':'INCOMPLETE_ARTICLE','reason':'Source excerpt stops mid-sentence.'}]),{'complete':True,'reason':'The actual article has a complete ending.'}]
+        result=editorial_review(CARD,'A finished standalone article.',SOURCE)
+        self.assertTrue(result['approved']);self.assertEqual([],result['blockers'])
+    @patch('final_review.request_json')
     def test_false_quote_and_wrong_subject_remain_blockers(self,request):
         for code in ['FALSE_ATTRIBUTION','WRONG_TOPIC','MATERIAL_FACT_ERROR','INSUFFICIENT_EVIDENCE','INCOMPLETE_ARTICLE']:
             request.return_value=verdict([{'code':code,'reason':'Substantial problem.'}])
@@ -50,3 +60,10 @@ class FinalReviewTests(unittest.TestCase):
     @patch('final_review.research',return_value=([],['Source HTTP 403']))
     def test_no_evidence_does_not_publish_a_fabrication(self,research):
         item,audit=finalize(CARD);self.assertFalse(audit['eligible']);self.assertEqual(0,audit['completedReviews'])
+    @patch('final_review.evidence',return_value=('A peripheral reference mentioning Hypatia.', ''))
+    @patch('final_review.discover',return_value=([{'title':'Hypatia','url':'https://en.wikipedia.org/wiki/Hypatia','text':'Hypatia taught philosophy in Alexandria.'}],[]))
+    def test_subject_specific_reference_becomes_primary_citation(self,discover,evidence):
+        from final_review import research
+        item={**CARD,'title':"Hypatia's Lamp",'attribution':'Socrates Scholasticus','source':'https://example.org/general-history'}
+        records,_=research(item,[])
+        self.assertEqual('https://en.wikipedia.org/wiki/Hypatia',records[0]['url'])

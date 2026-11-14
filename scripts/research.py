@@ -24,7 +24,9 @@ def subject_query(item):
     attribution=re.split(r"[,;(–—]|\d",item.get("attribution", ""))[0].strip()
     if attribution.lower() in ("mydaycoach","unknown","anonymous"):
         attribution=""
-    return attribution or item.get("title", "").split(":")[0]
+    title=item.get("title", "")
+    subject=re.split(r" and | on |[’\']s |:",title,maxsplit=1)[0].strip()
+    return subject if subject!=title else attribution or subject
 
 def relevant(record,item):
     subject=words(subject_query(item))
@@ -106,7 +108,7 @@ def discover(item,existing_source="",fetch=None):
     attribution=item.get("attribution","")
     query=PILOT_QUERIES.get(item.get("id")," ".join(x for x in (attribution,title) if x).strip() or item.get("body","")[:100])
     try:
-        queries=list(dict.fromkeys([PILOT_QUERIES.get(item.get("id"),""),subject_query(item),title]))
+        queries=list(dict.fromkeys([PILOT_QUERIES.get(item.get("id"),""),subject_query(item),re.split(r"[,;(–—]|\d",attribution)[0].strip(),title]))
         for candidate in filter(None,queries):
             matches=wikipedia_exact(candidate,context=" ".join(str(item.get(k,"")) for k in ("title","body","takeaway")))
             if not matches:matches=wikipedia(candidate,limit=2)
