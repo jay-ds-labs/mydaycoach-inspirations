@@ -8,9 +8,9 @@
   "philosophy": 5,
   "generated": 15,
   "reviewed": 13,
-  "approved": 11,
+  "approved": 12,
   "needsReview": 0,
-  "reviewFailed": 4,
+  "reviewFailed": 3,
   "startedAt": "2026-11-14T13:02:48.709534Z",
   "completedAt": null,
   "error": null,
@@ -105,10 +105,10 @@
     {
       "id": "generated-757d38321dbd4ea88807",
       "category": "Philosophy",
-      "state": "review_failed",
-      "reasonCode": "FALSE_ATTRIBUTION",
-      "reason": "The article presents the phrase 'I thought Evenus a happy man...' style claims as Socrates's own words only in paraphrase, which is acceptable, but the card's body states as fact that Socrates was 'called the wisest man in Athens because he alone recognized that he did ",
-      "eligible": false
+      "state": "approved",
+      "reasonCode": "",
+      "reason": "",
+      "eligible": true
     },
     {
       "id": "generated-6e3be8720d384068b48a",
@@ -135,5 +135,5 @@
       "eligible": true
     }
   ],
-  "recoveredAt": "2026-11-14T14:02:59.602773Z"
+  "recoveredAt": "2026-11-14T14:03:10.358944Z"
 }
