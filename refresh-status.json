@@ -1,16 +1,16 @@
 {
   "state": "running",
-  "stage": "review",
-  "completed": 9,
+  "stage": "generation",
+  "completed": 10,
   "total": 15,
   "quotes": 5,
-  "stories": 4,
+  "stories": 5,
   "philosophy": 0,
   "generated": 9,
-  "reviewed": 8,
+  "reviewed": 9,
   "approved": 1,
   "needsReview": 0,
-  "reviewFailed": 8,
+  "reviewFailed": 9,
   "startedAt": "2026-11-14T13:02:48.709534Z",
   "completedAt": null,
   "error": null,
@@ -76,6 +76,13 @@
       "state": "review_failed",
       "reasonCode": "INVALID_CARD",
       "reason": "Generated card is missing required content",
+      "eligible": false
+    },
+    {
+      "id": "generated-812b224ac2834b35b6f3",
+      "category": "Stories",
+      "state": "review_failed",
+      "reasonCode": "INSUFFICIENT_EVIDENCE",
       "eligible": false
     }
   ]
