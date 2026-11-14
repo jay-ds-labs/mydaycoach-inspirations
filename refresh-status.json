@@ -1,6 +1,6 @@
 {
-  "state": "completed",
-  "stage": "done",
+  "state": "running",
+  "stage": "recovery",
   "completed": 15,
   "total": 15,
   "quotes": 5,
@@ -12,16 +12,16 @@
   "needsReview": 0,
   "reviewFailed": 0,
   "startedAt": "2026-11-14T13:02:48.709534Z",
-  "completedAt": "2026-11-14T14:06:13.263791Z",
+  "completedAt": null,
   "error": null,
   "outcomes": [
     {
       "id": "generated-de0c08f0fea849eb8c29",
       "category": "Quotes",
-      "state": "approved",
+      "state": "review_failed",
       "reasonCode": "",
       "reason": "",
-      "eligible": true
+      "eligible": false
     },
     {
       "id": "generated-ad47ac364f9d455099d8",
@@ -42,10 +42,10 @@
     {
       "id": "generated-76193ae8faf94f5e9333",
       "category": "Quotes",
-      "state": "approved",
+      "state": "review_failed",
       "reasonCode": "",
       "reason": "",
-      "eligible": true
+      "eligible": false
     },
     {
       "id": "generated-cbee751f7f494285a63c",
@@ -73,18 +73,18 @@
     {
       "id": "generated-b5ab83f51acb42849191",
       "category": "Stories",
-      "state": "approved",
+      "state": "review_failed",
       "reasonCode": "",
       "reason": "",
-      "eligible": true
+      "eligible": false
     },
     {
       "id": "generated-e0fa33b4832f4df184f0",
       "category": "Stories",
-      "state": "approved",
+      "state": "review_failed",
       "reasonCode": "",
       "reason": "",
-      "eligible": true
+      "eligible": false
     },
     {
       "id": "generated-812b224ac2834b35b6f3",
@@ -105,10 +105,10 @@
     {
       "id": "generated-757d38321dbd4ea88807",
       "category": "Philosophy",
-      "state": "approved",
+      "state": "review_failed",
       "reasonCode": "",
       "reason": "",
-      "eligible": true
+      "eligible": false
     },
     {
       "id": "generated-6e3be8720d384068b48a",
@@ -121,10 +121,10 @@
     {
       "id": "generated-301d38f650914c6d826d",
       "category": "Philosophy",
-      "state": "approved",
+      "state": "review_failed",
       "reasonCode": "",
       "reason": "",
-      "eligible": true
+      "eligible": false
     },
     {
       "id": "generated-61cb5141a99f46598bc0",
