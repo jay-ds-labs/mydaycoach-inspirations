@@ -2,7 +2,7 @@
 import json
 from pathlib import Path
 from enrich_library import now,write
-from final_review import finalize,ReviewError
+from final_review import finalize,ReviewError,article_structure
 from generate_batch import generate,persist
 ROOT=Path(__file__).resolve().parents[1]
 
@@ -46,6 +46,16 @@ def main():
     if status.get('startedAt')!=request['batchStartedAt']:
         raise ValueError('Recovery request does not match the current batch; refusing to touch another batch')
     library=read('library.json');reviews=read('enrichment-review.json')
+    by_id={item["id"]:item for item in library["items"]}
+    for outcome in status["outcomes"]:
+        if outcome.get("id") in request.get("repairArticleIds",[]) and not article_structure(by_id.get(outcome["id"],{}).get("detail","")):
+            outcome["eligible"]=False
+            outcome["state"]="review_failed"
+            audit=reviews["items"].setdefault(outcome["id"],{})
+            item=by_id[outcome["id"]]
+            earlier=[a.get("finalVersion",{}).get("detail","") for a in audit.get("previousAudits",[])]
+            full=[text for text in earlier if article_structure(text)]
+            audit["finalVersion"]={**item,"detail":max(full,key=len) if full else item["detail"]}
     def checkpoint():
         write(ROOT/'library.json',library);write(ROOT/'enrichment-review.json',reviews);write(ROOT/'refresh-status.json',status);persist()
     try:recover(library,reviews,status,checkpoint)
