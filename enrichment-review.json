@@ -4389,6 +4389,96 @@
         "reviewFailureCode": "INSUFFICIENT_EVIDENCE",
         "reviewFailureSummary": "The supplied source excerpt is truncated before Note G, so the article's specific claims about Bernoulli numbers, Lovelace's symbol-manipulation argument, and her caution about originality cannot be verified against the evidence."
       }
+    },
+    "generated-b82a8fed32914002be6d": {
+      "state": "review_failed",
+      "eligible": false,
+      "generated": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "reviewCompleted": true,
+          "sourceUrls": [
+            "https://plato.stanford.edu/entries/descartes/",
+            "https://en.wikipedia.org/wiki/Meditations_on_First_Philosophy"
+          ],
+          "changes": "Reviewed the existing draft because composition returned no article.",
+          "approved": false,
+          "complete": true,
+          "grounded": false,
+          "feedback": [
+            "The card attributes the wax example to the Second Meditation and frames it as the mind grasping the thing rather than sensory appearance; the article's core claim that identity is grasped by the intellect is consistent with this, but the supplied source excerpts (SEP biography and Wikipedia overview) do not contain the wax passage or any description of it, so the wax-specific claims are unsupported by the provided evidence.",
+            "The article states the Meditations were first published in Latin in 1641; this is supported by Source 2.",
+            "The article says the SEP entry 'offers a credible overview of his method of doubt and his views on perception and knowledge'; the SEP excerpt does mention the method of doubt, sense perception and knowledge, so this is loosely supported, but the article does not engage the wax example from any source.",
+            "The card's takeaway and body ('trust careful reasoning over the shifting testimony of the senses') is an interpretive gloss not verified by the supplied sources, which only describe Descartes's general method and that he treated the mind as distinct from sensory images.",
+            "Article is brief and largely a summary rather than a developed, editorially strong piece; it does not explain the passage, its argumentative steps, or its place in the Meditations beyond one sentence."
+          ]
+        },
+        {
+          "attempt": 2,
+          "reviewCompleted": true,
+          "sourceUrls": [
+            "https://plato.stanford.edu/entries/descartes/",
+            "https://en.wikipedia.org/wiki/Meditations_on_First_Philosophy"
+          ],
+          "changes": "",
+          "approved": false,
+          "complete": true,
+          "grounded": false,
+          "feedback": [
+            "The article's central claim about the wax example (sensory qualities change, the wax is still the same, identity known through understanding) is consistent with the Meditation itself, but the source evidence provided contains only the SEP overview and the Wikipedia summary of the Meditations' structure; neither excerpt contains the wax passage or Descartes' conclusion about it, so those specifics are unsupported by the supplied evidence.",
+            "The article states the beeswax changes in taste, smell, color, shape, size, softness and sound, and that it 'grows larger and softer'; these specific details are not present in the supplied source excerpts and are asserted without grounding.",
+            "The article asserts the Meditations were 'written as a sequence of six meditations' in which Descartes sets aside doubtful beliefs; this is supported by SOURCE 2, but the framing of the Second Meditation as 'the turning point' is interpretive and not sourced.",
+            "The article's description of the mind's grasp as 'a faculty of judgment that the senses alone cannot supply' and of the wax as 'an extended thing capable of many forms' paraphrases the Meditation without a cited passage.",
+            "The card claims the example shows we 'trust careful reasoning over the shifting testimony of the senses'; the article's interpretation that the example is 'not a rejection of the senses as such' is a reasonable reading but is presented as settled without a sourced reference to the text.",
+            "The article closes by citing the SEP entry as useful for situating the passage, but the SEP excerpt does not discuss the wax example, so the citation does not verify the passage's content.",
+            "The article is coherent and well organized, but its evidence base for the specific wax-scene claims is missing, which is a material grounding gap rather than a stylistic one."
+          ]
+        },
+        {
+          "attempt": 3,
+          "reviewCompleted": true,
+          "sourceUrls": [
+            "https://plato.stanford.edu/entries/descartes/",
+            "https://en.wikipedia.org/wiki/Meditations_on_First_Philosophy"
+          ],
+          "changes": "Removed the unsupported specifics about the wax's taste, smell, size, softness, and sound changing, and the 'grows larger and softer' detail, since the supplied sources do not contain the wax passage. Replaced the 'turning point' framing and the interpretive claims about 'a faculty of judgment' and 'an extended thing capable of many forms' with explicit labeling as interpretation. Attributed only what the sources support (six meditations, 1641 Latin publication, the method of doubt, the SEP's ge",
+          "approved": false,
+          "complete": true,
+          "grounded": false,
+          "feedback": [
+            "The article's central claims about the wax example and the Second Meditation's argument are not supported by the sources provided; the Stanford source excerpt does not discuss the beeswax passage at all, and the Wikipedia excerpt only gives publication and structure details.",
+            "The article asserts the wax example argues identity is grasped through the understanding rather than sensory appearance; this interpretive claim is unsupported by the cited evidence and is presented as a reading without citing any source for it.",
+            "The card summary is partially supported (1641 Latin publication, six meditations, method of doubt), but the article's extended discussion of Descartes's method of doubt and sensory error is drawn from general background not directly tied to the wax passage.",
+            "The article explicitly acknowledges it cannot verify the sequence of wax changes or the conclusion wording, so the piece lacks the substantive engagement with the Second Meditation that the card's subject requires.",
+            "The article reads as a brief orientation rather than a full, editorially strong treatment of the Second Meditation and the wax example."
+          ]
+        }
+      ],
+      "completedReviews": 3,
+      "reasonCode": "UNSUPPORTED_QUOTE",
+      "reason": "The article's central interpretation of the wax example is not grounded in the provided evidence, which does not cover the beeswax passage.",
+      "sourceUrls": [
+        "https://plato.stanford.edu/entries/descartes/",
+        "https://en.wikipedia.org/wiki/Meditations_on_First_Philosophy"
+      ],
+      "sourceErrors": [],
+      "finalVersion": {
+        "title": "Descartes and the Wax: Knowing Through the Mind, Not the Senses",
+        "body": "In the Second Meditation of his Meditations on First Philosophy, René Descartes asks what we can know about an ordinary object such as a piece of beeswax. The Meditations were first published in Latin in 1641 and are built as six meditations in which Descartes first sets aside every belief that is not absolutely certain and then tries to establish what can be known for sure.",
+        "attribution": "René Descartes, Meditations on First Philosophy (1641)",
+        "source": "https://plato.stanford.edu/entries/descartes/",
+        "takeaway": "Sensory impressions change; disciplined reasoning helps reveal what remains constant beneath them.",
+        "detail": "Review failed [UNSUPPORTED_QUOTE]. The article's central interpretation of the wax example is not grounded in the provided evidence, which does not cover the beeswax passage.\n\nThe Meditations were first published in Latin in 1641, and they present a sequence of six meditations in which Descartes first discards any belief admitting even a trace of doubt, then seeks what can be known with certainty. The Second Meditation is the stage at which he has doubted the reports of the senses and looks for something that survives that doubt. The beeswax is the example he uses to pursue this question, and it is the central object of the passage. The source material I could check establishes the work's publication history and structure, and it places Descartes's method of doubt within his wider project of metaphysics, natural philosophy, and mathematics. The Stanford Encyclopedia of Philosophy entry describes his method of doubt and his views on perception and knowledge, and it is a useful background for reading the Meditation. The specific sequence of changes the wax undergoes, and the precise wording of his conclusion, are not contained in the excerpts available to me, so I do not reproduce them here. Interpretation: the wax example is generally read as an argument that the identity of a body is grasped through the understanding rather than through sensory appearance. This is a reading of the text, not a quotation from it. Readers who want to test the argument should go to the Second Meditation itself, follow how Descartes stages the example, and judge for themselves whether the mind's grasp of the object requires more than the senses supply. Practical takeaway: when the evidence of the senses shifts, it is worth asking what stays constant beneath the change and what kind of reasoning could establish it.",
+        "id": "generated-b82a8fed32914002be6d",
+        "category": "Philosophy",
+        "status": "review_failed",
+        "publishedAt": "",
+        "image": "https://raw.githubusercontent.com/jay-ds-labs/mydaycoach-inspirations/main/images/inspire/reflection-001.webp",
+        "reviewStatus": "review_failed",
+        "reviewFailureCode": "UNSUPPORTED_QUOTE",
+        "reviewFailureSummary": "The article's central interpretation of the wax example is not grounded in the provided evidence, which does not cover the beeswax passage."
+      }
     }
   }
 }
