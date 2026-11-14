@@ -3604,36 +3604,64 @@
           "attempt": 1,
           "reviewCompleted": true,
           "sourceUrls": [
-            "https://en.wikipedia.org/wiki/Ada_Lovelace",
-            "https://en.wikipedia.org/wiki/Charles_Babbage"
+            "https://en.wikipedia.org/wiki/Ada_Lovelace"
           ],
-          "changes": "Replaced the card's unsupported 'foundational idea' framing with the documented claim that Lovelace is often described as the first computer programmer and that historians dispute her technical role. Kept the subject, 1843 setting and music hypothetical, and labelled that hypothetical as conjecture. Rewrote the takeaway as an explicitly labelled reflection rather than a quotation. Preserved the previous draft's biography, education, Babbage relationship, Note G and Swade/Wolfram/Bromley/Collier ",
+          "changes": "Expanded the previous summary into a full multi-paragraph narrative with an opening scene, historical context on Babbage's engines, a developed account of Lovelace's 1843 notes, and a practical closing. Kept the scholarly debate about her individual contribution and the source-supported claims about the objection and Swade's view. Corrected the attribution and takeaway to frame the reflection as ours rather than hers.",
+          "approved": false,
+          "complete": true,
+          "grounded": false,
+          "feedback": [
+            "The article presents 'In the summer of 1833' and Lovelace being 'seventeen' at Babbage's soirée; the source says she first met him on 5 June 1833 and was 17 at that time, so this is supported, but the article also states she was accompanied by her mother and Mary Somerville, which the source supports. No change needed there.",
+            "The article attributes to William Frend and William King instruction in mathematics, and to Augustus De Morgan later help. None of these are supported by the provided excerpts; the excerpts do not mention these tutors. Since these are background details not contradicted by the excerpts, this is a warning rather than a blocker.",
+            "The article states that Lovelace was buried 'beside her father in Hucknall.' The source says her resting place is the Church of St Mary Magdalene, Hucknall, but does not say she was buried beside her father. This is an unsupported specific claim; it should be removed or rephrased to 'buried at the Church of St Mary Magdalene, Hucknall.'",
+            "The article attributes specific scholarly positions to Allan Bromley and Bruce Collier (limited technical contribution). The source supports Collier's statement that she advanced publicizing but not design or theory; Bromley is not mentioned in the excerpts and his position is not supported, so the attribution to Bromley is unsupported.",
+            "The article states that Lovelace 'died of cancer in 1852 at the age of thirty-six.' The source supports death on 27 November 1852 aged 36 and category 'Deaths from uterine cancer,' so this is supported.",
+            "Allan Bromley is named as holding a view that Lovelace's technical contribution was limited; no source excerpt supports this attribution."
+          ],
+          "warnings": [
+            "Consider noting that the 'Lady Lovelace's Objection' quotation is a direct quotation from Note G, and the article paraphrases it; the paraphrase is labelled as such and is acceptable.",
+            "The statement that the engine 'did not directly influence the electronic computers' is supported by the source and fine.",
+            "The article's Turing-complete claim is supported by the source."
+          ],
+          "blockers": [
+            {
+              "code": "FALSE_ATTRIBUTION",
+              "reason": "Allan Bromley is named as holding a view that Lovelace's technical contribution was limited; no source excerpt supports this attribution."
+            }
+          ]
+        },
+        {
+          "attempt": 2,
+          "reviewCompleted": true,
+          "sourceUrls": [
+            "https://en.wikipedia.org/wiki/Ada_Lovelace"
+          ],
+          "changes": "Removed the unsupported claim that Lovelace was buried beside her father and replaced it with the sourced burial location at the Church of St Mary Magdalene, Hucknall. Removed the unsupported named tutors (William Frend, William King, Augustus De Morgan) and the attribution to Allan Bromley, keeping only the Collier and Wolfram positions the sources support. Added sourced context about her contacts with Faraday and Dickens and her description of 'poetical science', and tightened the Swade and Ob",
           "approved": true,
           "complete": true,
           "grounded": true,
-          "feedback": [
-            "The article is an unfinished editorial note: it ends mid-sentence, so the piece is not a finished standalone article. Complete the note with a closing sentence that states its takeaway."
-          ],
+          "feedback": [],
           "warnings": [
-            "The article is a short editor's note, not a full standalone article; consider expanding it into a readable piece with the card's body and takeaway included.",
-            "Reference to 'set in England in 1843' is supported by the source's 1843 notes and English nationality, though the excerpts do not state the setting location of the notes explicitly.",
-            "An isolated article-only check confirmed the ending is complete."
+            "The article says Lovelace was seventeen in summer 1833, but the source says she was 17 at the meeting in June 1833 (she turned 18 in December 1833); the source also says she was 18 when she met Babbage, which is a minor inconsistency in the source itself. Consider stating 'seventeen' consistently or hedging the age.",
+            "The article says Lovelace 'walked into' a gathering with her tutor Mary Somerville; the source says she attended with her mother and mutual friend Mary Somerville. This is consistent, but the phrasing could be clearer about Somerville being a friend and tutor.",
+            "The article's Wolfram attribution is paraphrased and labeled as argument, which is acceptable; no direct quotation is used.",
+            "The takeaway section is a practical reflection and is clearly framed, so it does not need historical attribution. The card separately flags it as not a quotation, which is appropriate."
           ],
           "blockers": []
         }
       ],
-      "completedReviews": 1,
+      "completedReviews": 2,
       "reasonCode": "",
       "reason": "",
       "sourceUrls": [
-        "https://en.wikipedia.org/wiki/Ada_Lovelace",
-        "https://en.wikipedia.org/wiki/Charles_Babbage"
+        "https://en.wikipedia.org/wiki/Ada_Lovelace"
       ],
       "sourceErrors": [],
       "warnings": [
-        "The article is a short editor's note, not a full standalone article; consider expanding it into a readable piece with the card's body and takeaway included.",
-        "Reference to 'set in England in 1843' is supported by the source's 1843 notes and English nationality, though the excerpts do not state the setting location of the notes explicitly.",
-        "An isolated article-only check confirmed the ending is complete."
+        "The article says Lovelace was seventeen in summer 1833, but the source says she was 17 at the meeting in June 1833 (she turned 18 in December 1833); the source also says she was 18 when she met Babbage, which is a minor inconsistency in the source itself. Consider stating 'seventeen' consistently or hedging the age.",
+        "The article says Lovelace 'walked into' a gathering with her tutor Mary Somerville; the source says she attended with her mother and mutual friend Mary Somerville. This is consistent, but the phrasing could be clearer about Somerville being a friend and tutor.",
+        "The article's Wolfram attribution is paraphrased and labeled as argument, which is acceptable; no direct quotation is used.",
+        "The takeaway section is a practical reflection and is clearly framed, so it does not need historical attribution. The card separately flags it as not a quotation, which is appropriate."
       ],
       "previousAudits": [
         {
@@ -3838,29 +3866,70 @@
               "The takeaway is a practical interpretation and is acceptable as framed."
             ]
           }
+        },
+        {
+          "state": "approved",
+          "eligible": true,
+          "generated": true,
+          "attempts": [
+            {
+              "attempt": 1,
+              "reviewCompleted": true,
+              "sourceUrls": [
+                "https://en.wikipedia.org/wiki/Ada_Lovelace",
+                "https://en.wikipedia.org/wiki/Charles_Babbage"
+              ],
+              "changes": "Replaced the card's unsupported 'foundational idea' framing with the documented claim that Lovelace is often described as the first computer programmer and that historians dispute her technical role. Kept the subject, 1843 setting and music hypothetical, and labelled that hypothetical as conjecture. Rewrote the takeaway as an explicitly labelled reflection rather than a quotation. Preserved the previous draft's biography, education, Babbage relationship, Note G and Swade/Wolfram/Bromley/Collier ",
+              "approved": true,
+              "complete": true,
+              "grounded": true,
+              "feedback": [
+                "The article is an unfinished editorial note: it ends mid-sentence, so the piece is not a finished standalone article. Complete the note with a closing sentence that states its takeaway."
+              ],
+              "warnings": [
+                "The article is a short editor's note, not a full standalone article; consider expanding it into a readable piece with the card's body and takeaway included.",
+                "Reference to 'set in England in 1843' is supported by the source's 1843 notes and English nationality, though the excerpts do not state the setting location of the notes explicitly.",
+                "An isolated article-only check confirmed the ending is complete."
+              ],
+              "blockers": []
+            }
+          ],
+          "completedReviews": 1,
+          "reasonCode": "",
+          "reason": "",
+          "sourceUrls": [
+            "https://en.wikipedia.org/wiki/Ada_Lovelace",
+            "https://en.wikipedia.org/wiki/Charles_Babbage"
+          ],
+          "sourceErrors": [],
+          "warnings": [
+            "The article is a short editor's note, not a full standalone article; consider expanding it into a readable piece with the card's body and takeaway included.",
+            "Reference to 'set in England in 1843' is supported by the source's 1843 notes and English nationality, though the excerpts do not state the setting location of the notes explicitly.",
+            "An isolated article-only check confirmed the ending is complete."
+          ],
+          "finalVersion": {
+            "title": "Ada Lovelace and the Limits of the Machine",
+            "body": "In 1843, Ada Lovelace published notes on Charles Babbage's proposed Analytical Engine that reached beyond calculation, suggesting that such a machine might manipulate symbols of any kind, including music. Her insight that a machine could follow general rules rather than only arithmetic remains a foundational idea in computing.",
+            "attribution": "Ada Lovelace",
+            "source": "https://en.wikipedia.org/wiki/Ada_Lovelace",
+            "takeaway": "A practical reflection drawn from Lovelace's 1843 notes, not a quotation from her: when you meet a tool, ask not only what it was built to do but what its underlying rules might be made to represent. Lovelace's hypothetical of a machine composing music shows how a narrow purpose can open onto broader uses, whether you are studying a new technology or a familiar one.",
+            "detail": "Review failed [INVALID_REVIEW_OUTPUT]. Reviewer gave no material reason for a grounding failure\n\nAugusta Ada King, Countess of Lovelace, known as Ada Lovelace (1815–1852), is chiefly known for her work on Charles Babbage's proposed mechanical general-purpose computer, the Analytical Engine. Born the only legitimate child of the poet Lord Byron and the reformer Anne Isabella Milbanke, she grew up after her parents separated within a month of her birth, and Byron died when she was eight. Often ill in childhood, she pursued her studies with determination. From 1832, when she was seventeen, her mathematical abilities began to emerge. Her mother's concern about the instability she associated with Byron was one reason Ada was taught mathematics from an early age, and she was privately educated in mathematics and science by William Frend, William King, and Mary Somerville. Later, Augustus De Morgan gave her considerable help with advanced topics, including the numbers of Bernoulli.\n\nLovelace first met Charles Babbage in June 1833, through their mutual friend Mary Somerville. She became fascinated with his work on calculating engines and was impressed by his analytic approach; Babbage admired her intellect and called her \"The Enchantress of Number.\" Babbage's Analytical Engine was never completed in his lifetime, but it is recognised as a Turing-complete general-purpose design that anticipated essential features of a modern computer. Its intended programming used punched cards, a principle borrowed from the Jacquard loom.\n\nLovelace's most celebrated contribution appeared in 1843, when she translated an article by the military engineer Luigi Menabrea about the Analytical Engine and added seven long explanatory notes, usually labelled A to G. In Note G she described a method for using the machine to calculate Bernoulli numbers, a procedure often called the first published computer program. Scholars dispute how much of this work was original to her and how much reflected Babbage's help; Allan Bromley and Bruce Collier argue her technical contribution was limited, while Stephen Wolfram and Doron Swade give her more credit. That disagreement should be kept in view when assessing her individual role.\n\nThe notes also contain the passage that most directly shows her wider vision. Lovelace emphasised that the Analytical Engine differed from earlier calculating machines because it could be programmed to solve problems of many kinds. She wrote that the engine \"might act upon other things besides number\" if their fundamental relations could be expressed in the same abstract science of operations. As a hypothetical example she suggested that, if the relations of pitched sounds in harmony and musical composition could be expressed in this way, the engine \"might compose elaborate and scientific pieces of music of any degree of complexity or extent.\" Doron Swade has described her insight as recognising that numbers could represent other entities, such as letters or musical notes, so that a machine could manipulate symbols according to rules rather than only crunch numbers. The notes also include what became known as \"Lady Lovelace's Objection,\" her statement that the engine \"has no pretensions whatever to originate anything,\" which Alan Turing later named when discussing artificial intelligence.\n\nLovelace died of cancer in 1852 at the age of thirty-six. Her significance lies less in a finished machine than in a shift of perspective: the recognition that a device built to produce numerical tables might follow general rules and be applied to purposes its builders had not foreseen. Seeing what a tool could do beyond its obvious function is the habit of mind most associated with her engagement with Babbage's engine.",
+            "id": "generated-de0c08f0fea849eb8c29",
+            "category": "Quotes",
+            "status": "ready_for_publish",
+            "publishedAt": "",
+            "image": "https://raw.githubusercontent.com/jay-ds-labs/mydaycoach-inspirations/main/images/inspire/reflection-030.webp",
+            "reviewStatus": "approved",
+            "reviewFailureCode": "",
+            "reviewFailureSummary": "",
+            "reviewNotes": [
+              "The article is a short editor's note, not a full standalone article; consider expanding it into a readable piece with the card's body and takeaway included.",
+              "Reference to 'set in England in 1843' is supported by the source's 1843 notes and English nationality, though the excerpts do not state the setting location of the notes explicitly.",
+              "An isolated article-only check confirmed the ending is complete."
+            ]
+          }
         }
-      ],
-      "finalVersion": {
-        "title": "Ada Lovelace and the Limits of the Machine",
-        "body": "In 1843, Ada Lovelace published notes on Charles Babbage's proposed Analytical Engine that reached beyond calculation, suggesting that such a machine might manipulate symbols of any kind, including music. Her insight that a machine could follow general rules rather than only arithmetic remains a foundational idea in computing.",
-        "attribution": "Ada Lovelace",
-        "source": "https://en.wikipedia.org/wiki/Ada_Lovelace",
-        "takeaway": "A practical reflection drawn from Lovelace's 1843 notes, not a quotation from her: when you meet a tool, ask not only what it was built to do but what its underlying rules might be made to represent. Lovelace's hypothetical of a machine composing music shows how a narrow purpose can open onto broader uses, whether you are studying a new technology or a familiar one.",
-        "detail": "Review failed [INVALID_REVIEW_OUTPUT]. Reviewer gave no material reason for a grounding failure\n\nAugusta Ada King, Countess of Lovelace, known as Ada Lovelace (1815–1852), is chiefly known for her work on Charles Babbage's proposed mechanical general-purpose computer, the Analytical Engine. Born the only legitimate child of the poet Lord Byron and the reformer Anne Isabella Milbanke, she grew up after her parents separated within a month of her birth, and Byron died when she was eight. Often ill in childhood, she pursued her studies with determination. From 1832, when she was seventeen, her mathematical abilities began to emerge. Her mother's concern about the instability she associated with Byron was one reason Ada was taught mathematics from an early age, and she was privately educated in mathematics and science by William Frend, William King, and Mary Somerville. Later, Augustus De Morgan gave her considerable help with advanced topics, including the numbers of Bernoulli.\n\nLovelace first met Charles Babbage in June 1833, through their mutual friend Mary Somerville. She became fascinated with his work on calculating engines and was impressed by his analytic approach; Babbage admired her intellect and called her \"The Enchantress of Number.\" Babbage's Analytical Engine was never completed in his lifetime, but it is recognised as a Turing-complete general-purpose design that anticipated essential features of a modern computer. Its intended programming used punched cards, a principle borrowed from the Jacquard loom.\n\nLovelace's most celebrated contribution appeared in 1843, when she translated an article by the military engineer Luigi Menabrea about the Analytical Engine and added seven long explanatory notes, usually labelled A to G. In Note G she described a method for using the machine to calculate Bernoulli numbers, a procedure often called the first published computer program. Scholars dispute how much of this work was original to her and how much reflected Babbage's help; Allan Bromley and Bruce Collier argue her technical contribution was limited, while Stephen Wolfram and Doron Swade give her more credit. That disagreement should be kept in view when assessing her individual role.\n\nThe notes also contain the passage that most directly shows her wider vision. Lovelace emphasised that the Analytical Engine differed from earlier calculating machines because it could be programmed to solve problems of many kinds. She wrote that the engine \"might act upon other things besides number\" if their fundamental relations could be expressed in the same abstract science of operations. As a hypothetical example she suggested that, if the relations of pitched sounds in harmony and musical composition could be expressed in this way, the engine \"might compose elaborate and scientific pieces of music of any degree of complexity or extent.\" Doron Swade has described her insight as recognising that numbers could represent other entities, such as letters or musical notes, so that a machine could manipulate symbols according to rules rather than only crunch numbers. The notes also include what became known as \"Lady Lovelace's Objection,\" her statement that the engine \"has no pretensions whatever to originate anything,\" which Alan Turing later named when discussing artificial intelligence.\n\nLovelace died of cancer in 1852 at the age of thirty-six. Her significance lies less in a finished machine than in a shift of perspective: the recognition that a device built to produce numerical tables might follow general rules and be applied to purposes its builders had not foreseen. Seeing what a tool could do beyond its obvious function is the habit of mind most associated with her engagement with Babbage's engine.",
-        "id": "generated-de0c08f0fea849eb8c29",
-        "category": "Quotes",
-        "status": "ready_for_publish",
-        "publishedAt": "",
-        "image": "https://raw.githubusercontent.com/jay-ds-labs/mydaycoach-inspirations/main/images/inspire/reflection-030.webp",
-        "reviewStatus": "approved",
-        "reviewFailureCode": "",
-        "reviewFailureSummary": "",
-        "reviewNotes": [
-          "The article is a short editor's note, not a full standalone article; consider expanding it into a readable piece with the card's body and takeaway included.",
-          "Reference to 'set in England in 1843' is supported by the source's 1843 notes and English nationality, though the excerpts do not state the setting location of the notes explicitly.",
-          "An isolated article-only check confirmed the ending is complete."
-        ]
-      }
+      ]
     },
     "generated-ad47ac364f9d455099d8": {
       "state": "approved",
