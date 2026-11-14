@@ -10,8 +10,8 @@ import urllib.request
 from enrich_library import evidence
 from research import discover, evidence_bundle, wikipedia
 
-MODEL = os.getenv("OPENAI_CONTENT_MODEL", "gpt-4.1")
-REVIEW_MODEL = os.getenv("OPENAI_REVIEW_MODEL", MODEL)
+from haiku_client import MODEL, request_json as haiku_json
+REVIEW_MODEL = MODEL
 TRANSIENT = {429, 502, 503, 504}
 LEGACY_NOTE = "Review failed ["
 ADVERSE_FEEDBACK = re.compile(
@@ -33,25 +33,9 @@ class ReviewError(Exception):
         self.code = code
 
 def request_json(prompt, model=MODEL):
-    request = urllib.request.Request(
-        "https://api.openai.com/v1/responses",
-        data=json.dumps({
-            "model": model, "input": [{"role": "user", "content": prompt}],
-            "text": {"format": {"type": "json_object"}},
-        }).encode(),
-        headers={"Authorization": "Bearer " + os.environ["OPENAI_API_KEY"],
-                 "Content-Type": "application/json"},
-    )
     for attempt in range(3):
         try:
-            with urllib.request.urlopen(request, timeout=180) as response:
-                result = json.load(response)
-            parts = [p["text"] for o in result.get("output", [])
-                     for p in o.get("content", []) if p.get("type") == "output_text"]
-            parsed = json.loads("".join(parts))
-            if not isinstance(parsed, dict):
-                raise ValueError("Expected a JSON object")
-            return parsed
+            return haiku_json(prompt, model=model)
         except urllib.error.HTTPError as error:
             if error.code in TRANSIENT and attempt < 2:
                 header = error.headers.get("Retry-After", "")
@@ -244,3 +228,4 @@ def finalize(item, alternatives=(), allow_card_correction=False, progress=lambda
              "reasonCode": "" if approved else code, "reason": "" if approved else reason,
              "sourceUrls": [x["url"] for x in records], "sourceErrors": source_errors}
     return final, audit
+

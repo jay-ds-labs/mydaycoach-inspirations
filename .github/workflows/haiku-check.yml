@@ -1,0 +1,35 @@
+name: Verify Haiku-only inspiration pipeline
+on:
+  workflow_dispatch:
+  push:
+    branches: [main, feature/haiku-only]
+    paths: [scripts/**, backend/**, tests/**, .github/workflows/**]
+  pull_request:
+    paths: [scripts/**, backend/**, tests/**, .github/workflows/**]
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Python editorial regression tests
+        run: python -m unittest discover -s tests -p 'test_*.py' -v
+      - name: Worker authentication, provider and dispatch tests
+        run: node --test tests/worker.test.mjs
+      - name: Check only Haiku is used by model callers
+        run: |
+          if rg -n 'api.openai.com|gpt-4|OPENAI_API_KEY|OPENAI_CONTENT_MODEL|OPENAI_REVIEW_MODEL|OPENAI_IMAGE_REVIEW_MODEL' scripts backend/worker.js .github/workflows/generate-inspirations.yml .github/workflows/enrich-all.yml .github/workflows/enrich-library.yml .github/workflows/audit-images.yml .github/workflows/recover-final.yml .github/workflows/upgrade-existing.yml; then exit 1; fi
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Haiku-Inspire-Worker
+          path: |
+            backend/worker.js
+            backend/wrangler.toml
+            docs/HAIKU_MIGRATION.md

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Expand existing draft entries into long-form editorial candidates.
-Requires OPENAI_API_KEY. Generated content remains draft pending source and image review.
+Requires the Haiku-only Inspire Worker connection. Generated content remains draft pending source and image review.
 """
 import json
 import os
@@ -49,3 +49,4 @@ def main():
 
 if __name__=="__main__":
     main()
+

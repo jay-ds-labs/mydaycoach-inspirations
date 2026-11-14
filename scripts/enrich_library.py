@@ -23,8 +23,8 @@ FEED=ROOT/"library.json"
 PROGRESS=ROOT/"enrichment-status.json"
 REVIEWS=ROOT/"enrichment-review.json"
 IMAGES=ROOT/"enrichment-images.json"
-MODEL=os.getenv("OPENAI_CONTENT_MODEL","gpt-4.1")
-REVIEW_MODEL=os.getenv("OPENAI_REVIEW_MODEL",MODEL)
+from haiku_client import MODEL, request_json as haiku_json, configured as haiku_configured
+REVIEW_MODEL=MODEL
 BATCH_SIZE=max(1,min(20,int(os.getenv("ENRICH_BATCH_SIZE","10"))))
 RETRY_REVIEW=os.getenv("ENRICH_RETRY_REVIEW","false").lower()=="true"
 MAX_ATTEMPTS=max(1,min(3,int(os.getenv("ENRICH_MAX_ATTEMPTS","3"))))
@@ -57,19 +57,7 @@ def persist(message):
         subprocess.run(["git","push","origin","HEAD:main"],check=True)
 
 def model_json(prompt,model):
-    payload={"model":model,"input":[{"role":"user","content":prompt}],
-             "text":{"format":{"type":"json_object"}}}
-    request=urllib.request.Request("https://api.openai.com/v1/responses",
-        data=json.dumps(payload).encode("utf-8"),
-        headers={"Authorization":"Bearer "+os.environ["OPENAI_API_KEY"],
-                 "Content-Type":"application/json"})
-    with urllib.request.urlopen(request,timeout=180) as response:
-        raw=json.load(response)
-    parts=[p.get("text","") for o in raw.get("output",[])
-           for p in o.get("content",[]) if p.get("type")=="output_text"]
-    if not parts:
-        raise ValueError("Model returned no text")
-    return json.loads("".join(parts))
+    return haiku_json(prompt, model=model)
 
 def evidence(url):
     if not url.startswith("https://"):
@@ -120,8 +108,8 @@ def review(item,detail,source):
         "\nSource evidence:\n"+source+"\nArticle:\n"+detail,REVIEW_MODEL)
 
 def main():
-    if not os.getenv("OPENAI_API_KEY"):
-        raise RuntimeError("Missing OPENAI_API_KEY")
+    if not haiku_configured():
+        raise RuntimeError("Configure INSPIRE_WORKER_URL and INSPIRE_WORKER_TOKEN")
     feed=json.loads(FEED.read_text(encoding="utf-8"))
     original=[x for x in feed["items"] if x.get("status")!="published"]
     reviews=json.loads(REVIEWS.read_text(encoding="utf-8")) if REVIEWS.exists() else {"items":{}}
@@ -253,3 +241,4 @@ def main():
 
 if __name__=="__main__":
     main()
+

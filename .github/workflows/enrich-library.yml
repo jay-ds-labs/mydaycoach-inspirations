@@ -37,11 +37,11 @@ jobs:
           python3 -m unittest discover -s tests -p "test_*.py" -v
       - name: Enrich existing entries and run independent editorial review
         env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          OPENAI_CONTENT_MODEL: gpt-4.1
-          OPENAI_REVIEW_MODEL: gpt-4.1
+          INSPIRE_WORKER_URL: ${{ vars.INSPIRE_WORKER_URL }}
+          INSPIRE_WORKER_TOKEN: ${{ secrets.INSPIRE_WORKER_TOKEN }}
           ENRICH_BATCH_SIZE: ${{ inputs.batch_size }}
           ENRICH_RETRY_REVIEW: ${{ inputs.retry_review }}
         run: |
-          test -n "$OPENAI_API_KEY" || { echo "Missing OPENAI_API_KEY"; exit 1; }
+          test -n "$INSPIRE_WORKER_URL" && test -n "$INSPIRE_WORKER_TOKEN" || { echo "Missing Inspire Worker URL/token"; exit 1; }
           python3 scripts/enrich_library.py
+
