@@ -1,5 +1,5 @@
 {
   "batchStartedAt": "2026-11-14T13:02:48.709534Z",
-  "reason": "Resume remaining failed slots after live verification of reviewer notes and exact subject lookup.",
-  "recoveryAttempt": 2
+  "reason": "Recover only two remaining slots after preserving readable patent evidence and adding bounded rate-limit retries.",
+  "recoveryAttempt": 3
 }
