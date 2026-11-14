@@ -60,3 +60,10 @@ class FinalReviewTests(unittest.TestCase):
     @patch('final_review.research',return_value=([],['Source HTTP 403']))
     def test_no_evidence_does_not_publish_a_fabrication(self,research):
         item,audit=finalize(CARD);self.assertFalse(audit['eligible']);self.assertEqual(0,audit['completedReviews'])
+    @patch('final_review.evidence',return_value=('A peripheral reference mentioning Hypatia.', ''))
+    @patch('final_review.discover',return_value=([{'title':'Hypatia','url':'https://en.wikipedia.org/wiki/Hypatia','text':'Hypatia taught philosophy in Alexandria.'}],[]))
+    def test_subject_specific_reference_becomes_primary_citation(self,discover,evidence):
+        from final_review import research
+        item={**CARD,'title':"Hypatia's Lamp",'attribution':'Socrates Scholasticus','source':'https://example.org/general-history'}
+        records,_=research(item,[])
+        self.assertEqual('https://en.wikipedia.org/wiki/Hypatia',records[0]['url'])

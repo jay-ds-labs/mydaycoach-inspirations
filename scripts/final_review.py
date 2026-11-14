@@ -70,7 +70,11 @@ def research(item, alternatives):
         extra, lookup_errors = discover(item, "", fetch=evidence)
         records.extend(x for x in extra if x["url"] not in {r["url"] for r in records})
         errors.extend(lookup_errors)
-    return [r for r in records if relevant(r,item)][:4], errors
+    from research import words
+    subject=words(subject_query(item))
+    records=[r for r in records if relevant(r,item)]
+    records.sort(key=lambda r:len(subject & words(r["title"]+" "+r["url"].replace("_"," "))),reverse=True)
+    return records[:4], errors
 
 def refresh_evidence(records, query, errors, card=None):
     if not query:
@@ -88,7 +92,9 @@ def refresh_evidence(records, query, errors, card=None):
 def compose(card, prior, feedback, records, allow_card_correction):
     return request_json(
         "Write one original, accurate, publication-quality inspiration as a JSON object "
-        "with keys detail and takeaway. Include changes, "
+        + ("with required string keys detail, takeaway, title, body, attribution, source, changes. "
+           if allow_card_correction else "with required string keys detail, takeaway, changes. ")
+        + "Include changes, "
         "where changes is a short description of edits you actually made. Around 1,000 words "
         "is optional and shorter is fine if complete. Never pad or enforce a word count. "
         "Provide a coherent narrative or explanation with context, meaning and a practical takeaway. "
