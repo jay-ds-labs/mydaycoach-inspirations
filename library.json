@@ -1425,6 +1425,27 @@
         "The card states 'stepping into the same river twice' as a traditional quotation; the article correctly notes the three surviving forms differ, so the card could more precisely say the river image is a traditional summary rather than a single secure quotation.",
         "The card's 'the central insight remains widely studied' is fine, but the card body omits the article's key point that the Stanford source treats the single securely attested river fragment (B12) as pointing to stability through change, which the takeaway reflects well."
       ]
+    },
+    {
+      "title": "Locke and the Blank Slate: Experience as the Source of Knowledge",
+      "body": "In An Essay Concerning Human Understanding (1689), John Locke argued against the idea that minds come equipped with innate principles. He described the mind as beginning without content, like an empty space awaiting material, and held that our ideas arise from sensation and from reflection on our own mental operations. On this view, knowledge is built step by step from experience, which makes careful attention to what we actually perceive a foundational intellectual discipline.",
+      "attribution": "John Locke (1632–1704), English philosopher",
+      "source": "https://plato.stanford.edu/entries/locke/",
+      "takeaway": "Build beliefs from what you can actually observe, and treat untested inherited ideas with caution.",
+      "detail": "John Locke (1632–1704) was an English philosopher, Oxford academic and medical researcher whose An Essay Concerning Human Understanding (1689) is among the first major defenses of modern empiricism. Locke lived through a turbulent century in English history: conflicts between Crown and Parliament and among Protestant, Anglican and Catholic communities erupted into civil war in the 1640s, followed by the abolition of the monarchy under the Protectorate of Oliver Cromwell, the Restoration of Charles II, and the Glorious Revolution of 1688, which removed James II. Locke's education at Westminster School and Christ Church, Oxford, exposed him to the scholastic Aristotelianism he found of little use, and also to the new experimental philosophy of the Oxford group around Robert Boyle, whose emphasis on observation over inherited texts shaped Locke's outlook.\n\nThe Essay's central aim was to examine the origin, extent and limits of human knowledge. Locke opposed the view that certain principles are innately stamped on the mind. In his account, the mind begins without content, something like an empty space awaiting material, and the question is how that material arrives. Locke's answer, as interpreted in standard accounts of the Essay, is that ideas come from experience, which he divides into sensation, the mind's reception of impressions from external objects, and reflection, the mind's attention to its own operations such as thinking and doubting. Simple ideas arise from these sources, and the mind combines them into complex ideas. On this reading, careful attention to what we actually perceive is a foundational intellectual discipline, since it determines what we can legitimately claim to know.\n\nThe Essay also sets limits. Locke's broader project, which he describes in the Essay, was to determine what human understanding can and cannot reach. The general outline of this program is well documented; the specific distinction between knowledge and probable belief, often attributed to Locke's treatment of probability, should be read as an interpretation of the Essay's later books rather than as a fact established by the sources consulted here.\n\nHume later followed Locke in rejecting innate ideas, holding that all our ideas derive from impressions, which places the two within the empiricist tradition. Modern epistemology treats empiricism as the view that knowledge comes from sense experience, which makes Locke an early and important figure in that debate.\n\nInterpretation: the practical lesson drawn from Locke is that beliefs are best built from observations one can examine, and that inherited opinions should be tested before they are trusted. This is an interpretive reading of Locke's project, not a claim that he stated it in these words.",
+      "id": "generated-61cb5141a99f46598bc0",
+      "category": "Philosophy",
+      "status": "ready_for_publish",
+      "publishedAt": "",
+      "image": "https://raw.githubusercontent.com/jay-ds-labs/mydaycoach-inspirations/main/images/inspire/reflection-001.webp",
+      "reviewStatus": "approved",
+      "reviewFailureCode": "",
+      "reviewFailureSummary": "",
+      "reviewNotes": [
+        "The card's body states that Locke held the mind 'begins without content, like an empty space awaiting material'; the SEP excerpt supports this as a blank-slate account (tabula rasa), so the wording is adequately grounded.",
+        "The card's 'takeaway' is an interpretive, practical reading and is clearly framed as such in the article; it does not need to be a direct Locke quotation.",
+        "The card's 'source' link is the Stanford Encyclopedia entry, which the supplied evidence supports; the card does not claim exact-word quotation, so no verbatim verification is required."
+      ]
     }
   ]
 }

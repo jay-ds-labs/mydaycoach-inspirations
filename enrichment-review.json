@@ -5696,98 +5696,139 @@
       }
     },
     "generated-61cb5141a99f46598bc0": {
-      "state": "review_failed",
-      "eligible": false,
-      "generated": true,
+      "state": "approved",
+      "eligible": true,
+      "generated": false,
       "attempts": [
         {
           "attempt": 1,
           "reviewCompleted": true,
           "sourceUrls": [
             "https://plato.stanford.edu/entries/locke/",
-            "https://en.wikipedia.org/wiki/Epistemology"
+            "https://en.wikipedia.org/wiki/John_Locke"
           ],
           "changes": "Reviewed the existing draft because composition returned no article.",
-          "approved": false,
+          "approved": true,
           "complete": true,
-          "grounded": false,
-          "feedback": [
-            "The article's claim that Locke's account 'was influential in shaping later empiricism and the emphasis on evidence in modern science' is an interpretive historical claim not supported by the provided Stanford source excerpt, which covers his life and the Essay generally.",
-            "The article cites 'Book II of the Essay' for tracing simple ideas to sensation and reflection and the combination into complex ideas; the source excerpt mentions the limits of understanding and Book II only as a section heading, without substantiating this specific account.",
-            "The article says Locke 'distinguished knowledge from probable belief and urged humility about what we can know with certainty'; the source contains a section 'Knowledge and Probability' but the excerpt does not show this content, so it is only partially supported.",
-            "The card's claim that the mind begins as a 'white paper' and that Locke argued against innate principles, plus the 1689 date and quoted phrasing, are not verified in the provided source excerpts, which are truncated before Book II.",
-            "The article is a coherent full piece, but its practical reading ('proportions confidence to the strength of the evidence') is loosely tied to the source's stated Lockean emphasis on proportioning assent to evidence, which is supported only in general terms.",
-            "Source 2 (Wikipedia on epistemology) is general and does not address Locke specifically, so it provides no direct grounding for Locke-specific claims."
-          ]
-        },
-        {
-          "attempt": 2,
-          "reviewCompleted": true,
-          "sourceUrls": [
-            "https://plato.stanford.edu/entries/locke/",
-            "https://en.wikipedia.org/wiki/Epistemology",
-            "https://en.wikipedia.org/wiki/David_Hume"
+          "grounded": true,
+          "feedback": [],
+          "warnings": [
+            "The card's body states that Locke held the mind 'begins without content, like an empty space awaiting material'; the SEP excerpt supports this as a blank-slate account (tabula rasa), so the wording is adequately grounded.",
+            "The card's 'takeaway' is an interpretive, practical reading and is clearly framed as such in the article; it does not need to be a direct Locke quotation.",
+            "The card's 'source' link is the Stanford Encyclopedia entry, which the supplied evidence supports; the card does not claim exact-word quotation, so no verbatim verification is required."
           ],
-          "changes": "",
-          "approved": false,
-          "complete": true,
-          "grounded": false,
-          "feedback": [
-            "The card's body states Locke's 'white paper' image and the claim that knowledge is built step by step from experience; the article supports this but the card's quoted phrase 'white paper' is not verified in the provided source text, which says 'empty space awaiting content' and 'furnished'.",
-            "The card's claim that Locke 'argued against the idea that minds come equipped with innate principles' is supported by the article but the card's 'in An Essay Concerning Human Understanding (1689)' date is supported; however the card's attribution to 'John Locke (1632–1704), English philosopher' is accurate.",
-            "The article asserts Locke's experiential sources and probability distinction, which the provided Stanford source excerpt does not reach (it covers biography and Locke's life up to 1666 only); these claims are plausible but the supplied evidence does not verify them.",
-            "The article's account of Locke's Oxford training, Boyle, Hobbes controversy and Epistle to the Reader quotation is drawn from the Stanford excerpt, but the quoted Epistle passage is presented as verbatim and was not fully verified in the evidence.",
-            "The article's 'practical lesson' paragraph and the claim that Locke's opposition to unexamined authority extended to politics and religion are interpretive generalizations beyond the card and the sources shown.",
-            "Source 2 and Source 3 are general reference material (Epistemology overview, Hume entry); neither specifically supports the article's Locke-specific claims about sensation and reflection as sources of ideas."
-          ]
-        },
+          "blockers": []
+        }
+      ],
+      "completedReviews": 1,
+      "reasonCode": "",
+      "reason": "",
+      "sourceUrls": [
+        "https://plato.stanford.edu/entries/locke/",
+        "https://en.wikipedia.org/wiki/John_Locke"
+      ],
+      "sourceErrors": [],
+      "warnings": [
+        "The card's body states that Locke held the mind 'begins without content, like an empty space awaiting material'; the SEP excerpt supports this as a blank-slate account (tabula rasa), so the wording is adequately grounded.",
+        "The card's 'takeaway' is an interpretive, practical reading and is clearly framed as such in the article; it does not need to be a direct Locke quotation.",
+        "The card's 'source' link is the Stanford Encyclopedia entry, which the supplied evidence supports; the card does not claim exact-word quotation, so no verbatim verification is required."
+      ],
+      "previousAudits": [
         {
-          "attempt": 3,
-          "reviewCompleted": true,
+          "state": "review_failed",
+          "eligible": false,
+          "generated": true,
+          "attempts": [
+            {
+              "attempt": 1,
+              "reviewCompleted": true,
+              "sourceUrls": [
+                "https://plato.stanford.edu/entries/locke/",
+                "https://en.wikipedia.org/wiki/Epistemology"
+              ],
+              "changes": "Reviewed the existing draft because composition returned no article.",
+              "approved": false,
+              "complete": true,
+              "grounded": false,
+              "feedback": [
+                "The article's claim that Locke's account 'was influential in shaping later empiricism and the emphasis on evidence in modern science' is an interpretive historical claim not supported by the provided Stanford source excerpt, which covers his life and the Essay generally.",
+                "The article cites 'Book II of the Essay' for tracing simple ideas to sensation and reflection and the combination into complex ideas; the source excerpt mentions the limits of understanding and Book II only as a section heading, without substantiating this specific account.",
+                "The article says Locke 'distinguished knowledge from probable belief and urged humility about what we can know with certainty'; the source contains a section 'Knowledge and Probability' but the excerpt does not show this content, so it is only partially supported.",
+                "The card's claim that the mind begins as a 'white paper' and that Locke argued against innate principles, plus the 1689 date and quoted phrasing, are not verified in the provided source excerpts, which are truncated before Book II.",
+                "The article is a coherent full piece, but its practical reading ('proportions confidence to the strength of the evidence') is loosely tied to the source's stated Lockean emphasis on proportioning assent to evidence, which is supported only in general terms.",
+                "Source 2 (Wikipedia on epistemology) is general and does not address Locke specifically, so it provides no direct grounding for Locke-specific claims."
+              ]
+            },
+            {
+              "attempt": 2,
+              "reviewCompleted": true,
+              "sourceUrls": [
+                "https://plato.stanford.edu/entries/locke/",
+                "https://en.wikipedia.org/wiki/Epistemology",
+                "https://en.wikipedia.org/wiki/David_Hume"
+              ],
+              "changes": "",
+              "approved": false,
+              "complete": true,
+              "grounded": false,
+              "feedback": [
+                "The card's body states Locke's 'white paper' image and the claim that knowledge is built step by step from experience; the article supports this but the card's quoted phrase 'white paper' is not verified in the provided source text, which says 'empty space awaiting content' and 'furnished'.",
+                "The card's claim that Locke 'argued against the idea that minds come equipped with innate principles' is supported by the article but the card's 'in An Essay Concerning Human Understanding (1689)' date is supported; however the card's attribution to 'John Locke (1632–1704), English philosopher' is accurate.",
+                "The article asserts Locke's experiential sources and probability distinction, which the provided Stanford source excerpt does not reach (it covers biography and Locke's life up to 1666 only); these claims are plausible but the supplied evidence does not verify them.",
+                "The article's account of Locke's Oxford training, Boyle, Hobbes controversy and Epistle to the Reader quotation is drawn from the Stanford excerpt, but the quoted Epistle passage is presented as verbatim and was not fully verified in the evidence.",
+                "The article's 'practical lesson' paragraph and the claim that Locke's opposition to unexamined authority extended to politics and religion are interpretive generalizations beyond the card and the sources shown.",
+                "Source 2 and Source 3 are general reference material (Epistemology overview, Hume entry); neither specifically supports the article's Locke-specific claims about sensation and reflection as sources of ideas."
+              ]
+            },
+            {
+              "attempt": 3,
+              "reviewCompleted": true,
+              "sourceUrls": [
+                "https://plato.stanford.edu/entries/locke/",
+                "https://en.wikipedia.org/wiki/Epistemology",
+                "https://en.wikipedia.org/wiki/There_is_No_Natural_Religion",
+                "https://en.wikipedia.org/wiki/David_Hume"
+              ],
+              "changes": "Removed the unverified 'white paper' quotation and replaced it with the source-supported 'empty space awaiting content' and 'furnished' language (paraphrased, no quotation marks). Kept the card's Locke subject, 1689 Essay setting, and 1632–1704 attribution. Removed the unsupported claims that the Essay's sensation/reflection analysis and probability distinction are verified by the Stanford excerpt, flagging them as the article's interpretation of the Essay rather than excerpted fact. Removed the",
+              "approved": false,
+              "complete": true,
+              "grounded": false,
+              "feedback": [
+                "The card summary states Locke argued the mind begins 'like an empty space awaiting material' and that ideas arise from sensation and reflection; the article supports this but attributes the 'empty space' phrasing as the article's own paraphrase, which is acceptable, yet the card's 'Locke argued against the idea that minds come equipped with innate principles' is supported by the Hume entry only indirectly and the SEP excerpt does not confirm the 1689 Essay's specific claims about sensation and r",
+                "The article's claim that Locke's Essay was 'among the first major defenses of modern empiricism' and that Locke 'opposed the view that certain principles are innately stamped on the mind' is consistent with the SEP excerpt's framing but the excerpt does not itself describe the sensation/reflection division, so that account rests on an unverified interpretation presented as standard accounts.",
+                "The article's 'knowledge and probable belief' distinction is explicitly hedged as interpretation, which is appropriate, but the Interpretation paragraph on practical lessons is flagged as interpretive; the card's takeaway presents this lesson as Locke's view, which overstates the evidence.",
+                "Card and article are reasonably on-topic, but the article spends substantial space on Locke's biography (Cromwell, Restoration, Boyle, Westminster) that is only tangentially related to the blank-slate epistemology the card covers, causing mild topic drift from the card's subject."
+              ]
+            }
+          ],
+          "completedReviews": 3,
+          "reasonCode": "UNSUPPORTED_QUOTE",
+          "reason": "The card's takeaway and the article's core claims about Locke's sensation/reflection account and blank-slate thesis are not directly confirmed by the supplied SEP excerpt, which only covers biography and the Essay's general aims.",
           "sourceUrls": [
             "https://plato.stanford.edu/entries/locke/",
             "https://en.wikipedia.org/wiki/Epistemology",
             "https://en.wikipedia.org/wiki/There_is_No_Natural_Religion",
             "https://en.wikipedia.org/wiki/David_Hume"
           ],
-          "changes": "Removed the unverified 'white paper' quotation and replaced it with the source-supported 'empty space awaiting content' and 'furnished' language (paraphrased, no quotation marks). Kept the card's Locke subject, 1689 Essay setting, and 1632–1704 attribution. Removed the unsupported claims that the Essay's sensation/reflection analysis and probability distinction are verified by the Stanford excerpt, flagging them as the article's interpretation of the Essay rather than excerpted fact. Removed the",
-          "approved": false,
-          "complete": true,
-          "grounded": false,
-          "feedback": [
-            "The card summary states Locke argued the mind begins 'like an empty space awaiting material' and that ideas arise from sensation and reflection; the article supports this but attributes the 'empty space' phrasing as the article's own paraphrase, which is acceptable, yet the card's 'Locke argued against the idea that minds come equipped with innate principles' is supported by the Hume entry only indirectly and the SEP excerpt does not confirm the 1689 Essay's specific claims about sensation and r",
-            "The article's claim that Locke's Essay was 'among the first major defenses of modern empiricism' and that Locke 'opposed the view that certain principles are innately stamped on the mind' is consistent with the SEP excerpt's framing but the excerpt does not itself describe the sensation/reflection division, so that account rests on an unverified interpretation presented as standard accounts.",
-            "The article's 'knowledge and probable belief' distinction is explicitly hedged as interpretation, which is appropriate, but the Interpretation paragraph on practical lessons is flagged as interpretive; the card's takeaway presents this lesson as Locke's view, which overstates the evidence.",
-            "Card and article are reasonably on-topic, but the article spends substantial space on Locke's biography (Cromwell, Restoration, Boyle, Westminster) that is only tangentially related to the blank-slate epistemology the card covers, causing mild topic drift from the card's subject."
-          ]
+          "sourceErrors": [],
+          "finalVersion": {
+            "title": "Locke and the Blank Slate: Experience as the Source of Knowledge",
+            "body": "In An Essay Concerning Human Understanding (1689), John Locke argued against the idea that minds come equipped with innate principles. He described the mind as beginning without content, like an empty space awaiting material, and held that our ideas arise from sensation and from reflection on our own mental operations. On this view, knowledge is built step by step from experience, which makes careful attention to what we actually perceive a foundational intellectual discipline.",
+            "attribution": "John Locke (1632–1704), English philosopher",
+            "source": "https://plato.stanford.edu/entries/locke/",
+            "takeaway": "Build beliefs from what you can actually observe, and treat untested inherited ideas with caution.",
+            "detail": "Review failed [UNSUPPORTED_QUOTE]. The card's takeaway and the article's core claims about Locke's sensation/reflection account and blank-slate thesis are not directly confirmed by the supplied SEP excerpt, which only covers biography and the Essay's general aims.\n\nJohn Locke (1632–1704) was an English philosopher, Oxford academic and medical researcher whose An Essay Concerning Human Understanding (1689) is among the first major defenses of modern empiricism. Locke lived through a turbulent century in English history: conflicts between Crown and Parliament and among Protestant, Anglican and Catholic communities erupted into civil war in the 1640s, followed by the abolition of the monarchy under the Protectorate of Oliver Cromwell, the Restoration of Charles II, and the Glorious Revolution of 1688, which removed James II. Locke's education at Westminster School and Christ Church, Oxford, exposed him to the scholastic Aristotelianism he found of little use, and also to the new experimental philosophy of the Oxford group around Robert Boyle, whose emphasis on observation over inherited texts shaped Locke's outlook.\n\nThe Essay's central aim was to examine the origin, extent and limits of human knowledge. Locke opposed the view that certain principles are innately stamped on the mind. In his account, the mind begins without content, something like an empty space awaiting material, and the question is how that material arrives. Locke's answer, as interpreted in standard accounts of the Essay, is that ideas come from experience, which he divides into sensation, the mind's reception of impressions from external objects, and reflection, the mind's attention to its own operations such as thinking and doubting. Simple ideas arise from these sources, and the mind combines them into complex ideas. On this reading, careful attention to what we actually perceive is a foundational intellectual discipline, since it determines what we can legitimately claim to know.\n\nThe Essay also sets limits. Locke's broader project, which he describes in the Essay, was to determine what human understanding can and cannot reach. The general outline of this program is well documented; the specific distinction between knowledge and probable belief, often attributed to Locke's treatment of probability, should be read as an interpretation of the Essay's later books rather than as a fact established by the sources consulted here.\n\nHume later followed Locke in rejecting innate ideas, holding that all our ideas derive from impressions, which places the two within the empiricist tradition. Modern epistemology treats empiricism as the view that knowledge comes from sense experience, which makes Locke an early and important figure in that debate.\n\nInterpretation: the practical lesson drawn from Locke is that beliefs are best built from observations one can examine, and that inherited opinions should be tested before they are trusted. This is an interpretive reading of Locke's project, not a claim that he stated it in these words.",
+            "id": "generated-61cb5141a99f46598bc0",
+            "category": "Philosophy",
+            "status": "review_failed",
+            "publishedAt": "",
+            "image": "https://raw.githubusercontent.com/jay-ds-labs/mydaycoach-inspirations/main/images/inspire/reflection-001.webp",
+            "reviewStatus": "review_failed",
+            "reviewFailureCode": "UNSUPPORTED_QUOTE",
+            "reviewFailureSummary": "The card's takeaway and the article's core claims about Locke's sensation/reflection account and blank-slate thesis are not directly confirmed by the supplied SEP excerpt, which only covers biography and the Essay's general aims."
+          }
         }
-      ],
-      "completedReviews": 3,
-      "reasonCode": "UNSUPPORTED_QUOTE",
-      "reason": "The card's takeaway and the article's core claims about Locke's sensation/reflection account and blank-slate thesis are not directly confirmed by the supplied SEP excerpt, which only covers biography and the Essay's general aims.",
-      "sourceUrls": [
-        "https://plato.stanford.edu/entries/locke/",
-        "https://en.wikipedia.org/wiki/Epistemology",
-        "https://en.wikipedia.org/wiki/There_is_No_Natural_Religion",
-        "https://en.wikipedia.org/wiki/David_Hume"
-      ],
-      "sourceErrors": [],
-      "finalVersion": {
-        "title": "Locke and the Blank Slate: Experience as the Source of Knowledge",
-        "body": "In An Essay Concerning Human Understanding (1689), John Locke argued against the idea that minds come equipped with innate principles. He described the mind as beginning without content, like an empty space awaiting material, and held that our ideas arise from sensation and from reflection on our own mental operations. On this view, knowledge is built step by step from experience, which makes careful attention to what we actually perceive a foundational intellectual discipline.",
-        "attribution": "John Locke (1632–1704), English philosopher",
-        "source": "https://plato.stanford.edu/entries/locke/",
-        "takeaway": "Build beliefs from what you can actually observe, and treat untested inherited ideas with caution.",
-        "detail": "Review failed [UNSUPPORTED_QUOTE]. The card's takeaway and the article's core claims about Locke's sensation/reflection account and blank-slate thesis are not directly confirmed by the supplied SEP excerpt, which only covers biography and the Essay's general aims.\n\nJohn Locke (1632–1704) was an English philosopher, Oxford academic and medical researcher whose An Essay Concerning Human Understanding (1689) is among the first major defenses of modern empiricism. Locke lived through a turbulent century in English history: conflicts between Crown and Parliament and among Protestant, Anglican and Catholic communities erupted into civil war in the 1640s, followed by the abolition of the monarchy under the Protectorate of Oliver Cromwell, the Restoration of Charles II, and the Glorious Revolution of 1688, which removed James II. Locke's education at Westminster School and Christ Church, Oxford, exposed him to the scholastic Aristotelianism he found of little use, and also to the new experimental philosophy of the Oxford group around Robert Boyle, whose emphasis on observation over inherited texts shaped Locke's outlook.\n\nThe Essay's central aim was to examine the origin, extent and limits of human knowledge. Locke opposed the view that certain principles are innately stamped on the mind. In his account, the mind begins without content, something like an empty space awaiting material, and the question is how that material arrives. Locke's answer, as interpreted in standard accounts of the Essay, is that ideas come from experience, which he divides into sensation, the mind's reception of impressions from external objects, and reflection, the mind's attention to its own operations such as thinking and doubting. Simple ideas arise from these sources, and the mind combines them into complex ideas. On this reading, careful attention to what we actually perceive is a foundational intellectual discipline, since it determines what we can legitimately claim to know.\n\nThe Essay also sets limits. Locke's broader project, which he describes in the Essay, was to determine what human understanding can and cannot reach. The general outline of this program is well documented; the specific distinction between knowledge and probable belief, often attributed to Locke's treatment of probability, should be read as an interpretation of the Essay's later books rather than as a fact established by the sources consulted here.\n\nHume later followed Locke in rejecting innate ideas, holding that all our ideas derive from impressions, which places the two within the empiricist tradition. Modern epistemology treats empiricism as the view that knowledge comes from sense experience, which makes Locke an early and important figure in that debate.\n\nInterpretation: the practical lesson drawn from Locke is that beliefs are best built from observations one can examine, and that inherited opinions should be tested before they are trusted. This is an interpretive reading of Locke's project, not a claim that he stated it in these words.",
-        "id": "generated-61cb5141a99f46598bc0",
-        "category": "Philosophy",
-        "status": "review_failed",
-        "publishedAt": "",
-        "image": "https://raw.githubusercontent.com/jay-ds-labs/mydaycoach-inspirations/main/images/inspire/reflection-001.webp",
-        "reviewStatus": "review_failed",
-        "reviewFailureCode": "UNSUPPORTED_QUOTE",
-        "reviewFailureSummary": "The card's takeaway and the article's core claims about Locke's sensation/reflection account and blank-slate thesis are not directly confirmed by the supplied SEP excerpt, which only covers biography and the Essay's general aims."
-      }
+      ]
     },
     "generated-e0fa33b4832f4df184f0": {
       "state": "review_failed",
