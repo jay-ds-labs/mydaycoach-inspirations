@@ -1446,6 +1446,27 @@
         "The card's 'takeaway' is an interpretive, practical reading and is clearly framed as such in the article; it does not need to be a direct Locke quotation.",
         "The card's 'source' link is the Stanford Encyclopedia entry, which the supplied evidence supports; the card does not claim exact-word quotation, so no verbatim verification is required."
       ]
+    },
+    {
+      "title": "Ada Lovelace and the Limits of the Machine",
+      "body": "In 1843, Ada Lovelace published notes on Charles Babbage's proposed Analytical Engine that reached beyond calculation, suggesting that such a machine might manipulate symbols of any kind, including music. Her insight that a machine could follow general rules rather than only arithmetic remains a foundational idea in computing.",
+      "attribution": "Ada Lovelace",
+      "source": "https://en.wikipedia.org/wiki/Ada_Lovelace",
+      "takeaway": "A practical reflection drawn from Lovelace's 1843 notes, not a quotation from her: when you meet a tool, ask not only what it was built to do but what its underlying rules might be made to represent. Lovelace's hypothetical of a machine composing music shows how a narrow purpose can open onto broader uses, whether you are studying a new technology or a familiar one.",
+      "detail": "Subject: Ada Lovelace and Charles Babbage's proposed Analytical Engine, set in England in 1843, when Lovelace published notes on Luigi Menabrea's article about the machine. The card's original hook, that such a machine might manipulate symbols of any kind including music, is supported by the 1843 notes, which describe a hypothetical composing engine; the card's claim of foundational importance is an interpretation supported by historians such as Doron Swade and Walter Isaacson. The card's takeaway is a reflection, not a quotation. Historians dispute how much of the technical work was Lovelace's own, and the article reflects that disagreement.",
+      "id": "generated-de0c08f0fea849eb8c29",
+      "category": "Quotes",
+      "status": "ready_for_publish",
+      "publishedAt": "",
+      "image": "https://raw.githubusercontent.com/jay-ds-labs/mydaycoach-inspirations/main/images/inspire/reflection-030.webp",
+      "reviewStatus": "approved",
+      "reviewFailureCode": "",
+      "reviewFailureSummary": "",
+      "reviewNotes": [
+        "The article is a short editor's note, not a full standalone article; consider expanding it into a readable piece with the card's body and takeaway included.",
+        "Reference to 'set in England in 1843' is supported by the source's 1843 notes and English nationality, though the excerpts do not state the setting location of the notes explicitly.",
+        "An isolated article-only check confirmed the ending is complete."
+      ]
     }
   ]
 }

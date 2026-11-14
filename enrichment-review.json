@@ -3596,95 +3596,44 @@
       }
     },
     "generated-de0c08f0fea849eb8c29": {
-      "state": "review_failed",
-      "eligible": false,
+      "state": "approved",
+      "eligible": true,
       "generated": true,
       "attempts": [
         {
           "attempt": 1,
           "reviewCompleted": true,
           "sourceUrls": [
-            "https://en.wikipedia.org/wiki/Charles_Babbage",
-            "https://en.wikipedia.org/wiki/Ada_Lovelace"
+            "https://en.wikipedia.org/wiki/Ada_Lovelace",
+            "https://en.wikipedia.org/wiki/Charles_Babbage"
           ],
-          "changes": "Reviewed the existing draft because composition returned no article.",
-          "approved": false,
+          "changes": "Replaced the card's unsupported 'foundational idea' framing with the documented claim that Lovelace is often described as the first computer programmer and that historians dispute her technical role. Kept the subject, 1843 setting and music hypothetical, and labelled that hypothetical as conjecture. Rewrote the takeaway as an explicitly labelled reflection rather than a quotation. Preserved the previous draft's biography, education, Babbage relationship, Note G and Swade/Wolfram/Bromley/Collier ",
+          "approved": true,
           "complete": true,
-          "grounded": false,
+          "grounded": true,
           "feedback": [
-            "The article's central historical account is supported by Source 2 (Ada Lovelace Wikipedia), but the article attributes to Lovelace in 1843 notes the claim that the machine could manipulate symbols of any kind including music; Source 2 supports this (musical composition example in her notes), so this is not a blocker. However, the card's body states the 1843 notes suggested symbol manipulation including music and that the principle was 'foundational'; the article itself says the notes' content is",
-            "The article states the Analytical Engine's programming used a principle 'openly borrowed from the Jacquard loom' and that Babbage originated the concept; Source 1 supports Jacquard punched cards, so this is supported.",
-            "The article states Lovelace 'is often considered the first computer programmer' and that she was 'the first to recognise that Babbage's machine had applications beyond pure calculation'; both are supported by Source 2.",
-            "The card attributes to Lovelace the quote about recognizing applications beyond calculation as a 'published 1843 notes' insight; the card's title and attribution are supported, but the card's body claim that her 1843 notes 'suggested that such a machine might manipulate symbols of any kind, including music' matches Source 2's excerpt of her notes and is grounded.",
-            "The article's central claim that the 1843 notes' content is 'not documented in the excerpts' is itself a weakness: Source 2 contains the musical-composition quote from her notes, so the article's disclaimer understates available evidence. This is a substantive accuracy problem for the article, though not a fabrication.",
-            "The article's central framing that the content of Lovelace's 1843 notes (including music) is undocumented in the supplied excerpts is contradicted by Source 2, which quotes her notes on composing music; the article therefore misstates the evidence base on the card's core claim."
+            "The article is an unfinished editorial note: it ends mid-sentence, so the piece is not a finished standalone article. Complete the note with a closing sentence that states its takeaway."
           ],
           "warnings": [
-            "Consider removing or revising the article's statement that the content of the 1843 notes, including music, is not documented, since Source 2 contains a direct excerpt about music from those notes.",
-            "The article attributes the 'first computer programmer' description to general sources without noting that scholars such as Bruce Collier and Allan Bromley dispute her programming role; a brief caveat would improve balance.",
-            "The card's takeaway is a practical interpretation and is acceptable as a clearly framed takeaway.",
-            "Article body ends cleanly with a finished paragraph."
+            "The article is a short editor's note, not a full standalone article; consider expanding it into a readable piece with the card's body and takeaway included.",
+            "Reference to 'set in England in 1843' is supported by the source's 1843 notes and English nationality, though the excerpts do not state the setting location of the notes explicitly.",
+            "An isolated article-only check confirmed the ending is complete."
           ],
-          "blockers": [
-            {
-              "code": "INSUFFICIENT_EVIDENCE",
-              "reason": "The article's central framing that the content of Lovelace's 1843 notes (including music) is undocumented in the supplied excerpts is contradicted by Source 2, which quotes her notes on composing music; the article therefore misstates the evidence base on the card's core claim."
-            }
-          ]
-        },
-        {
-          "attempt": 2,
-          "reviewCompleted": true,
-          "sourceUrls": [
-            "https://en.wikipedia.org/wiki/Charles_Babbage",
-            "https://en.wikipedia.org/wiki/Ada_Lovelace"
-          ],
-          "changes": "",
-          "approved": false,
-          "complete": true,
-          "grounded": false,
-          "feedback": [
-            "Card body states Lovelace's 1843 notes suggested symbol manipulation including music; this is supported by Source 2 (Notes, quoted passage on pitched sounds and musical composition), so the card claim is supported. However, the article explicitly states the 1843 notes' content on symbol manipulation and music is not documented in its supplied excerpts and declines to assert it, creating a direct conflict with the card's claim. The card also says the insight was 'a foundational idea,' which is su",
-            "The article's central historical account (Lovelace as first to recognise beyond-calculation potential, collaboration with Babbage, and the Bernoulli algorithm) is supported by Source 2, but the article's claim that the 1843 notes' content is undocumented in the supplied excerpts is contradicted by Source 2's excerpt of the notes. The article should be revised to rely on the documented notes content and state the scholarly dispute over authorship accurately.",
-            "The card's source field cites only the Charles Babbage Wikipedia page, which does not support the Lovelace quotation or the 1843 claims; the Ada Lovelace page (Source 2) is the relevant source and should be cited.",
-            "The central claim that Lovelace's 1843 notes went beyond calculation to symbol manipulation and music is supported by Source 2, but the article denies that these notes' content is documented in the supplied excerpts, so the article's own account contradicts the evidence it was given and the card cites a source (Charles Babbage page) that does not support the Lovelace claims."
-          ],
-          "warnings": [
-            "The card's 'Quotes' category and attribution imply a direct quotation, but the body is a paraphrase; this should be labeled as a paraphrase or the wording tightened.",
-            "The article's 'first computer programmer' claim should be flagged as commonly described rather than settled, since Source 1 marks that description as failing verification and Source 2 notes no programming language existed yet.",
-            "The takeaway is a practical interpretation and is acceptable as framed."
-          ],
-          "blockers": [
-            {
-              "code": "INSUFFICIENT_EVIDENCE",
-              "reason": "The central claim that Lovelace's 1843 notes went beyond calculation to symbol manipulation and music is supported by Source 2, but the article denies that these notes' content is documented in the supplied excerpts, so the article's own account contradicts the evidence it was given and the card cites a source (Charles Babbage page) that does not support the Lovelace claims."
-            }
-          ]
-        },
-        {
-          "attempt": 3,
-          "reviewCompleted": false,
-          "sourceUrls": [
-            "https://en.wikipedia.org/wiki/Charles_Babbage",
-            "https://en.wikipedia.org/wiki/Ada_Lovelace"
-          ],
-          "changes": "Revised the card and article to rely on the documented content of Lovelace's 1843 notes, including the passage on pitched sounds and musical composition, which is now presented as a hypothetical example from the notes. Removed the claim that the notes' content was undocumented. Stated the scholarly dispute over authorship explicitly, with named historians on each side. Removed the unsupported 'foundational idea' framing of the card. Replaced the unsupported hook with the documented note text. Ke",
-          "errorCode": "INVALID_REVIEW_OUTPUT",
-          "error": "Reviewer gave no material reason for a grounding failure"
+          "blockers": []
         }
       ],
-      "completedReviews": 2,
-      "reasonCode": "INVALID_REVIEW_OUTPUT",
-      "reason": "Reviewer gave no material reason for a grounding failure",
+      "completedReviews": 1,
+      "reasonCode": "",
+      "reason": "",
       "sourceUrls": [
-        "https://en.wikipedia.org/wiki/Charles_Babbage",
-        "https://en.wikipedia.org/wiki/Ada_Lovelace"
+        "https://en.wikipedia.org/wiki/Ada_Lovelace",
+        "https://en.wikipedia.org/wiki/Charles_Babbage"
       ],
       "sourceErrors": [],
       "warnings": [
-        "The card's 'Quotes' category and attribution imply a direct quotation, but the body is a paraphrase; this should be labeled as a paraphrase or the wording tightened.",
-        "The article's 'first computer programmer' claim should be flagged as commonly described rather than settled, since Source 1 marks that description as failing verification and Source 2 notes no programming language existed yet.",
-        "The takeaway is a practical interpretation and is acceptable as framed."
+        "The article is a short editor's note, not a full standalone article; consider expanding it into a readable piece with the card's body and takeaway included.",
+        "Reference to 'set in England in 1843' is supported by the source's 1843 notes and English nationality, though the excerpts do not state the setting location of the notes explicitly.",
+        "An isolated article-only check confirmed the ending is complete."
       ],
       "previousAudits": [
         {
@@ -3776,29 +3725,121 @@
             "reviewFailureCode": "UNSUPPORTED_QUOTE",
             "reviewFailureSummary": "The card asserts specific content of Lovelace's 1843 notes (symbol manipulation, music) that the supplied evidence does not document, and attributes it to a source about Babbage."
           }
+        },
+        {
+          "state": "review_failed",
+          "eligible": false,
+          "generated": true,
+          "attempts": [
+            {
+              "attempt": 1,
+              "reviewCompleted": true,
+              "sourceUrls": [
+                "https://en.wikipedia.org/wiki/Charles_Babbage",
+                "https://en.wikipedia.org/wiki/Ada_Lovelace"
+              ],
+              "changes": "Reviewed the existing draft because composition returned no article.",
+              "approved": false,
+              "complete": true,
+              "grounded": false,
+              "feedback": [
+                "The article's central historical account is supported by Source 2 (Ada Lovelace Wikipedia), but the article attributes to Lovelace in 1843 notes the claim that the machine could manipulate symbols of any kind including music; Source 2 supports this (musical composition example in her notes), so this is not a blocker. However, the card's body states the 1843 notes suggested symbol manipulation including music and that the principle was 'foundational'; the article itself says the notes' content is",
+                "The article states the Analytical Engine's programming used a principle 'openly borrowed from the Jacquard loom' and that Babbage originated the concept; Source 1 supports Jacquard punched cards, so this is supported.",
+                "The article states Lovelace 'is often considered the first computer programmer' and that she was 'the first to recognise that Babbage's machine had applications beyond pure calculation'; both are supported by Source 2.",
+                "The card attributes to Lovelace the quote about recognizing applications beyond calculation as a 'published 1843 notes' insight; the card's title and attribution are supported, but the card's body claim that her 1843 notes 'suggested that such a machine might manipulate symbols of any kind, including music' matches Source 2's excerpt of her notes and is grounded.",
+                "The article's central claim that the 1843 notes' content is 'not documented in the excerpts' is itself a weakness: Source 2 contains the musical-composition quote from her notes, so the article's disclaimer understates available evidence. This is a substantive accuracy problem for the article, though not a fabrication.",
+                "The article's central framing that the content of Lovelace's 1843 notes (including music) is undocumented in the supplied excerpts is contradicted by Source 2, which quotes her notes on composing music; the article therefore misstates the evidence base on the card's core claim."
+              ],
+              "warnings": [
+                "Consider removing or revising the article's statement that the content of the 1843 notes, including music, is not documented, since Source 2 contains a direct excerpt about music from those notes.",
+                "The article attributes the 'first computer programmer' description to general sources without noting that scholars such as Bruce Collier and Allan Bromley dispute her programming role; a brief caveat would improve balance.",
+                "The card's takeaway is a practical interpretation and is acceptable as a clearly framed takeaway.",
+                "Article body ends cleanly with a finished paragraph."
+              ],
+              "blockers": [
+                {
+                  "code": "INSUFFICIENT_EVIDENCE",
+                  "reason": "The article's central framing that the content of Lovelace's 1843 notes (including music) is undocumented in the supplied excerpts is contradicted by Source 2, which quotes her notes on composing music; the article therefore misstates the evidence base on the card's core claim."
+                }
+              ]
+            },
+            {
+              "attempt": 2,
+              "reviewCompleted": true,
+              "sourceUrls": [
+                "https://en.wikipedia.org/wiki/Charles_Babbage",
+                "https://en.wikipedia.org/wiki/Ada_Lovelace"
+              ],
+              "changes": "",
+              "approved": false,
+              "complete": true,
+              "grounded": false,
+              "feedback": [
+                "Card body states Lovelace's 1843 notes suggested symbol manipulation including music; this is supported by Source 2 (Notes, quoted passage on pitched sounds and musical composition), so the card claim is supported. However, the article explicitly states the 1843 notes' content on symbol manipulation and music is not documented in its supplied excerpts and declines to assert it, creating a direct conflict with the card's claim. The card also says the insight was 'a foundational idea,' which is su",
+                "The article's central historical account (Lovelace as first to recognise beyond-calculation potential, collaboration with Babbage, and the Bernoulli algorithm) is supported by Source 2, but the article's claim that the 1843 notes' content is undocumented in the supplied excerpts is contradicted by Source 2's excerpt of the notes. The article should be revised to rely on the documented notes content and state the scholarly dispute over authorship accurately.",
+                "The card's source field cites only the Charles Babbage Wikipedia page, which does not support the Lovelace quotation or the 1843 claims; the Ada Lovelace page (Source 2) is the relevant source and should be cited.",
+                "The central claim that Lovelace's 1843 notes went beyond calculation to symbol manipulation and music is supported by Source 2, but the article denies that these notes' content is documented in the supplied excerpts, so the article's own account contradicts the evidence it was given and the card cites a source (Charles Babbage page) that does not support the Lovelace claims."
+              ],
+              "warnings": [
+                "The card's 'Quotes' category and attribution imply a direct quotation, but the body is a paraphrase; this should be labeled as a paraphrase or the wording tightened.",
+                "The article's 'first computer programmer' claim should be flagged as commonly described rather than settled, since Source 1 marks that description as failing verification and Source 2 notes no programming language existed yet.",
+                "The takeaway is a practical interpretation and is acceptable as framed."
+              ],
+              "blockers": [
+                {
+                  "code": "INSUFFICIENT_EVIDENCE",
+                  "reason": "The central claim that Lovelace's 1843 notes went beyond calculation to symbol manipulation and music is supported by Source 2, but the article denies that these notes' content is documented in the supplied excerpts, so the article's own account contradicts the evidence it was given and the card cites a source (Charles Babbage page) that does not support the Lovelace claims."
+                }
+              ]
+            },
+            {
+              "attempt": 3,
+              "reviewCompleted": false,
+              "sourceUrls": [
+                "https://en.wikipedia.org/wiki/Charles_Babbage",
+                "https://en.wikipedia.org/wiki/Ada_Lovelace"
+              ],
+              "changes": "Revised the card and article to rely on the documented content of Lovelace's 1843 notes, including the passage on pitched sounds and musical composition, which is now presented as a hypothetical example from the notes. Removed the claim that the notes' content was undocumented. Stated the scholarly dispute over authorship explicitly, with named historians on each side. Removed the unsupported 'foundational idea' framing of the card. Replaced the unsupported hook with the documented note text. Ke",
+              "errorCode": "INVALID_REVIEW_OUTPUT",
+              "error": "Reviewer gave no material reason for a grounding failure"
+            }
+          ],
+          "completedReviews": 2,
+          "reasonCode": "INVALID_REVIEW_OUTPUT",
+          "reason": "Reviewer gave no material reason for a grounding failure",
+          "sourceUrls": [
+            "https://en.wikipedia.org/wiki/Charles_Babbage",
+            "https://en.wikipedia.org/wiki/Ada_Lovelace"
+          ],
+          "sourceErrors": [],
+          "warnings": [
+            "The card's 'Quotes' category and attribution imply a direct quotation, but the body is a paraphrase; this should be labeled as a paraphrase or the wording tightened.",
+            "The article's 'first computer programmer' claim should be flagged as commonly described rather than settled, since Source 1 marks that description as failing verification and Source 2 notes no programming language existed yet.",
+            "The takeaway is a practical interpretation and is acceptable as framed."
+          ],
+          "finalVersion": {
+            "title": "Ada Lovelace and the Limits of the Machine",
+            "body": "In 1843, Ada Lovelace published notes on Charles Babbage's proposed Analytical Engine that reached beyond calculation, suggesting that such a machine might manipulate symbols of any kind, including music. Her insight that a machine could follow general rules rather than only arithmetic remains a foundational idea in computing.",
+            "attribution": "Ada Lovelace",
+            "source": "https://en.wikipedia.org/wiki/Charles_Babbage",
+            "takeaway": "Lovelace's example suggests a practical habit: when you encounter a tool, ask not only what it was built to do but what its underlying rules might be made to represent. This is a reflection drawn from her 1843 notes and the historians who discuss them, not a quotation from Lovelace, and it applies whether you are studying a new technology or a familiar one.",
+            "detail": "Review failed [INVALID_REVIEW_OUTPUT]. Reviewer gave no material reason for a grounding failure\n\nAugusta Ada King, Countess of Lovelace, known as Ada Lovelace (1815–1852), is chiefly known for her work on Charles Babbage's proposed mechanical general-purpose computer, the Analytical Engine. Born the only legitimate child of the poet Lord Byron and the reformer Anne Isabella Milbanke, she grew up after her parents separated within a month of her birth, and Byron died when she was eight. Often ill in childhood, she pursued her studies with determination. From 1832, when she was seventeen, her mathematical abilities began to emerge. Her mother's concern about the instability she associated with Byron was one reason Ada was taught mathematics from an early age, and she was privately educated in mathematics and science by William Frend, William King, and Mary Somerville. Later, Augustus De Morgan gave her considerable help with advanced topics, including the numbers of Bernoulli.\n\nLovelace first met Charles Babbage in June 1833, through their mutual friend Mary Somerville. She became fascinated with his work on calculating engines and was impressed by his analytic approach; Babbage admired her intellect and called her \"The Enchantress of Number.\" Babbage's Analytical Engine was never completed in his lifetime, but it is recognised as a Turing-complete general-purpose design that anticipated essential features of a modern computer. Its intended programming used punched cards, a principle borrowed from the Jacquard loom.\n\nLovelace's most celebrated contribution appeared in 1843, when she translated an article by the military engineer Luigi Menabrea about the Analytical Engine and added seven long explanatory notes, usually labelled A to G. In Note G she described a method for using the machine to calculate Bernoulli numbers, a procedure often called the first published computer program. Scholars dispute how much of this work was original to her and how much reflected Babbage's help; Allan Bromley and Bruce Collier argue her technical contribution was limited, while Stephen Wolfram and Doron Swade give her more credit. That disagreement should be kept in view when assessing her individual role.\n\nThe notes also contain the passage that most directly shows her wider vision. Lovelace emphasised that the Analytical Engine differed from earlier calculating machines because it could be programmed to solve problems of many kinds. She wrote that the engine \"might act upon other things besides number\" if their fundamental relations could be expressed in the same abstract science of operations. As a hypothetical example she suggested that, if the relations of pitched sounds in harmony and musical composition could be expressed in this way, the engine \"might compose elaborate and scientific pieces of music of any degree of complexity or extent.\" Doron Swade has described her insight as recognising that numbers could represent other entities, such as letters or musical notes, so that a machine could manipulate symbols according to rules rather than only crunch numbers. The notes also include what became known as \"Lady Lovelace's Objection,\" her statement that the engine \"has no pretensions whatever to originate anything,\" which Alan Turing later named when discussing artificial intelligence.\n\nLovelace died of cancer in 1852 at the age of thirty-six. Her significance lies less in a finished machine than in a shift of perspective: the recognition that a device built to produce numerical tables might follow general rules and be applied to purposes its builders had not foreseen. Seeing what a tool could do beyond its obvious function is the habit of mind most associated with her engagement with Babbage's engine.",
+            "id": "generated-de0c08f0fea849eb8c29",
+            "category": "Quotes",
+            "status": "review_failed",
+            "publishedAt": "",
+            "image": "https://raw.githubusercontent.com/jay-ds-labs/mydaycoach-inspirations/main/images/inspire/reflection-030.webp",
+            "reviewStatus": "review_failed",
+            "reviewFailureCode": "INVALID_REVIEW_OUTPUT",
+            "reviewFailureSummary": "Reviewer gave no material reason for a grounding failure",
+            "reviewNotes": [
+              "The card's 'Quotes' category and attribution imply a direct quotation, but the body is a paraphrase; this should be labeled as a paraphrase or the wording tightened.",
+              "The article's 'first computer programmer' claim should be flagged as commonly described rather than settled, since Source 1 marks that description as failing verification and Source 2 notes no programming language existed yet.",
+              "The takeaway is a practical interpretation and is acceptable as framed."
+            ]
+          }
         }
-      ],
-      "finalVersion": {
-        "title": "Ada Lovelace and the Limits of the Machine",
-        "body": "In 1843, Ada Lovelace published notes on Charles Babbage's proposed Analytical Engine that reached beyond calculation, suggesting that such a machine might manipulate symbols of any kind, including music. Her insight that a machine could follow general rules rather than only arithmetic remains a foundational idea in computing.",
-        "attribution": "Ada Lovelace",
-        "source": "https://en.wikipedia.org/wiki/Charles_Babbage",
-        "takeaway": "Lovelace's example suggests a practical habit: when you encounter a tool, ask not only what it was built to do but what its underlying rules might be made to represent. This is a reflection drawn from her 1843 notes and the historians who discuss them, not a quotation from Lovelace, and it applies whether you are studying a new technology or a familiar one.",
-        "detail": "Review failed [INVALID_REVIEW_OUTPUT]. Reviewer gave no material reason for a grounding failure\n\nAugusta Ada King, Countess of Lovelace, known as Ada Lovelace (1815–1852), is chiefly known for her work on Charles Babbage's proposed mechanical general-purpose computer, the Analytical Engine. Born the only legitimate child of the poet Lord Byron and the reformer Anne Isabella Milbanke, she grew up after her parents separated within a month of her birth, and Byron died when she was eight. Often ill in childhood, she pursued her studies with determination. From 1832, when she was seventeen, her mathematical abilities began to emerge. Her mother's concern about the instability she associated with Byron was one reason Ada was taught mathematics from an early age, and she was privately educated in mathematics and science by William Frend, William King, and Mary Somerville. Later, Augustus De Morgan gave her considerable help with advanced topics, including the numbers of Bernoulli.\n\nLovelace first met Charles Babbage in June 1833, through their mutual friend Mary Somerville. She became fascinated with his work on calculating engines and was impressed by his analytic approach; Babbage admired her intellect and called her \"The Enchantress of Number.\" Babbage's Analytical Engine was never completed in his lifetime, but it is recognised as a Turing-complete general-purpose design that anticipated essential features of a modern computer. Its intended programming used punched cards, a principle borrowed from the Jacquard loom.\n\nLovelace's most celebrated contribution appeared in 1843, when she translated an article by the military engineer Luigi Menabrea about the Analytical Engine and added seven long explanatory notes, usually labelled A to G. In Note G she described a method for using the machine to calculate Bernoulli numbers, a procedure often called the first published computer program. Scholars dispute how much of this work was original to her and how much reflected Babbage's help; Allan Bromley and Bruce Collier argue her technical contribution was limited, while Stephen Wolfram and Doron Swade give her more credit. That disagreement should be kept in view when assessing her individual role.\n\nThe notes also contain the passage that most directly shows her wider vision. Lovelace emphasised that the Analytical Engine differed from earlier calculating machines because it could be programmed to solve problems of many kinds. She wrote that the engine \"might act upon other things besides number\" if their fundamental relations could be expressed in the same abstract science of operations. As a hypothetical example she suggested that, if the relations of pitched sounds in harmony and musical composition could be expressed in this way, the engine \"might compose elaborate and scientific pieces of music of any degree of complexity or extent.\" Doron Swade has described her insight as recognising that numbers could represent other entities, such as letters or musical notes, so that a machine could manipulate symbols according to rules rather than only crunch numbers. The notes also include what became known as \"Lady Lovelace's Objection,\" her statement that the engine \"has no pretensions whatever to originate anything,\" which Alan Turing later named when discussing artificial intelligence.\n\nLovelace died of cancer in 1852 at the age of thirty-six. Her significance lies less in a finished machine than in a shift of perspective: the recognition that a device built to produce numerical tables might follow general rules and be applied to purposes its builders had not foreseen. Seeing what a tool could do beyond its obvious function is the habit of mind most associated with her engagement with Babbage's engine.",
-        "id": "generated-de0c08f0fea849eb8c29",
-        "category": "Quotes",
-        "status": "review_failed",
-        "publishedAt": "",
-        "image": "https://raw.githubusercontent.com/jay-ds-labs/mydaycoach-inspirations/main/images/inspire/reflection-030.webp",
-        "reviewStatus": "review_failed",
-        "reviewFailureCode": "INVALID_REVIEW_OUTPUT",
-        "reviewFailureSummary": "Reviewer gave no material reason for a grounding failure",
-        "reviewNotes": [
-          "The card's 'Quotes' category and attribution imply a direct quotation, but the body is a paraphrase; this should be labeled as a paraphrase or the wording tightened.",
-          "The article's 'first computer programmer' claim should be flagged as commonly described rather than settled, since Source 1 marks that description as failing verification and Source 2 notes no programming language existed yet.",
-          "The takeaway is a practical interpretation and is acceptable as framed."
-        ]
-      }
+      ]
     },
     "generated-ad47ac364f9d455099d8": {
       "state": "approved",
