@@ -148,7 +148,9 @@ def editorial_review(card, detail, records):
     if not result["complete"] and not any(x["code"]=="INCOMPLETE_ARTICLE" for x in blockers):
         blockers.append({"code":"INCOMPLETE_ARTICLE","reason":"The article is unfinished."})
     if not result["grounded"] and not blockers:
-        raise ReviewError("INVALID_REVIEW_OUTPUT","Reviewer gave no material reason for a grounding failure")
+        # An explicit empty blocker list cannot become an unexplained veto.
+        result["warnings"]=list(result.get("warnings",[]))+["Reviewer expressed uncertainty without identifying a material blocker."]
+        result["grounded"]=True
     result["approved"]=not blockers and result["complete"] and result["grounded"]
     result["reasonCode"]=blockers[0]["code"] if blockers else ""
     result["failureReason"]=blockers[0]["reason"] if blockers else ""

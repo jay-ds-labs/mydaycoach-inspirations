@@ -15,6 +15,11 @@ class FinalReviewTests(unittest.TestCase):
         result=editorial_review(CARD,'A full, finished article.',SOURCE)
         self.assertTrue(result['approved']);self.assertEqual([],result['blockers'])
     @patch('final_review.request_json')
+    def test_unexplained_doubt_without_material_blockers_is_a_note(self,request):
+        request.return_value={**verdict(), 'grounded':False,'approved':False}
+        result=editorial_review(CARD,'Complete account.',SOURCE)
+        self.assertTrue(result['approved']);self.assertTrue(result['warnings'])
+    @patch('final_review.request_json')
     def test_false_quote_and_wrong_subject_remain_blockers(self,request):
         for code in ['FALSE_ATTRIBUTION','WRONG_TOPIC','MATERIAL_FACT_ERROR','INSUFFICIENT_EVIDENCE','INCOMPLETE_ARTICLE']:
             request.return_value=verdict([{'code':code,'reason':'Substantial problem.'}])

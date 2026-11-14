@@ -25,9 +25,6 @@ class ResearchTests(unittest.TestCase):
         finally:
             research.wikipedia=original
 
-if __name__=="__main__":
-    unittest.main()
-
 
     def test_relevant_passage_beyond_old_truncation_is_retained(self):
         from research import select_passages
@@ -41,3 +38,7 @@ if __name__=="__main__":
     def test_unrelated_fallback_is_discarded(self,search,exact):
         records,_=discover({'title':'Diogenes and the lamp','attribution':'Diogenes of Sinope'})
         self.assertEqual([],records)
+
+    def test_story_subject_takes_precedence_over_the_historical_source_author(self):
+        from research import subject_query
+        self.assertEqual('Hypatia',subject_query({'title':"Hypatia's Lamp: Teaching Reason Under Threat",'attribution':'Socrates Scholasticus, Ecclesiastical History'}))
