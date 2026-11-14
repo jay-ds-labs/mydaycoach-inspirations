@@ -74,7 +74,8 @@
       "id": "generated-b5ab83f51acb42849191",
       "category": "Stories",
       "state": "review_failed",
-      "reasonCode": "EDITORIAL_QUALITY_FAILED",
+      "reasonCode": "INVALID_REVIEW_OUTPUT",
+      "reason": "Reviewer gave no material reason for a grounding failure",
       "eligible": false
     },
     {
@@ -127,5 +128,5 @@
       "eligible": false
     }
   ],
-  "recoveredAt": "2026-11-14T13:56:35.658428Z"
+  "recoveredAt": "2026-11-14T13:57:09.792528Z"
 }
