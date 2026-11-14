@@ -80,7 +80,7 @@ def wikipedia(query,limit=3):
                 "title":hit["title"],"text":select_passages(content,query),"origin":"wikipedia"})
     return results
 
-def wikipedia_exact(title):
+def wikipedia_exact(title,context=""):
     pages=get_json(API+"?"+urllib.parse.urlencode({"action":"query","titles":title,"redirects":1,
         "prop":"extracts","explaintext":1,"exlimit":1,"format":"json"})).get("query",{}).get("pages",{})
     results=[]
@@ -89,7 +89,7 @@ def wikipedia_exact(title):
         if len(content)>450:
             results.append({"url":"https://en.wikipedia.org/wiki/"+
                 urllib.parse.quote(page["title"].replace(" ","_")),
-                "title":page["title"],"text":select_passages(content,title),"origin":"wikipedia"})
+                "title":page["title"],"text":select_passages(content,context or title),"origin":"wikipedia"})
     return results
 
 def discover(item,existing_source="",fetch=None):
@@ -108,7 +108,7 @@ def discover(item,existing_source="",fetch=None):
     try:
         queries=list(dict.fromkeys([PILOT_QUERIES.get(item.get("id"),""),subject_query(item),title]))
         for candidate in filter(None,queries):
-            matches=wikipedia_exact(candidate)
+            matches=wikipedia_exact(candidate,context=" ".join(str(item.get(k,"")) for k in ("title","body","takeaway")))
             if not matches:matches=wikipedia(candidate,limit=2)
             seen={r["url"] for r in records}
             records.extend(x for x in matches if x["url"] not in seen and relevant(x,item))
