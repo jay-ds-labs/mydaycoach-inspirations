@@ -7032,6 +7032,49 @@
         "The article's quotation of the Declaration's opening lines matches the National Archives transcription in Source 2, so the direct quotation is supported.",
         "The claim that Jefferson 'calculated the financial returns from enslaved children' is supported by the excerpt's 1792 4 percent profit statement; the wording is acceptable but could more closely match the source's phrasing."
       ]
+    },
+    "generated-e2e2d710366b4ac7b1f6": {
+      "state": "approved",
+      "eligible": true,
+      "generated": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "reviewCompleted": true,
+          "sourceUrls": [
+            "https://mathshistory.st-andrews.ac.uk/Biographies/Leibniz/",
+            "https://en.wikipedia.org/wiki/Gottfried_Wilhelm_Leibniz"
+          ],
+          "changes": "Expanded the card-level summary into a full multi-paragraph reading article with an opening scene, historical context on Leibniz's broader career, a developed account of the chronology of the notation and publication, the 1711 to 1713 priority dispute, a balanced historiographical section, and a practical closing. Grounded the account in the supplied MacTutor and Wikipedia excerpts, paraphrased rather than quoting uncertain phrasing, and kept the takeaway as our own reflection. Retained the subs",
+          "approved": true,
+          "complete": true,
+          "grounded": true,
+          "feedback": [],
+          "warnings": [
+            "The article says Newton's letter 'listed many of his own results' and Leibniz 'realized he needed to publish' — supported by the source; consider noting that the two parties reached results by different routes is interpretive but clearly framed.",
+            "The claim that Leibniz 'had over 600 correspondents' is supported by SOURCE 1; the article uses it as background, which is fine.",
+            "'Newton's Principia appeared in 1687' is supported by source text ('the following year' after 1686), but the article states the date directly; acceptable.",
+            "The article's characterization of the 1711–1713 committee report as 'written by Newton himself' is supported by SOURCE 1 and should be kept attributed to the source, as it is.",
+            "Consider adding that the 1684 publication was in Acta Eruditorum, which the article already does; no change needed."
+          ],
+          "blockers": []
+        }
+      ],
+      "completedReviews": 1,
+      "reasonCode": "",
+      "reason": "",
+      "sourceUrls": [
+        "https://mathshistory.st-andrews.ac.uk/Biographies/Leibniz/",
+        "https://en.wikipedia.org/wiki/Gottfried_Wilhelm_Leibniz"
+      ],
+      "sourceErrors": [],
+      "warnings": [
+        "The article says Newton's letter 'listed many of his own results' and Leibniz 'realized he needed to publish' — supported by the source; consider noting that the two parties reached results by different routes is interpretive but clearly framed.",
+        "The claim that Leibniz 'had over 600 correspondents' is supported by SOURCE 1; the article uses it as background, which is fine.",
+        "'Newton's Principia appeared in 1687' is supported by source text ('the following year' after 1686), but the article states the date directly; acceptable.",
+        "The article's characterization of the 1711–1713 committee report as 'written by Newton himself' is supported by SOURCE 1 and should be kept attributed to the source, as it is.",
+        "Consider adding that the 1684 publication was in Acta Eruditorum, which the article already does; no change needed."
+      ]
     }
   }
 }
