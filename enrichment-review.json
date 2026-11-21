@@ -6989,6 +6989,49 @@
         "The article says Röntgen 'had already published on a range of problems'; the source confirms these works, so this is accurate, but the list of topics is paraphrased and not exhaustive.",
         "The takeaway about habits is a clearly framed practical interpretation and is acceptable as written."
       ]
+    },
+    "generated-d955aab434db453f843b": {
+      "state": "approved",
+      "eligible": true,
+      "generated": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "reviewCompleted": true,
+          "sourceUrls": [
+            "https://en.wikipedia.org/wiki/Thomas_Jefferson",
+            "https://www.archives.gov/founding-docs/declaration-transcript"
+          ],
+          "changes": "Expanded the previous short piece into a full multi-paragraph article with an opening hook, historical context on Jefferson's drafting and the Committee of Five, an explanation of the debate over the meaning of 'all men are created equal' with Rakove and Wiencek's views, and a practical closing. Kept the supported facts from the previous article (Jefferson's enslavement and the phrase's later use by abolitionists, suffragists and civil rights advocates). Removed the unsupported figure of 600 ens",
+          "approved": true,
+          "complete": true,
+          "grounded": true,
+          "feedback": [],
+          "warnings": [
+            "The article says Jefferson was 'thirty-three-year-old' in 1776; he was born April 1743, so he was 33 at the time, which is accurate, but the source excerpts do not state his age, so consider citing the birth date for transparency.",
+            "The claim that Jefferson 'enslaved hundreds of people' is not stated in the excerpts; consider grounding it in a cited source or softening to 'enslaved many people'.",
+            "The line that abolitionists, suffragists, and civil rights advocates invoked the Declaration is a general historical claim not directly supported by the excerpts; it is reasonable background but could be tied to a named source.",
+            "The article's quotation of the Declaration's opening lines matches the National Archives transcription in Source 2, so the direct quotation is supported.",
+            "The claim that Jefferson 'calculated the financial returns from enslaved children' is supported by the excerpt's 1792 4 percent profit statement; the wording is acceptable but could more closely match the source's phrasing."
+          ],
+          "blockers": []
+        }
+      ],
+      "completedReviews": 1,
+      "reasonCode": "",
+      "reason": "",
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Thomas_Jefferson",
+        "https://www.archives.gov/founding-docs/declaration-transcript"
+      ],
+      "sourceErrors": [],
+      "warnings": [
+        "The article says Jefferson was 'thirty-three-year-old' in 1776; he was born April 1743, so he was 33 at the time, which is accurate, but the source excerpts do not state his age, so consider citing the birth date for transparency.",
+        "The claim that Jefferson 'enslaved hundreds of people' is not stated in the excerpts; consider grounding it in a cited source or softening to 'enslaved many people'.",
+        "The line that abolitionists, suffragists, and civil rights advocates invoked the Declaration is a general historical claim not directly supported by the excerpts; it is reasonable background but could be tied to a named source.",
+        "The article's quotation of the Declaration's opening lines matches the National Archives transcription in Source 2, so the direct quotation is supported.",
+        "The claim that Jefferson 'calculated the financial returns from enslaved children' is supported by the excerpt's 1792 4 percent profit statement; the wording is acceptable but could more closely match the source's phrasing."
+      ]
     }
   }
 }
