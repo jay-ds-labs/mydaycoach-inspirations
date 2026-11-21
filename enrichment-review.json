@@ -6713,6 +6713,80 @@
           }
         }
       ]
+    },
+    "generated-0dbe09548c464d63b181": {
+      "state": "approved",
+      "eligible": true,
+      "generated": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "reviewCompleted": true,
+          "sourceUrls": [
+            "https://en.wikipedia.org/wiki/Thomas_Edison",
+            "https://en.wikipedia.org/wiki/Kinetoscope"
+          ],
+          "changes": "Replaced the earlier outline-style paragraphs with a full multi-paragraph reading article. Developed the opening, historical context, the filament search and the bamboo breakthrough using the source excerpts, and a practical closing. Kept the claims about 1,200-hour bamboo filaments, the 1878 start, and the 110-volt standard tied to the source. Adjusted the takeaway and body to match the article's focus on systematic record-keeping, and kept the source as the Edison Wikipedia page from the suppl",
+          "approved": false,
+          "complete": true,
+          "grounded": false,
+          "feedback": [
+            "Remove or rewrite the claim that the Library of Congress holds and digitizes the Thomas Edison Papers and that reading notebooks reveals a workflow; no source excerpt supports this, so either cite a source for it or drop it.",
+            "The claim that the bamboo filament was discovered 'months after' the patent was granted is supported, but the article says Edison 'filed a patent in November 1879' without noting the granted date; keep it aligned with the source.",
+            "The article presents Edison's 'war of the currents' and failure-log method as central themes; the source supports the war of the currents, but no excerpt supports that Edison systematically logged and compared failed attempts as a documented method. Ground or reframe that central claim as interpretation.",
+            "The central claim that Edison's persistence rested on systematic, recorded comparison of failed trials is not supported by the source excerpts, which describe testing many materials but not a documented logging practice.",
+            "The article cites the Thomas Edison Papers held and digitized by the Library of Congress and describes their contents; no source excerpt mentions this archive, so the sourcing is unsupported."
+          ],
+          "warnings": [
+            "The Card's takeaway about logging failures is a practical interpretation and is allowed, but avoid implying Edison himself described this method unless a source says so.",
+            "Consider noting that the source describes Edison's staff working extreme hours, which the article covers only briefly."
+          ],
+          "blockers": [
+            {
+              "code": "INSUFFICIENT_EVIDENCE",
+              "reason": "The central claim that Edison's persistence rested on systematic, recorded comparison of failed trials is not supported by the source excerpts, which describe testing many materials but not a documented logging practice."
+            },
+            {
+              "code": "FALSE_ATTRIBUTION",
+              "reason": "The article cites the Thomas Edison Papers held and digitized by the Library of Congress and describes their contents; no source excerpt mentions this archive, so the sourcing is unsupported."
+            }
+          ]
+        },
+        {
+          "attempt": 2,
+          "reviewCompleted": true,
+          "sourceUrls": [
+            "https://en.wikipedia.org/wiki/Thomas_Edison",
+            "https://en.wikipedia.org/wiki/Kinetoscope"
+          ],
+          "changes": "Removed the unsupported claim that the Thomas Edison Papers are held and digitized by the Library of Congress and the claim that their notebooks reveal a documented workflow. Removed the assertion that Edison systematically logged and compared failed attempts as a documented method. Reframed the failure-testing lesson explicitly as interpretation of the source record. Aligned the patent details with the source by giving the November 4, 1879 filing date and the January 27, 1880 grant date, and ke",
+          "approved": true,
+          "complete": true,
+          "grounded": true,
+          "feedback": [],
+          "warnings": [
+            "The article says the bamboo filament discovery came 'only several months' after the patent grant; the source says 'not until several months after the patent was granted', which is consistent, but the phrasing 'Only several months after that grant' is slightly awkward.",
+            "The 'war of the currents' passage is accurately described but could note that the source frames the battle as competitive rather than purely technical.",
+            "The lamp-filament line 'Edison's rejected materials were informative' is framed as an interpretation, which is acceptable; consider stating explicitly that the takeaway is the reviewer's framing rather than Edison's own words."
+          ],
+          "blockers": []
+        }
+      ],
+      "completedReviews": 2,
+      "reasonCode": "",
+      "reason": "",
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Thomas_Edison",
+        "https://en.wikipedia.org/wiki/Kinetoscope"
+      ],
+      "sourceErrors": [
+        "https://www.loc.gov/collections/thomas-edison-papers/about-this-collection/ Source retrieval failed: HTTP Error 403: Forbidden"
+      ],
+      "warnings": [
+        "The article says the bamboo filament discovery came 'only several months' after the patent grant; the source says 'not until several months after the patent was granted', which is consistent, but the phrasing 'Only several months after that grant' is slightly awkward.",
+        "The 'war of the currents' passage is accurately described but could note that the source frames the battle as competitive rather than purely technical.",
+        "The lamp-filament line 'Edison's rejected materials were informative' is framed as an interpretation, which is acceptable; consider stating explicitly that the takeaway is the reviewer's framing rather than Edison's own words."
+      ]
     }
   }
 }
