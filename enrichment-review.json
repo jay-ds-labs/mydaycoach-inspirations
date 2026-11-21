@@ -7075,6 +7075,49 @@
         "The article's characterization of the 1711–1713 committee report as 'written by Newton himself' is supported by SOURCE 1 and should be kept attributed to the source, as it is.",
         "Consider adding that the 1684 publication was in Acta Eruditorum, which the article already does; no change needed."
       ]
+    },
+    "generated-3a0019370be44e9eb634": {
+      "state": "approved",
+      "eligible": true,
+      "generated": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "reviewCompleted": true,
+          "sourceUrls": [
+            "https://www.nobelprize.org/prizes/physics/1903/marie-curie/biographical/",
+            "https://en.wikipedia.org/wiki/Marie_Curie",
+            "https://en.wikipedia.org/wiki/Otto_Hahn"
+          ],
+          "changes": "Replaced the card summary-only content with a full multi-paragraph article covering the historical setting, the discovery of polonium and radium through repeated measurements, the Nobel recognition, and a practical closing. Kept the source as the supplied Nobel Prize biography URL and grounded claims in its excerpts and in the Wikipedia excerpts on the same figures. Corrected the body and attribution to match the article's focus on methodical record-keeping.",
+          "approved": true,
+          "complete": true,
+          "grounded": true,
+          "feedback": [],
+          "warnings": [
+            "The article says Marie used an electrometer 'to show that the air around a uranium sample conducted electricity' and that this was her doctoral work; the excerpts support the electrometer finding but the doctoral-subject framing is only loosely supported, so consider naming the source of that claim more explicitly.",
+            "The phrase 'a cold, leaky shed beside a Paris engineering school' paraphrases the excerpts' description (poorly ventilated, not waterproof, next to ESPCI); 'cold' is not explicitly stated in the excerpts and could be softened.",
+            "'Boiling and stirring heavy tons of mineral ore' is a reasonable paraphrase of the separation work but is not stated verbatim in the excerpts; the 'one-tenth of a gram from a tonne' figure is correctly sourced.",
+            "The Nobel Prize in Chemistry 1911 is correctly attributed to Marie alone, which the article does not contradict."
+          ],
+          "blockers": []
+        }
+      ],
+      "completedReviews": 1,
+      "reasonCode": "",
+      "reason": "",
+      "sourceUrls": [
+        "https://www.nobelprize.org/prizes/physics/1903/marie-curie/biographical/",
+        "https://en.wikipedia.org/wiki/Marie_Curie",
+        "https://en.wikipedia.org/wiki/Otto_Hahn"
+      ],
+      "sourceErrors": [],
+      "warnings": [
+        "The article says Marie used an electrometer 'to show that the air around a uranium sample conducted electricity' and that this was her doctoral work; the excerpts support the electrometer finding but the doctoral-subject framing is only loosely supported, so consider naming the source of that claim more explicitly.",
+        "The phrase 'a cold, leaky shed beside a Paris engineering school' paraphrases the excerpts' description (poorly ventilated, not waterproof, next to ESPCI); 'cold' is not explicitly stated in the excerpts and could be softened.",
+        "'Boiling and stirring heavy tons of mineral ore' is a reasonable paraphrase of the separation work but is not stated verbatim in the excerpts; the 'one-tenth of a gram from a tonne' figure is correctly sourced.",
+        "The Nobel Prize in Chemistry 1911 is correctly attributed to Marie alone, which the article does not contradict."
+      ]
     }
   }
 }
