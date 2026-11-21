@@ -7251,6 +7251,49 @@
         "The article's central Bixby account, including the disputed authorship and the number of sons, is not supported by the supplied excerpts, which concern Garry Marshall; the evidence base is mismatched to the subject, though the article itself frames the letter's authenticity as debated.",
         "The inspiration card's source link points to Garry Marshall's biography, which does not bear on the Lincoln letter; a more relevant source would strengthen the piece."
       ]
+    },
+    "generated-b41f2d0129ae4cc7bd33": {
+      "state": "approved",
+      "eligible": true,
+      "generated": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "reviewCompleted": true,
+          "sourceUrls": [
+            "https://plato.stanford.edu/entries/wittgenstein/",
+            "https://en.wikipedia.org/wiki/Ludwig_Wittgenstein"
+          ],
+          "changes": "Wrote the full multi-paragraph reading article from the supplied Stanford Encyclopedia and Wikipedia excerpts, with historical context, explanation of the Tractatus and its ending, the later Philosophical Investigations shift, and practical reflection. Adjusted the takeaway and body to match the article's framing, and kept the attribution to proposition 7 of the Tractatus.",
+          "approved": true,
+          "complete": true,
+          "grounded": true,
+          "feedback": [],
+          "warnings": [
+            "The article says Wittgenstein 'after studying engineering' came to Cambridge in 1911; the Wikipedia excerpt confirms the 1911 Cambridge date and Russell link but does not mention engineering, so this background detail is unsupported by the provided excerpts though not contradicted.",
+            "The claim that the Tractatus was written 'largely during the First World War' with the manuscript carried in his knapsack is plausible background but the knapsack detail is not in the excerpts; consider softening or sourcing it.",
+            "The claim that Ramsey's translation was 'largely undertaken' by Ramsey is supported; the statement that the book was in the Philosophical Investigations published 1953 and the 'frictionless ice' and 'language going on holiday' phrasings are supported by SOURCE 2.",
+            "The article attributes the ladder metaphor to proposition 7 and quotes 'Whereof one cannot speak, thereof one must be silent' as the last line; the excerpts give this as 7 and tie it to the ladder passage (6.54), so the ladder-to-7 pairing is a slight conflation worth tightening.",
+            "The card's attribution to proposition 7 is consistent with the excerpts, but the card's wording about the ladder being 'famously' described should be checked against 6.54 for precision."
+          ],
+          "blockers": []
+        }
+      ],
+      "completedReviews": 1,
+      "reasonCode": "",
+      "reason": "",
+      "sourceUrls": [
+        "https://plato.stanford.edu/entries/wittgenstein/",
+        "https://en.wikipedia.org/wiki/Ludwig_Wittgenstein"
+      ],
+      "sourceErrors": [],
+      "warnings": [
+        "The article says Wittgenstein 'after studying engineering' came to Cambridge in 1911; the Wikipedia excerpt confirms the 1911 Cambridge date and Russell link but does not mention engineering, so this background detail is unsupported by the provided excerpts though not contradicted.",
+        "The claim that the Tractatus was written 'largely during the First World War' with the manuscript carried in his knapsack is plausible background but the knapsack detail is not in the excerpts; consider softening or sourcing it.",
+        "The claim that Ramsey's translation was 'largely undertaken' by Ramsey is supported; the statement that the book was in the Philosophical Investigations published 1953 and the 'frictionless ice' and 'language going on holiday' phrasings are supported by SOURCE 2.",
+        "The article attributes the ladder metaphor to proposition 7 and quotes 'Whereof one cannot speak, thereof one must be silent' as the last line; the excerpts give this as 7 and tie it to the ladder passage (6.54), so the ladder-to-7 pairing is a slight conflation worth tightening.",
+        "The card's attribution to proposition 7 is consistent with the excerpts, but the card's wording about the ladder being 'famously' described should be checked against 6.54 for precision."
+      ]
     }
   }
 }
