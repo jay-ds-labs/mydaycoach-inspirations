@@ -7417,6 +7417,49 @@
         "Consider adding a source citation or note that the Book II 'builder/musician' analogy is a paraphrase of Aristotle's reasoning rather than a verbatim quotation.",
         "The claim that Aristotle's early-stage acts 'may be right in its outward form without being done from settled character' is a reasonable reading of the Stanford discussion but is not directly quoted; a brief attribution to the surrounding account would strengthen it."
       ]
+    },
+    "generated-e0f4c64f4ecd45d6a2f9": {
+      "state": "approved",
+      "eligible": true,
+      "generated": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "reviewCompleted": true,
+          "sourceUrls": [
+            "https://en.wikipedia.org/wiki/Bertrand_Russell",
+            "https://plato.stanford.edu/entries/russell/",
+            "https://en.wikipedia.org/wiki/Ludwig_Wittgenstein"
+          ],
+          "changes": "Rewrote the card-level summary into a full, multi-paragraph narrative article covering Russell's background, the Moore-led revolt against idealism, the 1901 paradox and Principia Mathematica, his analytic method with 'On Denoting', and a practical closing. Grounded historical claims in the supplied Wikipedia and Stanford Encyclopedia excerpts; the Wittgenstein material was used only for context. Kept the title, body, attribution and takeaway consistent with the article. Removed the earlier relia",
+          "approved": true,
+          "complete": true,
+          "grounded": true,
+          "feedback": [],
+          "warnings": [
+            "The article states Russell was 'born in 1872 into an aristocratic English family'; the sources support the 1872 birth and the family's aristocratic connection (grandson of an earl) but do not explicitly describe the family as aristocratic in those words, so consider citing the earldom directly.",
+            "The 'On Denoting' example of 'the present King of France' is a standard illustration of the essay but is not named in the provided excerpts; it is accurate background, though a source reference would strengthen it.",
+            "The article says Russell 'discovered a paradox' in 1901 while working on The Principles of Mathematics, which matches the excerpt; the paradox is described in a way consistent with the sources.",
+            "The article credits Russell's logical methods with later applications in computer science, which the Wikipedia excerpt supports ('The Theory of Types and much of Russell's subsequent work have also found practical applications in computer science and information technology')."
+          ],
+          "blockers": []
+        }
+      ],
+      "completedReviews": 1,
+      "reasonCode": "",
+      "reason": "",
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Bertrand_Russell",
+        "https://plato.stanford.edu/entries/russell/",
+        "https://en.wikipedia.org/wiki/Ludwig_Wittgenstein"
+      ],
+      "sourceErrors": [],
+      "warnings": [
+        "The article states Russell was 'born in 1872 into an aristocratic English family'; the sources support the 1872 birth and the family's aristocratic connection (grandson of an earl) but do not explicitly describe the family as aristocratic in those words, so consider citing the earldom directly.",
+        "The 'On Denoting' example of 'the present King of France' is a standard illustration of the essay but is not named in the provided excerpts; it is accurate background, though a source reference would strengthen it.",
+        "The article says Russell 'discovered a paradox' in 1901 while working on The Principles of Mathematics, which matches the excerpt; the paradox is described in a way consistent with the sources.",
+        "The article credits Russell's logical methods with later applications in computer science, which the Wikipedia excerpt supports ('The Theory of Types and much of Russell's subsequent work have also found practical applications in computer science and information technology')."
+      ]
     }
   }
 }
