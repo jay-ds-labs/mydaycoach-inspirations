@@ -7376,6 +7376,47 @@
         "The article says Arrian 'later became a governor and historian'; this is not in the source excerpt, so a reader may want it checked against another source, though it does not affect the central account.",
         "The article's claim that Stoicism was 'founded in Athens centuries earlier' is background not present in the excerpts; it is standard and not a material error."
       ]
+    },
+    "generated-37a0b33287fc4574b4fa": {
+      "state": "approved",
+      "eligible": true,
+      "generated": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "reviewCompleted": true,
+          "sourceUrls": [
+            "https://plato.stanford.edu/entries/aristotle-ethics/",
+            "https://en.wikipedia.org/wiki/Aristotle",
+            "https://en.wikipedia.org/wiki/Common_good"
+          ],
+          "changes": "Expanded the single-sentence card summary into a full multi-paragraph article with an opening hook, historical context on Aristotle's life and the Nicomachean Ethics, a developed explanation of habituation and the relation between knowing and acting, and a practical closing. Grounded the account in the Stanford entry on Aristotle's ethics and the Wikipedia material on his virtue ethics, paraphrasing rather than quoting uncertain wording, and kept the takeaway as our own reflection.",
+          "approved": true,
+          "complete": true,
+          "grounded": true,
+          "feedback": [],
+          "warnings": [
+            "The article states Aristotle wrote the Nicomachean Ethics 'in Athens in the fourth century BC' and that 'the work that bears his son's name'; the sources support the son Nicomachus naming but the Stanford excerpt does not explicitly confirm the dedication, so consider phrasing this as the common tradition.",
+            "Consider adding a source citation or note that the Book II 'builder/musician' analogy is a paraphrase of Aristotle's reasoning rather than a verbatim quotation.",
+            "The claim that Aristotle's early-stage acts 'may be right in its outward form without being done from settled character' is a reasonable reading of the Stanford discussion but is not directly quoted; a brief attribution to the surrounding account would strengthen it."
+          ],
+          "blockers": []
+        }
+      ],
+      "completedReviews": 1,
+      "reasonCode": "",
+      "reason": "",
+      "sourceUrls": [
+        "https://plato.stanford.edu/entries/aristotle-ethics/",
+        "https://en.wikipedia.org/wiki/Aristotle",
+        "https://en.wikipedia.org/wiki/Common_good"
+      ],
+      "sourceErrors": [],
+      "warnings": [
+        "The article states Aristotle wrote the Nicomachean Ethics 'in Athens in the fourth century BC' and that 'the work that bears his son's name'; the sources support the son Nicomachus naming but the Stanford excerpt does not explicitly confirm the dedication, so consider phrasing this as the common tradition.",
+        "Consider adding a source citation or note that the Book II 'builder/musician' analogy is a paraphrase of Aristotle's reasoning rather than a verbatim quotation.",
+        "The claim that Aristotle's early-stage acts 'may be right in its outward form without being done from settled character' is a reasonable reading of the Stanford discussion but is not directly quoted; a brief attribution to the surrounding account would strengthen it."
+      ]
     }
   }
 }
