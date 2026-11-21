@@ -7118,6 +7118,51 @@
         "'Boiling and stirring heavy tons of mineral ore' is a reasonable paraphrase of the separation work but is not stated verbatim in the excerpts; the 'one-tenth of a gram from a tonne' figure is correctly sourced.",
         "The Nobel Prize in Chemistry 1911 is correctly attributed to Marie alone, which the article does not contradict."
       ]
+    },
+    "generated-f1a09d9f36d14e12903b": {
+      "state": "approved",
+      "eligible": true,
+      "generated": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "reviewCompleted": true,
+          "sourceUrls": [
+            "https://en.wikipedia.org/wiki/Hedy_Lamarr",
+            "https://patents.google.com/patent/US2292387A/en",
+            "https://en.wikipedia.org/wiki/Spread_spectrum"
+          ],
+          "changes": "Expanded the previous summary-level text into a full multi-paragraph narrative with an opening, historical context on Lamarr's life, a developed account of the torpedo problem and the patent, and a closing reflection. Corrected the earlier claim about the filing year: the patent application was filed June 10, 1941 (the earlier text said 1940). Removed unsupported specifics about the technical influence and added the caveat that the Navy rejection and size reason are the commonly repeated account",
+          "approved": true,
+          "complete": true,
+          "grounded": true,
+          "feedback": [],
+          "warnings": [
+            "The article says the Czech film Ecstasy was made in Czechoslovakia; source describes it as her early film career in Czechoslovakia, which is consistent, but the article could name the year 1933 as a film release rather than implying it was a Czech-language production.",
+            "The claim that Lamarr was 'spotted in London' in 1937 is supported by the source (she met Mayer after arriving in London in 1937), but the phrasing 'spotted' slightly overstates the source's account of her booking herself onto the same liner; a brief note would be more precise.",
+            "The article says Lamarr 'attended meetings about arms sales' with Mandl; the source supports this as 'possibly to improve his chances of making a sale', so the hedge should be kept.",
+            "The Navy rejection reason ('too large to fit in a torpedo') is attributed in the source to the Navy's rejection; the article correctly frames it as the usually given account, which is appropriate.",
+            "The article's statement that Lamarr's autobiography-style reflections are her perspective is a sound framing; no direct quotations are used, so no quotation verification was required."
+          ],
+          "blockers": []
+        }
+      ],
+      "completedReviews": 1,
+      "reasonCode": "",
+      "reason": "",
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Hedy_Lamarr",
+        "https://patents.google.com/patent/US2292387A/en",
+        "https://en.wikipedia.org/wiki/Spread_spectrum"
+      ],
+      "sourceErrors": [],
+      "warnings": [
+        "The article says the Czech film Ecstasy was made in Czechoslovakia; source describes it as her early film career in Czechoslovakia, which is consistent, but the article could name the year 1933 as a film release rather than implying it was a Czech-language production.",
+        "The claim that Lamarr was 'spotted in London' in 1937 is supported by the source (she met Mayer after arriving in London in 1937), but the phrasing 'spotted' slightly overstates the source's account of her booking herself onto the same liner; a brief note would be more precise.",
+        "The article says Lamarr 'attended meetings about arms sales' with Mandl; the source supports this as 'possibly to improve his chances of making a sale', so the hedge should be kept.",
+        "The Navy rejection reason ('too large to fit in a torpedo') is attributed in the source to the Navy's rejection; the article correctly frames it as the usually given account, which is appropriate.",
+        "The article's statement that Lamarr's autobiography-style reflections are her perspective is a sound framing; no direct quotations are used, so no quotation verification was required."
+      ]
     }
   }
 }
