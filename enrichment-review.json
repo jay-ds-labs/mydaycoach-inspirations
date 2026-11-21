@@ -7163,6 +7163,55 @@
         "The Navy rejection reason ('too large to fit in a torpedo') is attributed in the source to the Navy's rejection; the article correctly frames it as the usually given account, which is appropriate.",
         "The article's statement that Lamarr's autobiography-style reflections are her perspective is a sound framing; no direct quotations are used, so no quotation verification was required."
       ]
+    },
+    "generated-d4fd31063b664c919b04": {
+      "state": "approved",
+      "eligible": true,
+      "generated": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "reviewCompleted": true,
+          "sourceUrls": [
+            "https://en.wikipedia.org/wiki/Mahatma_Gandhi",
+            "https://en.wikipedia.org/wiki/Henry_David_Thoreau"
+          ],
+          "changes": "Expanded the single short card into a full multi-paragraph narrative covering the opening scene, Gandhi's South African background and philosophy of satyagraha, the structure and course of the march, the arrests and Dharasana protest, and practical reflections. Corrected the card's distance and dates to match the source: the source gives 388 km (about 241 miles) from Ahmedabad to Dandi between 12 March and 6 April 1930, so the card's 240 miles and 'early April' phrasing was aligned to that. Reta",
+          "approved": true,
+          "complete": true,
+          "grounded": true,
+          "feedback": [
+            "The article states the march covered 'roughly 240 miles' and was launched 'from his ashram near Ahmedabad' on 12 March 1930; the source gives 388 km (241 mi) from Ahmedabad to Dandi, so the distance is supported, but the claim that Gandhi and volunteers reached Dandi 'in early April' is consistent with the 6 April date in the source and needs no change. However, the article claims 'the British responded by arresting thousands of participants' and that 'authorities had imprisoned very large numbe",
+            "The article's attribution of Gandhi's conviction 'partly from his reading of Thoreau's essay' is supported by Source 2, but the article says Gandhi was 'interned in early May' under a regulation of 1827; the source supports internment on 5 May, so this is accurate.",
+            "The article says the campaign was publicized 'through the Viceroy' negotiations; the Gandhi–Irwin Pact (1931) is a later event and the article's phrasing 'later negotiations between Gandhi and the Viceroy' is supported."
+          ],
+          "warnings": [
+            "Consider replacing 'very large numbers' with the sourced figure of at least 60,000 imprisoned.",
+            "The phrase 'Historians still debate how much the march changed British policy' is an interpretive claim not directly sourced; it is reasonable as framing but could be softened.",
+            "The claim that the Salt March's example 'was studied by later movements elsewhere' is not directly supported by the excerpts; consider attributing it or qualifying it.",
+            "The article describes Gandhi as 'a slight man' and 'in his sixties' (he was 60 in 1930, which is supported by his birth year 1869), and 'short, hand-spun cloth' is supported by the dhoti detail.",
+            "Reviewer expressed uncertainty without identifying a material blocker."
+          ],
+          "blockers": []
+        }
+      ],
+      "completedReviews": 1,
+      "reasonCode": "",
+      "reason": "",
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Mahatma_Gandhi",
+        "https://en.wikipedia.org/wiki/Henry_David_Thoreau"
+      ],
+      "sourceErrors": [
+        "https://www.britannica.com/event/Salt-March Source retrieval failed: HTTP Error 403: Forbidden"
+      ],
+      "warnings": [
+        "Consider replacing 'very large numbers' with the sourced figure of at least 60,000 imprisoned.",
+        "The phrase 'Historians still debate how much the march changed British policy' is an interpretive claim not directly sourced; it is reasonable as framing but could be softened.",
+        "The claim that the Salt March's example 'was studied by later movements elsewhere' is not directly supported by the excerpts; consider attributing it or qualifying it.",
+        "The article describes Gandhi as 'a slight man' and 'in his sixties' (he was 60 in 1930, which is supported by his birth year 1869), and 'short, hand-spun cloth' is supported by the dhoti detail.",
+        "Reviewer expressed uncertainty without identifying a material blocker."
+      ]
     }
   }
 }
