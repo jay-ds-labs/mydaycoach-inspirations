@@ -6913,6 +6913,82 @@
         "The card's source is the Wikipedia Confucius page, which does not contain the learning-and-thinking saying in the excerpts; consider citing the Analects or a translation for that specific line.",
         "The article states the 'Six Arts' included charioteering and mathematics; the excerpts support this list, but consider noting that the Six Arts were later curriculum elements that the excerpts describe as taught by Confucius."
       ]
+    },
+    "generated-a19dfdbddce64d0e87f1": {
+      "state": "approved",
+      "eligible": true,
+      "generated": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "reviewCompleted": true,
+          "sourceUrls": [
+            "https://www.nobelprize.org/prizes/physics/1901/rontgen/biographical/",
+            "https://en.wikipedia.org/wiki/Electromagnetic_spectrum"
+          ],
+          "changes": "Wrote a full multi-paragraph reading article rather than the earlier summary-style draft. Built the narrative from the source's biographical details, including the 1895 observation, the glowing plate about two metres from the tube, the first radiograph of his wife's hand, and the naming of X-rays. Added historical context on earlier cathode-ray research and on the electromagnetic spectrum drawn from the supplied excerpts. Replaced the unsupported closing claim with a practical reflection. Correc",
+          "approved": false,
+          "complete": true,
+          "grounded": false,
+          "feedback": [
+            "Replace the claim that the glow was observed in 'a laboratory in Würzburg' with supported location or remove it; the excerpts establish his work and positions but not that this specific observation occurred there, and the Würzburg chair is cited only as a later appointment (1888) rather than the place of the 1895 experiment.",
+            "Remove or support the statement that Röntgen 'had a long record of careful, often ingenious laboratory work' framed as known to him in the 1890s; the source supports his early work topics and that he built much of his apparatus, which is adequate, but the 'trained in a tradition shaped by Clausius and Kundt' phrasing should be kept to what the source says (both exerted great influence on his development).",
+            "Remove the claim that the glow was noticed 'in late 1895' in the card context and ensure the article does not present the 'stray effect' dismissal framing as documented fact; the source does not describe anyone dismissing the glow.",
+            "Remove the statement that he had 'spent weeks documenting' the rays and the 'over the following weeks' timeline unless supported; the excerpts give no duration for the investigation.",
+            "Remove or support the claim that 'by all accounts he remained reserved' and that he 'kept his love of the outdoors, spending holidays in the Bavarian Alps' is supported; the source supports the Weilheim summer home and mountaineering, so this is acceptable, but the 'by all accounts' generalization should be softened to 'the biography describes him as'.",
+            "Correct the statement that the 'Röntgen could not have known this framework' phrasing and the claim that the spectrum was built 'over the centuries' from listed contributions; Herschel, Ritter and Newton are supported by Source 2, so this is acceptable, but the phrase 'the unification of light with electromagnetism' should be tied to Faraday and Ørsted as the source states.",
+            "The article attributes specific unsupported particulars (Würzburg as the 1895 location, a multi-week investigation timeline, and characterizations of how others responded) that the source excerpts do not establish; these are presented as factual rather than framed as interpretation. Revise these statements to match the source or remove them."
+          ],
+          "warnings": [
+            "The article is a useful standalone piece with a finished ending; the practical takeaways are clearly framed and acceptable as interpretation.",
+            "The central historical account (November 8, 1895 glow, the 2-metre distance, the wife's hand radiograph, naming X-rays, Laue's later work, 1901 Nobel) is well supported by Source 1.",
+            "Consider noting that the wife's hand image is described in the source as the first röntgenogram, which the article already implies.",
+            "Minor style: 'a label that reflected his honest uncertainty' is interpretive but clearly framed and acceptable."
+          ],
+          "blockers": [
+            {
+              "code": "FALSE_ATTRIBUTION",
+              "reason": "The article attributes specific unsupported particulars (Würzburg as the 1895 location, a multi-week investigation timeline, and characterizations of how others responded) that the source excerpts do not establish; these are presented as factual rather than framed as interpretation. Revise these statements to match the source or remove them."
+            }
+          ]
+        },
+        {
+          "attempt": 2,
+          "reviewCompleted": true,
+          "sourceUrls": [
+            "https://www.nobelprize.org/prizes/physics/1901/rontgen/biographical/",
+            "https://en.wikipedia.org/wiki/Electromagnetic_spectrum",
+            "https://en.wikipedia.org/wiki/X-ray"
+          ],
+          "changes": "Removed the unsupported claim that the glow occurred in a laboratory in Würzburg and the claim of a multi-week investigation timeline. Removed the statement that the glow was dismissed as a stray effect and the 'by all accounts' generalisation. Tied the 'trained in a tradition' point to what the biography says about Kundt and Clausius. Attributed the unification of light and electromagnetism to Faraday and Ørsted as the source states. Kept the rest of the substance, including the hand radiograph",
+          "approved": true,
+          "complete": true,
+          "grounded": true,
+          "feedback": [],
+          "warnings": [
+            "The article states the screen was placed 'as far as two metres from the tube' and this matches the Nobel source; the phrasing 'a faint light across a darkened room' in the conclusion slightly overstates the source, which describes a glow on a barium platinocyanide screen rather than a light across the room. Consider rewording for precision.",
+            "The statement that Röntgen 'could not have known this framework in 1895' is an interpretive framing rather than a sourced claim; it is reasonable but could be marked as the author's framing.",
+            "The article says Röntgen 'had already published on a range of problems'; the source confirms these works, so this is accurate, but the list of topics is paraphrased and not exhaustive.",
+            "The takeaway about habits is a clearly framed practical interpretation and is acceptable as written."
+          ],
+          "blockers": []
+        }
+      ],
+      "completedReviews": 2,
+      "reasonCode": "",
+      "reason": "",
+      "sourceUrls": [
+        "https://www.nobelprize.org/prizes/physics/1901/rontgen/biographical/",
+        "https://en.wikipedia.org/wiki/Electromagnetic_spectrum",
+        "https://en.wikipedia.org/wiki/X-ray"
+      ],
+      "sourceErrors": [],
+      "warnings": [
+        "The article states the screen was placed 'as far as two metres from the tube' and this matches the Nobel source; the phrasing 'a faint light across a darkened room' in the conclusion slightly overstates the source, which describes a glow on a barium platinocyanide screen rather than a light across the room. Consider rewording for precision.",
+        "The statement that Röntgen 'could not have known this framework in 1895' is an interpretive framing rather than a sourced claim; it is reasonable but could be marked as the author's framing.",
+        "The article says Röntgen 'had already published on a range of problems'; the source confirms these works, so this is accurate, but the list of topics is paraphrased and not exhaustive.",
+        "The takeaway about habits is a clearly framed practical interpretation and is acceptable as written."
+      ]
     }
   }
 }
