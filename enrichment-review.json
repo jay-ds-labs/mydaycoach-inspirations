@@ -7294,6 +7294,47 @@
         "The article attributes the ladder metaphor to proposition 7 and quotes 'Whereof one cannot speak, thereof one must be silent' as the last line; the excerpts give this as 7 and tie it to the ladder passage (6.54), so the ladder-to-7 pairing is a slight conflation worth tightening.",
         "The card's attribution to proposition 7 is consistent with the excerpts, but the card's wording about the ladder being 'famously' described should be checked against 6.54 for precision."
       ]
+    },
+    "generated-8cef40532c924586b868": {
+      "state": "approved",
+      "eligible": true,
+      "generated": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "reviewCompleted": true,
+          "sourceUrls": [
+            "https://en.wikipedia.org/wiki/Plato",
+            "https://en.wikipedia.org/wiki/Allegory_of_the_cave"
+          ],
+          "changes": "Rewrote the full article as developed narrative paragraphs with an opening scene, historical and philosophical context, a detailed account of the allegory's stages, its scholarly interpretations and influence, and a practical closing. Corrected the earlier date claim: the previous article said roughly 380 BCE, which the source does not state, so the detail now omits a precise composition date and says only that Plato wrote in fourth-century Athens. Removed the implication that the source provide",
+          "approved": true,
+          "complete": true,
+          "grounded": true,
+          "feedback": [],
+          "warnings": [
+            "The article says Plato's dialogues were 'written in Athens in the fourth century BC' and that Socrates 'had been put to death in Athens'; the sources support both, but the claim that Plato was 'a student of Socrates' is accurate and could be stated with the source's detail that Socrates was his teacher.",
+            "The statement that the allegory 'is one of the most widely recognized images in Western philosophy' is an evaluative claim not directly stated in the excerpts; it is reasonable as framing but could be softened.",
+            "The Republic is set up as a dialogue with Glaucon; the article correctly names him as Socrates' companion, consistent with the source."
+          ],
+          "blockers": []
+        }
+      ],
+      "completedReviews": 1,
+      "reasonCode": "",
+      "reason": "",
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Plato",
+        "https://en.wikipedia.org/wiki/Allegory_of_the_cave"
+      ],
+      "sourceErrors": [
+        "https://www.gutenberg.org/ebooks/1497 Source retrieval failed: HTTP Error 503: Service Unavailable"
+      ],
+      "warnings": [
+        "The article says Plato's dialogues were 'written in Athens in the fourth century BC' and that Socrates 'had been put to death in Athens'; the sources support both, but the claim that Plato was 'a student of Socrates' is accurate and could be stated with the source's detail that Socrates was his teacher.",
+        "The statement that the allegory 'is one of the most widely recognized images in Western philosophy' is an evaluative claim not directly stated in the excerpts; it is reasonable as framing but could be softened.",
+        "The Republic is set up as a dialogue with Glaucon; the article correctly names him as Socrates' companion, consistent with the source."
+      ]
     }
   }
 }

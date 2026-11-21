@@ -1,14 +1,14 @@
 {
   "state": "running",
-  "stage": "review",
-  "completed": 11,
+  "stage": "generation",
+  "completed": 12,
   "total": 15,
   "quotes": 5,
   "stories": 5,
-  "philosophy": 1,
+  "philosophy": 2,
   "generated": 12,
-  "reviewed": 11,
-  "approved": 11,
+  "reviewed": 12,
+  "approved": 12,
   "needsReview": 0,
   "reviewFailed": 0,
   "startedAt": "2026-11-21T13:55:44.224731Z",
@@ -87,6 +87,13 @@
     },
     {
       "id": "generated-b41f2d0129ae4cc7bd33",
+      "category": "Philosophy",
+      "state": "approved",
+      "reasonCode": "",
+      "eligible": true
+    },
+    {
+      "id": "generated-8cef40532c924586b868",
       "category": "Philosophy",
       "state": "approved",
       "reasonCode": "",
