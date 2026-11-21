@@ -6874,6 +6874,45 @@
         "The sentence about the 1888 episode possibly being 'one influence among several, including his health and his long concern with peace' is an interpretation; it is clearly framed as a reading, which is acceptable, but could be labeled more explicitly as interpretation.",
         "The article says the first Nobel Prizes were awarded in 1901, which is supported by the NobelPrize.org timeline; no issue."
       ]
+    },
+    "generated-59b9635595634f689808": {
+      "state": "approved",
+      "eligible": true,
+      "generated": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "reviewCompleted": true,
+          "sourceUrls": [
+            "https://en.wikipedia.org/wiki/Confucius",
+            "https://ctext.org/analects/wei-zheng"
+          ],
+          "changes": "Rewrote the full article as developed narrative paragraphs with an opening, historical context on Confucius and the Analects, an explanation of the learning-and-thinking idea grounded in the source excerpts, and a practical closing. Clearly labelled the paired saying as a paraphrase since translations vary, and removed any claim of a direct quotation beyond the supported anecdote and ethical content. Kept the takeaway as our own reflection.",
+          "approved": true,
+          "complete": true,
+          "grounded": true,
+          "feedback": [],
+          "warnings": [
+            "The article says the saying is 'commonly cited' from the Analects and gives a paraphrase; it could more explicitly note that the Wikipedia excerpt does not itself contain this exact passage, so the claim rests on the general Analects tradition rather than the provided source.",
+            "The card's source is the Wikipedia Confucius page, which does not contain the learning-and-thinking saying in the excerpts; consider citing the Analects or a translation for that specific line.",
+            "The article states the 'Six Arts' included charioteering and mathematics; the excerpts support this list, but consider noting that the Six Arts were later curriculum elements that the excerpts describe as taught by Confucius."
+          ],
+          "blockers": []
+        }
+      ],
+      "completedReviews": 1,
+      "reasonCode": "",
+      "reason": "",
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Confucius",
+        "https://ctext.org/analects/wei-zheng"
+      ],
+      "sourceErrors": [],
+      "warnings": [
+        "The article says the saying is 'commonly cited' from the Analects and gives a paraphrase; it could more explicitly note that the Wikipedia excerpt does not itself contain this exact passage, so the claim rests on the general Analects tradition rather than the provided source.",
+        "The card's source is the Wikipedia Confucius page, which does not contain the learning-and-thinking saying in the excerpts; consider citing the Analects or a translation for that specific line.",
+        "The article states the 'Six Arts' included charioteering and mathematics; the excerpts support this list, but consider noting that the Six Arts were later curriculum elements that the excerpts describe as taught by Confucius."
+      ]
     }
   }
 }
