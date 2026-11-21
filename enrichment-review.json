@@ -7335,6 +7335,47 @@
         "The statement that the allegory 'is one of the most widely recognized images in Western philosophy' is an evaluative claim not directly stated in the excerpts; it is reasonable as framing but could be softened.",
         "The Republic is set up as a dialogue with Glaucon; the article correctly names him as Socrates' companion, consistent with the source."
       ]
+    },
+    "generated-9d33ba71157d461f8a9b": {
+      "state": "approved",
+      "eligible": true,
+      "generated": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "reviewCompleted": true,
+          "sourceUrls": [
+            "https://en.wikipedia.org/wiki/Epictetus",
+            "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0246"
+          ],
+          "changes": "Expanded the single card summary into a full multi-paragraph article with an opening, historical context, an explanation of the dichotomy of control and the three parts of philosophy, the legacy of the teaching, and a practical closing. Kept the supported facts from the previous article about the things up to us and not up to us, tranquility, and Arrian's role, and grounded the account in the Wikipedia excerpts, paraphrasing uncertain claims about Epictetus's injury and the Hadrian meeting. Remo",
+          "approved": true,
+          "complete": true,
+          "grounded": true,
+          "feedback": [],
+          "warnings": [
+            "The article says Epictetus 'founded' a school at Nicopolis and that Hadrian 'is said to have been friendly with him'; both are supported by the source. Consider noting that the Hadrian dialogue is fictitious, since the article does not claim it as historical.",
+            "The phrase 'a process the ancient world called manumission' is accurate but slightly generic; no change required.",
+            "The article says Arrian 'later became a governor and historian'; this is not in the source excerpt, so a reader may want it checked against another source, though it does not affect the central account.",
+            "The article's claim that Stoicism was 'founded in Athens centuries earlier' is background not present in the excerpts; it is standard and not a material error."
+          ],
+          "blockers": []
+        }
+      ],
+      "completedReviews": 1,
+      "reasonCode": "",
+      "reason": "",
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Epictetus",
+        "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0246"
+      ],
+      "sourceErrors": [],
+      "warnings": [
+        "The article says Epictetus 'founded' a school at Nicopolis and that Hadrian 'is said to have been friendly with him'; both are supported by the source. Consider noting that the Hadrian dialogue is fictitious, since the article does not claim it as historical.",
+        "The phrase 'a process the ancient world called manumission' is accurate but slightly generic; no change required.",
+        "The article says Arrian 'later became a governor and historian'; this is not in the source excerpt, so a reader may want it checked against another source, though it does not affect the central account.",
+        "The article's claim that Stoicism was 'founded in Athens centuries earlier' is background not present in the excerpts; it is standard and not a material error."
+      ]
     }
   }
 }
