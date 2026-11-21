@@ -7212,6 +7212,45 @@
         "The article describes Gandhi as 'a slight man' and 'in his sixties' (he was 60 in 1930, which is supported by his birth year 1869), and 'short, hand-spun cloth' is supported by the dhoti detail.",
         "Reviewer expressed uncertainty without identifying a material blocker."
       ]
+    },
+    "generated-21b2eb6269134ced8610": {
+      "state": "approved",
+      "eligible": true,
+      "generated": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "reviewCompleted": true,
+          "sourceUrls": [
+            "https://en.wikipedia.org/wiki/Garry_Marshall"
+          ],
+          "changes": "Rewrote the full article as developed narrative paragraphs in detail, adding a grounded opening, Civil War historical context, an explanation of the Bixby letter's content and disputed status, and a practical closing. Kept the authorship caveat from the previous article and the Library of Congress suggestion. Left the card title, body, attribution and takeaway aligned with the article. Source remains the supplied Garry Marshall Wikipedia URL, which is not directly about Lincoln; the Lincoln clai",
+          "approved": true,
+          "complete": true,
+          "grounded": true,
+          "feedback": [],
+          "warnings": [
+            "The article relies on general claims about Lincoln's wartime correspondence and the Library of Congress collections, which are not supported by the supplied source excerpts (the source is a Garry Marshall Wikipedia page). Consider citing a Lincoln-focused source or softening those claims.",
+            "The article's central Bixby account, including the disputed authorship and the number of sons, is not supported by the supplied excerpts, which concern Garry Marshall; the evidence base is mismatched to the subject, though the article itself frames the letter's authenticity as debated.",
+            "The inspiration card's source link points to Garry Marshall's biography, which does not bear on the Lincoln letter; a more relevant source would strengthen the piece."
+          ],
+          "blockers": []
+        }
+      ],
+      "completedReviews": 1,
+      "reasonCode": "",
+      "reason": "",
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Garry_Marshall"
+      ],
+      "sourceErrors": [
+        "https://www.loc.gov/item/mal0791700/ Source retrieval failed: HTTP Error 403: Forbidden"
+      ],
+      "warnings": [
+        "The article relies on general claims about Lincoln's wartime correspondence and the Library of Congress collections, which are not supported by the supplied source excerpts (the source is a Garry Marshall Wikipedia page). Consider citing a Lincoln-focused source or softening those claims.",
+        "The article's central Bixby account, including the disputed authorship and the number of sons, is not supported by the supplied excerpts, which concern Garry Marshall; the evidence base is mismatched to the subject, though the article itself frames the letter's authenticity as debated.",
+        "The inspiration card's source link points to Garry Marshall's biography, which does not bear on the Lincoln letter; a more relevant source would strengthen the piece."
+      ]
     }
   }
 }
