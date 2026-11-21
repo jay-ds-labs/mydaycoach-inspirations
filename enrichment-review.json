@@ -6787,6 +6787,93 @@
         "The 'war of the currents' passage is accurately described but could note that the source frames the battle as competitive rather than purely technical.",
         "The lamp-filament line 'Edison's rejected materials were informative' is framed as an interpretation, which is acceptable; consider stating explicitly that the takeaway is the reviewer's framing rather than Edison's own words."
       ]
+    },
+    "generated-35430b376df5499f96f9": {
+      "state": "approved",
+      "eligible": true,
+      "generated": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "reviewCompleted": false,
+          "sourceUrls": [
+            "https://www.nobelprize.org/alfred-nobel/",
+            "https://en.wikipedia.org/wiki/Alfred_Nobel"
+          ],
+          "errorCode": "INVALID_MODEL_OUTPUT",
+          "error": "Model returned unusable JSON"
+        },
+        {
+          "attempt": 2,
+          "reviewCompleted": true,
+          "sourceUrls": [
+            "https://www.nobelprize.org/alfred-nobel/",
+            "https://en.wikipedia.org/wiki/Alfred_Nobel"
+          ],
+          "changes": "Expanded the card summary into a full multi-paragraph article with a hook, historical context on Nobel's life and inventions, an explanation of the 1888 obituary and its uncertain status, the link to the 1895 will, and a practical closing. Paraphrased the obituary wording rather than presenting disputed quotations as verbatim, and noted that the popular version is not fully verified. Kept the takeaway as our own reflection and aligned the title, body and attribution with the article's content.",
+          "approved": false,
+          "complete": true,
+          "grounded": false,
+          "feedback": [
+            "The article presents the 1888 obituary as a documented event with a specific outcome and then ties it to the will; the sources say historians have been unable to verify the story and some dismiss it as a myth. Reframe the central historical account as a widely told but unverified story, and remove the claim that the notice 'showed Nobel' a picture of his work as established fact.",
+            "The article states the obituary was 'published' describing him as a merchant of death; the source says the wording is in many versions of the story and the verified notice read differently. Correct to say the verified notice described him as hard to consider a benefactor of mankind, and that the 'merchant of death' wording appears only in popular versions.",
+            "The article says Ludvig 'had actually passed away at Cannes'; the source states the death of Ludvig supposedly triggered the error and the notice itself reads 'a man... has died yesterday at Cannes. It is Mr. Nobel.' The Cannes detail is attached to the notice, not verified as Ludvig's death location; remove or attribute to the notice.",
+            "The central historical account (the 1888 obituary causing Nobel's decision to establish the prizes) is widely told but the sources state historians cannot verify it and some dismiss it as myth; the article presents it as established, with a causal link to the will that the evidence does not support.",
+            "The article asserts the newspaper's obituary wording and that Ludvig died at Cannes as the notice's subject, whereas the sources say the verified notice named Nobel, and the 'merchant of death' wording is found only in popular versions of the story."
+          ],
+          "warnings": [
+            "The article calls Nobel's first patent a gas meter in 1857 and says he was educated 'by private tutors'; both are supported but could cite the Wikipedia text more precisely.",
+            "The closing practical takeaway is clearly framed as interpretation and is acceptable.",
+            "The 1864 explosion is described as killing five people including Emil; sources support this but the article could note Emil's death specifically from the Heleneborg accident."
+          ],
+          "blockers": [
+            {
+              "code": "INSUFFICIENT_EVIDENCE",
+              "reason": "The central historical account (the 1888 obituary causing Nobel's decision to establish the prizes) is widely told but the sources state historians cannot verify it and some dismiss it as myth; the article presents it as established, with a causal link to the will that the evidence does not support."
+            },
+            {
+              "code": "MATERIAL_FACT_ERROR",
+              "reason": "The article asserts the newspaper's obituary wording and that Ludvig died at Cannes as the notice's subject, whereas the sources say the verified notice named Nobel, and the 'merchant of death' wording is found only in popular versions of the story."
+            }
+          ]
+        },
+        {
+          "attempt": 3,
+          "reviewCompleted": true,
+          "sourceUrls": [
+            "https://www.nobelprize.org/alfred-nobel/",
+            "https://en.wikipedia.org/wiki/Alfred_Nobel"
+          ],
+          "changes": "Reframed the 1888 obituary as a widely told but unverified story rather than established fact, and removed the claim that the notice showed Nobel a picture of his work. Corrected the wording: the verified notice described him as hard to consider a benefactor of mankind, and the merchant-of-death phrasing appears only in popular versions. Removed the assertion that Ludvig died at Cannes as the notice's subject. Presented the causal link between the obituary and the will as unprovable and one poss",
+          "approved": true,
+          "complete": true,
+          "grounded": true,
+          "feedback": [],
+          "warnings": [
+            "The article states the obituary was 'printed in April 1888' and 'retracted the next day'; the Wikipedia excerpt supports the Figaro notice of 15 April 1888 retracted the next day, which is accurate, but the article should name the source of that date to be clear it is a documented detail rather than popular lore.",
+            "The phrase 'merchant of death' is correctly flagged as appearing in popular retellings; the article could more explicitly note that the 'dynamite' attribution in the myth is also disputed, since the excerpt says dynamite was mainly used for civilian applications.",
+            "The claim that Nobel 'had by then been troubled by heart disease' relies on the excerpt's mention of angina pectoris by 1895; this is supported, but the article could cite it more specifically.",
+            "The sentence about the 1888 episode possibly being 'one influence among several, including his health and his long concern with peace' is an interpretation; it is clearly framed as a reading, which is acceptable, but could be labeled more explicitly as interpretation.",
+            "The article says the first Nobel Prizes were awarded in 1901, which is supported by the NobelPrize.org timeline; no issue."
+          ],
+          "blockers": []
+        }
+      ],
+      "completedReviews": 2,
+      "reasonCode": "",
+      "reason": "",
+      "sourceUrls": [
+        "https://www.nobelprize.org/alfred-nobel/",
+        "https://en.wikipedia.org/wiki/Alfred_Nobel"
+      ],
+      "sourceErrors": [],
+      "warnings": [
+        "The article states the obituary was 'printed in April 1888' and 'retracted the next day'; the Wikipedia excerpt supports the Figaro notice of 15 April 1888 retracted the next day, which is accurate, but the article should name the source of that date to be clear it is a documented detail rather than popular lore.",
+        "The phrase 'merchant of death' is correctly flagged as appearing in popular retellings; the article could more explicitly note that the 'dynamite' attribution in the myth is also disputed, since the excerpt says dynamite was mainly used for civilian applications.",
+        "The claim that Nobel 'had by then been troubled by heart disease' relies on the excerpt's mention of angina pectoris by 1895; this is supported, but the article could cite it more specifically.",
+        "The sentence about the 1888 episode possibly being 'one influence among several, including his health and his long concern with peace' is an interpretation; it is clearly framed as a reading, which is acceptable, but could be labeled more explicitly as interpretation.",
+        "The article says the first Nobel Prizes were awarded in 1901, which is supported by the NobelPrize.org timeline; no issue."
+      ]
     }
   }
 }
